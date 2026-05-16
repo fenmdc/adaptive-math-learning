@@ -1,1 +1,31 @@
+id,name,domain,strand,description,difficulty_level,importance_weight,prerequisites,amc_relevance
 
+arith_natural_numbers,Natural Numbers,Arithmetic,Number System,Basic counting numbers starting from 1,1,1.0,,0.7
+arith_integers,Integers,Arithmetic,Number System,Positive and negative whole numbers,2,1.0,arith_natural_numbers,0.8
+arith_fractions,Fractions,Arithmetic,Number System,Representation of part of a whole,3,1.0,arith_integers,0.9
+arith_decimals,Decimals,Arithmetic,Number System,Base-10 fractional representation,3,0.9,arith_fractions,0.8
+arith_ratios,Ratios,Arithmetic,Relationships,Comparison between quantities,3,1.0,arith_fractions,0.9
+arith_percentages,Percentages,Arithmetic,Relationships,Ratios expressed per hundred,3,1.0,arith_ratios,0.9
+
+prealg_expressions,Algebraic Expressions,Pre-Algebra,Symbols,Use of variables and constants,4,1.0,arith_fractions,1.0
+prealg_linear_equations,Linear Equations,Algebra,Equations,First degree equations,4,1.0,prealg_expressions,1.0
+prealg_word_problems,Word Problems Translation,Pre-Algebra,Modeling,Translate text into equations,4,0.9,prealg_expressions,0.9
+
+alg_systems,Systems of Equations,Algebra,Equations,Solve multiple equations simultaneously,5,1.0,prealg_linear_equations,1.0
+alg_inequalities,Inequalities,Algebra,Relations,Comparison of expressions,5,1.0,prealg_linear_equations,0.9
+alg_quadratics,Quadratic Equations,Algebra,Polynomials,Second degree equations,6,1.0,prealg_linear_equations,1.0
+
+geo_angles,Angles,Geometry,Fundamentals,Basic geometric angle relationships,3,1.0,,0.9
+geo_triangles,Triangles,Geometry,Shapes,Three-sided polygons,4,1.0,geo_angles,1.0
+geo_similarity,Similarity,Geometry,Transformations,Proportional geometric shapes,6,1.0,geo_triangles,1.0
+geo_circles,Circles,Geometry,Curves,Set of points equidistant from center,5,1.0,geo_angles,0.9
+
+counting_basic_counting,Basic Counting,Counting & Probability,Counting,Fundamental counting principle,4,1.0,,1.0
+counting_permutations,Permutations,Counting & Probability,Arrangements,Ordered arrangements,5,1.0,counting_basic_counting,1.0
+counting_combinations,Combinations,Counting & Probability,Selections,Unordered selections,6,1.0,counting_permutations,1.0
+counting_probability,Probability,Counting & Probability,Uncertainty,Chance of events,5,1.0,counting_combinations,1.0
+
+nt_divisibility,Divisibility,Number Theory,Properties,Dividing integers,4,1.0,arith_integers,0.9
+nt_prime_factorization,Prime Factorization,Number Theory,Structure,Breaking into primes,5,1.0,nt_divisibility,1.0
+nt_gcd_lcm,GCD and LCM,Number Theory,Structure,Greatest common divisor and least common multiple,5,1.0,nt_prime_factorization,1.0
+nt_modular,Modular Arithmetic,Number Theory,Congruence,Remainder arithmetic system,7,1.0,nt_divisibility,1.0
