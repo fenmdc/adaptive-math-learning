@@ -1,1 +1,41 @@
+id,statement,answer,choices,difficulty,concepts,skills,patterns,misconceptions,solution
 
+amc8_p001,"A store sells apples at 3 for $2. How much do 12 apples cost?",8,"",2,"arith_ratios;arith_proportions","unit_rate","proportional_reasoning","division_error","3 for 2 means 1 apple = 2/3, so 12×2/3=8"
+
+amc8_p002,"What is 25% of 80?",20,"",2,"arith_percentages","percentage_calculation","direct_computation","percent_confusion","25% = 1/4, so 80/4=20"
+
+amc8_p003,"Solve: x + 7 = 15",8,"",2,"alg_linear_equations","basic_equation_solving","inverse_operations","sign_error","x = 15 - 7 = 8"
+
+amc8_p004,"A triangle has angles 50° and 60°. Find the third angle.",70,"",3,"geo_triangle_angles","angle_sum","deduction","missing_rule","180 - (50+60)=70"
+
+amc8_p005,"Find GCD of 12 and 18.",6,"",3,"nt_gcd","factorization","prime_decomposition","incomplete_factor_list","12=2^2*3,18=2*3^2 → GCD=6"
+
+amc8_p006,"A bag has 3 red and 2 blue balls. Probability of red?",3/5,"",3,"counting_probability","probability_basic","ratio_modeling","sample_space_error","3/(3+2)=3/5"
+
+amc8_p007,"Simplify: 2(x + 3)",2x+6,"",3,"prealg_expressions","distributive_property","expansion","distribution_error","Multiply 2 across parentheses"
+
+amc8_p008,"Find perimeter of rectangle 5 by 3",16,"",2,"geo_perimeter","geometry_basic","formula_application","area_confusion","2(5+3)=16"
+
+amc8_p009,"What is 2^3?",8,"",2,"arith_exponents","exponent_rules","direct_power","multiplication_confusion","2×2×2=8"
+
+amc8_p010,"If 3x=12, find x",4,"",2,"alg_linear_equations","isolation","inverse_operations","division_error","x=12/3=4"
+
+amc8_p011,"Which is larger: 0.6 or 1/2?",0.6,"",3,"arith_decimals;arith_fractions","comparison","conversion","fraction_misread","1/2=0.5 so 0.6 larger"
+
+amc8_p012,"A number is divisible by 3 if...",,"","3","nt_divisibility","rule_recognition","pattern_detection","rule_confusion","Sum of digits divisible by 3"
+
+amc8_p013,"Area of square side 4",16,"",2,"geo_area","formula_application","direct_substitution","formula_confusion","4×4=16"
+
+amc8_p014,"Solve: 2x + 3 = 11",4,"",3,"alg_linear_equations","two_step_equation","inverse_operations","step_skipping","2x=8 → x=4"
+
+amc8_p015,"How many sides does a hexagon have?",6,"",1,"geo_shapes","fact_recall","direct_knowledge","guessing","Hexagon = 6 sides"
+
+amc8_p016,"LCM of 4 and 6",12,"",3,"nt_lcm","factorization","common_multiples","gcd_confusion","4:4,8,12; 6:6,12 → 12"
+
+amc8_p017,"Probability of heads in fair coin",1/2,"",2,"counting_probability","probability_basic","equally_likely","bias_assumption","1/2 outcomes"
+
+amc8_p018,"Solve: x/3 = 5",15,"",3,"alg_linear_equations","fraction_equations","inverse_operations","division_confusion","x=15"
+
+amc8_p019,"Find median of 1,3,5",3,"",2,"stats_median","data_analysis","ordering","mean_confusion","middle value is 3"
+
+amc8_p020,"If a circle radius is 3, diameter is?",6,"",2,"geo_circles","basic_geometry","definition_application","radius_confusion","diameter=2r=6"
