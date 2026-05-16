@@ -1,1 +1,9 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "simulate": "ts-node packages/simulation/src/index.ts",
+    "dev:web": "next dev",
+    "dev:full": "ts-node scripts/dev-full.ts"
+  }
+}
 
