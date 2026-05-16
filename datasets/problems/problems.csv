@@ -1,41 +1,101 @@
 id,statement,answer,choices,difficulty,concepts,skills,patterns,misconceptions,solution
 
-amc8_p001,"A store sells apples at 3 for $2. How much do 12 apples cost?",8,"",2,"arith_ratios;arith_proportions","unit_rate","proportional_reasoning","division_error","3 for 2 means 1 apple = 2/3, so 12×2/3=8"
+amc8_p001,"A store sells apples at 3 for $2. How much do 12 apples cost?",8,"",2,"arith_ratios;arith_proportions","unit_rate","proportional_reasoning","division_error","12*(2/3)=8"
 
-amc8_p002,"What is 25% of 80?",20,"",2,"arith_percentages","percentage_calculation","direct_computation","percent_confusion","25% = 1/4, so 80/4=20"
+amc8_p002,"25% of 80 equals?",20,"",2,"arith_percentages","percentage_calculation","direct_conversion","percent_misread","80/4=20"
 
-amc8_p003,"Solve: x + 7 = 15",8,"",2,"alg_linear_equations","basic_equation_solving","inverse_operations","sign_error","x = 15 - 7 = 8"
+amc8_p003,"Solve x+7=15",8,"",2,"alg_linear_equations","inverse_operations","equation_solving","sign_error","x=15-7"
 
-amc8_p004,"A triangle has angles 50° and 60°. Find the third angle.",70,"",3,"geo_triangle_angles","angle_sum","deduction","missing_rule","180 - (50+60)=70"
+amc8_p004,"Triangle angles 50°,60°, third angle?",70,"",3,"geo_triangle_angles","angle_sum","deduction","missing_sum","180-110"
 
-amc8_p005,"Find GCD of 12 and 18.",6,"",3,"nt_gcd","factorization","prime_decomposition","incomplete_factor_list","12=2^2*3,18=2*3^2 → GCD=6"
+amc8_p005,"GCD of 12 and 18?",6,"",3,"nt_gcd","factorization","prime_breakdown","missing_factors","6"
 
-amc8_p006,"A bag has 3 red and 2 blue balls. Probability of red?",3/5,"",3,"counting_probability","probability_basic","ratio_modeling","sample_space_error","3/(3+2)=3/5"
+amc8_p006,"P(red) from 3 red,2 blue?",3/5,"",3,"counting_probability","probability_basic","ratio_modeling","sample_space_error","3/5"
 
-amc8_p007,"Simplify: 2(x + 3)",2x+6,"",3,"prealg_expressions","distributive_property","expansion","distribution_error","Multiply 2 across parentheses"
+amc8_p007,"2(x+3)=?",2x+6,"",3,"prealg_expressions","distributive_property","expansion","distribution_error","expand"
 
-amc8_p008,"Find perimeter of rectangle 5 by 3",16,"",2,"geo_perimeter","geometry_basic","formula_application","area_confusion","2(5+3)=16"
+amc8_p008,"Perimeter 5x3 rectangle?",16,"",2,"geo_perimeter","geometry_basic","formula_application","area_confusion","2(5+3)"
 
-amc8_p009,"What is 2^3?",8,"",2,"arith_exponents","exponent_rules","direct_power","multiplication_confusion","2×2×2=8"
+amc8_p009,"2^3 equals?",8,"",2,"arith_exponents","exponent_rules","direct_compute","power_confusion","8"
 
-amc8_p010,"If 3x=12, find x",4,"",2,"alg_linear_equations","isolation","inverse_operations","division_error","x=12/3=4"
+amc8_p010,"3x=12, x=?",4,"",2,"alg_linear_equations","inverse_operations","isolation","division_error","12/3"
 
-amc8_p011,"Which is larger: 0.6 or 1/2?",0.6,"",3,"arith_decimals;arith_fractions","comparison","conversion","fraction_misread","1/2=0.5 so 0.6 larger"
+amc8_p011,"0.6 vs 1/2 larger?",0.6,"",3,"arith_fractions;arith_decimals","comparison","conversion","fraction_misread","0.6>0.5"
 
-amc8_p012,"A number is divisible by 3 if...",,"","3","nt_divisibility","rule_recognition","pattern_detection","rule_confusion","Sum of digits divisible by 3"
+amc8_p012,"Divisible by 3 rule?",,"","3","nt_divisibility","rule_recognition","pattern_detection","rule_confusion","digit sum"
 
-amc8_p013,"Area of square side 4",16,"",2,"geo_area","formula_application","direct_substitution","formula_confusion","4×4=16"
+amc8_p013,"Area of square side 4?",16,"",2,"geo_area","formula_application","direct_substitution","formula_error","4^2"
 
-amc8_p014,"Solve: 2x + 3 = 11",4,"",3,"alg_linear_equations","two_step_equation","inverse_operations","step_skipping","2x=8 → x=4"
+amc8_p014,"2x+3=11",4,"",3,"alg_linear_equations","two_step_equation","inverse_operations","step_error","x=4"
 
-amc8_p015,"How many sides does a hexagon have?",6,"",1,"geo_shapes","fact_recall","direct_knowledge","guessing","Hexagon = 6 sides"
+amc8_p015,"Hexagon sides?",6,"",1,"geo_shapes","fact_recall","memory","guessing","6"
 
-amc8_p016,"LCM of 4 and 6",12,"",3,"nt_lcm","factorization","common_multiples","gcd_confusion","4:4,8,12; 6:6,12 → 12"
+amc8_p016,"LCM of 4 and 6?",12,"",3,"nt_lcm","factorization","common_multiples","gcd_confusion","12"
 
-amc8_p017,"Probability of heads in fair coin",1/2,"",2,"counting_probability","probability_basic","equally_likely","bias_assumption","1/2 outcomes"
+amc8_p017,"P(heads coin)?",1/2,"",2,"counting_probability","probability_basic","equally_likely","bias_assumption","1/2"
 
-amc8_p018,"Solve: x/3 = 5",15,"",3,"alg_linear_equations","fraction_equations","inverse_operations","division_confusion","x=15"
+amc8_p018,"x/3=5",15,"",3,"alg_linear_equations","fraction_equation","inverse_operations","division_error","x=15"
 
-amc8_p019,"Find median of 1,3,5",3,"",2,"stats_median","data_analysis","ordering","mean_confusion","middle value is 3"
+amc8_p019,"Median of 1,3,5?",3,"",2,"stats_median","data_ordering","central_value","mean_confusion","3"
 
-amc8_p020,"If a circle radius is 3, diameter is?",6,"",2,"geo_circles","basic_geometry","definition_application","radius_confusion","diameter=2r=6"
+amc8_p020,"Circle radius 3 diameter?",6,"",2,"geo_circles","definition_application","direct_formula","radius_confusion","2r"
+
+amc8_p021,"If 5 pencils cost $2.50, cost of 1?",0.5,"",3,"arith_ratios","unit_rate","division","ratio_flip","2.5/5"
+
+amc8_p022,"Solve 4x=20",5,"",2,"alg_linear_equations","isolation","inverse_operations","division_error","x=5"
+
+amc8_p023,"Area triangle base 6 height 4?",12,"",3,"geo_area","formula_application","a=1/2bh","formula_miss","12"
+
+amc8_p024,"Prime factors of 12?",2^2*3,"",3,"nt_factorization","prime_breakdown","tree_method","missing_prime","12=2*2*3"
+
+amc8_p025,"Simplify 3(2x)",6x,"",3,"prealg_expressions","distributive_property","expansion","coefficient_error","6x"
+
+amc8_p026,"Probability even number on die?",1/2,"",3,"counting_probability","probability_basic","sample_space","bias_assumption","3/6"
+
+amc8_p027,"Sum of angles in triangle?",180,"",2,"geo_triangle_angles","fact_recall","geometry_basic","memory_error","180"
+
+amc8_p028,"7-(-3)=?",10,"",2,"arith_integers","integer_rules","sign_rules","double_negative_error","10"
+
+amc8_p029,"10% of 50?",5,"",2,"arith_percentages","percentage_calculation","direct_compute","percent_error","5"
+
+amc8_p030,"Solve x-4=9",13,"",2,"alg_linear_equations","inverse_operations","isolation","sign_error","x=13"
+
+amc8_p031,"LCM of 3 and 5?",15,"",3,"nt_lcm","factorization","multiples","gcd_confusion","15"
+
+amc8_p032,"Area circle r=2 (π form)",4π,"",4,"geo_circles","area_formula","direct_substitution","radius_error","πr^2"
+
+amc8_p033,"Speed 60km in 2h?",30,"",3,"arith_ratios","rate","division","unit_error","60/2"
+
+amc8_p034,"Simplify 2a+3a",5a,"",2,"prealg_expressions","combining_terms","algebra_rules","term_confusion","5a"
+
+amc8_p035,"Probability not red (3 red,2 blue)",2/5,"",3,"counting_probability","complement","ratio_modeling","complement_error","2/5"
+
+amc8_p036,"Solve 3x+6=15",3,"",3,"alg_linear_equations","two_step_equation","inverse_operations","step_skip","x=3"
+
+amc8_p037,"Perimeter square side 7",28,"",2,"geo_perimeter","formula_application","geometry_basic","formula_error","4*7"
+
+amc8_p038,"Median of 2,4,6,8",5,"",3,"stats_median","data_ordering","even_set","mean_confusion","(4+6)/2"
+
+amc8_p039,"2^4=?",16,"",2,"arith_exponents","exponent_rules","direct_compute","power_error","16"
+
+amc8_p040,"Divisible by 2 rule?",,"","2","nt_divisibility","rule_recognition","pattern_detection","rule_confusion","even numbers"
+
+amc8_p041,"Solve x/5=2",10,"",2,"alg_linear_equations","fraction_equation","inverse_operations","division_error","x=10"
+
+amc8_p042,"Area rectangle 8x3",24,"",2,"geo_area","formula_application","direct_compute","formula_error","24"
+
+amc8_p043,"Difference 100-37",63,"",2,"arith_integers","subtraction","basic_computation","borrowing_error","63"
+
+amc8_p044,"GCD of 8 and 12?",4,"",3,"nt_gcd","factorization","prime_breakdown","missing_factor","4"
+
+amc8_p045,"Fraction 1/4 as decimal",0.25,"",3,"arith_fractions;arith_decimals","conversion","representation","conversion_error","0.25"
+
+amc8_p046,"Solve 2(x-1)=6",4,"",4,"alg_linear_equations","distributive_inverse","multi_step","distribution_error","x=4"
+
+amc8_p047,"Triangle right angle sum property?",90,"",3,"geo_triangle_angles","fact_recall","geometry_basic","memory_error","right triangle has 90°"
+
+amc8_p048,"Probability heads twice?",1/4,"",4,"counting_probability","independent_events","tree_diagram","dependency_error","1/2*1/2"
+
+amc8_p049,"LCM of 6 and 8?",24,"",4,"nt_lcm","factorization","common_multiples","gcd_confusion","24"
+
+amc8_p050,"Solve x+2x=12",4,"",3,"alg_linear_equations","combining_terms","simplification","term_error","3x=12"
