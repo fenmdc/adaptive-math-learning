@@ -1,31 +1,57 @@
 id,name,domain,strand,description,difficulty_level,importance_weight,prerequisites,amc_relevance
+arith_natural_numbers,Natural Numbers,Arithmetic,Number System,Basic counting numbers,1,1.0,,0.7
+arith_integers,Integers,Arithmetic,Number System,Positive and negative integers,2,1.0,arith_natural_numbers,0.8
+arith_absolute_value,Absolute Value,Arithmetic,Number System,Distance from zero,2,0.9,arith_integers,0.8
+arith_fractions,Fractions,Arithmetic,Number System,Part-whole representation,3,1.0,arith_integers,0.9
+arith_mixed_numbers,Mixed Numbers,Arithmetic,Number System,Whole number + fraction,3,0.9,arith_fractions,0.8
+arith_decimals,Decimals,Arithmetic,Number System,Base-10 fractional numbers,3,0.9,arith_fractions,0.8
+arith_ratios,Ratios,Arithmetic,Relationships,Comparison of quantities,3,1.0,arith_fractions,0.9
+arith_proportions,Proportions,Arithmetic,Relationships,Equality of ratios,4,1.0,arith_ratios,1.0
+arith_percentages,Percentages,Arithmetic,Relationships,Per hundred representation,3,1.0,arith_ratios,0.9
+arith_exponents,Exponents,Arithmetic,Operations,Repeated multiplication,4,1.0,arith_integers,0.9
+arith_roots,Square Roots,Arithmetic,Operations,Inverse of squaring,5,0.9,arith_exponents,0.8
 
-arith_natural_numbers,Natural Numbers,Arithmetic,Number System,Basic counting numbers starting from 1,1,1.0,,0.7
-arith_integers,Integers,Arithmetic,Number System,Positive and negative whole numbers,2,1.0,arith_natural_numbers,0.8
-arith_fractions,Fractions,Arithmetic,Number System,Representation of part of a whole,3,1.0,arith_integers,0.9
-arith_decimals,Decimals,Arithmetic,Number System,Base-10 fractional representation,3,0.9,arith_fractions,0.8
-arith_ratios,Ratios,Arithmetic,Relationships,Comparison between quantities,3,1.0,arith_fractions,0.9
-arith_percentages,Percentages,Arithmetic,Relationships,Ratios expressed per hundred,3,1.0,arith_ratios,0.9
+prealg_expressions,Algebraic Expressions,Pre-Algebra,Symbols,Variable expressions,4,1.0,arith_fractions,1.0
+prealg_simplification,Simplification,Pre-Algebra,Symbols,Reducing expressions,4,1.0,prealg_expressions,1.0
+prealg_substitution,Substitution,Pre-Algebra,Symbols,Plug values into expressions,4,1.0,prealg_expressions,1.0
+prealg_word_to_equation,Word to Equation,Pre-Algebra,Modeling,Translate text to math,4,1.0,prealg_expressions,1.0
 
-prealg_expressions,Algebraic Expressions,Pre-Algebra,Symbols,Use of variables and constants,4,1.0,arith_fractions,1.0
-prealg_linear_equations,Linear Equations,Algebra,Equations,First degree equations,4,1.0,prealg_expressions,1.0
-prealg_word_problems,Word Problems Translation,Pre-Algebra,Modeling,Translate text into equations,4,0.9,prealg_expressions,0.9
+alg_linear_equations,Linear Equations,Algebra,Equations,First-degree equations,4,1.0,prealg_expressions,1.0
+alg_linear_inequalities,Linear Inequalities,Algebra,Relations,Ordering expressions,5,1.0,alg_linear_equations,0.9
+alg_systems,Systems of Equations,Algebra,Equations,Multiple equations,5,1.0,alg_linear_equations,1.0
+alg_quadratics,Quadratic Equations,Algebra,Polynomials,Second-degree equations,6,1.0,alg_linear_equations,1.0
+alg_factoring,Factoring,Algebra,Polynomials,Decomposition of expressions,5,1.0,alg_linear_equations,1.0
+alg_functions,Functions,Algebra,Mapping,Input-output relationships,6,1.0,alg_linear_equations,1.0
+alg_graphing,Graphing Lines,Algebra,Coordinate,Visual representation of equations,5,1.0,alg_linear_equations,1.0
 
-alg_systems,Systems of Equations,Algebra,Equations,Solve multiple equations simultaneously,5,1.0,prealg_linear_equations,1.0
-alg_inequalities,Inequalities,Algebra,Relations,Comparison of expressions,5,1.0,prealg_linear_equations,0.9
-alg_quadratics,Quadratic Equations,Algebra,Polynomials,Second degree equations,6,1.0,prealg_linear_equations,1.0
+geo_angles,Angles,Geometry,Fundamentals,Angle relationships,3,1.0,,0.9
+geo_triangles,Triangles,Geometry,Shapes,Three-sided figures,4,1.0,geo_angles,1.0
+geo_triangle_angles,Triangle Angle Sum,Geometry,Rules,Sums to 180 degrees,4,1.0,geo_triangles,1.0
+geo_pythagorean,Pythagorean Theorem,Geometry,Measurement,a²+b²=c²,5,1.0,geo_triangles,1.0
+geo_area,Area,Geometry,Measurement,Surface measurement,4,1.0,geo_triangles,1.0
+geo_perimeter,Perimeter,Geometry,Measurement,Boundary length,3,1.0,geo_triangles,0.9
+geo_similarity,Similarity,Geometry,Transformations,Proportional shapes,6,1.0,geo_triangles,1.0
+geo_congruence,Congruence,Geometry,Transformations,Identical shapes,5,1.0,geo_triangles,1.0
+geo_circles,Circles,Geometry,Curves,Points equidistant from center,5,1.0,geo_angles,0.9
+geo_arc_length,Arc Length,Geometry,Circles,Curve segment length,6,0.9,geo_circles,0.8
+geo_coordinate_geometry,Coordinate Geometry,Geometry,Plane,Geometry on coordinate plane,6,1.0,alg_graphing,1.0
 
-geo_angles,Angles,Geometry,Fundamentals,Basic geometric angle relationships,3,1.0,,0.9
-geo_triangles,Triangles,Geometry,Shapes,Three-sided polygons,4,1.0,geo_angles,1.0
-geo_similarity,Similarity,Geometry,Transformations,Proportional geometric shapes,6,1.0,geo_triangles,1.0
-geo_circles,Circles,Geometry,Curves,Set of points equidistant from center,5,1.0,geo_angles,0.9
-
-counting_basic_counting,Basic Counting,Counting & Probability,Counting,Fundamental counting principle,4,1.0,,1.0
-counting_permutations,Permutations,Counting & Probability,Arrangements,Ordered arrangements,5,1.0,counting_basic_counting,1.0
+counting_principle,Basic Counting,Counting & Probability,Counting,Multiplication principle,4,1.0,,1.0
+counting_permutations,Permutations,Counting & Probability,Arrangements,Ordered selections,5,1.0,counting_principle,1.0
 counting_combinations,Combinations,Counting & Probability,Selections,Unordered selections,6,1.0,counting_permutations,1.0
 counting_probability,Probability,Counting & Probability,Uncertainty,Chance of events,5,1.0,counting_combinations,1.0
+counting_inclusion_exclusion,Inclusion-Exclusion,Counting & Probability,Advanced Counting,Overlapping sets,7,1.0,counting_combinations,1.0
+counting_pigeonhole,Pigeonhole Principle,Counting & Probability,Logic,Guaranteed distribution,6,1.0,counting_principle,1.0
 
 nt_divisibility,Divisibility,Number Theory,Properties,Dividing integers,4,1.0,arith_integers,0.9
-nt_prime_factorization,Prime Factorization,Number Theory,Structure,Breaking into primes,5,1.0,nt_divisibility,1.0
-nt_gcd_lcm,GCD and LCM,Number Theory,Structure,Greatest common divisor and least common multiple,5,1.0,nt_prime_factorization,1.0
-nt_modular,Modular Arithmetic,Number Theory,Congruence,Remainder arithmetic system,7,1.0,nt_divisibility,1.0
+nt_primes,Prime Numbers,Number Theory,Structure,Basic building blocks,4,1.0,nt_divisibility,1.0
+nt_factorization,Prime Factorization,Number Theory,Structure,Decompose into primes,5,1.0,nt_primes,1.0
+nt_gcd,GCD,Number Theory,Structure,Greatest common divisor,5,1.0,nt_factorization,1.0
+nt_lcm,LCM,Number Theory,Structure,Least common multiple,5,1.0,nt_factorization,1.0
+nt_modular,Modular Arithmetic,Number Theory,Congruence,Remainders system,7,1.0,nt_divisibility,1.0
+nt_remainders,Remainder Problems,Number Theory,Congruence,Division remainders,6,1.0,nt_modular,1.0
+
+stats_mean,Mean,Statistics,Data,Average value,4,0.9,arith_decimals,0.8
+stats_median,Median,Statistics,Data,Middle value,4,0.9,stats_mean,0.8
+stats_mode,Mode,Statistics,Data,Most frequent value,4,0.9,stats_mean,0.8
+stats_range,Range,Statistics,Data,Spread of data,4,0.9,stats_mean,0.8
