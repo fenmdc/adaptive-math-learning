@@ -1,9 +1,22 @@
 {
+  "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev apps/web",
     "simulate": "ts-node packages/simulation/src/index.ts",
-    "dev:web": "next dev",
+    "dev:web": "next dev apps/web",
     "dev:full": "ts-node scripts/dev-full.ts"
+  },
+  "dependencies": {
+    "next": "^15.3.3",
+    "open": "^10.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
-

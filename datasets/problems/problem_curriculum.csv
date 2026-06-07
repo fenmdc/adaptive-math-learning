@@ -1,0 +1,33 @@
+problem_id,course,theme,chapter,chapter_title,sequence,source_collection
+prealg_p001,Pre-Algebra,Expressions and Variables,prealg-01-expressions,Expressions and Variables,1,local_seed_from_imo_folder
+prealg_p002,Pre-Algebra,Expressions and Variables,prealg-01-expressions,Expressions and Variables,2,local_seed_from_imo_folder
+prealg_p003,Pre-Algebra,Expressions and Variables,prealg-01-expressions,Expressions and Variables,3,local_seed_from_imo_folder
+prealg_p004,Pre-Algebra,Expressions and Variables,prealg-01-expressions,Expressions and Variables,4,local_seed_from_imo_folder
+prealg_p005,Pre-Algebra,Simplification and Distribution,prealg-02-simplification,Simplification and Distribution,1,local_seed_from_imo_folder
+prealg_p006,Pre-Algebra,Simplification and Distribution,prealg-02-simplification,Simplification and Distribution,2,local_seed_from_imo_folder
+prealg_p007,Pre-Algebra,Simplification and Distribution,prealg-02-simplification,Simplification and Distribution,3,local_seed_from_imo_folder
+prealg_p008,Pre-Algebra,Simplification and Distribution,prealg-02-simplification,Simplification and Distribution,4,local_seed_from_imo_folder
+prealg_p009,Pre-Algebra,Linear Equations,prealg-03-linear-equations,Linear Equations,1,local_seed_from_imo_folder
+prealg_p010,Pre-Algebra,Linear Equations,prealg-03-linear-equations,Linear Equations,2,local_seed_from_imo_folder
+prealg_p011,Pre-Algebra,Linear Equations,prealg-03-linear-equations,Linear Equations,3,local_seed_from_imo_folder
+prealg_p012,Pre-Algebra,Linear Equations,prealg-03-linear-equations,Linear Equations,4,local_seed_from_imo_folder
+prealg_p013,Pre-Algebra,Ratios Percent and Proportion,prealg-04-ratios-percent,Ratios Percent and Proportion,1,local_seed_from_imo_folder
+prealg_p014,Pre-Algebra,Ratios Percent and Proportion,prealg-04-ratios-percent,Ratios Percent and Proportion,2,local_seed_from_imo_folder
+prealg_p015,Pre-Algebra,Ratios Percent and Proportion,prealg-04-ratios-percent,Ratios Percent and Proportion,3,local_seed_from_imo_folder
+prealg_p016,Pre-Algebra,Ratios Percent and Proportion,prealg-04-ratios-percent,Ratios Percent and Proportion,4,local_seed_from_imo_folder
+amc8_topic_p001,AMC8,Number Theory,amc8-01-number-theory,Number Theory Essentials,1,local_seed_from_imo_folder
+amc8_topic_p002,AMC8,Number Theory,amc8-01-number-theory,Number Theory Essentials,2,local_seed_from_imo_folder
+amc8_topic_p003,AMC8,Number Theory,amc8-01-number-theory,Number Theory Essentials,3,local_seed_from_imo_folder
+amc8_topic_p004,AMC8,Number Theory,amc8-01-number-theory,Number Theory Essentials,4,local_seed_from_imo_folder
+amc8_topic_p005,AMC8,Counting and Probability,amc8-02-counting-probability,Counting and Probability,1,local_seed_from_imo_folder
+amc8_topic_p006,AMC8,Counting and Probability,amc8-02-counting-probability,Counting and Probability,2,local_seed_from_imo_folder
+amc8_topic_p007,AMC8,Counting and Probability,amc8-02-counting-probability,Counting and Probability,3,local_seed_from_imo_folder
+amc8_topic_p008,AMC8,Counting and Probability,amc8-02-counting-probability,Counting and Probability,4,local_seed_from_imo_folder
+amc8_topic_p009,AMC8,Geometry,amc8-03-geometry,Geometry and Measurement,1,local_seed_from_imo_folder
+amc8_topic_p010,AMC8,Geometry,amc8-03-geometry,Geometry and Measurement,2,local_seed_from_imo_folder
+amc8_topic_p011,AMC8,Geometry,amc8-03-geometry,Geometry and Measurement,3,local_seed_from_imo_folder
+amc8_topic_p012,AMC8,Geometry,amc8-03-geometry,Geometry and Measurement,4,local_seed_from_imo_folder
+amc8_topic_p013,AMC8,Algebraic Reasoning,amc8-04-algebraic-reasoning,Algebraic Reasoning,1,local_seed_from_imo_folder
+amc8_topic_p014,AMC8,Algebraic Reasoning,amc8-04-algebraic-reasoning,Algebraic Reasoning,2,local_seed_from_imo_folder
+amc8_topic_p015,AMC8,Algebraic Reasoning,amc8-04-algebraic-reasoning,Algebraic Reasoning,3,local_seed_from_imo_folder
+amc8_topic_p016,AMC8,Algebraic Reasoning,amc8-04-algebraic-reasoning,Algebraic Reasoning,4,local_seed_from_imo_folder

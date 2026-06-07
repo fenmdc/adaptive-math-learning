@@ -1,0 +1,4633 @@
+[
+  {
+    "id": "amc8_p001",
+    "statement": "A store sells apples at 3 for $2. How much do 12 apples cost?",
+    "answer": "8",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "unit_rate"
+    ],
+    "patterns": [
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "12*(2/3)=8",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p002",
+    "statement": "25% of 80 equals?",
+    "answer": "20",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_percentages",
+    "concepts": [
+      "arith_percentages"
+    ],
+    "prerequisiteConcepts": [
+      "arith_ratios"
+    ],
+    "skills": [
+      "percentage_calculation"
+    ],
+    "patterns": [
+      "direct_conversion"
+    ],
+    "misconceptions": [
+      "percent_misread"
+    ],
+    "isAutoGradable": true,
+    "solution": "80/4=20",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p003",
+    "statement": "Solve x+7=15",
+    "answer": "8",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "inverse_operations"
+    ],
+    "patterns": [
+      "equation_solving"
+    ],
+    "misconceptions": [
+      "sign_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=15-7",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p004",
+    "statement": "Triangle angles 50°,60°, third angle?",
+    "answer": "70",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_triangle_angles",
+    "concepts": [
+      "geo_triangle_angles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "angle_sum"
+    ],
+    "patterns": [
+      "deduction"
+    ],
+    "misconceptions": [
+      "missing_sum"
+    ],
+    "isAutoGradable": true,
+    "solution": "180-110",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p005",
+    "statement": "GCD of 12 and 18?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_gcd",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "prime_breakdown"
+    ],
+    "misconceptions": [
+      "missing_factors"
+    ],
+    "isAutoGradable": true,
+    "solution": "6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p006",
+    "statement": "P(red) from 3 red,2 blue?",
+    "answer": "3/5",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "probability_basic"
+    ],
+    "patterns": [
+      "ratio_modeling"
+    ],
+    "misconceptions": [
+      "sample_space_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3/5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p007",
+    "statement": "2(x+3)=?",
+    "answer": "2x+6",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_expressions",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distributive_property"
+    ],
+    "patterns": [
+      "expansion"
+    ],
+    "misconceptions": [
+      "distribution_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "expand",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p008",
+    "statement": "Perimeter 5x3 rectangle?",
+    "answer": "16",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_perimeter",
+    "concepts": [
+      "geo_perimeter"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "geometry_basic"
+    ],
+    "patterns": [
+      "formula_application"
+    ],
+    "misconceptions": [
+      "area_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "2(5+3)",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p009",
+    "statement": "2^3 equals?",
+    "answer": "8",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_exponents",
+    "concepts": [
+      "arith_exponents"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "exponent_rules"
+    ],
+    "patterns": [
+      "direct_compute"
+    ],
+    "misconceptions": [
+      "power_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "8",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p010",
+    "statement": "3x=12, x=?",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "inverse_operations"
+    ],
+    "patterns": [
+      "isolation"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "12/3",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p011",
+    "statement": "0.6 vs 1/2 larger?",
+    "answer": "0.6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_fractions",
+    "concepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "comparison"
+    ],
+    "patterns": [
+      "conversion"
+    ],
+    "misconceptions": [
+      "fraction_misread"
+    ],
+    "isAutoGradable": true,
+    "solution": "0.6>0.5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p012",
+    "statement": "Divisible by 3 rule?",
+    "answer": "",
+    "answerType": "manual",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_divisibility",
+    "concepts": [
+      "nt_divisibility"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "rule_recognition"
+    ],
+    "patterns": [
+      "pattern_detection"
+    ],
+    "misconceptions": [
+      "rule_confusion"
+    ],
+    "isAutoGradable": false,
+    "solution": "digit sum",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p013",
+    "statement": "Area of square side 4?",
+    "answer": "16",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "formula_application"
+    ],
+    "patterns": [
+      "direct_substitution"
+    ],
+    "misconceptions": [
+      "formula_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4^2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p014",
+    "statement": "2x+3=11",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "two_step_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "step_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=4",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p015",
+    "statement": "Hexagon sides?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 1,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_shapes",
+    "concepts": [
+      "geo_shapes"
+    ],
+    "prerequisiteConcepts": [],
+    "skills": [
+      "fact_recall"
+    ],
+    "patterns": [
+      "memory"
+    ],
+    "misconceptions": [
+      "guessing"
+    ],
+    "isAutoGradable": true,
+    "solution": "6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p016",
+    "statement": "LCM of 4 and 6?",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_lcm",
+    "concepts": [
+      "nt_lcm"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "common_multiples"
+    ],
+    "misconceptions": [
+      "gcd_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "12",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p017",
+    "statement": "P(heads coin)?",
+    "answer": "1/2",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "probability_basic"
+    ],
+    "patterns": [
+      "equally_likely"
+    ],
+    "misconceptions": [
+      "bias_assumption"
+    ],
+    "isAutoGradable": true,
+    "solution": "1/2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p018",
+    "statement": "x/3=5",
+    "answer": "15",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "fraction_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=15",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p019",
+    "statement": "Median of 1,3,5?",
+    "answer": "3",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_median",
+    "concepts": [
+      "stats_median"
+    ],
+    "prerequisiteConcepts": [
+      "stats_mean"
+    ],
+    "skills": [
+      "data_ordering"
+    ],
+    "patterns": [
+      "central_value"
+    ],
+    "misconceptions": [
+      "mean_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "3",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Statistics",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p020",
+    "statement": "Circle radius 3 diameter?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_circles",
+    "concepts": [
+      "geo_circles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_angles"
+    ],
+    "skills": [
+      "definition_application"
+    ],
+    "patterns": [
+      "direct_formula"
+    ],
+    "misconceptions": [
+      "radius_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "2r",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p021",
+    "statement": "If 5 pencils cost $2.50, cost of 1?",
+    "answer": "0.5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "unit_rate"
+    ],
+    "patterns": [
+      "division"
+    ],
+    "misconceptions": [
+      "ratio_flip"
+    ],
+    "isAutoGradable": true,
+    "solution": "2.5/5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p022",
+    "statement": "Solve 4x=20",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "isolation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=5",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p023",
+    "statement": "Area triangle base 6 height 4?",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "formula_application"
+    ],
+    "patterns": [
+      "a=1/2bh"
+    ],
+    "misconceptions": [
+      "formula_miss"
+    ],
+    "isAutoGradable": true,
+    "solution": "12",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p024",
+    "statement": "Prime factors of 12?",
+    "answer": "2^2*3",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_factorization",
+    "concepts": [
+      "nt_factorization"
+    ],
+    "prerequisiteConcepts": [
+      "nt_primes"
+    ],
+    "skills": [
+      "prime_breakdown"
+    ],
+    "patterns": [
+      "tree_method"
+    ],
+    "misconceptions": [
+      "missing_prime"
+    ],
+    "isAutoGradable": true,
+    "solution": "12=2*2*3",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p025",
+    "statement": "Simplify 3(2x)",
+    "answer": "6x",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_expressions",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distributive_property"
+    ],
+    "patterns": [
+      "expansion"
+    ],
+    "misconceptions": [
+      "coefficient_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "6x",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p026",
+    "statement": "Probability even number on die?",
+    "answer": "1/2",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "probability_basic"
+    ],
+    "patterns": [
+      "sample_space"
+    ],
+    "misconceptions": [
+      "bias_assumption"
+    ],
+    "isAutoGradable": true,
+    "solution": "3/6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p027",
+    "statement": "Sum of angles in triangle?",
+    "answer": "180",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_triangle_angles",
+    "concepts": [
+      "geo_triangle_angles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "fact_recall"
+    ],
+    "patterns": [
+      "geometry_basic"
+    ],
+    "misconceptions": [
+      "memory_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "180",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p028",
+    "statement": "7-(-3)=?",
+    "answer": "10",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_integers",
+    "concepts": [
+      "arith_integers"
+    ],
+    "prerequisiteConcepts": [
+      "arith_natural_numbers"
+    ],
+    "skills": [
+      "integer_rules"
+    ],
+    "patterns": [
+      "sign_rules"
+    ],
+    "misconceptions": [
+      "double_negative_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "10",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p029",
+    "statement": "10% of 50?",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_percentages",
+    "concepts": [
+      "arith_percentages"
+    ],
+    "prerequisiteConcepts": [
+      "arith_ratios"
+    ],
+    "skills": [
+      "percentage_calculation"
+    ],
+    "patterns": [
+      "direct_compute"
+    ],
+    "misconceptions": [
+      "percent_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p030",
+    "statement": "Solve x-4=9",
+    "answer": "13",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "inverse_operations"
+    ],
+    "patterns": [
+      "isolation"
+    ],
+    "misconceptions": [
+      "sign_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=13",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p031",
+    "statement": "LCM of 3 and 5?",
+    "answer": "15",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_lcm",
+    "concepts": [
+      "nt_lcm"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "multiples"
+    ],
+    "misconceptions": [
+      "gcd_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "15",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p032",
+    "statement": "Area circle r=2 (π form)",
+    "answer": "4π",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_circles",
+    "concepts": [
+      "geo_circles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_angles"
+    ],
+    "skills": [
+      "area_formula"
+    ],
+    "patterns": [
+      "direct_substitution"
+    ],
+    "misconceptions": [
+      "radius_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "πr^2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p033",
+    "statement": "Speed 60km in 2h?",
+    "answer": "30",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "rate"
+    ],
+    "patterns": [
+      "division"
+    ],
+    "misconceptions": [
+      "unit_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "60/2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p034",
+    "statement": "Simplify 2a+3a",
+    "answer": "5a",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_expressions",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "combining_terms"
+    ],
+    "patterns": [
+      "algebra_rules"
+    ],
+    "misconceptions": [
+      "term_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "5a",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p035",
+    "statement": "Probability not red (3 red,2 blue)",
+    "answer": "2/5",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "complement"
+    ],
+    "patterns": [
+      "ratio_modeling"
+    ],
+    "misconceptions": [
+      "complement_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2/5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p036",
+    "statement": "Solve 3x+6=15",
+    "answer": "3",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "two_step_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "step_skip"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=3",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p037",
+    "statement": "Perimeter square side 7",
+    "answer": "28",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_perimeter",
+    "concepts": [
+      "geo_perimeter"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "formula_application"
+    ],
+    "patterns": [
+      "geometry_basic"
+    ],
+    "misconceptions": [
+      "formula_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4*7",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p038",
+    "statement": "Median of 2,4,6,8",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_median",
+    "concepts": [
+      "stats_median"
+    ],
+    "prerequisiteConcepts": [
+      "stats_mean"
+    ],
+    "skills": [
+      "data_ordering"
+    ],
+    "patterns": [
+      "even_set"
+    ],
+    "misconceptions": [
+      "mean_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "(4+6)/2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Statistics",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p039",
+    "statement": "2^4=?",
+    "answer": "16",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_exponents",
+    "concepts": [
+      "arith_exponents"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "exponent_rules"
+    ],
+    "patterns": [
+      "direct_compute"
+    ],
+    "misconceptions": [
+      "power_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "16",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p040",
+    "statement": "Divisible by 2 rule?",
+    "answer": "",
+    "answerType": "manual",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_divisibility",
+    "concepts": [
+      "nt_divisibility"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "rule_recognition"
+    ],
+    "patterns": [
+      "pattern_detection"
+    ],
+    "misconceptions": [
+      "rule_confusion"
+    ],
+    "isAutoGradable": false,
+    "solution": "even numbers",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p041",
+    "statement": "Solve x/5=2",
+    "answer": "10",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "fraction_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=10",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p042",
+    "statement": "Area rectangle 8x3",
+    "answer": "24",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "formula_application"
+    ],
+    "patterns": [
+      "direct_compute"
+    ],
+    "misconceptions": [
+      "formula_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "24",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p043",
+    "statement": "Difference 100-37",
+    "answer": "63",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_integers",
+    "concepts": [
+      "arith_integers"
+    ],
+    "prerequisiteConcepts": [
+      "arith_natural_numbers"
+    ],
+    "skills": [
+      "subtraction"
+    ],
+    "patterns": [
+      "basic_computation"
+    ],
+    "misconceptions": [
+      "borrowing_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "63",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p044",
+    "statement": "GCD of 8 and 12?",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_gcd",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "prime_breakdown"
+    ],
+    "misconceptions": [
+      "missing_factor"
+    ],
+    "isAutoGradable": true,
+    "solution": "4",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p045",
+    "statement": "Fraction 1/4 as decimal",
+    "answer": "0.25",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_fractions",
+    "concepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "conversion"
+    ],
+    "patterns": [
+      "representation"
+    ],
+    "misconceptions": [
+      "conversion_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "0.25",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p046",
+    "statement": "Solve 2(x-1)=6",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "distributive_inverse"
+    ],
+    "patterns": [
+      "multi_step"
+    ],
+    "misconceptions": [
+      "distribution_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=4",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p047",
+    "statement": "Triangle right angle sum property?",
+    "answer": "90",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_triangle_angles",
+    "concepts": [
+      "geo_triangle_angles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "fact_recall"
+    ],
+    "patterns": [
+      "geometry_basic"
+    ],
+    "misconceptions": [
+      "memory_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "right triangle has 90°",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p048",
+    "statement": "Probability heads twice?",
+    "answer": "1/4",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "independent_events"
+    ],
+    "patterns": [
+      "tree_diagram"
+    ],
+    "misconceptions": [
+      "dependency_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "1/2*1/2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p049",
+    "statement": "LCM of 6 and 8?",
+    "answer": "24",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_lcm",
+    "concepts": [
+      "nt_lcm"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "common_multiples"
+    ],
+    "misconceptions": [
+      "gcd_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "24",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p050",
+    "statement": "Solve x+2x=12",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "combining_terms"
+    ],
+    "patterns": [
+      "simplification"
+    ],
+    "misconceptions": [
+      "term_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3x=12",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p051",
+    "statement": "Compute 1/3+1/6",
+    "answer": "1/2",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_fractions",
+    "concepts": [
+      "arith_fractions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "fraction_addition"
+    ],
+    "patterns": [
+      "common_denominator"
+    ],
+    "misconceptions": [
+      "denominator_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "1/3=2/6 so 2/6+1/6=3/6=1/2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p052",
+    "statement": "What is 3/4 of 20?",
+    "answer": "15",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_fractions",
+    "concepts": [
+      "arith_fractions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "fraction_of_quantity"
+    ],
+    "patterns": [
+      "part_whole"
+    ],
+    "misconceptions": [
+      "multiplication_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "20*(3/4)=15",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p053",
+    "statement": "Compute 0.2+0.35",
+    "answer": "0.55",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_decimals",
+    "concepts": [
+      "arith_decimals"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "decimal_addition"
+    ],
+    "patterns": [
+      "place_value"
+    ],
+    "misconceptions": [
+      "alignment_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "0.20+0.35=0.55",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p054",
+    "statement": "Compute 1.5*4",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_decimals",
+    "concepts": [
+      "arith_decimals"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "decimal_multiplication"
+    ],
+    "patterns": [
+      "unit_scaling"
+    ],
+    "misconceptions": [
+      "place_value_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "15*4=60 so 1.5*4=6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p055",
+    "statement": "The ratio of red to blue marbles is 2 to 5. If there are 10 blue marbles how many red marbles are there?",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "ratio_scaling"
+    ],
+    "patterns": [
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "ratio_flip"
+    ],
+    "isAutoGradable": true,
+    "solution": "blue scale is 10/5=2 so red is 2*2=4",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p056",
+    "statement": "What is 30% of 90?",
+    "answer": "27",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_percentages",
+    "concepts": [
+      "arith_percentages"
+    ],
+    "prerequisiteConcepts": [
+      "arith_ratios"
+    ],
+    "skills": [
+      "percentage_calculation"
+    ],
+    "patterns": [
+      "direct_conversion"
+    ],
+    "misconceptions": [
+      "percent_decimal_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "0.30*90=27",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p057",
+    "statement": "12 is what percent of 48?",
+    "answer": "25",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_percentages",
+    "concepts": [
+      "arith_percentages",
+      "arith_ratios"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "percent_of_total"
+    ],
+    "patterns": [
+      "ratio_conversion"
+    ],
+    "misconceptions": [
+      "base_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "12/48=1/4=25%",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p058",
+    "statement": "Solve the proportion x/6=4/3",
+    "answer": "8",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "arith_proportions",
+    "concepts": [
+      "arith_proportions",
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "arith_ratios",
+      "prealg_expressions"
+    ],
+    "skills": [
+      "proportion_solving"
+    ],
+    "patterns": [
+      "cross_multiplication"
+    ],
+    "misconceptions": [
+      "cross_product_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3x=24 so x=8",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Arithmetic and Proportional Reasoning",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p059",
+    "statement": "Evaluate 3x+2 when x=5",
+    "answer": "17",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_substitution",
+    "concepts": [
+      "prealg_substitution"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "substitution"
+    ],
+    "patterns": [
+      "expression_evaluation"
+    ],
+    "misconceptions": [
+      "operation_order_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3*5+2=17",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p060",
+    "statement": "Simplify 4y-y",
+    "answer": "3y",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_simplification",
+    "concepts": [
+      "prealg_simplification"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "combining_terms"
+    ],
+    "patterns": [
+      "like_terms"
+    ],
+    "misconceptions": [
+      "coefficient_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4y-y=3y",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p061",
+    "statement": "Expand 5(a+2)",
+    "answer": "5a+10",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_expressions",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distributive_property"
+    ],
+    "patterns": [
+      "expansion"
+    ],
+    "misconceptions": [
+      "distribution_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "5*a+5*2=5a+10",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p062",
+    "statement": "Write three more than twice n as an expression",
+    "answer": "2n+3",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_word_to_equation",
+    "concepts": [
+      "prealg_word_to_equation"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "translation"
+    ],
+    "patterns": [
+      "verbal_to_symbolic"
+    ],
+    "misconceptions": [
+      "order_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "twice n is 2n and three more is +3",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p063",
+    "statement": "Solve 5x-7=18",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "two_step_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "sign_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "5x=25 so x=5",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p064",
+    "statement": "Solve 2x+3=x+9",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "variables_both_sides"
+    ],
+    "patterns": [
+      "equation_solving"
+    ],
+    "misconceptions": [
+      "term_transfer_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "subtract x and 3 to get x=6",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p065",
+    "statement": "Solve x/4+2=5",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "fraction_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x/4=3 so x=12",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p066",
+    "statement": "Solve 7x=3x+20",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "variables_both_sides"
+    ],
+    "patterns": [
+      "equation_solving"
+    ],
+    "misconceptions": [
+      "term_transfer_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4x=20 so x=5",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p067",
+    "statement": "Solve the inequality x+2>5",
+    "answer": "x>3",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_inequalities",
+    "concepts": [
+      "alg_linear_inequalities"
+    ],
+    "prerequisiteConcepts": [
+      "alg_linear_equations"
+    ],
+    "skills": [
+      "inequality_solving"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "inequality_direction_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "subtract 2 from both sides",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p068",
+    "statement": "If x+y=7 and x-y=1 what is x?",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_systems",
+    "concepts": [
+      "alg_systems"
+    ],
+    "prerequisiteConcepts": [
+      "alg_linear_equations"
+    ],
+    "skills": [
+      "system_solving"
+    ],
+    "patterns": [
+      "elimination"
+    ],
+    "misconceptions": [
+      "equation_combination_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "add equations to get 2x=8",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p069",
+    "statement": "Find the slope through points (0,2) and (3,8)",
+    "answer": "2",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_graphing",
+    "concepts": [
+      "alg_graphing"
+    ],
+    "prerequisiteConcepts": [
+      "alg_linear_equations"
+    ],
+    "skills": [
+      "slope"
+    ],
+    "patterns": [
+      "coordinate_reasoning"
+    ],
+    "misconceptions": [
+      "rise_run_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "(8-2)/(3-0)=2",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p070",
+    "statement": "For f(x)=2x+1 find f(4)",
+    "answer": "9",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_functions",
+    "concepts": [
+      "alg_functions"
+    ],
+    "prerequisiteConcepts": [
+      "alg_linear_equations"
+    ],
+    "skills": [
+      "function_evaluation"
+    ],
+    "patterns": [
+      "substitution"
+    ],
+    "misconceptions": [
+      "input_output_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2*4+1=9",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Equations",
+      "chapter": "prealg-mixed",
+      "chapterTitle": "Pre-Algebra Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "seed"
+    }
+  },
+  {
+    "id": "amc8_p071",
+    "statement": "Perimeter of a 9 by 4 rectangle",
+    "answer": "26",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_perimeter",
+    "concepts": [
+      "geo_perimeter"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "formula_application"
+    ],
+    "patterns": [
+      "rectangle_perimeter"
+    ],
+    "misconceptions": [
+      "area_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "2*(9+4)=26",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p072",
+    "statement": "Area of a triangle with base 10 and height 6",
+    "answer": "30",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "triangle_area"
+    ],
+    "patterns": [
+      "formula_application"
+    ],
+    "misconceptions": [
+      "missing_half_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "(10*6)/2=30",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p073",
+    "statement": "A rectangle has area 45 and width 5. What is its length?",
+    "answer": "9",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "area_inverse"
+    ],
+    "patterns": [
+      "formula_application"
+    ],
+    "misconceptions": [
+      "multiplication_division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "45/5=9",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p074",
+    "statement": "A triangle has angles 35 and 65 degrees. What is the third angle?",
+    "answer": "80",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_triangle_angles",
+    "concepts": [
+      "geo_triangle_angles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "angle_sum"
+    ],
+    "patterns": [
+      "deduction"
+    ],
+    "misconceptions": [
+      "missing_sum"
+    ],
+    "isAutoGradable": true,
+    "solution": "180-35-65=80",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p075",
+    "statement": "In a triangle two angles are 40 and 75 degrees. What is the third angle?",
+    "answer": "65",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_triangle_angles",
+    "concepts": [
+      "geo_triangle_angles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "angle_sum"
+    ],
+    "patterns": [
+      "deduction"
+    ],
+    "misconceptions": [
+      "missing_sum"
+    ],
+    "isAutoGradable": true,
+    "solution": "180-40-75=65",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p076",
+    "statement": "Circumference of a circle with radius 3 in pi form",
+    "answer": "6π",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_circles",
+    "concepts": [
+      "geo_circles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_angles"
+    ],
+    "skills": [
+      "circumference_formula"
+    ],
+    "patterns": [
+      "direct_substitution"
+    ],
+    "misconceptions": [
+      "diameter_radius_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "2πr=6π",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p077",
+    "statement": "Area of a circle with diameter 10 in pi form",
+    "answer": "25π",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_circles",
+    "concepts": [
+      "geo_circles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_angles"
+    ],
+    "skills": [
+      "area_formula"
+    ],
+    "patterns": [
+      "diameter_to_radius"
+    ],
+    "misconceptions": [
+      "radius_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "radius is 5 so area is 25π",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p078",
+    "statement": "A square has perimeter 36. What is its side length?",
+    "answer": "9",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_perimeter",
+    "concepts": [
+      "geo_perimeter"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "perimeter_inverse"
+    ],
+    "patterns": [
+      "square_properties"
+    ],
+    "misconceptions": [
+      "area_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "36/4=9",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p079",
+    "statement": "A right triangle has legs 6 and 8. What is the hypotenuse?",
+    "answer": "10",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_pythagorean",
+    "concepts": [
+      "geo_pythagorean"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "pythagorean_theorem"
+    ],
+    "patterns": [
+      "right_triangle"
+    ],
+    "misconceptions": [
+      "square_root_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "6^2+8^2=100 so c=10",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p080",
+    "statement": "Distance between (2,3) and (7,3)",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_coordinate_geometry",
+    "concepts": [
+      "geo_coordinate_geometry"
+    ],
+    "prerequisiteConcepts": [
+      "alg_graphing"
+    ],
+    "skills": [
+      "coordinate_distance"
+    ],
+    "patterns": [
+      "horizontal_distance"
+    ],
+    "misconceptions": [
+      "coordinate_subtraction_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "same y so distance is 7-2=5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p081",
+    "statement": "How many outfits from 3 shirts and 4 pants?",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_principle",
+    "concepts": [
+      "counting_principle"
+    ],
+    "prerequisiteConcepts": [],
+    "skills": [
+      "multiplication_principle"
+    ],
+    "patterns": [
+      "product_rule"
+    ],
+    "misconceptions": [
+      "addition_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3*4=12",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p082",
+    "statement": "How many outcomes when flipping one coin and rolling one die?",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_principle",
+    "concepts": [
+      "counting_principle"
+    ],
+    "prerequisiteConcepts": [],
+    "skills": [
+      "multiplication_principle"
+    ],
+    "patterns": [
+      "sample_space"
+    ],
+    "misconceptions": [
+      "addition_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2*6=12",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p083",
+    "statement": "Probability of rolling greater than 4 on a fair die",
+    "answer": "1/3",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "probability_basic"
+    ],
+    "patterns": [
+      "sample_space"
+    ],
+    "misconceptions": [
+      "sample_space_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2 favorable outcomes out of 6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p084",
+    "statement": "A bag has 2 red 3 blue and 5 green marbles. Probability of red?",
+    "answer": "1/5",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "probability_basic"
+    ],
+    "patterns": [
+      "ratio_modeling"
+    ],
+    "misconceptions": [
+      "total_count_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2/(2+3+5)=2/10=1/5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p085",
+    "statement": "How many arrangements of the letters A B C?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_permutations",
+    "concepts": [
+      "counting_permutations"
+    ],
+    "prerequisiteConcepts": [
+      "counting_principle"
+    ],
+    "skills": [
+      "permutation_counting"
+    ],
+    "patterns": [
+      "factorial"
+    ],
+    "misconceptions": [
+      "order_ignored_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3!=6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p086",
+    "statement": "How many ways to choose 2 students from 5?",
+    "answer": "10",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_combinations",
+    "concepts": [
+      "counting_combinations"
+    ],
+    "prerequisiteConcepts": [
+      "counting_permutations"
+    ],
+    "skills": [
+      "combination_counting"
+    ],
+    "patterns": [
+      "selection"
+    ],
+    "misconceptions": [
+      "order_counted_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "5*4/2=10",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p087",
+    "statement": "Probability that two fair coin flips have exactly one head",
+    "answer": "1/2",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "independent_events"
+    ],
+    "patterns": [
+      "case_counting"
+    ],
+    "misconceptions": [
+      "missing_case_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "HT and TH are 2 of 4 outcomes",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p088",
+    "statement": "Using digits 1 2 3 how many two digit numbers have no repeated digit?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_permutations",
+    "concepts": [
+      "counting_permutations"
+    ],
+    "prerequisiteConcepts": [
+      "counting_principle"
+    ],
+    "skills": [
+      "permutation_counting"
+    ],
+    "patterns": [
+      "product_rule"
+    ],
+    "misconceptions": [
+      "repeat_allowed_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3 choices then 2 choices gives 6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p089",
+    "statement": "Is 84 divisible by 6? Answer yes or no",
+    "answer": "yes",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_divisibility",
+    "concepts": [
+      "nt_divisibility"
+    ],
+    "prerequisiteConcepts": [
+      "arith_integers"
+    ],
+    "skills": [
+      "divisibility_rules"
+    ],
+    "patterns": [
+      "factor_check"
+    ],
+    "misconceptions": [
+      "rule_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "84 is divisible by 2 and 3 so it is divisible by 6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p090",
+    "statement": "Remainder when 29 is divided by 5",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_remainders",
+    "concepts": [
+      "nt_remainders"
+    ],
+    "prerequisiteConcepts": [
+      "nt_modular"
+    ],
+    "skills": [
+      "division_remainder"
+    ],
+    "patterns": [
+      "modular_reasoning"
+    ],
+    "misconceptions": [
+      "quotient_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "29=5*5+4",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p091",
+    "statement": "Largest prime factor of 45",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_factorization",
+    "concepts": [
+      "nt_factorization",
+      "nt_primes"
+    ],
+    "prerequisiteConcepts": [
+      "nt_divisibility"
+    ],
+    "skills": [
+      "prime_factorization"
+    ],
+    "patterns": [
+      "factor_tree"
+    ],
+    "misconceptions": [
+      "composite_factor_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "45=3^2*5",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p092",
+    "statement": "How many positive factors does 18 have?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_factorization",
+    "concepts": [
+      "nt_factorization"
+    ],
+    "prerequisiteConcepts": [
+      "nt_primes"
+    ],
+    "skills": [
+      "factor_counting"
+    ],
+    "patterns": [
+      "prime_exponents"
+    ],
+    "misconceptions": [
+      "missing_factor_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "18=2*3^2 so factor count is 2*3=6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p093",
+    "statement": "GCD of 24 and 36",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_gcd",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "common_factor"
+    ],
+    "misconceptions": [
+      "lcm_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "common factors include 12 and it is greatest",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p094",
+    "statement": "LCM of 9 and 12",
+    "answer": "36",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_lcm",
+    "concepts": [
+      "nt_lcm"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "common_multiples"
+    ],
+    "misconceptions": [
+      "gcd_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "9=3^2 and 12=2^2*3 so lcm=36",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p095",
+    "statement": "Remainder when 2^5 is divided by 3",
+    "answer": "2",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_modular",
+    "concepts": [
+      "nt_modular"
+    ],
+    "prerequisiteConcepts": [
+      "nt_divisibility"
+    ],
+    "skills": [
+      "modular_arithmetic"
+    ],
+    "patterns": [
+      "remainders"
+    ],
+    "misconceptions": [
+      "power_pattern_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2^5=32 and 32 leaves remainder 2",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p096",
+    "statement": "Smallest prime greater than 10",
+    "answer": "11",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_primes",
+    "concepts": [
+      "nt_primes"
+    ],
+    "prerequisiteConcepts": [
+      "nt_divisibility"
+    ],
+    "skills": [
+      "prime_recognition"
+    ],
+    "patterns": [
+      "number_properties"
+    ],
+    "misconceptions": [
+      "composite_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "11 has no positive divisors other than 1 and 11",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p097",
+    "statement": "Mean of 4 6 8 and 10",
+    "answer": "7",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_mean",
+    "concepts": [
+      "stats_mean"
+    ],
+    "prerequisiteConcepts": [
+      "arith_decimals"
+    ],
+    "skills": [
+      "average"
+    ],
+    "patterns": [
+      "data_summary"
+    ],
+    "misconceptions": [
+      "median_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "(4+6+8+10)/4=7",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Statistics",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p098",
+    "statement": "Range of 3 9 10 and 15",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_range",
+    "concepts": [
+      "stats_range"
+    ],
+    "prerequisiteConcepts": [
+      "stats_mean"
+    ],
+    "skills": [
+      "range"
+    ],
+    "patterns": [
+      "data_spread"
+    ],
+    "misconceptions": [
+      "mean_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "15-3=12",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Statistics",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p099",
+    "statement": "Mode of 2 3 3 5 5 5",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_mode",
+    "concepts": [
+      "stats_mode"
+    ],
+    "prerequisiteConcepts": [
+      "stats_mean"
+    ],
+    "skills": [
+      "mode"
+    ],
+    "patterns": [
+      "frequency"
+    ],
+    "misconceptions": [
+      "median_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "5 appears most often",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Statistics",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "amc8_p100",
+    "statement": "Median of 4 9 1 7 and 6",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_median",
+    "concepts": [
+      "stats_median"
+    ],
+    "prerequisiteConcepts": [
+      "stats_mean"
+    ],
+    "skills": [
+      "data_ordering"
+    ],
+    "patterns": [
+      "central_value"
+    ],
+    "misconceptions": [
+      "mean_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "ordered data is 1 4 6 7 9",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Statistics",
+      "chapter": "amc8-mixed",
+      "chapterTitle": "AMC8 Mixed Practice",
+      "sequence": 900,
+      "sourceCollection": "amc8_seed"
+    }
+  },
+  {
+    "id": "prealg_p001",
+    "statement": "Evaluate 2a+5 when a=4",
+    "answer": "13",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "seed",
+    "primaryConcept": "prealg_substitution",
+    "concepts": [
+      "prealg_substitution"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "substitution"
+    ],
+    "patterns": [
+      "expression_evaluation"
+    ],
+    "misconceptions": [
+      "operation_order_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2*4+5=13",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Variables",
+      "chapter": "prealg-01-expressions",
+      "chapterTitle": "Expressions and Variables",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p002",
+    "statement": "Evaluate 3m-2 when m=6",
+    "answer": "16",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "seed",
+    "primaryConcept": "prealg_substitution",
+    "concepts": [
+      "prealg_substitution"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "substitution"
+    ],
+    "patterns": [
+      "expression_evaluation"
+    ],
+    "misconceptions": [
+      "sign_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3*6-2=16",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Variables",
+      "chapter": "prealg-01-expressions",
+      "chapterTitle": "Expressions and Variables",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p003",
+    "statement": "Write five less than x as an expression",
+    "answer": "x-5",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 2,
+    "source": "seed",
+    "primaryConcept": "prealg_word_to_equation",
+    "concepts": [
+      "prealg_word_to_equation"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "translation"
+    ],
+    "patterns": [
+      "verbal_to_symbolic"
+    ],
+    "misconceptions": [
+      "order_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "five less than x means x-5",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Variables",
+      "chapter": "prealg-01-expressions",
+      "chapterTitle": "Expressions and Variables",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p004",
+    "statement": "Write four times the sum of n and 3",
+    "answer": "4(n+3)",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "prealg_word_to_equation",
+    "concepts": [
+      "prealg_word_to_equation",
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "translation"
+    ],
+    "patterns": [
+      "verbal_to_symbolic"
+    ],
+    "misconceptions": [
+      "parentheses_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "the sum n and 3 is grouped before multiplying by 4",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Variables",
+      "chapter": "prealg-01-expressions",
+      "chapterTitle": "Expressions and Variables",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p005",
+    "statement": "Simplify 7x+2x",
+    "answer": "9x",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 2,
+    "source": "seed",
+    "primaryConcept": "prealg_simplification",
+    "concepts": [
+      "prealg_simplification"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "combining_terms"
+    ],
+    "patterns": [
+      "like_terms"
+    ],
+    "misconceptions": [
+      "coefficient_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "7x+2x=9x",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Simplification and Distribution",
+      "chapter": "prealg-02-simplification",
+      "chapterTitle": "Simplification and Distribution",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p006",
+    "statement": "Simplify 8p-3p+2",
+    "answer": "5p+2",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "prealg_simplification",
+    "concepts": [
+      "prealg_simplification"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "combining_terms"
+    ],
+    "patterns": [
+      "like_terms"
+    ],
+    "misconceptions": [
+      "constant_term_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "8p-3p=5p then keep +2",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Simplification and Distribution",
+      "chapter": "prealg-02-simplification",
+      "chapterTitle": "Simplification and Distribution",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p007",
+    "statement": "Expand 3(x+4)",
+    "answer": "3x+12",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "prealg_expressions",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distributive_property"
+    ],
+    "patterns": [
+      "expansion"
+    ],
+    "misconceptions": [
+      "distribution_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3*x+3*4=3x+12",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Simplification and Distribution",
+      "chapter": "prealg-02-simplification",
+      "chapterTitle": "Simplification and Distribution",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p008",
+    "statement": "Expand 2(3y-5)",
+    "answer": "6y-10",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "seed",
+    "primaryConcept": "prealg_expressions",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distributive_property"
+    ],
+    "patterns": [
+      "expansion"
+    ],
+    "misconceptions": [
+      "sign_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2*3y-2*5=6y-10",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Simplification and Distribution",
+      "chapter": "prealg-02-simplification",
+      "chapterTitle": "Simplification and Distribution",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p009",
+    "statement": "Solve x+11=30",
+    "answer": "19",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "inverse_operations"
+    ],
+    "patterns": [
+      "isolation"
+    ],
+    "misconceptions": [
+      "sign_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=30-11",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Linear Equations",
+      "chapter": "prealg-03-linear-equations",
+      "chapterTitle": "Linear Equations",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p010",
+    "statement": "Solve 6x=42",
+    "answer": "7",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 2,
+    "source": "seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "inverse_operations"
+    ],
+    "patterns": [
+      "isolation"
+    ],
+    "misconceptions": [
+      "division_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x=42/6=7",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Linear Equations",
+      "chapter": "prealg-03-linear-equations",
+      "chapterTitle": "Linear Equations",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p011",
+    "statement": "Solve 4x+5=29",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "two_step_equation"
+    ],
+    "patterns": [
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "step_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4x=24 so x=6",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Linear Equations",
+      "chapter": "prealg-03-linear-equations",
+      "chapterTitle": "Linear Equations",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p012",
+    "statement": "Solve 3(x+2)=21",
+    "answer": "5",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations",
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distributive_inverse"
+    ],
+    "patterns": [
+      "multi_step"
+    ],
+    "misconceptions": [
+      "distribution_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "x+2=7 so x=5",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Linear Equations",
+      "chapter": "prealg-03-linear-equations",
+      "chapterTitle": "Linear Equations",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p013",
+    "statement": "A recipe uses 2 cups of flour for 3 cups of milk. How many cups of flour are needed for 9 cups of milk?",
+    "answer": "6",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "ratio_scaling"
+    ],
+    "patterns": [
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "ratio_flip"
+    ],
+    "isAutoGradable": true,
+    "solution": "milk scale is 9/3=3 so flour is 2*3=6",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Ratios Percent and Proportion",
+      "chapter": "prealg-04-ratios-percent",
+      "chapterTitle": "Ratios Percent and Proportion",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p014",
+    "statement": "A shirt costs 40 dollars and is discounted 25 percent. What is the sale price?",
+    "answer": "30",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "arith_percentages",
+    "concepts": [
+      "arith_percentages"
+    ],
+    "prerequisiteConcepts": [
+      "arith_ratios"
+    ],
+    "skills": [
+      "percent_discount"
+    ],
+    "patterns": [
+      "percentage_calculation"
+    ],
+    "misconceptions": [
+      "discount_base_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "25% of 40 is 10 so sale price is 30",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Ratios Percent and Proportion",
+      "chapter": "prealg-04-ratios-percent",
+      "chapterTitle": "Ratios Percent and Proportion",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p015",
+    "statement": "If 5 notebooks cost 12 dollars how much do 10 notebooks cost?",
+    "answer": "24",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "seed",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "unit_rate"
+    ],
+    "patterns": [
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "addition_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "10 notebooks is double 5 notebooks",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Ratios Percent and Proportion",
+      "chapter": "prealg-04-ratios-percent",
+      "chapterTitle": "Ratios Percent and Proportion",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "prealg_p016",
+    "statement": "18 is 60 percent of what number?",
+    "answer": "30",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "seed",
+    "primaryConcept": "arith_percentages",
+    "concepts": [
+      "arith_percentages",
+      "arith_proportions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_ratios"
+    ],
+    "skills": [
+      "percent_unknown_total"
+    ],
+    "patterns": [
+      "equation_modeling"
+    ],
+    "misconceptions": [
+      "base_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "0.60*x=18 so x=30",
+    "curriculum": {
+      "course": "Pre-Algebra",
+      "theme": "Ratios Percent and Proportion",
+      "chapter": "prealg-04-ratios-percent",
+      "chapterTitle": "Ratios Percent and Proportion",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p001",
+    "statement": "What is the greatest common divisor of 42 and 56?",
+    "answer": "14",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_gcd",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "common_factor"
+    ],
+    "misconceptions": [
+      "lcm_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "42=2*3*7 and 56=2^3*7 so gcd=14",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-01-number-theory",
+      "chapterTitle": "Number Theory Essentials",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p002",
+    "statement": "What is the least common multiple of 10 and 15?",
+    "answer": "30",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_lcm",
+    "concepts": [
+      "nt_lcm"
+    ],
+    "prerequisiteConcepts": [
+      "nt_factorization"
+    ],
+    "skills": [
+      "factorization"
+    ],
+    "patterns": [
+      "common_multiples"
+    ],
+    "misconceptions": [
+      "gcd_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "10=2*5 and 15=3*5 so lcm=30",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-01-number-theory",
+      "chapterTitle": "Number Theory Essentials",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p003",
+    "statement": "How many positive divisors does 24 have?",
+    "answer": "8",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_factorization",
+    "concepts": [
+      "nt_factorization"
+    ],
+    "prerequisiteConcepts": [
+      "nt_primes"
+    ],
+    "skills": [
+      "factor_counting"
+    ],
+    "patterns": [
+      "prime_exponents"
+    ],
+    "misconceptions": [
+      "missing_factor_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "24=2^3*3 so divisor count is 4*2=8",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-01-number-theory",
+      "chapterTitle": "Number Theory Essentials",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p004",
+    "statement": "What is the remainder when 7^2 is divided by 5?",
+    "answer": "4",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "nt_remainders",
+    "concepts": [
+      "nt_remainders",
+      "nt_modular"
+    ],
+    "prerequisiteConcepts": [
+      "nt_divisibility"
+    ],
+    "skills": [
+      "modular_arithmetic"
+    ],
+    "patterns": [
+      "remainders"
+    ],
+    "misconceptions": [
+      "quotient_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "7^2=49 and 49 leaves remainder 4",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Number Theory",
+      "chapter": "amc8-01-number-theory",
+      "chapterTitle": "Number Theory Essentials",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p005",
+    "statement": "How many two-letter codes can be made from A B C D if letters may repeat?",
+    "answer": "16",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_principle",
+    "concepts": [
+      "counting_principle"
+    ],
+    "prerequisiteConcepts": [],
+    "skills": [
+      "multiplication_principle"
+    ],
+    "patterns": [
+      "product_rule"
+    ],
+    "misconceptions": [
+      "repeat_forbidden_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4 choices for each position gives 4*4=16",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-02-counting-probability",
+      "chapterTitle": "Counting and Probability",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p006",
+    "statement": "How many ways can 4 books be arranged on a shelf?",
+    "answer": "24",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_permutations",
+    "concepts": [
+      "counting_permutations"
+    ],
+    "prerequisiteConcepts": [
+      "counting_principle"
+    ],
+    "skills": [
+      "permutation_counting"
+    ],
+    "patterns": [
+      "factorial"
+    ],
+    "misconceptions": [
+      "order_ignored_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "4!=24",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-02-counting-probability",
+      "chapterTitle": "Counting and Probability",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p007",
+    "statement": "A spinner has 8 equal sections and 3 are shaded. What is the probability of landing on shaded?",
+    "answer": "3/8",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "probability_basic"
+    ],
+    "patterns": [
+      "sample_space"
+    ],
+    "misconceptions": [
+      "sample_space_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "3 favorable sections out of 8",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-02-counting-probability",
+      "chapterTitle": "Counting and Probability",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p008",
+    "statement": "A fair die is rolled twice. What is the probability of rolling a 6 both times?",
+    "answer": "1/36",
+    "answerType": "fraction",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "counting_probability",
+    "concepts": [
+      "counting_probability"
+    ],
+    "prerequisiteConcepts": [
+      "counting_combinations"
+    ],
+    "skills": [
+      "independent_events"
+    ],
+    "patterns": [
+      "probability_multiplication"
+    ],
+    "misconceptions": [
+      "dependency_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "1/6*1/6=1/36",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Counting and Probability",
+      "chapter": "amc8-02-counting-probability",
+      "chapterTitle": "Counting and Probability",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p009",
+    "statement": "A rectangle has perimeter 34 and length 10. What is its width?",
+    "answer": "7",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_perimeter",
+    "concepts": [
+      "geo_perimeter"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "perimeter_inverse"
+    ],
+    "patterns": [
+      "rectangle_perimeter"
+    ],
+    "misconceptions": [
+      "area_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "2(10+w)=34 so 10+w=17 and w=7",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-03-geometry",
+      "chapterTitle": "Geometry and Measurement",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p010",
+    "statement": "A triangle has base 12 and area 48. What is its height?",
+    "answer": "8",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "area_inverse"
+    ],
+    "patterns": [
+      "triangle_area"
+    ],
+    "misconceptions": [
+      "missing_half_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "48=(12*h)/2 so h=8",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-03-geometry",
+      "chapterTitle": "Geometry and Measurement",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p011",
+    "statement": "A circle has diameter 14. What is its circumference in pi form?",
+    "answer": "14π",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_circles",
+    "concepts": [
+      "geo_circles"
+    ],
+    "prerequisiteConcepts": [
+      "geo_angles"
+    ],
+    "skills": [
+      "circumference_formula"
+    ],
+    "patterns": [
+      "diameter_to_circumference"
+    ],
+    "misconceptions": [
+      "radius_diameter_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "circumference is πd=14π",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-03-geometry",
+      "chapterTitle": "Geometry and Measurement",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p012",
+    "statement": "A right triangle has hypotenuse 13 and one leg 5. What is the other leg?",
+    "answer": "12",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 5,
+    "source": "amc8_seed",
+    "primaryConcept": "geo_pythagorean",
+    "concepts": [
+      "geo_pythagorean"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles"
+    ],
+    "skills": [
+      "pythagorean_theorem"
+    ],
+    "patterns": [
+      "right_triangle"
+    ],
+    "misconceptions": [
+      "square_root_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "other leg squared is 13^2-5^2=144",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Geometry",
+      "chapter": "amc8-03-geometry",
+      "chapterTitle": "Geometry and Measurement",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p013",
+    "statement": "If 2x+5=17 what is 3x?",
+    "answer": "18",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions"
+    ],
+    "skills": [
+      "equation_solving"
+    ],
+    "patterns": [
+      "transfer_reasoning"
+    ],
+    "misconceptions": [
+      "stopping_early_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2x=12 so x=6 and 3x=18",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Algebraic Reasoning",
+      "chapter": "amc8-04-algebraic-reasoning",
+      "chapterTitle": "Algebraic Reasoning",
+      "sequence": 1,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p014",
+    "statement": "If y=2x+1 and x=7 what is y?",
+    "answer": "15",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 3,
+    "source": "amc8_seed",
+    "primaryConcept": "alg_functions",
+    "concepts": [
+      "alg_functions",
+      "prealg_substitution"
+    ],
+    "prerequisiteConcepts": [
+      "alg_linear_equations",
+      "prealg_expressions"
+    ],
+    "skills": [
+      "function_evaluation"
+    ],
+    "patterns": [
+      "substitution"
+    ],
+    "misconceptions": [
+      "input_output_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "y=2*7+1=15",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Algebraic Reasoning",
+      "chapter": "amc8-04-algebraic-reasoning",
+      "chapterTitle": "Algebraic Reasoning",
+      "sequence": 2,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p015",
+    "statement": "Simplify 2(a+3)+a",
+    "answer": "3a+6",
+    "answerType": "symbolic",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "prealg_simplification",
+    "concepts": [
+      "prealg_simplification",
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions"
+    ],
+    "skills": [
+      "distribution_combining"
+    ],
+    "patterns": [
+      "simplification"
+    ],
+    "misconceptions": [
+      "term_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "2a+6+a=3a+6",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Algebraic Reasoning",
+      "chapter": "amc8-04-algebraic-reasoning",
+      "chapterTitle": "Algebraic Reasoning",
+      "sequence": 3,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  },
+  {
+    "id": "amc8_topic_p016",
+    "statement": "The average of 6 10 and x is 9. What is x?",
+    "answer": "11",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "amc8_seed",
+    "primaryConcept": "stats_mean",
+    "concepts": [
+      "stats_mean",
+      "alg_linear_equations"
+    ],
+    "prerequisiteConcepts": [
+      "arith_decimals",
+      "prealg_expressions"
+    ],
+    "skills": [
+      "average_unknown"
+    ],
+    "patterns": [
+      "equation_modeling"
+    ],
+    "misconceptions": [
+      "mean_formula_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "(6+10+x)/3=9 so x=11",
+    "curriculum": {
+      "course": "AMC8",
+      "theme": "Algebraic Reasoning",
+      "chapter": "amc8-04-algebraic-reasoning",
+      "chapterTitle": "Algebraic Reasoning",
+      "sequence": 4,
+      "sourceCollection": "local_seed_from_imo_folder"
+    }
+  }
+]

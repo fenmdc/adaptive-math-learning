@@ -99,3 +99,167 @@ amc8_p048,"Probability heads twice?",1/4,"",4,"counting_probability","independen
 amc8_p049,"LCM of 6 and 8?",24,"",4,"nt_lcm","factorization","common_multiples","gcd_confusion","24"
 
 amc8_p050,"Solve x+2x=12",4,"",3,"alg_linear_equations","combining_terms","simplification","term_error","3x=12"
+
+amc8_p051,"Compute 1/3+1/6",1/2,"",3,"arith_fractions","fraction_addition","common_denominator","denominator_error","1/3=2/6 so 2/6+1/6=3/6=1/2"
+
+amc8_p052,"What is 3/4 of 20?",15,"",3,"arith_fractions","fraction_of_quantity","part_whole","multiplication_error","20*(3/4)=15"
+
+amc8_p053,"Compute 0.2+0.35",0.55,"",2,"arith_decimals","decimal_addition","place_value","alignment_error","0.20+0.35=0.55"
+
+amc8_p054,"Compute 1.5*4",6,"",2,"arith_decimals","decimal_multiplication","unit_scaling","place_value_error","15*4=60 so 1.5*4=6"
+
+amc8_p055,"The ratio of red to blue marbles is 2 to 5. If there are 10 blue marbles how many red marbles are there?",4,"",3,"arith_ratios;arith_proportions","ratio_scaling","proportional_reasoning","ratio_flip","blue scale is 10/5=2 so red is 2*2=4"
+
+amc8_p056,"What is 30% of 90?",27,"",2,"arith_percentages","percentage_calculation","direct_conversion","percent_decimal_error","0.30*90=27"
+
+amc8_p057,"12 is what percent of 48?",25,"",3,"arith_percentages;arith_ratios","percent_of_total","ratio_conversion","base_confusion","12/48=1/4=25%"
+
+amc8_p058,"Solve the proportion x/6=4/3",8,"",4,"arith_proportions;alg_linear_equations","proportion_solving","cross_multiplication","cross_product_error","3x=24 so x=8"
+
+amc8_p059,"Evaluate 3x+2 when x=5",17,"",3,"prealg_substitution","substitution","expression_evaluation","operation_order_error","3*5+2=17"
+
+amc8_p060,"Simplify 4y-y",3y,"",3,"prealg_simplification","combining_terms","like_terms","coefficient_error","4y-y=3y"
+
+amc8_p061,"Expand 5(a+2)",5a+10,"",3,"prealg_expressions","distributive_property","expansion","distribution_error","5*a+5*2=5a+10"
+
+amc8_p062,"Write three more than twice n as an expression",2n+3,"",3,"prealg_word_to_equation","translation","verbal_to_symbolic","order_error","twice n is 2n and three more is +3"
+
+amc8_p063,"Solve 5x-7=18",5,"",3,"alg_linear_equations","two_step_equation","inverse_operations","sign_error","5x=25 so x=5"
+
+amc8_p064,"Solve 2x+3=x+9",6,"",4,"alg_linear_equations","variables_both_sides","equation_solving","term_transfer_error","subtract x and 3 to get x=6"
+
+amc8_p065,"Solve x/4+2=5",12,"",3,"alg_linear_equations","fraction_equation","inverse_operations","division_error","x/4=3 so x=12"
+
+amc8_p066,"Solve 7x=3x+20",5,"",4,"alg_linear_equations","variables_both_sides","equation_solving","term_transfer_error","4x=20 so x=5"
+
+amc8_p067,"Solve the inequality x+2>5",x>3,"",4,"alg_linear_inequalities","inequality_solving","inverse_operations","inequality_direction_error","subtract 2 from both sides"
+
+amc8_p068,"If x+y=7 and x-y=1 what is x?",4,"",5,"alg_systems","system_solving","elimination","equation_combination_error","add equations to get 2x=8"
+
+amc8_p069,"Find the slope through points (0,2) and (3,8)",2,"",4,"alg_graphing","slope","coordinate_reasoning","rise_run_error","(8-2)/(3-0)=2"
+
+amc8_p070,"For f(x)=2x+1 find f(4)",9,"",4,"alg_functions","function_evaluation","substitution","input_output_error","2*4+1=9"
+
+amc8_p071,"Perimeter of a 9 by 4 rectangle",26,"",2,"geo_perimeter","formula_application","rectangle_perimeter","area_confusion","2*(9+4)=26"
+
+amc8_p072,"Area of a triangle with base 10 and height 6",30,"",3,"geo_area","triangle_area","formula_application","missing_half_error","(10*6)/2=30"
+
+amc8_p073,"A rectangle has area 45 and width 5. What is its length?",9,"",3,"geo_area","area_inverse","formula_application","multiplication_division_error","45/5=9"
+
+amc8_p074,"A triangle has angles 35 and 65 degrees. What is the third angle?",80,"",3,"geo_triangle_angles","angle_sum","deduction","missing_sum","180-35-65=80"
+
+amc8_p075,"In a triangle two angles are 40 and 75 degrees. What is the third angle?",65,"",3,"geo_triangle_angles","angle_sum","deduction","missing_sum","180-40-75=65"
+
+amc8_p076,"Circumference of a circle with radius 3 in pi form",6π,"",4,"geo_circles","circumference_formula","direct_substitution","diameter_radius_confusion","2πr=6π"
+
+amc8_p077,"Area of a circle with diameter 10 in pi form",25π,"",4,"geo_circles","area_formula","diameter_to_radius","radius_error","radius is 5 so area is 25π"
+
+amc8_p078,"A square has perimeter 36. What is its side length?",9,"",2,"geo_perimeter","perimeter_inverse","square_properties","area_confusion","36/4=9"
+
+amc8_p079,"A right triangle has legs 6 and 8. What is the hypotenuse?",10,"",5,"geo_pythagorean","pythagorean_theorem","right_triangle","square_root_error","6^2+8^2=100 so c=10"
+
+amc8_p080,"Distance between (2,3) and (7,3)",5,"",4,"geo_coordinate_geometry","coordinate_distance","horizontal_distance","coordinate_subtraction_error","same y so distance is 7-2=5"
+
+amc8_p081,"How many outfits from 3 shirts and 4 pants?",12,"",3,"counting_principle","multiplication_principle","product_rule","addition_error","3*4=12"
+
+amc8_p082,"How many outcomes when flipping one coin and rolling one die?",12,"",3,"counting_principle","multiplication_principle","sample_space","addition_error","2*6=12"
+
+amc8_p083,"Probability of rolling greater than 4 on a fair die",1/3,"",3,"counting_probability","probability_basic","sample_space","sample_space_error","2 favorable outcomes out of 6"
+
+amc8_p084,"A bag has 2 red 3 blue and 5 green marbles. Probability of red?",1/5,"",3,"counting_probability","probability_basic","ratio_modeling","total_count_error","2/(2+3+5)=2/10=1/5"
+
+amc8_p085,"How many arrangements of the letters A B C?",6,"",4,"counting_permutations","permutation_counting","factorial","order_ignored_error","3!=6"
+
+amc8_p086,"How many ways to choose 2 students from 5?",10,"",5,"counting_combinations","combination_counting","selection","order_counted_error","5*4/2=10"
+
+amc8_p087,"Probability that two fair coin flips have exactly one head",1/2,"",4,"counting_probability","independent_events","case_counting","missing_case_error","HT and TH are 2 of 4 outcomes"
+
+amc8_p088,"Using digits 1 2 3 how many two digit numbers have no repeated digit?",6,"",4,"counting_permutations","permutation_counting","product_rule","repeat_allowed_error","3 choices then 2 choices gives 6"
+
+amc8_p089,"Is 84 divisible by 6? Answer yes or no",yes,"",3,"nt_divisibility","divisibility_rules","factor_check","rule_confusion","84 is divisible by 2 and 3 so it is divisible by 6"
+
+amc8_p090,"Remainder when 29 is divided by 5",4,"",3,"nt_remainders","division_remainder","modular_reasoning","quotient_confusion","29=5*5+4"
+
+amc8_p091,"Largest prime factor of 45",5,"",4,"nt_factorization;nt_primes","prime_factorization","factor_tree","composite_factor_error","45=3^2*5"
+
+amc8_p092,"How many positive factors does 18 have?",6,"",5,"nt_factorization","factor_counting","prime_exponents","missing_factor_error","18=2*3^2 so factor count is 2*3=6"
+
+amc8_p093,"GCD of 24 and 36",12,"",4,"nt_gcd","factorization","common_factor","lcm_confusion","common factors include 12 and it is greatest"
+
+amc8_p094,"LCM of 9 and 12",36,"",4,"nt_lcm","factorization","common_multiples","gcd_confusion","9=3^2 and 12=2^2*3 so lcm=36"
+
+amc8_p095,"Remainder when 2^5 is divided by 3",2,"",5,"nt_modular","modular_arithmetic","remainders","power_pattern_error","2^5=32 and 32 leaves remainder 2"
+
+amc8_p096,"Smallest prime greater than 10",11,"",3,"nt_primes","prime_recognition","number_properties","composite_confusion","11 has no positive divisors other than 1 and 11"
+
+amc8_p097,"Mean of 4 6 8 and 10",7,"",3,"stats_mean","average","data_summary","median_confusion","(4+6+8+10)/4=7"
+
+amc8_p098,"Range of 3 9 10 and 15",12,"",3,"stats_range","range","data_spread","mean_confusion","15-3=12"
+
+amc8_p099,"Mode of 2 3 3 5 5 5",5,"",3,"stats_mode","mode","frequency","median_confusion","5 appears most often"
+
+amc8_p100,"Median of 4 9 1 7 and 6",6,"",3,"stats_median","data_ordering","central_value","mean_confusion","ordered data is 1 4 6 7 9"
+
+prealg_p001,"Evaluate 2a+5 when a=4",13,"",2,"prealg_substitution","substitution","expression_evaluation","operation_order_error","2*4+5=13"
+
+prealg_p002,"Evaluate 3m-2 when m=6",16,"",2,"prealg_substitution","substitution","expression_evaluation","sign_error","3*6-2=16"
+
+prealg_p003,"Write five less than x as an expression",x-5,"",2,"prealg_word_to_equation","translation","verbal_to_symbolic","order_error","five less than x means x-5"
+
+prealg_p004,"Write four times the sum of n and 3",4(n+3),"",3,"prealg_word_to_equation;prealg_expressions","translation","verbal_to_symbolic","parentheses_error","the sum n and 3 is grouped before multiplying by 4"
+
+prealg_p005,"Simplify 7x+2x",9x,"",2,"prealg_simplification","combining_terms","like_terms","coefficient_error","7x+2x=9x"
+
+prealg_p006,"Simplify 8p-3p+2",5p+2,"",3,"prealg_simplification","combining_terms","like_terms","constant_term_error","8p-3p=5p then keep +2"
+
+prealg_p007,"Expand 3(x+4)",3x+12,"",3,"prealg_expressions","distributive_property","expansion","distribution_error","3*x+3*4=3x+12"
+
+prealg_p008,"Expand 2(3y-5)",6y-10,"",4,"prealg_expressions","distributive_property","expansion","sign_error","2*3y-2*5=6y-10"
+
+prealg_p009,"Solve x+11=30",19,"",2,"alg_linear_equations","inverse_operations","isolation","sign_error","x=30-11"
+
+prealg_p010,"Solve 6x=42",7,"",2,"alg_linear_equations","inverse_operations","isolation","division_error","x=42/6=7"
+
+prealg_p011,"Solve 4x+5=29",6,"",3,"alg_linear_equations","two_step_equation","inverse_operations","step_error","4x=24 so x=6"
+
+prealg_p012,"Solve 3(x+2)=21",5,"",4,"alg_linear_equations;prealg_expressions","distributive_inverse","multi_step","distribution_error","x+2=7 so x=5"
+
+prealg_p013,"A recipe uses 2 cups of flour for 3 cups of milk. How many cups of flour are needed for 9 cups of milk?",6,"",3,"arith_ratios;arith_proportions","ratio_scaling","proportional_reasoning","ratio_flip","milk scale is 9/3=3 so flour is 2*3=6"
+
+prealg_p014,"A shirt costs 40 dollars and is discounted 25 percent. What is the sale price?",30,"",3,"arith_percentages","percent_discount","percentage_calculation","discount_base_error","25% of 40 is 10 so sale price is 30"
+
+prealg_p015,"If 5 notebooks cost 12 dollars how much do 10 notebooks cost?",24,"",3,"arith_ratios;arith_proportions","unit_rate","proportional_reasoning","addition_error","10 notebooks is double 5 notebooks"
+
+prealg_p016,"18 is 60 percent of what number?",30,"",4,"arith_percentages;arith_proportions","percent_unknown_total","equation_modeling","base_confusion","0.60*x=18 so x=30"
+
+amc8_topic_p001,"What is the greatest common divisor of 42 and 56?",14,"",3,"nt_gcd","factorization","common_factor","lcm_confusion","42=2*3*7 and 56=2^3*7 so gcd=14"
+
+amc8_topic_p002,"What is the least common multiple of 10 and 15?",30,"",3,"nt_lcm","factorization","common_multiples","gcd_confusion","10=2*5 and 15=3*5 so lcm=30"
+
+amc8_topic_p003,"How many positive divisors does 24 have?",8,"",5,"nt_factorization","factor_counting","prime_exponents","missing_factor_error","24=2^3*3 so divisor count is 4*2=8"
+
+amc8_topic_p004,"What is the remainder when 7^2 is divided by 5?",4,"",4,"nt_remainders;nt_modular","modular_arithmetic","remainders","quotient_confusion","7^2=49 and 49 leaves remainder 4"
+
+amc8_topic_p005,"How many two-letter codes can be made from A B C D if letters may repeat?",16,"",3,"counting_principle","multiplication_principle","product_rule","repeat_forbidden_error","4 choices for each position gives 4*4=16"
+
+amc8_topic_p006,"How many ways can 4 books be arranged on a shelf?",24,"",4,"counting_permutations","permutation_counting","factorial","order_ignored_error","4!=24"
+
+amc8_topic_p007,"A spinner has 8 equal sections and 3 are shaded. What is the probability of landing on shaded?",3/8,"",3,"counting_probability","probability_basic","sample_space","sample_space_error","3 favorable sections out of 8"
+
+amc8_topic_p008,"A fair die is rolled twice. What is the probability of rolling a 6 both times?",1/36,"",4,"counting_probability","independent_events","probability_multiplication","dependency_error","1/6*1/6=1/36"
+
+amc8_topic_p009,"A rectangle has perimeter 34 and length 10. What is its width?",7,"",3,"geo_perimeter","perimeter_inverse","rectangle_perimeter","area_confusion","2(10+w)=34 so 10+w=17 and w=7"
+
+amc8_topic_p010,"A triangle has base 12 and area 48. What is its height?",8,"",4,"geo_area","area_inverse","triangle_area","missing_half_error","48=(12*h)/2 so h=8"
+
+amc8_topic_p011,"A circle has diameter 14. What is its circumference in pi form?",14π,"",4,"geo_circles","circumference_formula","diameter_to_circumference","radius_diameter_confusion","circumference is πd=14π"
+
+amc8_topic_p012,"A right triangle has hypotenuse 13 and one leg 5. What is the other leg?",12,"",5,"geo_pythagorean","pythagorean_theorem","right_triangle","square_root_error","other leg squared is 13^2-5^2=144"
+
+amc8_topic_p013,"If 2x+5=17 what is 3x?",18,"",3,"alg_linear_equations","equation_solving","transfer_reasoning","stopping_early_error","2x=12 so x=6 and 3x=18"
+
+amc8_topic_p014,"If y=2x+1 and x=7 what is y?",15,"",3,"alg_functions;prealg_substitution","function_evaluation","substitution","input_output_error","y=2*7+1=15"
+
+amc8_topic_p015,"Simplify 2(a+3)+a",3a+6,"",4,"prealg_simplification;prealg_expressions","distribution_combining","simplification","term_error","2a+6+a=3a+6"
+
+amc8_topic_p016,"The average of 6 10 and x is 9. What is x?",11,"",4,"stats_mean;alg_linear_equations","average_unknown","equation_modeling","mean_formula_error","(6+10+x)/3=9 so x=11"

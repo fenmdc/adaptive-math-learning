@@ -1,0 +1,533 @@
+[
+  {
+    "step": 0,
+    "problem": "amc8_p001",
+    "statement": "A store sells apples at 3 for $2. How much do 12 apples cost?",
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "difficulty": 2,
+    "correct": true,
+    "weakConcepts": [],
+    "remediation": false,
+    "nextProblem": "amc8_p004",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62
+    },
+    "recommendationReason": "Starts with a balanced, auto-gradable practice problem.",
+    "recommendationScore": 41
+  },
+  {
+    "step": 1,
+    "problem": "amc8_p004",
+    "statement": "Triangle angles 50°,60°, third angle?",
+    "concepts": [
+      "geo_triangle_angles"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [],
+    "remediation": false,
+    "nextProblem": "amc8_p005",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62
+    },
+    "recommendationReason": "Starts with a balanced, auto-gradable practice problem.",
+    "recommendationScore": 41
+  },
+  {
+    "step": 2,
+    "problem": "amc8_p005",
+    "statement": "GCD of 12 and 18?",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "difficulty": 3,
+    "correct": false,
+    "weakConcepts": [
+      "nt_gcd"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p044",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.32
+    },
+    "recommendationReason": "Targets weak concept nt_gcd at mastery 0.32.",
+    "recommendationScore": 78
+  },
+  {
+    "step": 3,
+    "problem": "amc8_p044",
+    "statement": "GCD of 8 and 12?",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [
+      "nt_gcd"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_topic_p001",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.44
+    },
+    "recommendationReason": "Targets weak concept nt_gcd at mastery 0.44.",
+    "recommendationScore": 82
+  },
+  {
+    "step": 4,
+    "problem": "amc8_topic_p001",
+    "statement": "What is the greatest common divisor of 42 and 56?",
+    "concepts": [
+      "nt_gcd"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [],
+    "remediation": false,
+    "nextProblem": "amc8_p006",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56
+    },
+    "recommendationReason": "Starts with a balanced, auto-gradable practice problem.",
+    "recommendationScore": 41
+  },
+  {
+    "step": 5,
+    "problem": "amc8_p006",
+    "statement": "P(red) from 3 red,2 blue?",
+    "concepts": [
+      "counting_probability"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [],
+    "remediation": false,
+    "nextProblem": "amc8_p007",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62
+    },
+    "recommendationReason": "Starts with a balanced, auto-gradable practice problem.",
+    "recommendationScore": 41
+  },
+  {
+    "step": 6,
+    "problem": "amc8_p007",
+    "statement": "2(x+3)=?",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [],
+    "remediation": false,
+    "nextProblem": "amc8_p011",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.62
+    },
+    "recommendationReason": "Starts with a balanced, auto-gradable practice problem.",
+    "recommendationScore": 41
+  },
+  {
+    "step": 7,
+    "problem": "amc8_p011",
+    "statement": "0.6 vs 1/2 larger?",
+    "concepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "difficulty": 3,
+    "correct": false,
+    "weakConcepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p045",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.62,
+      "arith_fractions": 0.32,
+      "arith_decimals": 0.32
+    },
+    "recommendationReason": "Targets weak concept arith_fractions at mastery 0.32.",
+    "recommendationScore": 118
+  },
+  {
+    "step": 8,
+    "problem": "amc8_p045",
+    "statement": "Fraction 1/4 as decimal",
+    "concepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p053",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.62,
+      "arith_fractions": 0.44,
+      "arith_decimals": 0.44
+    },
+    "recommendationReason": "Targets weak concept arith_decimals at mastery 0.44.",
+    "recommendationScore": 104
+  },
+  {
+    "step": 9,
+    "problem": "amc8_p053",
+    "statement": "Compute 0.2+0.35",
+    "concepts": [
+      "arith_decimals"
+    ],
+    "difficulty": 2,
+    "correct": true,
+    "weakConcepts": [
+      "arith_fractions"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p051",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.62,
+      "arith_fractions": 0.44,
+      "arith_decimals": 0.56
+    },
+    "recommendationReason": "Targets weak concept arith_fractions at mastery 0.44.",
+    "recommendationScore": 82
+  },
+  {
+    "step": 10,
+    "problem": "amc8_p051",
+    "statement": "Compute 1/3+1/6",
+    "concepts": [
+      "arith_fractions"
+    ],
+    "difficulty": 3,
+    "correct": false,
+    "weakConcepts": [
+      "arith_fractions"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p052",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.62,
+      "arith_fractions": 0.26,
+      "arith_decimals": 0.56
+    },
+    "recommendationReason": "Targets weak concept arith_fractions at mastery 0.26.",
+    "recommendationScore": 79
+  },
+  {
+    "step": 11,
+    "problem": "amc8_p052",
+    "statement": "What is 3/4 of 20?",
+    "concepts": [
+      "arith_fractions"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [
+      "arith_fractions"
+    ],
+    "remediation": false,
+    "nextProblem": "prealg_p012",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.62,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56
+    },
+    "recommendationReason": "Balances practice while monitoring arith_fractions.",
+    "recommendationScore": 68
+  },
+  {
+    "step": 12,
+    "problem": "prealg_p012",
+    "statement": "Solve 3(x+2)=21",
+    "concepts": [
+      "alg_linear_equations",
+      "prealg_expressions"
+    ],
+    "difficulty": 4,
+    "correct": false,
+    "weakConcepts": [
+      "alg_linear_equations",
+      "arith_fractions",
+      "prealg_expressions"
+    ],
+    "remediation": true,
+    "nextProblem": "amc8_p034",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.44,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.32
+    },
+    "recommendationReason": "Remediation: review prerequisite arith_fractions before continuing prealg_expressions.",
+    "recommendationScore": 140
+  },
+  {
+    "step": 13,
+    "problem": "amc8_p034",
+    "statement": "Simplify 2a+3a",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "difficulty": 2,
+    "correct": false,
+    "weakConcepts": [
+      "prealg_expressions",
+      "alg_linear_equations",
+      "arith_fractions"
+    ],
+    "remediation": true,
+    "nextProblem": "amc8_p003",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.26,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.32
+    },
+    "recommendationReason": "Remediation: review prerequisite prealg_expressions before continuing alg_linear_equations.",
+    "recommendationScore": 136
+  },
+  {
+    "step": 14,
+    "problem": "amc8_p003",
+    "statement": "Solve x+7=15",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "difficulty": 2,
+    "correct": true,
+    "weakConcepts": [
+      "prealg_expressions",
+      "arith_fractions",
+      "alg_linear_equations"
+    ],
+    "remediation": true,
+    "nextProblem": "amc8_p010",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.26,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.44
+    },
+    "recommendationReason": "Remediation: review prerequisite prealg_expressions before continuing alg_linear_equations.",
+    "recommendationScore": 140
+  },
+  {
+    "step": 15,
+    "problem": "amc8_p010",
+    "statement": "3x=12, x=?",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "difficulty": 2,
+    "correct": false,
+    "weakConcepts": [
+      "prealg_expressions",
+      "alg_linear_equations",
+      "arith_fractions"
+    ],
+    "remediation": true,
+    "nextProblem": "amc8_p022",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.26,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.26
+    },
+    "recommendationReason": "Remediation: review prerequisite prealg_expressions before continuing alg_linear_equations.",
+    "recommendationScore": 137
+  },
+  {
+    "step": 16,
+    "problem": "amc8_p022",
+    "statement": "Solve 4x=20",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "difficulty": 2,
+    "correct": true,
+    "weakConcepts": [
+      "prealg_expressions",
+      "arith_fractions",
+      "alg_linear_equations"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p014",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.26,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.38
+    },
+    "recommendationReason": "Targets weak concept alg_linear_equations at mastery 0.38.",
+    "recommendationScore": 111
+  },
+  {
+    "step": 17,
+    "problem": "amc8_p014",
+    "statement": "2x+3=11",
+    "concepts": [
+      "alg_linear_equations"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [
+      "prealg_expressions",
+      "arith_fractions"
+    ],
+    "remediation": false,
+    "nextProblem": "prealg_p004",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.26,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.5
+    },
+    "recommendationReason": "Targets weak concept prealg_expressions at mastery 0.26.",
+    "recommendationScore": 111
+  },
+  {
+    "step": 18,
+    "problem": "prealg_p004",
+    "statement": "Write four times the sum of n and 3",
+    "concepts": [
+      "prealg_word_to_equation",
+      "prealg_expressions"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [
+      "prealg_expressions",
+      "arith_fractions"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p025",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.38,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.5,
+      "prealg_word_to_equation": 0.62
+    },
+    "recommendationReason": "Targets weak concept prealg_expressions at mastery 0.38.",
+    "recommendationScore": 111
+  },
+  {
+    "step": 19,
+    "problem": "amc8_p025",
+    "statement": "Simplify 3(2x)",
+    "concepts": [
+      "prealg_expressions"
+    ],
+    "difficulty": 3,
+    "correct": true,
+    "weakConcepts": [
+      "arith_fractions"
+    ],
+    "remediation": false,
+    "nextProblem": "amc8_p061",
+    "mastery": {
+      "arith_ratios": 0.62,
+      "arith_proportions": 0.62,
+      "geo_triangle_angles": 0.62,
+      "nt_gcd": 0.56,
+      "counting_probability": 0.62,
+      "prealg_expressions": 0.5,
+      "arith_fractions": 0.38,
+      "arith_decimals": 0.56,
+      "alg_linear_equations": 0.5,
+      "prealg_word_to_equation": 0.62
+    },
+    "recommendationReason": "Balances practice while monitoring arith_fractions.",
+    "recommendationScore": 69
+  }
+]

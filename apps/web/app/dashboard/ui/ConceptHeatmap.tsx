@@ -1,6 +1,8 @@
-export default function ConceptHeatmap({ logs }) {
+import type { SimulationLog } from "../types";
 
-  const conceptMap = {};
+export default function ConceptHeatmap({ logs }: { logs: SimulationLog[] }) {
+
+  const conceptMap: Record<string, number> = {};
 
   logs.forEach(l => {
     (l.weakConcepts || []).forEach(c => {
@@ -9,22 +11,26 @@ export default function ConceptHeatmap({ logs }) {
   });
 
   return (
-    <div>
-      <h2>Concept Weakness Heatmap</h2>
+    <section className="panel">
+      <h2 className="panel-title">Concept Weakness Heatmap</h2>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="heatmap-grid">
 
         {Object.entries(conceptMap).map(([c, v]) => (
-          <div key={c} className="p-2 border rounded">
+          <div key={c} className="heatmap-card">
 
-            <div className="font-bold">{c}</div>
-            <div>Weakness Frequency: {v}</div>
+            <div><strong>{c}</strong></div>
+            <div className="muted">Weakness Frequency: {v}</div>
 
           </div>
         ))}
 
+        {Object.keys(conceptMap).length === 0 && (
+          <p className="muted">No weak concepts detected yet.</p>
+        )}
+
       </div>
 
-    </div>
+    </section>
   );
 }

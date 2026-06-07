@@ -101,6 +101,7 @@ The MVP database consists of several core entities.
 | problem_attempts | Student attempt history |
 | student_mastery | Concept mastery tracking |
 | recommendation_log | Recommendation analytics |
+| problem_curriculum | Course, theme, and chapter placement |
 
 ---
 
@@ -140,6 +141,46 @@ Stores all mathematical problems.
 | quality_score | FLOAT | Content quality estimate |
 | created_at | TIMESTAMP | Creation timestamp |
 | updated_at | TIMESTAMP | Last update |
+
+---
+
+# 4.1 Curriculum Mapping
+
+# Table: problem_curriculum
+
+Maps each problem into a selectable course structure. This keeps the raw problem
+content reusable while allowing the product to expose course tracks such as
+Pre-Algebra and AMC8.
+
+## Fields
+
+| Field | Type | Description |
+|---|---|---|
+| problem_id | TEXT | Problem ID from `problems.csv` |
+| course | TEXT | Course track, e.g. Pre-Algebra or AMC8 |
+| theme | TEXT | Broad topic grouping |
+| chapter | TEXT | Stable chapter slug |
+| chapter_title | TEXT | Human-readable chapter title |
+| sequence | INT | Ordering inside the course/theme |
+| source_collection | TEXT | Import/source collection label |
+
+Current MVP source files:
+
+- `datasets/problems/problems.csv`
+- `datasets/problems/problem_curriculum.csv`
+- `datasets/concepts/concepts.csv`
+
+Local source expansion can use materials under:
+
+- `/Users/fenmdc/Documents/IMO-中小学奥数`
+
+The recommended ingestion flow is:
+
+1. Extract candidate problems from a local document into a staging CSV.
+2. Normalize statement, answer, solution, concept tags, and answer type.
+3. Add rows to `problems.csv`.
+4. Add course/theme/chapter rows to `problem_curriculum.csv`.
+5. Run `npm run simulate` to regenerate frontend JSON.
 
 ---
 

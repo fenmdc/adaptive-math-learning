@@ -15,7 +15,7 @@ async function main() {
   await run("npm run simulate");
 
   console.log("📊 Starting dashboard...");
-  const server = exec("npm run dev");
+  const server = exec("npm run dev:web");
 
   server.stdout?.pipe(process.stdout);
 
