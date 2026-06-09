@@ -2,51 +2,54 @@
 
 import { FormEvent, useMemo, useState } from "react";
 import Link from "next/link";
+import conceptsData from "../../data/concepts.json";
 import problemsData from "../../data/problems.json";
-import { AdaptiveEngine, checkAnswer, Problem, StudentState } from "../../../../packages/adaptive-engine";
+import { AdaptiveEngine, buildConceptGraph, checkProblemAnswer, Problem, StudentState, type AnswerChoice, type ConceptNode, type PrerequisiteGap } from "../../../../packages/adaptive-engine";
+import { AssessmentReport, buildAssessmentReport } from "../shared/assessmentReport";
 import { buildLearningPlan, LearningPlan } from "../shared/learningPlan";
 import {
   clearDiagnosticLogs,
   createPracticeLog,
   readDiagnosticLogs,
   readStudentModel,
+  writeAssessmentReport,
   writeDiagnosticLogs,
   writeLearningPlan,
   writeStudentModel
 } from "../shared/storage";
 import { updateStudentModel } from "../shared/studentModel";
-import { initialAssessmentBlueprint } from "./initialAssessment";
+import { initialAssessmentBlueprint, selectDiagnosticProblems, type AssessmentSlot } from "./initialAssessment";
 
 type DiagnosticAttempt = {
+  slot: AssessmentSlot;
   problem: Problem;
   submittedAnswer: string;
   correct: boolean;
   answerReason: string;
   recommendationReason: string;
+  prerequisiteGaps: PrerequisiteGap[];
   responseTimeSeconds: number;
   confidence: number;
+  selectedChoiceLabel?: string;
+  selectedChoiceValue?: string;
+  selectedDistractor?: Problem["distractors"] extends Array<infer T> ? T : never;
 };
 
 const allProblems = problemsData as Problem[];
-const diagnosticProblems = initialAssessmentBlueprint
-  .map((slot) => ({
-    slot,
-    problem: allProblems.find((problem) => problem.id === slot.problemId)
-  }))
-  .filter((item): item is { slot: typeof initialAssessmentBlueprint[number]; problem: Problem } =>
-    Boolean(item.problem?.isAutoGradable)
-  );
+const conceptGraph = buildConceptGraph(conceptsData as ConceptNode[]);
+const diagnosticProblems = selectDiagnosticProblems(initialAssessmentBlueprint, allProblems);
 const diagnosticProblemCount = diagnosticProblems.length;
 const initialState: StudentState = { mastery: {}, history: [] };
 
 export default function DiagnosticPage() {
-  const engine = useMemo(() => new AdaptiveEngine(allProblems), []);
+  const engine = useMemo(() => new AdaptiveEngine(allProblems, conceptGraph), []);
   const [studentState, setStudentState] = useState<StudentState>(initialState);
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [attempts, setAttempts] = useState<DiagnosticAttempt[]>([]);
   const [feedback, setFeedback] = useState<DiagnosticAttempt | null>(null);
   const [learningPlan, setLearningPlan] = useState<LearningPlan | null>(null);
+  const [assessmentReport, setAssessmentReport] = useState<AssessmentReport | null>(null);
   const [pending, setPending] = useState(false);
   const [confidence, setConfidence] = useState(3);
   const [problemStartedAt, setProblemStartedAt] = useState(() => Date.now());
@@ -64,7 +67,12 @@ export default function DiagnosticPage() {
     event.preventDefault();
     if (!answer.trim() || pending || !currentProblem) return;
 
-    const answerCheck = checkAnswer(answer, currentProblem.answer);
+    const answerCheck = checkProblemAnswer({
+      submitted: answer,
+      expected: currentProblem.answer,
+      choices: currentProblem.choices,
+      distractors: currentProblem.distractors
+    });
     const responseTimeSeconds = secondsSince(problemStartedAt);
     const result = engine.run(studentState, {
       problem: currentProblem,
@@ -73,24 +81,34 @@ export default function DiagnosticPage() {
       confidence
     });
     const attempt = {
+      slot: currentSlot,
       problem: currentProblem,
       submittedAnswer: answer,
       correct: answerCheck.correct,
       answerReason: answerCheck.reason,
       recommendationReason: result.recommendation.reason,
+      prerequisiteGaps: result.prerequisite_gaps,
       responseTimeSeconds,
       confidence
     };
     const log = createPracticeLog({
       step: attempts.length,
       problem: currentProblem,
+      selectedChoiceLabel: answerCheck.selectedChoiceLabel,
+      selectedChoiceValue: answerCheck.selectedChoiceValue,
+      selectedDistractor: answerCheck.selectedDistractor,
+      diagnosticSlot: currentSlot.id,
+      diagnosticStage: currentSlot.stage,
+      assessmentGoal: currentSlot.goal,
       correct: answerCheck.correct,
       weakConcepts: result.weak_concepts,
       fluencyConcepts: result.fluency_concepts,
+      prerequisiteGaps: simplifyPrerequisiteGaps(result.prerequisite_gaps),
       remediation: result.remediation,
       nextProblem: result.next_problem,
       mastery: result.updated_state.mastery,
       recommendationReason: result.recommendation.reason,
+      recommendationExplanation: result.recommendation.explanation,
       recommendationScore: Math.round(result.recommendation.score),
       responseTimeSeconds,
       confidence
@@ -102,10 +120,12 @@ export default function DiagnosticPage() {
       problem: currentProblem,
       correct: answerCheck.correct,
       mastery: result.updated_state.mastery,
+      selectedDistractor: answerCheck.selectedDistractor,
       responseTimeSeconds,
       confidence
     });
     const nextPlan = diagnosticComplete ? buildLearningPlan(nextLogs, allProblems, nextStudentModel) : null;
+    const nextReport = diagnosticComplete ? buildAssessmentReport(nextLogs, nextStudentModel) : null;
 
     setStudentState(result.updated_state);
     setAttempts((current) => [...current, attempt]);
@@ -114,6 +134,10 @@ export default function DiagnosticPage() {
     if (nextPlan) {
       writeLearningPlan(nextPlan);
       setLearningPlan(nextPlan);
+    }
+    if (nextReport) {
+      writeAssessmentReport(nextReport);
+      setAssessmentReport(nextReport);
     }
     setFeedback(attempt);
     setPending(true);
@@ -136,6 +160,7 @@ export default function DiagnosticPage() {
     setAttempts([]);
     setFeedback(null);
     setLearningPlan(null);
+    setAssessmentReport(null);
     setPending(false);
     setConfidence(3);
     setProblemStartedAt(Date.now());
@@ -147,9 +172,9 @@ export default function DiagnosticPage() {
         <header className="masthead">
           <div>
             <p className="eyebrow">Adaptive Math Learning</p>
-            <h1 className="page-title">Diagnostic Mode</h1>
+            <h1 className="page-title">Diagnostic Mode v2</h1>
             <p className="page-subtitle">
-              A 10-question initial assessment across arithmetic, algebra, geometry, number theory, probability, and statistics.
+              A 20-slot graph-aware assessment across Pre-Algebra, Algebra 1 readiness, and AMC8 transfer skills.
             </p>
           </div>
           <div className="nav-actions">
@@ -170,23 +195,26 @@ export default function DiagnosticPage() {
             <p className="eyebrow">Diagnostic Complete</p>
             <h2 className="panel-title">Your diagnostic profile is ready.</h2>
             {learningPlan ? (
-              <div className="learning-plan-card">
-                <div>
-                  <div className="tag-row">
-                    {learningPlan.course && <span className="tag">{learningPlan.course}</span>}
-                    {learningPlan.chapterTitle && <span className="tag tag-teal">{learningPlan.chapterTitle}</span>}
-                    {learningPlan.targetMastery !== undefined && (
-                      <span className="tag tag-gold">{Math.round(learningPlan.targetMastery * 100)}% mastery</span>
-                    )}
+              <>
+                {assessmentReport && <AssessmentReportCard report={assessmentReport} />}
+                <div className="learning-plan-card">
+                  <div>
+                    <div className="tag-row">
+                      {learningPlan.course && <span className="tag">{learningPlan.course}</span>}
+                      {learningPlan.chapterTitle && <span className="tag tag-teal">{learningPlan.chapterTitle}</span>}
+                      {learningPlan.targetMastery !== undefined && (
+                        <span className="tag tag-gold">{Math.round(learningPlan.targetMastery * 100)}% mastery</span>
+                      )}
+                    </div>
+                    <h3>{assessmentReport?.recommendationTitle ?? learningPlan.title}</h3>
+                    <p>{assessmentReport?.recommendationReason ?? learningPlan.reason}</p>
                   </div>
-                  <h3>{learningPlan.title}</h3>
-                  <p>{learningPlan.reason}</p>
+                  <div className="learning-plan-actions">
+                    <Link className="button" href={assessmentReport?.practiceHref ?? learningPlan.href}>Start personalized mini session</Link>
+                    <Link className="button-secondary" href="/dashboard">Open dashboard</Link>
+                  </div>
                 </div>
-                <div className="learning-plan-actions">
-                  <Link className="button" href={learningPlan.href}>Start recommended practice</Link>
-                  <Link className="button-secondary" href="/dashboard">Open dashboard</Link>
-                </div>
-              </div>
+              </>
             ) : (
               <>
                 <p className="summary-recommendation">
@@ -202,14 +230,24 @@ export default function DiagnosticPage() {
               <div className="tag-row">
                 <span className="tag">{currentProblem.id}</span>
                 <span className="tag tag-gold">Question {index + 1}</span>
+                <span className="tag tag-gold">{currentSlot.stage}</span>
                 <span className="tag">{currentProblem.answerType}</span>
                 <span className="tag">{currentSlot.domain}</span>
+                {currentProblem.taxonomy && (
+                  <>
+                    <span className="tag tag-gold">{currentProblem.taxonomy.layer}</span>
+                    <span className="tag">{currentProblem.taxonomy.problemType}</span>
+                  </>
+                )}
                 {currentProblem.concepts.map((concept) => (
                   <span className="tag tag-teal" key={concept}>{concept}</span>
                 ))}
               </div>
 
               <h2 className="problem-text">{currentProblem.statement}</h2>
+              <div className="schema-note">
+                <strong>Selected by:</strong> {currentItem.selectionReason}
+              </div>
               <div className="schema-note">
                 <strong>Assessment goal:</strong> {currentSlot.goal}
               </div>
@@ -218,11 +256,27 @@ export default function DiagnosticPage() {
               </div>
 
               <form className="answer-form" onSubmit={submitAnswer}>
+                {isMultipleChoice(currentProblem) && (
+                  <div className="choice-grid">
+                    {normalizeChoices(currentProblem.choices).map((choice) => (
+                      <button
+                        className={`choice-button ${answer === choice.label ? "choice-button-selected" : ""}`}
+                        disabled={pending}
+                        key={choice.label}
+                        onClick={() => setAnswer(choice.label)}
+                        type="button"
+                      >
+                        <strong>{choice.label}</strong>
+                        <span>{choice.text}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
                 <input
                   className="answer-input"
                   disabled={pending}
                   onChange={(event) => setAnswer(event.target.value)}
-                  placeholder="Enter your answer"
+                  placeholder={isMultipleChoice(currentProblem) ? "Choose an option or type A-E" : "Enter your answer"}
                   value={answer}
                 />
                 <label className="confidence-control" htmlFor="diagnostic-confidence">
@@ -247,11 +301,32 @@ export default function DiagnosticPage() {
               {feedback && (
                 <div className={`feedback ${feedback.correct ? "feedback-success" : "feedback-error"}`}>
                   <div className="feedback-title">{feedback.correct ? "Correct" : "Not yet"}</div>
+                  <div>Slot: {feedback.slot.stage} · {feedback.slot.strand}</div>
                   <div>Your answer: {feedback.submittedAnswer} · Expected: {feedback.problem.answer}</div>
+                  {feedback.selectedChoiceLabel && (
+                    <div>
+                      Selected choice: {feedback.selectedChoiceLabel} · {feedback.selectedChoiceValue}
+                    </div>
+                  )}
+                  {feedback.selectedDistractor && (
+                    <div>
+                      Distractor signal: {feedback.selectedDistractor.misconception} · {feedback.selectedDistractor.cognitiveTag}
+                    </div>
+                  )}
                   <div>Signal: {feedback.responseTimeSeconds}s · Confidence {feedback.confidence}/5</div>
+                  {feedback.prerequisiteGaps.length > 0 && (
+                    <div>
+                      Gap: {feedback.prerequisiteGaps[0].concept} before {feedback.prerequisiteGaps[0].targetConcept}
+                    </div>
+                  )}
                   <div>Check: {feedback.answerReason}</div>
                   <div>Solution note: {feedback.problem.solution}</div>
                   <div>{feedback.recommendationReason}</div>
+                  {feedback.problem.taxonomy && (
+                    <div>
+                      Taxonomy: {feedback.problem.taxonomy.layer} · {feedback.problem.taxonomy.problemType} · {feedback.problem.taxonomy.cognitiveTags.slice(0, 2).join(", ")}
+                    </div>
+                  )}
                   <button className="button feedback-action" onClick={continueDiagnostic}>
                     {index + 1 >= diagnosticProblemCount ? "Finish diagnostic" : "Next diagnostic question"}
                   </button>
@@ -260,7 +335,10 @@ export default function DiagnosticPage() {
             </div>
 
             <aside className="panel">
-              <h2 className="panel-title">Coverage</h2>
+              <h2 className="panel-title">Blueprint</h2>
+              <div className="schema-note">
+                <strong>Stage:</strong> {currentSlot.stage}
+              </div>
               <div className="schema-note">
                 <strong>Domain:</strong> {currentSlot.domain} · {currentSlot.strand}
               </div>
@@ -273,6 +351,9 @@ export default function DiagnosticPage() {
                   ? currentProblem.prerequisiteConcepts.join(", ")
                   : "none tagged"}
               </div>
+              <div className="schema-note">
+                <strong>Slot concepts:</strong> {currentSlot.concepts.join(", ")}
+              </div>
               <div className="trajectory-list">
                 {diagnosticProblems.map(({ problem, slot }, problemIndex) => (
                   <div className="trajectory-card" key={slot.id}>
@@ -282,6 +363,7 @@ export default function DiagnosticPage() {
                         {problemIndex < attempts.length ? "Done" : "Queued"}
                       </span>
                     </div>
+                    <div className="muted">{slot.stage}</div>
                     <div className="muted">{slot.strand}</div>
                     <div className="muted">{problem.id} · {problem.primaryConcept} · Difficulty {problem.difficulty}</div>
                   </div>
@@ -304,6 +386,97 @@ function Metric({ label, value }: { label: string; value: string }) {
   );
 }
 
+function AssessmentReportCard({ report }: { report: AssessmentReport }) {
+  return (
+    <div className="assessment-report-card">
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">Assessment Report v0</p>
+          <h3>{report.accuracy}% overall readiness</h3>
+        </div>
+        <div className="summary-score">{report.attempts}</div>
+      </div>
+      <div className="readiness-grid">
+        {report.stageReadiness.map((stage) => (
+          <div className="readiness-card" key={stage.stage}>
+            <div className={`readiness ${readinessClass(stage.status)}`}>{stage.status}</div>
+            <strong>{stage.stage}</strong>
+            <span>{stage.evidence}</span>
+          </div>
+        ))}
+      </div>
+      <div className="summary-grid">
+        <ReportList
+          emptyText="No focus concept detected yet."
+          items={report.focusConcepts.map((item) => `${item.concept} · ${Math.round(item.mastery * 100)}%`)}
+          title="Focus concepts"
+        />
+        <ReportList
+          emptyText="No prerequisite gap detected."
+          items={report.prerequisiteGaps.map((gap) => `${gap.concept} before ${gap.targetConcept}`)}
+          title="Prerequisite gaps"
+        />
+      </div>
+    </div>
+  );
+}
+
+function ReportList({
+  emptyText,
+  items,
+  title
+}: {
+  emptyText: string;
+  items: string[];
+  title: string;
+}) {
+  return (
+    <div>
+      <h3 className="summary-list-title">{title}</h3>
+      <div className="summary-list">
+        {items.length === 0 && <p className="muted">{emptyText}</p>}
+        {items.slice(0, 4).map((item) => (
+          <div className="summary-item" key={item}>
+            <strong>{item}</strong>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function readinessClass(status: AssessmentReport["stageReadiness"][number]["status"]) {
+  if (status === "Ready") return "readiness-ready";
+  if (status === "Developing") return "readiness-developing";
+  return "readiness-needs-review";
+}
+
+function isMultipleChoice(problem: Problem) {
+  return problem.answerType === "multiple_choice" && problem.choices.length > 0;
+}
+
+function normalizeChoices(choices: Problem["choices"]): AnswerChoice[] {
+  return choices.map((choice, index) => {
+    if (typeof choice !== "string") return choice;
+    const label = String.fromCharCode(65 + index);
+
+    return {
+      label,
+      value: choice,
+      text: choice
+    };
+  });
+}
+
 function secondsSince(startedAt: number) {
   return Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+}
+
+function simplifyPrerequisiteGaps(gaps: PrerequisiteGap[]) {
+  return gaps.slice(0, 4).map((gap) => ({
+    concept: gap.concept,
+    targetConcept: gap.targetConcept,
+    depth: gap.depth,
+    mastery: gap.mastery
+  }));
 }

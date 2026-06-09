@@ -1,0 +1,8 @@
+.DS_Store
+.next
+apps/web/.next
+node_modules
+datasets/textbooks
+datasets/staging/raw_extracts
+*.log
+*.pdf

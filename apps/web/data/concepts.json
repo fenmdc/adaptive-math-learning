@@ -1,0 +1,646 @@
+[
+  {
+    "id": "arith_natural_numbers",
+    "name": "Natural Numbers",
+    "domain": "Arithmetic",
+    "strand": "Number System",
+    "description": "Basic counting numbers",
+    "difficultyLevel": 1,
+    "importanceWeight": 1,
+    "prerequisites": [],
+    "amcRelevance": 0.7
+  },
+  {
+    "id": "arith_integers",
+    "name": "Integers",
+    "domain": "Arithmetic",
+    "strand": "Number System",
+    "description": "Positive and negative integers",
+    "difficultyLevel": 2,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_natural_numbers"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "arith_absolute_value",
+    "name": "Absolute Value",
+    "domain": "Arithmetic",
+    "strand": "Number System",
+    "description": "Distance from zero",
+    "difficultyLevel": 2,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "arith_integers"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "arith_fractions",
+    "name": "Fractions",
+    "domain": "Arithmetic",
+    "strand": "Number System",
+    "description": "Part-whole representation",
+    "difficultyLevel": 3,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_integers"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "arith_mixed_numbers",
+    "name": "Mixed Numbers",
+    "domain": "Arithmetic",
+    "strand": "Number System",
+    "description": "Whole number + fraction",
+    "difficultyLevel": 3,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "arith_fractions"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "arith_decimals",
+    "name": "Decimals",
+    "domain": "Arithmetic",
+    "strand": "Number System",
+    "description": "Base-10 fractional numbers",
+    "difficultyLevel": 3,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "arith_fractions"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "arith_ratios",
+    "name": "Ratios",
+    "domain": "Arithmetic",
+    "strand": "Relationships",
+    "description": "Comparison of quantities",
+    "difficultyLevel": 3,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_fractions"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "arith_proportions",
+    "name": "Proportions",
+    "domain": "Arithmetic",
+    "strand": "Relationships",
+    "description": "Equality of ratios",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_ratios"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "arith_percentages",
+    "name": "Percentages",
+    "domain": "Arithmetic",
+    "strand": "Relationships",
+    "description": "Per hundred representation",
+    "difficultyLevel": 3,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_ratios"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "arith_exponents",
+    "name": "Exponents",
+    "domain": "Arithmetic",
+    "strand": "Operations",
+    "description": "Repeated multiplication",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_integers"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "arith_roots",
+    "name": "Square Roots",
+    "domain": "Arithmetic",
+    "strand": "Operations",
+    "description": "Inverse of squaring",
+    "difficultyLevel": 5,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "arith_exponents"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "prealg_expressions",
+    "name": "Algebraic Expressions",
+    "domain": "Pre-Algebra",
+    "strand": "Symbols",
+    "description": "Variable expressions",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_fractions"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "prealg_simplification",
+    "name": "Simplification",
+    "domain": "Pre-Algebra",
+    "strand": "Symbols",
+    "description": "Reducing expressions",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "prealg_expressions"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "prealg_substitution",
+    "name": "Substitution",
+    "domain": "Pre-Algebra",
+    "strand": "Symbols",
+    "description": "Plug values into expressions",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "prealg_expressions"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "prealg_word_to_equation",
+    "name": "Word to Equation",
+    "domain": "Pre-Algebra",
+    "strand": "Modeling",
+    "description": "Translate text to math",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "prealg_expressions"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "alg_linear_equations",
+    "name": "Linear Equations",
+    "domain": "Algebra",
+    "strand": "Equations",
+    "description": "First-degree equations",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "prealg_expressions"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "alg_linear_inequalities",
+    "name": "Linear Inequalities",
+    "domain": "Algebra",
+    "strand": "Relations",
+    "description": "Ordering expressions",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_linear_equations"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "alg_systems",
+    "name": "Systems of Equations",
+    "domain": "Algebra",
+    "strand": "Equations",
+    "description": "Multiple equations",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_linear_equations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "alg_quadratics",
+    "name": "Quadratic Equations",
+    "domain": "Algebra",
+    "strand": "Polynomials",
+    "description": "Second-degree equations",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_linear_equations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "alg_factoring",
+    "name": "Factoring",
+    "domain": "Algebra",
+    "strand": "Polynomials",
+    "description": "Decomposition of expressions",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_linear_equations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "alg_functions",
+    "name": "Functions",
+    "domain": "Algebra",
+    "strand": "Mapping",
+    "description": "Input-output relationships",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_linear_equations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "alg_graphing",
+    "name": "Graphing Lines",
+    "domain": "Algebra",
+    "strand": "Coordinate",
+    "description": "Visual representation of equations",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_linear_equations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_angles",
+    "name": "Angles",
+    "domain": "Geometry",
+    "strand": "Fundamentals",
+    "description": "Angle relationships",
+    "difficultyLevel": 3,
+    "importanceWeight": 1,
+    "prerequisites": [],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "geo_triangles",
+    "name": "Triangles",
+    "domain": "Geometry",
+    "strand": "Shapes",
+    "description": "Three-sided figures",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_angles"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_triangle_angles",
+    "name": "Triangle Angle Sum",
+    "domain": "Geometry",
+    "strand": "Rules",
+    "description": "Sums to 180 degrees",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_triangles"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_pythagorean",
+    "name": "Pythagorean Theorem",
+    "domain": "Geometry",
+    "strand": "Measurement",
+    "description": "a²+b²=c²",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_triangles"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_area",
+    "name": "Area",
+    "domain": "Geometry",
+    "strand": "Measurement",
+    "description": "Surface measurement",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_triangles"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_perimeter",
+    "name": "Perimeter",
+    "domain": "Geometry",
+    "strand": "Measurement",
+    "description": "Boundary length",
+    "difficultyLevel": 3,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_triangles"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "geo_similarity",
+    "name": "Similarity",
+    "domain": "Geometry",
+    "strand": "Transformations",
+    "description": "Proportional shapes",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_triangles"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_congruence",
+    "name": "Congruence",
+    "domain": "Geometry",
+    "strand": "Transformations",
+    "description": "Identical shapes",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_triangles"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "geo_circles",
+    "name": "Circles",
+    "domain": "Geometry",
+    "strand": "Curves",
+    "description": "Points equidistant from center",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "geo_angles"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "geo_arc_length",
+    "name": "Arc Length",
+    "domain": "Geometry",
+    "strand": "Circles",
+    "description": "Curve segment length",
+    "difficultyLevel": 6,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "geo_circles"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "geo_coordinate_geometry",
+    "name": "Coordinate Geometry",
+    "domain": "Geometry",
+    "strand": "Plane",
+    "description": "Geometry on coordinate plane",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "alg_graphing"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "counting_principle",
+    "name": "Basic Counting",
+    "domain": "Counting & Probability",
+    "strand": "Counting",
+    "description": "Multiplication principle",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [],
+    "amcRelevance": 1
+  },
+  {
+    "id": "counting_permutations",
+    "name": "Permutations",
+    "domain": "Counting & Probability",
+    "strand": "Arrangements",
+    "description": "Ordered selections",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "counting_principle"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "counting_combinations",
+    "name": "Combinations",
+    "domain": "Counting & Probability",
+    "strand": "Selections",
+    "description": "Unordered selections",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "counting_permutations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "counting_probability",
+    "name": "Probability",
+    "domain": "Counting & Probability",
+    "strand": "Uncertainty",
+    "description": "Chance of events",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "counting_combinations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "counting_inclusion_exclusion",
+    "name": "Inclusion-Exclusion",
+    "domain": "Counting & Probability",
+    "strand": "Advanced Counting",
+    "description": "Overlapping sets",
+    "difficultyLevel": 7,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "counting_combinations"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "counting_pigeonhole",
+    "name": "Pigeonhole Principle",
+    "domain": "Counting & Probability",
+    "strand": "Logic",
+    "description": "Guaranteed distribution",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "counting_principle"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "nt_divisibility",
+    "name": "Divisibility",
+    "domain": "Number Theory",
+    "strand": "Properties",
+    "description": "Dividing integers",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "arith_integers"
+    ],
+    "amcRelevance": 0.9
+  },
+  {
+    "id": "nt_primes",
+    "name": "Prime Numbers",
+    "domain": "Number Theory",
+    "strand": "Structure",
+    "description": "Basic building blocks",
+    "difficultyLevel": 4,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "nt_divisibility"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "nt_factorization",
+    "name": "Prime Factorization",
+    "domain": "Number Theory",
+    "strand": "Structure",
+    "description": "Decompose into primes",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "nt_primes"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "nt_gcd",
+    "name": "GCD",
+    "domain": "Number Theory",
+    "strand": "Structure",
+    "description": "Greatest common divisor",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "nt_factorization"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "nt_lcm",
+    "name": "LCM",
+    "domain": "Number Theory",
+    "strand": "Structure",
+    "description": "Least common multiple",
+    "difficultyLevel": 5,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "nt_factorization"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "nt_modular",
+    "name": "Modular Arithmetic",
+    "domain": "Number Theory",
+    "strand": "Congruence",
+    "description": "Remainders system",
+    "difficultyLevel": 7,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "nt_divisibility"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "nt_remainders",
+    "name": "Remainder Problems",
+    "domain": "Number Theory",
+    "strand": "Congruence",
+    "description": "Division remainders",
+    "difficultyLevel": 6,
+    "importanceWeight": 1,
+    "prerequisites": [
+      "nt_modular"
+    ],
+    "amcRelevance": 1
+  },
+  {
+    "id": "stats_mean",
+    "name": "Mean",
+    "domain": "Statistics",
+    "strand": "Data",
+    "description": "Average value",
+    "difficultyLevel": 4,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "arith_decimals"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "stats_median",
+    "name": "Median",
+    "domain": "Statistics",
+    "strand": "Data",
+    "description": "Middle value",
+    "difficultyLevel": 4,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "stats_mean"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "stats_mode",
+    "name": "Mode",
+    "domain": "Statistics",
+    "strand": "Data",
+    "description": "Most frequent value",
+    "difficultyLevel": 4,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "stats_mean"
+    ],
+    "amcRelevance": 0.8
+  },
+  {
+    "id": "stats_range",
+    "name": "Range",
+    "domain": "Statistics",
+    "strand": "Data",
+    "description": "Spread of data",
+    "difficultyLevel": 4,
+    "importanceWeight": 0.9,
+    "prerequisites": [
+      "stats_mean"
+    ],
+    "amcRelevance": 0.8
+  }
+]

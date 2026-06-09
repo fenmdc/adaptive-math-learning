@@ -1,14 +1,21 @@
 import Link from "next/link";
+import type { AssessmentReport } from "../../shared/assessmentReport";
 import type { LearningPlan } from "../../shared/learningPlan";
 import type { SessionSummary } from "../summary";
 
 export default function SessionSummaryPanel({
+  assessmentReport,
   learningPlan,
   summary
 }: {
+  assessmentReport?: AssessmentReport;
   learningPlan?: LearningPlan;
   summary: SessionSummary;
 }) {
+  const planHref = assessmentReport?.practiceHref ?? learningPlan?.href;
+  const planTitle = assessmentReport?.recommendationTitle ?? learningPlan?.title;
+  const planReason = assessmentReport?.recommendationReason ?? learningPlan?.reason;
+
   return (
     <section className="panel full-panel">
       <div className="summary-header">
@@ -25,7 +32,7 @@ export default function SessionSummaryPanel({
         <span className="tag tag-teal">{formatConfidence(summary.averageConfidence)} confidence</span>
       </div>
 
-      {learningPlan && (
+      {(learningPlan || assessmentReport) && planHref && (
         <div className="learning-plan-card learning-plan-inline">
           <div>
             <div className="tag-row">
@@ -34,12 +41,15 @@ export default function SessionSummaryPanel({
               {learningPlan.targetMastery !== undefined && (
                 <span className="tag tag-gold">{Math.round(learningPlan.targetMastery * 100)}% mastery</span>
               )}
+              {assessmentReport?.targetConcepts.slice(0, 3).map((concept) => (
+                <span className="tag tag-teal" key={concept}>{concept}</span>
+              ))}
             </div>
-            <h3>{learningPlan.title}</h3>
-            <p>{learningPlan.reason}</p>
+            <h3>{planTitle}</h3>
+            <p>{planReason}</p>
           </div>
-          <Link className="button" href={learningPlan.href}>
-            Start recommended practice
+          <Link className="button" href={planHref}>
+            Start recommended mini session
           </Link>
         </div>
       )}

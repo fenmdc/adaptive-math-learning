@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Adaptive Math Learning">
+  <rect width="512" height="512" rx="112" fill="#fffdf8"/>
+  <path d="M98 352c42-74 78-112 124-112 34 0 55 19 79 49 18 22 34 39 58 39 25 0 43-18 62-58" fill="none" stroke="#115a8c" stroke-width="38" stroke-linecap="round"/>
+  <path d="M118 166h276" stroke="#1f8a83" stroke-width="36" stroke-linecap="round"/>
+  <path d="M118 230h150" stroke="#c47a2c" stroke-width="36" stroke-linecap="round"/>
+  <circle cx="366" cy="230" r="31" fill="#b33b48"/>
+  <circle cx="154" cy="352" r="24" fill="#1f8a83"/>
+</svg>

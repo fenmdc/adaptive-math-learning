@@ -1,9 +1,14 @@
+import type { AnswerChoice, Distractor } from "./index";
+
 export type AnswerCheckResult = {
   correct: boolean;
   comparable: boolean;
   normalizedExpected: string;
   normalizedSubmitted: string;
   reason: string;
+  selectedChoiceLabel?: string;
+  selectedChoiceValue?: string;
+  selectedDistractor?: Distractor;
 };
 
 const EPSILON = 1e-9;
@@ -69,6 +74,34 @@ export function checkAnswer(submitted: string, expected: string): AnswerCheckRes
   };
 }
 
+export function checkProblemAnswer(input: {
+  submitted: string;
+  expected: string;
+  choices?: Array<string | AnswerChoice>;
+  distractors?: Distractor[];
+}): AnswerCheckResult {
+  const choice = resolveChoice(input.submitted, input.choices ?? []);
+  const submittedAnswer = choice?.value ?? input.submitted;
+  const result = checkAnswer(submittedAnswer, input.expected);
+  const selectedDistractor = choice?.distractorId
+    ? input.distractors?.find((distractor) => distractor.id === choice.distractorId)
+    : input.distractors?.find((distractor) => normalizeAnswer(distractor.choiceLabel) === normalizeAnswer(choice?.label ?? ""));
+
+  if (!choice) return result;
+
+  return {
+    ...result,
+    selectedChoiceLabel: choice.label,
+    selectedChoiceValue: choice.value,
+    selectedDistractor,
+    reason: result.correct
+      ? `Choice ${choice.label} matches the expected answer.`
+      : selectedDistractor
+        ? `Choice ${choice.label} maps to distractor: ${selectedDistractor.misconception}.`
+        : `Choice ${choice.label} does not match the expected answer.`
+  };
+}
+
 export function normalizeAnswer(value: string) {
   return value
     .toLowerCase()
@@ -112,4 +145,31 @@ function parseCoefficient(value: string) {
   if (!value) return 1;
   if (value === "-") return -1;
   return Number(value);
+}
+
+function resolveChoice(submitted: string, choices: Array<string | AnswerChoice>) {
+  const normalizedSubmitted = normalizeAnswer(submitted);
+  if (!normalizedSubmitted || choices.length === 0) return undefined;
+
+  return choices
+    .map(normalizeChoice)
+    .find((choice) =>
+      normalizeAnswer(choice.label) === normalizedSubmitted ||
+      normalizeAnswer(choice.value) === normalizedSubmitted ||
+      normalizeAnswer(choice.text) === normalizedSubmitted
+    );
+}
+
+function normalizeChoice(choice: string | AnswerChoice): AnswerChoice {
+  if (typeof choice !== "string") return choice;
+
+  const match = choice.match(/^([A-E])[\).\s:-]+(.+)$/i);
+  const label = match?.[1]?.toUpperCase() ?? "";
+  const value = (match?.[2] ?? choice).trim();
+
+  return {
+    label,
+    value,
+    text: value
+  };
 }

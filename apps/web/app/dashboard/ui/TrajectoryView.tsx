@@ -19,6 +19,24 @@ export default function TrajectoryView({ logs }: { logs: SimulationLog[] }) {
 
             <div><strong>Problem:</strong> {l.problem}</div>
 
+            {l.taxonomy && (
+              <div className="muted">
+                Taxonomy: {l.taxonomy.layer} · {l.taxonomy.problemType} · {l.taxonomy.cognitiveTags.slice(0, 2).join(", ")}
+              </div>
+            )}
+
+            {l.selectedChoiceLabel && (
+              <div className="muted">
+                Choice: {l.selectedChoiceLabel} · {l.selectedChoiceValue}
+              </div>
+            )}
+
+            {l.selectedDistractor && (
+              <div className="muted">
+                Distractor: {l.selectedDistractor.misconception} · {l.selectedDistractor.cognitiveTag}
+              </div>
+            )}
+
             <div className="muted">
               Weak Concepts: {l.weakConcepts?.join(", ")}
             </div>
@@ -29,6 +47,15 @@ export default function TrajectoryView({ logs }: { logs: SimulationLog[] }) {
               </div>
             )}
 
+            {l.prerequisiteGaps && l.prerequisiteGaps.length > 0 && (
+              <div className="muted">
+                Prerequisite Gap: {l.prerequisiteGaps
+                  .slice(0, 2)
+                  .map((gap) => `${gap.concept} before ${gap.targetConcept}`)
+                  .join(", ")}
+              </div>
+            )}
+
             <div className="muted">
               Next: {l.nextProblem}
             </div>
@@ -36,6 +63,12 @@ export default function TrajectoryView({ logs }: { logs: SimulationLog[] }) {
             <div className="muted">
               Reason: {l.recommendationReason}
             </div>
+
+            {l.recommendationExplanation?.signals.length ? (
+              <div className="muted">
+                Recommendation Signals: {l.recommendationExplanation.signals.slice(0, 4).join(" · ")}
+              </div>
+            ) : null}
 
             {(l.responseTimeSeconds || l.confidence) && (
               <div className="muted">

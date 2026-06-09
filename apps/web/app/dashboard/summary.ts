@@ -1,5 +1,7 @@
 import type { SimulationLog } from "./types";
-import { initialAssessmentBlueprint } from "../diagnostic/initialAssessment";
+import problemsData from "../../data/problems.json";
+import type { Problem } from "../../../../packages/adaptive-engine";
+import { initialAssessmentBlueprint, selectDiagnosticProblems, type AssessmentSlot } from "../diagnostic/initialAssessment";
 
 export type ConceptSummary = {
   concept: string;
@@ -68,13 +70,18 @@ export function summarizeSession(logs: SimulationLog[]): SessionSummary {
 }
 
 export function summarizeDomainProfile(logs: SimulationLog[]): DomainProfile[] {
+  const slotById = Object.fromEntries(initialAssessmentBlueprint.map((slot) => [slot.id, slot]));
   const slotByProblem = Object.fromEntries(
-    initialAssessmentBlueprint.map((slot) => [slot.problemId, slot])
+    selectDiagnosticProblems(initialAssessmentBlueprint, problemsData as Problem[]).map((item) => [
+      item.problem.id,
+      item.slot
+    ])
   );
   const groups: Record<string, SimulationLog[]> = {};
 
   logs.forEach((log) => {
-    const domain = slotByProblem[log.problem]?.domain ?? inferDomain(log.concepts[0]);
+    const slot = getLogSlot(log, slotById, slotByProblem);
+    const domain = slot?.domain ?? inferDomain(log.concepts[0]);
     groups[domain] = [...(groups[domain] ?? []), log];
   });
 
@@ -85,7 +92,7 @@ export function summarizeDomainProfile(logs: SimulationLog[]): DomainProfile[] {
       const weakConcepts = unique(domainLogs.flatMap((log) => log.weakConcepts));
       const strands = unique(
         domainLogs
-          .map((log) => slotByProblem[log.problem]?.strand)
+          .map((log) => getLogSlot(log, slotById, slotByProblem)?.strand)
           .filter((strand): strand is string => Boolean(strand))
       );
       const latestMastery = domainLogs.at(-1)?.mastery ?? {};
@@ -105,6 +112,14 @@ export function summarizeDomainProfile(logs: SimulationLog[]): DomainProfile[] {
       };
     })
     .sort((a, b) => readinessRank(a.readiness) - readinessRank(b.readiness) || a.domain.localeCompare(b.domain));
+}
+
+function getLogSlot(
+  log: SimulationLog,
+  slotById: Record<string, AssessmentSlot>,
+  slotByProblem: Record<string, AssessmentSlot>
+) {
+  return (log.diagnosticSlot ? slotById[log.diagnosticSlot] : undefined) ?? slotByProblem[log.problem];
 }
 
 function countWeakConcepts(logs: SimulationLog[]) {

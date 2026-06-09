@@ -1,0 +1,34 @@
+[
+  {
+    "id": "aops_prealg_example_001",
+    "statement": "Solve x + 7 = 15.",
+    "answer": "8",
+    "choices": ["A:7", "B:8", "C:9", "D:22"],
+    "difficulty": 2,
+    "concepts": ["alg_linear_equations"],
+    "solution": "Subtract 7 from both sides: x=8.",
+    "source_file": "01-Prealgebra.pdf p.10",
+    "distractors": [
+      {
+        "label": "A",
+        "misconception": "inverse_operation_error",
+        "cognitiveTag": "inverse_operations",
+        "explanation": "Subtracts incorrectly."
+      },
+      {
+        "label": "C",
+        "misconception": "off_by_one",
+        "cognitiveTag": "fluency_precision",
+        "explanation": "Arithmetic slip."
+      },
+      {
+        "label": "D",
+        "misconception": "adds_instead_of_subtracts",
+        "cognitiveTag": "inverse_operations",
+        "explanation": "Adds 7 instead of subtracting."
+      }
+    ],
+    "hint_1": "Undo +7.",
+    "step_by_step": "x+7=15, so x=15-7=8."
+  }
+]

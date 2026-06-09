@@ -1,6 +1,9 @@
 import { exec } from "child_process";
 import open from "open";
 
+const WEB_PORT = 3017;
+const WEB_URL = `http://localhost:${WEB_PORT}`;
+
 function run(cmd: string) {
   return new Promise((res) => {
     const p = exec(cmd);
@@ -22,7 +25,7 @@ async function main() {
   await new Promise(r => setTimeout(r, 3000));
 
   console.log("🌐 Opening browser...");
-  await open("http://localhost:3000/dashboard");
+  await open(`${WEB_URL}/dashboard`);
 }
 
 main();

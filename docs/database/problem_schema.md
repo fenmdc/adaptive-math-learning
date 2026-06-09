@@ -144,6 +144,152 @@ Stores all mathematical problems.
 
 ---
 
+# 4.3 Multiple Choice + Distractor Schema v0
+
+AMC8 content should support both free response checking and multiple choice
+interaction. Multiple choice problems use `answer_type = multiple_choice` and
+store structured choices directly on the problem.
+
+## Choice Shape
+
+```json
+{
+  "answerType": "multiple_choice",
+  "answer": "8",
+  "choices": [
+    { "label": "A", "value": "6", "text": "6", "distractorId": "amc8_p001_d1" },
+    { "label": "B", "value": "8", "text": "8" }
+  ]
+}
+```
+
+The correct choice is the choice whose `value` normalizes to the problem
+`answer`. The answer checker accepts either the label (`B`) or the choice value
+(`8`).
+
+## Distractor Shape
+
+```json
+{
+  "distractors": [
+    {
+      "id": "amc8_p001_d1",
+      "choiceLabel": "A",
+      "value": "6",
+      "misconception": "unit_rate_inversion",
+      "cognitiveTag": "unit_rate_modeling",
+      "explanation": "Uses 3 apples per 2 dollars as if 12 apples cost 6 dollars."
+    }
+  ]
+}
+```
+
+Distractors are not yet a full cognitive model. They are v0 seeds that make
+future pattern modeling possible:
+
+- selected choice label/value is logged
+- selected distractor is logged when present
+- trajectory view shows misconception and cognitive tag
+- future reports can aggregate distractor patterns across sessions
+
+Current v0 coverage starts with a curated AMC8 subset. New AMC8 imports should
+prefer adding choices and distractors at ingestion time.
+
+---
+
+# 4.2 Problem Taxonomy v0
+
+The MVP now stores a product-facing taxonomy object on each problem. This is
+separate from fine-grained concept tags: concepts say what mathematical content
+is present, while taxonomy says what kind of learning signal the item provides.
+
+## JSON Shape
+
+```json
+{
+  "taxonomy": {
+    "version": "v0",
+    "layer": "Standard",
+    "stage": "Foundation",
+    "problemType": "proportional_reasoning",
+    "cognitiveTags": ["multiplicative_reasoning", "unit_rate_modeling"],
+    "estimatedTimeSeconds": 75
+  }
+}
+```
+
+## Layer
+
+| Layer | Meaning |
+|---|---|
+| Foundation | prerequisite fluency or first exposure |
+| Standard | core Pre-Algebra / middle-school competence |
+| Honors | stronger school-level extension |
+| AMC8 | competition-style AMC8 item |
+| AMC8 Stretch | harder AMC8-style transfer or multi-step item |
+
+## Stage
+
+| Stage | Product Role |
+|---|---|
+| Foundation | arithmetic and prerequisite fluency |
+| Bridge | Pre-Algebra symbolic bridge |
+| Algebra Readiness | Algebra 1 readiness signals |
+| AMC8 Transfer | geometry, number theory, counting, probability, and data transfer |
+
+## Problem Type
+
+Current v0 examples:
+
+- `computation`
+- `proportional_reasoning`
+- `expression_simplification`
+- `translation`
+- `equation_solving`
+- `function_evaluation`
+- `geometric_measurement`
+- `geometric_deduction`
+- `number_structure`
+- `modular_reasoning`
+- `probability_modeling`
+- `counting_modeling`
+- `data_reasoning`
+
+## Cognitive Tags
+
+Current v0 examples:
+
+- `fluency_precision`
+- `fraction_fluency`
+- `sign_error_risk`
+- `variable_meaning`
+- `language_to_symbol`
+- `inverse_operations`
+- `multi_step_planning`
+- `formula_selection`
+- `factor_structure`
+- `structure_not_bruteforce`
+- `sample_space_modeling`
+- `case_organization`
+- `data_position_reasoning`
+- `transfer_pressure`
+
+## Recommendation Use
+
+The adaptive engine now includes taxonomy in recommendation explanations:
+
+- priority: prerequisite gap, remediation, weak concept, fluency, or balanced
+- layer: Foundation / Standard / AMC8 / etc.
+- problem type
+- cognitive tag focus
+- recommendation signals used for debugging and product explanation
+
+This allows a recommendation to say not only “practice fractions,” but also
+“use a Standard computation item focused on fraction fluency before returning to
+linear equations.”
+
+---
+
 # 4.1 Curriculum Mapping
 
 # Table: problem_curriculum

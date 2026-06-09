@@ -4,12 +4,15 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import problemsData from "../../../data/problems.json";
 import type { Problem } from "../../../../../packages/adaptive-engine";
+import { AssessmentReport, buildAssessmentReport } from "../../shared/assessmentReport";
 import { buildLearningPlan, LearningPlan } from "../../shared/learningPlan";
 import type { StudentModel } from "../../shared/studentModel";
-import { readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, writeLearningPlan } from "../../shared/storage";
+import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, writeAssessmentReport, writeLearningPlan } from "../../shared/storage";
 import { summarizeDomainProfile, summarizeSession } from "../summary";
 import type { SimulationLog } from "../types";
+import ConceptGraphPanel from "./ConceptGraphPanel";
 import ConceptHeatmap from "./ConceptHeatmap";
+import CognitivePatternPanel from "./CognitivePatternPanel";
 import DomainProfilePanel from "./DomainProfilePanel";
 import MasteryChart from "./MasteryChart";
 import SessionSummaryPanel from "./SessionSummaryPanel";
@@ -20,6 +23,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
   const [practiceLogs, setPracticeLogs] = useState<SimulationLog[]>([]);
   const [diagnosticLogs, setDiagnosticLogs] = useState<SimulationLog[]>([]);
   const [storedLearningPlan, setStoredLearningPlan] = useState<LearningPlan | null>(null);
+  const [storedAssessmentReport, setStoredAssessmentReport] = useState<AssessmentReport | null>(null);
   const [studentModel, setStudentModel] = useState<StudentModel | null>(null);
   const [hydrated, setHydrated] = useState(false);
 
@@ -27,6 +31,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
     setPracticeLogs(readPracticeLogs());
     setDiagnosticLogs(readDiagnosticLogs());
     setStoredLearningPlan(readLearningPlan());
+    setStoredAssessmentReport(readAssessmentReport());
     setStudentModel(readStudentModel());
     setHydrated(true);
   }, []);
@@ -37,6 +42,8 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
   const hasUserLogs = diagnosticLogs.length > 0 || practiceLogs.length > 0;
   const generatedLearningPlan = hasUserLogs && logs.length > 0 ? buildLearningPlan(logs, problemsData as Problem[], studentModel) : null;
   const learningPlan = generatedLearningPlan ?? storedLearningPlan;
+  const generatedAssessmentReport = diagnosticLogs.length > 0 ? buildAssessmentReport(diagnosticLogs, studentModel) : null;
+  const assessmentReport = generatedAssessmentReport ?? storedAssessmentReport;
   const domainProfiles = summarizeDomainProfile(logs);
   const source =
     diagnosticLogs.length > 0 && practiceLogs.length > 0
@@ -56,6 +63,12 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
       writeLearningPlan(generatedLearningPlan);
     }
   }, [generatedLearningPlan]);
+
+  useEffect(() => {
+    if (generatedAssessmentReport) {
+      writeAssessmentReport(generatedAssessmentReport);
+    }
+  }, [generatedAssessmentReport]);
 
   return (
     <main className="app-shell">
@@ -94,9 +107,15 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
         </div>
       </div>
 
-      <SessionSummaryPanel learningPlan={learningPlan ?? undefined} summary={summary} />
+      {assessmentReport && <LatestAssessmentReport report={assessmentReport} />}
+
+      <SessionSummaryPanel assessmentReport={assessmentReport ?? undefined} learningPlan={learningPlan ?? undefined} summary={summary} />
 
       <StudentModelPanel model={studentModel} />
+
+      <CognitivePatternPanel logs={logs} />
+
+      <ConceptGraphPanel logs={logs} model={studentModel} />
 
       <DomainProfilePanel profiles={domainProfiles} />
 
@@ -109,4 +128,57 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
       </div>
     </main>
   );
+}
+
+function LatestAssessmentReport({ report }: { report: AssessmentReport }) {
+  return (
+    <section className="panel full-panel">
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">Latest Diagnostic Report</p>
+          <h2 className="panel-title">{report.recommendationTitle}</h2>
+        </div>
+        <div className="summary-score">{report.accuracy}%</div>
+      </div>
+      <p className="summary-recommendation">{report.recommendationReason}</p>
+      <div className="readiness-grid">
+        {report.stageReadiness.map((stage) => (
+          <div className="readiness-card" key={stage.stage}>
+            <div className={`readiness ${readinessClass(stage.status)}`}>{stage.status}</div>
+            <strong>{stage.stage}</strong>
+            <span>{stage.evidence}</span>
+          </div>
+        ))}
+      </div>
+      {report.cognitivePatterns.length > 0 && (
+        <div className="summary-grid">
+          {report.cognitivePatterns.slice(0, 2).map((pattern) => (
+            <div className="summary-item summary-item-focus" key={pattern.id}>
+              <div>
+                <strong>{pattern.label}</strong>
+                <div className="muted">
+                  {pattern.count} signal(s) · {pattern.concepts.join(", ") || "mixed concepts"}
+                </div>
+              </div>
+              <div className="summary-percent">{pattern.confidence}</div>
+            </div>
+          ))}
+        </div>
+      )}
+      <div className="learning-plan-actions report-actions">
+        <Link className="button" href={report.practiceHref}>
+          Start personalized mini session
+        </Link>
+        <Link className="button-secondary" href="/diagnostic">
+          Retake diagnostic
+        </Link>
+      </div>
+    </section>
+  );
+}
+
+function readinessClass(status: AssessmentReport["stageReadiness"][number]["status"]) {
+  if (status === "Ready") return "readiness-ready";
+  if (status === "Developing") return "readiness-developing";
+  return "readiness-needs-review";
 }

@@ -32,6 +32,7 @@ export type StudentAttemptInput = {
   problem: Problem;
   correct: boolean;
   mastery: Record<string, number>;
+  selectedDistractor?: Problem["distractors"] extends Array<infer T> ? T : never;
   responseTimeSeconds?: number;
   confidence?: number;
   answeredAt?: string;
@@ -100,6 +101,11 @@ export function updateStudentModel(
   });
 
   if (!input.correct) {
+    if (input.selectedDistractor) {
+      misconceptionCounts[input.selectedDistractor.misconception] =
+        (misconceptionCounts[input.selectedDistractor.misconception] ?? 0) + 1;
+    }
+
     input.problem.misconceptions.forEach((misconception) => {
       misconceptionCounts[misconception] = (misconceptionCounts[misconception] ?? 0) + 1;
     });
