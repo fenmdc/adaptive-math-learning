@@ -175,6 +175,7 @@ function buildCourseSummaries(items: Problem[]): CourseSummary[] {
 function courseOrder(course: string) {
   if (course === "Pre-Algebra") return 1;
   if (course === "AMC8") return 2;
+  if (course === "Algebra 1") return 3;
   return 99;
 }
 

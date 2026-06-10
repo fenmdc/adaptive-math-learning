@@ -174,7 +174,7 @@ export default function DiagnosticPage() {
             <p className="eyebrow">Adaptive Math Learning</p>
             <h1 className="page-title">Diagnostic Mode v2</h1>
             <p className="page-subtitle">
-              A 20-slot graph-aware assessment across Pre-Algebra, Algebra 1 readiness, and AMC8 transfer skills.
+              A {diagnosticProblemCount}-slot graph-aware assessment across Pre-Algebra, Algebra 1 readiness, and AMC8 transfer skills.
             </p>
           </div>
           <div className="nav-actions">

@@ -966,6 +966,11 @@ a {
   overflow-x: auto;
 }
 
+.chart-placeholder {
+  width: 860px;
+  height: 300px;
+}
+
 .summary-header {
   display: flex;
   align-items: flex-start;
@@ -1020,6 +1025,105 @@ a {
   margin-top: 4px;
   color: var(--aml-ink);
   font-size: 22px;
+}
+
+.mvp-coverage-grid,
+.coverage-split-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.mvp-coverage-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.coverage-split-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mvp-coverage-card {
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.mvp-coverage-card:hover {
+  border-color: var(--aml-blue);
+}
+
+.mvp-coverage-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mvp-coverage-card-head p {
+  margin: 0 0 4px;
+  color: var(--aml-ink-soft);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.mvp-coverage-card-head strong {
+  display: block;
+  color: var(--aml-ink);
+  font-size: 32px;
+  line-height: 1;
+}
+
+.mvp-coverage-card-head span {
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: var(--aml-teal-soft);
+  color: var(--aml-teal);
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.mvp-coverage-card > p {
+  margin: 0;
+  color: var(--aml-ink-soft);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.coverage-meter {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8eef2;
+}
+
+.coverage-meter-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--aml-gold), var(--aml-teal));
+}
+
+.coverage-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.coverage-card-meta span {
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: #eef5f9;
+  color: var(--aml-blue-dark);
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .summary-grid {
@@ -1259,6 +1363,8 @@ a {
   .metric-grid,
   .content-grid,
   .graph-stat-grid,
+  .mvp-coverage-grid,
+  .coverage-split-grid,
   .scope-grid,
   .quality-grid,
   .product-action-grid,

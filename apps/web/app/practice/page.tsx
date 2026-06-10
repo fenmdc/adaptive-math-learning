@@ -1,7 +1,8 @@
 "use client";
 
-import { FormEvent, useEffect, useMemo, useState } from "react";
+import { FormEvent, Suspense, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import conceptsData from "../../data/concepts.json";
 import explanationsData from "../../data/exampleExplanations.json";
 import problemsData from "../../data/problems.json";
@@ -79,8 +80,19 @@ const defaultScope: ScopeFilters = {
 };
 
 export default function PracticePage() {
+  return (
+    <Suspense fallback={<PracticeLoading />}>
+      <PracticeClient />
+    </Suspense>
+  );
+}
+
+function PracticeClient() {
+  const searchParams = useSearchParams();
+  const searchKey = searchParams.toString();
+  const urlScope = useMemo(() => scopeFromSearchParams(searchParams), [searchKey]);
   const [studentState, setStudentState] = useState<StudentState>(initialState);
-  const [scope, setScope] = useState<ScopeFilters>(defaultScope);
+  const [scope, setScope] = useState<ScopeFilters>(urlScope);
   const [answer, setAnswer] = useState("");
   const [attempts, setAttempts] = useState<AttemptLog[]>([]);
   const [feedback, setFeedback] = useState<AttemptLog | null>(null);
@@ -97,13 +109,14 @@ export default function PracticePage() {
 
   useEffect(() => {
     setLatestStudentModel(readStudentModel());
+  }, []);
 
-    const urlScope = scopeFromLocation();
+  useEffect(() => {
     if (!scopesEqual(scope, urlScope)) {
       setScope(urlScope);
       restartWithScope(urlScope);
     }
-  }, []);
+  }, [urlScope]);
 
   function restartWithScope(nextScope = scope) {
     const nextProblems = filterProblems(problems, nextScope);
@@ -872,6 +885,20 @@ export default function PracticePage() {
   );
 }
 
+function PracticeLoading() {
+  return (
+    <main className="app-shell">
+      <div className="app-container">
+        <section className="panel">
+          <p className="eyebrow">Adaptive Math Learning</p>
+          <h1 className="page-title">Loading Practice</h1>
+          <p className="page-subtitle">Preparing the selected practice range.</p>
+        </section>
+      </div>
+    </main>
+  );
+}
+
 function isMultipleChoice(problem: Problem) {
   return problem.answerType === "multiple_choice" && problem.choices.length > 0;
 }
@@ -920,9 +947,9 @@ function filterProblems(items: Problem[], scope: ScopeFilters) {
   }
 
   if (scope.mode === "plan") {
-    const conceptProblems = items
+    const eligibleProblems = items.filter((problem) => !(scope.autoGradableOnly && !problem.isAutoGradable));
+    const conceptProblems = eligibleProblems
       .filter((problem) => {
-        if (scope.autoGradableOnly && !problem.isAutoGradable) return false;
         if (scope.planConcepts.length === 0) return true;
 
         return problem.concepts.some((concept) => scope.planConcepts.includes(concept));
@@ -938,8 +965,16 @@ function filterProblems(items: Problem[], scope: ScopeFilters) {
           a.id.localeCompare(b.id)
         );
       });
+    const prerequisiteFallback = eligibleProblems.filter((problem) =>
+      problem.prerequisiteConcepts.some((concept) => scope.planConcepts.includes(concept))
+    );
+    const fallbackProblems = conceptProblems.length > 0
+      ? conceptProblems
+      : prerequisiteFallback.length > 0
+        ? prerequisiteFallback
+        : eligibleProblems;
 
-    return conceptProblems.slice(0, scope.maxItems || conceptProblems.length);
+    return fallbackProblems.slice(0, scope.maxItems || fallbackProblems.length);
   }
 
   const minDifficulty = Math.min(scope.minDifficulty, scope.maxDifficulty);
@@ -1013,11 +1048,7 @@ function layerRank(layer: string | undefined) {
   return 5;
 }
 
-function scopeFromLocation(): ScopeFilters {
-  if (typeof window === "undefined") return defaultScope;
-
-  const searchParams = new URLSearchParams(window.location.search);
-
+function scopeFromSearchParams(searchParams: { get: (key: string) => string | null }): ScopeFilters {
   return {
     mode: getMode(searchParams.get("mode")),
     reviewConcepts: searchParams.get("mode") === "review" ? splitConcepts(searchParams.get("concepts")) : [],

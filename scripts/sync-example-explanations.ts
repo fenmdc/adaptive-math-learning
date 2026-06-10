@@ -16,7 +16,8 @@ const TARGET_PATH = path.join(process.cwd(), "apps/web/data/exampleExplanations.
 
 function main() {
   const rows = readCsv<ExplanationRow>(SOURCE_PATH);
-  const explanations = Object.fromEntries(
+  const existing = readExistingExplanations();
+  const incoming = Object.fromEntries(
     rows
       .filter((row) => row.problem_id)
       .map((row) => [
@@ -31,9 +32,28 @@ function main() {
         }
       ])
   );
+  const explanations = { ...existing, ...incoming };
 
   fs.writeFileSync(TARGET_PATH, `${JSON.stringify(explanations, null, 2)}\n`);
-  console.log(`Synced ${Object.keys(explanations).length} explanation template(s) to apps/web/data/exampleExplanations.json`);
+  console.log(
+    `Synced ${Object.keys(incoming).length} incoming explanation template(s); ${Object.keys(explanations).length} total in apps/web/data/exampleExplanations.json`
+  );
+}
+
+function readExistingExplanations() {
+  if (!fs.existsSync(TARGET_PATH)) return {};
+
+  return JSON.parse(fs.readFileSync(TARGET_PATH, "utf8")) as Record<
+    string,
+    {
+      hint1: string;
+      hint2: string;
+      stepByStep: string;
+      commonMistake: string;
+      whyCorrect: string;
+      variantIdea: string;
+    }
+  >;
 }
 
 function readCsv<T extends Record<string, string>>(filePath: string): T[] {

@@ -13,6 +13,9 @@ export type AssessmentSlot = {
   difficultyRange: [number, number];
   fallbackProblemId: string;
   courseFocus?: string;
+  preferredSourceCollection?: string;
+  chapterFocus?: string;
+  taxonomyStageFocus?: AssessmentStage;
 };
 
 export type SelectedAssessmentItem = {
@@ -31,8 +34,11 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     reason: "Sign errors can look like algebra gaps, so this is the first prerequisite anchor.",
     concepts: ["arith_integers"],
     difficultyRange: [1, 2],
-    fallbackProblemId: "amc8_p028",
-    courseFocus: "AMC8"
+    fallbackProblemId: "ise_devmath_integer_001",
+    courseFocus: "Pre-Algebra",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-02-integers",
+    taxonomyStageFocus: "Foundation"
   },
   {
     id: "fraction-decimal-fluency",
@@ -43,8 +49,10 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     reason: "Fractions and decimals sit underneath ratios, probability, slope, and percent work.",
     concepts: ["arith_fractions", "arith_decimals"],
     difficultyRange: [2, 3],
-    fallbackProblemId: "amc8_p051",
-    courseFocus: "AMC8"
+    fallbackProblemId: "ise_devmath_dec_001",
+    courseFocus: "Pre-Algebra",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    taxonomyStageFocus: "Foundation"
   },
   {
     id: "ratio-proportion",
@@ -55,8 +63,11 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     reason: "Proportional thinking connects Pre-Algebra, linear functions, geometry scale, and AMC8 word problems.",
     concepts: ["arith_ratios", "arith_proportions"],
     difficultyRange: [2, 3],
-    fallbackProblemId: "amc8_p021",
-    courseFocus: "AMC8"
+    fallbackProblemId: "ise_devmath_ratio_001",
+    courseFocus: "Pre-Algebra",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-06-ratio-proportion",
+    taxonomyStageFocus: "Foundation"
   },
   {
     id: "percent-reasoning",
@@ -67,8 +78,11 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     reason: "Percent mistakes often reveal fraction, ratio, or decimal conversion gaps.",
     concepts: ["arith_percentages", "arith_ratios"],
     difficultyRange: [2, 3],
-    fallbackProblemId: "amc8_p002",
-    courseFocus: "AMC8"
+    fallbackProblemId: "ise_devmath_percent_001",
+    courseFocus: "Pre-Algebra",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-07-percents",
+    taxonomyStageFocus: "Foundation"
   },
   {
     id: "exponent-sense",
@@ -79,8 +93,11 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     reason: "Exponent sense supports number theory, scientific notation, and later algebraic rules.",
     concepts: ["arith_exponents"],
     difficultyRange: [2, 3],
-    fallbackProblemId: "amc8_p009",
-    courseFocus: "AMC8"
+    fallbackProblemId: "ise_devmath_sci_001",
+    courseFocus: "Pre-Algebra",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-13-exponents-polynomials",
+    taxonomyStageFocus: "Algebra Readiness"
   },
   {
     id: "substitution",
@@ -139,8 +156,11 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     reason: "One-step equations tell us whether remediation should stay pre-algebraic or move forward.",
     concepts: ["alg_linear_equations"],
     difficultyRange: [2, 2],
-    fallbackProblemId: "amc8_p003",
-    courseFocus: "Pre-Algebra"
+    fallbackProblemId: "ise_devmath_eq1_001",
+    courseFocus: "Algebra 1",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-03-equations",
+    taxonomyStageFocus: "Algebra Readiness"
   },
   {
     id: "two-step-equations",
@@ -149,10 +169,13 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     strand: "Two-step equations",
     goal: "Check whether equation solving survives two sequential inverse operations.",
     reason: "Two-step equations expose sign, order, and arithmetic gaps more clearly than one-step items.",
-    concepts: ["alg_linear_equations", "arith_integers"],
+    concepts: ["alg_linear_equations", "prealg_simplification", "arith_integers"],
     difficultyRange: [3, 4],
-    fallbackProblemId: "amc8_p014",
-    courseFocus: "Pre-Algebra"
+    fallbackProblemId: "ise_devmath_eq2_001",
+    courseFocus: "Algebra 1",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-03-equations",
+    taxonomyStageFocus: "Algebra Readiness"
   },
   {
     id: "function-evaluation",
@@ -161,22 +184,58 @@ export const initialAssessmentBlueprint: AssessmentSlot[] = [
     strand: "Functions",
     goal: "Check function notation or rule evaluation.",
     reason: "Functions are the bridge from equation procedures into Algebra 1 structure.",
-    concepts: ["alg_functions", "prealg_substitution"],
-    difficultyRange: [3, 4],
-    fallbackProblemId: "amc8_topic_p014",
-    courseFocus: "AMC8"
+    concepts: ["alg_functions", "alg_graphing", "prealg_substitution"],
+    difficultyRange: [2, 3],
+    fallbackProblemId: "ise_devmath_line_001",
+    courseFocus: "Algebra 1",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-11-graphing-lines",
+    taxonomyStageFocus: "Algebra Readiness"
   },
   {
     id: "inequality-graphing-readiness",
     stage: "Algebra Readiness",
     domain: "Algebra",
-    strand: "Inequalities and graphing",
-    goal: "Probe readiness for Algebra 1 extensions beyond equations.",
-    reason: "A light stretch item separates equation-only fluency from broader Algebra 1 readiness.",
-    concepts: ["alg_linear_inequalities", "alg_graphing", "alg_systems"],
-    difficultyRange: [4, 5],
-    fallbackProblemId: "amc8_p067",
-    courseFocus: "Pre-Algebra"
+    strand: "Linear inequalities",
+    goal: "Probe readiness for Algebra 1 inequality solving.",
+    reason: "Inequality items reveal whether inverse operations are being applied with attention to relation direction.",
+    concepts: ["alg_linear_inequalities", "alg_linear_equations"],
+    difficultyRange: [3, 4],
+    fallbackProblemId: "ise_devmath_ineq_001",
+    courseFocus: "Algebra 1",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-10-linear-equations-inequalities",
+    taxonomyStageFocus: "Algebra Readiness"
+  },
+  {
+    id: "systems-structure",
+    stage: "Algebra Readiness",
+    domain: "Algebra",
+    strand: "Systems of equations",
+    goal: "Check whether two linear relationships can be combined structurally.",
+    reason: "Systems are a higher Algebra 1 readiness signal: students must see cancellation or structure, not just solve one equation.",
+    concepts: ["alg_systems", "alg_linear_equations"],
+    difficultyRange: [4, 4],
+    fallbackProblemId: "ise_devmath_system_001",
+    courseFocus: "Algebra 1",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-12-systems",
+    taxonomyStageFocus: "Algebra Readiness"
+  },
+  {
+    id: "factoring-structure",
+    stage: "Algebra Readiness",
+    domain: "Algebra",
+    strand: "Factoring and quadratics",
+    goal: "Check whether quadratic structure can be recognized from sum-product relationships.",
+    reason: "Factoring is an early warning signal for whether Algebra 1 readiness has moved beyond linear procedures.",
+    concepts: ["alg_factoring", "alg_quadratics"],
+    difficultyRange: [4, 4],
+    fallbackProblemId: "ise_devmath_factor_001",
+    courseFocus: "Algebra 1",
+    preferredSourceCollection: "ise_developmental_math_2e",
+    chapterFocus: "ise-devmath-14-factoring",
+    taxonomyStageFocus: "Algebra Readiness"
   },
   {
     id: "area-perimeter",
@@ -337,6 +396,9 @@ function scoreProblemForSlot(problem: Problem, slot: AssessmentSlot, usedProblem
   score += inDifficultyRange ? 30 : Math.max(0, 10 - difficultyDistance * 10);
   score += problem.id === slot.fallbackProblemId ? 10 : 0;
   score += problem.curriculum.course === slot.courseFocus ? 8 : 0;
+  score += problem.curriculum.sourceCollection === slot.preferredSourceCollection ? 36 : 0;
+  score += problem.curriculum.chapter === slot.chapterFocus ? 24 : 0;
+  score += problem.taxonomy?.stage === slot.taxonomyStageFocus ? 14 : 0;
   score += usedProblemIds.has(problem.id) ? -80 : 10;
 
   return score;
@@ -349,5 +411,12 @@ function buildSelectionReason(slot: AssessmentSlot, problem: Problem) {
     ? `difficulty ${minDifficulty}`
     : `difficulty ${minDifficulty}-${maxDifficulty}`;
 
-  return `Selected for ${matchedConcepts.join(", ")} at ${difficultyText}.`;
+  const sourceText = problem.curriculum.sourceCollection === slot.preferredSourceCollection
+    ? ` from ${problem.curriculum.sourceCollection}`
+    : "";
+  const chapterText = problem.curriculum.chapter === slot.chapterFocus
+    ? ` in ${problem.curriculum.chapterTitle}`
+    : "";
+
+  return `Selected${sourceText}${chapterText} for ${matchedConcepts.join(", ")} at ${difficultyText}.`;
 }

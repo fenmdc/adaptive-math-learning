@@ -15,6 +15,7 @@ import ConceptHeatmap from "./ConceptHeatmap";
 import CognitivePatternPanel from "./CognitivePatternPanel";
 import DomainProfilePanel from "./DomainProfilePanel";
 import MasteryChart from "./MasteryChart";
+import ProblemBankCoveragePanel from "./ProblemBankCoveragePanel";
 import SessionSummaryPanel from "./SessionSummaryPanel";
 import StudentModelPanel from "./StudentModelPanel";
 import TrajectoryView from "./TrajectoryView";
@@ -114,6 +115,8 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
       <StudentModelPanel model={studentModel} />
 
       <CognitivePatternPanel logs={logs} />
+
+      <ProblemBankCoveragePanel />
 
       <ConceptGraphPanel logs={logs} model={studentModel} />
 

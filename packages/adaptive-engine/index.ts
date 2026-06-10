@@ -394,6 +394,44 @@ function buildRecommendationSignals(
   ].filter(Boolean);
 }
 
+function buildFallbackRecommendation(
+  problem: Problem,
+  weakConcepts: string[],
+  fluencyConcepts: string[],
+  prerequisiteGaps: PrerequisiteGap[],
+  remediation: boolean,
+  state: StudentState
+): Recommendation {
+  const prerequisiteGap = prerequisiteGaps[0];
+  const targetConcept =
+    prerequisiteGap?.concept ??
+    weakConcepts.find((concept) => problem.concepts.includes(concept)) ??
+    fluencyConcepts.find((concept) => problem.concepts.includes(concept)) ??
+    problem.concepts[0];
+  const targetMastery = targetConcept ? state.mastery[targetConcept] ?? 0.5 : undefined;
+  const scored: ScoredProblem = {
+    problem,
+    score: 0,
+    matchedWeakConcepts: problem.concepts.filter((concept) => weakConcepts.includes(concept)),
+    matchedFluencyConcepts: problem.concepts.filter((concept) => fluencyConcepts.includes(concept)),
+    matchedPrerequisites: problem.prerequisiteConcepts.filter((concept) => weakConcepts.includes(concept)),
+    matchedPrerequisiteGaps: prerequisiteGaps.filter((gap) => problem.concepts.includes(gap.concept)),
+    difficultyGap: 0,
+    averageMastery: averageMastery(state, problem.concepts)
+  };
+  const explanation = buildRecommendationExplanation(scored, targetConcept, targetMastery, prerequisiteGap, remediation);
+
+  return {
+    problem,
+    reason: explanation.summary,
+    explanation,
+    score: scored.score,
+    targetConcept,
+    targetMastery,
+    prerequisiteGap
+  };
+}
+
 export class AdaptiveEngine {
   problems: Problem[];
   graph: ConceptGraph;
@@ -416,6 +454,31 @@ export class AdaptiveEngine {
 
     // 3. remediation check
     const remediation = shouldRemediate(state);
+
+    if (this.problems.length === 0) {
+      const recommendation = buildFallbackRecommendation(attempt.problem, weak, fluency, prerequisiteGaps, remediation, state);
+
+      return {
+        next_problem: {
+          ...attempt.problem,
+          recommendationMeta: {
+            reason: recommendation.reason,
+            explanation: recommendation.explanation,
+            score: recommendation.score,
+            targetConcept: recommendation.targetConcept,
+            targetMastery: recommendation.targetMastery,
+            prerequisiteGap: recommendation.prerequisiteGap?.concept,
+            prerequisiteTarget: recommendation.prerequisiteGap?.targetConcept
+          }
+        },
+        updated_state: state,
+        weak_concepts: weak,
+        fluency_concepts: fluency,
+        prerequisite_gaps: prerequisiteGaps,
+        remediation,
+        recommendation
+      };
+    }
 
     // 4. select problem
     const recommendation = selectNextProblem(state, this.problems, weak, fluency, prerequisiteGaps, remediation);
