@@ -2,6 +2,7 @@ import Link from "next/link";
 import explanationsData from "../../../data/exampleExplanations.json";
 import problemsData from "../../../data/problems.json";
 import type { Problem } from "../../../../../packages/adaptive-engine";
+import { buildContentPipelineReport } from "../../shared/contentPipeline";
 import { buildExplanationReviewQueue, explanationQualityPercent, summarizeExplanationQuality, type ExampleExplanation } from "../../shared/explanationQuality";
 import { buildProblemQualityAudit, percent } from "../../shared/problemQuality";
 
@@ -38,6 +39,15 @@ export default function ProblemBankCoveragePanel() {
   const summary = summarizeProblemBank(problems, explanations);
   const reviewQueue = buildExplanationReviewQueue(problems, explanations);
   const audit = buildProblemQualityAudit(problems, explanations);
+  const pipeline = buildContentPipelineReport({
+    problems,
+    explanations,
+    staging: {
+      problemRows: 0,
+      distractorRows: 0,
+      explanationRows: 0
+    }
+  });
 
   return (
     <section className="panel full-panel">
@@ -52,6 +62,8 @@ export default function ProblemBankCoveragePanel() {
       <p className="summary-recommendation">
         The active bank now supports the target MVP path from Pre-Algebra to AMC8 transfer and Algebra 1 readiness, with {summary.explanationRate}% explanation coverage, {summary.explanationQuality.averageScore}/100 average explanation quality, {summary.autoGradableRate}% auto-gradable coverage, and a {audit.readinessScore}/100 quality readiness score.
       </p>
+
+      <ContentPipelinePanel pipeline={pipeline} />
 
       <div className="graph-stat-grid">
         <CoverageStat label="Readiness" value={`${audit.readinessScore}/100`} />
@@ -101,6 +113,42 @@ export default function ProblemBankCoveragePanel() {
 
       <ExplanationReviewQueuePanel queue={reviewQueue} />
     </section>
+  );
+}
+
+function ContentPipelinePanel({
+  pipeline
+}: {
+  pipeline: ReturnType<typeof buildContentPipelineReport>;
+}) {
+  return (
+    <div className="content-pipeline-panel">
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">Content Pipeline v1</p>
+          <h3 className="panel-title">Source, quality, and diagnostic gates</h3>
+          <p className="muted">{pipeline.summary}</p>
+        </div>
+        <div className={`summary-score pipeline-status-${pipeline.status.toLowerCase().replace(/\s+/g, "-")}`}>
+          {pipeline.readinessScore}
+        </div>
+      </div>
+      <div className="graph-stat-grid">
+        <CoverageStat label="Pipeline" value={pipeline.status} />
+        <CoverageStat label="Diagnostic Slots" value={`${pipeline.diagnosticGate.selectedSlots}/${pipeline.diagnosticGate.totalSlots}`} />
+        <CoverageStat label="Sources" value={String(pipeline.sourceCollections.length)} />
+        <CoverageStat label="Staging" value={String(pipeline.staging.problemRows)} />
+      </div>
+      <div className="quality-action-grid">
+        {pipeline.nextActions.slice(0, 3).map((action) => (
+          <div className={`quality-action-card quality-priority-${action.priority}`} key={action.title}>
+            <span>{action.priority}</span>
+            <strong>{action.title}</strong>
+            <p>{action.reason}</p>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

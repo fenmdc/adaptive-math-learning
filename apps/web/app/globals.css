@@ -2219,6 +2219,28 @@ a {
   background: #fbfefd;
 }
 
+.content-pipeline-panel {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0;
+  border: 1px solid rgba(31, 138, 131, 0.22);
+  border-radius: 8px;
+  padding: 16px;
+  background: #fbf7ed;
+}
+
+.pipeline-status-ready {
+  color: var(--aml-green);
+}
+
+.pipeline-status-watch {
+  color: var(--aml-gold);
+}
+
+.pipeline-status-needs-repair {
+  color: var(--aml-red);
+}
+
 .quality-action-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

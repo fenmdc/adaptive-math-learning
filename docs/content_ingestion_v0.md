@@ -1,9 +1,45 @@
-# Content Ingestion Pipeline v0
+# Content Pipeline
 
-Status: MVP staging workflow
+Status: Content Pipeline v1
 
 This workflow prepares local math material for the adaptive graph learning
 system through a reviewable staging step before app data is updated.
+
+## Pipeline Quality Gate
+
+Run the full content pipeline gate before committing a new content batch:
+
+```bash
+npm run quality:pipeline
+```
+
+The v1 gate summarizes:
+
+- production problem quality
+- explanation completeness
+- multiple-choice distractor readiness
+- remote asset dependency
+- thin chapter and concept coverage
+- diagnostic calibration slot coverage
+- current staging row counts
+- source collection coverage
+
+It writes:
+
+`datasets/reports/content-pipeline-v1.md`
+
+Recommended verification stack:
+
+```bash
+npm run validate:staging
+npm run quality:pipeline
+npm run quality:problems
+npm run quality:diagnostic
+npm run build
+```
+
+`validate:staging` is allowed to produce warnings during drafting. Promotion
+should wait until errors are zero and the target batch has been reviewed.
 
 ## Source Material
 
@@ -75,7 +111,7 @@ staging_sample_001,A,7,inverse_operation_error,inverse_operations,"Subtracts too
 
 Every wrong choice should eventually have a distractor row.
 
-## Validation
+## Staging Validation
 
 Run:
 
