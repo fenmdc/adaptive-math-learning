@@ -45,7 +45,10 @@ Open the deployed URL and verify:
 - Practice, Diagnostic, and Dashboard load
 - Student model and practice logs persist locally in the browser
 
-## Current Caveat
+## Local-First Persistence
 
-The student model is currently browser-local. Different Macs will not share
-learning history until account sync or export/import is added.
+The student model is browser-local by default. For Product v0.3, `/login`
+includes a `Persistence & Sync v0` panel that can export and import a JSON
+backup across Macs.
+
+See `docs/clean_setup_guide.md` for the clean install and restore workflow.

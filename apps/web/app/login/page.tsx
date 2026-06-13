@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import {
   createAccount,
@@ -11,6 +11,13 @@ import {
   updateAccount,
   type LocalStudentAccount
 } from "../shared/accounts";
+import {
+  clearActiveLearningData,
+  downloadLearningDataBackup,
+  restoreLearningDataBackup,
+  summarizeCurrentLearningData,
+  type PortableDataSummary
+} from "../shared/portableStorage";
 
 type AccountFormState = {
   accent: string;
@@ -39,6 +46,10 @@ export default function LoginPage() {
   const [editingId, setEditingId] = useState("");
   const [editForm, setEditForm] = useState<AccountFormState>(defaultForm);
   const [pendingDeleteId, setPendingDeleteId] = useState("");
+  const [pendingClearData, setPendingClearData] = useState(false);
+  const [portableSummary, setPortableSummary] = useState<PortableDataSummary | null>(null);
+  const [portableStatus, setPortableStatus] = useState("");
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
     refreshAccounts();
@@ -47,6 +58,7 @@ export default function LoginPage() {
   function refreshAccounts() {
     setAccounts(readAccounts());
     setActiveAccountState(readActiveAccount());
+    setPortableSummary(summarizeCurrentLearningData());
   }
 
   function handleCreateAccount(event: FormEvent<HTMLFormElement>) {
@@ -86,6 +98,48 @@ export default function LoginPage() {
     deleteAccount(accountId);
     if (editingId === accountId) setEditingId("");
     if (pendingDeleteId === accountId) setPendingDeleteId("");
+    refreshAccounts();
+  }
+
+  function handleExportData() {
+    const summary = downloadLearningDataBackup();
+    if (!summary) return;
+
+    setPortableSummary(summary);
+    setPortableStatus(`Backup created with ${summary.accountCount} profile(s), ${summary.practiceAttempts} practice attempt(s), and ${summary.diagnosticAttempts} diagnostic attempt(s).`);
+  }
+
+  function handleImportClick() {
+    fileInputRef.current?.click();
+  }
+
+  function handleImportData(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+
+    reader.onload = () => {
+      try {
+        const summary = restoreLearningDataBackup(String(reader.result ?? ""));
+        setPortableSummary(summary);
+        setPortableStatus(`Backup restored: ${summary?.accountCount ?? 0} profile(s), ${summary?.practiceAttempts ?? 0} practice attempt(s), and ${summary?.diagnosticAttempts ?? 0} diagnostic attempt(s).`);
+        setPendingClearData(false);
+        refreshAccounts();
+      } catch (error) {
+        setPortableStatus(error instanceof Error ? error.message : "Backup restore failed.");
+      } finally {
+        event.target.value = "";
+      }
+    };
+
+    reader.readAsText(file);
+  }
+
+  function handleClearActiveData() {
+    clearActiveLearningData();
+    setPendingClearData(false);
+    setPortableStatus("Current profile learning data was cleared on this device.");
     refreshAccounts();
   }
 
@@ -259,6 +313,60 @@ export default function LoginPage() {
               )}
             </div>
           </div>
+
+          <section className="account-portability-card">
+            <div>
+              <p className="eyebrow">Persistence & Sync v0</p>
+              <h2 className="panel-title">Learning data backup</h2>
+              <p className="muted">
+                Move local profiles, student models, diagnostic reports, practice logs, and learning plans between Macs with a JSON backup.
+              </p>
+            </div>
+            <div className="portability-metrics">
+              <div>
+                <span>Profiles</span>
+                <strong>{portableSummary?.accountCount ?? 0}</strong>
+              </div>
+              <div>
+                <span>Practice</span>
+                <strong>{portableSummary?.practiceAttempts ?? 0}</strong>
+              </div>
+              <div>
+                <span>Diagnostic</span>
+                <strong>{portableSummary?.diagnosticAttempts ?? 0}</strong>
+              </div>
+            </div>
+            <div className="login-actions">
+              <button className="button" onClick={handleExportData} type="button">
+                Export backup
+              </button>
+              <button className="button-secondary" onClick={handleImportClick} type="button">
+                Import backup
+              </button>
+              {pendingClearData ? (
+                <>
+                  <button className="button-secondary account-danger-button" onClick={handleClearActiveData} type="button">
+                    Confirm clear
+                  </button>
+                  <button className="button-secondary" onClick={() => setPendingClearData(false)} type="button">
+                    Keep data
+                  </button>
+                </>
+              ) : (
+                <button className="button-secondary" onClick={() => setPendingClearData(true)} type="button">
+                  Clear current data
+                </button>
+              )}
+              <input
+                accept="application/json"
+                className="hidden-file-input"
+                onChange={handleImportData}
+                ref={fileInputRef}
+                type="file"
+              />
+            </div>
+            {portableStatus && <p className="schema-note">{portableStatus}</p>}
+          </section>
 
           <div className="login-actions account-bottom-actions">
             <Link className="button-secondary" href="/">
