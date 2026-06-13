@@ -1,0 +1,165 @@
+2005 AMC 8
+AMC 8 2005
+1 Connie multiplies a number by 2 and gets 60 as her answer. However, she
+should have divided the number by 2 to get the correct answer. What i s the
+correct answer?
+(A) 7.5 (B) 15 (C) 30 (D) 120 (E) 240
+2 Karl bought ﬁve folders from Pay-A-Lot at a cost of $2 .50 each. Pay-A-Lot
+had a 20%-oﬀ sale the following day. How much could Karl have saved on the
+purchase by waiting a day?
+(A) $1.00 (B) $2.00 (C) $2.50 (D) $2.75 (E) $5.00
+3 What is the minimum number of small squares that must be colored black s o
+that a line of symmetry lies on the diagonal BD of square ABCD ?
+A B
+CD
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+4 A square and a triangle have equal perimeters. The lengths of the thre e sides
+of the triangle are 6.1 cm, 8.2 cm and 9.7 cm. What is the area of the square
+in square centimeters?
+(A) 24 (B) 25 (C) 36 (D) 48 (E) 64
+5 Soda is sold in packs of 6, 12 and 24 cans. What is the minimum number of
+packs needed to buy exactly 90 cans of soda?
+(A) 4 (B) 5 (C) 6 (D) 8 (E) 15
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk
+2005 AMC 8
+6 Suppose d is a digit. For how many values of d is 2 .00d5 > 2.005?
+(A) 0 (B) 4 (C) 5 (D) 6 (E) 10
+7 Bill walks 1
+2 mile south, then 3
+4 mile east, and ﬁnally 1
+2 mile south. How many
+miles is he, in a direct line, from his starting point?
+(A) 1 (B) 1 1
+4 (C) 1 1
+2 (D) 1 3
+4 (E) 2
+8 Suppose m and n are positive odd integers. Which of the following must also
+be an odd integer?
+(A) m+ 3n (B) 3m− n (C) 3m2 + 3n2 (D) (nm+ 3)2 (E) 3mn
+9 In quadrilateral ABCD , sides AB and BC both have length 10, sides CD and
+DA both have length 17, and the measure of angle ADC is 60 ◦. What is the
+length of diagonal AC?
+A
+B
+C D
+(A) 13.5 (B) 14 (C) 15.5 (D) 17 (E) 18.5
+10 Joe had walked half way from home to school when he realized he was late. He
+ran the rest of the way to school. He ran 3 times as fast as he walked. Joe to ok
+6 minutes to walk half way to school. How many minutes did it take Joe t o get
+from home to school?
+(A) 7 (B) 7.3 (C) 7.7 (D) 8 (E) 8.3
+11 The sales tax rate in Bergville is 6%. During a sale at the Bergville Coat C loset,
+the price of a coat is discounted 20% from its \ $90.00 price. Two clerks, Jack
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk
+2005 AMC 8
+and Jill, calculate the bill independently. Jack rings up \ $90.00 and adds 6%
+sales tax, then subtracts 20% from this total. Jill rings up \ $90.00, subtracts
+20% of the price, then adds 6% of the discounted price for sales tax. What is
+Jack’s total minus Jill’s total?
+(A) − $1.06 (B) − $0.53 (C) 0 (D) $0.53 (E) $1.06
+12 Big Al, the ape, ate 100 bananas from May 1 through May 5. Each day he ate
+six more bananas than on the previous day. How many bananas did Big Al eat
+on May 5?
+(A) 20 (B) 22 (C) 30 (D) 32 (E) 34
+13 The area of polygon ABCDEF is 52 with AB = 8, BC = 9 and F A = 5.
+What is DE + EF ?
+A B
+CD
+EF
+5
+8
+9
+(A) 7 (B) 8 (C) 9 (D) 10 (E) 11
+14 The Little Twelve Basketball Conference has two divisions, with si x teams in
+each division. Each team plays each of the other teams in its own divisi on twice
+and every team in the other division once. How many conference games are
+scheduled?
+(A) 80 (B) 96 (C) 100 (D) 108 (E) 192
+15 How many diﬀerent isosceles triangles have integer side lengths and p erimeter
+23?
+(A) 2 (B) 4 (C) 6 (D) 9 (E) 11
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk
+2005 AMC 8
+16 A ﬁve-legged Martian has a drawer full of socks, each of which is red, wh ite
+or blue, and there are at least ﬁve socks of each color. The Martian pulls out
+one sock at a time without looking. How many socks must the Martian remov e
+from the drawer to be certain there will be 5 socks of the same color?
+(A) 6 (B) 9 (C) 12 (D) 13 (E) 15
+17 The results of a cross-country team’s training run are graphed below. Which
+student has the greatest average speed?
+O
+distance
+time
+Evelyn
+Briana
+Carla
+Debra
+Angela
+(A) Angela (B) Briana (C) Carla (D) Debra (E) Evelyn
+18 How many three-digit numbers are divisible by 13?
+(A) 7 (B) 67 (C) 69 (D) 76 (E) 77
+19 What is the perimeter of trapezoid ABCD ?
+30
+50
+2524
+A
+B C
+DE
+(A) 180 (B) 188 (C) 196 (D) 200 (E) 204
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk
+2005 AMC 8
+20 Alice and Bob play a game involving a circle whose circumference is di vided
+by 12 equally-spaced points. The points are numbered clockwise, fr om 1 to 12.
+Both start on point 12. Alice moves clockwise and Bob, counterclockwise .
+In a turn of the game, Alice moves 5 points clockwise and Bob moves 9 poin ts
+counterclockwise. The game ends when they stop on the same point. How
+many turns will this take?
+(A) 6 (B) 8 (C) 12 (D) 14 (E) 24
+21 How many distinct triangles can be drawn using three of the dots below as
+vertices?
+(A) 9 (B) 12 (C) 18 (D) 20 (E) 24
+22 A company sells detergent in three diﬀerent sized boxes: small (S ), medium
+(M) and large (L). The medium size costs 50% more than the small size and
+contains 20% less detergent than the large size. The large size contains tw ice
+as much detergent as the small size and costs 30% more than the medium size .
+Rank the three sizes from best to worst buy.
+(A) SML (B) LMS (C) MSL (D) LSM (E) MLS
+23 Isosceles right triangle ABC encloses a semicircle of area 2 π. The circle has its
+center O on hypotenuse AB and is tangent to sides AC and BC . What is the
+area of triangle ABC ?
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk
+2005 AMC 8
+C A
+O
+B
+(A) 6 (B) 8 (C) 3π (D) 10 (E) 4π
+24 A certain calculator has only two keys [+1] and [x2]. When you press one of
+the keys, the calculator automatically displays the result. For inst ance, if the
+calculator originally displayed ”9” and you pressed [+1], it would displa y ”10.”
+If you then pressed [x2], it would display ”20.” Starting with the dis play ”1,”
+what is the fewest number of keystrokes you would need to reach ”200”?
+(A) 8 (B) 9 (C) 10 (D) 11 (E) 12
+25 A square with side length 2 and a circle share the same center. The tot al area
+of the regions that are inside the circle and outside the square is equal to the
+total area of the regions that are outside the circle and inside the square . What
+is the radius of the circle?
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk
+2005 AMC 8
+(A) 2√ π (B) 1+
+√
+2
+2 (C) 3
+2 (D)
+√
+3 (E) √ π
+–
+These problems are copyright c⃝ Mathematical Association of America ( http:
+//maa.org).
+www.artofproblemsolving.com/community/c4788
+Contributors: Dojo, dragon96, rrusczyk

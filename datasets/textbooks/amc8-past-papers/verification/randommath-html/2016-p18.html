@@ -1,0 +1,239 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="UTF-8"><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=5"><meta name="theme-color" content="#1976d2"><meta name="msapplication-TileColor" content="#1976d2"><meta name="msapplication-TileImage" content="/_assets/favicons/mstile-150x150.png"><title>2016 AMC8 Problem 18 - Solution | Random Math Wiki</title><meta name="description" content="Review the full statement and step-by-step solution for 2016 AMC8 Problem 18. Great practice for AMC 10, AMC 12, AIME, and other math contests"><meta property="og:title" content="2016 AMC8 Problem 18 - Solution"><meta property="og:type" content="website"><meta property="og:description" content="Review the full statement and step-by-step solution for 2016 AMC8 Problem 18. Great practice for AMC 10, AMC 12, AIME, and other math contests"><meta property="og:image"><meta property="og:url" content="https://wiki.randommath.com/amc8/2016/problem-18"><meta property="og:site_name" content="Random Math Wiki"><link rel="apple-touch-icon" sizes="180x180" href="/_assets/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="/_assets/favicons/android-chrome-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/_assets/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_assets/favicons/favicon-16x16.png"><link rel="mask-icon" href="/_assets/favicons/safari-pinned-tab.svg" color="#1976d2"><link rel="manifest" href="/_assets/manifest.json"><script>var siteConfig = {"title":"Random Math Wiki","theme":"default","darkMode":false,"tocPosition":"right","lang":"en","rtl":false,"company":"Random Math Inc.","contentLicense":"","footerOverride":"","logoUrl":"/logo-random-wiki.jpg"}
+var siteLangs = []
+</script><link type="text/css" rel="stylesheet" href="/_assets/css/app.8d70d2a82242ce052529.css"><script type="text/javascript" src="/_assets/js/runtime.js?1767865929"></script><script type="text/javascript" src="/_assets/js/app.js?1767865929"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-324R7QG84N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-324R7QG84N');
+</script>
+<style type="text/css">blockquote.is-alt-solution,blockquote.is-concept,blockquote.is-data,blockquote.is-problem,blockquote.is-solution,blockquote.is-solution3{position:relative!important;padding:.95em 1.15em 1em 1.15em!important;margin:1.1em 0!important;border-left-width:.4em!important;border-left-style:solid!important;background:#fff!important;border-radius:14px!important;font-style:normal!important;box-shadow:0 6px 18px rgba(0,0,0,.06)!important;overflow-wrap:anywhere!important}blockquote.is-alt-solution::before,blockquote.is-concept::before,blockquote.is-data::before,blockquote.is-problem::before,blockquote.is-solution3::before,blockquote.is-solution::before{width:2.2em!important;height:2.2em!important;display:grid!important;place-items:center!important;position:absolute!important;left:0!important;top:1.05em!important;transform:translate(-52%,0)!important;border-radius:999px!important;font-size:1.15em!important;font-weight:800!important;box-shadow:0 4px 14px rgba(0,0,0,.08)!important}blockquote.is-alt-solution strong:first-child,blockquote.is-concept strong:first-child,blockquote.is-data strong:first-child,blockquote.is-problem strong:first-child,blockquote.is-solution strong:first-child,blockquote.is-solution3 strong:first-child{display:inline-block!important;margin-bottom:.35em!important;font-size:1.05em!important}blockquote.is-problem{border-left-color:#7a8794!important;background-color:#f7f8fa!important}blockquote.is-problem::before{content:"📝"!important;background:#eef1f4!important;color:#3a4651!important}blockquote.is-data{border-left-color:#2f6fed!important;background-color:#eef5ff!important}blockquote.is-data::before{content:"📌"!important;background:#dbe9ff!important;color:#1e4fbf!important}blockquote.is-concept{border-left-color:#b7791f!important;background-color:#fff6e6!important}blockquote.is-concept::before{content:"💡"!important;background:#ffe7c2!important;color:#7a4b06!important}blockquote.is-solution{border-left-color:#2f855a!important;background-color:#eaf7f0!important}blockquote.is-solution::before{content:"✔"!important;background:#d3f0df!important;color:#1f6b45!important}blockquote.is-alt-solution{border-left-color:#2c7a7b!important;background-color:#eaf7f7!important}blockquote.is-alt-solution::before{content:"⇄"!important;background:#d2f0f0!important;color:#1f5f60!important}blockquote.is-solution3{border-left-color:#8b5a7a!important;background-color:#fbf2f7!important}blockquote.is-solution3::before{content:"🧠"!important;background:#f3ddea!important;color:#6a3f5a!important}blockquote.is-question{position:relative!important;padding:0 1em 1em!important;margin:1em 0!important;border-left:3.45em solid orange!important;background-color:#fff4e1!important;border-radius:8px!important;font-style:italic!important;box-shadow:2px 2px 8px rgba(0,0,0,.1)}blockquote.is-question::before{content:'?'!important;font-size:2em!important;color:#fff4e1!important;width:2.25em!important;display:block!important;position:absolute!important;left:0!important;top:50%!important;transform:translate(-50%)!important;font-weight:700!important}blockquote.is-definition{position:relative!important;padding:0 1em 1em!important;margin:1em 0!important;border-left:3.45em solid #e1bee7!important;background-color:#f3e5f5!important;border-radius:8px!important;font-style:italic!important;box-shadow:2px 2px 8px rgba(0,0,0,.1)}blockquote.is-definition::before{content:'💡'!important;font-size:2em!important;color:#f3e5f5!important;width:3em!important;display:block!important;position:absolute!important;left:0!important;top:50%!important;transform:translate(-50%)!important;font-weight:700!important}.logo-image{transition:box-shadow .3s ease}.logo-image img{transition:max-width .3s ease}.logo-image:hover{box-shadow:0 4px 8px rgba(0,0,0,.15)!important}.logo-image:hover img{max-width:105%!important}.program-promo-card .promoCard{padding:18px;border-top:4px solid rgba(255,193,7,.65);border-radius:12px;background:linear-gradient(180deg,rgba(255,193,7,.08),rgba(0,0,0,0))}.program-promo-card .promoBadge{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:rgba(255,193,7,.12);color:rgba(121,85,0,.95);border:1px solid rgba(255,193,7,.25);margin-bottom:12px}.program-promo-card .promoTitle{font-size:16px;font-weight:800;line-height:1.2;margin-bottom:8px;color:rgba(62,39,0,.95)}.program-promo-card .promoBody{font-size:13px;line-height:1.45;opacity:.88;margin-bottom:12px}.program-promo-card .promoBullets{margin:0 0 14px 18px;padding:0;font-size:13px;line-height:1.45}.program-promo-card .promoBullets li{margin:6px 0}.program-promo-card .promoActions{display:flex;flex-direction:column;gap:10px;margin-top:6px}.program-promo-card .promoBtn{display:flex;align-items:center;justify-content:center;font-size:13px;padding:12px 14px;border-radius:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;background:rgba(255,193,7,.22);border:1px solid rgba(255,193,7,.42);color:rgba(62,39,0,.96);transition:transform .08s ease,box-shadow .08s ease}.program-promo-card .promoBtn:hover{transform:translateY(-1px);box-shadow:0 10px 22px rgba(255,193,7,.18)}.program-promo-card .promoSecondary{text-align:center;font-size:13px;text-decoration:none;color:rgba(180,110,0,.95);opacity:.9}.program-promo-card .promoSecondary:hover{opacity:1;text-decoration:underline}</style><meta name="google-site-verification" content="emw7KrcVuTStB1hciwwASf4VL811T8AHtzpBprejr-0" />
+
+<link rel="canonical" href="">
+<script>
+document.querySelector('link[rel="canonical"]').href = window.location.href.split('?')[0].split('#')[0];
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-324R7QG84N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-324R7QG84N');
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "sfyvao3bvb");
+
+window.addEventListener("resize", () => {
+  let el = document.querySelector('[aria-label="Print Format"]');
+  if (el) el.remove();
+});
+
+window.boot.register('page-ready', () => {
+if (!WIKI.$store.get("user/permissions").includes("manage:system"))
+  document.querySelector(".page-author-card") && document.querySelector(".page-author-card").remove();
+setTimeout(() => {
+let el = document.querySelector('[aria-label="Print Format"]');
+  if (el) el.remove();
+},1);
+htmlAsString = '<div class="px-5 py-0" style="display: flex;justify-content: center;align-items: center;"><a href="https://randommath.com" target="_blank" style="display: flex;justify-content: center;align-items: center;"><img src="https://wiki.randommath.com/rmlogo.png" style="width: auto; height: auto; max-width: 100%;"></a></div>'; // Insert HTML, but as a string. If multiline use `` quotes instead.
+outerDivClasses = 'logo-image mb-5 v-card v-sheet theme--light'; // Classes for the outermost div, which can't be represented as part of HTML
+
+newDiv = document.createElement('div');
+outerDivClasses.split(" ").map(el => newDiv.classList.add(el));
+newDiv.innerHTML = htmlAsString;
+
+let parent = document.querySelector(".flex.page-col-sd.order-xs2.lg3.xl2");
+parent.insertBefore(newDiv, parent.lastChild);
+})
+
+// Page-based Ads
+window.boot.register("page-ready", () => {
+
+  // ===== 1) Find the right sidebar column =====
+  const sidebar = document.querySelector(".flex.page-col-sd.order-xs2.lg3.xl2");
+  if (!sidebar) return;
+
+  // Avoid duplicates on SPA navigation
+  const existing = document.querySelector(".program-promo-card");
+  if (existing) existing.remove();
+
+  // ===== 2) Choose promo based on URL =====
+  const path = window.location.pathname.toLowerCase();
+
+  // EDIT THIS MAPPING ANYTIME (yours + a couple of small improvements)
+  const promos = [
+  {
+    match: /^\/amc10\//,
+    badge: "SVMT 2026",
+    title: "Silicon Valley Math Tournament",
+    body: "SVMT offers an exciting opportunity for students to challenge themselves and compete with top minds across the US.",
+    bullets: [
+      "Open to students in Grades 1–12",
+      "Online & In-person",
+      "Up to $1,100 in scholarships",
+      "Trophies for Top 10 each grade"
+    ],
+    linkText: "Registration Open",
+    href: "https://www.randommath.com/tournaments/svmt"
+  },
+  {
+    match: /^\/amc12\//,
+    badge: "SVMT 2026",
+    title: "Silicon Valley Math Tournament",
+    body: "SVMT offers an exciting opportunity for students to challenge themselves and compete with top minds across the US.",
+    bullets: [
+      "Open to students in Grades 1–12",
+      "Online & In-person",
+      "Up to $1,100 in scholarships",
+      "Trophies for Top 10 each grade"
+    ],
+    linkText: "Registration Open",
+    href: "https://www.randommath.com/tournaments/svmt"
+  },
+  {
+    match: /^\/aime\//,
+    badge: "SVMT 2026",
+    title: "Silicon Valley Math Tournament",
+    body: "SVMT offers an exciting opportunity for students to challenge themselves and compete with top minds across the US.",
+    bullets: [
+      "Open to students in Grades 1–12",
+      "Online & In-person",
+      "Up to $1,100 in scholarships",
+      "Trophies for Top 10 each grade"
+    ],
+    linkText: "Registration Open",
+    href: "https://www.randommath.com/tournaments/svmt"
+  },
+  {
+    match: /^\/amc8\//,
+    badge: "SVMT 2026",
+    title: "Silicon Valley Math Tournament",
+    body: "SVMT offers an exciting opportunity for students to challenge themselves and compete with top minds across the US.",
+    bullets: [
+      "Open to students in Grades 1–12",
+      "Online & In-person",
+      "Up to $1,100 in scholarships",
+      "Trophies for Top 10 each grade"
+    ],
+    linkText: "Registration Open",
+    href: "https://www.randommath.com/tournaments/svmt"
+  },
+  {
+    match: /^\/ahsme\//,
+    badge: "SVMT 2026",
+    title: "Silicon Valley Math Tournament",
+    body: "SVMT offers an exciting opportunity for students to challenge themselves and compete with top minds across the US.",
+    bullets: [
+      "Open to students in Grades 1–12",
+      "Online & In-person",
+      "Up to $1,100 in scholarships",
+      "Trophies for Top 10 each grade"
+    ],
+    linkText: "Registration Open",
+    href: "https://www.randommath.com/tournaments/svmt"
+  },
+  {
+    match: /.*/, // fallback
+    badge: "SVMT 2026",
+    title: "Silicon Valley Math Tournament",
+    body: "SVMT offers an exciting opportunity for students to challenge themselves and compete with top minds across the US.",
+    bullets: [
+      "Open to students in Grades 1–12",
+      "Online & In-person",
+      "Up to $1,100 in scholarships",
+      "Trophies for Top 10 each grade"
+    ],
+    linkText: "Registration Open",
+    href: "https://www.randommath.com/tournaments/svmt"
+  }
+];
+  const promo = promos.find(p => p.match.test(path));
+  if (!promo) return;
+
+  // ===== 3) Build the card =====
+  const card = document.createElement("div");
+  card.className = "program-promo-card mb-5 v-card v-sheet theme--light";
+
+  card.innerHTML = `
+    <div class="promoCard">
+      ${promo.badge ? `<div class="promoBadge">${escapeHtml(promo.badge)}</div>` : ""}
+
+      <div class="promoTitle">${escapeHtml(promo.title)}</div>
+
+      ${promo.body ? `<div class="promoBody">${escapeHtml(promo.body)}</div>` : ""}
+
+      ${Array.isArray(promo.bullets) && promo.bullets.length ? `
+        <ul class="promoBullets">
+          ${promo.bullets.slice(0,4).map(b => `<li>${escapeHtml(b)}</li>`).join("")}
+        </ul>
+      ` : ""}
+
+      <div class="promoActions">
+        <a class="promoBtn"
+           href="${escapeAttr(promo.href)}"
+           target="_blank"
+           rel="noopener">
+          ${escapeHtml(promo.linkText)}
+        </a>
+
+        <a class="promoSecondary"
+           href="https://randommath.com/programs"
+           target="_blank"
+           rel="noopener">
+          See all programs
+        </a>
+      </div>
+    </div>
+  `;
+
+  // ===== 4) Place promo BELOW the logo card (your logo uses class "logo-image") =====
+  const logoCard = sidebar.querySelector(".logo-image");
+  if (logoCard) {
+    logoCard.insertAdjacentElement("afterend", card);
+  } else {
+    // If logo isn't present on a given page/layout, append to end
+    sidebar.appendChild(card);
+  }
+
+  // ===== helpers =====
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, s => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[s]));
+  }
+  function escapeAttr(str) {
+    return escapeHtml(str).replace(/`/g, "&#96;");
+  }
+});
+</script>
+</head><body><div id="root"><page locale="en" path="amc8/2016/problem-18" title="2016 AMC8 Problem 18 - Solution" description="Review the full statement and step-by-step solution for 2016 AMC8 Problem 18. Great practice for AMC 10, AMC 12, AIME, and other math contests" :tags="[]" created-at="2024-07-17T21:29:46.266Z" updated-at="2025-07-24T15:53:29.073Z" author-name="Administrator" :author-id="1" editor="markdown" :is-published="true" toc="W3sidGl0bGUiOiIyMDE2IEFNQzggUHJvYmxlbSAxOCIsImFuY2hvciI6IiNoLTIwMTYtYW1jOC1wcm9ibGVtLTE4IiwiY2hpbGRyZW4iOltdfV0=" :page-id="16004" sidebar="W3siaSI6InNkaS0xIiwiayI6ImxpbmsiLCJsIjoiSG9tZSIsImMiOiJtZGktaG9tZSIsInkiOiJob21lIiwidCI6Ii8ifSx7ImkiOiJzZGktMiIsImsiOiJkaXZpZGVyIiwibCI6bnVsbCwiYyI6bnVsbCwieSI6bnVsbCwidCI6bnVsbH0seyJpIjoic2RpLTMiLCJrIjoiaGVhZGVyIiwibCI6IlBhc3QgQ29udGVzdHMiLCJjIjpudWxsLCJ5IjpudWxsLCJ0IjpudWxsfSx7ImkiOiJzZGktNCIsImsiOiJsaW5rIiwibCI6IkFNQyA4IiwiYyI6Im1kaS10cm9waHktb3V0bGluZSIsInkiOiJwYWdlIiwidCI6Ii9lbi9hbWM4In0seyJpIjoic2RpLTUiLCJrIjoibGluayIsImwiOiJBTUMgMTAiLCJjIjoibWRpLXRyb3BoeS1vdXRsaW5lIiwieSI6InBhZ2UiLCJ0IjoiL2VuL2FtYzEwIn0seyJpIjoic2RpLTYiLCJrIjoibGluayIsImwiOiJBTUMgMTIiLCJjIjoibWRpLXRyb3BoeS1vdXRsaW5lIiwieSI6InBhZ2UiLCJ0IjoiL2VuL2FtYzEyIn0seyJpIjoic2RpLTciLCJrIjoibGluayIsImwiOiJBSFNNRSIsImMiOiJtZGktdHJvcGh5LW91dGxpbmUiLCJ5IjoicGFnZSIsInQiOiIvZW4vYWhzbWUifSx7ImkiOiJzZGktOCIsImsiOiJsaW5rIiwibCI6IkFJTUUiLCJjIjoibWRpLXRyb3BoeS1vdXRsaW5lIiwieSI6InBhZ2UiLCJ0IjoiL2VuL2FpbWUifSx7ImkiOiJzZGktOSIsImsiOiJkaXZpZGVyIiwibCI6bnVsbCwiYyI6bnVsbCwieSI6bnVsbCwidCI6bnVsbH0seyJpIjoic2RpLTEwIiwiayI6ImhlYWRlciIsImwiOiJSYW5kb20gTWF0aCBRdWljayBMaW5rcyIsImMiOm51bGwsInkiOm51bGwsInQiOm51bGx9LHsiaSI6InNkaS0xMSIsImsiOiJsaW5rIiwibCI6IjIwMjUtMjYgUmVzdWx0cyIsImMiOiJtZGktcG9kaXVtIiwieSI6ImV4dGVybmFsYmxhbmsiLCJ0IjoiaHR0cHM6Ly93d3cucmFuZG9tbWF0aC5jb20vcmVzdWx0cy90b3AtcGVyZm9ybWVycy0yMDI1LTIwMjYifSx7ImkiOiJzZGktMTIiLCJrIjoibGluayIsImwiOiJUZXN0aW1vbmlhbHMiLCJjIjoibWRpLWNvbW1lbnQtcXVvdGUiLCJ5IjoiZXh0ZXJuYWxibGFuayIsInQiOiJodHRwczovL3d3dy5yYW5kb21tYXRoLmNvbS90ZXN0aW1vbmlhbHMifSx7ImkiOiJzZGktMTMiLCJrIjoibGluayIsImwiOiJCbG9ncyIsImMiOiJtZGktbmV3c3BhcGVyIiwieSI6ImV4dGVybmFsYmxhbmsiLCJ0IjoiaHR0cHM6Ly93d3cucmFuZG9tbWF0aC5jb20vYmxvZ3MifSx7ImkiOiJzZGktMTQiLCJrIjoibGluayIsImwiOiJPdXIgQWx1bW5pIiwiYyI6Im1kaS1hY2NvdW50LWdyb3VwLW91dGxpbmUiLCJ5IjoiZXh0ZXJuYWxibGFuayIsInQiOiJodHRwczovL3d3dy5yYW5kb21tYXRoLmNvbS9kaXN0aW5ndWlzaGVkLWFsdW1uaSJ9LHsiaSI6InNkaS0xNSIsImsiOiJsaW5rIiwibCI6IlNpbGljb24gVmFsbGV5IE1hdGggVG91cm5hbWVudCIsImMiOiJtZGktdHJvcGh5IiwieSI6ImV4dGVybmFsYmxhbmsiLCJ0IjoiaHR0cHM6Ly93d3cucmFuZG9tbWF0aC5jb20vdG91cm5hbWVudHMvc3ZtdCJ9XQ==" nav-mode="STATIC" comments-enabled effective-permissions="eyJjb21tZW50cyI6eyJyZWFkIjpmYWxzZSwid3JpdGUiOmZhbHNlLCJtYW5hZ2UiOmZhbHNlfSwiaGlzdG9yeSI6eyJyZWFkIjpmYWxzZX0sInNvdXJjZSI6eyJyZWFkIjpmYWxzZX0sInBhZ2VzIjp7InJlYWQiOnRydWUsIndyaXRlIjpmYWxzZSwibWFuYWdlIjpmYWxzZSwiZGVsZXRlIjpmYWxzZSwic2NyaXB0IjpmYWxzZSwic3R5bGUiOmZhbHNlfSwic3lzdGVtIjp7Im1hbmFnZSI6ZmFsc2V9fQ==" edit-shortcuts="eyJlZGl0RmFiIjp0cnVlLCJlZGl0TWVudUJhciI6ZmFsc2UsImVkaXRNZW51QnRuIjp0cnVlLCJlZGl0TWVudUV4dGVybmFsQnRuIjp0cnVlLCJlZGl0TWVudUV4dGVybmFsTmFtZSI6IkdpdEh1YiIsImVkaXRNZW51RXh0ZXJuYWxJY29uIjoibWRpLWdpdGh1YiIsImVkaXRNZW51RXh0ZXJuYWxVcmwiOiJodHRwczovL2dpdGh1Yi5jb20vb3JnL3JlcG8vYmxvYi9tYWluL3tmaWxlbmFtZX0ifQ==" filename="amc8/2016/problem-18.md"><template slot="contents"><div><h1 class="toc-header" id="h-2016-amc8-problem-18"><a href="#h-2016-amc8-problem-18" class="toc-anchor">¶</a> 2016 AMC8 Problem 18</h1>
+<p><strong>Problem:</strong><br>
+In an All-Area track meet, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>216</mn></mrow>216</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">2</span><span class="mord">1</span><span class="mord">6</span></span></span></span> sprinters enter a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>100</mn></mrow>100</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span>-meter dash competition. The track has <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span> lanes, so only <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span> sprinters can compete at a time. At the end of each race the five non-winners are eliminated, and the winner will compete again in a later race. How many races are needed to determine the champion sprinter?</p>
+<p><strong>Answer Choices:</strong></p>
+<p>A. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>36</mn></mrow>36</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">3</span><span class="mord">6</span></span></span></span> <br><br>
+B. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>42</mn></mrow>42</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">4</span><span class="mord">2</span></span></span></span> <br><br>
+C. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>43</mn></mrow>43</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">4</span><span class="mord">3</span></span></span></span> <br><br>
+D. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>60</mn></mrow>60</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span><span class="mord">0</span></span></span></span> <br><br>
+E. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>72</mn></mrow>72</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">7</span><span class="mord">2</span></span></span></span> <br></p>
+<p><strong>Solution:</strong></p>
+<p>Divide the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>216</mn></mrow>216</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">2</span><span class="mord">1</span><span class="mord">6</span></span></span></span> sprinters into <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>36</mn></mrow>36</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">3</span><span class="mord">6</span></span></span></span> groups of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span>. Run <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>36</mn></mrow>36</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">3</span><span class="mord">6</span></span></span></span> races to eliminate <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>180</mn></mrow>180</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">1</span><span class="mord">8</span><span class="mord">0</span></span></span></span> sprinters, leaving <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>36</mn></mrow>36</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">3</span><span class="mord">6</span></span></span></span> winners. Divide the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>36</mn></mrow>36</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">3</span><span class="mord">6</span></span></span></span> winners into <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span> groups of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span>, run <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span> races to eliminate <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>30</mn></mrow>30</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">3</span><span class="mord">0</span></span></span></span> sprinters, leaving <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>6</mn></mrow>6</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">6</span></span></span></span> winners. Finally run the last race to determine the champion. The number of races run is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>36</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>43</mn></mrow>36+6+1=43</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.72777em;vertical-align:-0.08333em;" class="strut"></span><span class="mord">3</span><span class="mord">6</span><span style="margin-right:0.2222222222222222em;" class="mspace"></span><span class="mbin">+</span><span style="margin-right:0.2222222222222222em;" class="mspace"></span></span><span class="base"><span style="height:0.72777em;vertical-align:-0.08333em;" class="strut"></span><span class="mord">6</span><span style="margin-right:0.2222222222222222em;" class="mspace"></span><span class="mbin">+</span><span style="margin-right:0.2222222222222222em;" class="mspace"></span></span><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">1</span><span style="margin-right:0.2777777777777778em;" class="mspace"></span><span class="mrel">=</span><span style="margin-right:0.2777777777777778em;" class="mspace"></span></span><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">4</span><span class="mord">3</span></span></span></span>.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mtext mathvariant="bold">OR</mtext></mrow>\textbf{OR}
+</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.68611em;vertical-align:0em;" class="strut"></span><span class="mord text"><span class="mord textbf">OR</span></span></span></span></span></span></p><p>When all the races have been run, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>215</mn></mrow>215</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">2</span><span class="mord">1</span><span class="mord">5</span></span></span></span> sprinters will have been eliminated. Since <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>5</mn></mrow>5</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">5</span></span></span></span> sprinters are eliminated in each race, there are <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mstyle scriptlevel="0" displaystyle="true"><mfrac><mn>215</mn><mn>5</mn></mfrac></mstyle><mo>=</mo><mn>43</mn></mrow>\dfrac{215}{5}=43</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:2.00744em;vertical-align:-0.686em;" class="strut"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span style="height:1.32144em;" class="vlist"><span style="top:-2.314em;"><span style="height:3em;" class="pstrut"></span><span class="mord"><span class="mord">5</span></span></span><span style="top:-3.23em;"><span style="height:3em;" class="pstrut"></span><span style="border-bottom-width:0.04em;" class="frac-line"></span></span><span style="top:-3.677em;"><span style="height:3em;" class="pstrut"></span><span class="mord"><span class="mord">2</span><span class="mord">1</span><span class="mord">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span style="height:0.686em;" class="vlist"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span style="margin-right:0.2777777777777778em;" class="mspace"></span><span class="mrel">=</span><span style="margin-right:0.2777777777777778em;" class="mspace"></span></span><span class="base"><span style="height:0.64444em;vertical-align:0em;" class="strut"></span><span class="mord">4</span><span class="mord">3</span></span></span></span> races needed to determine the champion.</p>
+<p><strong>Answer:</strong> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><menclose notation="box"><mstyle displaystyle="false" scriptlevel="0"><mstyle displaystyle="false" scriptlevel="0"><mstyle displaystyle="true" scriptlevel="0"><mi>C</mi></mstyle></mstyle></mstyle></menclose></mrow>\boxed{C}</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:1.36333em;vertical-align:-0.3400000000000001em;" class="strut"></span><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span style="height:1.0233299999999999em;" class="vlist"><span style="top:-3.36333em;"><span style="height:3.36333em;" class="pstrut"></span><span class="boxpad"><span class="mord"><span class="mord"><span style="margin-right:0.07153em;" class="mord mathnormal">C</span></span></span></span></span><span style="top:-3.0233299999999996em;"><span style="height:3.36333em;" class="pstrut"></span><span style="height:1.36333em;border-style:solid;border-width:0.04em;" class="stretchy fbox"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span style="height:0.3400000000000001em;" class="vlist"><span></span></span></span></span></span></span></span></span>.</p>
+<hr>
+<p><em>The problems and solutions on this page are the property of the MAA's <a class="is-external-link" href="https://maa.org/student-programs/amc/">American Mathematics Competitions</a></em></p>
+</div></template><template slot="comments"><div><comments></comments></div></template></page></div><style type="text/css"> 
+.v-application .primary { 
+    background-color: #333739!important; 
+    border-color: #333739!important; 
+}
+</style></body></html>

@@ -1,0 +1,311 @@
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 1 
+ 
+2020 AMC 8 Problems 
+ 
+Problem 1 
+Luka is making lemonade to sell at a school fundraiser. His recipe requires 4 times as much 
+water as sugar and twice as much sugar as lemon juice. He uses 3 cups of lemon juice. How 
+many cups of water does he need? 
+ 
+ 
+Problem 2 
+Four friends do yardwork for their neighbors over the weekend, earning $15, $20, $25, and 
+$40,  respectively. They decide to split their earnings equally among themselves. In total how 
+much will the friend who earned $40 give to the others? 
+ 
+ 
+Problem 3 
+Carrie has a rectangular garden that measures 6 feet by 8 feet. She plants the entire garde n with 
+strawberry plants.  Carrie is able to plant 4 strawberry plants per square foot, and she harvests an 
+average of 10 strawberries per plant. How many strawberries can she expect to harvest? 
+ 
+ 
+Problem 4 
+Three hexagons of increasing size are shown below. Suppose the dot pattern continues so that 
+each successive hexagon contains one  more band of dots. How many dots are in the next 
+hexagon? 
+ 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 2 
+ 
+ 
+ 
+ 
+ 
+ 
+Problem 5 
+Three fourths of a pitcher is filled with pineapple juice. The pitcher is emptied by pouring an 
+equal amount of juice into each of 5 cups. What percent of the total capacity of the pitcher did 
+each cup receive? 
+ 
+ 
+Problem 6 
+Aaron, Darren, Karen, Maren, and Sharon rode on a small train that has five cars that seat one 
+person each. Maren sat in the last car. Aaron sat directly behind Sharon. Darren sat in one of the 
+cars in front of Aaron. At least one person sat between Karen and Darren. Who sat in the middle 
+car? 
+ 
+ 
+Problem 7 
+How many integers between 2020 and 2400 have four distinct digits arranged in increasing order? 
+(For example, 2357 is one such integer.) 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 3 
+ 
+Problem 8 
+Ricardo has 2020 coins, some of which are pennies (1-cent coins) and the rest of which are 
+nickels (5-cent coins). He has at least one penny and at least one nickel. What is the difference in 
+cents between the greatest possible and least possible amounts of money that Ricardo can have? 
+ 
+ 
+Problem 9 
+Akash's birthday cake is in the form of a 4 × 4 × 4 inch cube. The cake has icing on the top and 
+the four side faces, and no icing on the bottom. Suppose the cake is cut into 64 smaller cubes, 
+each measuring 1 × 1 × 1 inch, as shown below. How many of the small pieces will have icing 
+on exactly two sides? 
+ 
+ 
+ 
+ 
+Problem 10 
+Zara has a collection of 4 marbles: an Aggie, a Bumblebee, a Steelie, and a Tiger. S he wants to 
+display them in a row on a shelf, but does not want to put the Steelie and the Tiger next to one 
+another. In how many ways can she do this? 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 4 
+ 
+ 
+Problem 11 
+After school, Maya and Naomi headed to the beach, 6 miles away. Maya decided to bike while 
+Naomi took a bus. The graph below  shows their journeys, indicating the time and distance 
+traveled. What was the difference, in miles per hour, between Naomi's and  Maya's average 
+speeds? 
+ 
+ 
+ 
+ 
+Problem 12 
+For positive integer 𝑛 , the factorial notation 𝑛!  represents the product of the integers 
+from 𝑛  to 1. (For example, 6! = 6 ⋅ 5 ⋅ 4 ⋅ 3 ⋅ 2 ⋅ 1. ) What value of 𝑁  satisfies the following 
+equation? 
+5! ⋅ 9! = 12 ⋅ 𝑁! 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 5 
+ 
+Problem 13 
+Jamal has a drawer containing 6 green socks, 18 purple socks, and 12 orange socks. After adding 
+more purple socks, Jamal noticed that there is now a 60% chance that a sock randomly selected 
+from the drawer is purple. How many purple socks did Jamal add? 
+ 
+ 
+Problem 14 
+There are 20 cities in the County of Newton. Their populations are shown in the bar chart below. 
+The average population of all the cities is indicated by the horizontal dashed line. Which of the 
+following is closest to the total population of all 20 cities? 
+ 
+ 
+ 
+ 
+ 
+Problem 15 
+Suppose 15% of 𝑥 equals 20% of 𝑦. What percentage of 𝑥 is 𝑦 ? 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 6 
+ 
+ 
+ 
+Problem 16 
+Each of the points 𝐴, 𝐵, 𝐶, 𝐷, 𝐸, and 𝐹 in the figure below represents a different digit from 1 to 6. 
+Each of the five lines  shown passes through some of these points. The digits along each line are 
+added to produce five sums, one for each line. The total of  the five sums is 47. What is the digit  
+represented by 𝐵? 
+ 
+ 
+ 
+ 
+Problem 17 
+How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1, 
+2, 3, 4, 6, and 12.) 
+ 
+ 
+ 
+Problem 18 
+Rectangle 𝐴𝐵𝐶𝐷 is inscribed in a semicircle with diameter 𝐹𝐸
+̅̅̅̅, as shown in the figure. Let 𝐷𝐴 =
+16, and let 𝐹𝐷 = 𝐴𝐸 = 9. What is the area of 𝐴𝐵𝐶𝐷 ? 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 7 
+ 
+ 
+ 
+ 
+ 
+Problem 19 
+A number is called flippy if its digits alternate between two distinct digits. For example, 2020 
+and 37373 are flippy, but 3883 and 123123 are not. How many five-digit flippy numbers are 
+divisible by 15? 
+ 
+ 
+Problem 20 
+A scientist walking through a forest recorded as integers the heights of 5 trees standing in a row. 
+She observed  that each tree was either twice as tall or half as tall as the one to its ri ght. 
+Unfortunately some of her data was lost when rain fell on her notebook. Her notes are shown 
+below, with blanks indicating the missing numbers. Based on her observations, the scientist was 
+able to reconstruct the lost data. What was the average height of the trees, in meters? 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 8 
+ 
+ 
+ 
+ 
+Problem 21 
+A game board consists of 64 squares that alternate in color between black and white. The figure 
+below shows square 𝑃 in the  bottom row and square 𝑄 in the top row. A marker is placed 
+at 𝑃. A step consists of moving the marker onto one of the adjoining  white squares in the row 
+above. How many 7-step paths are there from 𝑃 to 𝑄 ? (The figure shows a sample path.) 
+ 
+ 
+ 
+ 
+ 
+ 
+Problem 22 
+When a positive integer 𝑁 is fed into a machine, the output is a number calculated according to 
+the rule shown below. 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 9 
+ 
+ 
+ 
+For example, starting with an input of 𝑁 = 7 , the machine will output  3 ⋅ 7 + 1 = 22. Then if 
+the output is repeatedly inserted into the machine five more times, the final output is 26. 
+ 
+When the same 6-step process is applied to a different starting value of 𝑁, the final output 
+is 1. What is the sum of all such integers 𝑁? 
+ 
+ 
+ 
+ 
+Problem 23 
+Five different awards are to be given to three students. Each student will receive at least one 
+award. In how many different ways can the awards be distributed? 
+ 
+ 
+Problem 24 
+A large square region is paved with 𝑛2 gray square tiles, each measuring 𝑠 inches on a side. A 
+border 𝑑 inches wide surrounds each tile. The figure below shows the case for 𝑛 = 3 . When 𝑛 =
+24, the 576 gray tiles cover 64% of the area of the large square region. What is the ratio 
+𝑑
+𝑠
+ for 
+this larger value of 𝑛 ? 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 10 
+ 
+ 
+ 
+ 
+ 
+Problem 25 
+Rectangles 𝑅1 and 𝑅2, and squares 𝑆1, 𝑆2, and 𝑆3, shown below, combine to form a rectangle that 
+is 3322 units wide and 2020 units high. What is the side length of 𝑆2 in units? 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 11 
+ 
+ 
+These problems are copyright  Mathematical Association of America  
+  
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 12 
+ 
+Answer Key 
+1. E 
+2. C 
+3. D 
+4. B 
+5. C 
+6. A 
+7. C 
+8. C 
+9. D 
+10. C 
+11. E 
+12. A 
+13. B 
+14. D 
+15. C 
+16. E 
+17. B 
+18. A 
+19. B 
+20. B 
+21. A 
+22. E 
+23. B 
+24. A 
+25. A 
+ 
+ (https://ivyleaguecenter.org/) 

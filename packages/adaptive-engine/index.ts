@@ -11,6 +11,7 @@ export type Problem = {
   answer: string;
   answerType: "numeric" | "fraction" | "symbolic" | "text" | "multiple_choice" | "manual";
   choices: Array<string | AnswerChoice>;
+  assets?: ProblemAsset[];
   distractors?: Distractor[];
   difficulty: number;
   source: string;
@@ -47,6 +48,13 @@ export type Problem = {
     prerequisiteGap?: string;
     prerequisiteTarget?: string;
   };
+};
+
+export type ProblemAsset = {
+  type: "image";
+  url: string;
+  alt: string;
+  role: "prompt" | "choice" | "solution";
 };
 
 export type AnswerChoice = {
@@ -89,11 +97,62 @@ export type StudentState = {
   }>;
 };
 
+export type AbilityTarget = "knowledge" | "skill" | "reasoning" | "fluency" | "transfer";
+export type PathMode = "diagnostic" | "repair" | "bridge" | "advance" | "transfer" | "balanced";
+export type NextAction = "repair" | "stabilize" | "transfer" | "review";
+
+export type RecommendationContext = {
+  abilityProfile?: Partial<Record<AbilityTarget, {
+    score?: number;
+    attempts?: number;
+  }>>;
+  conceptStates?: Record<string, {
+    mastery?: number;
+    stability?: number;
+    knowledge?: number;
+    skill?: number;
+    reasoning?: number;
+    fluency?: number;
+    transfer?: number;
+    averageConfidence?: number;
+    averageResponseTimeSeconds?: number;
+    wrongStreak?: number;
+    reviewDueAt?: string;
+  }>;
+  recommendedReviewConcepts?: string[];
+  currentPlacement?: {
+    stage?: string;
+    status?: string;
+  };
+  learningPlan?: {
+    mode?: PathMode;
+    targetConcept?: string;
+    targetMastery?: number;
+    supportingConcepts?: string[];
+    steps?: Array<{
+      id?: string;
+      title?: string;
+      targetConcepts?: string[];
+      stage?: string;
+      priority?: "repair" | "practice" | "review" | "challenge";
+    }>;
+  } | null;
+  scope?: {
+    mode?: "practice" | "review" | "plan";
+    targetConcepts?: string[];
+    stage?: string;
+    layer?: string;
+    problemType?: string;
+    cognitiveTag?: string;
+  };
+};
+
 export type Attempt = {
   problem: Problem;
   correct: boolean;
   responseTimeSeconds?: number;
   confidence?: number;
+  recommendationContext?: RecommendationContext;
 };
 
 export type Recommendation = {
@@ -111,6 +170,10 @@ export type RecommendationExplanation = {
   summary: string;
   targetConcept?: string;
   targetMastery?: number;
+  abilityTarget?: AbilityTarget;
+  pathMode?: PathMode;
+  pathStep?: string;
+  nextAction?: NextAction;
   layer?: string;
   stage?: string;
   problemType?: string;
@@ -204,13 +267,15 @@ const selectNextProblem = (
   weakConcepts: string[],
   fluencyConcepts: string[],
   prerequisiteGaps: PrerequisiteGap[],
-  remediation: boolean
+  remediation: boolean,
+  context?: RecommendationContext
 ): Recommendation => {
   const attempted = new Set(state.history.map((item) => item.problemId));
   const candidates = problems.filter((problem) => !attempted.has(problem.id));
   const pool = candidates.length > 0 ? candidates : problems;
+  const pathStep = selectActivePathStep(context);
   const ranked = pool
-    .map((problem) => scoreProblem(problem, state, attempted, weakConcepts, fluencyConcepts, prerequisiteGaps, remediation))
+    .map((problem) => scoreProblem(problem, state, attempted, weakConcepts, fluencyConcepts, prerequisiteGaps, remediation, context, pathStep))
     .sort((a, b) => b.score - a.score);
 
   const best = ranked[0];
@@ -220,11 +285,16 @@ const selectNextProblem = (
     best.matchedWeakConcepts[0] ??
     best.matchedFluencyConcepts[0] ??
     best.matchedPrerequisites[0] ??
+    best.matchedPathConcepts[0] ??
+    best.matchedReviewConcepts[0] ??
     weakConcepts[0] ??
-    fluencyConcepts[0];
-  const targetMastery = targetConcept ? state.mastery[targetConcept] ?? 0.5 : undefined;
+    fluencyConcepts[0] ??
+    context?.learningPlan?.targetConcept;
+  const targetMastery = targetConcept
+    ? context?.conceptStates?.[targetConcept]?.mastery ?? state.mastery[targetConcept] ?? context?.learningPlan?.targetMastery ?? 0.5
+    : undefined;
 
-  const explanation = buildRecommendationExplanation(best, targetConcept, targetMastery, prerequisiteGap, remediation);
+  const explanation = buildRecommendationExplanation(best, targetConcept, targetMastery, prerequisiteGap, remediation, context);
 
   return {
     problem: best.problem,
@@ -244,6 +314,15 @@ type ScoredProblem = {
   matchedFluencyConcepts: string[];
   matchedPrerequisites: string[];
   matchedPrerequisiteGaps: PrerequisiteGap[];
+  matchedPathConcepts: string[];
+  matchedReviewConcepts: string[];
+  abilityTarget: AbilityTarget;
+  pathAlignment?: {
+    mode?: PathMode;
+    stepId?: string;
+    stepTitle?: string;
+    stepPriority?: "repair" | "practice" | "review" | "challenge";
+  };
   difficultyGap: number;
   averageMastery: number;
 };
@@ -255,12 +334,22 @@ function scoreProblem(
   weakConcepts: string[],
   fluencyConcepts: string[],
   prerequisiteGaps: PrerequisiteGap[],
-  remediation: boolean
+  remediation: boolean,
+  context?: RecommendationContext,
+  pathStep?: NonNullable<RecommendationContext["learningPlan"]>["steps"][number]
 ): ScoredProblem {
   const mastery = averageMastery(state, problem.concepts);
+  const conceptMastery = averageContextMastery(context, problem.concepts, mastery);
   const prerequisiteGapConcepts = prerequisiteGaps.map((gap) => gap.concept);
   const matchedFluencyConcepts = problem.concepts.filter((concept) => fluencyConcepts.includes(concept));
   const matchedPrerequisiteGaps = prerequisiteGaps.filter((gap) => problem.concepts.includes(gap.concept));
+  const pathConcepts = getPathConcepts(context, pathStep);
+  const reviewConcepts = context?.recommendedReviewConcepts ?? [];
+  const matchedPathConcepts = problem.concepts.filter((concept) => pathConcepts.includes(concept));
+  const matchedReviewConcepts = problem.concepts.filter((concept) => reviewConcepts.includes(concept));
+  const abilityTarget = inferAbilityTarget(problem);
+  const abilityNeed = getAbilityNeed(context, abilityTarget);
+  const conceptNeed = getConceptNeed(context, problem.concepts);
   const fluencyPractice = matchedFluencyConcepts.length > 0;
   const gapPractice = matchedPrerequisiteGaps.length > 0;
   const idealDifficulty =
@@ -276,8 +365,12 @@ function scoreProblem(
   score += matchedPrerequisiteGaps.reduce((sum, gap) => sum + 44 + Math.min(20, gap.score), 0);
   score += matchedFluencyConcepts.length * 34;
   score += matchedPrerequisites.filter((concept) => !prerequisiteGapConcepts.includes(concept)).length * 28;
+  score += matchedPathConcepts.length * 30;
+  score += matchedReviewConcepts.length * 24;
+  score += abilityNeed * 24;
+  score += conceptNeed * 22;
   score += Math.max(0, 20 - difficultyGap * 6);
-  score += (1 - mastery) * 18;
+  score += (1 - conceptMastery) * 18;
   score += attempted.has(problem.id) ? -25 : 8;
   score += problem.isAutoGradable ? 4 : -20;
 
@@ -285,6 +378,13 @@ function scoreProblem(
   if (remediation && matchedWeakConcepts.length > 0 && problem.difficulty <= idealDifficulty + 1) score += 12;
   if (fluencyPractice && problem.difficulty <= idealDifficulty + 1) score += 16;
   if (gapPractice && problem.difficulty <= idealDifficulty + 1) score += 22;
+  if (pathStep?.stage && problem.taxonomy?.stage === pathStep.stage) score += 14;
+  if (context?.learningPlan?.mode === "transfer" && problem.taxonomy?.stage === "AMC8 Transfer") score += 12;
+  if (context?.learningPlan?.mode === "repair" && problem.taxonomy?.layer === "Foundation") score += 10;
+  if (context?.scope?.stage && problem.taxonomy?.stage === context.scope.stage) score += 10;
+  if (context?.scope?.layer && problem.taxonomy?.layer === context.scope.layer) score += 6;
+  if (context?.scope?.problemType && problem.taxonomy?.problemType === context.scope.problemType) score += 6;
+  if (context?.scope?.cognitiveTag && problem.taxonomy?.cognitiveTags.includes(context.scope.cognitiveTag)) score += 8;
 
   return {
     problem,
@@ -293,8 +393,17 @@ function scoreProblem(
     matchedFluencyConcepts,
     matchedPrerequisites,
     matchedPrerequisiteGaps,
+    matchedPathConcepts,
+    matchedReviewConcepts,
+    abilityTarget,
+    pathAlignment: {
+      mode: context?.learningPlan?.mode,
+      stepId: pathStep?.id,
+      stepTitle: pathStep?.title,
+      stepPriority: pathStep?.priority
+    },
     difficultyGap,
-    averageMastery: mastery
+    averageMastery: conceptMastery
   };
 }
 
@@ -303,14 +412,20 @@ function buildRecommendationExplanation(
   targetConcept: string | undefined,
   targetMastery: number | undefined,
   prerequisiteGap: PrerequisiteGap | undefined,
-  remediation: boolean
+  remediation: boolean,
+  recommendationContext?: RecommendationContext
 ): RecommendationExplanation {
   const taxonomy = scored.problem.taxonomy;
-  const context = describeProblemContext(scored.problem);
+  const problemContext = describeProblemContext(scored.problem);
   const signals = buildRecommendationSignals(scored, targetConcept, targetMastery, prerequisiteGap, remediation);
+  const nextAction = inferNextAction(scored, prerequisiteGap, remediation);
   const base = {
     targetConcept,
     targetMastery,
+    abilityTarget: scored.abilityTarget,
+    pathMode: scored.pathAlignment.mode,
+    pathStep: scored.pathAlignment.stepTitle,
+    nextAction,
     layer: taxonomy?.layer,
     stage: taxonomy?.stage,
     problemType: taxonomy?.problemType,
@@ -322,7 +437,7 @@ function buildRecommendationExplanation(
     return {
       ...base,
       priority: "prerequisite_gap",
-      summary: `Prerequisite gap: strengthen ${prerequisiteGap.concept} with a ${context} before continuing ${prerequisiteGap.targetConcept}.`
+      summary: `Prerequisite gap: strengthen ${prerequisiteGap.concept} with a ${problemContext} before continuing ${prerequisiteGap.targetConcept}.${describePathAlignment(scored)}`
     };
   }
 
@@ -330,7 +445,7 @@ function buildRecommendationExplanation(
     return {
       ...base,
       priority: "remediation",
-      summary: `Remediation: review prerequisite ${scored.matchedPrerequisites[0]} through a ${context} before continuing ${targetConcept}.`
+      summary: `Remediation: review prerequisite ${scored.matchedPrerequisites[0]} through a ${problemContext} before continuing ${targetConcept}.${describePathAlignment(scored)}`
     };
   }
 
@@ -339,7 +454,7 @@ function buildRecommendationExplanation(
     return {
       ...base,
       priority: "weak_concept",
-      summary: `Targets weak concept ${scored.matchedWeakConcepts[0]} at mastery ${masteryText} using a ${context}.`
+      summary: `Targets weak concept ${scored.matchedWeakConcepts[0]} at mastery ${masteryText} using a ${problemContext}.${describePathAlignment(scored)}`
     };
   }
 
@@ -347,7 +462,7 @@ function buildRecommendationExplanation(
     return {
       ...base,
       priority: "fluency",
-      summary: `Fluency: reinforce ${scored.matchedFluencyConcepts[0]} with a ${context} before increasing difficulty.`
+      summary: `Fluency: reinforce ${scored.matchedFluencyConcepts[0]} with a ${problemContext} before increasing difficulty.${describePathAlignment(scored)}`
     };
   }
 
@@ -355,15 +470,26 @@ function buildRecommendationExplanation(
     return {
       ...base,
       priority: "balanced",
-      summary: `Balances practice while monitoring ${targetConcept} with a ${context}.`
+      summary: `Balances practice while monitoring ${targetConcept} with a ${problemContext}.${describePathAlignment(scored)}`
     };
   }
 
   return {
     ...base,
     priority: "balanced",
-    summary: `Starts with a balanced, auto-gradable ${context}.`
+    summary: `Starts with a balanced, auto-gradable ${problemContext}.${describePathAlignment(scored)}`
   };
+}
+
+function inferNextAction(
+  scored: ScoredProblem,
+  prerequisiteGap: PrerequisiteGap | undefined,
+  remediation: boolean
+): NextAction {
+  if (prerequisiteGap || remediation) return "repair";
+  if (scored.matchedReviewConcepts.length > 0 || scored.pathAlignment.stepPriority === "review") return "review";
+  if (scored.problem.taxonomy?.stage === "AMC8 Transfer" || scored.pathAlignment.stepPriority === "challenge") return "transfer";
+  return "stabilize";
 }
 
 function describeProblemContext(problem: Problem) {
@@ -385,13 +511,118 @@ function buildRecommendationSignals(
   return [
     targetConcept ? `target=${targetConcept}` : "",
     targetMastery !== undefined ? `mastery=${targetMastery.toFixed(2)}` : "",
+    `ability=${scored.abilityTarget}`,
+    scored.pathAlignment.mode ? `path=${scored.pathAlignment.mode}` : "",
+    scored.pathAlignment.stepId ? `step=${scored.pathAlignment.stepId}` : "",
     scored.problem.taxonomy?.layer ? `layer=${scored.problem.taxonomy.layer}` : "",
     scored.problem.taxonomy?.problemType ? `type=${scored.problem.taxonomy.problemType}` : "",
     scored.problem.taxonomy?.cognitiveTags?.length ? `cognitive=${scored.problem.taxonomy.cognitiveTags.slice(0, 2).join(",")}` : "",
+    scored.matchedPathConcepts.length ? `pathConcept=${scored.matchedPathConcepts[0]}` : "",
+    scored.matchedReviewConcepts.length ? `review=${scored.matchedReviewConcepts[0]}` : "",
     prerequisiteGap ? `gap=${prerequisiteGap.concept}->${prerequisiteGap.targetConcept}` : "",
     remediation ? "remediation=true" : "",
     `score=${Math.round(scored.score)}`
   ].filter(Boolean);
+}
+
+function selectActivePathStep(context?: RecommendationContext) {
+  const steps = context?.learningPlan?.steps ?? [];
+  const scopeTargets = context?.scope?.targetConcepts ?? [];
+  if (steps.length === 0) return undefined;
+
+  const matchingStep = steps.find((step) =>
+    step.targetConcepts?.some((concept) => scopeTargets.includes(concept))
+  );
+
+  if (scopeTargets.length > 0) return matchingStep;
+
+  return steps[0];
+}
+
+function getPathConcepts(
+  context?: RecommendationContext,
+  pathStep?: NonNullable<RecommendationContext["learningPlan"]>["steps"][number]
+) {
+  return [
+    ...(context?.scope?.targetConcepts ?? []),
+    ...(pathStep?.targetConcepts ?? []),
+    context?.learningPlan?.targetConcept,
+    ...(context?.learningPlan?.supportingConcepts ?? [])
+  ].filter(Boolean) as string[];
+}
+
+function averageContextMastery(
+  context: RecommendationContext | undefined,
+  concepts: string[],
+  fallback: number
+) {
+  if (!context?.conceptStates || concepts.length === 0) return fallback;
+
+  const values = concepts
+    .map((concept) => context.conceptStates?.[concept]?.mastery)
+    .filter((value): value is number => typeof value === "number");
+
+  if (values.length === 0) return fallback;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function getAbilityNeed(context: RecommendationContext | undefined, abilityTarget: AbilityTarget) {
+  const score = context?.abilityProfile?.[abilityTarget]?.score;
+  if (typeof score !== "number") return 0;
+  return Math.max(0, 1 - score);
+}
+
+function getConceptNeed(context: RecommendationContext | undefined, concepts: string[]) {
+  if (!context?.conceptStates || concepts.length === 0) return 0;
+
+  const needs = concepts.map((concept) => {
+    const state = context.conceptStates?.[concept];
+    if (!state) return 0;
+
+    const masteryNeed = 1 - (state.mastery ?? 0.5);
+    const stabilityNeed = 1 - (state.stability ?? 0.5);
+    const confidenceNeed =
+      typeof state.averageConfidence === "number" && state.averageConfidence > 0
+        ? Math.max(0, (3 - state.averageConfidence) / 3)
+        : 0;
+    const fluencyNeed = (state.averageResponseTimeSeconds ?? 0) >= 120 ? 0.3 : 0;
+    const wrongStreakNeed = Math.min(0.4, (state.wrongStreak ?? 0) * 0.15);
+    const reviewNeed = state.reviewDueAt && state.reviewDueAt <= new Date().toISOString() ? 0.3 : 0;
+
+    return clamp(masteryNeed * 0.38 + stabilityNeed * 0.28 + confidenceNeed * 0.16 + fluencyNeed + wrongStreakNeed + reviewNeed);
+  });
+
+  return needs.reduce((sum, value) => sum + value, 0) / needs.length;
+}
+
+function inferAbilityTarget(problem: Problem): AbilityTarget {
+  const tags = problem.taxonomy?.cognitiveTags ?? [];
+  const type = problem.taxonomy?.problemType ?? "";
+  const stage = problem.taxonomy?.stage;
+
+  if (stage === "AMC8 Transfer" || tags.some((tag) => ["multi_step_planning", "structure_recognition", "pattern_generalization"].includes(tag))) {
+    return "transfer";
+  }
+
+  if (tags.some((tag) => tag.includes("reasoning") || tag.includes("modeling") || tag.includes("diagram") || tag.includes("deduction"))) {
+    return "reasoning";
+  }
+
+  if (tags.some((tag) => tag.includes("fluency") || tag.includes("precision")) || type === "computation") {
+    return "fluency";
+  }
+
+  if (["equation_solving", "expression_simplification", "function_evaluation", "substitution", "inequality_solving"].includes(type)) {
+    return "skill";
+  }
+
+  return "knowledge";
+}
+
+function describePathAlignment(scored: ScoredProblem) {
+  if (!scored.pathAlignment.stepTitle) return "";
+
+  return ` Aligned to path step: ${scored.pathAlignment.stepTitle}.`;
 }
 
 function buildFallbackRecommendation(
@@ -416,6 +647,10 @@ function buildFallbackRecommendation(
     matchedFluencyConcepts: problem.concepts.filter((concept) => fluencyConcepts.includes(concept)),
     matchedPrerequisites: problem.prerequisiteConcepts.filter((concept) => weakConcepts.includes(concept)),
     matchedPrerequisiteGaps: prerequisiteGaps.filter((gap) => problem.concepts.includes(gap.concept)),
+    matchedPathConcepts: [],
+    matchedReviewConcepts: [],
+    abilityTarget: inferAbilityTarget(problem),
+    pathAlignment: {},
     difficultyGap: 0,
     averageMastery: averageMastery(state, problem.concepts)
   };
@@ -481,7 +716,7 @@ export class AdaptiveEngine {
     }
 
     // 4. select problem
-    const recommendation = selectNextProblem(state, this.problems, weak, fluency, prerequisiteGaps, remediation);
+    const recommendation = selectNextProblem(state, this.problems, weak, fluency, prerequisiteGaps, remediation, attempt.recommendationContext);
     const next = {
       ...recommendation.problem,
       recommendationMeta: {

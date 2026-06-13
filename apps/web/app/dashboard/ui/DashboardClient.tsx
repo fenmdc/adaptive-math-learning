@@ -86,6 +86,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
           </div>
         </div>
         <div className="nav-actions">
+          <Link className="button-secondary" href="/login">Login</Link>
           <Link className="button-secondary" href="/diagnostic">Diagnostic</Link>
           <Link className="button-secondary" href="/practice">Practice</Link>
         </div>
@@ -140,10 +141,20 @@ function LatestAssessmentReport({ report }: { report: AssessmentReport }) {
         <div>
           <p className="eyebrow">Latest Diagnostic Report</p>
           <h2 className="panel-title">{report.recommendationTitle}</h2>
+          <div className="muted">
+            Placement: {report.placement.stage} · {report.placement.status}
+          </div>
         </div>
         <div className="summary-score">{report.accuracy}%</div>
       </div>
       <p className="summary-recommendation">{report.recommendationReason}</p>
+      <div className="summary-list">
+        {report.summaryBullets.slice(0, 4).map((item) => (
+          <div className="summary-item" key={item}>
+            <div>{item}</div>
+          </div>
+        ))}
+      </div>
       <div className="readiness-grid">
         {report.stageReadiness.map((stage) => (
           <div className="readiness-card" key={stage.stage}>
@@ -168,6 +179,17 @@ function LatestAssessmentReport({ report }: { report: AssessmentReport }) {
           ))}
         </div>
       )}
+      <div className="summary-grid">
+        {report.abilityProfile.map((ability) => (
+          <div className="summary-item" key={ability.dimension}>
+            <div>
+              <strong>{ability.dimension}</strong>
+              <div className="muted">{ability.status} · {ability.evidence}</div>
+            </div>
+            <div className="summary-percent">{Math.round(ability.score * 100)}%</div>
+          </div>
+        ))}
+      </div>
       <div className="learning-plan-actions report-actions">
         <Link className="button" href={report.practiceHref}>
           Start personalized mini session

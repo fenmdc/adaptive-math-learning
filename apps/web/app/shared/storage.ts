@@ -3,6 +3,7 @@ import type { SimulationLog } from "../dashboard/types";
 import type { AssessmentReport } from "./assessmentReport";
 import type { LearningPlan } from "./learningPlan";
 import type { StudentModel } from "./studentModel";
+import { accountScopedKey } from "./accounts";
 
 export const PRACTICE_LOGS_KEY = "adaptive-math-learning.practiceLogs";
 export const DIAGNOSTIC_LOGS_KEY = "adaptive-math-learning.diagnosticLogs";
@@ -77,7 +78,7 @@ export function readLearningPlan() {
   if (typeof window === "undefined") return null;
 
   try {
-    const raw = window.localStorage.getItem(LEARNING_PLAN_KEY);
+    const raw = window.localStorage.getItem(storageKey(LEARNING_PLAN_KEY));
     return raw ? (JSON.parse(raw) as LearningPlan) : null;
   } catch {
     return null;
@@ -88,7 +89,7 @@ export function readAssessmentReport() {
   if (typeof window === "undefined") return null;
 
   try {
-    const raw = window.localStorage.getItem(ASSESSMENT_REPORT_KEY);
+    const raw = window.localStorage.getItem(storageKey(ASSESSMENT_REPORT_KEY));
     return raw ? (JSON.parse(raw) as AssessmentReport) : null;
   } catch {
     return null;
@@ -99,7 +100,7 @@ export function readStudentModel() {
   if (typeof window === "undefined") return null;
 
   try {
-    const raw = window.localStorage.getItem(STUDENT_MODEL_KEY);
+    const raw = window.localStorage.getItem(storageKey(STUDENT_MODEL_KEY));
     return raw ? (JSON.parse(raw) as StudentModel) : null;
   } catch {
     return null;
@@ -110,7 +111,7 @@ function readLogs(key: string) {
   if (typeof window === "undefined") return [];
 
   try {
-    const raw = window.localStorage.getItem(key);
+    const raw = window.localStorage.getItem(storageKey(key));
     return raw ? (JSON.parse(raw) as SimulationLog[]) : [];
   } catch {
     return [];
@@ -118,32 +119,36 @@ function readLogs(key: string) {
 }
 
 export function writePracticeLogs(logs: SimulationLog[]) {
-  window.localStorage.setItem(PRACTICE_LOGS_KEY, JSON.stringify(logs));
+  window.localStorage.setItem(storageKey(PRACTICE_LOGS_KEY), JSON.stringify(logs));
 }
 
 export function writeDiagnosticLogs(logs: SimulationLog[]) {
-  window.localStorage.setItem(DIAGNOSTIC_LOGS_KEY, JSON.stringify(logs));
+  window.localStorage.setItem(storageKey(DIAGNOSTIC_LOGS_KEY), JSON.stringify(logs));
 }
 
 export function writeLearningPlan(plan: LearningPlan) {
-  window.localStorage.setItem(LEARNING_PLAN_KEY, JSON.stringify(plan));
+  window.localStorage.setItem(storageKey(LEARNING_PLAN_KEY), JSON.stringify(plan));
 }
 
 export function writeAssessmentReport(report: AssessmentReport) {
-  window.localStorage.setItem(ASSESSMENT_REPORT_KEY, JSON.stringify(report));
+  window.localStorage.setItem(storageKey(ASSESSMENT_REPORT_KEY), JSON.stringify(report));
 }
 
 export function writeStudentModel(model: StudentModel) {
-  window.localStorage.setItem(STUDENT_MODEL_KEY, JSON.stringify(model));
+  window.localStorage.setItem(storageKey(STUDENT_MODEL_KEY), JSON.stringify(model));
 }
 
 export function clearPracticeLogs() {
-  window.localStorage.removeItem(PRACTICE_LOGS_KEY);
+  window.localStorage.removeItem(storageKey(PRACTICE_LOGS_KEY));
 }
 
 export function clearDiagnosticLogs() {
-  window.localStorage.removeItem(DIAGNOSTIC_LOGS_KEY);
-  window.localStorage.removeItem(LEARNING_PLAN_KEY);
-  window.localStorage.removeItem(STUDENT_MODEL_KEY);
-  window.localStorage.removeItem(ASSESSMENT_REPORT_KEY);
+  window.localStorage.removeItem(storageKey(DIAGNOSTIC_LOGS_KEY));
+  window.localStorage.removeItem(storageKey(LEARNING_PLAN_KEY));
+  window.localStorage.removeItem(storageKey(STUDENT_MODEL_KEY));
+  window.localStorage.removeItem(storageKey(ASSESSMENT_REPORT_KEY));
+}
+
+function storageKey(key: string) {
+  return accountScopedKey(key);
 }

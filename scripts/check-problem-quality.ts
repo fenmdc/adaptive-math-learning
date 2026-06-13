@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 import type { AnswerChoice, Problem } from "../packages/adaptive-engine";
+import { buildExplanationReviewQueue, summarizeExplanationQuality } from "../apps/web/app/shared/explanationQuality";
+import { buildProblemQualityAudit } from "../apps/web/app/shared/problemQuality";
 
 type ExampleExplanation = {
   hint1?: string;
@@ -203,6 +205,9 @@ function validateIseCoverage(
 
 function buildSummary(problems: Problem[], explanations: Record<string, ExampleExplanation>) {
   const iseProblems = problems.filter((problem) => problem.curriculum?.sourceCollection === ISE_SOURCE);
+  const explanationQuality = summarizeExplanationQuality(problems, explanations);
+  const explanationReviewQueue = buildExplanationReviewQueue(problems, explanations);
+  const qualityAudit = buildProblemQualityAudit(problems, explanations);
 
   return {
     totalProblems: problems.length,
@@ -212,6 +217,9 @@ function buildSummary(problems: Problem[], explanations: Record<string, ExampleE
     courses: countBy(problems, (problem) => problem.curriculum?.course ?? ""),
     stages: countBy(problems, (problem) => problem.taxonomy?.stage ?? ""),
     layers: countBy(problems, (problem) => problem.taxonomy?.layer ?? ""),
+    explanationQuality,
+    explanationReviewQueue,
+    qualityAudit,
     ise: {
       total: iseProblems.length,
       chapters: Object.keys(countBy(iseProblems, (problem) => problem.curriculum.chapter)).length,
@@ -228,6 +236,14 @@ function printSummary(summary: ReturnType<typeof buildSummary>, warnings: string
   console.log(`- Auto-gradable: ${summary.autoGradable}`);
   console.log(`- Multiple choice: ${summary.multipleChoice}`);
   console.log(`- Explanations: ${summary.explanations}`);
+  console.log(`- Explanation quality avg: ${summary.explanationQuality.averageScore}/100`);
+  console.log(`- Explanation quality: ${formatCounts(summary.explanationQuality.counts)}`);
+  console.log(`- Explanation review queue: ${summary.explanationReviewQueue.totalReviewItems}`);
+  console.log(`- Quality readiness score: ${summary.qualityAudit.readinessScore}/100`);
+  console.log(`- Full distractor coverage: ${summary.qualityAudit.fullDistractorCoverage}/${summary.qualityAudit.multipleChoice}`);
+  console.log(`- Remote assets: ${summary.qualityAudit.remoteAssets}`);
+  console.log(`- Thin chapters (<20 problems): ${summary.qualityAudit.thinChapters.length}`);
+  console.log(`- Thin concepts (<5 problems): ${summary.qualityAudit.thinConcepts.length}`);
   console.log(`- ISE problems: ${summary.ise.total}`);
   console.log(`- ISE chapters: ${summary.ise.chapters}`);
   console.log(`- ISE courses: ${formatCounts(summary.ise.courses)}`);
@@ -240,6 +256,37 @@ function printSummary(summary: ReturnType<typeof buildSummary>, warnings: string
     console.log("\nWarnings");
     warnings.slice(0, 25).forEach((warning) => console.log(`- ${warning}`));
     if (warnings.length > 25) console.log(`- ... ${warnings.length - 25} more warning(s)`);
+  }
+
+  if (summary.explanationReviewQueue.batches.length > 0) {
+    console.log("\nTop explanation review batches");
+    summary.explanationReviewQueue.batches.slice(0, 5).forEach((batch, index) => {
+      const issues = batch.topIssues.map((item) => `${item.issue} (${item.count})`).join("; ");
+      console.log(
+        `${index + 1}. ${batch.title} | ${batch.sourceCollection} | ${batch.count} item(s) | avg ${batch.averageScore}/100 | priority ${batch.priorityScore}${issues ? ` | ${issues}` : ""}`
+      );
+    });
+  }
+
+  if (summary.qualityAudit.thinChapters.length > 0) {
+    console.log("\nTop chapter backfill targets");
+    summary.qualityAudit.thinChapters.slice(0, 8).forEach((chapter, index) => {
+      console.log(`${index + 1}. ${chapter.course} · ${chapter.chapterTitle} | ${chapter.count}/20 | ${chapter.sourceCollection}`);
+    });
+  }
+
+  if (summary.qualityAudit.thinConcepts.length > 0) {
+    console.log("\nTop concept backfill targets");
+    summary.qualityAudit.thinConcepts.slice(0, 8).forEach((concept, index) => {
+      console.log(`${index + 1}. ${concept.concept} | ${concept.count}/5`);
+    });
+  }
+
+  if (summary.qualityAudit.nextQualityMoves.length > 0) {
+    console.log("\nRecommended quality moves");
+    summary.qualityAudit.nextQualityMoves.forEach((move, index) => {
+      console.log(`${index + 1}. [${move.priority}] ${move.title} | ${move.label} | ${move.reason}`);
+    });
   }
 
   if (errors.length > 0) {

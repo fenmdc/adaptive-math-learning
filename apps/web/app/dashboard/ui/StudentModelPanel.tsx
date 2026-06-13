@@ -17,6 +17,11 @@ export default function StudentModelPanel({ model }: { model: StudentModel | nul
         <div>
           <p className="eyebrow">Student Model</p>
           <h2 className="panel-title">Current learner state</h2>
+          {model && (
+            <div className="muted">
+              Placement: {summary.currentPlacement.stage} · {summary.currentPlacement.status}
+            </div>
+          )}
         </div>
         <div className="summary-score">
           {model ? Math.round(model.difficultyComfort * 10) / 10 : "-"}
@@ -32,6 +37,20 @@ export default function StudentModelPanel({ model }: { model: StudentModel | nul
             )} average confidence.`
           : "Complete a diagnostic or practice session to initialize the student model."}
       </p>
+
+      {model && (
+        <div className="summary-grid">
+          {Object.entries(summary.abilityProfile).map(([dimension, state]) => (
+            <div className="summary-item" key={dimension}>
+              <div>
+                <strong>{dimension}</strong>
+                <div className="muted">{state.attempts} signal(s)</div>
+              </div>
+              <div className="summary-percent">{Math.round(state.score * 100)}%</div>
+            </div>
+          ))}
+        </div>
+      )}
 
       <div className="learning-plan-card learning-plan-inline">
         <div>

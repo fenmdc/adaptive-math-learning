@@ -1,0 +1,182 @@
+USA
+AMC 8
+2004
+1 On a map, a 12-centimeter length represents 72 kilometers. How many kilometers does a
+17-centimeter length represent?
+(A) 6 (B) 102 (C) 204 (D) 864 (E) 1224
+2 How many diﬀerent four-digit numbers can be formed by rearranging the four digits in 2004?
+(A) 4 (B) 6 (C) 16 (D) 24 (E) 81
+3 Twelve friends met for dinner at Oscar’s Overstuﬀed Oyster House, and each ordered one
+meal. The portions were so large, there was enough food for 18 people. If they share, how
+many meals should they have ordered to have just enough food for the 12 of them?
+(A) 8 (B) 9 (C) 10 (D) 15 (E) 18
+4 Lance, Sally, Joy and Fred are chosen for the team. In how many ways can the three starters
+be chosen?
+(A)2 (B)4 (C)6 (D)8 (E)10
+5 The losing team of each game is eliminated from the tournament. If sixteen teams compete,
+how many games will be played to determine the winner?
+(A)4 (B)7 (C)8 (D)15 (E)16
+6 After Sally takes 20 shots, she has made 55% of her shots. After she takes 5 more shots, she
+raises her percentage to 56%. How many of the last 5 shots did she make?
+(A)1 (B)2 (C)3 (D)4 (E)5
+7 An athlete’s target heart rate, in beats per minute, is 80% of the theoretical maximum heart
+rate. The maximum heart rate is found by subtracting the athlete’s age, in years, from 220.
+To the nearest whole number, what is the target heart rate of an athlete who is 26 years old?
+(A) 134 (B) 155 (C) 176 (D) 194 (E) 243
+8 Find the number of two-digit positive integers whose digits total 7.
+(A) 6 (B) 7 (C) 8 (D) 9 (E) 10
+9 The average of the ﬁve numbers in a list is 54. The average of the ﬁrst two numbers is 48.
+What is the average of the last three numbers?
+(A) 55 (B) 56 (C) 57 (D) 58 (E) 59
+10 Handy Aaron helped a neighbor 1 1
+4 hours on Monday, 50 minutes on Tuesday, from 8 : 20
+to 10 : 45 on Wednesday morning, and a half-hour on Friday. He is paid $3 per hour. How
+much did he earn for the week?
+(A) 8 (B) 9 (C) 10 (D) 12 (E) 15
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+2004
+11 The numbers -2, 4, 6, 9 and 12 are rearranged according to these rules:
+1. The largest isn’t ﬁrst, but it is in one of the ﬁrst three places. 2. The smallest isn’t last,
+but it is in one of the last three places. 3. The median isn’t ﬁrst or last.
+What is the average of the ﬁrst and last numbers?
+(A) 3.5 (B) 5 (C) 6.5 (D) 7.5 (E) 8
+12 Niki usually leaves her cell phone on. If her cell phone is on but she is not actually using it,
+the battery will last for 24 hours. If she is using it constantly, the battery will last for only 3
+hours. Since the last recharge, her phone has been on 9 hours, and during that time she has
+used it for 60 minutes. If she doesn’t talk any more but leaves the phone on, how many more
+hours will the battery last?
+(A) 7 (B) 8 (C) 11 (D) 14 (E) 15
+13 Amy, Bill and Celine are friends with diﬀerent ages. Exactly one of the following statements
+is true.
+Rank the friends from the oldest to the youngest.
+(A) Bill, Amy, Celine (B) Amy, Bill, Celine (C) Celine, Amy, Bill
+(D) Celine, Bill, Amy (E) Amy, Celine, Bill
+14 What is the area enclosed by the geoboard quadrilateral below?
+(A)15 (B)18 1
+2 (C)22 1
+2 (D)27 (E)41
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+2004
+15 Thirteen black and six white hexagonal tiles were used to create the ﬁgure below. If a new
+ﬁgure is created by attaching a border of white tiles with the same size and shape as the
+others, what will be the diﬀerence between the total number of white tiles and the total
+number of black tiles in the new ﬁgure?
+(A) 5 (B) 7 (C) 11 (D) 12 (E) 18
+16 Two 600 ml pitchers contain orange juice. One pitcher is 1
+3 full and the other pitcher is 2
+5
+full. Water is added to ﬁll each pitcher completely, then both pitchers are poured into one
+large container. What fraction of the mixture in the large container is orange juice?
+(A) 1
+8 (B) 3
+16 (C) 11
+30 (D) 11
+19 (E) 11
+15
+17 Three friends have a total of 6 identical pencils, and each one has at least one pencil. In how
+many ways can this happen?
+(A) 1 (B) 3 (C) 6 (D) 10 (E) 12
+18 Five friends compete in a dart-throwing contest. Each one has two darts to throw at the
+same circular target, and each individual’s score is the sum of the scores in the target regions
+that are hit. The scores for the target regions are the whole numbers 1 through 10. Each
+throw hits the target in a region with a diﬀerent value. The scores are: Alice 16 points, Ben
+4 points, Cindy 7 points, Dave 11 points, and Ellen 17 points. Who hits the region worth 6
+points?
+(A) Alice (B) Ben (C) Cindy (D) Dave (E) Ellen
+19 A whole number larger than 2 leaves a remainder of 2 when divided by each of the numbers
+3, 4, 5 and 6. The smallest such number lies between which two numbers?
+(A) 40 and 49 (B) 60 and 79 (C) 100 and 129 (D) 210 and 249 (E) 320 and 369
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+2004
+20 Two-thirds of the people in a room are seated in three-fourths of the chairs. The rest of the
+people are standing. If there are 6 empty chairs, how many people are in the room?
+(A) 12 (B) 18 (C) 24 (D) 27 (E) 36
+21 Spinners A and B are spun. On each spinner, the arrow is equally likely to land on each
+number. What is the probability that the product of the two spinners’ numbers is even?
+1
+4 3
+2 1 2
+3
+A B
+(A) 1
+4 (B) 1
+3 (C) 1
+2 (D) 2
+3 (E) 3
+4
+22 At a party there are only single women and married men with their wives. The probability
+that a randomly selected woman is single is 2
+5. What fraction of the people in the room are
+married men?
+(A) 1
+3 (B) 3
+8 (C) 2
+5 (D) 5
+12 (E) 3
+5
+23 Tess runs counterclockwise around rectangular block JKLM. She lives at corner J. Which
+graph could represent her straight-line distance from home?
+J
+K L
+M
+(A)
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+2004
+time
+distance
+(B)
+time
+distance
+(C)
+time
+distance
+(D)
+time
+distance
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+2004
+(E)
+time
+distance
+24 In the ﬁgure, ABCD is a rectangle and EFGH is a parallelogram. Using the measurements
+given in the ﬁgure, what is the length d of the segment that is perpendicular to HE andFG ?
+A B
+CD
+E
+F
+G
+H
+d
+3
+4 6
+5
+3
+5
+46
+(A) 6.8 (B) 7.1 (C) 7.6 (D) 7.8 (E) 8.1
+25 Two 4 × 4 squares intersect at right angles, bisecting their intersecting sides, as shown. The
+circle’s diameter is the segment between the two points of intersection. What is the area of
+the shaded region created by removing the circle from the squares?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6
+USA
+AMC 8
+2004
+(A) 16 − 4π (B) 16 − 2π (C) 28 − 4π (D) 28 − 2π (E) 32 − 2π
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 7

@@ -1,0 +1,195 @@
+USA
+AMC 8
+2009
+1 Bridget bought a bag of apples at the grocery store. She gave half of the apples to Ann. Then
+she gave Cassie 3 apples, keeping 4 apples for herself. How many apples did Bridget buy?
+(A) 3 (B) 4 (C) 7 (D) 11 (E) 14
+2 On average, for every 4 sports cars sold at the local dealership, 7 sedans are sold. The
+dealership predicts that it will sell 28 sports cars next month. How many sedans does it
+expect to sell?
+(A) 7 (B) 32 (C) 35 (D) 49 (E) 112
+3 The graph shows the constant rate at which Suzanna rides her bike. If she rides a total of a
+half an hour at the same speed, how many miles would she have ridden?
+0
+0 5 10 15 20
+1
+2
+3
+4
+MINUTES
+MILES
+(A)5 (B)5.5 (C)6 (D)6.5 (E)7
+4 The ﬁve pieces shown below can be arranged to form four of the ﬁve ﬁgures shown in the
+choices. Which ﬁgure cannot be formed?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+2009
+(A) (B) (C) (D) (E)
+5 A sequence of numbers starts with 1, 2, and 3. The fourth number of the sequence is the sum
+of the previous three numbers in the sequence: 1 + 2 + 3 = 6. In the same way, every number
+after the fourth is the sum of the previous three numbers. What is the eighth number in the
+sequence?
+(A) 11 (B) 20 (C) 37 (D) 68 (E) 99
+6 Steve’s empty swimming pool will hold 24 , 000 gallons of water when full. It will be ﬁlled by
+4 hoses, each of which supplies 2 .5 gallons of water per minute. How many hours will it take
+to ﬁll Steve’s pool?
+(A) 40 (B) 42 (C) 44 (D) 46 (E) 48
+7 The triangular plot of ACD lies between Aspen Road, Brown Road and a railroad. Main
+Street runs east and west, and the railroad runs north and south. The numbers in the
+diagram indicate distances in miles. The width of the railroad track can be ignored. How
+many square miles are in the plot of land ACD?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+2009
+A B
+C
+D
+3
+3
+3
+Main
+Aspen
+Brown
+(A) 2 (B) 3 (C) 4.5 (D) 6 (E) 9
+8 The length of a rectangle is increased by 10% and the width is decreased by 10%. What
+percent of the old area is the new area?
+(A) 90 (B) 99 (C) 100 (D) 101 (E) 110
+9 Construct a square on one side of an equilateral triangle. One on non-adjacent side of the
+square, construct a regular pentagon, as shown. One a non-adjacent side of the pentagon,
+construct a hexagon. Continue to construct regular polygons in the same way, until you
+construct an octagon. How many sides does the resulting polygon have?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+2009
+(A)21 (B)23 (C)25 (D)27 (E)29
+10 On a checkerboard composed of 64 unit squares, what is the probability that a randomly
+chosen unit square does not touch the outer edge of the board?
+(A) 1
+16 (B) 7
+16 (C) 1
+2 (D) 9
+16 (E) 49
+64
+11 The Amaco Middle School bookstore sells pencils costing a whole number of cents. Some
+seventh graders each bought a pencil, paying a total of $1 .43. Some of the 30 sixth graders
+each bought a pencil, and they paid a total of $1 .95. How many more sixth graders than
+seventh graders bought a pencil?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+12 The two spinners shown are spun once and each lands on one of the numbered sectors. What
+is the probability that the sum of the numbers in the two sectors is prime?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+2009
+1
+35
+2
+46
+(A) 1
+2 (B) 2
+3 (C) 3
+4 (D) 7
+9 (E) 5
+6
+13 A three-digit integer contains one of each of the digits 1, 3, and 5. What is the probability
+that the integer is divisible by 5?
+(A) 1
+6 (B) 1
+3 (C) 1
+2 (D) 2
+3 (E) 5
+6
+14 Austin and Temple are 50 miles apart along Interstate 35. Bonnie drove from Austin to her
+daughter’s house in Temple, averaging 60 miles per hour. Leaving the car with her daughter,
+Bonnie rod a bus back to Austin along the same route and averaged 40 miles per hour on the
+return trip. What was the average speed for the round trip, in miles per hour?
+(A) 46 (B) 48 (C) 50 (D) 52 (E) 54
+15 A recipe that makes 5 servings of hot chocolate requires 2 squares of chocolate, 1
+4 cup sugar,
+1 cup water and 4 cups milk. Jordan has 5 squares of chocolate, 2 cups of sugar, lots of
+water and 7 cups of milk. If she maintains the same ratio of ingredients, what is the greatest
+number of servings of hot chocolate she can make?
+(A) 5 1
+8 (B) 6 1
+4 (C) 7 1
+2 (D) 8 3
+4 (E) 9 7
+8
+16 How many 3-digit positive integers have digits whose product equals 24?
+(A) 12 (B) 15 (C) 18 (D) 21 (E) 24
+17 The positive integers x and y are the two smallest positive integers for which the product of
+360 and x is a square and the product of 360 and y is a cube. What is the sum of x and y?
+(A) 80 (B) 85 (C) 115 (D) 165 (E) 610
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+2009
+18 The diagram represents a 7-foot-by-7-foot ﬂoor that is tiled with 1-square-foot black tiles and
+white tiles. Notice that the corners have white tiles. If a 15-foot-by-15-foot ﬂoor is to be tiled
+in the same manner, how many white tiles will be needed?
+(A) 49 (B) 57 (C) 64 (D) 96 (E) 126
+19 Two angles of an isosceles triangle measure 70◦ and x◦. What is the sum of the three possible
+values of x?
+(A) 95 (B) 125 (C) 140 (D) 165 (E) 180
+20 How many non-congruent triangles have vertices at three of the eight points in the array
+shown below?
+(A) 5 (B) 6 (C) 7 (D) 8 (E) 9
+21 Andy and Bethany have a rectangular array of numbers with 40 rows and 75 columns. Andy
+adds the numbers in each row. The average of his 40 sums is A. Bethany adds the numbers
+in each column. The average of her 75 sums is B. What is the value of A
+B ?
+(A) 64
+225 (B) 8
+15 (C) 1 (D) 15
+8 (E) 225
+64
+22 How many whole numbers between 1 and 1000 do not contain the digit 1?
+(A) 512 (B) 648 (C) 720 (D) 728 (E) 800
+23 On the last day of school, Mrs. Wonderful gave jelly beans to her class. She gave each boy
+as many jelly beans as there were boys in the class. She gave each girl as many jelly beans as
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6
+USA
+AMC 8
+2009
+there were girls in the class. She brought 400 jelly beans, and when she ﬁnished, she had six
+jelly beans left. There were two more boys than girls in her class. How many students were
+in her class?
+(A) 26 (B) 28 (C) 30 (D) 32 (E) 34
+24 The letters A, B, C and D represent digits. If
+A B
++ C A
+D A
+and
+A B
+- C A
+A
+, what digit does
+D represent?
+(A) 5 (B) 6 (C) 7 (D) 8 (E) 9
+25 A one-cubic-foot cube is cut into four pieces by three cuts parallel to the top face of the cube.
+The ﬁrst cub is 1
+2 foot from the top face. The second cut is 1
+3 foot below the ﬁrst cut, and
+the third cut is 1
+17 foot below the second cut. From the top to the bottom the pieces are
+labeled A, B, C, and D. The pieces are then glued together end to end as shown in the second
+diagram. What is the total surface area of this solid in square feet?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 7
+USA
+AMC 8
+2009
+(A) 6 (B) 7 (C) 419
+51 (D) 158
+17 (E) 11
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 8

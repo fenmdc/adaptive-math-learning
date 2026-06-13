@@ -32,14 +32,17 @@ export default function HomePage() {
         <header className="masthead product-masthead">
           <div>
             <p className="eyebrow">Adaptive Math Learning</p>
-            <h1 className="page-title">Learning Workspace</h1>
+            <h1 className="page-title">Student Home</h1>
             <p className="page-subtitle">
-              Start with a diagnostic, choose a course chapter, or continue adaptive practice from the current problem bank.
+              Continue the next useful math task, review recent progress, and open a focused practice session from one place.
             </p>
           </div>
           <div className="nav-actions">
+            <Link className="button-secondary" href="/login">
+              Login
+            </Link>
             <Link className="button" href="/diagnostic">
-              Start Diagnostic
+              Diagnostic
             </Link>
             <Link className="button-secondary" href="/practice">
               Practice
@@ -61,19 +64,19 @@ export default function HomePage() {
         <section className="product-action-grid">
           <ProductAction
             action="Begin"
-            description="A 10-question check across arithmetic, algebra, geometry, number theory, probability, and statistics."
+            description="Run a short placement check when the system needs a fresh baseline."
             href="/diagnostic"
-            title="Initial Diagnostic"
+            title="Diagnostic Check"
           />
           <ProductAction
             action="Continue"
-            description="Use the full adaptive engine with the current course and chapter filters."
+            description="Open the adaptive practice surface with filters, answer checks, and explanations."
             href="/practice"
             title="Adaptive Practice"
           />
           <ProductAction
             action="Review"
-            description="Read the latest mastery profile, domain readiness, trajectory, and next focus recommendation."
+            description="Inspect mastery, readiness, review queue, and explanation quality."
             href="/dashboard"
             title="Learning Report"
           />

@@ -1,0 +1,207 @@
+USA
+AMC 8
+1986
+1 In July 1861, 366 inches of rain fell in Cherrapunji, India. What was the average rainfall in
+inches per hour during that month?
+(A) 366
+31× 24 (B) 366× 31
+24 (C) 366× 24
+31 (D) 31× 24
+366 (E) 366× 31× 24
+2 Which of the following numbers has the largest reciprocal?
+(A) 1
+3 (B) 2
+5 (C) 1 (D) 5 (E) 1986
+3 The smallest sum one could get by adding three diﬀerent numbers from the set{7, 25,−1, 12,−3}
+is
+(A) − 3 (B) − 1 (C) 3 (D) 5 (E) 21
+4 The product (1 .8)(40.3 + .07) is closest to
+(A) 7 (B) 42 (C) 74 (D) 84 (E) 737
+5 A contest began at noon one day and ended 1000 minutes later. At what time did the contest
+end?
+(A) 10 : 00 p.m. (B) midnight (C) 2 : 30 a.m.(D) 4 : 40 a.m. (E) 6 : 40 a.m.
+6 2
+1− 2
+3
+=
+(A) − 3 (B) − 4
+3 (C) 2
+3 (D) 2 (E) 6
+7 How many whole numbers are between
+√
+8 and
+√
+80?
+(A) 5 (B) 6 (C) 7 (D) 8 (E) 9
+8 In the product B2× 7B = 6396, B is a digit. The value of B is
+(A) 3 (B) 5 (C) 6 (D) 7 (E) 8
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1986
+9
+D C N
+A B
+M
+Using only the paths and the directions shown, how many diﬀerent routes are there from M
+to N?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+10 A picture 3 feet across is hung in the center of a wall that is 19 feet wide. How many feet
+from the end of the wall is the nearest edge of the picture?
+(A) 11
+2 (B) 8 (C) 91
+2 (D) 16 (E) 22
+11 If A ⋆ B means A+B
+2 , then (3 ⋆ 5) ⋆ 8 is
+(A) 6 (B) 8 (C) 12 (D) 16 (E) 30
+12
+F
+D
+C
+B
+A
+A B C D F
+0
+0
+1
+1
+2
+0
+0
+3
+4
+2
+2
+1
+5
+3
+1
+1
+1
+2
+0
+0
+0
+1
+0
+0
+0
+TEST 2
+TEST 1
+The table displays the grade distribution of the 30 students in a mathematics class on the
+last two tests. For example, exactly one student received a ”D” on Test 1 and a ”C” on Test
+2. What percent of the students received the same grade on both tests?
+(A) 12% (B) 25% (C) 331
+3% (D) 40% (E) 50%
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1986
+13
+6
+8
+Given that all angles shown are marked, the perimeter of the polygon shown is
+(A) 14 (B) 20 (C) 28 (D) 48 (E) cannot be determined from the information given
+14 If 200≤ a≤ 400 and 600≤ b≤ 1200, then the largest value of the quotient b
+a is
+(A) 3
+2 (B) 3 (C) 6 (D) 300 (E) 600
+15 Sale prices at the Ajax Outlet Store are 50% below original prices. On Saturdays an additional
+discount of 20% oﬀ the sale price is given. What is the Saturday price of a coat whose original
+price is $180?
+(A) $54 (B) $72 (C) $90 (D) $108 (E) $110
+16
+season
+hamburgers (millions)
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+Spring
+Summer
+Fall
+Winter
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1986
+A bar graph shows the number of hamburgers sold by a fast food chain each season. However,
+the bar indicating the number sold during the winter is covered by a smudge. If exactly 25%
+of the chain’s hamburgers are sold in the fall, how many million hamburgers are sold in the
+winter?
+(A) 2.5 (B) 3 (C) 3.5 (D) 4 (E) 4.5
+17 Let o be an odd whole number and let n be any whole number. Which of the following
+statements about the whole number ( o2 + no) is always true?
+(A) it is always odd (B) it is always even(C) it is even only if n is even (D) it is odd only if n is odd (E) it is odd only if n is even
+18 A rectangular grazing area is to be fenced oﬀ on three sides using part of a 100 meter rock wall
+as the fourth side. Fence posts are to be placed every 12 meters along the fence including the
+two posts where the fence meets the rock wall. What is the fewest number of posts required
+to fence an area 36 m by 60 m?
+(A) 11 (B) 12 (C) 13 (D) 14 (E) 16
+19 At the beginning of a trip, the mileage odometer read 56200 miles. The driver ﬁlled the gas
+tank with 6 gallons of gasoline. During the trip, the driver ﬁlled his tank again with 12 gallons
+of gasoline when the odometer read 56560. At the end of the trip, the driver ﬁlled the tank
+again with 20 gallons of gasoline. The odometer read 57060. To the nearest tenth, what was
+the car’s average miles-per-gallon for the entire trip?
+(A) 22.5 (B) 22.6 (C) 24.0 (D) 26.9 (E) 27.5
+20 The value of the expression (304)5
+(29.7)(399)4 is closest to
+(A) .003 (B) .03 (C) .3 (D) 3 (E) 30
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1986
+21
+H
+GF
+ED
+CB
+A
+Suppose one of the eight lettered identical squares is included with the four squares in the
+T-shaped ﬁgure outlined. How many of the resulting ﬁgures can be folded into a topless
+cubical box?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+22 Alan, Beth, Carlos, and Diana were discussing their possible grades in mathematics class this
+grading period. Alan said, ”If I get an A, then Beth will get an A.” Beth said, ”If I get an
+A, then Carlos will get an A.” Carlos said, ”If I get an A, then Diana will get an A.” All of
+these statements were true, but only two of the students received an A. Which two received
+A’s?
+(A)Alan, Beth (B)Beth, Carlos (C)Carlos, Diana (D)Alan, Diana (E)Beth, Diana
+23
+A C O
+1 1
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+1986
+The large circle has diameter AC. The two small circles have their centers on AC and just
+touch at O, the center of the large circle. If each small circle has radius 1, what is the value
+of the ratio of the area of the shaded region to the area of one of the small circles?
+(A) between 1
+2 and 1 (B) 1 (C) between 1 and 3
+2 (D) between 3
+2 and 2(E) cannot be determined from the information given
+24 The 600 students at King Middle School are divided into three groups of equal size for lunch.
+Each group has lunch at a diﬀerent time. A computer randomly assigns each student to one
+of the three lunch groups. The probability that the three friends, Al, Bob, and Carol, will be
+assigned to the same lunch group is approximately:
+(A) 1
+27 (B) 1
+9 (C) 1
+8 (D) 1
+6 (E) 1
+3
+25 Which of the following sets of whole numbers has the largest average?
+(A) multiples of 2 between 1 and 101 (B) multiples of 3 between 1 and 101 (C) multiples of 4 between 1 and 101 (D) multiples of 5 between 1 and 101 (E) multiples of 6 between 1 and 101
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6

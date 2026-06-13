@@ -1,0 +1,158 @@
+USA
+AMC 8
+1997
+1 1
+10 + 9
+100 + 9
+1000 + 7
+10000 =
+(A) 0.0026 (B) 0.0197 (C) 0.1997 (D) 0.26 (E) 1.997
+2 Ahn chooses a two-digit integer, subtracts it from 200, and doubles the result. What is the
+largest number Ahn can get?
+(A) 200 (B) 202 (C) 220 (D) 380 (E) 398
+3 Which of the following numbers is the largest?
+(A) 0.97 (B) 0.979 (C) 0.9709 (D) 0.907 (E) 0.9089
+4 Julie is preparing a speech for her class. Her speech must last between one-half hour and
+three-quarters of an hour. The ideal rate of speech is 150 words per minute. If Julie speaks
+at the ideal rate, which of the following number of words would be an appropriate length for
+her speech?
+(A) 2250 (B) 3000 (C) 4200 (D) 4350 (E) 5650
+5 There are many two-digit multiples of 7, but only two of the multiples have a digit sum of
+10. The sum of these two multiples of 7 is
+(A) 119 (B) 126 (C) 140 (D) 175 (E) 189
+6 In the number 74982.1035 the value of the ”place” occupied by the digit 9 is how many times
+as great as the value of the ”place” occupied by the digit 3?
+(A) 1, 000 (B) 10, 000 (C) 100, 000 (D) 1, 000, 000 (E) 10, 000, 000
+7 The area of the smallest square that will contain a circle of radius 4 is
+(A) 8 (B) 16 (C) 32 (D) 64 (E) 128
+8 Walter gets up at 6:30 a.m., catches the school bus at 7:30 a.m., has 6 classes that last 50
+minutes each, has 30 minutes for lunch, and has 2 hours additional time at school. He takes
+the bus home and arrives at 4:00 p.m. How many minutes has he spent on the bus?
+(A) 30 (B) 60 (C) 75 (D) 90 (E) 120
+9 Three students, with diﬀerent names, line up single ﬁle. What is the probability that they
+are in alphabetical order from front-to-back?
+(A) 1
+12 (B) 1
+9 (C) 1
+6 (D) 1
+3 (E) 2
+3
+10 What fraction of this square region is shaded? Stripes are equal in width, and the ﬁgure is
+drawn to scale.
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1997
+(A) 5
+12 (B) 1
+2 (C) 7
+12 (D) 2
+3 (E) 5
+6
+11 Let N mean the number of whole number divisors of N. For example, 3 = 2 because 3 has
+two divisors, 1 and 3. Find the value of
+11 × 20 .
+(A) 6 (B) 8 (C) 12 (D) 16 (E) 24
+12 ∠1 + ∠2 = 180◦
+∠3 = ∠4
+Find ∠4.
+70◦
+40◦
+1 2 3
+4
+(A) 20◦ (B) 25◦ (C) 30◦ (D) 35◦ (E) 40◦
+13 Three bags of jelly beans contain 26, 28, and 30 beans. The ratios of yellow beans to all
+beans in each of these bags are 50%, 25%, and 20%, respectively. All three bags of candy are
+dumped into one bowl. Which of the following is closest to the ratio of yellow jelly beans to
+all beans in the bowl?
+(A) 31% (B) 32% (C) 33% (D) 35% (E) 95%
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1997
+14 There is a set of ﬁve positive integers whose average (mean) is 5, whose median is 5, and
+whose only mode is 8. What is the diﬀerence between the largest and smallest integers in the
+set?
+(A) 3 (B) 5 (C) 6 (D) 7 (E) 8
+15 Each side of the large square in the ﬁgure is trisected (divided into three equal parts). The
+corners of an inscribed square are at these trisection points, as shown. The ratio of the area
+of the inscribed square to the area of the large square is
+(A)
+√
+3
+3 (B) 5
+9 (C) 2
+3 (D)
+√
+5
+3 (E) 7
+9
+16 Penni Precisely buys $100 worth of stock in each of three companies: Alabama Almonds,
+Boston Beans, and California Cauliﬂower. After one year, AA was up 20%, BB was down
+25%, and CC was unchanged. For the second year, AA was down 20% from the previous
+year, BB was up 25% from the previous year, and CC was unchanged. If A, B, and C are the
+ﬁnal values of the stock, then
+(A) A = B = C (B) A = B < C (C) C < B = A
+(D) A < B < C (E) B < A < C
+17 A cube has eight vertices (corners) and twelve edges. A segment, such as x, which joins two
+vertices not joined by an edge is called a diagonal. Segment y is also a diagonal. How many
+diagonals does a cube have?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1997
+x
+y
+(A) 6 (B) 8 (C) 12 (D) 14 (E) 16
+18 At the grocery store last week, small boxes of facial tissue were priced at 4 boxes for $5. This
+week they are on sale at 5 boxes for $4. The percent decrease in the price per box during the
+sale was closest to
+(A) 30% (B) 35% (C) 40% (D) 45% (E) 65%
+19 If the product 3
+2· 4
+3· 5
+4· 6
+5· . . .· a
+b = 9, what is the sum of a and b?
+(A) 11 (B) 13 (C) 17 (D) 35 (E) 37
+20 A pair of 8-sided dice have sides numbered 1 through 8. Each side has the same probability
+(chance) of landing face up. The probability that the product of the two numbers that land
+face-up exceeds 36 is
+(A) 5
+32 (B) 11
+64 (C) 3
+16 (D) 1
+4 (E) 1
+2
+21 Each corner cube is removed from this 3 cm × 3 cm× 3 cm cube. The surface area of the
+remaining ﬁgure is
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1997
+(A) 19 sq.cm (B) 24 sq.cm (C) 30 sq.cm (D) 54 sq.cm (E) 72 sq.cm
+22 A two-inch cube (2 × 2× 2) of silver weighs 3 pounds and is worth $200. How much is a
+three-inch cube of silver worth?
+(A) 300 dollars (B) 375 dollars (C) 450 dollars (D) 560 dollars (E) 675 dollars
+23 There are positive integers that have these properties:
+* the sum of the squares of their digits is 50, and * each digit is larger than the one to its left.
+The product of the digits of the largest integer with both properties is
+(A) 7 (B) 25 (C) 36 (D) 48 (E) 60
+24 Diameter ACE is divided at C in the ratio 2 : 3. The two semicircles, ABC and CDE , divide
+the circular region into an upper (shaded) region and a lower region. The ratio of the area of
+the upper region to that of the lower region is
+A
+B
+C
+D
+E
+(A) 2 : 3 (B) 1 : 1 (C) 3 : 2 (D) 9 : 4 (E) 5 : 2
+25 All of the even numbers from 2 to 98 inclusive, excluding those ending in 0, are multiplied
+together. What is the rightmost digit (the units digit) of the product?
+(A) 0 (B) 2 (C) 4 (D) 6 (E) 8
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5

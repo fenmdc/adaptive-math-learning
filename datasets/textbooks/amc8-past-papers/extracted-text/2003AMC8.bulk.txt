@@ -1,0 +1,243 @@
+2003 AMC 8
+AMC 8 2003
+1 Jamie counted the number of edges of a cube, Jimmy counted the number of
+corners, and Judy counted the number of faces. They then added the th ree
+numbers. What was the resulting sum?
+(A) 12 (B) 16 (C) 20 (D) 22 (E) 26
+2 Which of the following numbers has the smallest prime factor?
+(A) 55 (B) 57 (C) 58 (D) 59 (E) 61
+3 A burger at Ricky C’s weighs 120 grams, of which 30 grams are ﬁller. What
+percent of the burger is not ﬁller?
+(A) 60% (B) 65% (C) 70% (D) 75% (E) 90%
+4 A group of children riding on bicycles and tricycles rode past Billy Bob’s house.
+Billy Bob counted 7 children and 19 wheels. How many tricycles were t here?
+(A) 2 (B) 4 (C) 5 (D) 6 (E) 7
+5 If 20% of a number is 12, what is 30% of the same number?
+(A) 15 (B) 18 (C) 20 (D) 24 (E) 30
+6 Given the areas of the three squares in the ﬁgure, what is the area of the interior
+triangle?
+169
+25
+144
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+(A) 13 (B) 30 (C) 60 (D) 300 (E) 1800
+7 Blake and Jenny each took four 100 point tests. Blake averaged 78 on the four
+tests. Jenny scored 10 points higher than Blake on the ﬁrst test, 10 poin ts lower
+on the second test, and 20 points higher on both the third and fourth test.
+What is the diﬀerence between Blake’s average on the four tests and Je nny’s
+average on the four tests?
+(A) 10 (B) 15 (C) 20 (D) 25 (E) 40
+8 Bake Sale
+Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies ha ve
+the same thickness. The shapes of the cookies di ﬀer, as shown.
+◦ Art’s cookies are trapezoids:
+5 in
+3 in
+3 in
+◦ Roger’s cookies are rectangles:
+4 in
+2 in
+◦ Paul’s cookies are parallelograms:
+3 in
+2 in
+◦ Trisha’s cookies are triangles:
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+3 in
+4 in
+Each friend uses the same amount of dough, and Art makes exactly 12 cookies.
+Who gets the fewest cookies from one batch of cookie dough?
+(A) Art (B) Roger (C) Paul (D) Trisha (E) There is a tie for fewest.
+9 Bake Sale
+Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies ha ve
+the same thickness. The shapes of the cookies di ﬀer, as shown.
+◦ Art’s cookies are trapezoids:
+5 in
+3 in
+3 in
+◦ Roger’s cookies are rectangles:
+4 in
+2 in
+◦ Paul’s cookies are parallelograms:
+3 in
+2 in
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+◦ Trisha’s cookies are triangles:
+3 in
+4 in
+Each friend uses the same amount of dough, and Art makes exactly 12 cookies.
+Art’s cookies sell for 60 cents each. To earn the same amount from a single
+batch, how much should one of Roger’s cookies cost in cents?
+(A) 18 (B) 25 (C) 40 (D) 75 (E) 90
+10 Bake Sale
+Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies ha ve
+the same thickness. The shapes of the cookies di ﬀer, as shown.
+◦ Art’s cookies are trapezoids:
+5 in
+3 in
+3 in
+◦ Roger’s cookies are rectangles:
+4 in
+2 in
+◦ Paul’s cookies are parallelograms:
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+3 in
+2 in
+◦ Trisha’s cookies are triangles:
+3 in
+4 in
+Each friend uses the same amount of dough, and Art makes exactly 12 cookies.
+How many cookies will be in one batch of Trisha’s cookies?
+(A) 10 (B) 12 (C) 16 (D) 18 (E) 24
+11 Business is a little slow at Lou’s Fine Shoes, so Lou decides to have a sale.
+On Friday, Lou increases all of Thursday’s prices by 10 percent. Ove r the
+weekend, Lou advertises the sale: ”Ten percent oﬀ the listed price. Sale starts
+Monday.” How much does a pair of shoes cost on Monday that cost 40 dollars
+on Thursday?
+(A) 36 (B) 39.60 (C) 40 (D) 40.40 (E) 44
+12 When a fair six-sided dice is tossed on a table top, the bottom face cannot be
+seen. What is the probability that the product of the 5 faces than can be seen
+is divisible by 6?
+(A) 1/3 (B) 1/2 (C) 2/3 (D) 5/6 (E) 1
+13 Fourteen white cubes are put together to form the ﬁ gure on the right. Th e
+complete surface of the ﬁgure, including the bottom, is painted red. The ﬁgure
+is then separated into individual cubes. How many of the individual c ubes have
+exactly four red faces?
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+(A) 4 (B) 6 (C) 8 (D) 10 (E) 12
+14 In this addition problem, each letter stands for a diﬀerent digit.
+T W O
++ T W O
+F O U R
+If T = 7 and the letter O represents an even number, what is the only p ossible
+value for W?
+(A) 0 (B) 1 (C) 2 (D) 3 (E) 4
+15 A ﬁ gure is constructed from unit cubes. Each cube shares at least one fac e
+with another cube. What is the minimum number of cubes needed to bu ild a
+ﬁ gure with the front and side views shown?
+FRONT SIDE
+(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+16 Ali, Bonnie, Carlo, and Dianna are going to drive together to a nearby theme
+park. The car they are using has 4 seats: 1 Driver seat, 1 front passenger seat,
+and 2 back passenger seat. Bonnie and Carlo are the only ones who know how
+to drive the car. How many possible seating arrangements are there?
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+(A) 2 (B) 4 (C) 6 (D) 12 (E) 24
+17 The six children listed below are from two families of three sibli ngs each. Each
+child has blue or brown eyes and black or blond hair. Children from the s ame
+family have at least one of these characteristics in common. Which two c hildren
+are Jim’s siblings?
+Child Eye Color Hair Color
+Benjamin Blue Black
+Jim Brown Blonde
+Nadeen Brown Black
+Austin Blue Blonde
+Tevyn Blue Black
+Sue Blue Blonde
+(A) Nadeen and Austin (B) Benjamin and Sue (C) Benjamin and Austin
+(D) Nadeen and Tevyn (E) Austin and Sue
+18 Each of the twenty dots on the graph below represents one of Sarah’s class-
+mates. Classmates who are friends are connected with a line segment. For her
+birthday party, Sarah is inviting only the following: all of her frien ds and all
+of those classmates who are friends with at least one of her friends. How m any
+classmates will not be invited to Sarah’s party?
+Sarah
+(A) 1 (B) 4 (C) 5 (D) 6 (E) 7
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+19 How many integers between 1000 and 2000 have all three of the numbers 15,
+20, and 25 as factors?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+20 What is the measure of the acute angle formed by the hands of the clock at
+4 : 20 PM?
+(A) 0 (B) 5 (C) 8 (D) 10 (E) 12
+21 The area of trapezoid ABCD is 164cm 2. The altitude is 8cm, AB is 10cm, and
+CD is 17cm. What is BC , in centimeters?
+A D
+B C
+10 8 17
+(A) 9 (B) 10 (C) 12 (D) 15 (E) 20
+22 The following ﬁgures are composed of squares and circles. Which ﬁgure h as a
+shaded region with largest area?
+A B C
+2 cm 2 cm 2 cm
+(A) A only (B) B only (C) C only (D) both A and B (E) all are equal
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+23 In the pattern below, the cat (denoted as a large circle in the ﬁgures b elow)
+moves clockwise through the four squares and the mouse (denoted as a dot in
+the ﬁgures below) moves counterclockwise through the eight exter ior segments
+of the four squares.
+1 2 3 4 5
+If the pattern is continued, where would the cat and mouse be after the 247th
+move?
+(A)
+(B)
+(C)
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+(D)
+(E)
+24 A ship travels from point A to point B along a semicircular path, cente red at
+Island X. Then it travels along a straight path from B to C. Which of these
+graphs best shows the ship’s distance from Island X as it moves along it s course?
+X
+C
+BA
+(A)
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+distance traveled
+distance to X
+(B)
+distance traveled
+distance to X
+(C)
+distance traveled
+distance to X
+(D)
+distance traveled
+distance to X
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk
+2003 AMC 8
+(E)
+distance traveled
+distance to X
+25 In the ﬁgure, the area of square WXYZ is 25cm 2. The four smaller squares
+have sides 1 cm long, either parallel to or coinciding with the sides of the large
+square. In ∆ ABC , AB = AC, and when ∆ ABC is folded over side BC, point
+A coincides with O, the center of square WXYZ. What is the area of ∆ ABC ,
+in square centimeters?
+A O
+B
+C
+W X
+Y
+Z
+(A) 15
+4 (B) 21
+4 (C) 27
+4 (D) 21
+2 (E) 27
+2
+–
+These problems are copyright c⃝ Mathematical Association of America ( http:
+//maa.org).
+www.artofproblemsolving.com/community/c4786
+Contributors: Binomial-theorem, Mrdavid445, dragon96, rrusczyk

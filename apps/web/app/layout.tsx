@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import AccountBar from "./AccountBar";
 import PwaRegister from "./PwaRegister";
 import "./globals.css";
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <PwaRegister />
+        <AccountBar />
         {children}
       </body>
     </html>

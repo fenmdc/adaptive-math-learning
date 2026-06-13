@@ -3,7 +3,9 @@ import type { SimulationLog } from "../dashboard/types";
 import type { ConceptState, StudentModel } from "./studentModel";
 
 export type LearningPlan = {
+  version: 1;
   status: "empty" | "ready";
+  mode: "diagnostic" | "repair" | "bridge" | "advance" | "transfer" | "balanced";
   title: string;
   reason: string;
   targetConcept?: string;
@@ -14,6 +16,19 @@ export type LearningPlan = {
   chapterTitle?: string;
   href: string;
   supportingConcepts: string[];
+  steps: LearningPlanStep[];
+  successCriteria: string[];
+};
+
+export type LearningPlanStep = {
+  id: string;
+  title: string;
+  reason: string;
+  href: string;
+  targetConcepts: string[];
+  stage: "Foundation" | "Bridge" | "Algebra Readiness" | "AMC8 Transfer";
+  sessionLength: number;
+  priority: "repair" | "practice" | "review" | "challenge";
 };
 
 export function buildLearningPlan(
@@ -27,11 +42,15 @@ export function buildLearningPlan(
 
   if (logs.length === 0) {
     return {
+      version: 1,
       status: "empty",
+      mode: "diagnostic",
       title: "Start with the diagnostic",
       reason: "A short diagnostic gives the system enough signal to recommend a focused first practice range.",
       href: "/diagnostic",
-      supportingConcepts: []
+      supportingConcepts: [],
+      steps: [],
+      successCriteria: ["Complete the initial diagnostic."]
     };
   }
 
@@ -54,11 +73,15 @@ export function buildLearningPlan(
 
   if (!target) {
     return {
+      version: 1,
       status: "empty",
+      mode: "balanced",
       title: "Continue adaptive practice",
       reason: "Complete a few more problems to generate a reliable learning plan.",
       href: "/practice",
-      supportingConcepts: []
+      supportingConcepts: [],
+      steps: [],
+      successCriteria: ["Complete at least one short adaptive practice session."]
     };
   }
 
@@ -72,7 +95,9 @@ export function buildLearningPlan(
     .map((candidate) => candidate.concept);
 
   return {
+    version: 1,
     status: "ready",
+    mode: inferPlanMode(target.concept, target.mastery, target.wrongCount, target.weakCount),
     title: `Practice ${humanizeConcept(target.concept)}`,
     reason: buildReason(target, chapter?.chapterTitle),
     targetConcept: target.concept,
@@ -82,7 +107,9 @@ export function buildLearningPlan(
     chapter: chapter?.chapter,
     chapterTitle: chapter?.chapterTitle,
     href,
-    supportingConcepts
+    supportingConcepts,
+    steps: buildPlanSteps(target.concept, supportingConcepts, problems),
+    successCriteria: buildSuccessCriteria(target.concept)
   };
 }
 
@@ -108,11 +135,15 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
 
   if (!target) {
     return {
+      version: 1,
       status: "empty",
+      mode: "balanced",
       title: "Continue adaptive practice",
       reason: "Complete a few more problems to generate a reliable learning plan.",
       href: "/practice",
-      supportingConcepts: []
+      supportingConcepts: [],
+      steps: [],
+      successCriteria: ["Complete at least one short adaptive practice session."]
     };
   }
 
@@ -126,7 +157,9 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
     .map((candidate) => candidate.concept);
 
   return {
+    version: 1,
     status: "ready",
+    mode: inferPlanMode(target.concept, target.mastery, target.wrongCount, target.weakCount, target.stability),
     title: `Practice ${humanizeConcept(target.concept)}`,
     reason: buildStudentModelReason(target, chapter?.chapterTitle),
     targetConcept: target.concept,
@@ -136,7 +169,91 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
     chapter: chapter?.chapter,
     chapterTitle: chapter?.chapterTitle,
     href,
-    supportingConcepts
+    supportingConcepts,
+    steps: buildPlanSteps(target.concept, supportingConcepts, problems, target.reviewDue),
+    successCriteria: buildSuccessCriteria(target.concept, target.stability)
+  };
+}
+
+function buildPlanSteps(
+  targetConcept: string,
+  supportingConcepts: string[],
+  problems: Problem[],
+  reviewDue = false
+): LearningPlanStep[] {
+  const targets = [targetConcept, ...supportingConcepts].filter(Boolean);
+  const repairConcept = targets[0];
+  const bridgeConcept = targets[1] ?? targetConcept;
+  const challengeConcept = targets[2] ?? targetConcept;
+
+  return [
+    buildPlanStep({
+      id: "repair-foundation",
+      concept: repairConcept,
+      problems,
+      priority: reviewDue ? "review" : "repair",
+      stage: inferStageForConcept(repairConcept),
+      sessionLength: 6,
+      title: reviewDue ? `Review ${humanizeConcept(repairConcept)}` : `Repair ${humanizeConcept(repairConcept)}`,
+      reason: reviewDue
+        ? "This concept is due for spaced review before adding new difficulty."
+        : "Start with the clearest current constraint before moving forward."
+    }),
+    buildPlanStep({
+      id: "bridge-practice",
+      concept: bridgeConcept,
+      problems,
+      priority: "practice",
+      stage: inferStageForConcept(bridgeConcept),
+      sessionLength: 8,
+      title: `Stabilize ${humanizeConcept(bridgeConcept)}`,
+      reason: "Use a short mixed set to confirm the repair transfers into adjacent skills."
+    }),
+    buildPlanStep({
+      id: "transfer-challenge",
+      concept: challengeConcept,
+      problems,
+      priority: "challenge",
+      stage: "AMC8 Transfer",
+      sessionLength: 10,
+      title: `Transfer through AMC8 problems`,
+      reason: "Finish by checking whether the concept survives non-routine AMC8-style wording."
+    })
+  ];
+}
+
+function buildPlanStep(input: {
+  id: string;
+  concept: string;
+  problems: Problem[];
+  priority: LearningPlanStep["priority"];
+  stage: LearningPlanStep["stage"];
+  sessionLength: number;
+  title: string;
+  reason: string;
+}): LearningPlanStep {
+  const chapter = selectChapterForConcept(input.concept, input.problems);
+  const params = new URLSearchParams({
+    mode: "plan",
+    concepts: input.concept,
+    maxItems: String(input.sessionLength),
+    autoGradableOnly: "true"
+  });
+
+  if (chapter) {
+    params.set("course", chapter.course);
+    params.set("chapter", chapter.chapter);
+  }
+
+  return {
+    id: input.id,
+    title: input.title,
+    reason: input.reason,
+    href: `/practice?${params.toString()}`,
+    targetConcepts: [input.concept],
+    stage: input.stage,
+    sessionLength: input.sessionLength,
+    priority: input.priority
   };
 }
 
@@ -254,6 +371,35 @@ function scoreStudentConcept(state: ConceptState) {
     confidenceBoost +
     responseTimeBoost
   );
+}
+
+function inferPlanMode(
+  concept: string,
+  mastery: number,
+  wrongCount: number,
+  weakCount: number,
+  stability = 0.6
+): LearningPlan["mode"] {
+  if (mastery < 0.55 || wrongCount > 0 || weakCount > 0 || stability < 0.5) return "repair";
+  if (concept.startsWith("arith_") || concept.startsWith("prealg_")) return "bridge";
+  if (concept.startsWith("alg_")) return "advance";
+  if (concept.startsWith("geo_") || concept.startsWith("nt_") || concept.startsWith("counting_") || concept.startsWith("stats_")) return "transfer";
+  return "balanced";
+}
+
+function inferStageForConcept(concept: string): LearningPlanStep["stage"] {
+  if (concept.startsWith("arith_")) return "Foundation";
+  if (concept.startsWith("prealg_")) return "Bridge";
+  if (concept.startsWith("alg_")) return "Algebra Readiness";
+  return "AMC8 Transfer";
+}
+
+function buildSuccessCriteria(concept: string, stability = 0.6) {
+  return [
+    `Reach at least 70% accuracy on ${concept}.`,
+    stability < 0.6 ? "Repeat the concept after a short delay to improve stability." : "Maintain stable performance in a mixed set.",
+    "Complete one AMC8 Transfer item without triggering a prerequisite gap."
+  ];
 }
 
 function humanizeConcept(concept: string) {

@@ -1,0 +1,448 @@
+
+
+--- PAGE 1 ---
+AMC8 数学 竞赛 第 1-5 题
+1.Whatis the ones digit of? 求下列算式 结果的个 位上 的数字 。《【计 算 : 基本 运算 )
+222,222 — 22,222 — 2,222 — 222 —22—2?
+(A)O (B)2 (C)4 (D)6 (E)8
+[43] B
+【解析】
+aa23 2.2
++ 2222
+222 22 3232D
+2. is
+2.What is the value of this expression in decimal form? 把下列 算式 的 结果写成 小数形式是单
+位 ?
+44 110 44
+ll’ 44* 1100
+(A) 6.4 (B) 6.504 (C) 6.54 (D) 6.9 (E) 6.94
+[SR] c
+【解析】
+-于
+下了二 7 机
+= 4+)-5+4 DO4
+=6.54
+
+
+
+--- PAGE 2 ---
+3.Four squares of side length 4, 7, 9, and 10 units are arranged in increasing size order so that
+their left edges and bottom edges align. The squares alternate in color white-gray-white-gray,
+respectively, as shown in the figure. What is the area of the visible gray region in square units? 4
+个 边长分别 为 4、7、9 和 10 单位的正方形按边 长递增的顺序排列 , 使 得它们的 左边缘和
+底 边缘对齐。正 方形交替填充 为白色和灰色 , 如下图所示。灰色部分的面积是多少平方
+本
+(A)42 (B)45 (C)49 (D)50 (E)352
+【答案 】E
+【解析】
+和
+xfy) (1-4) 十 (0-9)C1of9)
+=1) x3 HY =Sa
+
+
+
+--- PAGE 3 ---
+3. When Yunji added all the integers from 1 through 9, she mistakenly left out a number. Her
+incorrect sum turned out to be a square number. Which number did Yunji leave out? 当 Yunji 从
+1 加 到 9 的 时 候 , 不 小 心 遗 漏了 一个 数字。 使 得错误 的和是 一个平方 数。那 么 Yunji 遗漏
+的数字 是和 多少?
+(A) (B)6 (CI7 (D)8 (外 9
+【答案 】E
+【解析】
+It 2tat+- 49 =45
+Y-T, 范围 在 3 ~45 2) |
+DROR DEK, ¥ h0}45 3b 11]
+5.Aaliyah rolls two standard 6-sided dice. She notices that the product of the two numbers rolled
+is a multiple of 6. Which of the following integers cannot be the sum of the two numbers?
+Aaliyah d& Pa ene NEAR A PA Ee 6 的 倍数 。以 下哪个 整数
+不 能是这两 个数字的和 ?
+(A)J5 (B)6 (C)7 (D)8 (E)9
+(421.8
+【解析 ]】
+败坏本 BO: a ‘
+C7 at4ey SH X
+D:2:27tvV
+E936
+AMC8 数学 竞赛 第 6-10 题
+
+
+
+--- PAGE 4 ---
+6.Sergei skated around an ice rink, gliding along different paths. The gray lines in the figures
+below show four of the paths labeled P, Q, R, and S. What is the sorted order of the four paths
+from shortest to longest? 谢尔盖在溜冰 场周围滑冰 , 沿者不同的路径滑行 。以下图形中 , 灰
+色 线条显示了四 条路 径 P.Q.R 和 So 按照 从最短到最 长的顺序 , 这四条路 径要如何 排序 ?
+六
+VJ SAPath P Path Q Path R Path S$
+(ARQRS (BPRRS,Q (OA8SR.R (@MRPS,Q (E)R,5,P7,Q
+【答案 ]D
+【解析】
+
+
+
+--- PAGE 5 ---
+7.A3 x7 rectangle is covered without overlap by 3 shapes of tiles:2x2, 1x 4,and1x1.
+shown below. What is the minimum possible number of 1x 1 tiles used?
+一 个 3x7 HEVRAR SMBS 3 种形状 的瓷砖 : 2x2、1x4 和 1x1.
+如 下图所示。 使 用的 1x1 瓷砖 的最少可能数量 是多少 ?
+.
+Poeree CeCe EOCR TIT Cee e ree reese cers)
++ . . -
+wmnyirrrrvygrrrriryrrrtrrrregrrrrrtorrrr
+(A)1 (B)2 (CI3 (D)4 (ESS
+【答案 】E
+【解析】
+X sh
+S
+o
+q
+YY [oF | Hoy
+
+
+
+--- PAGE 6 ---
+8. On Monday Taye has $2. Every day, he either gains $3 or doubles the amount of money he
+had on the previous day. How many different dollar amounts could Taye have on Thursday3 days
+later? 在星期 一 ,Taye 有 2 美元 。每 天 , 他要 么获得 3 美元 , 要么将前 一天的钱数 翻倍。
+那么 在三天后的星期 四 ,Taye 可 能 拥有多 少 不同的 美元总 金额 ?
+(A)3 (B)4 (CO5 (D)6 (ENT
+【答案 ] p
+【解析
+2434373 =~ (43) x 4323 vi
+2KUXZXD =1bY% 2x23 =/0Y
+C243) xzxz = GR re
+Oxnrd43) x2=(4 A
+242x2+3=1] X
+Othe) Xd=1h X
+9.All of the marbles in Maria's collection are red, green, or blue. Maria has half as many red
+marbles as green marbles and twice as many blue marbles as green marbles. Which of the
+following could be the total number of marbles in Maria's collection? 玛 丽亚 收集 的弹 珠 都是红
+色、绿色或 蓝色 的。玛 丽 亚 拥有 的红色弹 珠数量 是绿色弹 珠 的一半 , 拥有的蓝色弹珠 数量是
+绿色 弹珠 的 两 倍。下 面 哪个可能是玛丽亚收集的弹珠 总数 ?
+(A)24 (B)25 (CI)26 (D)27 (GE)28
+【答案 E
+【解析】
+RGe
+R2$G>Q->k
+B=2G =4R
+5 be] tof beSRR Sg
+
+
+
+--- PAGE 7 ---
+10.In January 1980 the Mauna Loa Observatory recorded carbon dioxide (CO2) levels of 338ppm
+(parts per million). Over the years the average CO2 reading has increased by about1.515 ppm
+each year. What is the expected CO2 level in ppm in January 2030? Round your answer to the
+nearest integer.1980 年 1H, RAS AMA Ws Bie (C02) ACE A 338ppm (8
+万 分之 一 ) 。多 年 来 ,平均 CO2 读数 每 年增加约 1.515 ppm. 2030 年 1 月的 预期 CO2 水
+平 是多少 ppm? 四 舍 五人到 最 接近的 整数。
+(A)399 (B)414 (C)420 (D)444 — (E) 459
+(43218
+【解析】
+4“oxXACLC > 人 .77
+3984/5 Tory y
+AMC8 数学 竞赛 3811-15 题
+
+
+
+--- PAGE 8 ---
+11.The coordinates of A ABC are A(5, 7), B(11, 7) and C(3, y), with y > 7. The area of AABC is 12.
+What is the value of y ?三 角形 ABC 的 坐标 分别 为 A(5, 7)、B(11, 7) 和 C(3,y), HP y> 7。 =
+角形 ABC 的 面积 为 12, 求 y 的 值。
+C(3, y)
+(A)8 (B)9 (C)1IO (D)Il (BE) 12
+【答案 】D
+【解析】
+[AR = “£5
+SG= 二 Xexj 几 =IZ
+h=4 =4-]
+12.Rohan keeps a total of 90 guppies in 4 fish tanks.
+@® There is 1 more guppy in the 2nd tank than in the 1st tank.
+@® There are 2 more guppies in the 3rd tank than in the 2nd tank.
+@® There are 3 more guppies in the 4th tank than in the 3rd tank.
+How many guppies are in the 4th tank?
+Se Ieee 4 个 鱼缸 里 养了 90 KIL.
+- 第二个鱼缸里的孔汰鱼比第一 个鱼缸里的多 1 条。
+- 第三个鱼缸里的孔雀鱼比第二个鱼缸里的多 2 条。
+- 第四个鱼滤里的孔和省鱼比第三个鱼缸里的多 3 条。
+第 四个 鱼拭里有多 少条孔汰鱼 ?
+(A)20 (B)21 (C)23 (D)24 (BE) 26
+【答案 】E
+【解析 ]
+
+
+
+--- PAGE 9 ---
+Oo 2 @©
+WS —7E1BUA, TEERIKRRA: XH > Xb
+Jz X%txH FAH Zt X +b
+Jp = 4xt!0
+x= A0
+13.Buzz Bunny is hopping up and down a set of stairs, one step at a time. In how many ways can
+Buzz start on the ground, make a sequence of 6 hops, and end up back on the ground?(For
+example,one sequence of hops is up-up-down-down-up-down.)Buzz Bunny 一 次只 能 跳一个台
+Br, 正在 上下跳跃 。问 Buzz 有几种 方式可以从地面开始 ,跳跃 6 次 , 最 终回到地 面 ? 〈例
+如 , 其中一种 跳跃序列是上上、上、 下、下、上、 下 。)
+(A)4 (B)5 (C)6 (0D)8 (12
+【答案 】B
+【解析】
+Thi EM}. GIF We bh Helo A fixe
+A NL ti} 4 RBM 447k
+RAMERHFERY, FA WYANERBH
+BAA PRAIA. (w-up , h- down)
+syd th Sth Oth
+we Gage 4 tes R54
+d—ynu —a
+
+
+
+--- PAGE 10 ---
+14.The one-way routes connecting towns A. M. C. X, Y and Z are shown in the figure below(not
+drawn to scale). The distances in kilometers along each route are marked. Traveling along these
+routes, what is the shortest distance from A to Z in kilometers? 连接 城镇 A, M, C. X.Y. Z 的
+单 问路线如下图所示《〈未 按比例 绘制 ) 。沿 每条路线的距离 以公里为 单位进行 标记。沿着这
+些 路 线 旅 行所有 城镇 都要 去 一 遍 ,A 到 zZ 之 间 最 短 的 距离 是多 少 公 里 ?
+(A)28 (B)29 (C)30 (D)31 人 (E)32
+[SR] A
+【解析】
+LAB 2 ABLBRA A2X2M? [2073
+hve hha b22t bthth= 2B
+15.Let the letters F, L, Y, B, U, G represent distinct digits. Suppose F L Y F L Y is the greatest
+number that satisfies the equation:
+8*FLYFLY=-BUGBUG
+What is the value of FLY +BUG ?
+ALF, L,Y, B, U, G 表示 不同的数字。假 设 FLYFLY 是 满足方程
+8xFLYFLY=BUGBUG 的 最大数字 , 求 FLY+BU G 的 值。
+(A) 1089 =(B)1098 (C)1107 = (D)1116 (BE) 1125
+【答案 】C
+【解析】
+及 FLY PLE =2008
+tL = BuG
+GARR MIO ZRF ful < AP ont
+YE = VA, BUb =am t= Ifo, Fike
+Ai]= 04, Bla =Bxid=f4, WL|H
+A Tb = jaar 99% =119]
+
+
+
+--- PAGE 11 ---
+AMC8 数学 竞赛 第 16-20 题
+16.Minh enters the numbers 1 through 81 into the cells of a 9 x 9 grid in some order. She
+calculates the product of the numbers in each row and column. What is the least number of rows
+and columns that could have a product divisible by 3?
+Minh 将 数字 1 到 81 按照 某种顺序 放入 9x9 网 格的单元 格 中。她 计算 每 一行和每 一 列中
+数字 的 乘积。乘 积可被 3 整除的 行数和列 数最少为多少 ?
+(A)8 (B)9 (C)10 (D)1l
+【答案 】D
+【解析】
+(E) 12
+thie Brito Pik, BA BAF BBG RGD BH WIRY
+()) 40% 29) 13 AGH
+1-19 2 vata Kh [L J-217
+Ln FH GMD DR AKA Hes, REIL HEP
+ARPES tho A:
+x| *]x| x] x xl
+XII] X| K/L X| AIA
+XK |X| KI] XL APS
+xh« [x] x] x] x
++i] 17)
+44] =!
+
+
+
+--- PAGE 12 ---
+17.A chess king is said to attack all the squares one step away from it, horizontally, vertically.or
+diagonally. For instance, a king on the center square of a 3 x 3 grid attacks all 8 other squares, as
+shown below. Suppose a white king and a black king are placed on different squares of a 3 x 3
+grid so that they do not attack each other. In how many ways can this be done?
+据说 国际 象棋的国王可以攻击 其 横向、纵向或对角 线上相隔 一 步的所有空格。
+例如 , 位 于 3x3 网 格中心 的国王可以攻击 其他 8 个 空格 , 如 下所示。
+假设 白王和黑王和被放置 在 3x3 网格 的不同方 格中 , 并且他们按照 箭头方向移动 一格也无法
+衫 到对 方 , 它 们就 不会 互相攻击 。有多 少种方法 可以做到这 一点 ?
+|LI
+++ K-
+aa
+|
+(A)20 (B)24 (C)27 (D)28 ~~ (E)32
+【答案 】E
+【解析】
+tose: & Plack Hing % 2B |/2/ 1/74
+ilo] ,| BB, white bine ph 57 ek
+4| 5| 6 sia” did
+Caged , lock bing 42 14/618 2-#
+B, white king 者有力位置
+4x5=(2
+Z0tI2= 42
+
+
+
+--- PAGE 13 ---
+18.Three concentric circles centered at O have radius of 1, 2, and 3. Points B and C lie on the
+largest circle. The region between the two smaller circles is shaded, as is the portion of the region
+between the two larger circles bounded by central angle BOC, as shown in the figure below.
+Suppose the shaded and unshaded regions are equal in area, What is the measure of 2 BOC in
+degrees? 以 0 为中心 的三个同心 圆的半径 分别为 1 2 和 3。 点 B 和 点 C 在 最大的 圆上。
+两 个较小的圆 之间的区域 被着色 , 两 个较大的 圆 之间 BOC 角 的所 夹 的被着色的 部 分 , 如下
+图 所示。假设着色区域和未着色区域 面积相等 , 则 和 BOC 的度数 是多少 ?
+B
+(A) 108 (B)120 (C)135 (D)144 (E) 150
+【答案 】A
+【解析】
+Seg = St Sr
+S = 22-2|"=3u
+5 = Sta -S, shy -pew
+Sob Heh BY Who
+3
+sa WF,
+B) 2 pac = Z dhe? 1
+
+
+
+--- PAGE 14 ---
+19.Jordan owns 15 pairs of sneakers. Three fifths of the pairs are red and the rest are white. Two
+thirds of the pairs are high-top and the rest are low-top. The red high-top sneakers make up a
+fraction of the collection. What is the least possible value of this fraction? 乔丹有 15 Wize st.
+五 分之三是红色 的 , 其余都 是白色的。三 分之二是 高帮的 , 其余 都是低帮的。红色 高帮运动
+鞋 占总数的 一小部 分。这个 分数的最 小可 能 值是多少 ?
+[Pm me
+1 4 ] 2
+(A)0 (B) 5 (C) 1s (D) 3 (E) 5
+【答案 】C
+【解析】
+TRU RH. fed = lox white: Is-4zb
+high- bpp: Isase fo Jow—tep: [5-028
+BE Uh led. high rp Fey, 3) whine 34 high HP
+por) Ted. high wp 4 10- 6-4 604 Ze
+20.Any three vertices of the cube PORSTUVW, shown in the figure below, can be connected to
+form a triangle.(For example, vertices P,Q, and R can be connected to form isosceles A POR.)
+How many of these triangles are equilateral and contain P asa vertex?
+如 下图所示 , 立 方 体 PORSTUVW 的 任意三个顶点 都可以连接 成 一个三角形 。【例 如 , 项 点
+P、Q 和 R 可以 连接 成 等腰三角形 APOR. ) 这 些 三角形 中 , 有 多 少 个是 等边三角形 并且
+
+
+
+--- PAGE 15 ---
+包含 P 作为 一个项点 ?
+Ww V
+(A)0 (B)1 (C)2 (D)3 (E)6
+【答案 】D
+【解析】
+he - WH) 495 ee Bua Like
+74m UHR? S,
+fe fe Wl. APR. T Vv eh maae)
+D> wrk bE RR 3 号 .可 过区入
+> CP =a zy
+Vt Rg RIV %/8 p
+AMC8 数学 竞赛 FB 21-25 题
+
+
+
+--- PAGE 16 ---
+21. A group of frogs (called an army) is living in a tree. A frog turns green when in the shade and
+turns yellow when in the sun. Initially the ratio of green to yellow frogs was 3 : 1. Then 3 green
+frogs moved to the sunny side and 5 yellow frogs moved to the shady side. Now the ratio is 4: 1.
+hat is the difference between the number of green frogs and yellow frog snow? 一组青蛙 〈称 为
+军队 ) 住 在树上。在阴凉 处的青蛙 会变绿 , 在阳光下则 会变成黄色。最 初 , 绿蛙与黄蛙的比
+例 是 3: 1。 然 后三只绿蛙移到阳光 明媚的 一侧 , 五只黄峙移到阴凉 处。现在的 ratio 是 4:
+1。 现 在绿 蛙和黄 蛙的数量 差是多 少 ?
+(A)10 (Bl)l2 (Cl (D)20 (E)24
+【答案 】E
+【和 解析]
+有 G = gHx jl) if 二才
+> ex— 275 a
+X~-5 t4 |
+> Gx-9 = 4x+e
+A > fe
+aX ta- + 7 2 = +
+
+
+
+--- PAGE 17 ---
+22.A roll of tape is 4 inches in diameter and is wrapped around a ring thatis 2 inches in diameter.
+A cross section of the tape is shown in the figure below. The tape is 0.015 inches thick.the tape is
+completely unrolled, approximately how long would it be? Round your answer the nearest 100
+inches.
+- 卷磁带 的直径 为 4 英寸 , 并缠绕 在直径 为 2 英寸 的环上。如 下图所示是磁带的横截 面。
+磁带 的厚度 为 0.015 英寸 。如果 完全 展开 磁带 , 它 大 约有多 长 ? 将答案 四舍 五入到最 接近
+的 100 英寸 。
+————
+4in.
+(A)300 (B)600 = (C) 1200 (D) 1500 (E) 1800
+【答案 8
+【解析】
+OAD = 3 起
+玩 = SA =2eefa3. PR ore
+s
+
+
+
+--- PAGE 18 ---
+23. Rodrigo has a very large piece of graph paper. First he draws a line segment connecting point
+(0, 4) to point (2, 0) and colors the 4 cells whose interiors intersect the segment, as shown below.
+Next Rodrigo draws a line segment connecting point (2000,3000) to point(S000,8000). gain he
+colors the cells whose interiors intersect the segment. How many cells will he color this time?
+Rodrigo 有一 张 很大的 坐标 纸。首 先 , 他 用一 条线段 将点 (0, 4) 和 点 (2,0) 连接 起 来 , 并 将
+线段 经过的 4 个单元 格涂了 颜色 , 如下图所示。接下 来 ,Rodrigo 将点 (2000,3000) 与点
+(5000,8000) 连接起来 , 并将线段与内部相交的单元格涂了颜色。这次他会涂多少个单元 格 ?
+| we 1
+(A) 6000 = (B) 6500 = (C)7000 = (D)7500 (BE) 8000
+【答案 】<
+【解析】
+RAE OKITA 7
+> in {roe ie “sl
+
+
+
+--- PAGE 19 ---
+24. Jean made a piece of stained glass art in the shape of two mountains, as shown in the figure
+below. One mountain peak is 8 feet high and the other peak is 12 feet high. Each peak forms a
+90° angle, and the straight sides of the mountains form 45° angles with the ground. The
+artwork has an area of 183 square feet. The sides of the mountains meet at an intersection point
+near the center of the artwork, h feet above the ground. What is the value of h?( 三 角形 的 面积 )
+Jean #fE STFU ER ERS Roh. OF Aa. — AR 8 英尺 , 另 一座山
+峰 高 12 英尺。每 个山峰形成了一个 90° fi, 山脉的直角边与地 面成 45° fi. 艺术 品的面
+BA 183 FARR. 山脉 的两侧在艺术品中部的一个交汇 点上连接 , 该交汇 点离地面 h 英
+尺 高 。h 的值是多少 ?
+(A)4 (B)5 (CI4v2 (D)6 (BE)5V2
+[44] 8
+【解析】
+de a], AH GF EG
+> S, * & * SS + Sy. = 183
+tian <
+> C4+82 (P-A) » (/2 74) (A) = 8
+> be -47 + we-4* = fg
+A >of
+a~s
+
+
+
+--- PAGE 20 ---
+25.A small airplane has 4 rows of seats with 3 seats in each row. Eight passengers have boarded
+the plane and are distributed randomly among the seats. A married couple is next to board.What
+is the probability there will be 2 adjacent seats in the same row for the couple?
+一 架小 型飞机有 4 排 座位 ,每 排有 3 个 座位 。8 名 乘客 先 登机后随机就 坐。然 后一对已婚
+夫妇随后登 机。这对夫妇 坐在 同一排且相 邻 的概率 是多少 ?
+A small airplane has 4 rows of seats with 3 seats in each row. Eight passengers have boarded
+the plane and are distributed randomly among the seats. A married couple is next to board.
+What is the probability there will be 2 adjacent seats in the same row for the couple?
+O00
+eae
+O00
+eae
+8 32 20 34 8
+TG (B) 35 (C) 3 (D) 35 (E) 五
+【答案】 c
+(A)
+
+
+
+--- PAGE 21 ---
+【解析】
+fe] 4 人 3 光 - 排 27 加- aba
+me iP)
+>” aka) A :和
+Oy x Asx2 x2 _ 8
+4 Vole dap « weagteg, ero
+g
+> / = 26x | tLe <9 TZ A5_ _ 2°
+POtLeE gry tH) >}

@@ -1,0 +1,161 @@
+USA
+AMC 8
+2012
+1 Rachelle uses 3 pounds of meat to make 8 hamburgers for her family. How many pounds of
+meat does she need to make 24 hamburgers for a neighborhood picnic?
+(A) 6 (B) 62
+3 (C) 71
+2 (D) 8 (E) 9
+2 In the country of East Westmore, statisticians estimate there is a baby born every 8 hours
+and a death every day. To the nearest hundred, how many people are added to the population
+of East Westmore each year?
+(A) 600 (B) 700 (C) 800 (D) 900 (E) 1000
+3 On February 13 The Oshkosh Northwester listed the length of daylight as 10 hours and 24
+minutes, the sunrise was 6 : 57 am, and the sunset as 8 : 15 pm. The length of daylight and
+sunrise were correct, but the sunset was wrong. When did the sun really set?
+(A) 5 : 10pm (B) 5 : 21pm (C) 5 : 41pm (D) 5 : 57pm (E) 6 : 03pm
+4 Peter’s family ordered a 12-slice pizza for dinner. Peter ate one slice and shared another slice
+equally with his brother Paul. What fraction of the pizza did Peter eat?
+(A) 1
+24 (B) 1
+12 (C) 1
+8 (D) 1
+6 (E) 1
+4
+5 In the diagram, all angles are right angles and the lengths of the sides are given in centimeters.
+Note the diagram is not drawn to scale. What is X, in centimeters?
+X 6
+1
+1 2
+2
+31211
+14
+1
+2 2
+2
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+6 A rectangular photograph is placed in a frame that forms a border two inches wide on all
+sides of the photograph. The photograph measures 8 inches high and 10 inches wide. What
+is the area of the border, in square inches?
+(A) 36 (B) 40 (C) 64 (D) 72 (E) 88
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+2012
+7 Isabella must take four 100-point tests in her math class. Her goal is to achieve an average
+grade of 95 on the tests. Her ﬁrst two test scores were 97 and 91. After seeing her score on
+the third test, she realized she can still reach her goal. What is the lowest possible score she
+could have made on the third test?
+(A) 90 (B) 92 (C) 95 (D) 96 (E) 97
+8 A shop advertises everything is ”half price in today’s sale.” In addition, a coupon gives a 20
+(A) 10 (B) 33 (C) 40 (D) 60 (E) 70
+9 The Fort Worth Zoo has a number of two-legged birds and a number of four-legged mammals.
+On one visit to the zoo, Margie counted 200 heads and 522 legs. How many of the animals
+that Margie counted were two-legged birds?
+(A) 61 (B) 122 (C) 139 (D) 150 (E) 161
+10 How many 4-digit numbers greater than 1000 are there that use the four digits of 2012?
+(A) 6 (B) 7 (C) 8 (D) 9 (E) 12
+11 The mean, median, and unique mode of the positive integers 3, 4, 5, 6, 6, 7, x are all equal.
+What is the value of x?
+(A) 5 (B) 6 (C) 7 (D) 11 (E) 12
+12 What is the units digit of 13 2012 ?
+(A) 1 (B) 3 (C) 5 (D) 7 (E) 9
+13 Jamar bought some pencils costing more than a penny each at the school bookstore and paid
+$1.43. Sharona bought some of the same pencils and paid $1 .87. How many more pencils did
+Sharona buy than Jamar?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+14 In the BIG N, a middle school football conference, each team plays every other team exactly
+once. If a total of 21 conference games were played during the 2012 season, how many teams
+were members of the BIG N conference?
+(A) 6 (B) 7 (C) 8 (D) 9 (E) 10
+15 The smallest number greater than 2 that leaves a remainder of 2 when divided by 3, 4, 5, or
+6 lies between what numbers?
+(A) 40 and 50 (B) 51 and 55 (C) 56 and 60 (D) 61 and 65 (E) 66 and 99
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+2012
+16 Each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 is used only once to make two ﬁve-digit
+numbers so that they have the largest possible sum. Which of the following could be one of
+the numbers?
+(A) 76531 (B) 86724 (C) 87431 (D) 96240 (E) 97403
+17 A square with integer side length is cut into 10 squares, all of which have integer side length
+and at least 8 of which have area 1. What is the smallest possible value of the length of the
+side of the original square?
+(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+18 What is the smallest positive integer that is neither prime nor square and that has no prime
+factor less than 50?
+(A) 3127 (B) 3133 (C) 3137 (D) 3139 (E) 3149
+19 In a jar of red, green, and blue marbles, all but 6 are red marbles, all but 8 are green, and all
+but 4 are blue. How many marbles are in the jar?
+(A) 6 (B) 8 (C) 9 (D) 10 (E) 12
+20 What is the correct ordering of the three numbers 5
+19, 7
+21, and 9
+23, in increasing order?
+(A) 9
+23 < 7
+21 < 9
+23 (B) 5
+19 < 7
+21 < 9
+23 (C) 9
+23 < 5
+19 < 7
+21 (D) 5
+19 < 9
+23 < 7
+21 (E) 7
+21 <
+5
+19 < 9
+23
+21 Marla has a large white cube that has an edge of 10 feet. She also has enough green paint to
+cover 300 square feet. Marla uses all the paint to create a white square centered on each face,
+surrounded by a green border. What is the area of one of the white squares, in square feet?
+(A) 5
+√
+2 (B) 10 (C) 10
+√
+2 (D) 50 (E) 50
+√
+2
+22 LetR be a set of nine distinct integers. Six of the elements are 2, 3, 4, 6, 9, and 14. What is
+the number of possible values of the median of R ?
+(A) 4 (B) 5 (C) 6 (D) 7 (E) 8
+23 An equilateral triangle and a regular hexagon have equal perimeters. If the area of the triangle
+is 4, what is the area of the hexagon?
+(A) 4 (B) 5 (C) 6 (D) 4
+√
+3 (E) 6
+√
+3
+24 A circle of radius 2 is cut into four congruent arcs. The four arcs are joined to form the star
+ﬁgure shown. What is the ratio of the area of the star ﬁgure to the area of the original circle?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+2012
+(A) 4−π
+π (B) 1
+π (C)
+√
+2
+π (D) π− 1
+π (E) 3
+π
+25 A square with area 4 is inscribed in a square with area 5, with one vertex of the smaller
+square on each side of the larger square. A vertex of the smaller square divides a side of the
+larger square into two segments, one of length a, and the other of length b. What is the value
+of ab ?
+a
+b
+(A) 1
+5 (B) 2
+5 (C) 1
+2 (D) 1 (E) 4
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4

@@ -1,0 +1,183 @@
+USA
+AMC 8
+1998
+1 For x = 7, which of the following is the smallest?
+(A) 6
+x (B) 6
+x+1 (C) 6
+x−1 (D) x
+6 (E) x+1
+6
+2 If a b
+c d = a· d− b· c, what is the value of 3 4
+1 2
+(A) − 2 (B) − 1 (C) 0 (D) 1 (E) 2
+3
+3
+8 + 7
+8
+4
+5
+=
+(A) 1 (B) 25
+16 (C) 2 (D) 43
+20 (E) 47
+16
+4 How many triangles are in this ﬁgure? (Some triangles may overlap other triangles.)
+(A) 9 (B) 8 (C) 7 (D) 6 (E) 5
+5 Which of the following numbers is largest?
+(A) 9.12344 (B) 9 .1234 (C) 9 .1234 (D) 9 .1234 (E) 9 .1234
+6 Dots are spaced one unit apart, horizontally and vertically. The number of square units
+enclosed by the polygon is
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1998
+(A) 5 (B) 6 (C) 7 (D) 8 (E) 9
+7 100× 19.98× 1.998× 1000 =
+(A) (1.998)2 (B) (19.98)2 (C) (199.8)2 (D) (1998)2 (E) (19980)2
+8 A child’s wading pool contains 200 gallons of water. If water evaporates at the rate of 0 .5
+gallons per day and no other water is added or removed, how many gallons of water will be
+in the pool after 30 days?
+(A) 140 (B) 170 (C) 185 (D) 198 .5 (E) 199 .85
+9 For a sale, a store owner reduces the price of a 10 dollar scarf by 20%. Later the price is
+lowered again, this time by one-half the reduced price. The price is now
+(A) 2.00 dollars (B) 3 .75 dollars (C) 4 .00 dollars (D) 4 .90 dollars (E) 6 .40 dollars
+10 Each of the letters W , X, Y ,and Z represents a diﬀerent integer in the set {1, 2, 3, 4}, but
+not necessarily in that order. If , W
+X− Y
+Z = 1 then the sum of W and Y is
+(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+11 Harry has 3 sisters and 5 brothers. His sister Harriet has X sisters and Y brothers. What is
+the product of X and Y ?
+(A) 8 (B) 10 (C) 12 (D) 15 (E) 18
+12 2
+(
+1− 1
+2
+)
++ 3
+(
+1− 1
+3
+)
++ 4
+(
+1− 1
+4
+)
++··· + 10
+(
+1− 1
+10
+)
+=
+(A) 45 (B) 49 (C) 50 (D) 54 (E) 55
+13 What is the ratio of the area of the shaded square to the area of the large square? (The ﬁgure
+is drawn to scale)
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1998
+(A) 1
+6 (B) 1
+7 (C) 1
+8 (D) 1
+12 (E) 1
+16
+14 An Annville Junior High School, 30% of the students in the Math Club are in the Science
+Club, and 80% of the students in the Science Club are in the Math Club. There are 15
+students in the Science Club. How many students are in the Math Club?
+(A) 12 (B) 15 (C) 30 (D) 36 (E) 40
+15 Problems 15 , 16, and 17 all refer to the following: In the very center of the Irenic Sea lie
+the beautiful Nisos Isles. In 1998 the number of people on these islands is only 200, but the
+population triples every 25 years. Queen Irene has decreed that there must be at least 1 .5
+square miles for every person living in the Isles. The total area of the Nisos Isles is 24 , 900
+square miles.
+15. Estimate the population of Nisos in the year 2050.
+(A) 600 (B) 800 (C) 1000 (D) 2000 (E) 3000
+16 Problems 15, 16, and 17 all refer to the following: In the very center of the Irenic Sea lie
+the beautiful Nisos Isles. In 1998 the number of people on these islands is only 200, but the
+population triples every 25 years. Queen Irene has decreed that there must be at least 1.5
+square miles for every person living in the Isles. The total area of the Nisos Isles is 24,900
+square miles.
+16. Estimate the year in which the population of Nisos will be approximately 6,000.
+(A) 2050 (B) 2075 (C) 2100 (D) 2125 (E) 2150
+17 Problems 15, 16, and 17 all refer to the following: In the very center of the Irenic Sea lie
+the beautiful Nisos Isles. In 1998 the number of people on these islands is only 200, but the
+population triples every 25 years. Queen Irene has decreed that there must be at least 1.5
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1998
+square miles for every person living in the Isles. The total area of the Nisos Isles is 24,900
+square miles.
+17. In how many years, approximately, from 1998 will the population of Nisos be as much as
+Queen Irene has proclaimed that the islands can support?
+(A) 50 yrs. (B) 75 yrs. (C) 100 yrs. (D) 125 yrs. (E) 150 yrs.
+18 As indicated by the diagram below, a rectangular piece of paper is folded bottom to top,
+then left to right, and ﬁnally, a hole is punched at X. What does the paper look like when
+unfolded?
+(A) (B) (C) (D) (E)
+19 Tamika selects two diﬀerent numbers at random from the set{8, 9, 10} and adds them. Carlos
+takes two diﬀerent numbers at random from the set {8, 9, 10} and multiplies them. What is
+the probability that Tamika’s result is greater than Carlos’ result?
+(A) 4
+9 (B) 5
+9 (C) 1
+2 (D) 1
+3 (E) 2
+3
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1998
+20 Let P QRS be a square piece of paper. P is folded onto R and then Q is folded onto S. The
+area of the resulting ﬁgure is 9 square inches. Find the perimeter of square P QRS.
+P Q
+RS
+(A) 9 (B) 16 (C) 18 (D) 24 (E) 36
+21 A 4∗ 4∗ 4 cubical box contains 64 identical small cubes that exactly ﬁll the box. How many
+of these small cubes touch a side or the bottom of the box?
+(A) 48 (B) 52 (C) 60 (D) 64 (E) 80
+22 Terri produces a sequence of positive integers by following three rules. She starts with a
+positive integer, then applies the appropriate rule to the result, and continues in this fashion.
+Rule 1: If the integer is less than 10, multiply it by 9. Rule 2: If the integer is even and
+greater than 9, divide it by 2. Rule 3: If the integer is odd and greater than 9, subtract 5
+from it.
+Find the 98 th term of the sequence that begins 98 , 49, . . . .
+(A) 6 (B) 11 (C) 22 (D) 27 (E) 54
+23 If the pattern in the diagram continues, what fraction of the interior would be shaded in the
+eighth triangle?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+1998
+(A) 3
+8 (B) 5
+27 (C) 7
+16 (D) 9
+16 (E) 11
+45
+24 A rectangular board of 8 columns has squared numbered beginning in the upper left corner
+and moving left to right so row one is numbered 1 through 8, row two is 9 through 16, and so
+on. A student shades square 1, then skips one square and shades square 3, skips two squares
+and shades square 6, skips 3 squares and shades square 10, and continues in this way until
+there is at least one shaded square in each column. What is the number of the shaded square
+that ﬁrst achieves this result?
+2 4 5 7 8
+9 11 12 13 14 16
+(A) 36 (B) 64 (C) 78 (D) 91 (E) 120
+25 Three generous friends, each with some money, redistribute the money as follow: Amy gives
+enough money to Jan and Toy to double each amount has. Jan then gives enough to Amy
+and Toy to double their amounts. Finally, Toy gives enough to Amy and Jan to double their
+amounts. If Toy had 36 dollars at the beginning and 36 dollars at the end, what is the total
+amount that all three friends have?
+(A) 108 (B) 180 (C) 216 (D) 252 (E) 288
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6

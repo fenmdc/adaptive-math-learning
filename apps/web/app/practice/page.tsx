@@ -6,8 +6,9 @@ import { useSearchParams } from "next/navigation";
 import conceptsData from "../../data/concepts.json";
 import explanationsData from "../../data/exampleExplanations.json";
 import problemsData from "../../data/problems.json";
-import { AdaptiveEngine, buildConceptGraph, checkProblemAnswer, Problem, StudentState, type AnswerChoice, type ConceptNode, type PrerequisiteGap } from "../../../../packages/adaptive-engine";
+import { AdaptiveEngine, buildConceptGraph, checkProblemAnswer, Problem, StudentState, type AnswerChoice, type ConceptNode, type PrerequisiteGap, type RecommendationContext, type RecommendationExplanation } from "../../../../packages/adaptive-engine";
 import { buildLearningPlan } from "../shared/learningPlan";
+import { assessExplanationQuality, summarizeExplanationQuality, type ExampleExplanation } from "../shared/explanationQuality";
 import { buildReviewQueue, selectReviewProblems } from "../shared/reviewQueue";
 import { clearPracticeLogs, createPracticeLog, readPracticeLogs, readStudentModel, writeLearningPlan, writePracticeLogs, writeStudentModel } from "../shared/storage";
 import { updateStudentModel, type StudentModel } from "../shared/studentModel";
@@ -21,6 +22,7 @@ type AttemptLog = {
   prerequisiteGaps: PrerequisiteGap[];
   remediation: boolean;
   recommendationReason: string;
+  recommendationExplanation?: RecommendationExplanation;
   answerReason: string;
   responseTimeSeconds: number;
   confidence: number;
@@ -30,13 +32,22 @@ type AttemptLog = {
   explanation?: ExampleExplanation;
 };
 
-type ExampleExplanation = {
-  hint1?: string;
-  hint2?: string;
-  stepByStep?: string;
-  commonMistake?: string;
-  whyCorrect?: string;
-  variantIdea?: string;
+type PracticeSessionReport = {
+  status: "Ready" | "Developing" | "Needs Repair";
+  title: string;
+  summary: string;
+  accuracy: number;
+  correctCount: number;
+  totalCount: number;
+  averageTimeSeconds: number;
+  averageConfidence: number;
+  focusConcepts: string[];
+  strongConcepts: string[];
+  nextTitle: string;
+  nextReason: string;
+  nextHref: string;
+  secondaryTitle: string;
+  secondaryHref: string;
 };
 
 const problems = problemsData as Problem[];
@@ -44,9 +55,15 @@ const explanations = explanationsData as Record<string, ExampleExplanation>;
 const conceptGraph = buildConceptGraph(conceptsData as ConceptNode[]);
 const initialState: StudentState = { mastery: {}, history: [] };
 const ALL = "all";
+const DEFAULT_PRACTICE_SESSION_LENGTH = 10;
 
 type ScopeFilters = {
   mode: "practice" | "review" | "plan";
+  problemId: string;
+  sessionTitle: string;
+  sessionGoal: string;
+  sessionSource: string;
+  returnHref: string;
   reviewConcepts: string[];
   planConcepts: string[];
   maxItems: number;
@@ -64,6 +81,11 @@ type ScopeFilters = {
 
 const defaultScope: ScopeFilters = {
   mode: "practice",
+  problemId: "",
+  sessionTitle: "",
+  sessionGoal: "",
+  sessionSource: "",
+  returnHref: "",
   reviewConcepts: [],
   planConcepts: [],
   maxItems: 0,
@@ -99,6 +121,7 @@ function PracticeClient() {
   const [pendingNextProblem, setPendingNextProblem] = useState<Problem | null>(null);
   const [latestStudentModel, setLatestStudentModel] = useState<StudentModel | null>(null);
   const [confidence, setConfidence] = useState(3);
+  const [showRecentTrajectory, setShowRecentTrajectory] = useState(false);
   const [problemStartedAt, setProblemStartedAt] = useState(() => Date.now());
   const catalog = useMemo(() => buildCatalog(problems), []);
   const taxonomyBaseProblems = useMemo(() => filterTaxonomyBaseProblems(problems, scope), [scope]);
@@ -152,11 +175,15 @@ function PracticeClient() {
     const correct = answerCheck.correct;
     const explanation = getExplanation(currentProblem);
     const responseTimeSeconds = secondsSince(problemStartedAt);
+    const currentStudentModel = readStudentModel();
+    const currentLearningPlan = buildLearningPlan(readPracticeLogs(), problems, currentStudentModel);
+    const recommendationContext = buildRecommendationContext(currentStudentModel, currentLearningPlan, scope);
     const result = engine.run(studentState, {
       problem: currentProblem,
       correct,
       responseTimeSeconds,
-      confidence
+      confidence,
+      recommendationContext
     });
     const recommendationReason = result.recommendation.reason;
     const persistedLog = createPracticeLog({
@@ -187,6 +214,7 @@ function PracticeClient() {
       prerequisiteGaps: result.prerequisite_gaps,
       remediation: result.remediation,
       recommendationReason,
+      recommendationExplanation: result.recommendation.explanation,
       answerReason: answerCheck.reason,
       responseTimeSeconds,
       confidence,
@@ -197,7 +225,7 @@ function PracticeClient() {
     };
 
     const nextLogs = [...readPracticeLogs(), persistedLog];
-    const nextStudentModel = updateStudentModel(readStudentModel(), {
+    const nextStudentModel = updateStudentModel(currentStudentModel, {
       problem: currentProblem,
       correct,
       mastery: result.updated_state.mastery,
@@ -212,6 +240,8 @@ function PracticeClient() {
       : [];
     const reviewNowComplete = scope.mode === "review" && remainingReviewConcepts.length === 0;
     const planNowComplete = scope.mode === "plan" && scope.maxItems > 0 && attempts.length + 1 >= scope.maxItems;
+    const practiceNowComplete = scope.mode === "practice" && attempts.length + 1 >= getPracticeSessionTarget(scopedProblems.length);
+    const sessionNowComplete = reviewNowComplete || planNowComplete || practiceNowComplete;
 
     setStudentState(result.updated_state);
     setAttempts((current) => [nextAttempt, ...current]);
@@ -220,7 +250,7 @@ function PracticeClient() {
     writeLearningPlan(nextPlan);
     setLatestStudentModel(nextStudentModel);
     setFeedback(nextAttempt);
-    setPendingNextProblem(reviewNowComplete || planNowComplete ? null : result.next_problem);
+    setPendingNextProblem(sessionNowComplete ? null : result.next_problem);
   }
 
   function resetSession() {
@@ -274,6 +304,22 @@ function PracticeClient() {
     : [];
   const reviewSessionComplete = scope.mode === "review" && attempts.length > 0 && remainingReviewConcepts.length === 0;
   const planSessionComplete = scope.mode === "plan" && scope.maxItems > 0 && attempts.length >= scope.maxItems;
+  const practiceSessionTarget = getPracticeSessionTarget(scopedProblems.length);
+  const practiceSessionComplete = scope.mode === "practice" && attempts.length >= practiceSessionTarget;
+  const sessionComplete = reviewSessionComplete || planSessionComplete || practiceSessionComplete;
+  const sessionReport = useMemo(
+    () => buildPracticeSessionReport(attempts, scope, latestStudentModel),
+    [attempts, scope, latestStudentModel]
+  );
+  const sessionOverview = useMemo(
+    () => buildSessionOverview(scope, {
+      attempts: attempts.length,
+      poolSize: scopedProblems.length,
+      practiceTarget: practiceSessionTarget,
+      remainingReviewConcepts: remainingReviewConcepts.length
+    }),
+    [attempts.length, practiceSessionTarget, remainingReviewConcepts.length, scope, scopedProblems.length]
+  );
 
   return (
     <main className="app-shell">
@@ -291,6 +337,9 @@ function PracticeClient() {
             </p>
           </div>
           <div className="nav-actions">
+            <Link className="button-secondary" href="/login">
+              Login
+            </Link>
             <Link className="button-secondary" href="/diagnostic">
               Diagnostic
             </Link>
@@ -309,8 +358,22 @@ function PracticeClient() {
         <section className="metric-grid">
           <Metric label="Attempts" value={String(attempts.length)} />
           <Metric label="Accuracy" value={`${accuracy}%`} />
-          <Metric label="Problem Pool" value={String(scopedProblems.length)} />
+          <Metric
+            label={scope.mode === "practice" ? "Session Target" : "Problem Pool"}
+            value={scope.mode === "practice" ? `${Math.min(attempts.length, practiceSessionTarget)}/${practiceSessionTarget}` : String(scopedProblems.length)}
+          />
         </section>
+
+        {sessionComplete && sessionReport && (
+          <PracticeSessionSummary report={sessionReport} resetSession={resetSession} returnHref={scope.returnHref} />
+        )}
+
+        <SessionFlowPanel
+          overview={sessionOverview}
+          resetSession={resetSession}
+          returnHref={scope.returnHref}
+          sessionComplete={sessionComplete}
+        />
 
         <section className="panel full-panel scope-panel">
           <div>
@@ -603,6 +666,14 @@ function PracticeClient() {
                   Broaden the course, chapter, or difficulty filters to continue.
                 </p>
               </div>
+            ) : sessionComplete ? (
+              <div className="empty-state">
+                <p className="eyebrow">Mini Session Complete</p>
+                <h2 className="panel-title">Review the feedback before choosing the next step</h2>
+                <p className="muted">
+                  This practice set has ended, so the app will stop recommending more problems from the same loop.
+                </p>
+              </div>
             ) : (
               <>
                 <div className="tag-row">
@@ -639,6 +710,7 @@ function PracticeClient() {
                 </div>
 
                 <h2 className="problem-text">{currentProblem.statement}</h2>
+                <ProblemAssets problem={currentProblem} />
 
                 <form className="answer-form" onSubmit={submitAnswer}>
                   {isMultipleChoice(currentProblem) && (
@@ -646,7 +718,7 @@ function PracticeClient() {
                       {normalizeChoices(currentProblem.choices).map((choice) => (
                         <button
                           className={`choice-button ${answer === choice.label ? "choice-button-selected" : ""}`}
-                          disabled={Boolean(pendingNextProblem)}
+                          disabled={Boolean(pendingNextProblem) || sessionComplete}
                           key={choice.label}
                           onClick={() => setAnswer(choice.label)}
                           type="button"
@@ -659,7 +731,7 @@ function PracticeClient() {
                   )}
                   <input
                     className="answer-input"
-                    disabled={Boolean(pendingNextProblem)}
+                    disabled={Boolean(pendingNextProblem) || sessionComplete}
                     onChange={(event) => setAnswer(event.target.value)}
                     placeholder={isMultipleChoice(currentProblem) ? "Choose an option or type A-E" : "Enter your answer"}
                     value={answer}
@@ -668,7 +740,7 @@ function PracticeClient() {
                     Confidence
                     <select
                       className="select-input"
-                      disabled={Boolean(pendingNextProblem)}
+                      disabled={Boolean(pendingNextProblem) || sessionComplete}
                       id="practice-confidence"
                       onChange={(event) => setConfidence(Number(event.target.value))}
                       value={confidence}
@@ -680,7 +752,7 @@ function PracticeClient() {
                       ))}
                     </select>
                   </label>
-                  <button className="button" disabled={Boolean(pendingNextProblem)} type="submit">
+                  <button className="button" disabled={Boolean(pendingNextProblem) || sessionComplete} type="submit">
                     Submit
                   </button>
                 </form>
@@ -724,9 +796,20 @@ function PracticeClient() {
                   correct={feedback.correct}
                   distractorExplanation={feedback.selectedDistractor?.explanation}
                   explanation={feedback.explanation}
+                  problem={feedback.problem}
                   solution={feedback.problem.solution}
                 />
                 <div>{feedback.recommendationReason}</div>
+                {feedback.recommendationExplanation && (
+                  <div>
+                    Recommendation v1.5: {[
+                      feedback.recommendationExplanation.nextAction,
+                      feedback.recommendationExplanation.abilityTarget,
+                      feedback.recommendationExplanation.pathMode,
+                      feedback.recommendationExplanation.pathStep
+                    ].filter(Boolean).join(" · ")}
+                  </div>
+                )}
                 {feedback.problem.taxonomy && (
                   <div>
                     Taxonomy: {feedback.problem.taxonomy.layer} · {feedback.problem.taxonomy.problemType} · {feedback.problem.taxonomy.cognitiveTags.slice(0, 2).join(", ")}
@@ -734,6 +817,11 @@ function PracticeClient() {
                 )}
                 {reviewSessionComplete && (
                   <div className="review-complete-actions">
+                    {scope.returnHref && (
+                      <Link className="button" href={scope.returnHref}>
+                        Back to Student Home
+                      </Link>
+                    )}
                     <Link className="button" href="/dashboard">
                       View updated model
                     </Link>
@@ -744,6 +832,11 @@ function PracticeClient() {
                 )}
                 {planSessionComplete && (
                   <div className="review-complete-actions">
+                    {scope.returnHref && (
+                      <Link className="button" href={scope.returnHref}>
+                        Back to Student Home
+                      </Link>
+                    )}
                     <Link className="button" href="/dashboard">
                       View updated report
                     </Link>
@@ -845,40 +938,83 @@ function PracticeClient() {
         </section>
 
         <section className="panel full-panel">
-          <h2 className="panel-title">Recent Trajectory</h2>
-          <div className="trajectory-list">
-            {attempts.length === 0 && (
-              <p className="muted">No attempts yet.</p>
-            )}
-            {attempts.slice(0, 6).map((item, index) => (
-              <div className="trajectory-card" key={`${item.problem.id}-${index}`}>
-                <div className="trajectory-head">
-                  <div><strong>{item.problem.id}</strong></div>
-                  <div className={item.correct ? "status-good" : "status-bad"}>
-                    {item.correct ? "Correct" : "Wrong"}
-                  </div>
-                </div>
-                <div className="muted">{item.problem.statement}</div>
-                <div className="muted">
-                  Weak concepts: {item.weakConcepts.length ? item.weakConcepts.join(", ") : "none"}
-                </div>
-                <div className="muted">
-                  Fluency focus: {item.fluencyConcepts.length ? item.fluencyConcepts.join(", ") : "none"}
-                </div>
-                <div className="muted">
-                  Prerequisite gaps: {item.prerequisiteGaps.length
-                    ? item.prerequisiteGaps.slice(0, 2).map((gap) => `${gap.concept} -> ${gap.targetConcept}`).join(", ")
-                    : "none"}
-                </div>
-                <div className="muted">
-                  Signal: {item.responseTimeSeconds}s · Confidence {item.confidence}/5
-                </div>
-                {item.remediation && (
-                  <div className="status-warn">Remediation triggered</div>
-                )}
-              </div>
-            ))}
+          <div className="collapsible-panel-head">
+            <div>
+              <h2 className="panel-title compact-title">Recent Trajectory</h2>
+              <p className="muted">
+                {attempts.length
+                  ? `${attempts.length} attempts in this session · showing latest first`
+                  : "No attempts yet."}
+              </p>
+            </div>
+            <button
+              className="button-secondary compact-toggle"
+              onClick={() => setShowRecentTrajectory((current) => !current)}
+              type="button"
+            >
+              {showRecentTrajectory ? "Collapse" : "Show details"}
+            </button>
           </div>
+
+          {!showRecentTrajectory && attempts[0] && (
+            <div className="trajectory-summary-card">
+              <div className="trajectory-head">
+                <div><strong>{attempts[0].problem.id}</strong></div>
+                <div className={attempts[0].correct ? "status-good" : "status-bad"}>
+                  {attempts[0].correct ? "Correct" : "Wrong"}
+                </div>
+              </div>
+              <p className="muted">{attempts[0].problem.statement}</p>
+              <p className="muted">
+                Weak concepts: {attempts[0].weakConcepts.length ? attempts[0].weakConcepts.join(", ") : "none"}
+              </p>
+            </div>
+          )}
+
+          {showRecentTrajectory && (
+            <div className="trajectory-list">
+              {attempts.length === 0 && (
+                <p className="muted">No attempts yet.</p>
+              )}
+              {attempts.slice(0, 6).map((item, index) => (
+                <div className="trajectory-card" key={`${item.problem.id}-${index}`}>
+                  <div className="trajectory-head">
+                    <div><strong>{item.problem.id}</strong></div>
+                    <div className={item.correct ? "status-good" : "status-bad"}>
+                      {item.correct ? "Correct" : "Wrong"}
+                    </div>
+                  </div>
+                  <div className="muted">{item.problem.statement}</div>
+                  <div className="muted">
+                    Weak concepts: {item.weakConcepts.length ? item.weakConcepts.join(", ") : "none"}
+                  </div>
+                  <div className="muted">
+                    Fluency focus: {item.fluencyConcepts.length ? item.fluencyConcepts.join(", ") : "none"}
+                  </div>
+                  <div className="muted">
+                    Prerequisite gaps: {item.prerequisiteGaps.length
+                      ? item.prerequisiteGaps.slice(0, 2).map((gap) => `${gap.concept} -> ${gap.targetConcept}`).join(", ")
+                      : "none"}
+                  </div>
+                  <div className="muted">
+                    Signal: {item.responseTimeSeconds}s · Confidence {item.confidence}/5
+                  </div>
+                  {item.remediation && (
+                    <div className="status-warn">Remediation triggered</div>
+                  )}
+                  {item.recommendationExplanation && (
+                    <div className="muted">
+                      Recommendation v1.5: {[
+                        item.recommendationExplanation.nextAction,
+                        item.recommendationExplanation.abilityTarget,
+                        item.recommendationExplanation.pathMode
+                      ].filter(Boolean).join(" · ")}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </section>
       </div>
     </main>
@@ -896,6 +1032,193 @@ function PracticeLoading() {
         </section>
       </div>
     </main>
+  );
+}
+
+type SessionOverview = {
+  eyebrow: string;
+  title: string;
+  goal: string;
+  source: string;
+  progressLabel: string;
+  progressPercent: number;
+  targetLabel: string;
+  poolLabel: string;
+  nextCheckpoint: string;
+};
+
+function SessionFlowPanel({
+  overview,
+  resetSession,
+  returnHref,
+  sessionComplete
+}: {
+  overview: SessionOverview;
+  resetSession: () => void;
+  returnHref: string;
+  sessionComplete: boolean;
+}) {
+  return (
+    <section className={`panel full-panel session-flow-panel ${sessionComplete ? "session-flow-complete" : ""}`}>
+      <div className="session-flow-main">
+        <div>
+          <p className="eyebrow">{overview.eyebrow}</p>
+          <h2 className="panel-title">{overview.title}</h2>
+          <p className="session-flow-goal">{overview.goal}</p>
+        </div>
+        <div className="session-flow-actions">
+          {returnHref && (
+            <Link className="button-secondary" href={returnHref}>
+              Student Home
+            </Link>
+          )}
+          <Link className="button-secondary" href="/dashboard">
+            Dashboard
+          </Link>
+          <button className="button-secondary" onClick={resetSession}>
+            Restart session
+          </button>
+        </div>
+      </div>
+      <div className="session-flow-progress" aria-label={overview.progressLabel}>
+        <div className="session-flow-progress-head">
+          <strong>{overview.progressLabel}</strong>
+          <span>{overview.progressPercent}%</span>
+        </div>
+        <div className="progress-track">
+          <div className="progress-fill" style={{ width: `${overview.progressPercent}%` }} />
+        </div>
+      </div>
+      <div className="session-flow-grid">
+        <SessionFlowStat label="Target" value={overview.targetLabel} />
+        <SessionFlowStat label="Pool" value={overview.poolLabel} />
+        <SessionFlowStat label="Source" value={overview.source} />
+        <SessionFlowStat label="Checkpoint" value={overview.nextCheckpoint} />
+      </div>
+    </section>
+  );
+}
+
+function SessionFlowStat({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="session-flow-stat">
+      <span>{label}</span>
+      <strong>{value}</strong>
+    </div>
+  );
+}
+
+function PracticeSessionSummary({
+  report,
+  resetSession,
+  returnHref
+}: {
+  report: PracticeSessionReport;
+  resetSession: () => void;
+  returnHref: string;
+}) {
+  return (
+    <section className={`panel full-panel session-summary session-summary-${statusClass(report.status)}`}>
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">Practice Feedback</p>
+          <h2 className="panel-title">{report.title}</h2>
+        </div>
+        <div className="summary-score">{report.accuracy}%</div>
+      </div>
+      <p className="summary-recommendation">{report.summary}</p>
+
+      <div className="graph-stat-grid">
+        <SessionStat label="Correct" value={`${report.correctCount}/${report.totalCount}`} />
+        <SessionStat label="Average Time" value={`${report.averageTimeSeconds}s`} />
+        <SessionStat label="Confidence" value={`${report.averageConfidence}/5`} />
+        <SessionStat label="Status" value={report.status} />
+      </div>
+
+      <div className="summary-grid">
+        <div>
+          <h3 className="summary-list-title">Focus before moving on</h3>
+          <div className="summary-list">
+            {report.focusConcepts.length === 0 && <p className="muted">No urgent focus concept was detected in this mini session.</p>}
+            {report.focusConcepts.map((concept) => (
+              <div className="summary-item summary-item-focus" key={concept}>
+                <div>
+                  <strong>{formatTaxonomyLabel(concept)}</strong>
+                  <div className="muted">Use a short repair or transfer set next.</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="summary-list-title">Ready signals</h3>
+          <div className="summary-list">
+            {report.strongConcepts.length === 0 && <p className="muted">Complete one more stable set to confirm strengths.</p>}
+            {report.strongConcepts.map((concept) => (
+              <div className="summary-item summary-item-secure" key={concept}>
+                <div>
+                  <strong>{formatTaxonomyLabel(concept)}</strong>
+                  <div className="muted">Answered accurately in this session.</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="next-step-panel">
+        <div>
+          <p className="eyebrow">Recommended Next Step</p>
+          <h3>{report.nextTitle}</h3>
+          <p>{report.nextReason}</p>
+        </div>
+        <div className="learning-plan-actions">
+          <Link className="button" href={report.nextHref}>
+            Start next step
+          </Link>
+          {returnHref && (
+            <Link className="button-secondary" href={returnHref}>
+              Back to Student Home
+            </Link>
+          )}
+          <Link className="button-secondary" href={report.secondaryHref}>
+            {report.secondaryTitle}
+          </Link>
+          <button className="button-secondary" onClick={resetSession}>
+            Repeat this range
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function SessionStat({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="graph-stat">
+      <span>{label}</span>
+      <strong>{value}</strong>
+    </div>
+  );
+}
+
+function ProblemAssets({ problem }: { problem: Problem }) {
+  const promptAssets = (problem.assets ?? []).filter((asset) => asset.type === "image" && asset.role !== "solution");
+  if (promptAssets.length === 0) return null;
+
+  return (
+    <div className="problem-assets">
+      {promptAssets.map((asset) => (
+        <img
+          alt={asset.alt}
+          className="problem-asset-image"
+          key={`${asset.role}-${asset.url}`}
+          loading="lazy"
+          src={asset.url}
+        />
+      ))}
+    </div>
   );
 }
 
@@ -941,6 +1264,11 @@ function buildCatalog(items: Problem[]) {
 }
 
 function filterProblems(items: Problem[], scope: ScopeFilters) {
+  if (scope.problemId) {
+    const exactProblem = items.find((problem) => problem.id === scope.problemId);
+    if (exactProblem && !(scope.autoGradableOnly && !exactProblem.isAutoGradable)) return [exactProblem];
+  }
+
   if (scope.mode === "review") {
     const reviewProblems = selectReviewProblems(scope.reviewConcepts, items);
     return reviewProblems.length > 0 ? reviewProblems : items.filter((problem) => problem.isAutoGradable);
@@ -1005,9 +1333,361 @@ function filterTaxonomyBaseProblems(items: Problem[], scope: ScopeFilters) {
   });
 }
 
+function getPracticeSessionTarget(poolSize: number) {
+  if (poolSize <= 0) return DEFAULT_PRACTICE_SESSION_LENGTH;
+  return Math.min(DEFAULT_PRACTICE_SESSION_LENGTH, poolSize);
+}
+
+function buildSessionOverview(
+  scope: ScopeFilters,
+  stats: { attempts: number; poolSize: number; practiceTarget: number; remainingReviewConcepts: number }
+): SessionOverview {
+  const target = getSessionTarget(scope, stats);
+  const progressPercent = target > 0 ? Math.min(100, Math.round((stats.attempts / target) * 100)) : 0;
+  const title = scope.sessionTitle || getDefaultSessionTitle(scope);
+  const goal = scope.sessionGoal || getDefaultSessionGoal(scope);
+  const targetLabel = scope.mode === "review"
+    ? `${Math.max(stats.remainingReviewConcepts, 0)} active concept(s)`
+    : `${Math.min(stats.attempts, target)}/${target} item(s)`;
+  const poolLabel = `${stats.poolSize} auto-gradable item(s)`;
+  const nextCheckpoint = stats.attempts >= target
+    ? "Session feedback ready"
+    : `${Math.max(target - stats.attempts, 0)} item(s) to feedback`;
+
+  return {
+    eyebrow: scope.mode === "review" ? "Session Flow v1 Review" : scope.mode === "plan" ? "Session Flow v1 Mini Session" : "Session Flow v1 Practice",
+    title,
+    goal,
+    source: formatSessionSource(scope.sessionSource),
+    progressLabel: `${Math.min(stats.attempts, target)}/${target} complete`,
+    progressPercent,
+    targetLabel,
+    poolLabel,
+    nextCheckpoint
+  };
+}
+
+function getSessionTarget(
+  scope: ScopeFilters,
+  stats: { practiceTarget: number; remainingReviewConcepts: number }
+) {
+  if (scope.mode === "plan" && scope.maxItems > 0) return scope.maxItems;
+  if (scope.mode === "review") return Math.max(scope.reviewConcepts.length, stats.remainingReviewConcepts, 1);
+  return stats.practiceTarget;
+}
+
+function getDefaultSessionTitle(scope: ScopeFilters) {
+  if (scope.mode === "review") return "Review due concepts";
+  if (scope.mode === "plan") return "Focused mini session";
+  if (scope.chapter !== ALL) return `Practice ${scope.chapter}`;
+  if (scope.course !== ALL) return `Practice ${scope.course}`;
+  return "Adaptive practice session";
+}
+
+function getDefaultSessionGoal(scope: ScopeFilters) {
+  if (scope.mode === "review") {
+    return `Clear the active review set: ${scope.reviewConcepts.length ? scope.reviewConcepts.map(formatTaxonomyLabel).join(", ") : "student model focus concepts"}.`;
+  }
+
+  if (scope.mode === "plan") {
+    return `Gather evidence for ${scope.planConcepts.length ? scope.planConcepts.map(formatTaxonomyLabel).join(", ") : "the current diagnostic target"} and stop for feedback.`;
+  }
+
+  return "Complete a bounded practice set so the model can recommend a next action instead of looping indefinitely.";
+}
+
+function formatSessionSource(source: string) {
+  if (source === "home") return "Student Home";
+  if (source === "dashboard") return "Dashboard";
+  if (source === "diagnostic") return "Diagnostic";
+  if (source === "manual") return "Manual scope";
+  return "Practice";
+}
+
+function buildPracticeSessionReport(
+  attempts: AttemptLog[],
+  scope: ScopeFilters,
+  studentModel: StudentModel | null
+): PracticeSessionReport | null {
+  if (attempts.length === 0) return null;
+
+  const chronological = [...attempts].reverse();
+  const correctCount = chronological.filter((attempt) => attempt.correct).length;
+  const accuracy = Math.round((correctCount / chronological.length) * 100);
+  const averageTimeSeconds = Math.round(
+    chronological.reduce((sum, attempt) => sum + attempt.responseTimeSeconds, 0) / chronological.length
+  );
+  const averageConfidence = Math.round(
+    (chronological.reduce((sum, attempt) => sum + attempt.confidence, 0) / chronological.length) * 10
+  ) / 10;
+  const focusConcepts = summarizeFocusConcepts(chronological);
+  const strongConcepts = summarizeStrongConcepts(chronological, focusConcepts);
+  const status = getPracticeStatus(accuracy, focusConcepts.length, averageConfidence);
+  const nextStep = buildNextPracticeStep(status, focusConcepts, scope, studentModel);
+
+  return {
+    status,
+    title: getPracticeTitle(status, scope),
+    summary: buildPracticeSummary(status, accuracy, chronological.length, focusConcepts, averageTimeSeconds, averageConfidence),
+    accuracy,
+    correctCount,
+    totalCount: chronological.length,
+    averageTimeSeconds,
+    averageConfidence,
+    focusConcepts,
+    strongConcepts,
+    ...nextStep
+  };
+}
+
+function summarizeFocusConcepts(attempts: AttemptLog[]) {
+  const scores = new Map<string, number>();
+
+  attempts.forEach((attempt) => {
+    const wrongWeight = attempt.correct ? 0 : 3;
+    const confidenceWeight = attempt.confidence <= 2 ? 1 : 0;
+    const fluencyWeight = attempt.responseTimeSeconds >= 120 ? 1 : 0;
+
+    attempt.problem.concepts.forEach((concept) => {
+      scores.set(concept, (scores.get(concept) ?? 0) + wrongWeight + confidenceWeight + fluencyWeight);
+    });
+
+    attempt.weakConcepts.forEach((concept) => {
+      scores.set(concept, (scores.get(concept) ?? 0) + 2);
+    });
+
+    attempt.prerequisiteGaps.forEach((gap) => {
+      scores.set(gap.concept, (scores.get(gap.concept) ?? 0) + 4);
+    });
+
+    // Distractor cognitive tags are useful evidence, but next-step URLs need concept ids.
+  });
+
+  return [...scores.entries()]
+    .filter(([, score]) => score > 0)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 4)
+    .map(([concept]) => concept);
+}
+
+function summarizeStrongConcepts(attempts: AttemptLog[], focusConcepts: string[]) {
+  const correctCounts = new Map<string, number>();
+  const wrongConcepts = new Set<string>();
+
+  attempts.forEach((attempt) => {
+    attempt.problem.concepts.forEach((concept) => {
+      if (attempt.correct) {
+        correctCounts.set(concept, (correctCounts.get(concept) ?? 0) + 1);
+      } else {
+        wrongConcepts.add(concept);
+      }
+    });
+  });
+
+  return [...correctCounts.entries()]
+    .filter(([concept, count]) => count > 0 && !wrongConcepts.has(concept) && !focusConcepts.includes(concept))
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 4)
+    .map(([concept]) => concept);
+}
+
+function getPracticeStatus(
+  accuracy: number,
+  focusConceptCount: number,
+  averageConfidence: number
+): PracticeSessionReport["status"] {
+  if (accuracy >= 80 && focusConceptCount <= 2 && averageConfidence >= 3) return "Ready";
+  if (accuracy >= 60) return "Developing";
+  return "Needs Repair";
+}
+
+function getPracticeTitle(status: PracticeSessionReport["status"], scope: ScopeFilters) {
+  if (scope.mode === "plan") {
+    if (status === "Ready") return "Mini session complete: ready to extend";
+    if (status === "Developing") return "Mini session complete: one more focused set";
+    return "Mini session complete: repair the prerequisite gap";
+  }
+
+  if (scope.mode === "review") {
+    if (status === "Ready") return "Review complete: concepts stabilized";
+    if (status === "Developing") return "Review complete: keep the target warm";
+    return "Review complete: schedule a repair set";
+  }
+
+  if (status === "Ready") return "Practice complete: ready for the next stage";
+  if (status === "Developing") return "Practice complete: developing but not automatic yet";
+  return "Practice complete: repair before moving forward";
+}
+
+function buildPracticeSummary(
+  status: PracticeSessionReport["status"],
+  accuracy: number,
+  totalCount: number,
+  focusConcepts: string[],
+  averageTimeSeconds: number,
+  averageConfidence: number
+) {
+  const focusText = focusConcepts.length ? ` Main focus: ${focusConcepts.slice(0, 2).map(formatTaxonomyLabel).join(", ")}.` : "";
+  const signalText = `You completed ${totalCount} item(s) with ${accuracy}% accuracy, ${averageTimeSeconds}s average response time, and ${averageConfidence}/5 average confidence.`;
+
+  if (status === "Ready") {
+    return `${signalText} This is strong enough to move into a transfer or next-stage set.${focusText}`;
+  }
+
+  if (status === "Developing") {
+    return `${signalText} The model sees usable progress, but the skill is not stable enough to keep looping indefinitely.${focusText}`;
+  }
+
+  return `${signalText} The best next move is a shorter repair set before raising difficulty.${focusText}`;
+}
+
+function buildNextPracticeStep(
+  status: PracticeSessionReport["status"],
+  focusConcepts: string[],
+  scope: ScopeFilters,
+  studentModel: StudentModel | null
+): Pick<PracticeSessionReport, "nextTitle" | "nextReason" | "nextHref" | "secondaryTitle" | "secondaryHref"> {
+  if (status === "Needs Repair" && focusConcepts.length > 0) {
+    return {
+      nextTitle: `Repair ${formatTaxonomyLabel(focusConcepts[0])}`,
+      nextReason: "Accuracy or confidence was low enough that a short targeted repair set is more useful than adding harder problems.",
+      nextHref: buildPlanHref(focusConcepts.slice(0, 3), 6),
+      secondaryTitle: "Retake diagnostic",
+      secondaryHref: "/diagnostic"
+    };
+  }
+
+  const reviewQueue = buildReviewQueue(studentModel, problems);
+  if (reviewQueue.dueConcepts.length > 0 && status !== "Ready") {
+    return {
+      nextTitle: "Review due concepts",
+      nextReason: reviewQueue.reason,
+      nextHref: reviewQueue.href,
+      secondaryTitle: "Open dashboard",
+      secondaryHref: "/dashboard"
+    };
+  }
+
+  if (status === "Ready") {
+    const transferHref = buildTransferHref(scope, focusConcepts);
+
+    return {
+      nextTitle: getTransferTitle(scope),
+      nextReason: "This session is stable enough to stop the loop and move into a broader or higher-transfer range.",
+      nextHref: transferHref,
+      secondaryTitle: "Open dashboard",
+      secondaryHref: "/dashboard"
+    };
+  }
+
+  if (focusConcepts.length > 0) {
+    return {
+      nextTitle: `Confirm ${formatTaxonomyLabel(focusConcepts[0])}`,
+      nextReason: "The session showed progress, but one focused confirmation set will give the model a cleaner signal.",
+      nextHref: buildPlanHref(focusConcepts.slice(0, 3), 8),
+      secondaryTitle: "Open dashboard",
+      secondaryHref: "/dashboard"
+    };
+  }
+
+  return {
+    nextTitle: "Run a diagnostic checkpoint",
+    nextReason: "The session is mixed enough that a short assessment will choose the next range more reliably than another loop.",
+    nextHref: "/diagnostic",
+    secondaryTitle: "Open dashboard",
+    secondaryHref: "/dashboard"
+  };
+}
+
+function buildPlanHref(concepts: string[], maxItems: number) {
+  const params = new URLSearchParams({
+    mode: "plan",
+    maxItems: String(maxItems),
+    autoGradableOnly: "true"
+  });
+
+  if (concepts.length > 0) params.set("concepts", concepts.join(","));
+
+  return `/practice?${params.toString()}`;
+}
+
+function buildRecommendationContext(
+  studentModel: StudentModel | null,
+  learningPlan: ReturnType<typeof buildLearningPlan> | null,
+  scope: ScopeFilters
+): RecommendationContext {
+  const targetConcepts =
+    scope.mode === "review"
+      ? scope.reviewConcepts
+      : scope.mode === "plan"
+        ? scope.planConcepts
+        : [];
+
+  return {
+    abilityProfile: studentModel?.abilityProfile,
+    conceptStates: studentModel?.conceptStates,
+    recommendedReviewConcepts: studentModel?.recommendedReviewConcepts,
+    currentPlacement: studentModel?.currentPlacement,
+    learningPlan: learningPlan && learningPlan.status === "ready"
+      ? {
+          mode: learningPlan.mode,
+          targetConcept: learningPlan.targetConcept,
+          targetMastery: learningPlan.targetMastery,
+          supportingConcepts: learningPlan.supportingConcepts,
+          steps: learningPlan.steps.map((step) => ({
+            id: step.id,
+            title: step.title,
+            targetConcepts: step.targetConcepts,
+            stage: step.stage,
+            priority: step.priority
+          }))
+        }
+      : null,
+    scope: {
+      mode: scope.mode,
+      targetConcepts,
+      stage: scope.taxonomyStage === ALL ? undefined : scope.taxonomyStage,
+      layer: scope.taxonomyLayer === ALL ? undefined : scope.taxonomyLayer,
+      problemType: scope.problemType === ALL ? undefined : scope.problemType,
+      cognitiveTag: scope.cognitiveTag === ALL ? undefined : scope.cognitiveTag
+    }
+  };
+}
+
+function buildTransferHref(scope: ScopeFilters, focusConcepts: string[]) {
+  if (scope.course === "Pre-Algebra") {
+    return "/practice?course=AMC8&stage=AMC8%20Transfer&autoGradableOnly=true";
+  }
+
+  if (scope.taxonomyStage === "Algebra Readiness" || scope.course === "Algebra 1") {
+    return "/diagnostic";
+  }
+
+  if (focusConcepts.length > 0) {
+    return buildPlanHref(focusConcepts.slice(0, 3), 8);
+  }
+
+  return "/practice?stage=AMC8%20Transfer&autoGradableOnly=true";
+}
+
+function getTransferTitle(scope: ScopeFilters) {
+  if (scope.course === "Pre-Algebra") return "Try AMC8 transfer";
+  if (scope.taxonomyStage === "Algebra Readiness" || scope.course === "Algebra 1") return "Run a diagnostic checkpoint";
+  return "Move to a transfer set";
+}
+
+function statusClass(status: PracticeSessionReport["status"]) {
+  if (status === "Ready") return "ready";
+  if (status === "Developing") return "developing";
+  return "repair";
+}
+
 function buildQualityStats(items: Problem[]) {
+  const explanationQuality = summarizeExplanationQuality(items, explanations);
+
   return {
     total: items.length,
+    explanationQuality,
     layers: countTaxonomy(items, (problem) => problem.taxonomy?.layer, ["Foundation", "Standard", "Honors", "AMC8", "AMC8 Stretch"]),
     stages: countTaxonomy(items, (problem) => problem.taxonomy?.stage, ["Foundation", "Bridge", "Algebra Readiness", "AMC8 Transfer"]),
     problemTypes: countTaxonomy(items, (problem) => problem.taxonomy?.problemType),
@@ -1051,6 +1731,11 @@ function layerRank(layer: string | undefined) {
 function scopeFromSearchParams(searchParams: { get: (key: string) => string | null }): ScopeFilters {
   return {
     mode: getMode(searchParams.get("mode")),
+    problemId: searchParams.get("problemId") || defaultScope.problemId,
+    sessionTitle: cleanSessionText(searchParams.get("sessionTitle")),
+    sessionGoal: cleanSessionText(searchParams.get("sessionGoal")),
+    sessionSource: cleanSessionText(searchParams.get("sessionSource")),
+    returnHref: safeReturnHref(searchParams.get("returnHref")),
     reviewConcepts: searchParams.get("mode") === "review" ? splitConcepts(searchParams.get("concepts")) : [],
     planConcepts: searchParams.get("mode") === "plan" ? splitConcepts(searchParams.get("concepts")) : [],
     maxItems: toMaxItems(searchParams.get("maxItems")),
@@ -1086,10 +1771,27 @@ function splitConcepts(value: string | null) {
   return value ? value.split(",").map((concept) => concept.trim()).filter(Boolean) : [];
 }
 
+function cleanSessionText(value: string | null) {
+  return value ? value.trim().slice(0, 240) : "";
+}
+
+function safeReturnHref(value: string | null) {
+  if (!value) return "";
+  const trimmed = value.trim();
+  if (!trimmed.startsWith("/")) return "";
+  if (trimmed.startsWith("//")) return "";
+  return trimmed.slice(0, 180);
+}
+
 function scopesEqual(left: ScopeFilters, right: ScopeFilters) {
   return (
     left.course === right.course &&
     left.mode === right.mode &&
+    left.problemId === right.problemId &&
+    left.sessionTitle === right.sessionTitle &&
+    left.sessionGoal === right.sessionGoal &&
+    left.sessionSource === right.sessionSource &&
+    left.returnHref === right.returnHref &&
     left.reviewConcepts.join(",") === right.reviewConcepts.join(",") &&
     left.planConcepts.join(",") === right.planConcepts.join(",") &&
     left.maxItems === right.maxItems &&
@@ -1143,42 +1845,110 @@ function LearningNotes({
   correct,
   distractorExplanation,
   explanation,
+  problem,
   solution
 }: {
   correct: boolean;
   distractorExplanation?: string;
   explanation?: ExampleExplanation;
+  problem: Problem;
   solution: string;
 }) {
   const notes = explanation ?? { stepByStep: solution, whyCorrect: solution };
+  const quality = assessExplanationQuality(notes, problem);
+  const hintNotes = [
+    !correct && notes.hint1 ? { label: "First hint", text: notes.hint1 } : null,
+    !correct && notes.hint2 ? { label: "Second hint", text: notes.hint2 } : null
+  ].filter(Boolean) as Array<{ label: string; text: string }>;
+  const reasoningNotes = [
+    notes.whyCorrect ? { label: "Why it works", text: notes.whyCorrect } : null,
+    distractorExplanation ? { label: "Choice signal", text: distractorExplanation } : null
+  ].filter(Boolean) as Array<{ label: string; text: string }>;
 
   return (
-    <div className="learning-notes">
+    <div className={`learning-notes explanation-quality-${quality.level}`}>
       <div className="learning-notes-head">
-        <span>Learning Notes</span>
-        <strong>{correct ? "Verify and extend" : "Hint, repair, retry"}</strong>
+        <div>
+          <span>Learning Notes</span>
+          <strong>{correct ? "Verify and extend" : "Hint, repair, retry"}</strong>
+        </div>
+        <div className="explanation-quality-badge">
+          <span>{quality.learnerLabel}</span>
+          <strong>{quality.score}/100</strong>
+        </div>
       </div>
-      {!correct && notes.hint1 && (
-        <LearningNote label="Hint 1" text={notes.hint1} />
+
+      <div className="explanation-quality-row">
+        <span>{quality.reviewerLabel}</span>
+        {quality.issues.slice(0, 2).map((issue) => (
+          <span key={issue}>{issue}</span>
+        ))}
+        {quality.issues.length === 0 && <span>Ready for student-facing use.</span>}
+      </div>
+
+      {hintNotes.length > 0 && (
+        <LearningNoteGroup
+          description="Use these before revealing the worked solution."
+          notes={hintNotes}
+          title="Hints"
+        />
       )}
-      {!correct && notes.hint2 && (
-        <LearningNote label="Hint 2" text={notes.hint2} />
+
+      {reasoningNotes.length > 0 && (
+        <LearningNoteGroup
+          description={correct ? "Confirm the reasoning behind the correct answer." : "Connect the answer choice to the likely reasoning pattern."}
+          notes={reasoningNotes}
+          title="Reasoning"
+        />
       )}
-      {distractorExplanation && (
-        <LearningNote label="Choice signal" text={distractorExplanation} />
-      )}
+
       {notes.stepByStep && (
-        <LearningNote label="Step by step" text={notes.stepByStep} />
+        <LearningNoteGroup
+          description="Follow the main solution path one move at a time."
+          notes={[{ label: "Worked solution", text: notes.stepByStep }]}
+          title="Worked Steps"
+        />
       )}
+
       {!correct && notes.commonMistake && (
-        <LearningNote label="Common mistake" text={notes.commonMistake} />
+        <LearningNoteGroup
+          description="This is the most likely trap to avoid on the retry."
+          notes={[{ label: "Watch for", text: notes.commonMistake }]}
+          title="Common Mistake"
+        />
       )}
-      {correct && notes.whyCorrect && (
-        <LearningNote label="Why it works" text={notes.whyCorrect} />
-      )}
+
       {notes.variantIdea && (
-        <LearningNote label="Try next" text={notes.variantIdea} />
+        <LearningNoteGroup
+          description="Use this to check whether the idea transfers."
+          notes={[{ label: "Variant", text: notes.variantIdea }]}
+          title="Transfer Prompt"
+        />
       )}
+    </div>
+  );
+}
+
+function LearningNoteGroup({
+  description,
+  notes,
+  title
+}: {
+  description: string;
+  notes: Array<{ label: string; text: string }>;
+  title: string;
+}) {
+  return (
+    <div className="learning-note-group">
+      <div className="learning-note-group-head">
+        <strong>{title}</strong>
+        <span>{description}</span>
+      </div>
+      <div className="learning-note-group-body">
+        {notes.map((note) => (
+          <LearningNote key={note.label} label={note.label} text={note.text} />
+        ))}
+      </div>
     </div>
   );
 }
@@ -1208,10 +1978,20 @@ function QualityStatsPanel({
         </div>
         <div className="quality-count">
           <span>{activeCount}</span>
-          <strong>active / {stats.total} in range</strong>
+          <strong>active / {stats.total} in range · explanations {stats.explanationQuality.averageScore}/100</strong>
         </div>
       </div>
       <div className="quality-grid">
+        <QualityDistribution
+          title="Explanation Quality"
+          total={stats.total}
+          rows={[
+            { key: "Complete", count: stats.explanationQuality.counts.complete },
+            { key: "Partial", count: stats.explanationQuality.counts.partial },
+            { key: "Weak", count: stats.explanationQuality.counts.weak },
+            { key: "Missing", count: stats.explanationQuality.counts.missing }
+          ]}
+        />
         <QualityDistribution title="Difficulty Layer" total={stats.total} rows={stats.layers} />
         <QualityDistribution title="Adaptive Stage" total={stats.total} rows={stats.stages} />
         <QualityList title="Problem Types" rows={stats.problemTypes.slice(0, 8)} />

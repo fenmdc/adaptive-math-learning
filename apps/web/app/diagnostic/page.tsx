@@ -178,6 +178,7 @@ export default function DiagnosticPage() {
             </p>
           </div>
           <div className="nav-actions">
+            <Link className="button-secondary" href="/login">Login</Link>
             <Link className="button-secondary" href="/practice">Practice</Link>
             <Link className="button-secondary" href="/dashboard">Dashboard</Link>
             <button className="button" onClick={resetDiagnostic}>Reset</button>
@@ -391,10 +392,18 @@ function AssessmentReportCard({ report }: { report: AssessmentReport }) {
     <div className="assessment-report-card">
       <div className="summary-header">
         <div>
-          <p className="eyebrow">Assessment Report v0</p>
-          <h3>{report.accuracy}% overall readiness</h3>
+          <p className="eyebrow">Assessment Report v1</p>
+          <h3>{report.placement.stage} · {report.placement.status}</h3>
         </div>
         <div className="summary-score">{report.attempts}</div>
+      </div>
+      <p className="summary-recommendation">{report.placement.evidence}</p>
+      <div className="summary-list">
+        {report.summaryBullets.map((item) => (
+          <div className="summary-item" key={item}>
+            <div>{item}</div>
+          </div>
+        ))}
       </div>
       <div className="readiness-grid">
         {report.stageReadiness.map((stage) => (
@@ -406,6 +415,11 @@ function AssessmentReportCard({ report }: { report: AssessmentReport }) {
         ))}
       </div>
       <div className="summary-grid">
+        <ReportList
+          emptyText="No ability signals yet."
+          items={report.abilityProfile.map((item) => `${item.dimension} · ${Math.round(item.score * 100)}% · ${item.status}`)}
+          title="Ability profile"
+        />
         <ReportList
           emptyText="No focus concept detected yet."
           items={report.focusConcepts.map((item) => `${item.concept} · ${Math.round(item.mastery * 100)}%`)}

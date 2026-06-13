@@ -47,6 +47,16 @@ export default function SessionSummaryPanel({
             </div>
             <h3>{planTitle}</h3>
             <p>{planReason}</p>
+            {learningPlan?.steps && learningPlan.steps.length > 0 && (
+              <div className="plan-step-row">
+                {learningPlan.steps.map((step) => (
+                  <Link className="plan-step-pill" href={step.href} key={step.id}>
+                    <span>{step.priority}</span>
+                    <strong>{step.title}</strong>
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
           <Link className="button" href={planHref}>
             Start recommended mini session

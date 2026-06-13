@@ -104,6 +104,7 @@ function mapProblem(
     answer: row.answer,
     answerType: row.answer_type,
     choices,
+    ...parseAssets(row.notes),
     difficulty: Number(row.difficulty) || 3,
     source: row.source_collection || "staging",
     primaryConcept: concepts[0] ?? "prealg_expressions",
@@ -132,6 +133,18 @@ function mapProblem(
     },
     ...(distractors.length > 0 ? { distractors } : {})
   };
+}
+
+function parseAssets(notes: string): Pick<Problem, "assets"> {
+  const match = notes.match(/ASSETS_JSON:(\[[\s\S]*?\])(?:\s+Original paper position:|\s+Auto-gradable|\s+Manual review|$)/);
+  if (!match) return {};
+
+  try {
+    const assets = JSON.parse(match[1]) as Problem["assets"];
+    return assets && assets.length > 0 ? { assets } : {};
+  } catch {
+    return {};
+  }
 }
 
 function parseChoices(value: string, problemId: string, distractors: Distractor[]): AnswerChoice[] {

@@ -1,0 +1,193 @@
+USA
+AMC 8
+1992
+1 10− 9 + 8− 7 + 6− 5 + 4− 3 + 2− 1
+1− 2 + 3− 4 + 5− 6 + 7− 8 + 9 =
+(A) − 1 (B) 1 (C) 5 (D) 9 (E) 10
+2 Which of the following is not equal to 5
+4?
+(A) 10
+8 (B) 1 1
+4 (C) 1 3
+12 (D) 1 1
+5 (E) 1 10
+40
+3 What is the largest diﬀerence that can be formed by subtracting two numbers chosen from
+the set{−16,−4, 0, 2, 4, 12}?
+(A) 10 (B) 12 (C) 16 (D) 28 (E) 48
+4 During the softball season, Judy had 35 hits. Among her hits were 1 home run, 1 triple and
+5 doubles. The rest of her hits were single. What percent of her hits were single?
+(A) 28% (B) 35% (C) 70% (D) 75% (E) 80%
+5 A circle of diameter 1 is removed from a 2 × 3 rectangle, as shown. Which whole number is
+closest to the area of the shaded region?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+6 Suppose that
+a
+b c
+means a + b− c. For example,
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1992
+5
+4 6
+is 5 + 4− 6 = 3. Then the sum
+1
+3 4
+2
+5 6+
+is
+(A) − 2 (B) − 1 (C) 0 (D) 1 (E) 2
+7 The digit-sum of 998 is 9 + 9 + 8 = 26. How many 3-digit whole numbers, whose digit-sum
+is 26, are even?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+8 A store owner bought 1500 pencils at $0 .10 each. If he sells them for $0 .25 each, how many
+of them must he sell to make a proﬁt of exactly $100 .00?
+(A) 400 (B) 667 (C) 1000 (D) 1500 (E) 1900
+9 The population of a small town is 480. The graph indicates the number of females and males
+in the town, but the vertical scale-values are omitted. How many males live in the town?
+POPULATION
+F M
+(A) 120 (B) 160 (C) 200 (D) 240 (E) 360
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1992
+10 An isosceles right triangle with legs of length 8 is partitioned into 16 congruent triangles as
+shown. The shaded area is
+8
+8
+(A) 10 (B) 20 (C) 32 (D) 40 (E) 64
+11 The bar graph shows the results of a survey on color preferences. What percent preferred
+blue?
+20
+40
+60
+COLOR SUR VEY
+Frequency
+D
+E
+R
+E
+U
+L
+B
+N
+W
+O
+R
+B
+K
+N
+I
+P
+N
+E
+E
+R
+G
+(A) 20% (B) 24% (C) 30% (D) 36% (E) 42%
+12 The ﬁve tires of a car (four road tires and a full-sized spare) were rotated so that each tire
+was used the same number of miles during the ﬁrst 30 , 000 miles the car traveled. For how
+many miles was each tire used?
+(A) 6000 (B) 7500 (C) 24 , 000 (D) 30 , 000 (E) 37 , 500
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1992
+13 Five test scores have a mean (average score) of 90, a median (middle score) of 91 and a mode
+(most frequent score) of 94. The sum of the two lowest test scores is
+(A) 170 (B) 171 (C) 176 (D) 177 (E) not determined by the information given
+14 When four gallons are added to a tank that is one-third full, the tank is then one-half full.
+The capacity of the tank in gallons is
+(A) 8 (B) 12 (C) 20 (D) 24 (E) 48
+15 What is the 1992 nd letter in this sequence?
+ABCDEDCBAABCDEDCBAABCDEDCBAABCDEDC···
+(A) A (B) B (C) C (D) D (E) E
+16
+10
+5
+Which cylinder has twice the volume of the cylinder shown above?
+20
+5
+(A)
+10
+10
+(B)
+5
+10
+(C)
+20
+10
+(D)
+(E) None of the above
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1992
+17 The sides of a triangle have lengths 6 .5, 10, and s, where s is a whole number. What is the
+smallest possible value of s?
+6.5
+10
+s
+(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+18 On a trip, a car traveled 80 miles in an hour and a half, then was stopped in traﬃc for 30
+minutes, then traveled 100 miles during the next 2 hours. What was the car’s average speed
+in miles per hour for the 4-hour trip?
+(A) 45 (B) 50 (C) 60 (D) 75 (E) 90
+19 The distance between the 5 th and 26th exits on an interstate highway is 118 miles. If any two
+exits are at least 5 miles apart, then what is the largest number of miles there can be between
+two consecutive exits that are between the 5 th and 26th exits?
+(A) 8 (B) 13 (C) 18 (D) 47 (E) 98
+20 Which pattern of identical squares could NOT be folded along the lines shown to form a
+cube?
+(A) (B) (C) (D) (E)
+21 Northside’s Drum and Bugle Corps raised money for a trip. The drummers and bugle players
+kept separate sales records. According to the double bar graph, in what month did one
+group’s sales exceed the other’s by the greatest percent?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+1992
+Jan Feb Mar Apr May
+MONTHLY SALES
+S
+A
+L
+E
+S
+Drums Bugles
+(A) Jan (B) Feb (C) Mar (D) Apr (E) May
+22 Eight 1× 1 square tiles are arranged as shown so their outside edges form a polygon with a
+perimeter of 14 units. Two additional tiles of the same size are added to the ﬁgure so that
+at least one side of each tile is shared with a side of one of the squares in the original ﬁgure.
+Which of the following could be the perimeter of the new ﬁgure?
+(A) 15 (B) 17 (C) 18 (D) 19 (E) 20
+23 If two dice are tossed, the probability that the product of the numbers showing on the tops
+of the dice is greater than 10 is
+(A) 3
+7 (B) 17
+36 (C) 1
+2 (D) 5
+8 (E) 11
+12
+24 Four circles of radius 3 are arranged as shown. Their centers are the vertices of a square. The
+area of the shaded region is closest to
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6
+USA
+AMC 8
+1992
+(A) 7.7 (B) 12 .1 (C) 17 .2 (D) 18 (E) 27
+25 One half of the water is poured out of a full container. Then one third of the remainder is
+poured out. Continue the process: one fourth of the remainder for the third pouring, one
+ﬁfth of the remainder for the fourth pouring, etc. After how many pourings does exactly one
+tenth of the original water remain?
+(A) 6 (B) 7 (C) 8 (D) 9 (E) 10
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 7

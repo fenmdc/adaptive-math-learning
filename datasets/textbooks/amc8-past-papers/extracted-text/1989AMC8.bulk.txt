@@ -1,0 +1,173 @@
+USA
+AMC 8
+1989
+1 (1 + 11 + 21 + 31 + 41) + (9 + 19 + 29 + 39 + 49) =
+(A) 150 (B) 199 (C) 200 (D) 249 (E) 250
+2 2
+10 + 4
+100 + 6
+1000 =
+(A) .012 (B) .0246 (C) .12 (D) .246 (E) 246
+3 Which of the following numbers is the largest?
+(A) .99 (B) .9099 (C) .9 (D) .909 (E) .9009
+4 Estimate to determine which of the following numbers is closest to 401
+.205.
+(A) .2 (B) 2 (C) 20 (D) 200 (E) 2000
+5 −15 + 9 × (6 ÷ 3) =
+(A) − 48 (B) − 12 (C) − 3 (D) 3 (E) 12
+6 If the markings on the number line are equally spaced, what is the number y?
+0 20 y
+(A) 3 (B) 10 (C) 12 (D) 15 (E) 16
+7 If the value of 20 quarters and 10 dimes equals the value of 10 quarters and n dimes, then
+n =
+(A) 10 (B) 20 (C) 30 (D) 35 (E) 45
+8 (2 × 3 × 4)
+( 1
+2 + 1
+3 + 1
+4
+)
+=
+(A) 1 (B) 3 (C) 9 (D) 24 (E) 26
+9 There are 2 boys for every 3 girls in Ms. Johnson’s math class. If there are 30 students in
+her class, what percent of them are boys?
+(A) 12% (B) 20% (C) 40% (D) 60% (E) 66 2
+3%
+10 What is the number of degrees in the smaller angle between the hour hand and the minute
+hand on a clock that reads seven o’clock?
+(A) 50◦ (B) 120◦ (C) 135◦ (D) 150◦ (E) 165◦
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1989
+11 Which of the ﬁve ”T-like shapes” would be symmetric to the one shown with respect to the
+dashed line?
+(A) (B) (C) (D) (E)
+12
+1− 1
+3
+1− 1
+2
+=
+(A) 1
+3 (B) 2
+3 (C) 3
+4 (D) 3
+2 (E) 4
+3
+13 9
+7×53 =
+(A) .9
+.7×53 (B) .9
+.7×.53 (C) .9
+.7×5.3 (D) .9
+7×.53 (E) .09
+.07×.53
+14 When placing each of the digits 2 , 4, 5, 6, 9 in exactly one of the boxes of this subtraction
+problem, what is the smallest diﬀerence that is possible?
+(A) 58 (B) 123 (C) 149 (D) 171 (E) 176
+-
+15 The area of the shaded region BEDC in parallelogram ABCD is
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1989
+A
+B C
+DE
+10
+6
+8
+(A) 24 (B) 48 (C) 60 (D) 64 (E) 80
+16 In how many ways can 47 be written as the sum of two primes?
+(A) 0 (B) 1 (C) 2 (D) 3 (E) more than 3
+17 The number N is between 9 and 17. The average of 6, 10, and N could be
+(A) 8 (B) 10 (C) 12 (D) 14 (E) 16
+18 Many calculators have a reciprocal key 1
+x that replaces the current number displayed with
+its reciprocal. For example, if the display is 00004 and the 1
+x key is depressed, then the
+display becomes 000.25 . If 00032 is currently displayed, what is the fewest number of times
+you must depress the 1
+x key so the display again reads 00032 ?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+19 The graph below shows the total accumulated dollars (in millions) spent by the Surf City
+government during 1988. For example, about .5 million had been spent by the beginning of
+February and approximately 2 million by the end of April. Approximately how many millions
+of dollars were spent during the summer months of June, July, and August?
+(A) 1.5 (B) 2 .5 (C) 3 .5 (D) 4 .5 (E) 5 .5
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1989
+J F M A M J J A S O N D month F=February
+1
+2
+3
+4
+5
+dollars in millions
+20 The ﬁgure may be folded along the lines shown to form a number cube. Three number faces
+come together at each corner of the cube. What is the largest sum of three numbers whose
+faces come together at a corner?
+1
+2
+3
+4 56
+(A) 11 (B) 12 (C) 13 (D) 14 (E) 15
+21 Jack had a bag of 128 apples. He sold 25% of them to Jill. Next he sold 25% of those
+remaining to June. Of those apples still in his bag, he gave the shiniest one to his teacher.
+How many apples did Jack have then?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1989
+(A) 7 (B) 63 (C) 65 (D) 71 (E) 111
+22 The letters A, J, H, S, M, E and the digits 1, 9, 8, 9 are ”cycled” separately as follows and
+put together in a numbered list:
+AJHSME 1989
+1. JHSMEA 9891
+2. HSMEAJ 8919
+3. SMEAJH 9198
+........
+What is the number of the line on which AJHSME 1989 will appear for the ﬁrst time?
+(A) 6 (B) 10 (C) 12 (D) 18 (E) 24
+23 An artist has 14 cubes, each with an edge of 1 meter. She stands them on the ground to
+form a sculpture as shown. She then paints the exposed surface of the sculpture. How many
+square meters does she paint?
+(A) 21 (B) 24 (C) 33 (D) 37 (E) 42
+24 Suppose a square piece of paper is folded in half vertically. The folded paper is then cut
+in half along the dashed line. Three rectangles are formed-a large one and two small ones.
+What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large
+rectangle?
+(A) 1
+2 (B) 2
+3 (C) 3
+4 (D) 4
+5 (E) 5
+6
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+1989
+25 Every time these two wheels are spun, two numbers are selected by the pointers. What is the
+probability that the sum of the two selected numbers is even?
+(A) 1
+6 (B) 3
+7 (C) 1
+2 (D) 2
+3 (E) 5
+7
+5
+3
+4
+8
+6
+9 7
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6

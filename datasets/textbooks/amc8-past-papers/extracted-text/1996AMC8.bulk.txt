@@ -1,0 +1,171 @@
+USA
+AMC 8
+1996
+1 How many positive factors of 36 are also multiples of 4?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+2 Jose, Thuy, and Kareem each start with the number 10. Jose subtracts 1 from the number
+10, doubles his answer, and then adds 2. Thuy doubles the number 10, subtracts 1 from her
+answer, and then adds 2. Kareem subtracts 1 from the number 10, adds 2 to his number, and
+then doubles the result. Who gets the largest ﬁnal answer?
+(A) Jose (B) Thuy (C) Kareem (D) Jose and Thuy (E) Thuy and Kareem
+3 The 64 whole numbers from 1 through 64 are written, one per square, on a checkerboard (an
+8 by 8 array of 64 squares). The ﬁrst 8 numbers are written in order across the ﬁrst row, the
+next 8 across the second row, and so on. After all 64 numbers are written, the sum of the
+numbers in the four corners will be
+(A) 130 (B) 131 (C) 132 (D) 133 (E) 134
+4 2 + 4 + 6 +··· + 34
+3 + 6 + 9 +··· + 51 =
+(A) 1
+3 (B) 2
+3 (C) 3
+2 (D) 17
+3 (E) 34
+3
+5 The letters P , Q, R, S, and T represent numbers located on the number line as shown.
+−3 −2 −1 0 1 2 3
+P Q R S T
+Which of the following expressions represents a negative number?
+(A) P− Q (B) P· Q (C) S
+Q· P (D) R
+P· Q (E) S + T
+R
+6 What is the smallest result that can be obtained from the following process?
+*Choose three diﬀerent numbers from the set{3, 5, 7, 11, 13, 17}. *Add two of these numbers.
+*Multiply their sum by the third number.
+(A) 15 (B) 30 (C) 36 (D) 50 (E) 56
+7 Brent has goldﬁsh that quadruple (become four times as many) every month, and Gretel has
+goldﬁsh that double every month. If Brent has 4 goldﬁsh at the same time that Gretel has
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1996
+128 goldﬁsh, then in how many months from that time will they have the same number of
+goldﬁsh?
+(A) 4 (B) 5 (C) 6 (D) 7 (E) 8
+8 Points A and B are 10 units apart. Points B and C are 4 units apart. Points C and D are 3
+units apart. If A and D are as close as possible, then the number of units between them is
+(A) 0 (B) 3 (C) 9 (D) 11 (E) 17
+9 If 5 times a number is 2, then 100 times the reciprocal of the number is
+(A) 2.5 (B) 40 (C) 50 (D) 250 (E) 500
+10 When Walter drove up to the gasoline pump, he noticed that his gasoline tank was 1
+8 full.
+He purchased 7.5 gallons of gasoline for $10. With this additional gasoline, his gasoline tank
+was then 5
+8 full. The number of gallons of gasoline his tank holds when it is full is
+(A) 8.75 (B) 10 (C) 11 .5 (D) 15 (E) 22 .5
+11 Let x be the number
+0. 0000...0000  
+1996 zeros
+1,
+where there are 1996 zeros after the decimal point. Which of the following expressions repre-
+sents the largest number?
+(A) 3 + x (B) 3− x (C) 3· x (D) 3/x (E) x/3
+12 What number should be removed from the list
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+so that the average of the remaining numbers is 6 .1?
+(A) 4 (B) 5 (C) 6 (D) 7 (E) 8
+13 In the fall of 1996, a total of 800 students participated in an annual school clean-up day. The
+organizers of the event expect that in each of the years 1997, 1998, and 1999, participation
+will increase by 50% over the previous year. The number of participants the organizers will
+expect in the fall of 1999 is
+(A) 1200 (B) 1500 (C) 2000 (D) 2400 (E) 2700
+14 Six diﬀerent digits from the set
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1996
+are placed in the squares in the ﬁgure shown so that the sum of the entries in the vertical
+column is 23 and the sum of the entries in the horizontal row is 12. The sum of the six digits
+used is
+23
+12
+(A) 27 (B) 29 (C) 31 (D) 33 (E) 35
+15 The remainder when the product 1492 · 1776· 1812· 1996 is divided by 5 is
+(A) 0 (B) 1 (C) 2 (D) 3 (E) 4
+16 1− 2− 3 + 4 + 5− 6− 7 + 8 + 9− 10− 11 +··· + 1992 + 1993− 1994− 1995 + 1996 =
+(A) − 998 (B) − 1 (C) 0 (D) 1 (E) 998
+17 Figure OP QR is a square. Point O is the origin, and point Q has coordinates (2 , 2). What
+are the coordinates for T so that the area of triangle P QT equals the area of square OP QR?
+O P
+QR
+T
+NOT TO SCALE
+(A) (−6, 0) (B) ( −4, 0) (C) ( −2, 0) (D) (2 , 0) (E) (4 , 0)
+18 Ana’s monthly salary was $2000 in May. In June she received a 20% raise. In July she
+received a 20% pay cut. After the two changes in June and July, Ana’s monthly salary was
+(A) 1920 dollars (B) 1980 dollars (C) 2000 dollars (D) 2020 dollars (E) 2040 dollars
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1996
+19 The pie charts below indicate the percent of students who prefer golf, bowling, or tennis at
+East Junior High School and West Middle School. The total number of students at East is
+2000 and at West, 2500. In the two schools combined, the percent of students who prefer
+tennis is
+48%
+bowling
+30%
+golf
+22%
+tennis
+40%
+tennis
+24%
+golf
+36%
+bowling
+East JHS
+2000 students
+West MS
+2500 students
+(A) 30% (B) 31% (C) 32% (D) 33% (E) 34%
+20 Suppose there is a special key on a calculator that replaces the number x currently displayed
+with the number given by the formula 1
+1−x. For example, if the calculator is displaying 2 and
+the special key is pressed, then the calculator will display −1 since 1
+1−2 =−1. Now suppose
+that the calculator is displaying 5. After the special key is pressed 100 times in a row, the
+calculator will display
+(A) − 0.25 (B) 0 (C) 0 .8 (D) 1 .25 (E) 5
+21 How many subsets containing three diﬀerent numbers can be selected from the set
+{89, 95, 99, 132, 166, 173}
+so that the sum of the three numbers is even?
+(A) 6 (B) 8 (C) 10 (D) 12 (E) 24
+22 The horizontal and vertical distances between adjacent points equal 1 unit. The area of
+triangle ABC is
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1996
+A
+B
+C
+(A) 1/4 (B) 1 /2 (C) 3 /4 (D) 1 (E) 5 /4
+23 The manager of a company planned to distribute a $50 bonus to each employee from the
+company fund, but the fund contained $5 less than what was needed. Instead the manager
+gave each employee a $45 bonus and kept the remaining $95 in the company fund. The
+amount of money in the company fund before any bonuses were paid was
+(A) 945 dollars (B) 950 dollars (C) 955 dollars (D) 990 dollars (E) 995 dollars
+24 The measure of angle ABC is 50◦, AD bisects angle BAC, and DC bisects angle BCA. The
+measure of angle ADC is
+A
+B
+C
+D
+50◦
+(A) 90◦ (B) 100◦ (C) 115◦ (D) 122.5◦ (E) 125◦
+25 A point is chosen at random from within a circular region. What is the probability that the
+point is closer to the center of the region than it is to the boundary of the region?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+1996
+(A) 1/4 (B) 1 /3 (C) 1 /2 (D) 2 /3 (E) 3 /4
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6

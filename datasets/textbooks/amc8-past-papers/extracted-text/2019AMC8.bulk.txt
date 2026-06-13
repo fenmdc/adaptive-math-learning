@@ -1,0 +1,310 @@
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 1 
+ 
+2019 AMC 8 Problems 
+ 
+Problem 1 
+Ike and Mike go into a sandwich shop with a total of $30.00 to spend. Sandwiches cost $4.50 
+each and soft drinks cost $1.00 each. Ike and Mike plan to buy as many sandwiches as they can, 
+and use any remaining money to buy soft drinks. Counting both sandwiches and soft drinks, how 
+many items will they buy? 
+ 
+ 
+Problem 2 
+Three identical rectangles are put together to form rectangle 𝐴𝐵𝐶𝐷, as shown in the figure below. 
+Given that the length of the shorter side of each of the smaller rectangles is 5 feet, what is the 
+area in square feet of rectangle 𝐴𝐵𝐶𝐷? 
+ 
+ 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 2 
+ 
+ 
+Problem 3 
+Which of the following is the correct order of the fractions 
+15
+11 , 19
+15 , and 17
+13 , 
+from least to greatest? 
+ 
+ 
+Problem 4 
+Quadrilateral 𝐴𝐵𝐶𝐷 is a rhombus with perimeter 52 meters. The length of diagonal 𝑨𝑪̅̅̅̅ 
+is 24 meters. What is the area in square meters of rhombus 𝐴𝐵𝐶𝐷? 
+ 
+ 
+ 
+ 
+Problem 5 
+A tortoise challenges a hare to a race. The hare eagerly agrees and quickly runs ahea d, leaving 
+the slow-moving tortoise behind. Confident that he will win, the hare stops to take a nap. 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 3 
+ 
+Meanwhile, the tortoise walks at a slow steady pace for the entire race. The hare awakes and runs 
+to the finish line, only to find the tortoise already there. Which of the following graphs matches 
+the description of the race, showing the distance 𝑑 traveled by the two animals over time 𝑡 from 
+start to finish? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Problem 6 
+There are 81 grid points (uniformly spaced) in the square shown in the diagram below, including 
+the points on the edges. Point 𝑃 is the center of the square. Given that point 𝑄 is randomly 
+chosen from among the other 80 points, what is the probability that line 𝑃𝑄̅̅̅̅ is a line of symmetry 
+for the square? 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 4 
+ 
+ 
+ 
+ 
+ 
+Problem 7 
+Shauna takes five tests, each worth a maximum of a 100 points. Her scores on the first three tests 
+were 76, 94, and 87. In order to average 81 on all five tests, what is the lowest score she could 
+earn on one of the other two tests? 
+ 
+ 
+Problem 8 
+Gilda has a bag of marbles. She gives 20% of them to her friend Pedro. Then Gilda gives 10% of 
+what is left to another friend, Ebony. Finally, Gilda gives 25% of what is now left in the bag to 
+her brother Jimmy. What percentage of her original bag of marbles does Gilda have left for 
+herself? 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 5 
+ 
+Problem 9 
+Alex and Felicia each have cats as pets. Alex buys cat food in cylindrical cans that are 6 cm in 
+diameter and 12 cm high. Felicia buys cat food in cylindrical cans that are 12 cm in diameter and 
+6 cm high. What is the ratio of the volume of one of Alex's cans to the volume of one of Felicia 's 
+cans? 
+ 
+ 
+Problem 10 
+The diagram shows the number of students at soccer practice each weekday during last week. 
+After computing the mean and median values, Coach discovers that there were actually 21 
+participants on Wednesday. Which of the following statements describes the change in the mean 
+and median after the correction is made? 
+ 
+ 
+ 
+(A) The mean increases by 1 and the median does not change. 
+(B) The mean increases by 1 and the median increases by 1. 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 6 
+ 
+(C) The mean increases by 1 and the median increases by 5. 
+(D) The mean increases by 5 and the median increases by 1. 
+(E) The mean increases by 5 and the median increases by 5 
+ 
+Problem 11 
+The eighth grade class at Lincoln Middle School has 93 students. Each students takes a math 
+class or a foreign language class or both. There are 70 eighth graders taking a math class, and 
+there are 54 eighth graders taking a foreign language class. How many eighth graders take only a 
+math class and not a foreign language class? 
+ 
+ 
+Problem 12 
+The faces of a cube are painted in six different colors: red (R), white (W), green (G), brown (B), 
+aqua (A), and purple (P). Three views of the cube are shown below. What is the color of the face 
+opposite the aqua face? 
+ 
+(A) red  (B) white (C) green (D) brown (E) purple 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 7 
+ 
+Problem 13 
+A palindrome is a number that has the same value when read from left to right or from right to 
+left. (For example, 12321 is a palindrome.) Let 𝑁 be the least three-digit integer which is not a 
+palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the 
+digits of 𝑁? 
+ 
+ 
+Problem 14 
+Isabella has 6 coupons that can be redeemed for free ice cream cones at Pete's Sweet Trea ts. In 
+order to make the coupons last, she decides that she will redeem one every 10 days until she has 
+used them all. She knows that Pete's is closed on Sundays, but as she circles the 6 dates on her 
+calendar, she realizes that no circled date falls on a Sunday. On what day of the week does 
+Isabella redeem her first coupon? 
+ 
+ 
+Problem 15 
+On a beach 50 people are wearing sunglasses and 35 people are wearing caps. Some people are 
+wearing both sunglasses and caps. If one of the people wearing a cap is selected at random, the 
+probability that this person is also wearing sunglasses is 
+2
+5 . If instead, someone wearing 
+sunglasses is selected at random, what is the probability that this person is also wearing a cap? 
+ 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 8 
+ 
+Problem 16 
+Qiang drives 15 miles at an average speed of 30 miles per hour. How many additional miles will 
+he have to drive at 55 miles per hour to average 50 miles per hour for the entire trip? 
+ 
+ 
+Problem 17 
+What is the value of the product 
+ 
+ 
+ 
+ 
+ 
+Problem 18 
+The faces on each of two fair dice are numbered 1, 2, 3, 5, 7, and 8. When the two dice are tossed, 
+what is the probability that their sum will be an even number? 
+ 
+ 
+Problem 19 
+In a tournament there are six teams that play each other twice. A team earns 3 points for a win, 1 
+point for a draw, and 0 points for a loss. After all the games have been played it turns out that the 
+top three teams earned the same number of total points. What is the greatest possible number of 
+total points for each of the top three teams? 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 9 
+ 
+ 
+ 
+Problem 20 
+How many different real numbers 𝑥 satisfy the equation 
+(𝑥2 − 5)2 = 16 ? 
+(A) 0  (B) 1  (C) 2  (D) 4  (E) 8 
+ 
+Problem 21 
+What is the area of the triangle formed by the lines  
+𝑦 = 5, 𝑦 = 1 + 𝑥, and 𝑦 = 1 − 𝑥 ? 
+ 
+ 
+ 
+Problem 22 
+A store increased the original price of a shirt by a certain percent and then decreased the new 
+price by the same amount. Given that the resulting price was 84% of the original price, by what 
+percent was the price increased and decreased? 
+ 
+ 
+Problem 23 
+After Euclid High School's last basketball game, it was determined that 
+1
+4 of the team's points 
+were scored by Alexa and 
+2
+7 were scored by Brittany. Chelsea scored 15 points. None of the other 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 10 
+ 
+7 team members scored more than 2 points. What was the total number of points scored by the 
+other 7 team members? 
+ 
+ 
+Problem 24 
+In triangle 𝐴𝐵𝐶, point 𝐷 divides side 𝐴𝐶̅̅̅̅ so that 𝐴𝐷 ∶ 𝐷𝐶 = 1 ∶ 2. Let 𝐸 be the midpoint of 𝐵𝐷̅̅̅̅ 
+and 𝐹 be the point of intersection of line 𝐵𝐶̅̅̅̅ and line 𝐴𝐸̅̅̅̅. Given that the area of ∆𝐴𝐵𝐶 is 360, 
+what is the area of ∆𝐸𝐵𝐹? 
+ 
+(A) 24  (B) 30  (C) 32  (D) 36  (E) 40 
+ 
+Problem 25 
+Alice has 24 apples. In how many ways can she share them with Becky and Chris so that each of 
+the three people has at least two apples? 
+ 
+ 
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 11 
+ 
+ 
+These problems are copyright  Mathematical Association of America  
+ 
+  
+
+ 
+ 
+https://ivyleaguecenter.org/ 
+Tel: 301-922-9508 
+Email: chiefmathtutor@gmail.com Page 12 
+ 
+Answer Key 
+1. D 
+2. E 
+3. E 
+4. D 
+5. B 
+6. C 
+7. A 
+8. E 
+9. B 
+10. B 
+11. D 
+12. A 
+13. A 
+14. C 
+15. B 
+16. D 
+17. B 
+18. C 
+19. C 
+20. D 
+21. E 
+22. E 
+23. B 
+24. B 
+25. C 
+ 
+ (https://ivyleaguecenter.org/) 

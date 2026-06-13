@@ -1,0 +1,190 @@
+2017 AMC 8
+AMC 8 2017
+1 Which of the following values is largest?
+(A) 2 + 0 + 1 + 7 (B) 2 × 0 + 1 + 7 (C) 2 + 0 × 1 + 7 (D) 2 + 0 +
+1 × 7 (E) 2 × 0 × 1 × 7
+2 Alicia, Brenda, and Colby were the candidates in a recent election for s tudent
+president. The pie chart below shows how the votes were distrib uted among
+the three candidates. If Brenda received 36 votes, then how many vot es were
+cast all together?
+Colby
+25% Alicia
+45%
+Brenda
+30%
+(A) 70 (B) 84 (C) 100 (D) 106 (E) 120
+3 What is the value of the expression
+√
+16
+√
+8
+√
+4?
+(A) 4 (B) 4
+√
+2 (C) 8 (D) 8
+√
+2 (E) 16
+4 When 0.000315 is multiplied by 7,928,564 the product is closest to which of th e
+following? (A) 210 (B) 240 (C) 2100 (D) 2400 (E) 24000
+5 What is the value of the expression 1·2·3·4·5·6·7·8
+1+2+3+4+5+6+7+8 ?
+(A) 1020 (B) 1120 (C) 1220 (D) 2240 (E) 3360
+www.artofproblemsolving.com/community/c588215
+Contributors: popcorn1, moab33, TopNotchMath, itised, ancientwarr ior, bigmath,
+rrusczyk
+2017 AMC 8
+6 If the degree measures of the angles of a triangle are in the ratio 3 : 3 : 4, wh at is
+the degree measure of the largest angle of the triangle? (A) 18 (B) 36 (C) 60 (D)
+7 Let Z be a 6-digit positive integer, such as 247247, whose ﬁrst three digits are
+the same as its last three digits taken in the same order. Which of the fol lowing
+numbers must also be a factor of Z? (A) 11 (B) 19 (C) 101 (D) 111 (E) 1111
+8 Malcolm wants to visit Isabella after school today and knows the stre et where
+she lives but doesn’t know her house number. She tells him, ”My h ouse number
+has two digits, and exactly three of the following four statements about it are
+true.”
+(1) It is prime.
+(2) It is even.
+(3) It is divisible by 7.
+(4) One of its digits is 9.
+This information allows Malcolm to determine Isabella’s house number . What
+is its units digit?
+(A) 4 (B) 6 (C) 7 (D) 8 (E) 9
+9 All of Marcy’s marbles are blue, red, green, or yellow. One third of her mar-
+bles are blue, one fourth of them are red, and six of them are green. What is the
+smallest number of yellow marbles that Marcy could have? (A) 1 (B) 2 (C) 3 (D)
+10 A box contains ﬁve cards, numbered 1, 2, 3, 4, and 5. Three cards are selecte d
+randomly without replacement from the box. What is the probability th at 4 is
+the largest value selected? (A) 1
+10 (B) 1
+5 (C) 3
+10 (D) 2
+5 (E) 1
+2
+11 A square-shaped ﬂoor is covered with congruent square tiles. If the total number
+of tiles that lie on the two diagonals is 37, how many tiles cover the ﬂoor?
+(A) 148 (B) 324 (C) 361 (D) 1296 (E) 1369
+12 The smallest positive integer greater than 1 that leaves a remainder of 1 when
+divided by 4, 5, and 6 lies between which of the following pairs of numb ers?
+(A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124
+www.artofproblemsolving.com/community/c588215
+Contributors: popcorn1, moab33, TopNotchMath, itised, ancientwarr ior, bigmath,
+rrusczyk
+2017 AMC 8
+13 Peter, Emma, and Kyler played chess with each other. Peter won 4 games and
+lost 2 games. Emma won 3 games and lost 3 games. If Kyler lost 3 games, how
+many games did he win? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4
+14 Chloe and Zoe are both students in Ms. Demeanor’s math class. Last night t hey
+each solved half of the problems in their homework assignment alone and the n
+solved the other half together. Chloe had correct answers to only 80% of the
+problems she solved alone, but overall 88% of her answers were correct. Z oe had
+correct answers to 90% of the problems she solved alone. What was Zoe’s ove rall
+percentage of correct answers? (A) 89 (B) 92 (C) 93 (D) 96 (E) 98
+15 In the arrangement of letters and numerals below, by how many diﬀeren t paths
+can one spell AMC8? Beginning at the A in the middle, a path allows only
+moves from one letter to an adjacent (above, below, left, or right, but not
+diagonal) letter. One example of such a path is traced in the picture.
+8 C 8
+8 C M C 8
+C M A M C
+8 C M C 8
+8 C 8
+(A) 8 (B) 9 (C) 12 (D) 24 (E) 36
+16 In the ﬁgure below, choose point D on BC so that △ ACD and △ ABD have
+equal perimeters. What is the area of △ ABD?
+www.artofproblemsolving.com/community/c588215
+Contributors: popcorn1, moab33, TopNotchMath, itised, ancientwarr ior, bigmath,
+rrusczyk
+2017 AMC 8
+A B
+C
+3
+4
+5
+(A) 3
+4 (B) 3
+2 (C) 2 (D) 12
+5 (E) 5
+2
+17 Starting with some gold coins and some empty treasure chests, I tried t o put
+9 gold coins in each treasure chest, but that left 2 treasure chests em pty. So
+instead I put 6 gold coins in each treasure chest, but then I had 3 gold coin s left
+over. How many gold coins did I have? (A) 9 (B) 27 (C) 45 (D) 63 (E) 81
+18 In the non-convex quadrilateral ABCD shown below, ∠BCD is a right angle,
+AB = 12, BC = 4, CD = 3, and AD = 13.
+B A
+C
+D
+What is the area of quadrilateral ABCD ? (A) 12 (B) 24 (C) 26 (D) 30 (E) 36
+19 For any positive integer M , the notation M ! denotes the product of the integers
+1 through M . What is the largest integer n for which 5 n is a factor of the sum
+98! + 99! + 100! ? (A) 23 (B) 24 (C) 25 (D) 26 (E) 27
+20 An integer between 1000 and 9999, inclusive, is chosen at random. What is the
+probability that it is an odd integer whose digits are all distinct? (A) 14
+75 (B) 56
+225 (C) 107
+400
+www.artofproblemsolving.com/community/c588215
+Contributors: popcorn1, moab33, TopNotchMath, itised, ancientwarr ior, bigmath,
+rrusczyk
+2017 AMC 8
+21 Suppose a, b, and c are nonzero real numbers, and a + b + c = 0. What are the
+possible value(s) for a
+|a| + b
+|b| + c
+|c| + abc
+|abc|?
+(A) 0 (B) 1 and − 1 (C) 2 and − 2 (D) 0, 2, and − 2 (E) 0, 1, and −
+1
+22 In the right triangle ABC , AC = 12, BC = 5, and angle C is a right angle.
+A semicircle is inscribed in the triangle as shown. What is the radi us of the
+semicircle?
+A C
+B
+12
+5
+(A) 7
+6 (B) 13
+5 (C) 59
+18 (D) 10
+3 (E) 60
+13
+23 Each day for four days, Linda traveled for one hour at a speed that result ed in
+her traveling one mile in an integer number of minutes. Each day afte r the ﬁrst,
+her speed decreased so that the number of minutes to travel one mil e increased
+by 5 minutes over the preceding day. Each of the four days, her dis tance traveled
+was also an integer number of miles. What was the total number of miles for
+the four trips? (A) 10 (B) 15 (C) 25 (D) 50 (E) 82
+24 Mrs. Sanders has three grandchildren, who call her regularly. One cal ls her
+every three days, one calls her every four days, and one calls her eve ry ﬁve
+days. All three called her on December 31, 2016. On how many days during
+the next year did she not receive a phone call from any of her grandchildr en?
+(A) 78 (B) 80 (C) 144 (D) 146 (E) 152
+25 In the ﬁgure shown, U S and U T are line segments each of length 2, and
+m∠T U S = 60 ◦. Arcs TR⌢ and SR⌢ are each one-sixth of a circle with radius
+2. What is the area of the region shown?
+www.artofproblemsolving.com/community/c588215
+Contributors: popcorn1, moab33, TopNotchMath, itised, ancientwarr ior, bigmath,
+rrusczyk
+2017 AMC 8
+U
+S T
+R
+(A) 3
+√
+3 − π (B) 4
+√
+3 − 4π
+3 (C) 2
+√
+3 (D) 4
+√
+3 − 2π
+3 (E) 4 + 4π
+3
+–
+These problems are copyright c⃝ Mathematical Association of America ( http:
+//maa.org).
+www.artofproblemsolving.com/community/c588215
+Contributors: popcorn1, moab33, TopNotchMath, itised, ancientwarr ior, bigmath,
+rrusczyk

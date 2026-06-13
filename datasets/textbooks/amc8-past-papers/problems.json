@@ -1,0 +1,2196 @@
+[
+  {
+    "id": "amc8_2013_p01",
+    "year": 2013,
+    "number": 1,
+    "statement": "Danica wants to arrange her model cars in rows with exactly 6 cars in each row. She now has 23 model cars. What is the smallest number of additional cars she must buy in order to be able to arrange all her cars this way?",
+    "answer": "1",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "concepts": [
+      "arith_natural_numbers",
+      "nt_divisibility"
+    ],
+    "theme": "Number Theory and Integer Structure",
+    "chapter": "amc8-topic-number-theory",
+    "chapterTitle": "AMC8 Topic: Number Theory and Integer Structure",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "number_structure",
+    "cognitiveTags": [
+      "divisibility",
+      "least_multiple"
+    ],
+    "skills": [
+      "number_structure"
+    ],
+    "patterns": [
+      "divisibility",
+      "least_multiple"
+    ],
+    "misconceptions": [
+      "factor_misread",
+      "divisibility_error",
+      "place_value_error",
+      "operation_error"
+    ],
+    "solution": "The next multiple of 6 after 23 is 24, so she needs 1 more car.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p02",
+    "year": 2013,
+    "number": 2,
+    "statement": "A sign at the fish market says, \"50% off, today only: half-pound packages for just $3 per package.\" What is the regular price for a full pound of fish, in dollars?",
+    "answer": "12",
+    "choices": {
+      "A": "6",
+      "B": "9",
+      "C": "10",
+      "D": "12",
+      "E": "15"
+    },
+    "concepts": [
+      "arith_percentages",
+      "arith_ratios"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "proportional_reasoning",
+    "cognitiveTags": [
+      "percent_discount",
+      "unit_rate_modeling"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "percent_discount",
+      "unit_rate_modeling"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "If $3 is half price for a half pound, the regular half-pound price is $6. A full pound is $12.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p03",
+    "year": 2013,
+    "number": 3,
+    "statement": "What is the value of 4(-1 + 2 - 3 + 4 - 5 + 6 - 7 + ... + 1000)?",
+    "answer": "2000",
+    "choices": {
+      "A": "-10",
+      "B": "0",
+      "C": "1",
+      "D": "500",
+      "E": "2000"
+    },
+    "concepts": [
+      "arith_integers",
+      "arith_natural_numbers"
+    ],
+    "theme": "Number Systems and Operations",
+    "chapter": "amc8-topic-number-systems",
+    "chapterTitle": "AMC8 Topic: Number Systems and Operations",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "computation",
+    "cognitiveTags": [
+      "pattern_recognition",
+      "sign_error_risk"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "pattern_recognition",
+      "sign_error_risk"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Pair the terms as (-1 + 2), (-3 + 4), ..., (-999 + 1000). There are 500 pairs, each equal to 1, so the expression is 4 x 500 = 2000.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p04",
+    "year": 2013,
+    "number": 4,
+    "statement": "Eight friends ate at a restaurant and agreed to share the bill equally. Because Judi forgot her money, each of her seven friends paid an extra $2.50 to cover her portion of the total bill. What was the total bill?",
+    "answer": "140",
+    "choices": {
+      "A": "120",
+      "B": "128",
+      "C": "140",
+      "D": "144",
+      "E": "160"
+    },
+    "concepts": [
+      "arith_ratios",
+      "prealg_word_to_equation"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "word_problem_modeling",
+    "cognitiveTags": [
+      "unit_rate_modeling",
+      "equation_from_context"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "unit_rate_modeling",
+      "equation_from_context"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Judi's share was covered by 7 friends paying $2.50 extra each: 7 x 2.50 = 17.50. The total bill was 8 x 17.50 = 140.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p05",
+    "year": 2013,
+    "number": 5,
+    "statement": "Hammie is in the 6th grade and weighs 106 pounds. His quadruplet sisters weigh 5, 5, 6, and 8 pounds. Which is greater, the average weight of these five children or the median weight, and by how many pounds?",
+    "answer": "average, by 20",
+    "choices": {
+      "A": "median, by 60",
+      "B": "median, by 20",
+      "C": "average, by 5",
+      "D": "average, by 15",
+      "E": "average, by 20"
+    },
+    "concepts": [
+      "stats_mean",
+      "stats_median"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "data_reasoning",
+    "cognitiveTags": [
+      "mean_vs_median",
+      "outlier_effect"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "mean_vs_median",
+      "outlier_effect"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The mean is (106 + 5 + 5 + 6 + 8)/5 = 26. The median of 5, 5, 6, 8, 106 is 6. The average is greater by 20.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p06",
+    "year": 2013,
+    "number": 6,
+    "statement": "In a product pyramid, each box is the product of the two boxes touching it in the row above. The displayed pyramid has lower entries consistent with 600 at the bottom. What is the missing number in the top row?",
+    "answer": "4",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "concepts": [
+      "prealg_expressions",
+      "nt_factorization"
+    ],
+    "theme": "Expressions and Equations",
+    "chapter": "amc8-topic-expressions-equations",
+    "chapterTitle": "AMC8 Topic: Expressions and Equations",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "structure_reasoning",
+    "cognitiveTags": [
+      "multiplicative_structure",
+      "factor_structure"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "multiplicative_structure",
+      "factor_structure"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Work upward and downward through the product relationships. The only top-row value consistent with the displayed products is 4.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": "This item depends on the original diagram; retained because the answer choices and product rule are recoverable from the extracted paper."
+  },
+  {
+    "id": "amc8_2013_p07",
+    "year": 2013,
+    "number": 7,
+    "statement": "Trey counted 6 train cars in the first 10 seconds. It took the train 2 minutes and 45 seconds to clear the crossing at a constant speed. Which was the most likely number of cars in the train?",
+    "answer": "100",
+    "choices": {
+      "A": "60",
+      "B": "80",
+      "C": "100",
+      "D": "120",
+      "E": "140"
+    },
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "rate_reasoning",
+    "cognitiveTags": [
+      "unit_rate_modeling",
+      "proportional_reasoning"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "unit_rate_modeling",
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Two minutes 45 seconds is 165 seconds. At 6 cars per 10 seconds, the estimate is 6 x 16.5 = 99, closest to 100.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p08",
+    "year": 2013,
+    "number": 8,
+    "statement": "A fair coin is tossed 3 times. What is the probability of at least two consecutive heads?",
+    "answer": "3/8",
+    "choices": {
+      "A": "1/8",
+      "B": "1/4",
+      "C": "3/8",
+      "D": "1/2",
+      "E": "3/4"
+    },
+    "concepts": [
+      "counting_probability"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "probability_modeling",
+    "cognitiveTags": [
+      "case_enumeration",
+      "sample_space_modeling"
+    ],
+    "skills": [
+      "probability_modeling"
+    ],
+    "patterns": [
+      "case_enumeration",
+      "sample_space_modeling"
+    ],
+    "misconceptions": [
+      "sample_space_error",
+      "complement_confusion",
+      "ratio_not_probability",
+      "case_omission"
+    ],
+    "solution": "The 8 equally likely outcomes are HHH, HHT, HTH, HTT, THH, THT, TTH, TTT. Three have consecutive heads: HHH, HHT, THH.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p09",
+    "year": 2013,
+    "number": 9,
+    "statement": "The Incredible Hulk doubles the distance he jumps with each succeeding jump. If his first jump is 1 meter, then on which jump will he first be able to jump more than 1 kilometer?",
+    "answer": "11th",
+    "choices": {
+      "A": "9th",
+      "B": "10th",
+      "C": "11th",
+      "D": "12th",
+      "E": "13th"
+    },
+    "concepts": [
+      "arith_exponents"
+    ],
+    "theme": "Number Systems and Operations",
+    "chapter": "amc8-topic-number-systems",
+    "chapterTitle": "AMC8 Topic: Number Systems and Operations",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "exponential_growth",
+    "cognitiveTags": [
+      "exponent_meaning",
+      "threshold_reasoning"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "exponent_meaning",
+      "threshold_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The nth jump is 2^(n-1) meters. Since 2^9 = 512 and 2^10 = 1024, the first jump over 1000 meters is the 11th.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p10",
+    "year": 2013,
+    "number": 10,
+    "statement": "What is the ratio of the least common multiple of 180 and 594 to the greatest common factor of 180 and 594?",
+    "answer": "330",
+    "choices": {
+      "A": "110",
+      "B": "165",
+      "C": "330",
+      "D": "625",
+      "E": "660"
+    },
+    "concepts": [
+      "nt_gcd",
+      "nt_lcm",
+      "nt_factorization"
+    ],
+    "theme": "Number Theory and Integer Structure",
+    "chapter": "amc8-topic-number-theory",
+    "chapterTitle": "AMC8 Topic: Number Theory and Integer Structure",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "number_structure",
+    "cognitiveTags": [
+      "factor_structure",
+      "gcd_lcm_relation"
+    ],
+    "skills": [
+      "number_structure"
+    ],
+    "patterns": [
+      "factor_structure",
+      "gcd_lcm_relation"
+    ],
+    "misconceptions": [
+      "factor_misread",
+      "divisibility_error",
+      "place_value_error",
+      "operation_error"
+    ],
+    "solution": "Use lcm(a,b) x gcd(a,b) = ab. Here gcd(180,594)=18, so lcm/gcd = (180 x 594)/(18 x 18) = 330.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p11",
+    "year": 2013,
+    "number": 11,
+    "statement": "Ted's grandfather used his treadmill on 3 days this week. He went 2 miles each day at speeds 5, 3, and 4 miles per hour. If he had always walked at 4 miles per hour, how many minutes less would he have spent?",
+    "answer": "4",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "concepts": [
+      "arith_ratios"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 3,
+    "layer": "Honors",
+    "problemType": "rate_reasoning",
+    "cognitiveTags": [
+      "unit_rate_modeling",
+      "time_rate_distance"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "unit_rate_modeling",
+      "time_rate_distance"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Actual time is 2/5 + 2/3 + 2/4 hours. At 4 mph for all 6 miles, time is 6/4 hours. The difference is 1/15 hour, or 4 minutes.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p12",
+    "year": 2013,
+    "number": 12,
+    "statement": "A fair special sells one pair of sandals at $50, a second pair at a 40% discount, and a third pair at half price. What percentage of the $150 regular price is saved?",
+    "answer": "30",
+    "choices": {
+      "A": "25",
+      "B": "30",
+      "C": "33",
+      "D": "40",
+      "E": "45"
+    },
+    "concepts": [
+      "arith_percentages"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 3,
+    "layer": "Honors",
+    "problemType": "percent_modeling",
+    "cognitiveTags": [
+      "percent_discount",
+      "part_whole_reasoning"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "percent_discount",
+      "part_whole_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The costs are 50, 30, and 25, for a total of 105. The savings are 45 out of 150, which is 30%.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p13",
+    "year": 2013,
+    "number": 13,
+    "statement": "When Clara totaled her scores, she reversed the units digit and tens digit of one score. By which amount might her incorrect sum have differed from the correct one?",
+    "answer": "45",
+    "choices": {
+      "A": "45",
+      "B": "46",
+      "C": "47",
+      "D": "48",
+      "E": "49"
+    },
+    "concepts": [
+      "nt_divisibility",
+      "prealg_expressions"
+    ],
+    "theme": "Number Theory and Integer Structure",
+    "chapter": "amc8-topic-number-theory",
+    "chapterTitle": "AMC8 Topic: Number Theory and Integer Structure",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "number_structure",
+    "cognitiveTags": [
+      "place_value",
+      "divisibility"
+    ],
+    "skills": [
+      "number_structure"
+    ],
+    "patterns": [
+      "place_value",
+      "divisibility"
+    ],
+    "misconceptions": [
+      "factor_misread",
+      "divisibility_error",
+      "place_value_error",
+      "operation_error"
+    ],
+    "solution": "If the number is 10a + b and the reversed number is 10b + a, the difference is 9(a-b). It must be a multiple of 9; only 45 works.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p14",
+    "year": 2013,
+    "number": 14,
+    "statement": "Abe holds 1 green and 1 red jelly bean. Bea holds 1 green, 1 yellow, and 2 red jelly beans. Each randomly picks a jelly bean to show the other. What is the probability that the colors match?",
+    "answer": "3/8",
+    "choices": {
+      "A": "1/4",
+      "B": "1/3",
+      "C": "3/8",
+      "D": "1/2",
+      "E": "2/3"
+    },
+    "concepts": [
+      "counting_probability"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "probability_modeling",
+    "cognitiveTags": [
+      "sample_space_modeling",
+      "case_enumeration"
+    ],
+    "skills": [
+      "probability_modeling"
+    ],
+    "patterns": [
+      "sample_space_modeling",
+      "case_enumeration"
+    ],
+    "misconceptions": [
+      "sample_space_error",
+      "complement_confusion",
+      "ratio_not_probability",
+      "case_omission"
+    ],
+    "solution": "There are 2 x 4 = 8 equally likely pairs. Matching pairs are green-green and two red-red cases, so the probability is 3/8.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p15",
+    "year": 2013,
+    "number": 15,
+    "statement": "If 3^p + 3^4 = 90, 2^r + 44 = 76, and 5^3 + 6^s = 1421, what is the product of p, r, and s?",
+    "answer": "40",
+    "choices": {
+      "A": "27",
+      "B": "40",
+      "C": "50",
+      "D": "70",
+      "E": "90"
+    },
+    "concepts": [
+      "arith_exponents"
+    ],
+    "theme": "Number Systems and Operations",
+    "chapter": "amc8-topic-number-systems",
+    "chapterTitle": "AMC8 Topic: Number Systems and Operations",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "exponential_equations",
+    "cognitiveTags": [
+      "exponent_meaning",
+      "equation_solving"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "exponent_meaning",
+      "equation_solving"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "3^p = 9 so p=2. 2^r = 32 so r=5. 6^s = 1296 so s=4. The product is 2 x 5 x 4 = 40.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p16",
+    "year": 2013,
+    "number": 16,
+    "statement": "The ratio of 8th-graders to 6th-graders in a project is 5:3, and the ratio of 8th-graders to 7th-graders is 8:5. What is the smallest possible number of students?",
+    "answer": "89",
+    "choices": {
+      "A": "16",
+      "B": "40",
+      "C": "55",
+      "D": "79",
+      "E": "89"
+    },
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions",
+      "nt_lcm"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "ratio_modeling",
+    "cognitiveTags": [
+      "common_multiple",
+      "proportional_reasoning"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "common_multiple",
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "additive_ratio_error",
+      "ratio_flip",
+      "wrong_total",
+      "scale_factor_error"
+    ],
+    "solution": "The number of 8th-graders must be a common multiple of 5 and 8. Use 40: then 6th-graders are 24 and 7th-graders are 25, total 89.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p17",
+    "year": 2013,
+    "number": 17,
+    "statement": "The sum of six consecutive positive integers is 2013. What is the largest of these six integers?",
+    "answer": "338",
+    "choices": {
+      "A": "335",
+      "B": "338",
+      "C": "340",
+      "D": "345",
+      "E": "350"
+    },
+    "concepts": [
+      "prealg_word_to_equation",
+      "arith_natural_numbers"
+    ],
+    "theme": "Expressions and Equations",
+    "chapter": "amc8-topic-expressions-equations",
+    "chapterTitle": "AMC8 Topic: Expressions and Equations",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "sequence_reasoning",
+    "cognitiveTags": [
+      "average_structure",
+      "equation_from_context"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "average_structure",
+      "equation_from_context"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The average of the six integers is 2013/6 = 335.5. The six integers are centered around 335.5, so the largest is 338.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p18",
+    "year": 2013,
+    "number": 18,
+    "statement": "Isabella uses one-foot cubical blocks to build a rectangular fort 12 feet long, 10 feet wide, and 5 feet high. The floor and four walls are one foot thick. How many blocks does the fort contain?",
+    "answer": "280",
+    "choices": {
+      "A": "204",
+      "B": "280",
+      "C": "320",
+      "D": "340",
+      "E": "600"
+    },
+    "concepts": [
+      "geo_area",
+      "prealg_expressions"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "spatial_reasoning",
+    "cognitiveTags": [
+      "volume_decomposition",
+      "structure_recognition"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "volume_decomposition",
+      "structure_recognition"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The outer prism has volume 12 x 10 x 5 = 600. The hollow interior is 10 x 8 x 4 = 320. The blocks total 600 - 320 = 280.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p19",
+    "year": 2013,
+    "number": 19,
+    "statement": "Hannah shows Bridget and Cassie her test, but Bridget and Cassie do not show theirs. Cassie says she did not get the lowest score, and Bridget says she did not get the highest score. What is the ranking from highest to lowest?",
+    "answer": "Cassie, Hannah, Bridget",
+    "choices": {
+      "A": "Hannah, Cassie, Bridget",
+      "B": "Hannah, Bridget, Cassie",
+      "C": "Cassie, Bridget, Hannah",
+      "D": "Cassie, Hannah, Bridget",
+      "E": "Bridget, Cassie, Hannah"
+    },
+    "concepts": [
+      "counting_pigeonhole"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "logic_reasoning",
+    "cognitiveTags": [
+      "constraint_reasoning",
+      "case_elimination"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "constraint_reasoning",
+      "case_elimination"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Cassie can know she is not lowest only if Hannah is below her. Bridget can know she is not highest only if Hannah is above her. Thus Cassie, Hannah, Bridget.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p20",
+    "year": 2013,
+    "number": 20,
+    "statement": "A 1 by 2 rectangle is inscribed in a semicircle with the longer side on the diameter. What is the area of the semicircle?",
+    "answer": "pi",
+    "choices": {
+      "A": "pi/2",
+      "B": "2pi/3",
+      "C": "pi",
+      "D": "4pi/3",
+      "E": "5pi/3"
+    },
+    "concepts": [
+      "geo_circles",
+      "geo_pythagorean",
+      "geo_area"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "geometric_measurement",
+    "cognitiveTags": [
+      "formula_selection",
+      "right_triangle_modeling"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "formula_selection",
+      "right_triangle_modeling"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Half the diameter is 1 and the rectangle height is 1, so the radius is sqrt(1^2+1^2)=sqrt(2). The semicircle area is (1/2)pi r^2 = pi.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p21",
+    "year": 2013,
+    "number": 21,
+    "statement": "Samantha bikes to the southwest corner of City Park, takes one diagonal path through the park, then bikes from the northeast corner to school. Her home is 2 blocks west and 1 block south of the southwest corner, and school is 2 blocks east and 2 blocks north of the northeast corner. How many shortest routes can she take?",
+    "answer": "18",
+    "choices": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "12",
+      "E": "18"
+    },
+    "concepts": [
+      "counting_combinations",
+      "counting_principle"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 5,
+    "layer": "AMC8",
+    "problemType": "counting_paths",
+    "cognitiveTags": [
+      "combinatorial_counting",
+      "case_enumeration"
+    ],
+    "skills": [
+      "systematic_counting"
+    ],
+    "patterns": [
+      "combinatorial_counting",
+      "case_enumeration"
+    ],
+    "misconceptions": [
+      "case_omission",
+      "overcounting",
+      "order_confusion",
+      "structure_misread"
+    ],
+    "solution": "There are C(3,1)=3 shortest ways to the park and C(4,2)=6 shortest ways from the park to school. The diagonal path is fixed, so 3 x 6 = 18.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p22",
+    "year": 2013,
+    "number": 22,
+    "statement": "Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks high. How many toothpicks are used altogether?",
+    "answer": "3932",
+    "choices": {
+      "A": "1920",
+      "B": "1952",
+      "C": "1980",
+      "D": "2013",
+      "E": "3932"
+    },
+    "concepts": [
+      "geo_perimeter",
+      "prealg_expressions"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8",
+    "problemType": "grid_counting",
+    "cognitiveTags": [
+      "structure_recognition",
+      "counting_by_rows"
+    ],
+    "skills": [
+      "systematic_counting"
+    ],
+    "patterns": [
+      "structure_recognition",
+      "counting_by_rows"
+    ],
+    "misconceptions": [
+      "case_omission",
+      "overcounting",
+      "order_confusion",
+      "structure_misread"
+    ],
+    "solution": "There are 61 vertical lines of length 32 and 33 horizontal lines of length 60. Total toothpicks: 61 x 32 + 33 x 60 = 3932.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p23",
+    "year": 2013,
+    "number": 23,
+    "statement": "Angle ABC of triangle ABC is a right angle. The sides of triangle ABC are diameters of semicircles. The semicircle on AB has area 8pi, and the arc of the semicircle on AC has length 8.5pi. What is the radius of the semicircle on BC?",
+    "answer": "7.5",
+    "choices": {
+      "A": "7",
+      "B": "7.5",
+      "C": "8",
+      "D": "8.5",
+      "E": "9"
+    },
+    "concepts": [
+      "geo_circles",
+      "geo_pythagorean",
+      "geo_arc_length"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8",
+    "problemType": "geometric_measurement",
+    "cognitiveTags": [
+      "right_triangle_modeling",
+      "arc_length"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "right_triangle_modeling",
+      "arc_length"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The semicircle on AB has full circle area 16pi, so AB=8. The semicircle arc on AC has length 8.5pi, so AC=17. Then BC=15 by the Pythagorean theorem, and its semicircle radius is 7.5.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2013_p24",
+    "year": 2013,
+    "number": 24,
+    "statement": "Squares ABCD, EFGH, and GHIJ are equal in area. Points C and D are midpoints of sides JH and HF, respectively. What is the ratio of the area of pentagon AJICB to the sum of the areas of the three squares?",
+    "answer": "1/3",
+    "choices": {
+      "A": "1/4",
+      "B": "7/24",
+      "C": "1/3",
+      "D": "3/8",
+      "E": "5/12"
+    },
+    "concepts": [
+      "geo_area",
+      "geo_similarity"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8 Stretch",
+    "problemType": "area_decomposition",
+    "cognitiveTags": [
+      "auxiliary_construction",
+      "area_recomposition"
+    ],
+    "skills": [
+      "geometry_modeling"
+    ],
+    "patterns": [
+      "auxiliary_construction",
+      "area_recomposition"
+    ],
+    "misconceptions": [
+      "formula_confusion",
+      "diagram_misread",
+      "unit_error",
+      "radius_diameter_confusion"
+    ],
+    "solution": "Using equal side lengths and midpoint relationships, decompose the shaded pentagon into pieces equivalent to one square. The total area is three squares, so the ratio is 1/3.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": "This item depends on the original diagram; retained with the named points from the extracted source."
+  },
+  {
+    "id": "amc8_2013_p25",
+    "year": 2013,
+    "number": 25,
+    "statement": "A ball with diameter 4 inches rolls along a track made from 3 semicircular arcs with radii 100, 60, and 80 inches. The ball remains in contact with the track and does not slip. What is the distance the center of the ball travels from A to B?",
+    "answer": "238pi",
+    "choices": {
+      "A": "238pi",
+      "B": "240pi",
+      "C": "260pi",
+      "D": "280pi",
+      "E": "500pi"
+    },
+    "concepts": [
+      "geo_circles",
+      "geo_arc_length"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8 Stretch",
+    "problemType": "arc_length",
+    "cognitiveTags": [
+      "path_transform",
+      "radius_adjustment"
+    ],
+    "skills": [
+      "geometry_modeling"
+    ],
+    "patterns": [
+      "path_transform",
+      "radius_adjustment"
+    ],
+    "misconceptions": [
+      "formula_confusion",
+      "diagram_misread",
+      "unit_error",
+      "radius_diameter_confusion"
+    ],
+    "solution": "The center of the ball follows arcs adjusted by the ball radius 2. Accounting for the inward and outward semicircular arcs gives a total distance of 238pi.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2013AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p01",
+    "year": 2024,
+    "number": 1,
+    "statement": "What is the ones digit of 222,222 - 22,222 - 2,222 - 222 - 22 - 2?",
+    "answer": "2",
+    "choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "concepts": [
+      "arith_natural_numbers"
+    ],
+    "theme": "Number Systems and Operations",
+    "chapter": "amc8-topic-number-systems",
+    "chapterTitle": "AMC8 Topic: Number Systems and Operations",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "computation",
+    "cognitiveTags": [
+      "place_value",
+      "fluency_precision"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "place_value",
+      "fluency_precision"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Only the ones digits matter: 2 - 2 - 2 - 2 - 2 - 2 has the same ones digit as 12, so the ones digit is 2.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p02",
+    "year": 2024,
+    "number": 2,
+    "statement": "What is the value of 44/11 + 110/44 + 44/1100 in decimal form?",
+    "answer": "6.54",
+    "choices": {
+      "A": "6.4",
+      "B": "6.504",
+      "C": "6.54",
+      "D": "6.9",
+      "E": "6.94"
+    },
+    "concepts": [
+      "arith_fractions",
+      "arith_decimals"
+    ],
+    "theme": "Number Systems and Operations",
+    "chapter": "amc8-topic-number-systems",
+    "chapterTitle": "AMC8 Topic: Number Systems and Operations",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "computation",
+    "cognitiveTags": [
+      "fraction_fluency",
+      "decimal_place_value"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "fraction_fluency",
+      "decimal_place_value"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Compute 44/11 = 4, 110/44 = 2.5, and 44/1100 = 0.04. The sum is 6.54.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p03",
+    "year": 2024,
+    "number": 3,
+    "statement": "Four squares of side lengths 4, 7, 9, and 10 are arranged in increasing size order with left and bottom edges aligned, alternating white-gray-white-gray. What is the visible gray area?",
+    "answer": "52",
+    "choices": {
+      "A": "42",
+      "B": "45",
+      "C": "49",
+      "D": "50",
+      "E": "52"
+    },
+    "concepts": [
+      "geo_area"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "area_decomposition",
+    "cognitiveTags": [
+      "area_recomposition",
+      "diagram_reasoning"
+    ],
+    "skills": [
+      "geometry_modeling"
+    ],
+    "patterns": [
+      "area_recomposition",
+      "diagram_reasoning"
+    ],
+    "misconceptions": [
+      "formula_confusion",
+      "diagram_misread",
+      "unit_error",
+      "radius_diameter_confusion"
+    ],
+    "solution": "The visible gray area is the visible part of the 7 by 7 square plus the visible border of the 10 by 10 square. That total is 52.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": "Diagram-dependent item retained from the OCR/source PDF with answer key verification."
+  },
+  {
+    "id": "amc8_2024_p04",
+    "year": 2024,
+    "number": 4,
+    "statement": "When Yunji added all the integers from 1 through 9, she accidentally left out one number. Her incorrect sum was a square number. Which number did she leave out?",
+    "answer": "9",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "concepts": [
+      "arith_natural_numbers",
+      "arith_roots"
+    ],
+    "theme": "Number Systems and Operations",
+    "chapter": "amc8-topic-number-systems",
+    "chapterTitle": "AMC8 Topic: Number Systems and Operations",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "number_structure",
+    "cognitiveTags": [
+      "square_number",
+      "complement_reasoning"
+    ],
+    "skills": [
+      "number_structure"
+    ],
+    "patterns": [
+      "square_number",
+      "complement_reasoning"
+    ],
+    "misconceptions": [
+      "factor_misread",
+      "divisibility_error",
+      "place_value_error",
+      "operation_error"
+    ],
+    "solution": "The full sum is 45. To get a square by leaving out one number, use 45 - 9 = 36.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p05",
+    "year": 2024,
+    "number": 5,
+    "statement": "Aaliyah rolls two standard 6-sided dice. The product of the numbers rolled is a multiple of 6. Which integer cannot be the sum of the two numbers?",
+    "answer": "6",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "concepts": [
+      "counting_probability",
+      "nt_divisibility"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 2,
+    "layer": "Standard",
+    "problemType": "case_elimination",
+    "cognitiveTags": [
+      "divisibility",
+      "case_enumeration"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "divisibility",
+      "case_enumeration"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Check pairs whose product is divisible by 6. Sums 5, 7, 8, and 9 can occur, but no such pair has sum 6.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p06",
+    "year": 2024,
+    "number": 6,
+    "statement": "Sergei skated around an ice rink along four labeled paths P, Q, R, and S. What is the order of the four paths from shortest to longest?",
+    "answer": "R, P, S, Q",
+    "choices": {
+      "A": "P, Q, R, S",
+      "B": "P, R, S, Q",
+      "C": "Q, S, P, R",
+      "D": "R, P, S, Q",
+      "E": "R, S, P, Q"
+    },
+    "concepts": [
+      "geo_perimeter"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "path_comparison",
+    "cognitiveTags": [
+      "diagram_reasoning",
+      "length_comparison"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "diagram_reasoning",
+      "length_comparison"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Compare straight and curved segments in the original diagram. The shortest-to-longest order is R, P, S, Q.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": "Diagram-dependent item retained with answer key verification."
+  },
+  {
+    "id": "amc8_2024_p07",
+    "year": 2024,
+    "number": 7,
+    "statement": "A 3 by 7 rectangle is tiled without overlap using 2 by 2, 1 by 4, and 1 by 1 tiles. What is the minimum possible number of 1 by 1 tiles used?",
+    "answer": "5",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "concepts": [
+      "geo_area",
+      "counting_principle"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "tiling_reasoning",
+    "cognitiveTags": [
+      "area_recomposition",
+      "parity_reasoning"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "area_recomposition",
+      "parity_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The rectangle has area 21. The larger tiles cover areas 4 and 4, so area and placement constraints force at least 5 unit tiles; a construction reaches 5.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p08",
+    "year": 2024,
+    "number": 8,
+    "statement": "On Monday Taye has $2. Every day, he either gains $3 or doubles the amount of money he had on the previous day. How many different dollar amounts could Taye have on Thursday, 3 days later?",
+    "answer": "6",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "concepts": [
+      "counting_principle",
+      "prealg_expressions"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "case_enumeration",
+    "cognitiveTags": [
+      "state_tracking",
+      "case_enumeration"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "state_tracking",
+      "case_enumeration"
+    ],
+    "misconceptions": [
+      "additive_ratio_error",
+      "ratio_flip",
+      "wrong_total",
+      "scale_factor_error"
+    ],
+    "solution": "Track the possible amounts for three days. The distinct Thursday amounts are 10, 11, 13, 14, 16, and 20, so there are 6.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p09",
+    "year": 2024,
+    "number": 9,
+    "statement": "All of the marbles in Maria's collection are red, green, or blue. Maria has half as many red marbles as green marbles and twice as many blue marbles as green marbles. Which could be the total number of marbles?",
+    "answer": "28",
+    "choices": {
+      "A": "24",
+      "B": "25",
+      "C": "26",
+      "D": "27",
+      "E": "28"
+    },
+    "concepts": [
+      "arith_ratios",
+      "arith_proportions"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "ratio_modeling",
+    "cognitiveTags": [
+      "proportional_reasoning",
+      "part_whole_reasoning"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "proportional_reasoning",
+      "part_whole_reasoning"
+    ],
+    "misconceptions": [
+      "additive_ratio_error",
+      "ratio_flip",
+      "wrong_total",
+      "scale_factor_error"
+    ],
+    "solution": "Let green be 2k. Then red is k and blue is 4k, for a total of 7k. Among the choices, only 28 is a multiple of 7.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p10",
+    "year": 2024,
+    "number": 10,
+    "statement": "In January 1980 the Mauna Loa Observatory recorded CO2 levels of 338 ppm. The average reading increased by about 1.515 ppm each year. What is the expected level in January 2030, rounded to the nearest integer?",
+    "answer": "414",
+    "choices": {
+      "A": "399",
+      "B": "414",
+      "C": "420",
+      "D": "444",
+      "E": "459"
+    },
+    "concepts": [
+      "arith_decimals",
+      "prealg_word_to_equation"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 3,
+    "layer": "Standard",
+    "problemType": "linear_modeling",
+    "cognitiveTags": [
+      "rate_modeling",
+      "rounding"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "rate_modeling",
+      "rounding"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "From 1980 to 2030 is 50 years. Add 50 x 1.515 = 75.75 to 338 to get 413.75, which rounds to 414.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p11",
+    "year": 2024,
+    "number": 11,
+    "statement": "Triangle ABC has A(5,7), B(11,7), and C(3,y), with y > 7. The area of triangle ABC is 12. What is y?",
+    "answer": "11",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "concepts": [
+      "geo_coordinate_geometry",
+      "geo_area"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 3,
+    "layer": "Honors",
+    "problemType": "coordinate_geometry",
+    "cognitiveTags": [
+      "area_formula",
+      "coordinate_reasoning"
+    ],
+    "skills": [
+      "geometry_modeling"
+    ],
+    "patterns": [
+      "area_formula",
+      "coordinate_reasoning"
+    ],
+    "misconceptions": [
+      "formula_confusion",
+      "diagram_misread",
+      "unit_error",
+      "radius_diameter_confusion"
+    ],
+    "solution": "Base AB has length 6. Area is (1/2)(6)(y-7)=12, so y-7=4 and y=11.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p12",
+    "year": 2024,
+    "number": 12,
+    "statement": "Rohan keeps 90 guppies in 4 tanks. The 2nd tank has 1 more than the 1st, the 3rd has 2 more than the 2nd, and the 4th has 3 more than the 3rd. How many guppies are in the 4th tank?",
+    "answer": "26",
+    "choices": {
+      "A": "20",
+      "B": "21",
+      "C": "23",
+      "D": "24",
+      "E": "26"
+    },
+    "concepts": [
+      "prealg_word_to_equation",
+      "alg_linear_equations"
+    ],
+    "theme": "Expressions and Equations",
+    "chapter": "amc8-topic-expressions-equations",
+    "chapterTitle": "AMC8 Topic: Expressions and Equations",
+    "difficulty": 3,
+    "layer": "Honors",
+    "problemType": "equation_solving",
+    "cognitiveTags": [
+      "equation_from_context",
+      "inverse_operations"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "equation_from_context",
+      "inverse_operations"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Let the first tank have x. The tanks have x, x+1, x+3, x+6, so 4x+10=90. Then x=20 and the fourth tank has 26.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p13",
+    "year": 2024,
+    "number": 13,
+    "statement": "Buzz Bunny hops up or down one stair at a time. In how many ways can Buzz start on the ground, make 6 hops, and end back on the ground?",
+    "answer": "5",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8",
+      "E": "12"
+    },
+    "concepts": [
+      "counting_combinations",
+      "counting_principle"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "counting_paths",
+    "cognitiveTags": [
+      "case_enumeration",
+      "constraint_reasoning"
+    ],
+    "skills": [
+      "systematic_counting"
+    ],
+    "patterns": [
+      "case_enumeration",
+      "constraint_reasoning"
+    ],
+    "misconceptions": [
+      "case_omission",
+      "overcounting",
+      "order_confusion",
+      "structure_misread"
+    ],
+    "solution": "Buzz needs three up hops and three down hops without going below ground. The valid balanced paths are counted by the third Catalan number, 5.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p14",
+    "year": 2024,
+    "number": 14,
+    "statement": "The one-way routes connecting towns A, M, C, X, Y, and Z are shown in a weighted directed graph. Traveling along these routes, what is the shortest distance from A to Z?",
+    "answer": "28",
+    "choices": {
+      "A": "28",
+      "B": "29",
+      "C": "30",
+      "D": "31",
+      "E": "32"
+    },
+    "concepts": [
+      "geo_coordinate_geometry",
+      "counting_principle"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "path_optimization",
+    "cognitiveTags": [
+      "diagram_reasoning",
+      "optimization"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "diagram_reasoning",
+      "optimization"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "Using the route distances in the original directed graph, the shortest path from A to Z has length 28.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": "Diagram-dependent item retained with answer key verification."
+  },
+  {
+    "id": "amc8_2024_p15",
+    "year": 2024,
+    "number": 15,
+    "statement": "Let F, L, Y, B, U, G be distinct digits. Suppose FLYFLY is the greatest number satisfying 8 x FLYFLY = BUGBUG. What is FLY + BUG?",
+    "answer": "1107",
+    "choices": {
+      "A": "1089",
+      "B": "1098",
+      "C": "1107",
+      "D": "1116",
+      "E": "1125"
+    },
+    "concepts": [
+      "nt_divisibility",
+      "prealg_expressions"
+    ],
+    "theme": "Number Theory and Integer Structure",
+    "chapter": "amc8-topic-number-theory",
+    "chapterTitle": "AMC8 Topic: Number Theory and Integer Structure",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "number_structure",
+    "cognitiveTags": [
+      "place_value",
+      "multiplicative_structure"
+    ],
+    "skills": [
+      "number_structure"
+    ],
+    "patterns": [
+      "place_value",
+      "multiplicative_structure"
+    ],
+    "misconceptions": [
+      "factor_misread",
+      "divisibility_error",
+      "place_value_error",
+      "operation_error"
+    ],
+    "solution": "Since FLYFLY = 1001 x FLY and BUGBUG = 1001 x BUG, the equation reduces to 8 x FLY = BUG. The greatest valid FLY gives FLY + BUG = 1107.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p16",
+    "year": 2024,
+    "number": 16,
+    "statement": "Minh enters the numbers 1 through 81 into a 9 by 9 grid. She calculates the product of the numbers in each row and column. What is the least number of rows and columns that could have a product divisible by 3?",
+    "answer": "11",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "concepts": [
+      "nt_divisibility",
+      "counting_pigeonhole"
+    ],
+    "theme": "Number Theory and Integer Structure",
+    "chapter": "amc8-topic-number-theory",
+    "chapterTitle": "AMC8 Topic: Number Theory and Integer Structure",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "divisibility_structure",
+    "cognitiveTags": [
+      "pigeonhole_reasoning",
+      "divisibility"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "pigeonhole_reasoning",
+      "divisibility"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "There are 27 multiples of 3. Arrange them to minimize affected lines. The minimum possible total of rows and columns with a multiple of 3 is 11.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p17",
+    "year": 2024,
+    "number": 17,
+    "statement": "A chess king attacks all squares one step away horizontally, vertically, or diagonally. A white king and black king are placed on different squares of a 3 by 3 grid so they do not attack each other. In how many ways can this be done?",
+    "answer": "32",
+    "choices": {
+      "A": "20",
+      "B": "24",
+      "C": "27",
+      "D": "28",
+      "E": "32"
+    },
+    "concepts": [
+      "counting_principle",
+      "geo_coordinate_geometry"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "case_enumeration",
+    "cognitiveTags": [
+      "case_enumeration",
+      "spatial_reasoning"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "case_enumeration",
+      "spatial_reasoning"
+    ],
+    "misconceptions": [
+      "additive_ratio_error",
+      "ratio_flip",
+      "wrong_total",
+      "scale_factor_error"
+    ],
+    "solution": "Count ordered placements by location type. Corner, edge, and center placements allow different numbers of non-attacking squares; the total is 32.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p18",
+    "year": 2024,
+    "number": 18,
+    "statement": "Three concentric circles centered at O have radii 1, 2, and 3. The annulus between radii 1 and 2 is shaded, and a sector between radii 2 and 3 with central angle BOC is shaded. If shaded and unshaded areas are equal, what is angle BOC in degrees?",
+    "answer": "108",
+    "choices": {
+      "A": "108",
+      "B": "120",
+      "C": "135",
+      "D": "144",
+      "E": "150"
+    },
+    "concepts": [
+      "geo_circles",
+      "geo_area"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "geometric_measurement",
+    "cognitiveTags": [
+      "area_modeling",
+      "sector_area"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "area_modeling",
+      "sector_area"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The small annulus has area 3pi. The larger annulus has area 5pi. Equal shaded and unshaded areas force the sector in the larger annulus to have area 3pi, so the angle is 108 degrees.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p19",
+    "year": 2024,
+    "number": 19,
+    "statement": "Jordan has 15 pairs of sneakers. Three fifths are red, and two thirds are high-top. What is the least possible fraction of the collection that is both red and high-top?",
+    "answer": "4/15",
+    "choices": {
+      "A": "0",
+      "B": "1/5",
+      "C": "4/15",
+      "D": "1/3",
+      "E": "2/5"
+    },
+    "concepts": [
+      "arith_fractions",
+      "counting_principle"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "inclusion_exclusion",
+    "cognitiveTags": [
+      "overlap_reasoning",
+      "constraint_reasoning"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "overlap_reasoning",
+      "constraint_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "There are 9 red pairs and 10 high-top pairs among 15 total. The minimum overlap is 9+10-15=4 pairs, so the fraction is 4/15.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p20",
+    "year": 2024,
+    "number": 20,
+    "statement": "Any three vertices of a cube PQRSTUVW can form a triangle. How many equilateral triangles contain P as a vertex?",
+    "answer": "3",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "6"
+    },
+    "concepts": [
+      "geo_coordinate_geometry",
+      "geo_congruence"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 4,
+    "layer": "Honors",
+    "problemType": "spatial_reasoning",
+    "cognitiveTags": [
+      "3d_structure",
+      "distance_reasoning"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "3d_structure",
+      "distance_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "From vertex P, equilateral triangles are formed by choosing pairs of vertices at equal face-diagonal distances from P and from each other. There are 3 such triangles.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p21",
+    "year": 2024,
+    "number": 21,
+    "statement": "A group of frogs lives in a tree. Frogs in shade are green and frogs in sun are yellow. Initially green:yellow is 3:1. Then 3 green frogs move to the sunny side and 5 yellow frogs move to the shady side. Now the ratio is 4:1. What is the difference between green and yellow frogs now?",
+    "answer": "24",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "16",
+      "D": "20",
+      "E": "24"
+    },
+    "concepts": [
+      "arith_ratios",
+      "alg_linear_equations"
+    ],
+    "theme": "Arithmetic and Proportional Reasoning",
+    "chapter": "amc8-topic-arithmetic-proportional",
+    "chapterTitle": "AMC8 Topic: Arithmetic and Proportional Reasoning",
+    "difficulty": 5,
+    "layer": "AMC8",
+    "problemType": "ratio_modeling",
+    "cognitiveTags": [
+      "equation_from_context",
+      "proportional_reasoning"
+    ],
+    "skills": [
+      "proportional_reasoning"
+    ],
+    "patterns": [
+      "equation_from_context",
+      "proportional_reasoning"
+    ],
+    "misconceptions": [
+      "additive_ratio_error",
+      "ratio_flip",
+      "wrong_total",
+      "scale_factor_error"
+    ],
+    "solution": "Let the initial numbers be 3x and x. After the moves, green is 3x+2 and yellow is x-2. Solve (3x+2)/(x-2)=4 to get x=10, so the final difference is 32-8=24.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p22",
+    "year": 2024,
+    "number": 22,
+    "statement": "A roll of tape is 4 inches in diameter and is wrapped around a ring that is 2 inches in diameter. The tape is 0.015 inches thick. If the tape is completely unrolled, approximately how long is it, rounded to the nearest 100 inches?",
+    "answer": "600",
+    "choices": {
+      "A": "300",
+      "B": "600",
+      "C": "1200",
+      "D": "1500",
+      "E": "1800"
+    },
+    "concepts": [
+      "geo_circles",
+      "geo_area"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8",
+    "problemType": "geometric_measurement",
+    "cognitiveTags": [
+      "area_modeling",
+      "unit_reasoning"
+    ],
+    "skills": [
+      "competition_problem_solving"
+    ],
+    "patterns": [
+      "area_modeling",
+      "unit_reasoning"
+    ],
+    "misconceptions": [
+      "operation_error",
+      "structure_misread",
+      "near_miss",
+      "fluency_slip"
+    ],
+    "solution": "The tape cross-section is an annulus with area pi(2^2 - 1^2)=3pi. Length times thickness is about this area, so length is 3pi/0.015, about 628 inches, which rounds to 600.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p23",
+    "year": 2024,
+    "number": 23,
+    "statement": "Rodrigo first draws a segment from (0,4) to (2,0), coloring the 4 grid cells whose interiors it intersects. Next he draws a segment from (2000,3000) to (5000,8000). How many cells will he color this time?",
+    "answer": "7000",
+    "choices": {
+      "A": "6000",
+      "B": "6500",
+      "C": "7000",
+      "D": "7500",
+      "E": "8000"
+    },
+    "concepts": [
+      "geo_coordinate_geometry",
+      "nt_gcd"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8",
+    "problemType": "coordinate_geometry",
+    "cognitiveTags": [
+      "lattice_path_counting",
+      "gcd_structure"
+    ],
+    "skills": [
+      "geometry_modeling"
+    ],
+    "patterns": [
+      "lattice_path_counting",
+      "gcd_structure"
+    ],
+    "misconceptions": [
+      "formula_confusion",
+      "diagram_misread",
+      "unit_error",
+      "radius_diameter_confusion"
+    ],
+    "solution": "For a segment with horizontal change 3000 and vertical change 5000, the number of grid cells crossed is dx + dy - gcd(dx,dy) = 3000 + 5000 - 1000 = 7000.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  },
+  {
+    "id": "amc8_2024_p24",
+    "year": 2024,
+    "number": 24,
+    "statement": "Jean made stained glass art shaped like two mountains. One peak is 8 feet high and the other is 12 feet high. Each peak forms a 90 degree angle, and the straight sides make 45 degree angles with the ground. The artwork area is 183 square feet. The sides meet at height h. What is h?",
+    "answer": "5",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "4sqrt(2)",
+      "D": "6",
+      "E": "5sqrt(2)"
+    },
+    "concepts": [
+      "geo_area",
+      "geo_triangles"
+    ],
+    "theme": "Geometry and Measurement",
+    "chapter": "amc8-topic-geometry-measurement",
+    "chapterTitle": "AMC8 Topic: Geometry and Measurement",
+    "difficulty": 5,
+    "layer": "AMC8 Stretch",
+    "problemType": "area_decomposition",
+    "cognitiveTags": [
+      "right_triangle_modeling",
+      "area_recomposition"
+    ],
+    "skills": [
+      "geometry_modeling"
+    ],
+    "patterns": [
+      "right_triangle_modeling",
+      "area_recomposition"
+    ],
+    "misconceptions": [
+      "formula_confusion",
+      "diagram_misread",
+      "unit_error",
+      "radius_diameter_confusion"
+    ],
+    "solution": "Use the 45-45-90 geometry to write the two mountain areas in terms of h. Solving the resulting area equation gives h=5.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": "Diagram-dependent item retained with answer key verification."
+  },
+  {
+    "id": "amc8_2024_p25",
+    "year": 2024,
+    "number": 25,
+    "statement": "A small airplane has 4 rows of seats with 3 seats in each row. Eight passengers have boarded randomly among the seats. A married couple is next to board. What is the probability there will be 2 adjacent seats in the same row for the couple?",
+    "answer": "20/33",
+    "choices": {
+      "A": "8/15",
+      "B": "32/55",
+      "C": "20/33",
+      "D": "34/55",
+      "E": "8/11"
+    },
+    "concepts": [
+      "counting_combinations",
+      "counting_probability"
+    ],
+    "theme": "Data, Counting, and Probability",
+    "chapter": "amc8-topic-counting-probability",
+    "chapterTitle": "AMC8 Topic: Data, Counting, and Probability",
+    "difficulty": 5,
+    "layer": "AMC8 Stretch",
+    "problemType": "probability_modeling",
+    "cognitiveTags": [
+      "complement_counting",
+      "case_enumeration"
+    ],
+    "skills": [
+      "probability_modeling"
+    ],
+    "patterns": [
+      "complement_counting",
+      "case_enumeration"
+    ],
+    "misconceptions": [
+      "sample_space_error",
+      "complement_confusion",
+      "ratio_not_probability",
+      "case_omission"
+    ],
+    "solution": "Choose the 4 empty seats among 12. There are C(12,4)=495 possibilities. Counting arrangements with no adjacent pair gives 195, so favorable cases are 300. The probability is 300/495 = 20/33.",
+    "sourceFile": "datasets/textbooks/amc8-past-papers/source-pdfs/2024AMC8.searchable.pdf",
+    "notes": ""
+  }
+]

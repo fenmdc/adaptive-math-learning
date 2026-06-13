@@ -1,0 +1,458 @@
+
+
+--- PAGE 1 ---
+THE MATHEMATICAL ASSOCIATION OF AMERICA
+American Mathematics Competitions
+American Mathematics Contest 8)
+INSTRUCTIONS
+1. DONOT OPEN THIS BOOKLET UNTIL YOUR PROCTOR TELLS YOU.
+2. ‘This is a twenty-five question multiple choice test. Each question is followed by
+answers marked A, B, C, D and E. Only one of these is correct.
+3. Mark your answer to each problem on the AMC 8 Answer Form with a #2 pencil.
+Check the blackened circles for accuracy and erase errors and stray marks completely.
+Only answers properly marked on the answer form will be graded.
+4, ‘There is no penalty for guessing. Your score on this test is the number of correct
+answers.
+5. No aids are permitted other than scratch paper, graph paper, rulers, and erasers. No
+calculators are allowed. No problems on the test will require the use of a calculator.
+6. Figures are not necessarily drawn to scale.
+7. Before beginning the test, your proctor will ask you to record certain information on
+the answer form.
+8. When your proctor gives the signal, begin working on the problems. You will have
+40 minutes to complete the test.
+9. When you finish the exam, sign your name in the space provided on the Answer
+Form.
+The Committee on the American Mathematics Competitions reserves the right to re-examine students before
+deciding whether to grant official status to their scores. The Committee also reserves the right to disqualify all
+scores from a school if it determines that the required security procedures were not followed.
+
+
+
+--- PAGE 2 ---
+The American Mathematics Competitions (AMC)
+The AMC 8 is for students grades 8 and under. It is a 25 question, 40 minute multiple choice test.
+Problems generally increase in difficulty as the exam progresses. Through 2007, calculators were
+permitted, but they will not be in the future. Unlike the AMC 10 and 12, no points are deducted for
+wrong answers.
+2013 AMC 8 Problems
+Problem |
+Amma wants to arrange her model cars in rows with exactly 6 cars 1n each row. She now has 23 model
+cars. What is the smallest number of additional cars she must buy in order to be able to arrange all her
+cars this way?
+(A)l (B)2 (C)3 (D)4 (E)5
+Problem 2
+A sign at the fish market says, "50% off, today only: half-pound packages for just $3 per package." What
+is the regular price for a full pound of fish, in dollars?
+(A)6 (B)9 (C)10 (D)12 (E)15
+Problem 3
+What is the value of 4: (-1 +2-3+4-—5+6-—7+.--+ 1000):
+Problem 4
+Eight friends ate at a restaurant and agreed to share the bill equally. Because Judi forgot her money, each
+of her seven friends paid an extra $2.50 to cover her portion of the total bill. What was the total bill?
+(A) $120 (B)$128 (C)$140 (D)$i44 ~~ (E) $160
+Problem 5
+Hammice is in the 6“"grade and weighs 106 pounds. His quadruplet sisters are tiny babies and weigh 5, 5,
+6, and 8 pounds. Which 1s greater, the average (mean) weight of these five children or the median weight,
+and by how many pounds?
+(A) median, by 60 (B) median, by 20 (C) average, by 5 (D) average, by 15 (E) average, by 20
+
+
+
+--- PAGE 3 ---
+Problem 6
+The number in each box below is the product of the numbers in the two boxes that touch it in the row
+above. For example, i) = 6 x 5. What is the missing number in the top row?
+600
+Problem 7
+Trey and his mom stopped at a railroad crossing to let a train pass. As the train began to pass, Trey
+counted 6 cars in the first 10 seconds. It took the train 2 minutes and 45 seconds to clear the crossing at a
+constant speed. Which of the following was the most likely number of cars in the train?
+Problem 8
+A fair coin is tossed 3 times. What is the probability of at least two consecutive heads?
+Problem 9
+The Incredible Hulk can double the distance he jumps with each succeeding jump. If his first jump is 1
+meter, the second jump is 2 meters, the third jump is 4 meters, and so on, then on which jump will he first
+be able to jump more than 1 kilometer?
+Problem 10
+What is the ratio of the least common multiple of 180 and 594 to the greatest common factor of 180 and
+594?
+(A) 110 = (B) 165 (C) 330 (DD) 625 (E) 660
+
+
+
+--- PAGE 4 ---
+Problem 11
+Ted's grandfather used his treadmill on 3 days this week. He went 2 miles each day. On Monday he
+jogged at a speed of 5 miles per hour. He walked at the rate of 3 miles per hour on Wednesday and at 4
+miles per hour on Friday. If Grandfather had always walked at 4 miles per hour, he would have spent less
+time on the treadmill. How many minutes less?
+(A)l (B)2 (C)3 (D)4 (E)5
+Problem 12
+At the 2013 Winnebago County Fair a vendor is offering a "fair special" on sandals. If you buy one pair
+of sandals at the regular price of $50, you get a second pair at a 40% discount, and a third pair at half the
+regular price. Javier took advantage of the "fair special" to buy three pairs of sandals. What percentage of
+the $150 regular price did he save?
+Problem 13
+When Clara totaled her scores, she inadvertently reversed the units digit and the tens digit of one score.
+By which of the following might her incorrect sum have differed from the correct one?
+Problem 14
+Abe holds 1 green and | red jelly bean in his hand. Bea holds 1 green, 1 yellow, and 2 red jelly beans in
+her hand. Each randomly picks a jelly bean to show the other. What is the probability that the colors
+match?
+(A) 7 (B) 5 (c) 3 w)! fe)?
+Problem 15
+= 76, and 5° + 6° = 1421, what is the product of P, r, and s?
+(A) Zi (B) AQ) (C) ota
+Problem 16
+A number of students from Fibonacci Middle School are taking part in a community service project. The
+ratio of 8°"-graders to 6""-graders is 5 : 3, and the ratio of 8""-graders to T*"-graders is 8 : 5. What is the
+smallest number of students that could be participating in the project?
+(A) 16 (B) 40 (C) 55 (D) 79 (E) 89
+Problem 17
+The sum of six consecutive positive integers 1s 2013. What is the largest of these six integers?
+(A) 385 = (B) 388 = (C) 340 (E) 350
+
+
+
+--- PAGE 5 ---
+Problem 18
+Isabella uses one-foot cubical blocks to build a rectangular fort that is 12 feet long, 10 feet wide, and 5
+feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain?
+a If
+(C) 320 (D) 340
+Problem 19
+Bridget, Cassie, and Hannah are discussing the results of their last math test. Hannah shows Bridget and
+Cassie her test, but Bridget and Cassie don't show theirs to anyone. Cassie says, 'I didn't get the lowest
+score in our class,' and Bridget adds, 'I didn't get the highest score.’ What is the ranking of the three girls
+from highest to lowest?
+(A) Hannah, Cassie, Bridget | (B) Hannah, Bridget, Cassie
+(C) Cassie, Bridget, Hannah §(D) Cassie, Hannah, Bridget
+(E) Bridget, Cassie, Hjannah
+Problem 20
+A 1 TM Zrectangle is inscribed in a semicircle with longer side on the diameter. What is the area of the
+semicircle?
+(ay 0 ay 2 soma) i, 4 may OW
+Problem 21
+Samantha lives 2 blocks west and 1 block south of the southwest corner of City Park. Her school is 2
+blocks east and 2 blocks north of the northeast corner of City Park. On school days she bikes on streets to
+the southwest corner of City Park, then takes a diagonal path through the park to the northeast corner, and
+then bikes on streets to school. If her route 1s as short as possible, how many different routes can she
+take?
+(A)3 (B)6 (C)9 (D/L (E)18
+
+
+
+--- PAGE 6 ---
+Problem 22
+Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks wide. How many
+toothpicks are used altogether?
+é@ FR & hw & &
+Problem 23
+#C'is aright angle. The sides of AABC are the diameters of semicircles as shown.
+The area of the semicircle on ABequals Sz, and the arc of the semicircle on AC has length 8.97. What is
+the radius of the semicircle on BE"?
+1 a
+(A)7 (B) 15 (C)8 (D)85 (E)9
+Problem 24
+Squares ABCD, EFGH, and GHI.Jare equal in area. Points C'and Dare the midpoints of sides J H
+and HF, respectively. What is the ratio of the area of the shaded pentagon AJ /C' Bto the sum of the
+areas of the three squares?
+
+
+
+--- PAGE 7 ---
+es nen, tog 5
+(A) mn (B) 4 (C) 3 (D) 3 (E) rT}
+Problem 25
+A ball with diameter 4 inches starts at point A to roll along the track shown. The track 1s comprised of 3
+semicircular arcs whose radii are #y = 100inches, #2 = OHUinches, and #3 = SUinches, respectively.
+The ball always remains in contact with the track and does not slip. What is the distance the center of the
+ball travels over the course from A to B?
+{Ro /
+7 | , , \ /B
+Ry \ / \ R, /
+(A) 2387 7 (B) 2407 (C) 2607 (D) 2807 (EB) 5007
+2013 AMC 8 Problems/Problem 13
+Problem
+When Clara totaled her scores, she inadvertently reversed the units digit and the tens digit of one score.
+By which of the following might her incorrect sum have differed from the correct one?
+(A) 45 (B)46 (C)47 (D) 4 {
+Solution
+Let the two digits be aand 6.
+The correct score was 1Ua + b, Clara misinterpreted it as 10b + a. The difference between the two is
+[9a — 9lwhich factors into |9(aa b)|. Therefore, since the difference is a multiple of 9, the only answer
+(A) 45choice that is a multiple of 9 is
+
+
+
+--- PAGE 8 ---
+mai i Found dation
+Contributors
+Academy of Applied Sciences
+American Mathematical Association of Two-Year Colleges
+American Mathematical Society
+American Society of Pension Actuaries
+American Statistical Association
+Art of Problem Solving
+Awesome Math
+Canada/USA Mathcamp
+Casualty Actuarial Society
+Clay Mathematics Institute
+IDEA Math
+Institute for Operations Research and the Management Sciences
+L. G. Balfour Company
+Math Zoom Academy
+Mu Alpha Theta
+National Assessment & Testing
+National Council of Teachers of Mathematics
+Pi Mu Epsilon
+Society of Actuaries
+U.S.A. Math Talent Search
+W. H. Freeman and Company
+Wolfram Research Inc.
+
+
+
+--- PAGE 9 ---
+2013 AMC 8 Answer Key
+1. (A) 1
+2, (D) 12
+3, (E) 2000
+4.(C) 140
+5. (E)average, by 20
+cea 3
+12, (B) 30
+14. (C) 8
+16, (E) 89
+17, (B) 338
+19. (D) Cassie, Hannah, Bridget
+20, (C)a
+21, (E) 18
+22, (E) 3932
+23, (B) 7.5
+o4 ()3
+
+
+
+--- PAGE 10 ---
+2013 AMC 8 Problems/Problem 13
+Problem
+When Clara totaled her scores, she inadvertently reversed the units digit and the tens digit of one score.
+By which of the following might her incorrect sum have differed from the correct one?
+(A)45 (B)46 (C)47 (D)48 (B)49
+Solution
+Let the two digits be aand bh.
+The correct score was 10a + 6, Clara misinterpreted it as 10b + a. The difference between the two is
+[9a — Iblwhich factors into [9(e — 4)], Therefore, since the difference is a multiple of 9, the only answer
+choice that is a multiple of 9 is
+2013 AMC 8 Problems/Problem 16
+Problem
+A number of students from Fibonacci Middle School are taking part in a community service project. The
+ratio of 8°"-graders to 6""-graders is 5 : 3, and the the ratio of 8'"-graders to 7""-graders is 8 : 5. What is
+the smallest number of students that could be participating in the project?
+(A)16 (B)40 (C)55 (D)79 (EB) 89
+Solution
+Solution 1: Algebra
+We multiply the first ratio by 8 on both sides, and the second ratio by 5 to get the same number for 8th
+graders, in order that we can put the two ratios together:
+5:3 = 5(8) : 3(8)4
+@
+8:5 = 8(5) :5(5) = 40::
+A
+4
+"he é
+40): 25 : 24. Since the ratio is in lowest
+terms, the smallest number of students participating in the project is
+Therefore, the ratio of 8th graders to 7th graders to 6th graders is
+Solution 2: Fakesolving
+The number of 8th graders has to be a multiple of 8 and 5, so assume it is 40 (the smallest possibility).
+At) 24 4a — = 25 .
+Then there are i) 6th graders and a 7th graders. ‘The numbers of students is
+
+
+
+--- PAGE 11 ---
+2013 AMC 8 Problems/Problem 17
+Problem
+The sum of six consecutive positive integers is 2013. What is the largest of these six integers?
+(A) 335 (B) 338 = (C) 340 =(D) 345 (E) 350
+Solution |
+20130 ope
+The mean of these numbersis 2 : . Therefore the numbers are
+Solution 2
+Let the 4°" number be xx. Then our desired number is x + 2.
+Our integers are * d,2 —2,2—1a,e+1,2+4+ 2) so we have that
+5° 36 —> «+2 =|(B) 3382013 —> «r=ba —-3=
+Solution 3
+Let the first term be x. Our integers are 7,2 + la +2,2+3,2+4,2+ 5, We have,
+6e+15= 2013 — *+=3358 — «4+5= (B) 38
+2013 AMC 8 Problems/Problem 18
+Problem
+Isabella uses one-foot cubical blocks to build a rectangular fort that 1s 12 feet long, 10 feet wide, and 5
+feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain?
+--Arpanliku 16:22, 27 November 2013 (EST) Courtesy of Lord.of. AMC
+(A) 204 (B) 280 (C)320 (D)340~ = (
+
+
+
+--- PAGE 12 ---
+Solution |
+There are 10 - 12 = 120cubes on the base of the box. Then, for each of the 4 layers above the bottom (as
+since each cube is | foot by 1 foot by 1 foot and the box is 5 feet tall, there are 4 feet left), there are
+, 120 +4-40 =| (B) 289+ 11+9-+ 11 = 40cubes. Hence, the answer is 120 + 4-40 =| {B) 280 .
+Solution 2
+We can just calculate the volume of the prism that was cut out of the original 12 x 10 x Sbox. Each
+interior side of the fort will be 2feet shorter than each side of the outside. Since the floor is lfoot, the
+height will be 4feet. So the volume of the interior box is 10 x 8 x 4 = 320 ft*,
+The volume of the original box is 12 x 10 x 5 = 600 ft*, Therefore, the number of blocks contained in
+600 — 320 =| (B) 280the fort is |
+2013 AMC 8&8 Problems/Problem 19
+Problem
+Bridget, Cassie, and Hannah are discussing the results of their last math test. Hannah shows Bridget and
+Cassie her test, but Bridget and Cassie don't show theirs to anyone. Cassie says, 'I didn't get the lowest
+score in our class,' and Bridget adds, 'I didn't get the highest score.’ What is the ranking of the three girls
+from highest to lowest?
+(A) Hannah. Cassie, Bridget (B) Hannah, Bridget, Cassie
+(C) Cassie, Bridget, Hannah §(D) Cassie, Hannah, Bridget
+(E) Bridget, Cassie, Hlannah
+Solution
+If Hannah did better than Cassie, there would be no way she could know for sure that she didn't get the
+lowest score in the class. Therefore, Hannah did worse than Cassie. Similarly, if Hannah did worse than
+Bridget, there is no way Bridget could have known that she didn't get the highest in the class. Therefore,
+(D) Cassie, Hannah, Bridget
+Hannah did better than Bridget, so our order is
+2013 AMC 8 Problems/Problem 20
+Problem
+A1TM 2rectangle is inscribed in a semicircle with longer side on the diameter. What is the area of the
+semicircle?
+2a dar
+Solution
+
+
+
+--- PAGE 13 ---
+A semicircle has symmetry, so the center is exactly at the midpoint of the 2 side on the rectangle, making
+2a —
+| i. A 2 =\(C)athe radius, by the Pythagorean Theorem, V 1?+1%= V2. Theareais 2 (C) = .
+2013 AMC 8 Problems/Problem 21
+Problem
+Samantha lives 2 blocks west and 1 block south of the southwest corner of City Park. Her school is 2
+blocks east and 2 blocks north of the northeast corner of City Park. On school days she bikes on streets to
+the southwest corner of City Park, then takes a diagonal path through the park to the northeast corner, and
+then bikes on streets to school. If her route is as short as possible, how many different routes can she
+take?
+(A)3 (B)6 (C)9 (D)12 (E)18
+Solution
+The number of ways to get from Samantha's house to City Park is (; , and the number of ways to5} =6
+get from City Park to school is (2 . Since there's one way to go through City Park Gust walkingstraight through), the number of different ways to go from Samantha's house to City Park to school
+3-6=|(E) 18
+
+
+
+--- PAGE 14 ---
+2013 AMC 8 Problems/Problem 22
+Problem
+Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks wide. How many
+toothpicks are used altogether?
+Solution
+There are 61vertical columns with a length of 32toothpicks, and there are 33horizontal rows with a length
+of GUtoothpicks. An effective way to verify this is to try a small case, i.e. a 2 x dgrid of toothpicks. Thus,
+our answer 1S
+2013 AMC 8 Problems/Problem 23
+Problem
+Angle ABCof A ABC's a right angle. The sides of 4. ABC are the diameters of semicircles as shown.
+The area of the semicircle on ABequals Sz, and the arc of the semicircle on AC‘has length 8.a7. What is
+the radius of the semicircle on BC’?
+(A)7 (B)75 (C)8 (E) 9
+Solution |
+If the semicircle on AB were a full circle, the area would be 16pi. Therefore the diameter of the first
+circle is 8. The arc of the largest semicircle would normally have a complete diameter of 17. The
+(B) 7.5 |Pythagorean theorem says that the other side has length 15, so the radius is
+
+
+
+--- PAGE 15 ---
+Solution 2
+We go as 1n Solution 1, finding the diameter of the circle on AC and AB. Then, an extended version of
+the theorem says that the sum of the semicircles on the left is equal to the biggest one, so the area of the
+28 Or 2897 O47 2257 1D me_ — — =|(B) 7.5
+largestis & ,andthe middle oneis & ie) & ,sothe radiusis 2
+2013 AMC 8 Problems/Problem 24
+Problem
+Squares ABCD, EF GH, and GHI.Jare equal in area. Points Cand Dare the midpoints of sides ] H
+and H&:, respectively. What is the ratio of the area of the shaded pentagon AJC Bto the sum of the
+areas of the three squares?
+“A> Bs ©; Ws,
+ST a |
+sll cnn
+ts
+Solution |
+F° C J
+First let s = 2(where sis the side length of the squares) for simplicity. We can extend J.J until it hits the
+extension of AB. Call this point X . The area of triangle AX Jthenis 2 The area of rectangle BX IC
+
+
+
+--- PAGE 16 ---
+is 2- 1 = 2. Thus, our desired area is 6 - 2 = 4, Now, the ratio of the shaded area to the combined area
+od
+a53 = (C) a
+of the three squares 1s
+Solution 2
+Let the side length of each square be 1.
+Let the intersection of AvJand Afbe A.
+Since |ABC D] = |GHI.J |, AD = IJ. Since <I X Jand #AN Dare vertical angles, they are congruent.
+We also have “J IH = “ADC by definition.
+So we have AADN = AJIT Xby AAScongruence. Therefore, OX = JX.
+1
+. —“Y . . . DH=C/=- . . . or are
+Since Cand Pare midpoints of sides, 2. This combined with DX = JX yields
+HX =CX =5*%5 =]
+The area of trapezoid ABC-X js mn (BC) 2 4 &,
+1 1 3 . 3
+. ~xAJxIJ==x—-xl=-s
+The area of triangle J JXis 2 2 8.
+So the area of the pentagon AJIC Bis
+The area of the 3squares is 1 x 3 = 3.
+[AJICB) fay 1
+|ABCIJFED| — (C) 3 |Therefore,
+Solution 3
+
+
+
+--- PAGE 17 ---
+Let the intersection of AJand Aibe A.
+Now we have AADKand AKT.
+Because both triangles has a side on congruent squares therefore AD = FJ.
+Because “AK Dand 4.) K fare vertical angles “AK D= /JKT.
+Also both 4. AD AKand “.J/ I Rare right anglesso “ADA 2 /JIK.
+Therefore by AAS(Angle, Angle, Side) AADK 2 AKI.
+Then translating/rotating the shaded “../ [into the position of A ADA
+So the shaded area now completely covers the square ABCD
+Set the area of a square as x
+Therefore, ox
+
+
+
+--- PAGE 18 ---
+2013 AMC 8 Problems/Problem 25
+Problem
+A ball with diameter 4 inches starts at point A to roll along the track shown. The track is comprised of 3
+semicircular arcs whose radii are Ay = 100inches, A’z = OUinches, and A’3 = SUinches, respectively.
+The ball always remains in contact with the track and does not slip. What is the distance the center of the
+ball travels over the course from A to B?
+(A) 2387 (B) 2407 (C) 2607 (D) 2807 = (E) 5007
+Solution |
+The radius of the ball is 2 inches. If you think about the ball rolling or draw a path for the ball (see figure
+below), you see that in A and C it loses 2m * 2/2 = 2inches, and it gains 2inches on B.
+&
+4
+ae
+200 + 120 + 160
+means that the answer is 2
+So, the departure from the length of the track
+* Tp + (—2 — 23+ 2) aq = 24007 —20r = (A) 2o87T
+Solution 2
+The total length of all of the arcs is LOUa + 800 + 60m = 240s. Since we want the path from the center,
+. . . oan... | (A) 238m .the actual distance will be shorter. Therefore, the only answer choice less than 24l)iris (A) . Thissolution may be invalid because the actual distance can be longer if the path the center travels is on the
+outside of the curve, as it is in the middle bump.

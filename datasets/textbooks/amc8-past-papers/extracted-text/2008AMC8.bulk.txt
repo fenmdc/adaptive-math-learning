@@ -1,0 +1,157 @@
+2008 AMC 8
+AMC 8 2008
+1 Susan had $50 to spend at the carnival. She spent $12 on food and twice as
+much on rides. How many dollars did she have left to spend?
+(A) 12 (B) 14 (C) 26 (D) 38 (E) 50
+2 The ten-letter code BEST OF LUCK represents the ten digits 0 − 9, in order.
+What 4-digit number is represented by the code word CLUE?
+(A) 8671 (B) 8672 (C) 9781 (D) 9782 (E) 9872
+3 If February is a month that contains Friday the 13 th, what day of the week is
+February 1?
+(A) Sunday (B) Monday (C) Wednesday (D) Thursday (E) Saturday
+4 In the ﬁgure, the outer equilateral triangle has area 16, the inner equil ateral
+triangle has area 1, and the three trapezoids are congruent. What is the area
+of one of the trapezoids?(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+5 Barney Schwinn notices that the odometer on his bicycle reads 1441, a pali n-
+drome, because it reads the same forward and backward. After riding 4 more
+hours that day and 6 the next, he notices that the odometer shows anothe r
+palindrome, 1661. What was his average speed in miles per hour?
+(A) 15 (B) 16 (C) 18 (D) 20 (E) 22
+6 In the ﬁgure, what is the ratio of the area of the gray squares to the area of the
+white squares?
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk
+2008 AMC 8
+(A) 3 : 10 (B) 3 : 8 (C) 3 : 7 (D) 3 : 5 (E) 1 : 1
+7 If 3
+5 = M
+45 = 60
+N , what is M + N ?
+(A) 27 (B) 29 (C) 45 (D) 105 (E) 127
+8 Candy sales from the Boosters Club from January through April are shown.
+What were the average sales per month in dollars?
+$120
+$80
+$40
+Jan Feb Mar Apr
+(A) 60 (B) 70 (C) 75 (D) 80 (E) 85
+9 In 2005 Tycoon Tammy invested $100 for two years. During the the ﬁrst year
+her investment suﬀered a 15% loss, but during the second year the re maining
+investment showed a 20% gain. Over the two-year period, what was the ch ange
+in Tammy’s investment?
+(A) 5% loss (B) 2% loss (C) 1% gain (D) 2% gain (E) 5% gain
+10 The average age of the 6 people in Room A is 40. The average age of the 4
+people in Room B is 25. If the two groups are combined, what is the average
+age of all the people?
+(A) 32.5 (B) 33 (C) 33.5 (D) 34 (E) 35
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk
+2008 AMC 8
+11 Each of the 39 students in the eighth grade at Lincoln Middle School has one
+dog or one cat or both a dog and a cat. Twenty students have a dog and 26
+students have a cat. How many students have both a dog and a cat?
+(A) 7 (B) 13 (C) 19 (D) 39 (E) 46
+12 A ball is dropped from a height of 3 meters. On its ﬁrst bounce it rises to a
+height of 2 meters. It keeps falling and bouncing to 2
+3 of the height it reached in
+the previous bounce. On which bounce will it not rise to a height of 0 .5 meters?
+(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+13 Mr. Harman needs to know the combined weight in pounds of three boxes h e
+wants to mail. However, the only available scale is not accurate for weight s less
+than 100 pounds or more than 150 pounds. So the boxes are weighed in pairs
+in every possible way. The results are 122, 125 and 127 pounds. What is the
+combined weight in pounds of the three boxes?
+(A) 160 (B) 170 (C) 187 (D) 195 (E) 354
+14 Three A’s, three B’s, and three C’s are placed in the nine spaces so t hat each
+row and column contain one of each letter. If A is placed in the upper lef t
+corner, how many arrangements are possible?
+A
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+15 In Theresa’s ﬁrst 8 basketball games, she scored 7 , 4, 3, 6, 8, 3, 1 and 5 points.
+In her ninth game, she scored fewer than 10 points and her points-per-gam e
+average for the nine games was an integer. Similarly in her tenth game, she
+scored fewer than 10 points and her points-per-game average for the 10 games
+was also an integer. What is the product of the number of points she score d in
+the ninth and tenth games?
+(A) 35 (B) 40 (C) 48 (D) 56 (E) 72
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk
+2008 AMC 8
+16 A shape is created by joining seven unit cubes, as shown. What is the ratio of
+the volume in cubic units to the surface area in square units?
+(A) 1 : 6 (B) 7 : 36 (C) 1 : 5 (D) 7 : 30 (E) 6 : 25
+17 Ms.Osborne asks each student in her class to draw a rectangle with in teger side
+lengths and a perimeter of 50 units. All of her students calculate the ar ea of the
+rectangle they draw. What is the diﬀerence between the largest and s mallest
+possible areas of the rectangles?
+(A) 76 (B) 120 (C) 128 (D) 132 (E) 136
+18 Two circles that share the same center have radii 10 meters and 20 mete rs. An
+aardvark runs along the path shown, starting at A and ending at K. How many
+meters does the aardvark run?
+A
+K
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk
+2008 AMC 8
+(A) 10π + 20 (B) 10π + 30 (C) 10π + 40 (D) 20π + 20
+(E) 20π + 40
+19 Eight points are spaced around at intervals of one unit around a 2 × 2 square,
+as shown. Two of the 8 points are chosen at random. What is the probability
+that the two points are one unit apart?
+(A) 1
+4 (B) 2
+7 (C) 4
+11 (D) 1
+2 (E) 4
+7
+20 The students in Mr. Neatkin’s class took a penmanship test. Two-thi rds of
+the boys and 3
+4 of the girls passed the test, and an equal number of boys and
+girls passed the test. What is the minimum possible number of stude nts in the
+class?
+(A) 12 (B) 17 (C) 24 (D) 27 (E) 36
+21 Jerry cuts a wedge from a 6-cm cylinder of bologna as shown by the dashed
+curve. Which answer choice is closest to the volume of his wedge in cu bic
+centimeters?
+8 cm
+6 cm
+(A)48 (B)75 (C)151 (D)192 (E)603
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk
+2008 AMC 8
+22 For how many positive integer values of n are both n
+3 and 3 n three-digit whole
+numbers?
+(A) 12 (B) 21 (C) 27 (D) 33 (E) 34
+23 In square ABCE , AF = 2 F E and CD = 2 DE. What is the ratio of the area
+of △ BF D to the area of square ABCE ?
+A B
+CDE
+F
+(A) 1
+6 (B) 2
+9 (C) 5
+18 (D) 1
+3 (E) 7
+20
+24 Ten tiles numbered 1 through 10 are turned face down. One tile is tur ned up
+at random, and a die is rolled. What is the probability that the product of the
+numbers on the tile and the die will be a square?
+(A) 1
+10 (B) 1
+6 (C) 11
+60 (D) 1
+5 (E) 7
+30
+25 Margie’s winning art design is shown. The smallest circle has radius 2 inches,
+with each successive circle’s radius increasing by 2 inches. App roximately what
+percent of the design is black?
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk
+2008 AMC 8
+(A) 42 (B) 44 (C) 45 (D) 46 (E) 48
+–
+These problems are copyright c⃝ Mathematical Association of America ( http:
+//maa.org).
+www.artofproblemsolving.com/community/c4791
+Contributors: JSGandora, LincolnMS nerd herd, Binomial-theor em, dragon96, rrusczyk

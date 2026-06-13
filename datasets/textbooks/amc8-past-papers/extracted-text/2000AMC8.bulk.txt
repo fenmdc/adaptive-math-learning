@@ -1,0 +1,193 @@
+2000 AMC 8
+AMC 8 2000
+1 Aunt Anna is 42 years old. Caitlin is 5 years younger than Brianna, and Brianna
+is half as old as Aunt Anna. How old is Caitlin?
+(A) 15 (B) 16 (C) 17 (D) 21 (E) 37
+2 Which of these numbers is less than its reciprocal?
+(A) − 2 (B) − 1 (C) 0 (D) 1 (E) 2
+3 How many whole numbers lie in the interval between 5
+3 and 2 π?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) inﬁnitely many
+4 In 1960 only 5% of the working adults in Carlin City worked at home. By 1970
+the ”at-home” work force increased to 8%. In 1980 there were approximately
+15% working at home, and in 1990 there were 30%. The graph that best
+illustrates this is
+1960 1970 1980 1990
+10
+20
+30
+%
+1960 1970 1980 1990
+10
+20
+30
+%
+1960 1970 1980 1990
+10
+20
+30
+%
+1960 1970 1980 1990
+10
+20
+30
+%
+1960 1970 1980 1990
+10
+20
+30
+%(A) (B) (C)
+(D) (E)
+5 Each principal of Lincoln High School serves exactly one 3-year term. What
+is the maximum number of principals this school could have during an 8-year
+period?
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 8
+6 Figure ABCD is a square. Inside this square three smaller squares are drawn
+with the side lengths as labeled. The area of the shaded L-shaped region i s
+A
+BC
+D
+1
+1
+3
+3
+1
+1
+(A) 7 (B) 10 (C) 12 .5 (D) 14 (E) 15
+7 What is the minimum possible product of three diﬀerent numbers of the set
+{− 8, − 6, − 4, 0, 3, 5, 7}?
+(A) − 336 (B) − 280 (C) − 210 (D) − 192 (E) 0
+8 Three dice with faces numbered 1 through 6 are stacked as shown. Seve n of the
+eighteen faces are visible, leaving eleven faces hidden (back, bot tom, between).
+The total number of dots NOT visible in this view is
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+(A) 21 (B) 22 (C) 31 (D) 41 (E) 53
+9 Three-digit powers of 2 and 5 are used in this ”cross-number” puzzle . What is
+the only possible digit for the outlined square?
+ACROSS DOWN
+2. 2 m 1. 5 n
+1
+2
+(A) 0 (B) 2 (C) 4 (D) 6 (E) 8
+10 Ara and Shea were once the same height. Since then Shea has grown 20% whil e
+Ara has grow half as many inches as Shea. Shea is now 60 inches tall. How
+tall, in inches, is Ara now?
+(A) 48 (B) 51 (C) 52 (D) 54 (E) 55
+11 The number 64 has the property that it is divisible by its units digi t. How
+many whole numbers between 10 and 50 have this property?
+(A) 15 (B) 16 (C) 17 (D) 18 (E) 20
+12 A block wall 100 feet long and 7 feet high will be constructed using blo cks that
+are 1 foot high and either 2 feet long or 1 foot long (no blocks may be cut) .
+The vertical joins in the blocks must be staggered as shown, and the wal l must
+be even on the ends. What is the smallest number of blocks needed to build
+this wall?
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+(A) 344 (B) 347 (C) 350 (D) 353 (E) 356
+13 In triangle CAT , we have ∠ACT = ∠AT C and ∠CAT = 36 ◦. If T R bisects
+∠AT C, then ∠CRT =
+A
+TC
+R
+(A) 36 ◦ (B) 54 ◦ (C) 72 ◦ (D) 90 ◦ (E) 108 ◦
+14 What is the units digit of 19 19 + 9999?
+(A) 0 (B) 1 (C) 2 (D) 8 (E) 9
+15 Triangles ABC , ADE, and EF G are all equilateral. Points D and G are
+midpoints of AC and AE, respectively. If AB = 4, what is the perimeter of
+ﬁgure ABCDEF G ?
+AB
+C
+D E
+FG
+(A) 12 (B) 13 (C) 15 (D) 18 (E) 21
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+16 In order for Mateen to walk a kilometer (1000m) in his rectangular backyard,
+he must walk the length 25 times or walk its perimeter 10 times. What is the
+area of Mateen’s backyard in square meters?
+(A) 40 (B) 200 (C) 400 (D) 500 (E) 1000
+17 The operation ⊗ is deﬁned for all nonzero numbers by a ⊗ b = a2
+b . Determine
+[(1 ⊗ 2) ⊗ 3] − [1 ⊗ (2 ⊗ 3)].
+(A) − 2
+3 (B) − 1
+4 (C) 0 (D) 1
+4 (E) 2
+3
+18 Consider these two geoboard quadrilaterals. Which of the following stat ements
+is true?
+I
+II
+(A) The area of quadrilateral I is more than the area of quadrilateral II.
+(B) The area of quadrilateral I is less than the area of quadrilateral II.
+(C) The quadrilaterals have the same area and the same perimeter.
+(D) The quadrilaterals have the same area, but the perimeter of I is mor e than the perimeter
+(E) The quadrilaterals have the same area, but the perimeter of I is le ss than the perimeter of
+19 Three circular arcs of radius 5 units bound the region shown. Arcs AB and AD
+are quarter-circles, and arc BCD is a semicircle. What is the area, in square
+units, of the region?
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+A
+B
+C
+D
+(A) 25 (B) 10 + 5 π (C) 50 (D) 50 + 5 π (E) 25 π
+20 You have nine coins: a collection of pennies, nickels, dimes, and qu arters having
+a total value of $1 .02, with at least one coin of each type. How many dimes
+must you have?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+21 Keiko tosses one penny and Ephraim tosses two pennies. The probabili ty that
+Ephraim gets the same number of heads that Keiko gets is
+(A) 1
+4 (B) 3
+8 (C) 1
+2 (D) 2
+3 (E) 3
+4
+22 A cube has edge length 2. Suppose that we glue a cube of edge length 1 on
+top of the big cube so that one of its faces rests entirely on the top face of the
+larger cube. The percent increase in the surface area (sides, top, an d bottom)
+from the original cube to the new solid formed is closest to
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+(A) 10 (B) 15 (C) 17 (D) 21 (E) 25
+23 There is a list of seven numbers. The average of the ﬁrst four number s is 5, and
+the average of the last four numbers is 8. If the average of all seven numbe rs is
+6 4
+7 , then the number common to both sets of four numbers is
+(A) 5 3
+7 (B) 6 (C) 6 4
+7 (D) 7 (E) 7 3
+7
+24 If ∠A = 20 ◦ and ∠AF G = ∠AGF , then ∠B + ∠D =
+A
+B
+C
+D
+E
+F
+G
+(A) 48 ◦ (B) 60 ◦ (C) 72 ◦ (D) 80 ◦ (E) 90 ◦
+25 The area of rectangle ABCD is 72. If point A and the midpoints of BC and
+CD are joined to form a triangle, the area of that triangle is
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk
+2000 AMC 8
+A B
+CD
+(A) 21 (B) 27 (C) 30 (D) 36 (E) 40
+–
+These problems are copyright c⃝ Mathematical Association of America ( http:
+//maa.org).
+www.artofproblemsolving.com/community/c4783
+Contributors: btilm305, rrusczyk

@@ -1,0 +1,188 @@
+
+
+--- PAGE 1 ---
+AMC8 数学竞赛 第 1-5 题 
+ 
+ 
+ 
+
+
+
+--- PAGE 2 ---
+ 
+
+
+
+--- PAGE 3 ---
+ 
+ 
+ 
+ 
+AMC8 数学竞赛 第 6-10 题 
+ 
+ 
+
+
+
+--- PAGE 4 ---
+ 
+
+
+
+--- PAGE 5 ---
+ 
+
+
+
+--- PAGE 6 ---
+8. On Monday Taye has $2. Every day, he either gains $3 or doubles the amount of money he
+had on the previous day. How many different dollar amounts could Taye have on Thursday3 days
+later? 在星期 一 ,Taye 有 2 美元 。每 天 , 他要 么获得 3 美元 , 要么将前 一天的钱数 翻倍。
+那么 在三天后的星期 四 ,Taye 可 能 拥有多 少 不同的 美元总 金额 ?
+(A)3 (B)4 (CO5 (D)6 (ENT
+【答案 ] p
+【解析
+2434373 =~ (43) x 4323 vi
+2KUXZXD =1bY% 2x23 =/0Y
+C243) xzxz = GR re
+Oxnrd43) x2=(4 A
+242x2+3=1] X
+Othe) Xd=1h X
+9.All of the marbles in Maria's collection are red, green, or blue. Maria has half as many red
+marbles as green marbles and twice as many blue marbles as green marbles. Which of the
+following could be the total number of marbles in Maria's collection? 玛 丽亚 收集 的弹 珠 都是红
+色、绿色或 蓝色 的。玛 丽 亚 拥有 的红色弹 珠数量 是绿色弹 珠 的一半 , 拥有的蓝色弹珠 数量是
+绿色 弹珠 的 两 倍。下 面 哪个可能是玛丽亚收集的弹珠 总数 ?
+(A)24 (B)25 (CI)26 (D)27 (GE)28
+【答案 E
+【解析】
+RGe
+R2$G>Q->k
+B=2G =4R
+5 be] tof beSRR Sg
+
+
+
+--- PAGE 7 ---
+ 
+ 
+ 
+AMC8 数学竞赛 第 11-15 题 
+ 
+ 
+
+
+
+--- PAGE 8 ---
+ 
+
+
+
+--- PAGE 9 ---
+ 
+ 
+
+
+
+--- PAGE 10 ---
+ 
+ 
+ 
+
+
+
+--- PAGE 11 ---
+ 
+AMC8 数学竞赛 第 16-20 题 
+ 
+ 
+ 
+
+
+
+--- PAGE 12 ---
+ 
+
+
+
+--- PAGE 13 ---
+ 
+ 
+
+
+
+--- PAGE 14 ---
+ 
+ 
+
+
+
+--- PAGE 15 ---
+ 
+ 
+ 
+ 
+AMC8 数学竞赛 第 21-25 题 
+ 
+
+
+
+--- PAGE 16 ---
+ 
+ 
+
+
+
+--- PAGE 17 ---
+22.A roll of tape is 4 inches in diameter and is wrapped around a ring thatis 2 inches in diameter.
+A cross section of the tape is shown in the figure below. The tape is 0.015 inches thick.the tape is
+completely unrolled, approximately how long would it be? Round your answer the nearest 100
+inches.
+- 卷磁带 的直径 为 4 英寸 , 并缠绕 在直径 为 2 英寸 的环上。如 下图所示是磁带的横截 面。
+磁带 的厚度 为 0.015 英寸 。如果 完全 展开 磁带 , 它 大 约有多 长 ? 将答案 四舍 五入到最 接近
+的 100 英寸 。
+————
+4in.
+(A)300 (B)600 = (C) 1200 (D) 1500 (E) 1800
+【答案 8
+【解析】
+OAD = 3 起
+玩 = SA =2eefa3. PR ore
+s
+
+
+
+--- PAGE 18 ---
+ 
+
+
+
+--- PAGE 19 ---
+ 
+
+
+
+--- PAGE 20 ---
+25.A small airplane has 4 rows of seats with 3 seats in each row. Eight passengers have boarded
+the plane and are distributed randomly among the seats. A married couple is next to board.What
+is the probability there will be 2 adjacent seats in the same row for the couple?
+一 架小 型飞机有 4 排 座位 ,每 排有 3 个 座位 。8 名 乘客 先 登机后随机就 坐。然 后一对已婚
+夫妇随后登 机。这对夫妇 坐在 同一排且相 邻 的概率 是多少 ?
+A small airplane has 4 rows of seats with 3 seats in each row. Eight passengers have boarded
+the plane and are distributed randomly among the seats. A married couple is next to board.
+What is the probability there will be 2 adjacent seats in the same row for the couple?
+O00
+eae
+O00
+eae
+8 32 20 34 8
+TG (B) 35 (C) 3 (D) 35 (E) 五
+【答案】 c
+(A)
+
+
+
+--- PAGE 21 ---
+ 
+ 
+ 

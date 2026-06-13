@@ -1,0 +1,138 @@
+USA
+AMC 8
+1988
+1 The diagram shows part of a scale of a measuring device. The arrow indicates an approximate
+reading of
+10 11
+(A) 10.05 (B) 10 .15 (C) 10 .25 (D) 10 .3 (E) 10 .6
+2 The product 8× .25× 2× .125 =
+(A) 1
+8 (B) 1
+4 (C) 1
+2 (D) 1 (E) 2
+3 1
+10 + 2
+20 + 3
+30 =
+(A) .1 (B) .123 (C) .2 (D) .3 (E) .6
+4 The ﬁgure consists of alternating light and dark squares. The number of dark squares exceeds
+the number of light squares by (A) 7 (B) 8 (C) 9 (D) 10 (E) 11
+same
+pattern here
+5 If ∠CBD is a right angle, then this protractor indicates that the measure of ∠ABC is approx-
+imately
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+1988
+O
+A
+B
+C
+D
+0
+20 160
+180
+(A) 20◦ (B) 40◦ (C) 50◦ (D) 70◦ (E) 120◦
+6 (.2)3
+(.02)2 = (A) .2 (B) 2 (C) 10 (D) 15 (E) 20
+7 2.46× 8.163× (5.17 + 4.829) is closest to:
+(A) 100 (B) 200 (C) 300 (D) 400 (E) 500
+8 Betty used a calculator to ﬁnd the product 0 .075× 2.56. She forgot to enter the decimal
+points. The calculator showed 19200. If Betty had entered the decimal points correctly, the
+answer would have been
+(A) .0192 (B) .192 (C) 1 .92 (D) 19 .2 (E) 192
+9 An isosceles triangle is a triangle with two sides of equal length. How many of the ﬁve triangles
+on the square grid below are isosceles?
+(A) 1 (B) 2 (C) 3 (D) 4 (E) 5
+10 Chris’ birthday is on a Thursday this year. What day of the week will it be 60 days after her
+birthday?
+(A) Monday (B) Wednesday (C) Thursday (D) Friday (E) Saturday
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+1988
+11
+√
+164 is
+(A) 42 (B) less than 10 (C) between 10 and 11 (D) between 11 and 12 (E) between 12 and 13
+12 Suppose the estimated 20 billion dollar cost to send a person to the planet Mars is shared
+equally by the 250 million people in the U.S. Then each person’s share is
+(A) 40 dollars (B) 50 dollars (C) 80 dollars (D) 100 dollars (E) 125 dollars
+13 If rose bushes are spaced about 1 foot apart, approximately how many bushes are needed to
+surround a circular patio whose radius is 12 feet?
+(A) 12 (B) 38 (C) 48 (D) 75 (E) 450
+14 ♦ and ∆ are whole numbers and ♦× ∆ = 36. The largest possible value of ♦ + ∆ is
+(A) 12 (B) 13 (C) 15 (D) 20 (E) 37
+15 The reciprocal of
+( 1
+2 + 1
+3
+)
+is
+(A) 1
+6 (B) 2
+5 (C) 6
+5 (D) 5
+2 (E) 5
+16
+Placing no more than one x in each small square, what is the greatest number of x’s that
+can be put on the grid shown without getting three x’s in a row vertically, horizontally, or
+diagonally?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+17 The shaded region formed by the two intersecting perpendicular rectangles, in square units,
+is
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+1988
+2
+3
+10
+8
+(A) 23 (B) 38 (C) 44 (D) 46 (E) unable to be determined from the information given
+18 The average weight of 6 boys is 150 pounds and the average weight of 4 girls is 120 pounds.
+The average weight of the 10 children is
+(A) 135 pounds (B) 137 pounds (C) 138 pounds (D) 140 pounds (E) 141 pounds
+19 What is the 100 th number in the arithmetic sequence: 1 , 5, 9, 13, 17, 21, 25, ...
+(A) 397 (B) 399 (C) 401 (D) 403 (E) 405
+20 The glass gauge on a cylindrical coﬀee maker shows that there are 45 cups left when the coﬀee
+maker is 36% full. How many cups of coﬀee does it hold when it is full?
+(A) 80 (B) 100 (C) 125 (D) 130 (E) 262
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+1988
+21 A ﬁfth number,n , is added to the set{3, 6, 9, 10} to make the mean of the set of ﬁve numbers
+equal to its median. The number of possible values of n is
+(A) 1 (B) 2 (C) 3 (D) 4 (E) more than 4
+22 Tom’s Hat Shoppe increased all original prices by 25%. Now the shoppe is having a sale
+where all prices are 20% oﬀ these increased prices. Which statement best describes the sale
+price of an item?
+(A) The sale price is 5% higher than the original price. (B) The sale price is higher than the original price, but by less than 5% .
+(C) The sale price is higher than the original price, but by more than 5% . (D) The sale price is lower than the original price.
+(E) The sale price is the same as the original price.
+23 Maria buys computer disks at a price of 4 for 5 dollars and sells them at a price of 3 for 5
+dollars. How many computer disks must she sell in order to make a proﬁt of 100 dolars?
+(A) 100 (B) 120 (C) 200 (D) 240 (E) 1200
+24
+1. 2. 3.
+4.
+The square in the ﬁrst diagram ”rolls” clockwise around the ﬁxed regular hexagon until it
+reaches the bottom. In which position will the solid triangle be in diagram 4?
+(A) (B) (C) (D) (E)
+25 A palindrome is a whole number that reads the same forwards and backwards. If one neglects
+the colon, certain times displayed on a digital watch are palindromes. Three examples are:
+1 : 01 , 12 : 21 . How many times during a 12-hour period will be palindromes?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+1988
+(A) 57 (B) 60 (C) 63 (D) 90 (E) 93
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6

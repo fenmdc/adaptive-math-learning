@@ -1,0 +1,277 @@
+USA
+AMC 8
+2002
+1 A circle and two distinct lines are drawn on a sheet of paper. What is the largest possible
+number of points of intersection of these ﬁgures?
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+2 How many diﬀerent combinations of 5 bills and 2 bills can be used to make a total of 17?
+Order does not matter in this problem.
+(A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+3 What is the smallest possible average of four distinct positive even integers?
+(A) 3 (B) 4 (C) 5 (D) 6 (E) 7
+4 The year 2002 is a palindrome (a number that reads the same from left to right as it does
+from right to left). What is the product of the digits of the next year after 2002 that is a
+palindrome?
+(A) 0 (B) 4 (C) 9 (D) 16 (E) 25
+5 Carlos Montado was born on Saturday, November 9, 2002. On what day of the week will
+Carlos be 706 days old?
+(A) Monday (B) Wednesday (C) Friday (D) Saturday (E) Sunday
+6 A birdbath is designed to overﬂow so that it will be self-cleaning. Water ﬂows in at the rate
+of 20 milliliters per minute and drains at the rate of 18 milliliters per minute. One of these
+graphs shows the volume of water in the birdbath during the ﬁlling time and continuing into
+the overﬂow time. Which one is it?
+Time
+Volume
+Time
+Volume
+Time
+Volume
+Time
+Volume
+Time
+Volume
+A B C D E
+(A) A (B) B (C) C (D) D (E) E
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 1
+USA
+AMC 8
+2002
+7 The students in Mrs. Sawyer’s class were asked to do a taste test of ﬁve kinds of candy. Each
+student chose one kind of candy. A bar graph of their preferences is shown. What percent of
+her class chose candy E?
+0
+1
+2
+3
+4
+5
+6
+7
+8
+A B C D E
+SWEET TOOTH
+Kinds of candy
+Number of students
+(A) 5 (B) 12 (C) 15 (D) 16 (E) 20
+8 Juan’s Old Stamping Grounds Juan organizes the stamps in his collection by country
+and by the decade in which they were issued. The prices he paid for them at a stamp shop
+were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each. (Brazil and
+Peru are South American countries and France and Spain are in Europe.)
+50s
+4
+8
+6
+3
+60s
+7
+4
+4
+9
+70s
+12
+12
+6
+13
+80s
+8
+15
+10
+9
+Country
+Brazil
+France
+Peru
+Spain
+Juan’s Stamp Collection
+Number of Stamps by Decade
+How many of his European stamps were issued in the ’80s?
+(A) 9 (B) 15 (C) 18 (D) 24 (E) 42
+9 Juan’s Old Stamping Grounds Juan organizes the stamps in his collection by country
+and by the decade in which they were issued. The prices he paid for them at a stamp shop
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 2
+USA
+AMC 8
+2002
+were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each. (Brazil and
+Peru are South American countries and France and Spain are in Europe.)
+50s
+4
+8
+6
+3
+60s
+7
+4
+4
+9
+70s
+12
+12
+6
+13
+80s
+8
+15
+10
+9
+Country
+Brazil
+France
+Peru
+Spain
+Juan’s Stamp Collection
+Number of Stamps by Decade
+In dollars and cents, how much did his South American stampes issued before the ’70s cost
+him?
+(A) $0.40 (B) $1 .06 (C) $1 .80 (D) $2 .38 (E) $2 .64
+10 Juan’s Old Stamping Grounds Juan organizes the stamps in his collection by country
+and by the decade in which they were issued. The prices he paid for them at a stamp shop
+were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each. (Brazil and
+Peru are South American countries and France and Spain are in Europe.)
+50s
+4
+8
+6
+3
+60s
+7
+4
+4
+9
+70s
+12
+12
+6
+13
+80s
+8
+15
+10
+9
+Country
+Brazil
+France
+Peru
+Spain
+Juan’s Stamp Collection
+Number of Stamps by Decade
+The average price of his ’70s stamps is closest to
+(A) 3.5 cents (B) 4 cents (C) 4 .5 cents (D) 5 cents (E) 5 .5 cents
+11 A sequence of squares is made of identical square tiles. The edge of each square is one tile
+length longer than the edge of the previous square. The ﬁrst three squares are shown. How
+many more tiles does the seventh square require than the sixth?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 3
+USA
+AMC 8
+2002
+(A) 11 (B) 12 (C) 13 (D) 14 (E) 15
+12 A board game spinner is divided into three regions labeled A, B and C. The probability
+of the arrow stopping on region A is 1
+3 and on region B is 1
+2. The probability of the arrow
+stopping on region C is:
+(A) 1
+12 (B) 1
+6 (C) 1
+5 (D) 1
+3 (E) 2
+5
+13 For his birthday, Bert gets a box that holds 125 jellybeans when ﬁlled to capacity. A few
+weeks later, Carrie gets a larger box full of jellybeans. Her box is twice as high, twice as wide
+and twice as long as Bert’s. Approximately, how many jellybeans did Carrie get?
+(A) 250 (B) 500 (C) 625 (D) 750 (E) 1000
+14 A merchant oﬀers a large group of items at 30% oﬀ. Later, the merchant takes 20% oﬀ these
+sale prices and claims that the ﬁnal price of these items is 50% oﬀ the original price. The
+total discount is
+(A) 35% (B) 44% (C) 50% (D) 56% (E) 60%
+15 Which of the following polygons has the largest area?
+A B C D E
+(A)A (B) B (C) C (D) D (E) E
+16 Right isosceles triangles are constructed on the sides of a 3-4-5 right triangle, as shown. A
+capital letter represents the area of each triangle. Which one of the following is true?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 4
+USA
+AMC 8
+2002
+Z
+Y
+X
+W
+5
+4
+3
+(A) X + Z = W + Y (B) W + X = Z (C) 3X + 4Y = 5 Z (D) X + W =
+1
+2(Y + Z) (E) X + Y = Z
+17 In a mathematics contest with ten problems, a student gains 5 points for a correct answer
+and loses 2 points for an incorrect answer. If Olivia answered every problem and her score
+was 29, how many correct answers did she have?
+(A) 5 (B) 6 (C) 7 (D) 8 (E) 9
+18 Gage skated 1 hr 15 min each day for 5 days and 1 hr 30 min each day for 3 days. How long
+would he have to skate the ninth day in order to average 85 minutes of skating each day for
+the entire time?
+(A) 1 hr (B) 1 hr 10 min (C) 1 hr 20 min (D) 1 hr 40 min (E) 2 hr
+19 How many whole numbers between 99 and 999 contain exactly one 0?
+(A) 72 (B) 90 (C) 144 (D) 162 (E) 180
+20 The area of triangle XY Z is 8 square inches. Points A and B are midpoints of congruent
+segments XY and XZ . Altitude XC bisects Y Z. What is the area (in square inches) of the
+shaded region?
+X
+Y Z
+A B
+C
+(A) 1 1
+2 (B) 2 (C) 2 1
+2 (D) 3 (E) 3 1
+2
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 5
+USA
+AMC 8
+2002
+21 Harold tosses a nickel four times. The probability that he gets at least as many heads as tails
+is
+(A) 5
+16 (B) 3
+8 (C) 1
+2 (D) 5
+8 (E) 11
+16
+22 Six cubes, each an inch on an edge, are fastened together, as shown. Find the total surface
+area in square inches. Include the top, bottom and sides.
+(A) 18 (B) 24 (C) 26 (D) 30 (E) 36
+23 A portion of a corner of a tiled ﬂoor is shown. If the entire ﬂoor is tiled in this way and each
+of the four corners looks like this one, then what fraction of the tiled ﬂoor is made of darker
+tiles?
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 6
+USA
+AMC 8
+2002
+(A) 1
+3 (B) 4
+9 (C) 1
+2 (D) 5
+9 (E) 5
+8
+24 Miki has a dozen oranges of the same size and a dozen pears of the same size. Miki uses
+her juicer to extract 8 ounces of pear juice from 3 pears and 8 ounces of orange juice from 2
+oranges. She makes a pear-orange juice blend from an equal number of pears and oranges.
+What percent of the blend is pear juice?
+(A) 30 (B) 40 (C) 50 (D) 60 (E) 70
+25 Loki, Moe, Nick and Ott are good friends. Ott had no money, but the others did. Moe gave
+Ott one-ﬁfth of his money, Loki gave Ott one-fourth of his money and Nick gave Ott one-third
+of his money. Each gave Ott the same amount of money. What fractional part of the group’s
+money does Ott now have?
+(A) 1
+10 (B) 1
+4 (C) 1
+3 (D) 2
+5 (E) 1
+2
+http://www.artofproblemsolving.com/
+This ﬁle was downloaded from the AoPS Math Olympiad Resources Page Page 7

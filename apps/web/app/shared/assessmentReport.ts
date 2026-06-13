@@ -1,6 +1,6 @@
 import type { SimulationLog } from "../dashboard/types";
 import { summarizeCognitivePatterns, type CognitivePatternSignal } from "./cognitivePatterns";
-import type { StudentModel } from "./studentModel";
+import { migrateStudentModel, type AbilityDimension, type DomainReadiness, type ReadinessStatus, type StudentModel } from "./studentModel";
 
 export type ReportStage = "Foundation" | "Bridge" | "Algebra Readiness" | "AMC8 Transfer";
 
@@ -25,6 +25,19 @@ export type AssessmentReport = {
   createdAt: string;
   attempts: number;
   accuracy: number;
+  placement: {
+    stage: ReportStage;
+    status: ReadinessStatus;
+    evidence: string;
+  };
+  abilityProfile: Array<{
+    dimension: AbilityDimension;
+    score: number;
+    attempts: number;
+    status: ReadinessStatus;
+    evidence: string;
+  }>;
+  domainReadiness: DomainReadiness[];
   stageReadiness: StageReadiness[];
   strongestConcepts: ReportConcept[];
   focusConcepts: ReportConcept[];
@@ -37,7 +50,14 @@ export type AssessmentReport = {
   fluencySignals: string[];
   confidenceSignals: string[];
   cognitivePatterns: CognitivePatternSignal[];
+  summaryBullets: string[];
   targetConcepts: string[];
+  learningPathIntent: {
+    mode: "repair" | "bridge" | "advance" | "transfer";
+    targetStage: ReportStage;
+    targetConcepts: string[];
+    sessionLength: number;
+  };
   recommendationTitle: string;
   recommendationReason: string;
   practiceHref: string;
@@ -49,12 +69,13 @@ export function buildAssessmentReport(
   diagnosticLogs: SimulationLog[],
   studentModel: StudentModel | null
 ): AssessmentReport {
+  const migratedModel = migrateStudentModel(studentModel);
   const attempts = diagnosticLogs.length;
   const accuracy = attempts === 0
     ? 0
     : Math.round((diagnosticLogs.filter((log) => log.correct).length / attempts) * 100);
   const stageReadiness = STAGES.map((stage) => summarizeStage(stage, diagnosticLogs));
-  const conceptSummaries = summarizeConcepts(diagnosticLogs, studentModel);
+  const conceptSummaries = summarizeConcepts(diagnosticLogs, migratedModel);
   const focusConcepts = conceptSummaries
     .filter((concept) => concept.mastery < 0.66 || concept.wrongCount > 0 || (concept.stability ?? 1) < 0.58)
     .sort((a, b) => scoreFocusConcept(b) - scoreFocusConcept(a))
@@ -64,20 +85,32 @@ export function buildAssessmentReport(
     .sort((a, b) => b.mastery - a.mastery || (b.stability ?? 0) - (a.stability ?? 0))
     .slice(0, 4);
   const prerequisiteGaps = summarizePrerequisiteGaps(diagnosticLogs);
-  const fluencySignals = summarizeFluencySignals(diagnosticLogs, studentModel);
-  const confidenceSignals = summarizeConfidenceSignals(diagnosticLogs, studentModel);
+  const fluencySignals = summarizeFluencySignals(diagnosticLogs, migratedModel);
+  const confidenceSignals = summarizeConfidenceSignals(diagnosticLogs, migratedModel);
   const cognitivePatterns = summarizeCognitivePatterns(diagnosticLogs);
   const targetConcepts = selectTargetConcepts(focusConcepts, prerequisiteGaps, diagnosticLogs);
+  const placement = {
+    stage: migratedModel.currentPlacement.stage,
+    status: migratedModel.currentPlacement.status,
+    evidence: migratedModel.currentPlacement.evidence
+  };
+  const abilityProfile = buildAbilityProfile(migratedModel);
+  const domainReadiness = Object.values(migratedModel.domainReadiness).sort((a, b) => a.domain.localeCompare(b.domain));
+  const learningPathIntent = buildLearningPathIntent(placement.stage, placement.status, targetConcepts, prerequisiteGaps);
   const recommendationTitle = targetConcepts.length
     ? `Start a focused mini session on ${humanizeConcept(targetConcepts[0])}`
     : "Start a balanced adaptive mini session";
-  const recommendationReason = buildRecommendationReason(targetConcepts, focusConcepts, prerequisiteGaps, stageReadiness);
+  const recommendationReason = buildRecommendationReason(targetConcepts, focusConcepts, prerequisiteGaps, stageReadiness, placement);
+  const summaryBullets = buildSummaryBullets(accuracy, placement, abilityProfile, focusConcepts, prerequisiteGaps, cognitivePatterns);
 
   return {
     version: 1,
     createdAt: new Date().toISOString(),
     attempts,
     accuracy,
+    placement,
+    abilityProfile,
+    domainReadiness,
     stageReadiness,
     strongestConcepts,
     focusConcepts,
@@ -85,11 +118,23 @@ export function buildAssessmentReport(
     fluencySignals,
     confidenceSignals,
     cognitivePatterns,
+    summaryBullets,
     targetConcepts,
+    learningPathIntent,
     recommendationTitle,
     recommendationReason,
-    practiceHref: buildPracticeHref(targetConcepts)
+    practiceHref: buildPracticeHref(learningPathIntent)
   };
+}
+
+function buildAbilityProfile(studentModel: StudentModel): AssessmentReport["abilityProfile"] {
+  return Object.entries(studentModel.abilityProfile).map(([dimension, state]) => ({
+    dimension: dimension as AbilityDimension,
+    score: state.score,
+    attempts: state.attempts,
+    status: readinessFromScore(state.score),
+    evidence: state.evidence[0] ?? "No direct evidence yet."
+  }));
 }
 
 function summarizeStage(stage: ReportStage, logs: SimulationLog[]): StageReadiness {
@@ -211,7 +256,8 @@ function buildRecommendationReason(
   targetConcepts: string[],
   focusConcepts: ReportConcept[],
   prerequisiteGaps: AssessmentReport["prerequisiteGaps"],
-  stageReadiness: StageReadiness[]
+  stageReadiness: StageReadiness[],
+  placement: AssessmentReport["placement"]
 ) {
   if (prerequisiteGaps.length > 0) {
     const gap = prerequisiteGaps[0];
@@ -230,22 +276,64 @@ function buildRecommendationReason(
   }
 
   return targetConcepts.length
-    ? `Continue with ${targetConcepts[0]} in a short adaptive mini session.`
-    : "The diagnostic is balanced so far; continue with a short adaptive mini session.";
+    ? `Continue with ${targetConcepts[0]} in a short ${placement.stage} mini session.`
+    : `The diagnostic places the learner at ${placement.stage}; continue with a short adaptive mini session.`;
 }
 
-function buildPracticeHref(targetConcepts: string[]) {
+function buildPracticeHref(intent: AssessmentReport["learningPathIntent"]) {
   const params = new URLSearchParams({
     mode: "plan",
-    maxItems: "8",
+    maxItems: String(intent.sessionLength),
     autoGradableOnly: "true"
   });
 
-  if (targetConcepts.length > 0) {
-    params.set("concepts", targetConcepts.join(","));
+  if (intent.targetConcepts.length > 0) {
+    params.set("concepts", intent.targetConcepts.join(","));
   }
 
   return `/practice?${params.toString()}`;
+}
+
+function buildLearningPathIntent(
+  targetStage: ReportStage,
+  status: ReadinessStatus,
+  targetConcepts: string[],
+  prerequisiteGaps: AssessmentReport["prerequisiteGaps"]
+): AssessmentReport["learningPathIntent"] {
+  const mode = prerequisiteGaps.length > 0 || status === "Needs Repair"
+    ? "repair"
+    : targetStage === "Foundation"
+      ? "bridge"
+      : targetStage === "AMC8 Transfer"
+        ? "transfer"
+        : "advance";
+
+  return {
+    mode,
+    targetStage,
+    targetConcepts,
+    sessionLength: mode === "repair" ? 6 : mode === "transfer" ? 10 : 8
+  };
+}
+
+function buildSummaryBullets(
+  accuracy: number,
+  placement: AssessmentReport["placement"],
+  abilityProfile: AssessmentReport["abilityProfile"],
+  focusConcepts: ReportConcept[],
+  prerequisiteGaps: AssessmentReport["prerequisiteGaps"],
+  cognitivePatterns: CognitivePatternSignal[]
+) {
+  const weakestAbility = [...abilityProfile].sort((a, b) => a.score - b.score)[0];
+
+  return [
+    `${placement.stage}: ${placement.status}. ${placement.evidence}`,
+    `Overall diagnostic accuracy is ${accuracy}%.`,
+    weakestAbility ? `${humanizeConcept(weakestAbility.dimension)} is the lowest ability dimension at ${Math.round(weakestAbility.score * 100)}%.` : "",
+    prerequisiteGaps[0] ? `${prerequisiteGaps[0].concept} is blocking ${prerequisiteGaps[0].targetConcept}.` : "",
+    focusConcepts[0] ? `${focusConcepts[0].concept} is the highest priority focus concept.` : "",
+    cognitivePatterns[0] ? `${cognitivePatterns[0].label} is the clearest cognitive pattern signal.` : ""
+  ].filter(Boolean);
 }
 
 function countWrongConcepts(logs: SimulationLog[]) {
@@ -266,6 +354,12 @@ function getReadinessStatus(accuracy: number, weakSignals: number): StageReadine
   if (accuracy >= 75 && weakSignals <= 1) return "Ready";
   if (accuracy >= 50) return "Developing";
   return "Needs Review";
+}
+
+function readinessFromScore(score: number): ReadinessStatus {
+  if (score >= 0.72) return "Ready";
+  if (score >= 0.55) return "Developing";
+  return "Needs Repair";
 }
 
 function scoreFocusConcept(concept: ReportConcept) {
