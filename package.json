@@ -6,6 +6,7 @@
     "simulate": "ts-node packages/simulation/src/index.ts",
     "validate:staging": "ts-node scripts/validate-staging.ts",
     "quality:problems": "ts-node scripts/check-problem-quality.ts",
+    "quality:diagnostic": "ts-node scripts/check-diagnostic-calibration.ts",
     "backfill:seed-explanations": "ts-node scripts/backfill-seed-explanations.ts",
     "extract:aops-prealgebra": "ts-node scripts/extract-aops-prealgebra-pages.ts",
     "generate:aops-prealgebra-v1": "ts-node scripts/generate-aops-prealgebra-v1.ts",

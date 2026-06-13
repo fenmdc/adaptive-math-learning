@@ -144,6 +144,9 @@ function LatestAssessmentReport({ report }: { report: AssessmentReport }) {
           <div className="muted">
             Placement: {report.placement.stage} · {report.placement.status}
           </div>
+          <div className="muted">
+            Calibration: {report.calibration.confidence} · {report.calibration.completedSlots}/{report.calibration.expectedSlots} slot(s)
+          </div>
         </div>
         <div className="summary-score">{report.accuracy}%</div>
       </div>

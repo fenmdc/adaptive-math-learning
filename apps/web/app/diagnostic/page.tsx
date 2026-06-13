@@ -17,8 +17,9 @@ import {
   writeLearningPlan,
   writeStudentModel
 } from "../shared/storage";
+import { summarizeDiagnosticCalibration } from "../shared/diagnosticCalibration";
 import { updateStudentModel } from "../shared/studentModel";
-import { initialAssessmentBlueprint, selectDiagnosticProblems, type AssessmentSlot } from "./initialAssessment";
+import { auditDiagnosticBlueprint, initialAssessmentBlueprint, selectDiagnosticProblems, type AssessmentSlot } from "./initialAssessment";
 
 type DiagnosticAttempt = {
   slot: AssessmentSlot;
@@ -39,6 +40,7 @@ const allProblems = problemsData as Problem[];
 const conceptGraph = buildConceptGraph(conceptsData as ConceptNode[]);
 const diagnosticProblems = selectDiagnosticProblems(initialAssessmentBlueprint, allProblems);
 const diagnosticProblemCount = diagnosticProblems.length;
+const diagnosticBlueprintAudit = auditDiagnosticBlueprint(initialAssessmentBlueprint, allProblems, diagnosticProblems);
 const initialState: StudentState = { mastery: {}, history: [] };
 
 export default function DiagnosticPage() {
@@ -62,6 +64,11 @@ export default function DiagnosticPage() {
     attempts.length === 0
       ? 0
       : Math.round((attempts.filter((item) => item.correct).length / attempts.length) * 100);
+  const currentLogs = useMemo(() => readDiagnosticLogs(), [attempts.length, feedback, pending]);
+  const calibrationSummary = useMemo(
+    () => summarizeDiagnosticCalibration(currentLogs, diagnosticBlueprintAudit.expectedSlotsByStage),
+    [currentLogs]
+  );
 
   function submitAnswer(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -174,7 +181,7 @@ export default function DiagnosticPage() {
             <p className="eyebrow">Adaptive Math Learning</p>
             <h1 className="page-title">Diagnostic Mode v2</h1>
             <p className="page-subtitle">
-              A {diagnosticProblemCount}-slot graph-aware assessment across Pre-Algebra, Algebra 1 readiness, and AMC8 transfer skills.
+              A {diagnosticProblemCount}-slot calibrated assessment across Pre-Algebra, Algebra 1 readiness, and AMC8 transfer skills.
             </p>
           </div>
           <div className="nav-actions">
@@ -188,8 +195,10 @@ export default function DiagnosticPage() {
         <section className="metric-grid">
           <Metric label="Progress" value={`${Math.min(index + (pending || isComplete ? 1 : 0), diagnosticProblemCount)}/${diagnosticProblemCount}`} />
           <Metric label="Accuracy" value={`${accuracy}%`} />
-          <Metric label="Concepts Seen" value={String(new Set(attempts.flatMap((item) => item.problem.concepts)).size)} />
+          <Metric label="Calibration" value={calibrationSummary.confidence} />
         </section>
+
+        <CalibrationSummaryPanel summary={calibrationSummary} />
 
         {isComplete || !currentProblem || !currentSlot ? (
           <section className="panel">
@@ -198,6 +207,7 @@ export default function DiagnosticPage() {
             {learningPlan ? (
               <>
                 {assessmentReport && <AssessmentReportCard report={assessmentReport} />}
+                {assessmentReport && <CalibrationSummaryPanel summary={assessmentReport.calibration} />}
                 <div className="learning-plan-card">
                   <div>
                     <div className="tag-row">
@@ -336,7 +346,15 @@ export default function DiagnosticPage() {
             </div>
 
             <aside className="panel">
-              <h2 className="panel-title">Blueprint</h2>
+              <h2 className="panel-title">Calibration Blueprint</h2>
+              <div className="schema-note">
+                <strong>Coverage:</strong> {diagnosticBlueprintAudit.selectedCount}/{diagnosticBlueprintAudit.slotCount} slot(s) ready.
+              </div>
+              {diagnosticBlueprintAudit.missingFallbacks.length > 0 && (
+                <div className="schema-note">
+                  <strong>Missing slot:</strong> {diagnosticBlueprintAudit.missingFallbacks.join(", ")}
+                </div>
+              )}
               <div className="schema-note">
                 <strong>Stage:</strong> {currentSlot.stage}
               </div>
@@ -354,6 +372,23 @@ export default function DiagnosticPage() {
               </div>
               <div className="schema-note">
                 <strong>Slot concepts:</strong> {currentSlot.concepts.join(", ")}
+              </div>
+              <div className="calibration-stage-list">
+                {calibrationSummary.stageEvidence.map((stage) => (
+                  <div className="calibration-stage-card" key={stage.stage}>
+                    <div className="trajectory-head">
+                      <strong>{stage.stage}</strong>
+                      <span className={`readiness ${readinessClass(stage.status)}`}>{stage.confidence}</span>
+                    </div>
+                    <div className="progress-track">
+                      <div
+                        className="progress-fill"
+                        style={{ width: `${Math.min(100, Math.round((stage.completedSlots / Math.max(stage.expectedSlots, 1)) * 100))}%` }}
+                      />
+                    </div>
+                    <div className="muted">{stage.evidence}</div>
+                  </div>
+                ))}
               </div>
               <div className="trajectory-list">
                 {diagnosticProblems.map(({ problem, slot }, problemIndex) => (
@@ -378,6 +413,35 @@ export default function DiagnosticPage() {
   );
 }
 
+function CalibrationSummaryPanel({ summary }: { summary: ReturnType<typeof summarizeDiagnosticCalibration> }) {
+  return (
+    <section className="panel full-panel calibration-panel">
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">{summary.version}</p>
+          <h2 className="panel-title">Calibration confidence: {summary.confidence}</h2>
+          <p className="muted">
+            Evidence complete: {summary.completedSlots}/{summary.expectedSlots} slot(s). {summary.nextCheckpoint}
+          </p>
+        </div>
+        <div className={`summary-score calibration-score-${summary.confidence.toLowerCase()}`}>
+          {summary.confidence}
+        </div>
+      </div>
+      <p className="summary-recommendation">{summary.retestRecommendation}</p>
+      <div className="readiness-grid">
+        {summary.stageEvidence.map((stage) => (
+          <div className="readiness-card" key={stage.stage}>
+            <div className={`readiness ${readinessClass(stage.status)}`}>{stage.status}</div>
+            <strong>{stage.stage}</strong>
+            <span>{stage.evidence}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function Metric({ label, value }: { label: string; value: string }) {
   return (
     <div className="metric-card">
@@ -394,6 +458,9 @@ function AssessmentReportCard({ report }: { report: AssessmentReport }) {
         <div>
           <p className="eyebrow">Assessment Report v1</p>
           <h3>{report.placement.stage} · {report.placement.status}</h3>
+          <div className="muted">
+            Calibration: {report.calibration.confidence} · {report.calibration.completedSlots}/{report.calibration.expectedSlots} slot(s)
+          </div>
         </div>
         <div className="summary-score">{report.attempts}</div>
       </div>
@@ -459,9 +526,9 @@ function ReportList({
   );
 }
 
-function readinessClass(status: AssessmentReport["stageReadiness"][number]["status"]) {
-  if (status === "Ready") return "readiness-ready";
-  if (status === "Developing") return "readiness-developing";
+function readinessClass(status: string) {
+  if (status === "Ready" || status === "Calibrated") return "readiness-ready";
+  if (status === "Developing" || status === "Partial") return "readiness-developing";
   return "readiness-needs-review";
 }
 

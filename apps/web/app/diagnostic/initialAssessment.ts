@@ -1,4 +1,5 @@
 import type { Problem } from "../../../../packages/adaptive-engine";
+import { buildExpectedSlotsByStage, type CalibrationStage } from "../shared/diagnosticCalibration";
 
 export type AssessmentStage = "Foundation" | "Bridge" | "Algebra Readiness" | "AMC8 Transfer";
 
@@ -22,6 +23,14 @@ export type SelectedAssessmentItem = {
   slot: AssessmentSlot;
   problem: Problem;
   selectionReason: string;
+};
+
+export type DiagnosticBlueprintAudit = {
+  expectedSlotsByStage: Record<CalibrationStage, number>;
+  missingFallbacks: string[];
+  selectedCount: number;
+  slotCount: number;
+  stageCounts: Record<CalibrationStage, number>;
 };
 
 export const initialAssessmentBlueprint: AssessmentSlot[] = [
@@ -339,6 +348,24 @@ export function selectDiagnosticProblems(
       return selected;
     })
     .filter((item): item is SelectedAssessmentItem => Boolean(item));
+}
+
+export function auditDiagnosticBlueprint(
+  blueprint: AssessmentSlot[],
+  problems: Problem[],
+  selectedItems = selectDiagnosticProblems(blueprint, problems)
+): DiagnosticBlueprintAudit {
+  const selectedSlotIds = new Set(selectedItems.map((item) => item.slot.id));
+
+  return {
+    expectedSlotsByStage: buildExpectedSlotsByStage(blueprint.map((slot) => ({ stage: slot.stage }))),
+    missingFallbacks: blueprint
+      .filter((slot) => !selectedSlotIds.has(slot.id))
+      .map((slot) => slot.id),
+    selectedCount: selectedItems.length,
+    slotCount: blueprint.length,
+    stageCounts: buildExpectedSlotsByStage(selectedItems.map((item) => ({ stage: item.slot.stage })))
+  };
 }
 
 function selectDiagnosticProblem(

@@ -1377,6 +1377,38 @@ a {
   font-size: 22px;
 }
 
+.calibration-panel {
+  background: #fbf7ed;
+}
+
+.calibration-score-high {
+  color: var(--aml-green);
+}
+
+.calibration-score-medium {
+  color: var(--aml-gold);
+}
+
+.calibration-score-low {
+  color: var(--aml-red);
+}
+
+.calibration-stage-list {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.calibration-stage-card {
+  display: grid;
+  gap: 8px;
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .readiness-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

@@ -1,5 +1,6 @@
 import type { SimulationLog } from "../dashboard/types";
 import { summarizeCognitivePatterns, type CognitivePatternSignal } from "./cognitivePatterns";
+import { summarizeDiagnosticCalibration, type DiagnosticCalibrationSummary } from "./diagnosticCalibration";
 import { migrateStudentModel, type AbilityDimension, type DomainReadiness, type ReadinessStatus, type StudentModel } from "./studentModel";
 
 export type ReportStage = "Foundation" | "Bridge" | "Algebra Readiness" | "AMC8 Transfer";
@@ -49,6 +50,7 @@ export type AssessmentReport = {
   }>;
   fluencySignals: string[];
   confidenceSignals: string[];
+  calibration: DiagnosticCalibrationSummary;
   cognitivePatterns: CognitivePatternSignal[];
   summaryBullets: string[];
   targetConcepts: string[];
@@ -87,6 +89,7 @@ export function buildAssessmentReport(
   const prerequisiteGaps = summarizePrerequisiteGaps(diagnosticLogs);
   const fluencySignals = summarizeFluencySignals(diagnosticLogs, migratedModel);
   const confidenceSignals = summarizeConfidenceSignals(diagnosticLogs, migratedModel);
+  const calibration = summarizeDiagnosticCalibration(diagnosticLogs);
   const cognitivePatterns = summarizeCognitivePatterns(diagnosticLogs);
   const targetConcepts = selectTargetConcepts(focusConcepts, prerequisiteGaps, diagnosticLogs);
   const placement = {
@@ -117,6 +120,7 @@ export function buildAssessmentReport(
     prerequisiteGaps,
     fluencySignals,
     confidenceSignals,
+    calibration,
     cognitivePatterns,
     summaryBullets,
     targetConcepts,

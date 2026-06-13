@@ -1,6 +1,7 @@
 import type { Problem, RecommendationExplanation } from "../../../../packages/adaptive-engine";
 import type { SimulationLog } from "../dashboard/types";
 import type { AssessmentReport } from "./assessmentReport";
+import { summarizeDiagnosticCalibration } from "./diagnosticCalibration";
 import type { LearningPlan } from "./learningPlan";
 import type { StudentModel } from "./studentModel";
 import { accountScopedKey } from "./accounts";
@@ -90,7 +91,7 @@ export function readAssessmentReport() {
 
   try {
     const raw = window.localStorage.getItem(storageKey(ASSESSMENT_REPORT_KEY));
-    return raw ? (JSON.parse(raw) as AssessmentReport) : null;
+    return raw ? migrateAssessmentReport(JSON.parse(raw) as AssessmentReport) : null;
   } catch {
     return null;
   }
@@ -151,4 +152,13 @@ export function clearDiagnosticLogs() {
 
 function storageKey(key: string) {
   return accountScopedKey(key);
+}
+
+function migrateAssessmentReport(report: AssessmentReport): AssessmentReport {
+  return report.calibration
+    ? report
+    : {
+        ...report,
+        calibration: summarizeDiagnosticCalibration(readDiagnosticLogs())
+      };
 }
