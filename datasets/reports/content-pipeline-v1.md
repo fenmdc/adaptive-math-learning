@@ -1,11 +1,11 @@
 # Content Pipeline v1 Report
 
-Generated at: 2026-06-13T16:09:27.242Z
+Generated at: 2026-06-13T16:19:00.003Z
 
 ## Summary
 
 - Status: Ready
-- Pipeline readiness: 96/100
+- Pipeline readiness: 99/100
 - Problem quality readiness: 99/100
 - Problems: 3412
 - Auto-gradable: 3412/3412
@@ -16,7 +16,7 @@ Generated at: 2026-06-13T16:09:27.242Z
 - Thin chapters: 0
 - Thin concepts: 0
 
-Ready: pipeline readiness 96/100, problem quality 99/100, diagnostic slots 22/22, staging rows 875.
+Ready: pipeline readiness 99/100, problem quality 99/100, diagnostic slots 22/22, staging rows 0.
 
 ## Diagnostic Gate
 
@@ -30,9 +30,9 @@ Ready: pipeline readiness 96/100, problem quality 99/100, diagnostic slots 22/22
 
 ## Staging Snapshot
 
-- Problem rows: 875
-- Distractor rows: 3496
-- Explanation rows: 875
+- Problem rows: 0
+- Distractor rows: 0
+- Explanation rows: 0
 
 ## Source Collections
 
@@ -47,4 +47,4 @@ Ready: pipeline readiness 96/100, problem quality 99/100, diagnostic slots 22/22
 
 ## Next Actions
 
-1. [medium] Review current staging batch: 875 problem row(s), 3496 distractor row(s), and 875 explanation row(s) are present in staging.
+1. [low] Prepare the next source batch: The current production bank is healthy; the next useful step is controlled source expansion.
