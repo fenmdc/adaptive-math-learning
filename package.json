@@ -13,6 +13,7 @@
     "extract:aops-prealgebra": "ts-node scripts/extract-aops-prealgebra-pages.ts",
     "generate:aops-prealgebra-v1": "ts-node scripts/generate-aops-prealgebra-v1.ts",
     "generate:ise-developmental-math": "ts-node scripts/generate-ise-developmental-math.ts",
+    "generate:higher-algebra-bridge": "ts-node scripts/generate-higher-algebra-bridge.ts",
     "generate:amc8-past-papers": "ts-node scripts/generate-amc8-past-papers.ts",
     "generate:amc8-past-papers:bulk": "ts-node scripts/generate-amc8-past-papers-bulk.ts",
     "verify:amc8-past-papers:bulk": "ts-node scripts/verify-amc8-bulk-from-randommath.ts",

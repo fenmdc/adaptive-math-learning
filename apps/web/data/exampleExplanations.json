@@ -27294,5 +27294,1285 @@
     "commonMistake": "A common mistake is to use the right operation but answer an intermediate value instead of a.",
     "whyCorrect": "This works because the setup matches the Factoring concept and the simplification leads directly to a.",
     "variantIdea": "Change one number in the setup and solve again to check whether the same structure still works."
+  },
+  "college_alg_fn_001": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 1: f(1) = 2(1) + 3 = 2 + 3 = 5.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 5 because Substitute x = 1: f(1) = 2(1) + 3 = 2 + 3 = 5.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_002": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 2: f(2) = 3(2) + 4 = 6 + 4 = 10.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 10 because Substitute x = 2: f(2) = 3(2) + 4 = 6 + 4 = 10.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_003": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 3: f(3) = 4(3) + 5 = 12 + 5 = 17.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 17 because Substitute x = 3: f(3) = 4(3) + 5 = 12 + 5 = 17.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_004": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 4: f(4) = 5(4) + 6 = 20 + 6 = 26.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 26 because Substitute x = 4: f(4) = 5(4) + 6 = 20 + 6 = 26.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_005": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 5: f(5) = 2(5) + 7 = 10 + 7 = 17.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 17 because Substitute x = 5: f(5) = 2(5) + 7 = 10 + 7 = 17.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_006": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 6: f(6) = 3(6) + 8 = 18 + 8 = 26.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 26 because Substitute x = 6: f(6) = 3(6) + 8 = 18 + 8 = 26.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_007": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 7: f(7) = 4(7) + 3 = 28 + 3 = 31.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 31 because Substitute x = 7: f(7) = 4(7) + 3 = 28 + 3 = 31.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_008": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 8: f(8) = 5(8) + 4 = 40 + 4 = 44.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 44 because Substitute x = 8: f(8) = 5(8) + 4 = 40 + 4 = 44.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_009": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 1: f(1) = 2(1) + 5 = 2 + 5 = 7.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 7 because Substitute x = 1: f(1) = 2(1) + 5 = 2 + 5 = 7.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_010": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 2: f(2) = 3(2) + 6 = 6 + 6 = 12.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 12 because Substitute x = 2: f(2) = 3(2) + 6 = 6 + 6 = 12.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_011": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 3: f(3) = 4(3) + 7 = 12 + 7 = 19.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 19 because Substitute x = 3: f(3) = 4(3) + 7 = 12 + 7 = 19.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_012": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 4: f(4) = 5(4) + 8 = 20 + 8 = 28.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 28 because Substitute x = 4: f(4) = 5(4) + 8 = 20 + 8 = 28.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_013": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 5: f(5) = 2(5) + 3 = 10 + 3 = 13.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 13 because Substitute x = 5: f(5) = 2(5) + 3 = 10 + 3 = 13.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_014": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 6: f(6) = 3(6) + 4 = 18 + 4 = 22.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 22 because Substitute x = 6: f(6) = 3(6) + 4 = 18 + 4 = 22.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_015": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 7: f(7) = 4(7) + 5 = 28 + 5 = 33.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 33 because Substitute x = 7: f(7) = 4(7) + 5 = 28 + 5 = 33.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_016": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 8: f(8) = 5(8) + 6 = 40 + 6 = 46.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 46 because Substitute x = 8: f(8) = 5(8) + 6 = 40 + 6 = 46.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_017": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 1: f(1) = 2(1) + 7 = 2 + 7 = 9.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 9 because Substitute x = 1: f(1) = 2(1) + 7 = 2 + 7 = 9.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_018": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 2: f(2) = 3(2) + 8 = 6 + 8 = 14.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 14 because Substitute x = 2: f(2) = 3(2) + 8 = 6 + 8 = 14.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_019": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 3: f(3) = 4(3) + 3 = 12 + 3 = 15.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 15 because Substitute x = 3: f(3) = 4(3) + 3 = 12 + 3 = 15.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_fn_020": {
+    "hint1": "Replace x with the input value.",
+    "hint2": "Evaluate the multiplication before adding the constant.",
+    "stepByStep": "Substitute x = 4: f(4) = 5(4) + 4 = 20 + 4 = 24.",
+    "commonMistake": "Adding the input to the coefficient instead of multiplying first.",
+    "whyCorrect": "The correct answer is 24 because Substitute x = 4: f(4) = 5(4) + 4 = 20 + 4 = 24.",
+    "variantIdea": "Use a quadratic rule and evaluate at a negative input."
+  },
+  "college_alg_line_001": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (1, 3): 3 = 2(1) + b, so b = 1. The line is y = 2x+1.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 2x+1 because Use y = mx + b. Substitute (1, 3): 3 = 2(1) + b, so b = 1. The line is y = 2x+1.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_002": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (2, 4): 4 = 3(2) + b, so b = -2. The line is y = 3x-2.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 3x-2 because Use y = mx + b. Substitute (2, 4): 4 = 3(2) + b, so b = -2. The line is y = 3x-2.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_003": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (3, 5): 5 = 4(3) + b, so b = -7. The line is y = 4x-7.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 4x-7 because Use y = mx + b. Substitute (3, 5): 5 = 4(3) + b, so b = -7. The line is y = 4x-7.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_004": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (4, 6): 6 = 5(4) + b, so b = -14. The line is y = 5x-14.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 5x-14 because Use y = mx + b. Substitute (4, 6): 6 = 5(4) + b, so b = -14. The line is y = 5x-14.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_005": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (1, 7): 7 = 6(1) + b, so b = 1. The line is y = 6x+1.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 6x+1 because Use y = mx + b. Substitute (1, 7): 7 = 6(1) + b, so b = 1. The line is y = 6x+1.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_006": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (2, 8): 8 = 2(2) + b, so b = 4. The line is y = 2x+4.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 2x+4 because Use y = mx + b. Substitute (2, 8): 8 = 2(2) + b, so b = 4. The line is y = 2x+4.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_007": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (3, 3): 3 = 3(3) + b, so b = -6. The line is y = 3x-6.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 3x-6 because Use y = mx + b. Substitute (3, 3): 3 = 3(3) + b, so b = -6. The line is y = 3x-6.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_008": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (4, 4): 4 = 4(4) + b, so b = -12. The line is y = 4x-12.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 4x-12 because Use y = mx + b. Substitute (4, 4): 4 = 4(4) + b, so b = -12. The line is y = 4x-12.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_009": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (1, 5): 5 = 5(1) + b, so b = 0. The line is y = 5x.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 5x because Use y = mx + b. Substitute (1, 5): 5 = 5(1) + b, so b = 0. The line is y = 5x.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_010": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (2, 6): 6 = 6(2) + b, so b = -6. The line is y = 6x-6.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 6x-6 because Use y = mx + b. Substitute (2, 6): 6 = 6(2) + b, so b = -6. The line is y = 6x-6.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_011": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (3, 7): 7 = 2(3) + b, so b = 1. The line is y = 2x+1.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 2x+1 because Use y = mx + b. Substitute (3, 7): 7 = 2(3) + b, so b = 1. The line is y = 2x+1.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_012": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (4, 8): 8 = 3(4) + b, so b = -4. The line is y = 3x-4.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 3x-4 because Use y = mx + b. Substitute (4, 8): 8 = 3(4) + b, so b = -4. The line is y = 3x-4.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_013": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (1, 3): 3 = 4(1) + b, so b = -1. The line is y = 4x-1.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 4x-1 because Use y = mx + b. Substitute (1, 3): 3 = 4(1) + b, so b = -1. The line is y = 4x-1.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_014": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (2, 4): 4 = 5(2) + b, so b = -6. The line is y = 5x-6.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 5x-6 because Use y = mx + b. Substitute (2, 4): 4 = 5(2) + b, so b = -6. The line is y = 5x-6.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_015": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (3, 5): 5 = 6(3) + b, so b = -13. The line is y = 6x-13.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 6x-13 because Use y = mx + b. Substitute (3, 5): 5 = 6(3) + b, so b = -13. The line is y = 6x-13.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_016": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (4, 6): 6 = 2(4) + b, so b = -2. The line is y = 2x-2.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 2x-2 because Use y = mx + b. Substitute (4, 6): 6 = 2(4) + b, so b = -2. The line is y = 2x-2.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_017": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (1, 7): 7 = 3(1) + b, so b = 4. The line is y = 3x+4.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 3x+4 because Use y = mx + b. Substitute (1, 7): 7 = 3(1) + b, so b = 4. The line is y = 3x+4.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_018": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (2, 8): 8 = 4(2) + b, so b = 0. The line is y = 4x.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 4x because Use y = mx + b. Substitute (2, 8): 8 = 4(2) + b, so b = 0. The line is y = 4x.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_019": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (3, 3): 3 = 5(3) + b, so b = -12. The line is y = 5x-12.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 5x-12 because Use y = mx + b. Substitute (3, 3): 3 = 5(3) + b, so b = -12. The line is y = 5x-12.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_line_020": {
+    "hint1": "Start from y = mx + b.",
+    "hint2": "Use the given point to solve for b.",
+    "stepByStep": "Use y = mx + b. Substitute (4, 4): 4 = 6(4) + b, so b = -20. The line is y = 6x-20.",
+    "commonMistake": "Using the point's y-coordinate as the intercept without checking.",
+    "whyCorrect": "The correct answer is 6x-20 because Use y = mx + b. Substitute (4, 4): 4 = 6(4) + b, so b = -20. The line is y = 6x-20.",
+    "variantIdea": "Give two points instead of the slope."
+  },
+  "college_alg_quad_001": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 1)(x - 3) = 0. Therefore x = 1 or x = 3.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 1,3 because Factor the quadratic as (x - 1)(x - 3) = 0. Therefore x = 1 or x = 3.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_002": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 2)(x - 5) = 0. Therefore x = 2 or x = 5.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 2,5 because Factor the quadratic as (x - 2)(x - 5) = 0. Therefore x = 2 or x = 5.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_003": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 3)(x - 7) = 0. Therefore x = 3 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 3,7 because Factor the quadratic as (x - 3)(x - 7) = 0. Therefore x = 3 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_004": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 4)(x - 9) = 0. Therefore x = 4 or x = 9.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 4,9 because Factor the quadratic as (x - 4)(x - 9) = 0. Therefore x = 4 or x = 9.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_005": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 5)(x - 7) = 0. Therefore x = 5 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 5,7 because Factor the quadratic as (x - 5)(x - 7) = 0. Therefore x = 5 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_006": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 6)(x - 9) = 0. Therefore x = 6 or x = 9.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 6,9 because Factor the quadratic as (x - 6)(x - 9) = 0. Therefore x = 6 or x = 9.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_007": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 1)(x - 5) = 0. Therefore x = 1 or x = 5.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 1,5 because Factor the quadratic as (x - 1)(x - 5) = 0. Therefore x = 1 or x = 5.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_008": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 2)(x - 7) = 0. Therefore x = 2 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 2,7 because Factor the quadratic as (x - 2)(x - 7) = 0. Therefore x = 2 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_009": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 3)(x - 5) = 0. Therefore x = 3 or x = 5.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 3,5 because Factor the quadratic as (x - 3)(x - 5) = 0. Therefore x = 3 or x = 5.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_010": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 4)(x - 7) = 0. Therefore x = 4 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 4,7 because Factor the quadratic as (x - 4)(x - 7) = 0. Therefore x = 4 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_011": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 5)(x - 9) = 0. Therefore x = 5 or x = 9.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 5,9 because Factor the quadratic as (x - 5)(x - 9) = 0. Therefore x = 5 or x = 9.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_012": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 6)(x - 11) = 0. Therefore x = 6 or x = 11.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 6,11 because Factor the quadratic as (x - 6)(x - 11) = 0. Therefore x = 6 or x = 11.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_013": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 1)(x - 3) = 0. Therefore x = 1 or x = 3.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 1,3 because Factor the quadratic as (x - 1)(x - 3) = 0. Therefore x = 1 or x = 3.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_014": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 2)(x - 5) = 0. Therefore x = 2 or x = 5.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 2,5 because Factor the quadratic as (x - 2)(x - 5) = 0. Therefore x = 2 or x = 5.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_015": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 3)(x - 7) = 0. Therefore x = 3 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 3,7 because Factor the quadratic as (x - 3)(x - 7) = 0. Therefore x = 3 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_016": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 4)(x - 9) = 0. Therefore x = 4 or x = 9.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 4,9 because Factor the quadratic as (x - 4)(x - 9) = 0. Therefore x = 4 or x = 9.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_017": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 5)(x - 7) = 0. Therefore x = 5 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 5,7 because Factor the quadratic as (x - 5)(x - 7) = 0. Therefore x = 5 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_018": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 6)(x - 9) = 0. Therefore x = 6 or x = 9.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 6,9 because Factor the quadratic as (x - 6)(x - 9) = 0. Therefore x = 6 or x = 9.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_019": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 1)(x - 5) = 0. Therefore x = 1 or x = 5.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 1,5 because Factor the quadratic as (x - 1)(x - 5) = 0. Therefore x = 1 or x = 5.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_quad_020": {
+    "hint1": "Look for two numbers that multiply to the constant term.",
+    "hint2": "Those numbers should add to the coefficient of x.",
+    "stepByStep": "Factor the quadratic as (x - 2)(x - 7) = 0. Therefore x = 2 or x = 7.",
+    "commonMistake": "Forgetting that the signs in the factors determine the roots.",
+    "whyCorrect": "The correct answer is 2,7 because Factor the quadratic as (x - 2)(x - 7) = 0. Therefore x = 2 or x = 7.",
+    "variantIdea": "Use a leading coefficient other than 1."
+  },
+  "college_alg_poly_001": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(1) = 1^2 - 3(1) - 10 = -12. Since this is not 0, x = 1 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(1) = 1^2 - 3(1) - 10 = -12. Since this is not 0, x = 1 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_002": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(2) = 2^2 - 3(2) - 10 = -12. Since this is not 0, x = 2 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(2) = 2^2 - 3(2) - 10 = -12. Since this is not 0, x = 2 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_003": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(3) = 3^2 - 3(3) - 10 = -10. Since this is not 0, x = 3 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(3) = 3^2 - 3(3) - 10 = -10. Since this is not 0, x = 3 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_004": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(4) = 4^2 - 3(4) - 10 = -6. Since this is not 0, x = 4 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(4) = 4^2 - 3(4) - 10 = -6. Since this is not 0, x = 4 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_005": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(5) = 5^2 - 3(5) - 10 = 0. Since this is 0, x = 5 is a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is yes because Evaluate f(5) = 5^2 - 3(5) - 10 = 0. Since this is 0, x = 5 is a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_006": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(6) = 6^2 - 3(6) - 10 = 8. Since this is not 0, x = 6 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(6) = 6^2 - 3(6) - 10 = 8. Since this is not 0, x = 6 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_007": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(7) = 7^2 - 3(7) - 10 = 18. Since this is not 0, x = 7 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(7) = 7^2 - 3(7) - 10 = 18. Since this is not 0, x = 7 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_008": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(1) = 1^2 - 3(1) - 10 = -12. Since this is not 0, x = 1 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(1) = 1^2 - 3(1) - 10 = -12. Since this is not 0, x = 1 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_009": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(2) = 2^2 - 3(2) - 10 = -12. Since this is not 0, x = 2 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(2) = 2^2 - 3(2) - 10 = -12. Since this is not 0, x = 2 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_010": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(3) = 3^2 - 3(3) - 10 = -10. Since this is not 0, x = 3 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(3) = 3^2 - 3(3) - 10 = -10. Since this is not 0, x = 3 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_011": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(4) = 4^2 - 3(4) - 10 = -6. Since this is not 0, x = 4 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(4) = 4^2 - 3(4) - 10 = -6. Since this is not 0, x = 4 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_012": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(5) = 5^2 - 3(5) - 10 = 0. Since this is 0, x = 5 is a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is yes because Evaluate f(5) = 5^2 - 3(5) - 10 = 0. Since this is 0, x = 5 is a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_013": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(6) = 6^2 - 3(6) - 10 = 8. Since this is not 0, x = 6 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(6) = 6^2 - 3(6) - 10 = 8. Since this is not 0, x = 6 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_014": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(7) = 7^2 - 3(7) - 10 = 18. Since this is not 0, x = 7 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(7) = 7^2 - 3(7) - 10 = 18. Since this is not 0, x = 7 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_015": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(1) = 1^2 - 3(1) - 10 = -12. Since this is not 0, x = 1 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(1) = 1^2 - 3(1) - 10 = -12. Since this is not 0, x = 1 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_016": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(2) = 2^2 - 3(2) - 10 = -12. Since this is not 0, x = 2 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(2) = 2^2 - 3(2) - 10 = -12. Since this is not 0, x = 2 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_017": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(3) = 3^2 - 3(3) - 10 = -10. Since this is not 0, x = 3 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(3) = 3^2 - 3(3) - 10 = -10. Since this is not 0, x = 3 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_018": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(4) = 4^2 - 3(4) - 10 = -6. Since this is not 0, x = 4 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(4) = 4^2 - 3(4) - 10 = -6. Since this is not 0, x = 4 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_019": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(5) = 5^2 - 3(5) - 10 = 0. Since this is 0, x = 5 is a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is yes because Evaluate f(5) = 5^2 - 3(5) - 10 = 0. Since this is 0, x = 5 is a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "college_alg_poly_020": {
+    "hint1": "A zero makes the function value equal to 0.",
+    "hint2": "Substitute the proposed x-value into the polynomial.",
+    "stepByStep": "Evaluate f(6) = 6^2 - 3(6) - 10 = 8. Since this is not 0, x = 6 is not a zero.",
+    "commonMistake": "Treating the x-value itself as the function value.",
+    "whyCorrect": "The correct answer is no because Evaluate f(6) = 6^2 - 3(6) - 10 = 8. Since this is not 0, x = 6 is not a zero.",
+    "variantIdea": "Ask for all integer zeros from a short candidate list."
+  },
+  "eng_math_formula_001": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 3 from both sides to get y - 3 = 2x. Divide by 2: x = (y - 3)/2.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-3)/2 because Subtract 3 from both sides to get y - 3 = 2x. Divide by 2: x = (y - 3)/2.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_002": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 4 from both sides to get y - 4 = 3x. Divide by 3: x = (y - 4)/3.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-4)/3 because Subtract 4 from both sides to get y - 4 = 3x. Divide by 3: x = (y - 4)/3.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_003": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 5 from both sides to get y - 5 = 4x. Divide by 4: x = (y - 5)/4.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-5)/4 because Subtract 5 from both sides to get y - 5 = 4x. Divide by 4: x = (y - 5)/4.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_004": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 6 from both sides to get y - 6 = 5x. Divide by 5: x = (y - 6)/5.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-6)/5 because Subtract 6 from both sides to get y - 6 = 5x. Divide by 5: x = (y - 6)/5.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_005": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 7 from both sides to get y - 7 = 6x. Divide by 6: x = (y - 7)/6.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-7)/6 because Subtract 7 from both sides to get y - 7 = 6x. Divide by 6: x = (y - 7)/6.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_006": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 8 from both sides to get y - 8 = 2x. Divide by 2: x = (y - 8)/2.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-8)/2 because Subtract 8 from both sides to get y - 8 = 2x. Divide by 2: x = (y - 8)/2.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_007": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 3 from both sides to get y - 3 = 3x. Divide by 3: x = (y - 3)/3.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-3)/3 because Subtract 3 from both sides to get y - 3 = 3x. Divide by 3: x = (y - 3)/3.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_008": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 4 from both sides to get y - 4 = 4x. Divide by 4: x = (y - 4)/4.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-4)/4 because Subtract 4 from both sides to get y - 4 = 4x. Divide by 4: x = (y - 4)/4.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_009": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 5 from both sides to get y - 5 = 5x. Divide by 5: x = (y - 5)/5.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-5)/5 because Subtract 5 from both sides to get y - 5 = 5x. Divide by 5: x = (y - 5)/5.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_010": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 6 from both sides to get y - 6 = 6x. Divide by 6: x = (y - 6)/6.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-6)/6 because Subtract 6 from both sides to get y - 6 = 6x. Divide by 6: x = (y - 6)/6.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_011": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 7 from both sides to get y - 7 = 2x. Divide by 2: x = (y - 7)/2.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-7)/2 because Subtract 7 from both sides to get y - 7 = 2x. Divide by 2: x = (y - 7)/2.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_012": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 8 from both sides to get y - 8 = 3x. Divide by 3: x = (y - 8)/3.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-8)/3 because Subtract 8 from both sides to get y - 8 = 3x. Divide by 3: x = (y - 8)/3.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_013": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 3 from both sides to get y - 3 = 4x. Divide by 4: x = (y - 3)/4.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-3)/4 because Subtract 3 from both sides to get y - 3 = 4x. Divide by 4: x = (y - 3)/4.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_014": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 4 from both sides to get y - 4 = 5x. Divide by 5: x = (y - 4)/5.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-4)/5 because Subtract 4 from both sides to get y - 4 = 5x. Divide by 5: x = (y - 4)/5.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_015": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 5 from both sides to get y - 5 = 6x. Divide by 6: x = (y - 5)/6.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-5)/6 because Subtract 5 from both sides to get y - 5 = 6x. Divide by 6: x = (y - 5)/6.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_016": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 6 from both sides to get y - 6 = 2x. Divide by 2: x = (y - 6)/2.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-6)/2 because Subtract 6 from both sides to get y - 6 = 2x. Divide by 2: x = (y - 6)/2.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_017": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 7 from both sides to get y - 7 = 3x. Divide by 3: x = (y - 7)/3.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-7)/3 because Subtract 7 from both sides to get y - 7 = 3x. Divide by 3: x = (y - 7)/3.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_018": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 8 from both sides to get y - 8 = 4x. Divide by 4: x = (y - 8)/4.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-8)/4 because Subtract 8 from both sides to get y - 8 = 4x. Divide by 4: x = (y - 8)/4.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_019": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 3 from both sides to get y - 3 = 5x. Divide by 5: x = (y - 3)/5.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-3)/5 because Subtract 3 from both sides to get y - 3 = 5x. Divide by 5: x = (y - 3)/5.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_formula_020": {
+    "hint1": "Undo the addition before undoing the multiplication.",
+    "hint2": "Keep the entire expression y minus the constant in the numerator.",
+    "stepByStep": "Subtract 4 from both sides to get y - 4 = 6x. Divide by 6: x = (y - 4)/6.",
+    "commonMistake": "Dividing only the constant by the coefficient.",
+    "whyCorrect": "The correct answer is (y-4)/6 because Subtract 4 from both sides to get y - 4 = 6x. Divide by 6: x = (y - 4)/6.",
+    "variantIdea": "Use a formula with a denominator and solve for the numerator variable."
+  },
+  "eng_math_linear_001": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 1: 3(x + 2) = 12. Divide by 3: x + 2 = 4. Subtract 2: x = 2.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 2 because Subtract 1: 3(x + 2) = 12. Divide by 3: x + 2 = 4. Subtract 2: x = 2.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_002": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 2: 4(x + 3) = 24. Divide by 4: x + 3 = 6. Subtract 3: x = 3.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 3 because Subtract 2: 4(x + 3) = 24. Divide by 4: x + 3 = 6. Subtract 3: x = 3.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_003": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 3: 5(x + 4) = 40. Divide by 5: x + 4 = 8. Subtract 4: x = 4.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 4 because Subtract 3: 5(x + 4) = 40. Divide by 5: x + 4 = 8. Subtract 4: x = 4.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_004": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 4: 6(x + 5) = 60. Divide by 6: x + 5 = 10. Subtract 5: x = 5.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 5 because Subtract 4: 6(x + 5) = 60. Divide by 6: x + 5 = 10. Subtract 5: x = 5.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_005": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 5: 7(x + 2) = 56. Divide by 7: x + 2 = 8. Subtract 2: x = 6.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 6 because Subtract 5: 7(x + 2) = 56. Divide by 7: x + 2 = 8. Subtract 2: x = 6.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_006": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 6: 3(x + 3) = 30. Divide by 3: x + 3 = 10. Subtract 3: x = 7.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 7 because Subtract 6: 3(x + 3) = 30. Divide by 3: x + 3 = 10. Subtract 3: x = 7.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_007": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 1: 4(x + 4) = 48. Divide by 4: x + 4 = 12. Subtract 4: x = 8.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 8 because Subtract 1: 4(x + 4) = 48. Divide by 4: x + 4 = 12. Subtract 4: x = 8.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_008": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 2: 5(x + 5) = 70. Divide by 5: x + 5 = 14. Subtract 5: x = 9.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 9 because Subtract 2: 5(x + 5) = 70. Divide by 5: x + 5 = 14. Subtract 5: x = 9.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_009": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 3: 6(x + 2) = 72. Divide by 6: x + 2 = 12. Subtract 2: x = 10.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 10 because Subtract 3: 6(x + 2) = 72. Divide by 6: x + 2 = 12. Subtract 2: x = 10.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_010": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 4: 7(x + 3) = 98. Divide by 7: x + 3 = 14. Subtract 3: x = 11.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 11 because Subtract 4: 7(x + 3) = 98. Divide by 7: x + 3 = 14. Subtract 3: x = 11.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_011": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 5: 3(x + 4) = 48. Divide by 3: x + 4 = 16. Subtract 4: x = 12.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 12 because Subtract 5: 3(x + 4) = 48. Divide by 3: x + 4 = 16. Subtract 4: x = 12.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_012": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 6: 4(x + 5) = 72. Divide by 4: x + 5 = 18. Subtract 5: x = 13.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 13 because Subtract 6: 4(x + 5) = 72. Divide by 4: x + 5 = 18. Subtract 5: x = 13.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_013": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 1: 5(x + 2) = 80. Divide by 5: x + 2 = 16. Subtract 2: x = 14.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 14 because Subtract 1: 5(x + 2) = 80. Divide by 5: x + 2 = 16. Subtract 2: x = 14.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_014": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 2: 6(x + 3) = 108. Divide by 6: x + 3 = 18. Subtract 3: x = 15.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 15 because Subtract 2: 6(x + 3) = 108. Divide by 6: x + 3 = 18. Subtract 3: x = 15.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_015": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 3: 7(x + 4) = 140. Divide by 7: x + 4 = 20. Subtract 4: x = 16.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 16 because Subtract 3: 7(x + 4) = 140. Divide by 7: x + 4 = 20. Subtract 4: x = 16.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_016": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 4: 3(x + 5) = 66. Divide by 3: x + 5 = 22. Subtract 5: x = 17.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 17 because Subtract 4: 3(x + 5) = 66. Divide by 3: x + 5 = 22. Subtract 5: x = 17.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_017": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 5: 4(x + 2) = 80. Divide by 4: x + 2 = 20. Subtract 2: x = 18.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 18 because Subtract 5: 4(x + 2) = 80. Divide by 4: x + 2 = 20. Subtract 2: x = 18.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_018": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 6: 5(x + 3) = 110. Divide by 5: x + 3 = 22. Subtract 3: x = 19.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 19 because Subtract 6: 5(x + 3) = 110. Divide by 5: x + 3 = 22. Subtract 3: x = 19.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_019": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 1: 6(x + 4) = 144. Divide by 6: x + 4 = 24. Subtract 4: x = 20.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 20 because Subtract 1: 6(x + 4) = 144. Divide by 6: x + 4 = 24. Subtract 4: x = 20.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_linear_020": {
+    "hint1": "Undo the outside addition first.",
+    "hint2": "After dividing, solve the remaining x plus constant equation.",
+    "stepByStep": "Subtract 2: 7(x + 5) = 182. Divide by 7: x + 5 = 26. Subtract 5: x = 21.",
+    "commonMistake": "Dividing the whole right side before removing the final constant.",
+    "whyCorrect": "The correct answer is 21 because Subtract 2: 7(x + 5) = 182. Divide by 7: x + 5 = 26. Subtract 5: x = 21.",
+    "variantIdea": "Put the variable expression on both sides."
+  },
+  "eng_math_quad_001": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 1,2 because The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_002": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 2,4 because The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_003": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 3,6 because The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_004": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 4,8 because The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_005": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 5,10 because The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_006": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 1,2 because The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_007": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 2,4 because The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_008": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 3,6 because The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_009": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 4,8 because The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_010": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 5,10 because The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_011": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 1,2 because The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_012": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 2,4 because The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_013": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 3,6 because The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_014": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 4,8 because The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_015": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 5,10 because The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_016": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 1,2 because The expression factors as (x - 1)(x - 2) = 0, so x = 1 or x = 2.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_017": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 2,4 because The expression factors as (x - 2)(x - 4) = 0, so x = 2 or x = 4.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_018": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 3,6 because The expression factors as (x - 3)(x - 6) = 0, so x = 3 or x = 6.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_019": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 4,8 because The expression factors as (x - 4)(x - 8) = 0, so x = 4 or x = 8.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_quad_020": {
+    "hint1": "Find two numbers that multiply to the constant term.",
+    "hint2": "The same two numbers should add to the x-coefficient.",
+    "stepByStep": "The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "commonMistake": "Reporting the factor numbers without changing signs for the roots.",
+    "whyCorrect": "The correct answer is 5,10 because The expression factors as (x - 5)(x - 10) = 0, so x = 5 or x = 10.",
+    "variantIdea": "Use the quadratic formula when the expression does not factor cleanly."
+  },
+  "eng_math_prop_001": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 12 = k(4), k = 3. When x = 7, y = 3(7) = 21.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 21 because Direct proportionality means y = kx. Since 12 = k(4), k = 3. When x = 7, y = 3(7) = 21.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_002": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 20 = k(5), k = 4. When x = 8, y = 4(8) = 32.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 32 because Direct proportionality means y = kx. Since 20 = k(5), k = 4. When x = 8, y = 4(8) = 32.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_003": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 30 = k(6), k = 5. When x = 9, y = 5(9) = 45.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 45 because Direct proportionality means y = kx. Since 30 = k(6), k = 5. When x = 9, y = 5(9) = 45.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_004": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 42 = k(7), k = 6. When x = 10, y = 6(10) = 60.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 60 because Direct proportionality means y = kx. Since 42 = k(7), k = 6. When x = 10, y = 6(10) = 60.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_005": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 56 = k(8), k = 7. When x = 11, y = 7(11) = 77.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 77 because Direct proportionality means y = kx. Since 56 = k(8), k = 7. When x = 11, y = 7(11) = 77.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_006": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 27 = k(9), k = 3. When x = 12, y = 3(12) = 36.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 36 because Direct proportionality means y = kx. Since 27 = k(9), k = 3. When x = 12, y = 3(12) = 36.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_007": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 40 = k(10), k = 4. When x = 13, y = 4(13) = 52.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 52 because Direct proportionality means y = kx. Since 40 = k(10), k = 4. When x = 13, y = 4(13) = 52.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_008": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 55 = k(11), k = 5. When x = 14, y = 5(14) = 70.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 70 because Direct proportionality means y = kx. Since 55 = k(11), k = 5. When x = 14, y = 5(14) = 70.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_009": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 72 = k(12), k = 6. When x = 15, y = 6(15) = 90.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 90 because Direct proportionality means y = kx. Since 72 = k(12), k = 6. When x = 15, y = 6(15) = 90.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_010": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 91 = k(13), k = 7. When x = 16, y = 7(16) = 112.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 112 because Direct proportionality means y = kx. Since 91 = k(13), k = 7. When x = 16, y = 7(16) = 112.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_011": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 42 = k(14), k = 3. When x = 17, y = 3(17) = 51.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 51 because Direct proportionality means y = kx. Since 42 = k(14), k = 3. When x = 17, y = 3(17) = 51.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_012": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 60 = k(15), k = 4. When x = 18, y = 4(18) = 72.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 72 because Direct proportionality means y = kx. Since 60 = k(15), k = 4. When x = 18, y = 4(18) = 72.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_013": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 80 = k(16), k = 5. When x = 19, y = 5(19) = 95.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 95 because Direct proportionality means y = kx. Since 80 = k(16), k = 5. When x = 19, y = 5(19) = 95.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_014": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 102 = k(17), k = 6. When x = 20, y = 6(20) = 120.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 120 because Direct proportionality means y = kx. Since 102 = k(17), k = 6. When x = 20, y = 6(20) = 120.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_015": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 126 = k(18), k = 7. When x = 21, y = 7(21) = 147.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 147 because Direct proportionality means y = kx. Since 126 = k(18), k = 7. When x = 21, y = 7(21) = 147.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_016": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 57 = k(19), k = 3. When x = 22, y = 3(22) = 66.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 66 because Direct proportionality means y = kx. Since 57 = k(19), k = 3. When x = 22, y = 3(22) = 66.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_017": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 80 = k(20), k = 4. When x = 23, y = 4(23) = 92.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 92 because Direct proportionality means y = kx. Since 80 = k(20), k = 4. When x = 23, y = 4(23) = 92.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_018": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 105 = k(21), k = 5. When x = 24, y = 5(24) = 120.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 120 because Direct proportionality means y = kx. Since 105 = k(21), k = 5. When x = 24, y = 5(24) = 120.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_019": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 132 = k(22), k = 6. When x = 25, y = 6(25) = 150.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 150 because Direct proportionality means y = kx. Since 132 = k(22), k = 6. When x = 25, y = 6(25) = 150.",
+    "variantIdea": "Use inverse proportionality and compare the model."
+  },
+  "eng_math_prop_020": {
+    "hint1": "Write the relationship as y = kx.",
+    "hint2": "Use the first pair to find k, then apply it to the new x-value.",
+    "stepByStep": "Direct proportionality means y = kx. Since 161 = k(23), k = 7. When x = 26, y = 7(26) = 182.",
+    "commonMistake": "Adding the change in x to y instead of using the constant of proportionality.",
+    "whyCorrect": "The correct answer is 182 because Direct proportionality means y = kx. Since 161 = k(23), k = 7. When x = 26, y = 7(26) = 182.",
+    "variantIdea": "Use inverse proportionality and compare the model."
   }
 }

@@ -1,0 +1,641 @@
+problem_id,choice_label,value,misconception,cognitive_tag,explanation
+college_alg_fn_001,B,6,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_001,C,8,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_001,D,-1,sign_error,symbol_evaluation,This choice reflects sign error.
+college_alg_fn_001,E,7,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_002,A,9,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_002,B,18,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_002,C,2,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_002,D,13,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_003,A,32,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_003,B,7,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_003,C,21,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_003,E,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_004,A,14,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_004,B,31,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_004,D,15,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_004,E,50,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_005,A,19,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_005,C,14,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_005,D,24,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_005,E,3,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_006,B,17,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_006,C,42,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_006,D,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_006,E,29,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_007,A,14,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_007,B,40,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_007,C,25,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_007,D,35,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_008,A,60,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_008,B,36,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_008,C,49,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_008,E,17,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_009,A,-3,sign_error,symbol_evaluation,This choice reflects sign error.
+college_alg_fn_009,B,9,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_009,D,8,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_009,E,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_010,A,15,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_010,C,11,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_010,D,24,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_010,E,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_011,B,14,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_011,C,40,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_011,D,5,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_011,E,23,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_012,A,17,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_012,B,60,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_012,C,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_012,D,33,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_013,A,16,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_013,B,7,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_013,C,15,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_013,E,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_014,A,14,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_014,B,25,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_014,D,13,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_014,E,30,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_015,A,37,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_015,C,16,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_015,D,48,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_015,E,23,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_016,B,19,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_016,C,70,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_016,D,34,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_016,E,51,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_017,A,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_017,B,16,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_017,C,-5,sign_error,symbol_evaluation,This choice reflects sign error.
+college_alg_fn_017,D,11,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_018,A,30,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_018,B,-2,sign_error,symbol_evaluation,This choice reflects sign error.
+college_alg_fn_018,C,17,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_018,E,13,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_019,A,9,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_019,B,19,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_019,D,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_019,E,24,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_020,A,29,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_020,C,13,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_020,D,40,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_fn_020,E,16,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_line_001,B,2x+3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_001,C,1x+1,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_001,D,2x-3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_001,E,5x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_002,A,3x+4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_002,B,2x+-2,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_002,C,3x-4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_002,D,7x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_003,A,3x+-7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_003,B,4x-5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_003,C,9x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_003,E,4x+5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_004,A,5x-6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_004,B,11x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_004,D,5x+6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_004,E,4x+-14,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_005,A,13x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_005,C,6x+7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_005,D,1x+1,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_005,E,6x-7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_006,B,2x+8,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_006,C,2x-8,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_006,D,10x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_006,E,2x+4+5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_007,A,3x+3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_007,B,3x+-6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_007,C,3x-3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_007,D,6x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_008,A,4x+-12,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_008,B,4x-4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_008,C,8x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_008,E,4x+4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_009,A,5x-5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_009,B,10x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_009,D,5x+5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_009,E,1x+0,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_010,A,6x-6+5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_010,C,6x+6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_010,D,2x+-6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_010,E,12x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_011,B,2x+7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_011,C,3x+1,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_011,D,2x-7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_011,E,9x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_012,A,3x+8,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_012,B,4x+-4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_012,C,3x-8,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_012,D,11x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_013,A,1x+-1,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_013,B,4x-3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_013,C,7x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_013,E,4x+3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_014,A,5x-4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_014,B,9x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_014,D,5x+4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_014,E,2x+-6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_015,A,11x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_015,C,6x+5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_015,D,3x+-13,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_015,E,6x-5,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_016,B,2x+6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_016,C,4x+-2,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_016,D,2x-6,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_016,E,8x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_017,A,3x+7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_017,B,1x+4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_017,C,3x-7,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_017,D,10x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_018,A,2x+0,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_018,B,4x-8,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_018,C,12x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_018,E,4x+8,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_019,A,5x-3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_019,B,8x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_019,D,5x+3,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_019,E,3x+-12,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_020,A,10x,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_020,C,6x+4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_020,D,4x+-20,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_line_020,E,6x-4,symbolic_structure_error,coordinate_reasoning,This choice reflects symbolic structure error.
+college_alg_quad_001,B,"-1,-3",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_001,C,"4,3",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_001,D,"1,-3",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_001,E,3,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_002,A,"-2,-5",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_002,B,"7,10",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_002,C,"2,-5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_002,D,10,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_003,A,"10,21",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_003,B,"3,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_003,C,21,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_003,E,"-3,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_004,A,"4,-9",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_004,B,36,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_004,D,"-4,-9",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_004,E,"13,36",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_005,A,35,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_005,C,"-5,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_005,D,"12,35",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_005,E,"5,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_006,B,"-6,-9",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_006,C,"15,54",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_006,D,"6,-9",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_006,E,54,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_007,A,"-1,-5",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_007,B,"6,5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_007,C,"1,-5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_007,D,5,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_008,A,"9,14",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_008,B,"2,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_008,C,14,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_008,E,"-2,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_009,A,"3,-5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_009,B,15,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_009,D,"-3,-5",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_009,E,"8,15",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_010,A,28,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_010,C,"-4,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_010,D,"11,28",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_010,E,"4,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_011,B,"-5,-9",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_011,C,"14,45",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_011,D,"5,-9",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_011,E,45,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_012,A,"-6,-11",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_012,B,"17,66",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_012,C,"6,-11",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_012,D,66,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_013,A,"4,3",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_013,B,"1,-3",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_013,C,3,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_013,E,"-1,-3",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_014,A,"2,-5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_014,B,10,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_014,D,"-2,-5",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_014,E,"7,10",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_015,A,21,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_015,C,"-3,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_015,D,"10,21",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_015,E,"3,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_016,B,"-4,-9",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_016,C,"13,36",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_016,D,"4,-9",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_016,E,36,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_017,A,"-5,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_017,B,"12,35",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_017,C,"5,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_017,D,35,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_018,A,"15,54",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_018,B,"6,-9",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_018,C,54,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_018,E,"-6,-9",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_019,A,"1,-5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_019,B,5,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_019,D,"-1,-5",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_019,E,"6,5",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_020,A,14,operation_error,factor_structure,This choice reflects operation error.
+college_alg_quad_020,C,"-2,-7",sign_error,factor_structure,This choice reflects sign error.
+college_alg_quad_020,D,"9,14",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_quad_020,E,"2,-7",solution_set_error,factor_structure,This choice reflects solution set error.
+college_alg_poly_001,B,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_001,C,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_001,D,1,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_001,E,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_002,A,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_002,B,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_002,C,2,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_002,D,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_003,A,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_003,B,3,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_003,C,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_003,E,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_004,A,4,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_004,B,6,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_004,D,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_004,E,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_005,A,cannot tell,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_005,C,no,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_005,D,0,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_005,E,5,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_006,B,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_006,C,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_006,D,6,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_006,E,8,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_007,A,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_007,B,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_007,C,7,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_007,D,18,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_008,A,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_008,B,1,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_008,C,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_008,E,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_009,A,2,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_009,B,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_009,D,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_009,E,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_010,A,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_010,C,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_010,D,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_010,E,3,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_011,B,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_011,C,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_011,D,4,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_011,E,6,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_012,A,no,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_012,B,0,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_012,C,5,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_012,D,cannot tell,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_013,A,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_013,B,6,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_013,C,8,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_013,E,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_014,A,7,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_014,B,18,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_014,D,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_014,E,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_015,A,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_015,C,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_015,D,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_015,E,1,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_016,B,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_016,C,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_016,D,2,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_016,E,12,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_017,A,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_017,B,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_017,C,3,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_017,D,10,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_018,A,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_018,B,4,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_018,C,6,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_018,E,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_019,A,5,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_019,B,cannot tell,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_019,D,no,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_019,E,0,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_020,A,8,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_020,C,yes,symbolic_structure_error,symbol_evaluation,This choice reflects symbolic structure error.
+college_alg_poly_020,D,0,operation_error,symbol_evaluation,This choice reflects operation error.
+college_alg_poly_020,E,6,operation_error,symbol_evaluation,This choice reflects operation error.
+eng_math_formula_001,B,y-3/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_001,C,(y+3)/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_001,D,2/(y-3),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_001,E,17/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_002,A,y-4/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_002,B,(y+4)/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_002,C,3/(y-4),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_002,D,19/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_003,A,(y+5)/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_003,B,4/(y-5),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_003,C,21/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_003,E,y-5/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_004,A,5/(y-6),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_004,B,23/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_004,D,y-6/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_004,E,(y+6)/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_005,A,25/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_005,C,y-7/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_005,D,(y+7)/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_005,E,6/(y-7),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_006,B,y-8/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_006,C,(y+8)/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_006,D,2/(y-8),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_006,E,27/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_007,A,y-3/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_007,B,(y+3)/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_007,C,3/(y-3),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_007,D,35/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_008,A,(y+4)/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_008,B,4/(y-4),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_008,C,37/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_008,E,y-4/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_009,A,5/(y-5),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_009,B,39/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_009,D,y-5/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_009,E,(y+5)/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_010,A,41/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_010,C,y-6/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_010,D,(y+6)/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_010,E,6/(y-6),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_011,B,y-7/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_011,C,(y+7)/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_011,D,2/(y-7),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_011,E,43/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_012,A,y-8/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_012,B,(y+8)/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_012,C,3/(y-8),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_012,D,45/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_013,A,(y+3)/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_013,B,4/(y-3),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_013,C,53/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_013,E,y-3/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_014,A,5/(y-4),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_014,B,55/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_014,D,y-4/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_014,E,(y+4)/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_015,A,57/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_015,C,y-5/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_015,D,(y+5)/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_015,E,6/(y-5),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_016,B,y-6/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_016,C,(y+6)/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_016,D,2/(y-6),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_016,E,59/2,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_017,A,y-7/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_017,B,(y+7)/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_017,C,3/(y-7),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_017,D,61/3,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_018,A,(y+8)/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_018,B,4/(y-8),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_018,C,63/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_018,E,y-8/4,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_019,A,5/(y-3),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_019,B,71/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_019,D,y-3/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_019,E,(y+3)/5,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_020,A,73/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_020,C,y-4/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_020,D,(y+4)/6,symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_formula_020,E,6/(y-4),symbolic_structure_error,symbolic_fluency,This choice reflects symbolic structure error.
+eng_math_linear_001,B,12,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_001,C,4,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_001,D,-2,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_001,E,7,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_002,A,24,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_002,B,6,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_002,C,-3,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_002,D,8,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_003,A,8,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_003,B,-4,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_003,C,9,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_003,E,40,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_004,A,-5,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_004,B,10,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_004,D,60,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_004,E,10,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_005,A,11,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_005,C,56,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_005,D,8,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_005,E,-6,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_006,B,30,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_006,C,10,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_006,D,-7,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_006,E,12,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_007,A,48,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_007,B,12,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_007,C,-8,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_007,D,13,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_008,A,14,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_008,B,-9,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_008,C,14,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_008,E,70,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_009,A,-10,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_009,B,15,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_009,D,72,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_009,E,12,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_010,A,16,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_010,C,98,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_010,D,14,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_010,E,-11,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_011,B,48,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_011,C,16,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_011,D,-12,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_011,E,17,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_012,A,72,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_012,B,18,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_012,C,-13,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_012,D,18,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_013,A,16,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_013,B,-14,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_013,C,19,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_013,E,80,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_014,A,-15,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_014,B,20,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_014,D,108,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_014,E,18,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_015,A,21,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_015,C,140,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_015,D,20,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_015,E,-16,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_016,B,66,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_016,C,22,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_016,D,-17,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_016,E,22,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_017,A,80,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_017,B,20,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_017,C,-18,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_017,D,23,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_018,A,22,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_018,B,-19,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_018,C,24,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_018,E,110,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_019,A,-20,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_linear_019,B,25,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_019,D,144,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_019,E,24,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_020,A,26,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_020,C,182,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_020,D,26,operation_error,multi_step_planning,This choice reflects operation error.
+eng_math_linear_020,E,-21,sign_error,multi_step_planning,This choice reflects sign error.
+eng_math_quad_001,B,"-1,-2",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_001,C,"3,2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_001,D,"1,-2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_001,E,2,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_002,A,"-2,-4",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_002,B,"6,8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_002,C,"2,-4",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_002,D,8,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_003,A,"9,18",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_003,B,"3,-6",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_003,C,18,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_003,E,"-3,-6",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_004,A,"4,-8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_004,B,32,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_004,D,"-4,-8",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_004,E,"12,32",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_005,A,50,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_005,C,"-5,-10",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_005,D,"15,50",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_005,E,"5,-10",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_006,B,"-1,-2",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_006,C,"3,2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_006,D,"1,-2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_006,E,2,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_007,A,"-2,-4",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_007,B,"6,8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_007,C,"2,-4",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_007,D,8,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_008,A,"9,18",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_008,B,"3,-6",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_008,C,18,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_008,E,"-3,-6",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_009,A,"4,-8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_009,B,32,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_009,D,"-4,-8",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_009,E,"12,32",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_010,A,50,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_010,C,"-5,-10",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_010,D,"15,50",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_010,E,"5,-10",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_011,B,"-1,-2",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_011,C,"3,2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_011,D,"1,-2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_011,E,2,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_012,A,"-2,-4",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_012,B,"6,8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_012,C,"2,-4",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_012,D,8,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_013,A,"9,18",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_013,B,"3,-6",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_013,C,18,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_013,E,"-3,-6",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_014,A,"4,-8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_014,B,32,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_014,D,"-4,-8",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_014,E,"12,32",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_015,A,50,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_015,C,"-5,-10",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_015,D,"15,50",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_015,E,"5,-10",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_016,B,"-1,-2",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_016,C,"3,2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_016,D,"1,-2",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_016,E,2,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_017,A,"-2,-4",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_017,B,"6,8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_017,C,"2,-4",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_017,D,8,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_018,A,"9,18",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_018,B,"3,-6",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_018,C,18,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_018,E,"-3,-6",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_019,A,"4,-8",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_019,B,32,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_019,D,"-4,-8",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_019,E,"12,32",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_020,A,50,operation_error,factor_structure,This choice reflects operation error.
+eng_math_quad_020,C,"-5,-10",sign_error,factor_structure,This choice reflects sign error.
+eng_math_quad_020,D,"15,50",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_quad_020,E,"5,-10",solution_set_error,factor_structure,This choice reflects solution set error.
+eng_math_prop_001,B,19,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_001,C,15,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_001,D,10,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_001,E,84,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_002,A,28,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_002,B,23,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_002,C,12,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_002,D,160,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_003,A,33,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_003,B,14,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_003,C,270,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_003,E,39,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_004,A,16,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_004,B,420,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_004,D,52,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_004,E,45,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_005,A,616,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_005,C,67,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_005,D,59,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_005,E,18,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_006,B,39,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_006,C,30,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_006,D,15,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_006,E,324,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_007,A,53,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_007,B,43,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_007,C,17,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_007,D,520,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_008,A,58,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_008,B,19,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_008,C,770,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_008,E,69,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_009,A,21,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_009,B,1080,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_009,D,87,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_009,E,75,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_010,A,1456,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_010,C,107,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_010,D,94,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_010,E,23,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_011,B,59,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_011,C,45,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_011,D,20,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_011,E,714,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_012,A,78,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_012,B,63,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_012,C,22,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_012,D,1080,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_013,A,83,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_013,B,24,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_013,C,1520,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_013,E,99,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_014,A,26,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_014,B,2040,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_014,D,122,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_014,E,105,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_015,A,152,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_015,C,129,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_015,D,28,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_015,E,2646,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_016,B,79,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_016,C,60,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_016,D,25,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_016,E,1254,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_017,A,103,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_017,B,83,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_017,C,27,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_017,D,1840,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_018,A,108,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_018,B,29,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_018,C,2520,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_018,E,129,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_019,A,31,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_019,B,3300,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_019,D,157,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_019,E,135,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_020,A,4186,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_020,C,187,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_020,D,164,operation_error,multiplicative_reasoning,This choice reflects operation error.
+eng_math_prop_020,E,33,operation_error,multiplicative_reasoning,This choice reflects operation error.
