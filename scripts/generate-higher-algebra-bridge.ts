@@ -94,6 +94,116 @@ const PROBLEMS_PER_TOPIC = 20;
 
 const topics: Topic[] = [
   {
+    prefix: "ca-real",
+    build: (i) => {
+      const a = 18 + i;
+      const b = 7 + (i % 6);
+      const c = 2 + (i % 5);
+      const answer = a - b * c;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 1.1 Sets of Real Numbers",
+        chapter: "college-algebra-00-real-numbers-coordinate-plane",
+        chapterTitle: "Real Numbers and the Coordinate Plane",
+        theme: "Foundations for College Algebra",
+        sequenceBase: 5000,
+        statement: `Evaluate ${a} - ${b} x ${c}.`,
+        answer,
+        wrongs: [(a - b) * c, a - b + c, a + b * c, answer + b],
+        solution: `Use order of operations: ${b} x ${c} = ${b * c}. Then ${a} - ${b * c} = ${answer}.`,
+        concepts: ["arith_integers", "arith_natural_numbers"],
+        skills: ["order_of_operations", "integer_arithmetic"],
+        patterns: ["operation_order", "fluency_precision"],
+        misconceptions: ["operation_order_error", "sign_error"],
+        difficulty: 2,
+        layer: "Foundation",
+        stage: "Bridge",
+        problemType: "computation",
+        cognitiveTags: ["operation_order", "fluency_precision"],
+        hint1: "Decide which operation happens first.",
+        hint2: "Multiply before subtracting.",
+        commonMistake: "Subtracting before multiplying changes the expression.",
+        variantIdea: "Add parentheses and compare the new value."
+      });
+    }
+  },
+  {
+    prefix: "ca-dist",
+    build: (i) => {
+      const x1 = 1 + (i % 7);
+      const y1 = 2 + (i % 5);
+      const dx = [3, 5, 6, 8][i % 4];
+      const dy = [4, 12, 8, 15][i % 4];
+      const x2 = x1 + dx;
+      const y2 = y1 + dy;
+      const answer = Math.hypot(dx, dy);
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 1.1.3 Distance in the Plane",
+        chapter: "college-algebra-00-real-numbers-coordinate-plane",
+        chapterTitle: "Real Numbers and the Coordinate Plane",
+        theme: "Foundations for College Algebra",
+        sequenceBase: 5040,
+        statement: `Find the distance between (${x1}, ${y1}) and (${x2}, ${y2}).`,
+        answer,
+        wrongs: [dx + dy, Math.abs(dx - dy), dx * dy, answer + 1],
+        solution: `The horizontal change is ${dx} and the vertical change is ${dy}. The distance is sqrt(${dx}^2 + ${dy}^2) = ${answer}.`,
+        concepts: ["geo_coordinate_geometry", "geo_pythagorean"],
+        skills: ["distance_formula", "coordinate_reasoning"],
+        patterns: ["right_triangle_model", "coordinate_difference"],
+        misconceptions: ["additive_distance_error", "coordinate_subtraction_error"],
+        difficulty: 3,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "coordinate_geometry",
+        cognitiveTags: ["coordinate_reasoning", "formula_selection"],
+        hint1: "Find the horizontal and vertical changes.",
+        hint2: "Use the Pythagorean theorem on those two changes.",
+        commonMistake: "Adding the coordinate changes instead of using squares.",
+        variantIdea: "Give a missing coordinate and the distance."
+      });
+    }
+  },
+  {
+    prefix: "ca-rel",
+    build: (i) => {
+      const m = 2 + (i % 4);
+      const b = 1 + (i % 5);
+      const x = 1 + (i % 8);
+      const correctY = m * x + b;
+      const y = i % 3 === 0 ? correctY + 1 : correctY;
+      const answer = y === correctY ? "yes" : "no";
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 1.2 Relations and Graphs of Equations",
+        chapter: "college-algebra-01-relations-and-graphs",
+        chapterTitle: "Relations and Graphs of Equations",
+        theme: "Functions and Modeling",
+        sequenceBase: 5080,
+        statement: `Does the point (${x}, ${y}) lie on the graph of y = ${m}x + ${b}?`,
+        answer,
+        wrongs: answer === "yes" ? ["no", String(correctY), String(m + b), "cannot tell"] : ["yes", String(correctY), String(y - b), "cannot tell"],
+        solution: `Substitute x = ${x}: ${m}(${x}) + ${b} = ${correctY}. The point has y = ${y}, so the answer is ${answer}.`,
+        concepts: ["alg_graphing", "alg_functions"],
+        skills: ["point_testing", "substitution"],
+        patterns: ["graph_equation_connection", "input_output_mapping"],
+        misconceptions: ["coordinate_order_error", "substitution_error"],
+        difficulty: 3,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "relation_point_test",
+        cognitiveTags: ["coordinate_reasoning", "symbol_evaluation"],
+        hint1: "Substitute the x-coordinate into the equation.",
+        hint2: "Compare the computed y-value with the point's y-coordinate.",
+        commonMistake: "Using the y-coordinate in place of x.",
+        variantIdea: "Ask for the missing y-coordinate on the same graph."
+      });
+    }
+  },
+  {
     prefix: "ca-fn",
     build: (i) => {
       const a = 2 + (i % 4);
@@ -125,6 +235,79 @@ const topics: Topic[] = [
         hint2: "Evaluate the multiplication before adding the constant.",
         commonMistake: "Adding the input to the coefficient instead of multiplying first.",
         variantIdea: "Use a quadratic rule and evaluate at a negative input."
+      });
+    }
+  },
+  {
+    prefix: "ca-fnarith",
+    build: (i) => {
+      const a = 2 + (i % 4);
+      const b = 1 + (i % 6);
+      const c = 3 + (i % 5);
+      const d = 2 + (i % 4);
+      const x = 1 + (i % 7);
+      const answer = (a + c) * x + (b - d);
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 1.5 Function Arithmetic",
+        chapter: "college-algebra-01-functions",
+        chapterTitle: "Functions and Function Notation",
+        theme: "Functions and Modeling",
+        sequenceBase: 5140,
+        statement: `Let f(x) = ${a}x + ${b} and g(x) = ${c}x - ${d}. Find (f + g)(${x}).`,
+        answer,
+        wrongs: [a * x + b + c * x + d, (a + c) * (x + b - d), a * c * x + b - d, answer + d],
+        solution: `(f + g)(x) = (${a}x + ${b}) + (${c}x - ${d}) = ${a + c}x + ${b - d}. At x = ${x}, the value is ${answer}.`,
+        concepts: ["alg_functions", "prealg_simplification"],
+        skills: ["function_arithmetic", "combining_like_terms"],
+        patterns: ["function_combination", "symbolic_simplification"],
+        misconceptions: ["sign_error", "like_terms_error"],
+        difficulty: 4,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "function_arithmetic",
+        cognitiveTags: ["symbolic_fluency", "structure_recognition"],
+        hint1: "Add the two function rules first.",
+        hint2: "Combine x-terms and constants before substituting.",
+        commonMistake: "Changing subtraction in g(x) into addition.",
+        variantIdea: "Ask for (f - g)(x) instead."
+      });
+    }
+  },
+  {
+    prefix: "ca-trans",
+    build: (i) => {
+      const x = 1 + (i % 6);
+      const y = 2 + (i % 7);
+      const right = 2 + (i % 4);
+      const up = 1 + (i % 5);
+      const answer = `(${x + right},${y + up})`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 1.7 Transformations",
+        chapter: "college-algebra-05-transformations",
+        chapterTitle: "Transformations of Functions",
+        theme: "Functions and Modeling",
+        sequenceBase: 5180,
+        statement: `The point (${x}, ${y}) is on y = f(x). Which point is on y = f(x - ${right}) + ${up}?`,
+        answer,
+        wrongs: [`(${x - right},${y + up})`, `(${x + right},${y - up})`, `(${x - right},${y - up})`, `(${x},${y + up})`],
+        solution: `The expression f(x - ${right}) shifts the graph right ${right}, and + ${up} shifts it up ${up}. So (${x}, ${y}) moves to ${answer}.`,
+        concepts: ["alg_functions", "alg_graphing"],
+        skills: ["function_transformations", "coordinate_reasoning"],
+        patterns: ["horizontal_shift", "vertical_shift"],
+        misconceptions: ["horizontal_shift_direction_error", "coordinate_translation_error"],
+        difficulty: 4,
+        layer: "Honors",
+        stage: "Algebra Readiness",
+        problemType: "function_transformation",
+        cognitiveTags: ["coordinate_reasoning", "structure_recognition"],
+        hint1: "Handle the horizontal and vertical shifts separately.",
+        hint2: "Inside x - h shifts the graph right by h.",
+        commonMistake: "Moving left for x - h instead of right.",
+        variantIdea: "Use y = -f(x) and ask for the reflected point."
       });
     }
   },
@@ -165,6 +348,78 @@ const topics: Topic[] = [
     }
   },
   {
+    prefix: "ca-line2",
+    build: (i) => {
+      const m = 1 + (i % 5);
+      const b = -4 + (i % 7);
+      const x1 = 1 + (i % 4);
+      const x2 = x1 + 2;
+      const y1 = m * x1 + b;
+      const y2 = m * x2 + b;
+      const answer = b === 0 ? `${m}x` : b > 0 ? `${m}x+${b}` : `${m}x-${Math.abs(b)}`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 2.1 Linear Functions",
+        chapter: "college-algebra-02-linear-functions",
+        chapterTitle: "Linear Functions",
+        theme: "Linear Equations and Functions",
+        sequenceBase: 5240,
+        statement: `Find the slope-intercept form of the line through (${x1}, ${y1}) and (${x2}, ${y2}).`,
+        answer,
+        wrongs: [`${m}x+${y1}`, `${x1}x+${b}`, `${m + 1}x+${b}`, `${m}x-${Math.abs(y2)}`],
+        solution: `The slope is (${y2} - ${y1})/(${x2} - ${x1}) = ${m}. Use y = mx + b with (${x1}, ${y1}) to get b = ${b}.`,
+        concepts: ["alg_graphing", "alg_linear_equations", "alg_functions"],
+        skills: ["slope_from_two_points", "slope_intercept_form"],
+        patterns: ["coordinate_reasoning", "linear_modeling"],
+        misconceptions: ["slope_formula_error", "intercept_confusion"],
+        difficulty: 4,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "linear_function_modeling",
+        cognitiveTags: ["coordinate_reasoning", "formula_selection"],
+        hint1: "Compute the slope from the two points first.",
+        hint2: "Then use either point to find the intercept.",
+        commonMistake: "Using the first y-coordinate as the intercept.",
+        variantIdea: "Use a negative slope and repeat the process."
+      });
+    }
+  },
+  {
+    prefix: "ca-abs",
+    build: (i) => {
+      const h = 2 + (i % 8);
+      const d = 3 + (i % 5);
+      const answer = `${h - d},${h + d}`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 2.2 Absolute Value Functions",
+        chapter: "college-algebra-06-absolute-value",
+        chapterTitle: "Absolute Value Functions and Equations",
+        theme: "Linear Equations and Functions",
+        sequenceBase: 5280,
+        statement: `Solve |x - ${h}| = ${d}.`,
+        answer,
+        wrongs: [`${h + d}`, `${h - d}`, `${-h - d},${-h + d}`, `${d - h},${d + h}`],
+        solution: `|x - ${h}| = ${d} means x - ${h} = ${d} or x - ${h} = -${d}. Thus x = ${h + d} or x = ${h - d}.`,
+        concepts: ["arith_absolute_value", "alg_linear_equations"],
+        skills: ["absolute_value_equations", "case_reasoning"],
+        patterns: ["distance_from_center", "two_solution_structure"],
+        misconceptions: ["one_solution_error", "sign_error"],
+        difficulty: 4,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "absolute_value_equation",
+        cognitiveTags: ["case_reasoning", "inverse_operations"],
+        hint1: "Absolute value describes distance from a center.",
+        hint2: "Set the inside equal to both the positive and negative distance.",
+        commonMistake: "Finding only the solution to x - h = d.",
+        variantIdea: "Use |ax - b| = c."
+      });
+    }
+  },
+  {
     prefix: "ca-quad",
     build: (i) => {
       const r1 = 1 + (i % 6);
@@ -201,6 +456,79 @@ const topics: Topic[] = [
     }
   },
   {
+    prefix: "ca-qvertex",
+    build: (i) => {
+      const h = 1 + (i % 6);
+      const k = -3 + (i % 7);
+      const answer = `(${h},${k})`;
+      const constant = h * h + k;
+      const b = -2 * h;
+      const middle = b < 0 ? `- ${Math.abs(b)}x` : `+ ${b}x`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 2.3 Quadratic Functions",
+        chapter: "college-algebra-03-quadratic-functions",
+        chapterTitle: "Quadratic Functions",
+        theme: "Quadratic Equations and Functions",
+        sequenceBase: 5340,
+        statement: `Find the vertex of y = x^2 ${middle} + ${constant}.`,
+        answer,
+        wrongs: [`(${-h},${k})`, `(${h},${constant})`, `(${b},${constant})`, `(${h},${-k})`],
+        solution: `Rewrite as y = (x - ${h})^2 + ${k}. Therefore the vertex is (${h}, ${k}).`,
+        concepts: ["alg_quadratics", "alg_functions"],
+        skills: ["vertex_form", "completing_square_pattern"],
+        patterns: ["quadratic_structure", "graph_feature_identification"],
+        misconceptions: ["vertex_sign_error", "constant_term_confusion"],
+        difficulty: 5,
+        layer: "Honors",
+        stage: "Algebra Readiness",
+        problemType: "quadratic_graphing",
+        cognitiveTags: ["structure_recognition", "coordinate_reasoning"],
+        hint1: "Look for the completed-square form.",
+        hint2: "In (x - h)^2 + k, the vertex is (h, k).",
+        commonMistake: "Using the sign inside the parentheses without reversing it.",
+        variantIdea: "Ask for the axis of symmetry."
+      });
+    }
+  },
+  {
+    prefix: "ca-ineq",
+    build: (i) => {
+      const a = 2 + (i % 5);
+      const x = 3 + (i % 8);
+      const b = 1 + (i % 6);
+      const rhs = a * x + b;
+      const answer = `x<${x}`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 2.4 Inequalities with Absolute Value and Quadratic Functions",
+        chapter: "college-algebra-07-inequalities",
+        chapterTitle: "Linear and Quadratic Inequalities",
+        theme: "Inequalities and Algebraic Reasoning",
+        sequenceBase: 5380,
+        statement: `Solve ${a}x + ${b} < ${rhs}.`,
+        answer,
+        wrongs: [`x>${x}`, `x<${rhs - b}`, `x<${x + b}`, `x=${x}`],
+        solution: `Subtract ${b}: ${a}x < ${rhs - b}. Divide by ${a}: x < ${x}.`,
+        concepts: ["alg_linear_inequalities", "alg_linear_equations"],
+        skills: ["linear_inequality_solving", "inverse_operations"],
+        patterns: ["inequality_isolation", "interval_reasoning"],
+        misconceptions: ["equation_inequality_confusion", "inverse_operation_order_error"],
+        difficulty: 4,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "inequality_solving",
+        cognitiveTags: ["inverse_operations", "symbolic_fluency"],
+        hint1: "Solve like a linear equation while keeping the inequality sign.",
+        hint2: "Subtract the constant, then divide by the coefficient.",
+        commonMistake: "Reporting only the boundary value instead of the inequality.",
+        variantIdea: "Use a negative coefficient and reverse the inequality sign."
+      });
+    }
+  },
+  {
     prefix: "ca-poly",
     build: (i) => {
       const r = 1 + (i % 7);
@@ -231,6 +559,78 @@ const topics: Topic[] = [
         hint2: "Substitute the proposed x-value into the polynomial.",
         commonMistake: "Treating the x-value itself as the function value.",
         variantIdea: "Ask for all integer zeros from a short candidate list."
+      });
+    }
+  },
+  {
+    prefix: "ca-factor",
+    build: (i) => {
+      const r1 = 2 + (i % 6);
+      const r2 = r1 + 1 + (i % 5);
+      const b = r1 + r2;
+      const c = r1 * r2;
+      const answer = `(x+${r1})(x+${r2})`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 3.2 The Factor Theorem and Factoring",
+        chapter: "college-algebra-04-polynomial-structure",
+        chapterTitle: "Polynomial Structure",
+        theme: "Polynomials and Factoring",
+        sequenceBase: 5440,
+        statement: `Factor x^2 + ${b}x + ${c}.`,
+        answer,
+        wrongs: [`(x-${r1})(x-${r2})`, `(x+${b})(x+${c})`, `(x+${r1})(x-${r2})`, `x(x+${b})+${c}`],
+        solution: `Find two numbers that multiply to ${c} and add to ${b}: ${r1} and ${r2}. So the factorization is ${answer}.`,
+        concepts: ["alg_factoring", "alg_quadratics"],
+        skills: ["quadratic_factorization", "factor_pair_reasoning"],
+        patterns: ["trinomial_factor_pattern", "polynomial_structure"],
+        misconceptions: ["factor_pair_error", "sign_error"],
+        difficulty: 4,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "factoring",
+        cognitiveTags: ["factor_structure", "structure_recognition"],
+        hint1: "Look for two numbers that multiply to the constant.",
+        hint2: "Those same numbers must add to the coefficient of x.",
+        commonMistake: "Using the product and sum as the two factors.",
+        variantIdea: "Use a negative middle term."
+      });
+    }
+  },
+  {
+    prefix: "ca-system",
+    build: (i) => {
+      const x = 1 + (i % 8);
+      const y = 2 + (i % 7);
+      const sum = x + y;
+      const diff = x - y;
+      const answer = `(${x},${y})`;
+      return baseDraft({
+        sourceCollection: COLLEGE_SOURCE,
+        sourceFile: "local-pdf: College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+        sourceSection: "College Algebra 8.1 Systems of Linear Equations",
+        chapter: "college-algebra-08-systems",
+        chapterTitle: "Systems of Linear Equations",
+        theme: "Systems and Algebraic Modeling",
+        sequenceBase: 5480,
+        statement: `Solve the system x + y = ${sum} and x - y = ${diff}.`,
+        answer,
+        wrongs: [`(${y},${x})`, `(${sum},${diff})`, `(${x + y},${x - y})`, `(${-x},${-y})`],
+        solution: `Add the equations: 2x = ${sum + diff}, so x = ${x}. Then y = ${sum} - ${x} = ${y}.`,
+        concepts: ["alg_systems", "alg_linear_equations"],
+        skills: ["systems_elimination", "linear_equation_solving"],
+        patterns: ["equation_combination", "two_variable_reasoning"],
+        misconceptions: ["variable_swap_error", "elimination_error"],
+        difficulty: 5,
+        layer: "Honors",
+        stage: "Algebra Readiness",
+        problemType: "systems_solving",
+        cognitiveTags: ["multi_step_planning", "operation_selection"],
+        hint1: "Add the two equations to eliminate y.",
+        hint2: "After finding x, substitute back to find y.",
+        commonMistake: "Treating the two right sides as the solution pair.",
+        variantIdea: "Use coefficients other than 1 and -1."
       });
     }
   },
@@ -380,11 +780,16 @@ const topics: Topic[] = [
 ];
 
 function main() {
+  const requestedSource = readSourceArg();
+  const activeTopics = topics.filter((topic) => {
+    const sample = topic.build(0);
+    return requestedSource === "all" || sample.sourceCollection === requestedSource;
+  });
   const problems: GeneratedProblem[] = [];
   const distractors: DistractorRow[] = [];
   const explanations: ExplanationRow[] = [];
 
-  topics.forEach((topic, topicIndex) => {
+  activeTopics.forEach((topic, topicIndex) => {
     for (let variant = 0; variant < PROBLEMS_PER_TOPIC; variant += 1) {
       const draft = topic.build(variant);
       const sourcePrefix = draft.sourceCollection === COLLEGE_SOURCE ? "college_alg" : "eng_math";
@@ -400,8 +805,10 @@ function main() {
   fs.mkdirSync(ENGINEERS_DIR, { recursive: true });
   fs.mkdirSync(STAGING_DIR, { recursive: true });
 
-  writeDataset(COLLEGE_DIR, COLLEGE_SOURCE, COLLEGE_LOCAL_PDF, problems.filter((problem) => problem.source_collection === COLLEGE_SOURCE));
-  writeDataset(ENGINEERS_DIR, ENGINEERS_SOURCE, ENGINEERS_LOCAL_PDF, problems.filter((problem) => problem.source_collection === ENGINEERS_SOURCE));
+  const collegeProblems = problems.filter((problem) => problem.source_collection === COLLEGE_SOURCE);
+  const engineersProblems = problems.filter((problem) => problem.source_collection === ENGINEERS_SOURCE);
+  if (collegeProblems.length > 0) writeDataset(COLLEGE_DIR, COLLEGE_SOURCE, COLLEGE_LOCAL_PDF, collegeProblems);
+  if (engineersProblems.length > 0) writeDataset(ENGINEERS_DIR, ENGINEERS_SOURCE, ENGINEERS_LOCAL_PDF, engineersProblems);
   fs.writeFileSync(path.join(STAGING_DIR, "problem_staging.csv"), toCsv(problems));
   fs.writeFileSync(path.join(STAGING_DIR, "distractors.csv"), toCsv(distractors));
   fs.writeFileSync(path.join(STAGING_DIR, "example_explanations.csv"), toCsv(explanations));
@@ -411,6 +818,19 @@ function main() {
   console.log(`- ${ENGINEERS_SOURCE}: ${problems.filter((problem) => problem.source_collection === ENGINEERS_SOURCE).length}`);
   console.log(`Distractors: ${distractors.length}`);
   console.log(`Explanations: ${explanations.length}`);
+}
+
+function readSourceArg() {
+  const source = readArg("--source");
+  if (!source || source === "all") return "all";
+  if (source === "college") return COLLEGE_SOURCE;
+  if (source === "engineers") return ENGINEERS_SOURCE;
+  throw new Error(`Unknown --source ${source}. Use all, college, or engineers.`);
+}
+
+function readArg(name: string) {
+  const index = process.argv.indexOf(name);
+  return index >= 0 ? process.argv[index + 1] : undefined;
 }
 
 function mapDraft(id: string, draft: ProblemDraft, topicIndex: number, variant: number) {
