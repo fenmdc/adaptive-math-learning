@@ -35,6 +35,7 @@ function main() {
   console.log(`- Diagnostic slots: ${report.diagnosticGate.selectedSlots}/${report.diagnosticGate.totalSlots}`);
   console.log(`- Source collections: ${report.sourceCollections.length}`);
   console.log(`- Staging rows: ${report.staging.problemRows}`);
+  console.log(`- Import readiness: ${report.importReadiness.status}`);
   console.log(`- Report: ${path.relative(process.cwd(), REPORT_PATH)}`);
   console.log(`- Warnings: ${report.status === "Ready" ? 0 : report.nextActions.length}`);
   console.log(`- Errors: ${report.status === "Needs Repair" ? 1 : 0}`);
@@ -60,8 +61,20 @@ Generated at: ${report.generatedAt}
 - Remote assets: ${report.problemQuality.remoteAssets}
 - Thin chapters: ${report.problemQuality.thinChapters.length}
 - Thin concepts: ${report.problemQuality.thinConcepts.length}
+- Import readiness: ${report.importReadiness.status}
 
 ${report.summary}
+
+## Production Gates
+
+${report.gates.map((gate) => `- ${gate.label}: ${gate.status}, ${gate.score}/100. Target: ${gate.target}. ${gate.detail}`).join("\n")}
+
+## Next Batch Readiness
+
+- Status: ${report.importReadiness.status}
+- Ready: ${report.importReadiness.ready ? "yes" : "no"}
+
+${report.importReadiness.checklist.map((item) => `- ${item.passed ? "pass" : "hold"}: ${item.label}. ${item.detail}`).join("\n")}
 
 ## Diagnostic Gate
 
@@ -78,7 +91,7 @@ ${report.diagnosticGate.stageCoverage.map((stage) => `- ${stage.stage}: ${stage.
 
 ## Source Collections
 
-${report.sourceCollections.map((source) => `- ${source.sourceCollection}: ${source.problems} problem(s), ${source.chapterCount} chapter(s), ${source.autoGradableRate}% auto-gradable, ${source.explanationRate}% explained`).join("\n")}
+${report.sourceCollections.map((source) => `- ${source.sourceCollection}: ${source.status}, ${source.problems} problem(s), ${source.chapterCount} chapter(s), ${source.autoGradableRate}% auto-gradable, ${source.explanationRate}% explained, ${source.distractorCoverageRate}% distractors, ${source.localAssetRate}% local assets`).join("\n")}
 
 ## Next Actions
 

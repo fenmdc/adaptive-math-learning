@@ -121,12 +121,14 @@ function ContentPipelinePanel({
 }: {
   pipeline: ReturnType<typeof buildContentPipelineReport>;
 }) {
+  const readyGates = pipeline.gates.filter((gate) => gate.status === "ready").length;
+
   return (
     <div className="content-pipeline-panel">
       <div className="summary-header">
         <div>
-          <p className="eyebrow">Content Pipeline v1</p>
-          <h3 className="panel-title">Source, quality, and diagnostic gates</h3>
+          <p className="eyebrow">Content Pipeline v1.5</p>
+          <h3 className="panel-title">Production gates and next-batch readiness</h3>
           <p className="muted">{pipeline.summary}</p>
         </div>
         <div className={`summary-score pipeline-status-${pipeline.status.toLowerCase().replace(/\s+/g, "-")}`}>
@@ -135,10 +137,60 @@ function ContentPipelinePanel({
       </div>
       <div className="graph-stat-grid">
         <CoverageStat label="Pipeline" value={pipeline.status} />
+        <CoverageStat label="Gates Ready" value={`${readyGates}/${pipeline.gates.length}`} />
         <CoverageStat label="Diagnostic Slots" value={`${pipeline.diagnosticGate.selectedSlots}/${pipeline.diagnosticGate.totalSlots}`} />
         <CoverageStat label="Sources" value={String(pipeline.sourceCollections.length)} />
         <CoverageStat label="Staging" value={String(pipeline.staging.problemRows)} />
       </div>
+
+      <div className="pipeline-gate-grid">
+        {pipeline.gates.map((gate) => (
+          <div className={`pipeline-gate-card pipeline-gate-${gate.status}`} key={gate.key}>
+            <div className="pipeline-gate-head">
+              <span>{gate.label}</span>
+              <strong>{gate.score}</strong>
+            </div>
+            <p>{gate.detail}</p>
+            <em>{gate.target}</em>
+          </div>
+        ))}
+      </div>
+
+      <div className="pipeline-readiness-panel">
+        <div>
+          <span className={`pipeline-readiness-badge pipeline-readiness-${pipeline.importReadiness.ready ? "ready" : "hold"}`}>
+            {pipeline.importReadiness.status}
+          </span>
+          <h4>Next source batch checklist</h4>
+        </div>
+        <div className="pipeline-checklist">
+          {pipeline.importReadiness.checklist.map((item) => (
+            <div className={`pipeline-check-item ${item.passed ? "pipeline-check-pass" : "pipeline-check-hold"}`} key={item.label}>
+              <strong>{item.passed ? "Pass" : "Hold"}</strong>
+              <span>{item.label}</span>
+              <p>{item.detail}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="pipeline-source-list">
+        {pipeline.sourceCollections.slice(0, 6).map((source) => (
+          <div className={`pipeline-source-row pipeline-source-${source.status}`} key={source.sourceCollection}>
+            <div>
+              <strong>{source.sourceCollection.replace(/_/g, " ")}</strong>
+              <span>{source.problems} problems · {source.chapterCount} chapters · {source.stageCount} stages</span>
+            </div>
+            <div className="pipeline-source-metrics">
+              <span>{source.autoGradableRate}% auto</span>
+              <span>{source.explanationRate}% notes</span>
+              <span>{source.distractorCoverageRate}% choices</span>
+              <span>{source.localAssetRate}% local</span>
+            </div>
+          </div>
+        ))}
+      </div>
+
       <div className="quality-action-grid">
         {pipeline.nextActions.slice(0, 3).map((action) => (
           <div className={`quality-action-card quality-priority-${action.priority}`} key={action.title}>

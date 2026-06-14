@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "rm -rf apps/web/.next && next build apps/web",
+    "build": "ts-node scripts/build-web.ts",
     "dev": "next dev apps/web --port 3017",
     "simulate": "ts-node packages/simulation/src/index.ts",
     "archive:staging": "ts-node scripts/archive-staging-batch.ts",

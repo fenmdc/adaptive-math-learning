@@ -1,6 +1,6 @@
 # Content Pipeline v1 Report
 
-Generated at: 2026-06-13T16:19:00.003Z
+Generated at: 2026-06-14T08:56:31.483Z
 
 ## Summary
 
@@ -15,8 +15,31 @@ Generated at: 2026-06-13T16:19:00.003Z
 - Remote assets: 0
 - Thin chapters: 0
 - Thin concepts: 0
+- Import readiness: Ready for next batch
 
-Ready: pipeline readiness 99/100, problem quality 99/100, diagnostic slots 22/22, staging rows 0.
+Ready: pipeline readiness 99/100, problem quality 99/100, diagnostic slots 22/22, staging rows 0, import status Ready for next batch.
+
+## Production Gates
+
+- Auto-Gradability: ready, 100/100. Target: 100% auto-checkable. 3412/3412 active problems are auto-gradable.
+- Multiple Choice Keys: ready, 100/100. Target: 100% answer included in choices. 3105/3105 multiple-choice problems include the normalized correct answer.
+- Distractor Coverage: ready, 100/100. Target: 100% wrong choices explained. 3105/3105 multiple-choice problems have full distractor coverage.
+- Explanation Quality: ready, 96/100. Target: 95+/100 average quality. 3412/3412 explanations are complete.
+- Offline Asset Locality: ready, 100/100. Target: 100% local image assets. 0 remote asset(s) remain.
+- Chapter Coverage Floor: ready, 100/100. Target: 20+ problems per chapter. 0/73 chapter(s) are below the coverage floor.
+- Concept Coverage Floor: ready, 100/100. Target: 5+ problems per concept. 0/50 concept(s) are below the coverage floor.
+- Diagnostic Calibration: ready, 100/100. Target: All calibrated slots filled. 22/22 diagnostic slots selected.
+- Staging Hygiene: ready, 100/100. Target: 0 active rows after promotion. 0 problem row(s), 0 distractor row(s), and 0 explanation row(s) are currently staged.
+
+## Next Batch Readiness
+
+- Status: Ready for next batch
+- Ready: yes
+
+- pass: Active staging is clean. 0 problem row(s) are waiting in active staging.
+- pass: No repair-level production gates. All required gates are watch or ready.
+- pass: Diagnostic remains calibrated. 22/22 diagnostic slots selected.
+- pass: Explanations and distractors are production-ready. Practice feedback quality should remain complete before adding more source rows.
 
 ## Diagnostic Gate
 
@@ -36,14 +59,14 @@ Ready: pipeline readiness 99/100, problem quality 99/100, diagnostic slots 22/22
 
 ## Source Collections
 
-- aops_prealgebra_textbook: 1120 problem(s), 28 chapter(s), 100% auto-gradable, 100% explained
-- ise_developmental_math_2e: 1040 problem(s), 23 chapter(s), 100% auto-gradable, 100% explained
-- amc8_past_papers_bulk: 875 problem(s), 6 chapter(s), 100% auto-gradable, 100% explained
-- quality_backfill_v1: 195 problem(s), 17 chapter(s), 100% auto-gradable, 100% explained
-- amc8_seed: 75 problem(s), 1 chapter(s), 100% auto-gradable, 100% explained
-- amc8_past_papers: 50 problem(s), 6 chapter(s), 100% auto-gradable, 100% explained
-- local_seed_from_imo_folder: 32 problem(s), 8 chapter(s), 100% auto-gradable, 100% explained
-- seed: 25 problem(s), 1 chapter(s), 100% auto-gradable, 100% explained
+- aops_prealgebra_textbook: ready, 1120 problem(s), 28 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- ise_developmental_math_2e: ready, 1040 problem(s), 23 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- amc8_past_papers_bulk: ready, 875 problem(s), 6 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- quality_backfill_v1: ready, 195 problem(s), 17 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- amc8_seed: ready, 75 problem(s), 1 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- amc8_past_papers: ready, 50 problem(s), 6 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- local_seed_from_imo_folder: ready, 32 problem(s), 8 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
+- seed: ready, 25 problem(s), 1 chapter(s), 100% auto-gradable, 100% explained, 100% distractors, 100% local assets
 
 ## Next Actions
 

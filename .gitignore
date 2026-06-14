@@ -78,6 +78,7 @@ web_modules/
 # Next.js build output
 .next
 apps/**/.next
+apps/**/.next-build
 out
 
 # Deployment/local app metadata

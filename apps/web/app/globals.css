@@ -2241,6 +2241,204 @@ a {
   color: var(--aml-red);
 }
 
+.pipeline-gate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.pipeline-gate-card {
+  display: grid;
+  gap: 8px;
+  border: 1px solid var(--aml-border);
+  border-left: 5px solid var(--aml-blue);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pipeline-gate-ready {
+  border-left-color: var(--aml-green);
+}
+
+.pipeline-gate-watch {
+  border-left-color: var(--aml-gold);
+}
+
+.pipeline-gate-repair {
+  border-left-color: var(--aml-red);
+}
+
+.pipeline-gate-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pipeline-gate-head span {
+  color: var(--aml-ink);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.pipeline-gate-head strong {
+  color: var(--aml-blue-dark);
+  font-size: 20px;
+}
+
+.pipeline-gate-card p {
+  margin: 0;
+  color: var(--aml-ink-soft);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.pipeline-gate-card em {
+  color: var(--aml-teal);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pipeline-readiness-panel {
+  display: grid;
+  gap: 12px;
+  border: 1px solid rgba(17, 90, 140, 0.14);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.pipeline-readiness-panel h4 {
+  margin: 8px 0 0;
+  color: var(--aml-ink);
+  font-size: 18px;
+}
+
+.pipeline-readiness-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  border-radius: 999px;
+  padding: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pipeline-readiness-ready {
+  background: var(--aml-green-soft);
+  color: var(--aml-green);
+}
+
+.pipeline-readiness-hold {
+  background: var(--aml-gold-soft);
+  color: var(--aml-gold);
+}
+
+.pipeline-checklist {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.pipeline-check-item {
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 11px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pipeline-check-item strong {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: var(--aml-green);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.pipeline-check-hold strong {
+  color: var(--aml-gold);
+}
+
+.pipeline-check-item span {
+  display: block;
+  color: var(--aml-ink);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.pipeline-check-item p {
+  margin: 5px 0 0;
+  color: var(--aml-ink-soft);
+  font-size: 12px;
+  line-height: 1.38;
+}
+
+.pipeline-source-list {
+  display: grid;
+  gap: 8px;
+}
+
+.pipeline-source-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid var(--aml-border);
+  border-left: 4px solid var(--aml-green);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pipeline-source-watch {
+  border-left-color: var(--aml-gold);
+}
+
+.pipeline-source-repair {
+  border-left-color: var(--aml-red);
+}
+
+.pipeline-source-row strong,
+.pipeline-source-row span {
+  display: block;
+}
+
+.pipeline-source-row strong {
+  color: var(--aml-ink);
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.pipeline-source-row span {
+  color: var(--aml-ink-soft);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.pipeline-source-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.pipeline-source-metrics span {
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: #eef5f9;
+  color: var(--aml-blue-dark);
+  font-size: 11px;
+  font-weight: 800;
+}
+
 .quality-action-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -2600,6 +2798,8 @@ a {
   .recommended-task-grid,
   .quality-action-grid,
   .quality-backlog-grid,
+  .pipeline-gate-grid,
+  .pipeline-checklist,
   .graph-stat-grid,
   .mvp-coverage-grid,
   .coverage-split-grid,
@@ -2648,9 +2848,14 @@ a {
   }
 
   .recommended-task-head,
-  .explanation-batch-head {
+  .explanation-batch-head,
+  .pipeline-source-row {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .pipeline-source-metrics {
+    justify-content: flex-start;
   }
 
   .explanation-batch-score {
