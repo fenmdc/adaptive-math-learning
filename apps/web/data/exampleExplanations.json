@@ -30334,5 +30334,1285 @@
     "commonMistake": "Treating the two right sides as the solution pair.",
     "whyCorrect": "The correct answer is (4,7) because Add the equations: 2x = 8, so x = 4. Then y = 11 - 4 = 7.",
     "variantIdea": "Use coefficients other than 1 and -1."
+  },
+  "eng_math_units_001": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 120 cm = 120/100 = 1.2 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 1.2 because There are 100 cm in 1 metre, so 120 cm = 120/100 = 1.2 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_002": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 135 cm = 135/100 = 1.35 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 1.35 because There are 100 cm in 1 metre, so 135 cm = 135/100 = 1.35 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_003": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 150 cm = 150/100 = 1.5 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 1.5 because There are 100 cm in 1 metre, so 150 cm = 150/100 = 1.5 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_004": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 165 cm = 165/100 = 1.65 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 1.65 because There are 100 cm in 1 metre, so 165 cm = 165/100 = 1.65 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_005": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 180 cm = 180/100 = 1.8 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 1.8 because There are 100 cm in 1 metre, so 180 cm = 180/100 = 1.8 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_006": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 195 cm = 195/100 = 1.95 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 1.95 because There are 100 cm in 1 metre, so 195 cm = 195/100 = 1.95 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_007": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 210 cm = 210/100 = 2.1 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 2.1 because There are 100 cm in 1 metre, so 210 cm = 210/100 = 2.1 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_008": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 225 cm = 225/100 = 2.25 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 2.25 because There are 100 cm in 1 metre, so 225 cm = 225/100 = 2.25 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_009": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 240 cm = 240/100 = 2.4 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 2.4 because There are 100 cm in 1 metre, so 240 cm = 240/100 = 2.4 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_010": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 255 cm = 255/100 = 2.55 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 2.55 because There are 100 cm in 1 metre, so 255 cm = 255/100 = 2.55 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_011": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 270 cm = 270/100 = 2.7 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 2.7 because There are 100 cm in 1 metre, so 270 cm = 270/100 = 2.7 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_012": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 285 cm = 285/100 = 2.85 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 2.85 because There are 100 cm in 1 metre, so 285 cm = 285/100 = 2.85 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_013": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 300 cm = 300/100 = 3 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3 because There are 100 cm in 1 metre, so 300 cm = 300/100 = 3 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_014": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 315 cm = 315/100 = 3.15 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3.15 because There are 100 cm in 1 metre, so 315 cm = 315/100 = 3.15 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_015": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 330 cm = 330/100 = 3.3 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3.3 because There are 100 cm in 1 metre, so 330 cm = 330/100 = 3.3 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_016": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 345 cm = 345/100 = 3.45 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3.45 because There are 100 cm in 1 metre, so 345 cm = 345/100 = 3.45 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_017": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 360 cm = 360/100 = 3.6 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3.6 because There are 100 cm in 1 metre, so 360 cm = 360/100 = 3.6 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_018": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 375 cm = 375/100 = 3.75 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3.75 because There are 100 cm in 1 metre, so 375 cm = 375/100 = 3.75 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_019": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 390 cm = 390/100 = 3.9 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 3.9 because There are 100 cm in 1 metre, so 390 cm = 390/100 = 3.9 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_units_020": {
+    "hint1": "Decide whether centimetres are smaller or larger than metres.",
+    "hint2": "Divide by 100 to convert centimetres to metres.",
+    "stepByStep": "There are 100 cm in 1 metre, so 405 cm = 405/100 = 4.05 m.",
+    "commonMistake": "Multiplying by 100 instead of dividing by 100.",
+    "whyCorrect": "The correct answer is 4.05 because There are 100 cm in 1 metre, so 405 cm = 405/100 = 4.05 m.",
+    "variantIdea": "Convert millimetres to metres before substituting into a formula."
+  },
+  "eng_math_prefix_001": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 2 kOhm = 2 x 1000 = 2000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 2000 because The prefix kilo means 1000. Therefore 2 kOhm = 2 x 1000 = 2000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_002": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 3.5 kOhm = 3.5 x 1000 = 3500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 3500 because The prefix kilo means 1000. Therefore 3.5 kOhm = 3.5 x 1000 = 3500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_003": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 4 kOhm = 4 x 1000 = 4000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 4000 because The prefix kilo means 1000. Therefore 4 kOhm = 4 x 1000 = 4000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_004": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 5.5 kOhm = 5.5 x 1000 = 5500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 5500 because The prefix kilo means 1000. Therefore 5.5 kOhm = 5.5 x 1000 = 5500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_005": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 6 kOhm = 6 x 1000 = 6000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 6000 because The prefix kilo means 1000. Therefore 6 kOhm = 6 x 1000 = 6000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_006": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 7.5 kOhm = 7.5 x 1000 = 7500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 7500 because The prefix kilo means 1000. Therefore 7.5 kOhm = 7.5 x 1000 = 7500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_007": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 8 kOhm = 8 x 1000 = 8000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 8000 because The prefix kilo means 1000. Therefore 8 kOhm = 8 x 1000 = 8000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_008": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 9.5 kOhm = 9.5 x 1000 = 9500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 9500 because The prefix kilo means 1000. Therefore 9.5 kOhm = 9.5 x 1000 = 9500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_009": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 10 kOhm = 10 x 1000 = 10000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 10000 because The prefix kilo means 1000. Therefore 10 kOhm = 10 x 1000 = 10000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_010": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 2.5 kOhm = 2.5 x 1000 = 2500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 2500 because The prefix kilo means 1000. Therefore 2.5 kOhm = 2.5 x 1000 = 2500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_011": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 3 kOhm = 3 x 1000 = 3000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 3000 because The prefix kilo means 1000. Therefore 3 kOhm = 3 x 1000 = 3000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_012": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 4.5 kOhm = 4.5 x 1000 = 4500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 4500 because The prefix kilo means 1000. Therefore 4.5 kOhm = 4.5 x 1000 = 4500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_013": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 5 kOhm = 5 x 1000 = 5000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 5000 because The prefix kilo means 1000. Therefore 5 kOhm = 5 x 1000 = 5000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_014": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 6.5 kOhm = 6.5 x 1000 = 6500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 6500 because The prefix kilo means 1000. Therefore 6.5 kOhm = 6.5 x 1000 = 6500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_015": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 7 kOhm = 7 x 1000 = 7000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 7000 because The prefix kilo means 1000. Therefore 7 kOhm = 7 x 1000 = 7000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_016": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 8.5 kOhm = 8.5 x 1000 = 8500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 8500 because The prefix kilo means 1000. Therefore 8.5 kOhm = 8.5 x 1000 = 8500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_017": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 9 kOhm = 9 x 1000 = 9000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 9000 because The prefix kilo means 1000. Therefore 9 kOhm = 9 x 1000 = 9000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_018": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 10.5 kOhm = 10.5 x 1000 = 10500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 10500 because The prefix kilo means 1000. Therefore 10.5 kOhm = 10.5 x 1000 = 10500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_019": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 2 kOhm = 2 x 1000 = 2000 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 2000 because The prefix kilo means 1000. Therefore 2 kOhm = 2 x 1000 = 2000 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_prefix_020": {
+    "hint1": "Identify the multiplier for kilo.",
+    "hint2": "Multiply the kOhm value by 1000.",
+    "stepByStep": "The prefix kilo means 1000. Therefore 3.5 kOhm = 3.5 x 1000 = 3500 ohms.",
+    "commonMistake": "Treating kilo as 100 or 10 instead of 1000.",
+    "whyCorrect": "The correct answer is 3500 because The prefix kilo means 1000. Therefore 3.5 kOhm = 3.5 x 1000 = 3500 ohms.",
+    "variantIdea": "Use milli or micro and ask for the base unit."
+  },
+  "eng_math_sci_001": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 2000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 2000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 2000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_002": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 30000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 30000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 30000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_003": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 400000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 400000 because Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 400000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_004": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 5000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 5000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 5000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_005": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 60000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 60000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 60000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_006": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 700000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 700000 because Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 700000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_007": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 8000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 8000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 8000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_008": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 90000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 90000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 90000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_009": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 200000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 200000 because Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 200000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_010": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 3000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 3000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 3000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_011": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 40000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 40000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 40000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_012": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 500000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 500000 because Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 500000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_013": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 6000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 6000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 6000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_014": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 70000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 70000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 70000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_015": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 800000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 800000 because Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 800000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_016": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 9000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 9000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 9000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_017": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 20000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 20000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 20000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_018": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 300000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 300000 because Multiplying by 10^5 moves the decimal point 5 places to the right, so the value is 300000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_019": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 4000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 4000 because Multiplying by 10^3 moves the decimal point 3 places to the right, so the value is 4000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sci_020": {
+    "hint1": "10 raised to a power tells you how many places to move.",
+    "hint2": "A positive exponent moves the decimal point to the right.",
+    "stepByStep": "Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 50000.",
+    "commonMistake": "Multiplying the coefficient by the exponent instead of by a power of 10.",
+    "whyCorrect": "The correct answer is 50000 because Multiplying by 10^4 moves the decimal point 4 places to the right, so the value is 50000.",
+    "variantIdea": "Convert a small decimal into scientific notation."
+  },
+  "eng_math_sub_001": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 2 and R = 5: V = 2 x 5 = 10.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 10 because Substitute I = 2 and R = 5: V = 2 x 5 = 10.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_002": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 3 and R = 6: V = 3 x 6 = 18.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 18 because Substitute I = 3 and R = 6: V = 3 x 6 = 18.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_003": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 4 and R = 7: V = 4 x 7 = 28.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 28 because Substitute I = 4 and R = 7: V = 4 x 7 = 28.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_004": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 5 and R = 8: V = 5 x 8 = 40.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 40 because Substitute I = 5 and R = 8: V = 5 x 8 = 40.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_005": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 6 and R = 9: V = 6 x 9 = 54.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 54 because Substitute I = 6 and R = 9: V = 6 x 9 = 54.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_006": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 7 and R = 10: V = 7 x 10 = 70.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 70 because Substitute I = 7 and R = 10: V = 7 x 10 = 70.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_007": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 2 and R = 11: V = 2 x 11 = 22.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 22 because Substitute I = 2 and R = 11: V = 2 x 11 = 22.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_008": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 3 and R = 12: V = 3 x 12 = 36.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 36 because Substitute I = 3 and R = 12: V = 3 x 12 = 36.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_009": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 4 and R = 5: V = 4 x 5 = 20.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 20 because Substitute I = 4 and R = 5: V = 4 x 5 = 20.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_010": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 5 and R = 6: V = 5 x 6 = 30.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 30 because Substitute I = 5 and R = 6: V = 5 x 6 = 30.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_011": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 6 and R = 7: V = 6 x 7 = 42.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 42 because Substitute I = 6 and R = 7: V = 6 x 7 = 42.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_012": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 7 and R = 8: V = 7 x 8 = 56.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 56 because Substitute I = 7 and R = 8: V = 7 x 8 = 56.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_013": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 2 and R = 9: V = 2 x 9 = 18.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 18 because Substitute I = 2 and R = 9: V = 2 x 9 = 18.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_014": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 3 and R = 10: V = 3 x 10 = 30.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 30 because Substitute I = 3 and R = 10: V = 3 x 10 = 30.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_015": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 4 and R = 11: V = 4 x 11 = 44.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 44 because Substitute I = 4 and R = 11: V = 4 x 11 = 44.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_016": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 5 and R = 12: V = 5 x 12 = 60.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 60 because Substitute I = 5 and R = 12: V = 5 x 12 = 60.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_017": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 6 and R = 5: V = 6 x 5 = 30.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 30 because Substitute I = 6 and R = 5: V = 6 x 5 = 30.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_018": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 7 and R = 6: V = 7 x 6 = 42.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 42 because Substitute I = 7 and R = 6: V = 7 x 6 = 42.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_019": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 2 and R = 7: V = 2 x 7 = 14.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 14 because Substitute I = 2 and R = 7: V = 2 x 7 = 14.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_sub_020": {
+    "hint1": "Match each symbol in the formula with the given quantity.",
+    "hint2": "After substitution, multiply current by resistance.",
+    "stepByStep": "Substitute I = 3 and R = 8: V = 3 x 8 = 24.",
+    "commonMistake": "Adding the two quantities because both are listed in the prompt.",
+    "whyCorrect": "The correct answer is 24 because Substitute I = 3 and R = 8: V = 3 x 8 = 24.",
+    "variantIdea": "Use P = VI after finding V."
+  },
+  "eng_math_scale_001": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 4 m, so 3 cm represents 3 x 4 = 12 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 12 because Each centimetre represents 4 m, so 3 cm represents 3 x 4 = 12 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_002": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 5 m, so 4 cm represents 4 x 5 = 20 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 20 because Each centimetre represents 5 m, so 4 cm represents 4 x 5 = 20 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_003": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 6 m, so 5 cm represents 5 x 6 = 30 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 30 because Each centimetre represents 6 m, so 5 cm represents 5 x 6 = 30 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_004": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 7 m, so 6 cm represents 6 x 7 = 42 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 42 because Each centimetre represents 7 m, so 6 cm represents 6 x 7 = 42 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_005": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 8 m, so 7 cm represents 7 x 8 = 56 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 56 because Each centimetre represents 8 m, so 7 cm represents 7 x 8 = 56 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_006": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 9 m, so 8 cm represents 8 x 9 = 72 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 72 because Each centimetre represents 9 m, so 8 cm represents 8 x 9 = 72 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_007": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 4 m, so 9 cm represents 9 x 4 = 36 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 36 because Each centimetre represents 4 m, so 9 cm represents 9 x 4 = 36 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_008": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 5 m, so 10 cm represents 10 x 5 = 50 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 50 because Each centimetre represents 5 m, so 10 cm represents 10 x 5 = 50 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_009": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 6 m, so 3 cm represents 3 x 6 = 18 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 18 because Each centimetre represents 6 m, so 3 cm represents 3 x 6 = 18 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_010": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 7 m, so 4 cm represents 4 x 7 = 28 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 28 because Each centimetre represents 7 m, so 4 cm represents 4 x 7 = 28 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_011": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 8 m, so 5 cm represents 5 x 8 = 40 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 40 because Each centimetre represents 8 m, so 5 cm represents 5 x 8 = 40 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_012": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 9 m, so 6 cm represents 6 x 9 = 54 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 54 because Each centimetre represents 9 m, so 6 cm represents 6 x 9 = 54 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_013": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 4 m, so 7 cm represents 7 x 4 = 28 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 28 because Each centimetre represents 4 m, so 7 cm represents 7 x 4 = 28 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_014": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 5 m, so 8 cm represents 8 x 5 = 40 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 40 because Each centimetre represents 5 m, so 8 cm represents 8 x 5 = 40 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_015": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 6 m, so 9 cm represents 9 x 6 = 54 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 54 because Each centimetre represents 6 m, so 9 cm represents 9 x 6 = 54 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_016": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 7 m, so 10 cm represents 10 x 7 = 70 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 70 because Each centimetre represents 7 m, so 10 cm represents 10 x 7 = 70 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_017": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 8 m, so 3 cm represents 3 x 8 = 24 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 24 because Each centimetre represents 8 m, so 3 cm represents 3 x 8 = 24 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_018": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 9 m, so 4 cm represents 4 x 9 = 36 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 36 because Each centimetre represents 9 m, so 4 cm represents 4 x 9 = 36 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_019": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 4 m, so 5 cm represents 5 x 4 = 20 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 20 because Each centimetre represents 4 m, so 5 cm represents 5 x 4 = 20 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_scale_020": {
+    "hint1": "A drawing scale is a proportional relationship.",
+    "hint2": "Multiply the drawing length by the metres represented by each centimetre.",
+    "stepByStep": "Each centimetre represents 5 m, so 6 cm represents 6 x 5 = 30 m.",
+    "commonMistake": "Adding the scale number to the drawing length.",
+    "whyCorrect": "The correct answer is 30 because Each centimetre represents 5 m, so 6 cm represents 6 x 5 = 30 m.",
+    "variantIdea": "Give the actual length and ask for the drawing length."
+  },
+  "eng_math_rate_001": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 6 and t = 3: d = 6 x 3 = 18 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 18 because Use d = vt. Substitute v = 6 and t = 3: d = 6 x 3 = 18 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_002": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 7 and t = 4: d = 7 x 4 = 28 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 28 because Use d = vt. Substitute v = 7 and t = 4: d = 7 x 4 = 28 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_003": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 8 and t = 5: d = 8 x 5 = 40 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 40 because Use d = vt. Substitute v = 8 and t = 5: d = 8 x 5 = 40 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_004": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 9 and t = 6: d = 9 x 6 = 54 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 54 because Use d = vt. Substitute v = 9 and t = 6: d = 9 x 6 = 54 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_005": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 10 and t = 7: d = 10 x 7 = 70 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 70 because Use d = vt. Substitute v = 10 and t = 7: d = 10 x 7 = 70 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_006": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 11 and t = 3: d = 11 x 3 = 33 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 33 because Use d = vt. Substitute v = 11 and t = 3: d = 11 x 3 = 33 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_007": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 12 and t = 4: d = 12 x 4 = 48 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 48 because Use d = vt. Substitute v = 12 and t = 4: d = 12 x 4 = 48 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_008": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 6 and t = 5: d = 6 x 5 = 30 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 30 because Use d = vt. Substitute v = 6 and t = 5: d = 6 x 5 = 30 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_009": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 7 and t = 6: d = 7 x 6 = 42 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 42 because Use d = vt. Substitute v = 7 and t = 6: d = 7 x 6 = 42 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_010": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 8 and t = 7: d = 8 x 7 = 56 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 56 because Use d = vt. Substitute v = 8 and t = 7: d = 8 x 7 = 56 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_011": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 9 and t = 3: d = 9 x 3 = 27 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 27 because Use d = vt. Substitute v = 9 and t = 3: d = 9 x 3 = 27 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_012": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 10 and t = 4: d = 10 x 4 = 40 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 40 because Use d = vt. Substitute v = 10 and t = 4: d = 10 x 4 = 40 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_013": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 11 and t = 5: d = 11 x 5 = 55 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 55 because Use d = vt. Substitute v = 11 and t = 5: d = 11 x 5 = 55 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_014": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 12 and t = 6: d = 12 x 6 = 72 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 72 because Use d = vt. Substitute v = 12 and t = 6: d = 12 x 6 = 72 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_015": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 6 and t = 7: d = 6 x 7 = 42 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 42 because Use d = vt. Substitute v = 6 and t = 7: d = 6 x 7 = 42 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_016": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 7 and t = 3: d = 7 x 3 = 21 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 21 because Use d = vt. Substitute v = 7 and t = 3: d = 7 x 3 = 21 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_017": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 8 and t = 4: d = 8 x 4 = 32 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 32 because Use d = vt. Substitute v = 8 and t = 4: d = 8 x 4 = 32 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_018": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 9 and t = 5: d = 9 x 5 = 45 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 45 because Use d = vt. Substitute v = 9 and t = 5: d = 9 x 5 = 45 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_019": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 10 and t = 6: d = 10 x 6 = 60 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 60 because Use d = vt. Substitute v = 10 and t = 6: d = 10 x 6 = 60 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_rate_020": {
+    "hint1": "Identify the rate and the time.",
+    "hint2": "Distance equals rate multiplied by time.",
+    "stepByStep": "Use d = vt. Substitute v = 11 and t = 7: d = 11 x 7 = 77 m.",
+    "commonMistake": "Adding rate and time instead of using the multiplicative model.",
+    "whyCorrect": "The correct answer is 77 because Use d = vt. Substitute v = 11 and t = 7: d = 11 x 7 = 77 m.",
+    "variantIdea": "Give distance and rate, then ask for time."
+  },
+  "eng_math_linmodel_001": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 30 + 2 x 4 = 38 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 38 because The linear model is amount = initial amount + rate x time. So amount = 30 + 2 x 4 = 38 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_002": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 31 + 3 x 5 = 46 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 46 because The linear model is amount = initial amount + rate x time. So amount = 31 + 3 x 5 = 46 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_003": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 32 + 4 x 6 = 56 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 56 because The linear model is amount = initial amount + rate x time. So amount = 32 + 4 x 6 = 56 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_004": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 33 + 5 x 7 = 68 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 68 because The linear model is amount = initial amount + rate x time. So amount = 33 + 5 x 7 = 68 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_005": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 34 + 6 x 8 = 82 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 82 because The linear model is amount = initial amount + rate x time. So amount = 34 + 6 x 8 = 82 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_006": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 35 + 2 x 9 = 53 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 53 because The linear model is amount = initial amount + rate x time. So amount = 35 + 2 x 9 = 53 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_007": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 36 + 3 x 4 = 48 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 48 because The linear model is amount = initial amount + rate x time. So amount = 36 + 3 x 4 = 48 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_008": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 37 + 4 x 5 = 57 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 57 because The linear model is amount = initial amount + rate x time. So amount = 37 + 4 x 5 = 57 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_009": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 38 + 5 x 6 = 68 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 68 because The linear model is amount = initial amount + rate x time. So amount = 38 + 5 x 6 = 68 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_010": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 39 + 6 x 7 = 81 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 81 because The linear model is amount = initial amount + rate x time. So amount = 39 + 6 x 7 = 81 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_011": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 40 + 2 x 8 = 56 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 56 because The linear model is amount = initial amount + rate x time. So amount = 40 + 2 x 8 = 56 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_012": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 41 + 3 x 9 = 68 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 68 because The linear model is amount = initial amount + rate x time. So amount = 41 + 3 x 9 = 68 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_013": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 42 + 4 x 4 = 58 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 58 because The linear model is amount = initial amount + rate x time. So amount = 42 + 4 x 4 = 58 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_014": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 43 + 5 x 5 = 68 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 68 because The linear model is amount = initial amount + rate x time. So amount = 43 + 5 x 5 = 68 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_015": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 44 + 6 x 6 = 80 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 80 because The linear model is amount = initial amount + rate x time. So amount = 44 + 6 x 6 = 80 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_016": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 45 + 2 x 7 = 59 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 59 because The linear model is amount = initial amount + rate x time. So amount = 45 + 2 x 7 = 59 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_017": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 46 + 3 x 8 = 70 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 70 because The linear model is amount = initial amount + rate x time. So amount = 46 + 3 x 8 = 70 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_018": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 47 + 4 x 9 = 83 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 83 because The linear model is amount = initial amount + rate x time. So amount = 47 + 4 x 9 = 83 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_019": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 48 + 5 x 4 = 68 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 68 because The linear model is amount = initial amount + rate x time. So amount = 48 + 5 x 4 = 68 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_linmodel_020": {
+    "hint1": "Separate the starting amount from the amount added each minute.",
+    "hint2": "Multiply the rate by time, then add the initial amount.",
+    "stepByStep": "The linear model is amount = initial amount + rate x time. So amount = 49 + 6 x 5 = 79 L.",
+    "commonMistake": "Using only the rate-time product and forgetting the initial amount.",
+    "whyCorrect": "The correct answer is 79 because The linear model is amount = initial amount + rate x time. So amount = 49 + 6 x 5 = 79 L.",
+    "variantIdea": "Ask for the time needed to reach a target amount."
+  },
+  "eng_math_breakeven_001": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 20 + 3x = 8 + 5x. Then 12 = 2x, so x = 6.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 6 because Set the models equal: 20 + 3x = 8 + 5x. Then 12 = 2x, so x = 6.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_002": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 21 + 4x = 9 + 6x. Then 12 = 2x, so x = 6.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 6 because Set the models equal: 21 + 4x = 9 + 6x. Then 12 = 2x, so x = 6.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_003": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 24 + 5x = 10 + 7x. Then 14 = 2x, so x = 7.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 7 because Set the models equal: 24 + 5x = 10 + 7x. Then 14 = 2x, so x = 7.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_004": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 25 + 3x = 11 + 5x. Then 14 = 2x, so x = 7.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 7 because Set the models equal: 25 + 3x = 11 + 5x. Then 14 = 2x, so x = 7.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_005": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 28 + 4x = 12 + 6x. Then 16 = 2x, so x = 8.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 8 because Set the models equal: 28 + 4x = 12 + 6x. Then 16 = 2x, so x = 8.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_006": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 29 + 5x = 13 + 7x. Then 16 = 2x, so x = 8.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 8 because Set the models equal: 29 + 5x = 13 + 7x. Then 16 = 2x, so x = 8.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_007": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 32 + 3x = 14 + 5x. Then 18 = 2x, so x = 9.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 9 because Set the models equal: 32 + 3x = 14 + 5x. Then 18 = 2x, so x = 9.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_008": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 33 + 4x = 15 + 6x. Then 18 = 2x, so x = 9.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 9 because Set the models equal: 33 + 4x = 15 + 6x. Then 18 = 2x, so x = 9.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_009": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 36 + 5x = 16 + 7x. Then 20 = 2x, so x = 10.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 10 because Set the models equal: 36 + 5x = 16 + 7x. Then 20 = 2x, so x = 10.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_010": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 37 + 3x = 17 + 5x. Then 20 = 2x, so x = 10.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 10 because Set the models equal: 37 + 3x = 17 + 5x. Then 20 = 2x, so x = 10.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_011": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 40 + 4x = 18 + 6x. Then 22 = 2x, so x = 11.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 11 because Set the models equal: 40 + 4x = 18 + 6x. Then 22 = 2x, so x = 11.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_012": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 41 + 5x = 19 + 7x. Then 22 = 2x, so x = 11.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 11 because Set the models equal: 41 + 5x = 19 + 7x. Then 22 = 2x, so x = 11.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_013": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 44 + 3x = 20 + 5x. Then 24 = 2x, so x = 12.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 12 because Set the models equal: 44 + 3x = 20 + 5x. Then 24 = 2x, so x = 12.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_014": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 45 + 4x = 21 + 6x. Then 24 = 2x, so x = 12.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 12 because Set the models equal: 45 + 4x = 21 + 6x. Then 24 = 2x, so x = 12.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_015": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 48 + 5x = 22 + 7x. Then 26 = 2x, so x = 13.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 13 because Set the models equal: 48 + 5x = 22 + 7x. Then 26 = 2x, so x = 13.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_016": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 49 + 3x = 23 + 5x. Then 26 = 2x, so x = 13.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 13 because Set the models equal: 49 + 3x = 23 + 5x. Then 26 = 2x, so x = 13.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_017": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 52 + 4x = 24 + 6x. Then 28 = 2x, so x = 14.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 14 because Set the models equal: 52 + 4x = 24 + 6x. Then 28 = 2x, so x = 14.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_018": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 53 + 5x = 25 + 7x. Then 28 = 2x, so x = 14.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 14 because Set the models equal: 53 + 5x = 25 + 7x. Then 28 = 2x, so x = 14.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_019": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 56 + 3x = 26 + 5x. Then 30 = 2x, so x = 15.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 15 because Set the models equal: 56 + 3x = 26 + 5x. Then 30 = 2x, so x = 15.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
+  },
+  "eng_math_breakeven_020": {
+    "hint1": "Equal costs means set the two expressions equal.",
+    "hint2": "Move the x-terms to one side and constants to the other.",
+    "stepByStep": "Set the models equal: 57 + 4x = 27 + 6x. Then 30 = 2x, so x = 15.",
+    "commonMistake": "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+    "whyCorrect": "The correct answer is 15 because Set the models equal: 57 + 4x = 27 + 6x. Then 30 = 2x, so x = 15.",
+    "variantIdea": "Ask which machine is cheaper before and after the break-even time."
   }
 }

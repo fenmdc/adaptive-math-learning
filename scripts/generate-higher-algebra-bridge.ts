@@ -671,6 +671,282 @@ const topics: Topic[] = [
     }
   },
   {
+    prefix: "eng-units",
+    build: (i) => {
+      const cm = 120 + i * 15;
+      const answer = decimal(cm / 100);
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Foundation Review Units and Measurement",
+        chapter: "engineers-math-00-units-measurement",
+        chapterTitle: "Engineering Units and Measurement",
+        theme: "Engineering Foundation Modeling",
+        sequenceBase: 6000,
+        statement: `A component is ${cm} cm long. Express this length in metres.`,
+        answer,
+        wrongs: [cm * 100, cm / 10, cm + 100, decimal(cm / 1000)],
+        solution: `There are 100 cm in 1 metre, so ${cm} cm = ${cm}/100 = ${answer} m.`,
+        concepts: ["arith_decimals", "arith_ratios"],
+        skills: ["unit_conversion", "decimal_place_value"],
+        patterns: ["unit_scaling", "place_value_shift"],
+        misconceptions: ["scale_factor_error", "decimal_place_error"],
+        difficulty: 2,
+        layer: "Foundation",
+        stage: "Foundation",
+        problemType: "unit_conversion",
+        cognitiveTags: ["unit_conversion", "fluency_precision"],
+        hint1: "Decide whether centimetres are smaller or larger than metres.",
+        hint2: "Divide by 100 to convert centimetres to metres.",
+        commonMistake: "Multiplying by 100 instead of dividing by 100.",
+        variantIdea: "Convert millimetres to metres before substituting into a formula."
+      });
+    }
+  },
+  {
+    prefix: "eng-prefix",
+    build: (i) => {
+      const kiloValue = 2 + (i % 9);
+      const tenths = i % 2 === 0 ? 0 : 0.5;
+      const kOhm = kiloValue + tenths;
+      const answer = String(kOhm * 1000);
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Foundation Review SI Prefixes",
+        chapter: "engineers-math-00-units-measurement",
+        chapterTitle: "Engineering Units and Measurement",
+        theme: "Engineering Foundation Modeling",
+        sequenceBase: 6020,
+        statement: `A resistor is rated at ${kOhm} kOhm. Express the resistance in ohms.`,
+        answer,
+        wrongs: [String(kOhm * 100), String(kOhm / 1000), String(kOhm + 1000), String(kOhm * 10)],
+        solution: `The prefix kilo means 1000. Therefore ${kOhm} kOhm = ${kOhm} x 1000 = ${answer} ohms.`,
+        concepts: ["arith_decimals", "arith_ratios"],
+        skills: ["si_prefix_conversion", "decimal_scaling"],
+        patterns: ["unit_scaling", "multiplicative_reasoning"],
+        misconceptions: ["scale_factor_error", "decimal_place_error"],
+        difficulty: 2,
+        layer: "Foundation",
+        stage: "Foundation",
+        problemType: "si_prefix_conversion",
+        cognitiveTags: ["unit_conversion", "multiplicative_reasoning"],
+        hint1: "Identify the multiplier for kilo.",
+        hint2: "Multiply the kOhm value by 1000.",
+        commonMistake: "Treating kilo as 100 or 10 instead of 1000.",
+        variantIdea: "Use milli or micro and ask for the base unit."
+      });
+    }
+  },
+  {
+    prefix: "eng-sci",
+    build: (i) => {
+      const coefficient = 2 + (i % 8);
+      const exponent = 3 + (i % 3);
+      const answer = String(coefficient * 10 ** exponent);
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Foundation Review Standard Form",
+        chapter: "engineers-math-00-standard-form",
+        chapterTitle: "Standard Form and Engineering Notation",
+        theme: "Engineering Foundation Modeling",
+        sequenceBase: 6040,
+        statement: `Write ${coefficient} x 10^${exponent} as an ordinary number.`,
+        answer,
+        wrongs: [String(coefficient + exponent), String(coefficient * exponent), `${coefficient}.${"0".repeat(exponent)}`, String(coefficient * 10 ** (exponent - 1))],
+        solution: `Multiplying by 10^${exponent} moves the decimal point ${exponent} places to the right, so the value is ${answer}.`,
+        concepts: ["arith_exponents", "arith_decimals"],
+        skills: ["scientific_notation", "powers_of_ten"],
+        patterns: ["place_value_shift", "exponent_structure"],
+        misconceptions: ["exponent_as_multiplier_error", "decimal_place_error"],
+        difficulty: 3,
+        layer: "Foundation",
+        stage: "Bridge",
+        problemType: "scientific_notation",
+        cognitiveTags: ["place_value_reasoning", "structure_recognition"],
+        hint1: "10 raised to a power tells you how many places to move.",
+        hint2: "A positive exponent moves the decimal point to the right.",
+        commonMistake: "Multiplying the coefficient by the exponent instead of by a power of 10.",
+        variantIdea: "Convert a small decimal into scientific notation."
+      });
+    }
+  },
+  {
+    prefix: "eng-sub",
+    build: (i) => {
+      const current = 2 + (i % 6);
+      const resistance = 5 + (i % 8);
+      const answer = current * resistance;
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Chapter 5 Substitution into Formulae",
+        chapter: "engineers-math-01-formula-substitution",
+        chapterTitle: "Formula Substitution in Engineering Contexts",
+        theme: "Engineering Foundation Modeling",
+        sequenceBase: 6060,
+        statement: `Use V = IR to find V when I = ${current} A and R = ${resistance} ohms.`,
+        answer,
+        wrongs: [current + resistance, resistance - current, current * current + resistance, answer + current],
+        solution: `Substitute I = ${current} and R = ${resistance}: V = ${current} x ${resistance} = ${answer}.`,
+        concepts: ["prealg_substitution", "arith_natural_numbers"],
+        skills: ["formula_substitution", "multiplication_fluency"],
+        patterns: ["formula_input_mapping", "engineering_quantity_model"],
+        misconceptions: ["variable_meaning_error", "operation_selection_error"],
+        difficulty: 3,
+        layer: "Foundation",
+        stage: "Bridge",
+        problemType: "formula_substitution",
+        cognitiveTags: ["symbol_evaluation", "formula_selection"],
+        hint1: "Match each symbol in the formula with the given quantity.",
+        hint2: "After substitution, multiply current by resistance.",
+        commonMistake: "Adding the two quantities because both are listed in the prompt.",
+        variantIdea: "Use P = VI after finding V."
+      });
+    }
+  },
+  {
+    prefix: "eng-scale",
+    build: (i) => {
+      const scale = 4 + (i % 6);
+      const drawing = 3 + (i % 8);
+      const answer = scale * drawing;
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Foundation Review Ratio and Scale",
+        chapter: "engineers-math-04-proportionality",
+        chapterTitle: "Proportionality and Engineering Models",
+        theme: "Engineering Foundation Modeling",
+        sequenceBase: 6080,
+        statement: `On a technical drawing, 1 cm represents ${scale} m. What actual length is represented by ${drawing} cm?`,
+        answer,
+        wrongs: [scale + drawing, scale - drawing, drawing / scale, scale * drawing * 10],
+        solution: `Each centimetre represents ${scale} m, so ${drawing} cm represents ${drawing} x ${scale} = ${answer} m.`,
+        concepts: ["arith_proportions", "arith_ratios"],
+        skills: ["scale_factor_modeling", "proportional_reasoning"],
+        patterns: ["scale_model", "multiplicative_reasoning"],
+        misconceptions: ["additive_ratio_error", "scale_factor_error"],
+        difficulty: 3,
+        layer: "Standard",
+        stage: "Bridge",
+        problemType: "scale_modeling",
+        cognitiveTags: ["multiplicative_reasoning", "modeling_transfer"],
+        hint1: "A drawing scale is a proportional relationship.",
+        hint2: "Multiply the drawing length by the metres represented by each centimetre.",
+        commonMistake: "Adding the scale number to the drawing length.",
+        variantIdea: "Give the actual length and ask for the drawing length."
+      });
+    }
+  },
+  {
+    prefix: "eng-rate",
+    build: (i) => {
+      const speed = 6 + (i % 7);
+      const time = 3 + (i % 5);
+      const answer = speed * time;
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Foundation Review Rates and Formula Models",
+        chapter: "engineers-math-05-rate-models",
+        chapterTitle: "Rate Models and Engineering Quantities",
+        theme: "Engineering Algebra Foundations",
+        sequenceBase: 6420,
+        statement: `A conveyor moves at ${speed} m/min for ${time} minutes. Use d = vt to find the distance moved.`,
+        answer,
+        wrongs: [speed + time, speed - time, speed / time, answer + speed],
+        solution: `Use d = vt. Substitute v = ${speed} and t = ${time}: d = ${speed} x ${time} = ${answer} m.`,
+        concepts: ["arith_ratios", "prealg_word_to_equation", "alg_functions"],
+        skills: ["rate_modeling", "formula_substitution"],
+        patterns: ["rate_time_distance_model", "engineering_quantity_model"],
+        misconceptions: ["operation_selection_error", "unit_meaning_error"],
+        difficulty: 3,
+        layer: "Standard",
+        stage: "Bridge",
+        problemType: "rate_modeling",
+        cognitiveTags: ["formula_selection", "modeling_transfer"],
+        hint1: "Identify the rate and the time.",
+        hint2: "Distance equals rate multiplied by time.",
+        commonMistake: "Adding rate and time instead of using the multiplicative model.",
+        variantIdea: "Give distance and rate, then ask for time."
+      });
+    }
+  },
+  {
+    prefix: "eng-linmodel",
+    build: (i) => {
+      const initial = 30 + i;
+      const rate = 2 + (i % 5);
+      const minutes = 4 + (i % 6);
+      const answer = initial + rate * minutes;
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Chapter 7 Linear Models",
+        chapter: "engineers-math-06-linear-engineering-models",
+        chapterTitle: "Linear Engineering Models",
+        theme: "Engineering Algebra Modeling",
+        sequenceBase: 6460,
+        statement: `A tank starts with ${initial} L of water and fills at ${rate} L/min. How much water is in the tank after ${minutes} minutes?`,
+        answer,
+        wrongs: [initial + minutes, rate * minutes, initial * rate + minutes, answer - rate],
+        solution: `The linear model is amount = initial amount + rate x time. So amount = ${initial} + ${rate} x ${minutes} = ${answer} L.`,
+        concepts: ["alg_functions", "alg_linear_equations"],
+        skills: ["linear_modeling", "function_evaluation"],
+        patterns: ["initial_value_rate_model", "input_output_mapping"],
+        misconceptions: ["intercept_rate_confusion", "operation_selection_error"],
+        difficulty: 4,
+        layer: "Standard",
+        stage: "Algebra Readiness",
+        problemType: "engineering_linear_modeling",
+        cognitiveTags: ["modeling_transfer", "input_output_mapping"],
+        hint1: "Separate the starting amount from the amount added each minute.",
+        hint2: "Multiply the rate by time, then add the initial amount.",
+        commonMistake: "Using only the rate-time product and forgetting the initial amount.",
+        variantIdea: "Ask for the time needed to reach a target amount."
+      });
+    }
+  },
+  {
+    prefix: "eng-breakeven",
+    build: (i) => {
+      const fixedA = 20 + i * 2;
+      const fixedB = 8 + i;
+      const rateA = 3 + (i % 3);
+      const rateB = rateA + 2;
+      const answer = Math.floor((fixedA - fixedB) / (rateB - rateA));
+      const adjustedFixedA = fixedB + answer * (rateB - rateA);
+      return baseDraft({
+        sourceCollection: ENGINEERS_SOURCE,
+        sourceFile: "local-pdf: Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+        sourceSection: "Mathematics for Engineers Chapter 7 Simultaneous Equations and Engineering Models",
+        chapter: "engineers-math-07-systems-modeling",
+        chapterTitle: "Systems and Break-Even Engineering Models",
+        theme: "Engineering Algebra Modeling",
+        sequenceBase: 6500,
+        statement: `Machine A costs ${adjustedFixedA} + ${rateA}x dollars to run for x hours. Machine B costs ${fixedB} + ${rateB}x dollars. For how many hours are the costs equal?`,
+        answer,
+        wrongs: [adjustedFixedA - fixedB, rateB - rateA, answer + fixedB, answer + rateA],
+        solution: `Set the models equal: ${adjustedFixedA} + ${rateA}x = ${fixedB} + ${rateB}x. Then ${adjustedFixedA - fixedB} = ${rateB - rateA}x, so x = ${answer}.`,
+        concepts: ["alg_linear_equations", "alg_systems"],
+        skills: ["break_even_modeling", "linear_equation_solving"],
+        patterns: ["two_model_comparison", "equation_from_context"],
+        misconceptions: ["intercept_rate_confusion", "inverse_operation_order_error"],
+        difficulty: 5,
+        layer: "Honors",
+        stage: "Algebra Readiness",
+        problemType: "engineering_system_modeling",
+        cognitiveTags: ["multi_step_planning", "modeling_transfer"],
+        hint1: "Equal costs means set the two expressions equal.",
+        hint2: "Move the x-terms to one side and constants to the other.",
+        commonMistake: "Subtracting the two fixed costs and stopping before dividing by the rate difference.",
+        variantIdea: "Ask which machine is cheaper before and after the break-even time."
+      });
+    }
+  },
+  {
     prefix: "eng-linear",
     build: (i) => {
       const x = 2 + i;
@@ -890,6 +1166,10 @@ function baseDraft(input: Omit<ProblemDraft, "answer" | "wrongs"> & { answer: st
     answer: String(input.answer),
     wrongs: input.wrongs.map(String)
   };
+}
+
+function decimal(value: number) {
+  return Number.isInteger(value) ? String(value) : value.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
 }
 
 function buildChoices(answer: string, wrongs: string[], variant: number) {

@@ -2,6 +2,7 @@ import Link from "next/link";
 import problemsData from "../data/problems.json";
 import { Problem } from "../../../packages/adaptive-engine";
 import HomeLearningPlan from "./HomeLearningPlan";
+import { buildCollegeAlgebraLearningPath, type CollegeAlgebraPathNode } from "./shared/collegeAlgebraLearningPath";
 
 const problems = problemsData as Problem[];
 
@@ -23,6 +24,7 @@ type CourseSummary = {
 
 export default function HomePage() {
   const courses = buildCourseSummaries(problems);
+  const collegeAlgebraPath = buildCollegeAlgebraLearningPath(problems);
   const totalAutoGradable = problems.filter((problem) => problem.isAutoGradable).length;
   const totalConcepts = new Set(problems.flatMap((problem) => problem.concepts)).size;
 
@@ -60,6 +62,40 @@ export default function HomePage() {
         </section>
 
         <HomeLearningPlan />
+
+        <section className="panel full-panel college-path-panel">
+          <div className="college-path-head">
+            <div>
+              <p className="eyebrow">Chapter-Level Learning Path</p>
+              <h2 className="panel-title">College Algebra readiness: functions, polynomials, quadratics</h2>
+              <p className="muted">
+                {collegeAlgebraPath.totalNodes} focused nodes · {collegeAlgebraPath.totalProblems} auto-gradable practice items · ordered from bridge skills toward honors-level transfer.
+              </p>
+            </div>
+            <Link
+              className="button-secondary"
+              href="/practice?course=Algebra%201&stage=Algebra%20Readiness&autoGradableOnly=true"
+            >
+              Browse Algebra 1 readiness
+            </Link>
+          </div>
+
+          <div className="college-path-grid">
+            {collegeAlgebraPath.groups.map((group) => (
+              <div className="college-path-group" key={group.group}>
+                <div className="college-path-group-head">
+                  <h3>{group.group}</h3>
+                  <span>{group.problemCount} items</span>
+                </div>
+                <div className="college-path-node-list">
+                  {group.nodes.map((node) => (
+                    <CollegePathNodeLink key={node.id} node={node} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <section className="product-action-grid">
           <ProductAction
@@ -126,6 +162,36 @@ export default function HomePage() {
       </div>
     </main>
   );
+}
+
+function CollegePathNodeLink({ node }: { node: CollegeAlgebraPathNode }) {
+  return (
+    <Link className={`college-path-node college-path-node-${node.role}`} href={node.practiceHref}>
+      <div className="college-path-node-main">
+        <div className="college-path-node-kicker">
+          <span>{formatRole(node.role)}</span>
+          <span>{node.difficultyLabel}</span>
+          <span>{node.layerLabel}</span>
+        </div>
+        <h4>{node.title}</h4>
+        <p>{node.focus}</p>
+      </div>
+      <div className="college-path-node-meta">
+        <strong>{node.problemCount}</strong>
+        <span>{node.problemType.replace(/_/g, " ")}</span>
+      </div>
+      <div className="college-path-prereqs">
+        <span>Prereq</span>
+        <em>{node.prerequisiteTitles.slice(0, 2).join(" / ") || "None"}</em>
+      </div>
+    </Link>
+  );
+}
+
+function formatRole(role: CollegeAlgebraPathNode["role"]) {
+  if (role === "bridge") return "Bridge";
+  if (role === "honors") return "Honors";
+  return "Core";
 }
 
 function buildCourseSummaries(items: Problem[]): CourseSummary[] {

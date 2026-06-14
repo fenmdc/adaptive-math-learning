@@ -1,0 +1,101 @@
+[
+  {
+    "id": "ca-functions-relations-graphs",
+    "group": "Functions",
+    "title": "Relations and Graphs",
+    "focus": "Use ordered pairs and equations to decide whether a point belongs to a relation graph.",
+    "chapter": "college-algebra-01-relations-and-graphs",
+    "problemType": "relation_point_test",
+    "concepts": ["alg_graphing", "alg_functions"],
+    "prerequisites": ["ca-foundations-coordinate-plane"],
+    "role": "bridge"
+  },
+  {
+    "id": "ca-functions-evaluation",
+    "group": "Functions",
+    "title": "Function Notation and Evaluation",
+    "focus": "Substitute inputs into formulas and interpret f(x) notation reliably.",
+    "chapter": "college-algebra-01-functions",
+    "problemType": "function_evaluation",
+    "concepts": ["alg_functions", "prealg_substitution"],
+    "prerequisites": ["ca-functions-relations-graphs"],
+    "role": "core"
+  },
+  {
+    "id": "ca-functions-arithmetic",
+    "group": "Functions",
+    "title": "Function Arithmetic",
+    "focus": "Combine two functions and simplify the resulting expression at a chosen input.",
+    "chapter": "college-algebra-01-functions",
+    "problemType": "function_arithmetic",
+    "concepts": ["alg_functions", "prealg_simplification"],
+    "prerequisites": ["ca-functions-evaluation"],
+    "role": "core"
+  },
+  {
+    "id": "ca-functions-linear-modeling",
+    "group": "Functions",
+    "title": "Linear Function Modeling",
+    "focus": "Connect slope, intercepts, equations, and input-output reasoning in linear functions.",
+    "chapter": "college-algebra-02-linear-functions",
+    "problemType": "linear_function_modeling",
+    "concepts": ["alg_functions", "alg_graphing", "alg_linear_equations"],
+    "prerequisites": ["ca-functions-evaluation"],
+    "role": "core"
+  },
+  {
+    "id": "ca-functions-transformations",
+    "group": "Functions",
+    "title": "Function Transformations",
+    "focus": "Track horizontal and vertical shifts from symbolic rules to coordinate changes.",
+    "chapter": "college-algebra-05-transformations",
+    "problemType": "function_transformation",
+    "concepts": ["alg_functions", "alg_graphing"],
+    "prerequisites": ["ca-functions-linear-modeling", "ca-functions-arithmetic"],
+    "role": "honors"
+  },
+  {
+    "id": "ca-polynomials-zeros",
+    "group": "Polynomials",
+    "title": "Polynomial Zeros and Evaluation",
+    "focus": "Evaluate a polynomial at a candidate input and interpret whether that input is a zero.",
+    "chapter": "college-algebra-04-polynomial-structure",
+    "problemType": "polynomial_reasoning",
+    "concepts": ["alg_factoring", "alg_functions"],
+    "prerequisites": ["ca-functions-evaluation"],
+    "role": "core"
+  },
+  {
+    "id": "ca-polynomials-factoring",
+    "group": "Polynomials",
+    "title": "Factoring Structure",
+    "focus": "Recognize common quadratic factor patterns and select the matching factorization.",
+    "chapter": "college-algebra-04-polynomial-structure",
+    "problemType": "factoring",
+    "concepts": ["alg_factoring", "alg_quadratics"],
+    "prerequisites": ["ca-polynomials-zeros", "ca-functions-arithmetic"],
+    "role": "core"
+  },
+  {
+    "id": "ca-quadratics-solving",
+    "group": "Quadratics",
+    "title": "Quadratic Equations by Factoring",
+    "focus": "Factor a quadratic expression and use the zero-product property to solve equations.",
+    "chapter": "college-algebra-03-quadratic-functions",
+    "problemType": "quadratic_solving",
+    "concepts": ["alg_quadratics", "alg_factoring"],
+    "prerequisites": ["ca-functions-arithmetic", "ca-polynomials-factoring"],
+    "role": "core"
+  },
+  {
+    "id": "ca-quadratics-graphs",
+    "group": "Quadratics",
+    "title": "Quadratic Graphs and Vertices",
+    "focus": "Read vertex form and reason about the shape and position of a parabola.",
+    "chapter": "college-algebra-03-quadratic-functions",
+    "problemType": "quadratic_graphing",
+    "concepts": ["alg_quadratics", "alg_functions"],
+    "prerequisites": ["ca-quadratics-solving", "ca-functions-transformations"],
+    "role": "honors"
+  }
+]

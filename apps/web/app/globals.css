@@ -1280,6 +1280,178 @@ a {
   background: #eef5f9;
 }
 
+.college-path-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.college-path-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.college-path-head .muted {
+  max-width: 760px;
+}
+
+.college-path-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 14px;
+}
+
+.college-path-group {
+  min-width: 0;
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  background: #fbfefd;
+  overflow: hidden;
+}
+
+.college-path-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid rgba(17, 90, 140, 0.14);
+  padding: 12px 14px;
+  background: #fff;
+}
+
+.college-path-group-head h3 {
+  margin: 0;
+  color: var(--aml-ink);
+  font-size: 19px;
+}
+
+.college-path-group-head span {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: var(--aml-teal-soft);
+  color: var(--aml-teal);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.college-path-node-list {
+  display: grid;
+}
+
+.college-path-node {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 74px;
+  gap: 10px;
+  border-bottom: 1px solid rgba(17, 90, 140, 0.11);
+  padding: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.college-path-node:last-child {
+  border-bottom: 0;
+}
+
+.college-path-node:hover {
+  background: #fff;
+}
+
+.college-path-node-main {
+  min-width: 0;
+}
+
+.college-path-node-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.college-path-node-kicker span,
+.college-path-prereqs span {
+  border-radius: 999px;
+  padding: 4px 7px;
+  background: #eef5f9;
+  color: var(--aml-blue-dark);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.college-path-node-core .college-path-node-kicker span:first-child {
+  background: var(--aml-teal-soft);
+  color: var(--aml-teal);
+}
+
+.college-path-node-honors .college-path-node-kicker span:first-child {
+  background: var(--aml-gold-soft);
+  color: var(--aml-gold);
+}
+
+.college-path-node-bridge .college-path-node-kicker span:first-child {
+  background: var(--aml-green-soft);
+  color: var(--aml-green);
+}
+
+.college-path-node h4 {
+  margin: 0 0 6px;
+  color: var(--aml-ink);
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+.college-path-node p {
+  margin: 0;
+  color: var(--aml-ink-soft);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.college-path-node-meta {
+  align-self: start;
+  display: grid;
+  justify-items: end;
+  gap: 5px;
+  color: var(--aml-ink-soft);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.college-path-node-meta strong {
+  color: var(--aml-ink);
+  font-size: 26px;
+  line-height: 1;
+}
+
+.college-path-node-meta span {
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.25;
+  text-transform: capitalize;
+}
+
+.college-path-prereqs {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+
+.college-path-prereqs em {
+  min-width: 0;
+  color: var(--aml-ink-soft);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
 .learning-plan-card {
   display: flex;
   align-items: center;
@@ -2779,6 +2951,7 @@ a {
   .answer-form,
   .login-form,
   .learning-plan-card,
+  .college-path-head,
   .next-step-panel,
   .session-flow-main,
   .session-flow-actions,
@@ -2807,6 +2980,7 @@ a {
   .session-flow-grid,
   .quality-grid,
   .product-action-grid,
+  .college-path-grid,
   .chapter-grid,
   .summary-grid,
   .student-model-grid,
