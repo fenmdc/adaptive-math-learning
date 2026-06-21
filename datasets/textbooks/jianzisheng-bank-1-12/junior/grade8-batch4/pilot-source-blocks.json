@@ -1,0 +1,1663 @@
+[
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 222,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "能力提升“",
+    "text": "能力提升“\n用\n21. 解不等式: | zx十1 | 十 | z | <2.\n22. 解关于zx 的不等式:a (ax—-l)>ax-1.\n23. 解方程: | | zx一3 | 一2 | =a.\n24. 解方程:z:一2x一3一0.\n25. 设等腰三角形的一腰与底边分别是方程 zx:一6z十a=0 的两根,当这样的三角形只有\n一个时,求 a 的取值范围.\n26. z,y 都是自然数,求证:z?十>十1 和光十4z十3 的值不能同时是完全平方\n27. 已知方程 mx十(22 +1) a +1=0 ABO OR m 的取值范围\n217\nRit AE EAL BAAR” RBZ 4-Zawhe\n28. 4m 是什么整数时,关于 zx 的一元二次方程 mxz :一4z十4一0 与z一472《 十4722 一\n29. 已知关于 BY IE sx? —(m— 2) —\"—-=0,\n(1) iE: FCI m 取什么实数值 ,这个方程总有两个相异实根.\n(2) 若这个方程的两个实数根 zi or, 满足|z, |三|z|十2,求mm的值及相应的zi ry.\n“一-的值.\ncae uo     oo,         0一1\n30. 若实数 wb HH a? —8a+5=0,b°—8b+5=0. 求-一十?一\n(SSH) ie SS aS SS. HG SE\nRAR\n31. RAH x? — | 2z一1 | —4=0 WAR.\n32. 解方程一[zj]=2,其中[zj]是不超过 z 的最大整数.\n33. a 是实数,解方程zx | z十1 | 十<一0.\n34. 已知三角形中两角之和为2最大角比最小角大 24,求怀的取值范围\n35. 在1X3 的矩形内不重奏地放两个与大矩形相似的小矩形,且每个小矩形的每条边都\n相应地与大矩形的一条边平行,求两个小矩形周长和的最大值.\n218\nRiise CRA “MBER” RRL TAG.",
+    "id": "grade8_b0079",
+    "pageEnd": 224,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "解不等式: | zx十1 | 十 | z | <2.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "解关于zx 的不等式:a (ax—-l)>ax-1.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "解方程: | | zx一3 | 一2 | =a.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "解方程:z:一2x一3一0.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "设等腰三角形的一腰与底边分别是方程 zx:一6z十a=0 的两根,当这样的三角形只有 一个时,求 a 的取值范围.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "z,y 都是自然数,求证:z?十>十1 和光十4z十3 的值不能同时是完全平方",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "已知方程 mx十(22 +1) a +1=0 ABO OR m 的取值范围 217 Rit AE EAL BAAR” RBZ 4-Zawhe",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "4m 是什么整数时,关于 zx 的一元二次方程 mxz :一4z十4一0 与z一472《 十4722 一",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "已知关于 BY IE sx? —(m— 2) —\"—-=0, (1) iE: FCI m 取什么实数值 ,这个方程总有两个相异实根. (2) 若这个方程的两个实数根 zi or, 满足|z, |三|z|十2,求mm的值及相应的zi ry. “一-的值. cae uo oo, 0一1",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "若实数 wb HH a? —8a+5=0,b°—8b+5=0. 求-一十?一 (SSH) ie SS aS SS. HG SE RAR",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "31",
+        "prompt": "RAH x? — | 2z一1 | —4=0 WAR.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "解方程一[zj]=2,其中[zj]是不超过 z 的最大整数.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "a 是实数,解方程zx | z十1 | 十<一0.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "已知三角形中两角之和为2最大角比最小角大 24,求怀的取值范围",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "35",
+        "prompt": "在1X3 的矩形内不重奏地放两个与大矩形相似的小矩形,且每个小矩形的每条边都 相应地与大矩形的一条边平行,求两个小矩形周长和的最大值. 218 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 255,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "unknown",
+    "rawHeading": "第 13 讲",
+    "text": "第 13 讲\nLA    2. B    3.C    4. B    5.D    6. D    7A    8. D    9. A    10. A\n8\n11. 41    12. 40    13. |!    14, 8.5    15. 7    16. 88.6    17.4    18. Z\n19. (1) 这次调查中同学们调查的总人数为 20二10%%王200(人);\n(2) 由(1)可知,总人数是 300 人.\n药物戒烟:200X15%王45(人)，\n警示戒烟:200X30%=王60(人)，\naie Hill FAB]: 70 + 200= 35%.\n完整的统计图如答图 13-1 MAA 13-2 所示.\n人数/人\n70| ee ere\n警示戒      替代品              ee en en ee\n烟30% 戒烟10% i iee Oe\nsett            Ae cc\n10%\n强制戒烟            a     |]         号\n35%                    警示 替代品 “药物 ”强制 其他 戒烟方式\n戒烟戒烟 戒茵 戒烟 方式\n答图 13 -1                      答图13 -2\n(3) 以上五种戒烟方式人数的众数是 20.\n20. (1) WREAK HY AL REA BH A eB pH OST AST ATO SKIT TAXI\n50\n所以这组样本数据的平均数为 2，\n因为这组样本数据中,3 出现了17 次,出现的次数最多，\n所以这组数据的众数是 3.\n2十2\na\n因为将这组样本数据按从小到大的顺序排列,其中处于中间的两个数都是 2,有\n所以这组数据的中位数为 2.\n(2) 因为在 50 名学生中,读书多于2 册的学生有 18 名,有 300X == 108,\n所以根据样本数据,可以估计该校八年级 300 名学生在本次活动中读书多于 2 册的约有 108 名.\n21C 22.D 23.11 24.14 ， 25.9.10,9.15\n26.7 27. (1) 6;(2) 30 28. 10°C\n29. (1) Fp =400F BE) , 一40(千克)，\n总产量为 40X100X98% X2王7840(千克);\n(2) sip = 7 X[650—40)? + (36-40)? + (40— 40)? + (34—40)* |= 38CF BE\"),\n1\nSz = 7X [G6— 40)? + 40— 40)? + (48— 409° + (36 — 409° |= 24F 58\") »\n所以 sip >sZ. 乙山上的杨梅产量较稳定，\n30. (1) 如答表 13-1 Pram.\nRiise CRA “MBER” RRL TAG.\n答表 13 -1\n平均数     中位数      BH\n甲组       14        14        下区\n乙组       14        15        11.7\n参\n考\n(2) 折线统计图如答图 13 - 3 所示.                                 |\n一-一 乙组\n3上|-\n2\n1\n0 二二王四下六    时间/周\n答图 13 -3\n(3) 从折线图可看出:甲组成绩相对稳定,但进步不大,且略有下降趋势;乙组成绩不够稳定,但进步较\n快,呈上升趋势.\n31. (1) 总册数=14二0.14=100 册,a=100一22一20一18一12一14=14 Hf.\n(2) Alig.\n(3) 数据 22,20,18.a.12,14 Pa=14, FW RBE 14,极差是 22—12=10;\n(4) (20+18) + 100=0.38 , Bt AF Se Bl BF Hi BETA Ta HY HEE ON 0.38,\n32. (1) © (2十1十6十4十2十3十2)十(1十2十3十2十5十4十3)一20十20一40(名);发言次数是 5 次的男\n生有2人、女生有5人;\n@ 因为按从小到大排序后,男生第 10 个,11 个都是 4;女生第 10 个,11 个都是 5.所以男女生发言次数\n的中位数分别是 4,5.\n(2) 发言次数增加 3 次的学生人数为 40X(1一20% —30% —40%)=4(A),\n全班增加的发言总次数为 40%X40X1二30外X40X2十4X3王16十24十12王52(次).\n33. (1) 因为两县参赛人数相等，\n所以乙县人数为20 人,则 8 分的有 20一8一3一5一4(人) ABCA TP LE 4+ 20X 100% =20%,\n所以扇形图中“8 分?所在扇形的圆心角度数=360\"X20%王72 ;\nFA BASE 494} = (11 X7+8X1+10X8)+20=8.25 分，\n中位数是(7十7)二2一7;\n由于两校平均分相等,中位数甲县较低,所以从平均分和中位数角度上判断,乙县的成绩较好.\n(2) 因为选 8 名学生参加市级口语团体赛,甲县得 10 分的有 8 人,而乙县得 10 分的只有 5 人,所以应选\nAB,\n34. (1) 随机抽取部分学生的总人数为 48二0.2一240，\n所以a王240X0.25一60，                                                           251\nRite RA “MME HR” FRL GA Tawe\n(SHS)SHS SAS MSH wo |S a AE RS\n252\nb=36+240=0.15, MEA 13 -4 所示.\n人数/人\n本|\n7上\n60上上-一-\n48 + --- pa === -----------\n36上---民二     SEE\n24 上 --- | eles ~~ ~~ -\n12 |----|oee =o一\na  A B C D E 4piee\nSA 13-4 学业考试体育成绩(分数段)统计图\n(2) 因为总人数为 240 人，\n所以根据频率分布直方图知道中位数在 C 分数段.\n(3) 0.8X10440一8352(名).",
+    "id": "grade8_b0091",
+    "pageEnd": 257,
+    "questionCandidates": [
+      {
+        "localNo": "11",
+        "prompt": "41 12. 40 13. |! 14, 8.5 15. 7 16. 88.6 17.4 18. Z",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "19",
+        "prompt": "(1) 这次调查中同学们调查的总人数为 20二10%%王200(人); (2) 由(1)可知,总人数是 300 人. 药物戒烟:200X15%王45(人)， 警示戒烟:200X30%=王60(人)， aie Hill FAB]: 70 + 200= 35%. 完整的统计图如答图 13-1 MAA 13-2 所示. 人数/人 70| ee ere 警示戒 替代品 ee en en ee 烟30% 戒烟10% i iee Oe sett Ae cc 10% 强制戒烟 a |] 号 35% 警示 替代品 “药物 ”强制 其他 戒烟方式 戒烟戒烟 戒茵 戒烟 方式 答图 13 -1 答图13 -2 (3) 以上五种戒烟方式人数的众数是 20.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "20",
+        "prompt": "(1) WREAK HY AL REA BH A eB pH OST AST ATO SKIT TAXI 50 所以这组样本数据的平均数为 2， 因为这组样本数据中,3 出现了17 次,出现的次数最多， 所以这组数据的众数是 3. 2十2 a 因为将这组样本数据按从小到大的顺序排列,其中处于中间的两个数都是 2,有 所以这组数据的中位数为 2. (2) 因为在 50 名学生中,读书多于2 册的学生有 18 名,有 300X == 108, 所以根据样本数据,可以估计该校八年级 300 名学生在本次活动中读书多于 2 册的约有 108 名. 21C 22.D 23.11 24.14 ， 25.9.10,9.15",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "7 27. (1) 6;(2) 30 28. 10°C",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "(1) Fp =400F BE) , 一40(千克)， 总产量为 40X100X98% X2王7840(千克); (2) sip = 7 X[650—40)? + (36-40)? + (40— 40)? + (34—40)* |= 38CF BE\"), 1 Sz = 7X [G6— 40)? + 40— 40)? + (48— 409° + (36 — 409° |= 24F 58\") » 所以 sip >sZ. 乙山上的杨梅产量较稳定，",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "(1) 如答表 13-1 Pram. Riise CRA “MBER” RRL TAG. 答表 13 -1 平均数 中位数 BH 甲组 14 14 下区 乙组 14 15 11.7 参 考 (2) 折线统计图如答图 13 - 3 所示. | 一-一 乙组 3上|- 2 1 0 二二王四下六 时间/周 答图 13 -3 (3) 从折线图可看出:甲组成绩相对稳定,但进步不大,且略有下降趋势;乙组成绩不够稳定,但进步较 快,呈上升趋势.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "31",
+        "prompt": "(1) 总册数=14二0.14=100 册,a=100一22一20一18一12一14=14 Hf. (2) Alig. (3) 数据 22,20,18.a.12,14 Pa=14, FW RBE 14,极差是 22—12=10; (4) (20+18) + 100=0.38 , Bt AF Se Bl BF Hi BETA Ta HY HEE ON 0.38,",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "(1) © (2十1十6十4十2十3十2)十(1十2十3十2十5十4十3)一20十20一40(名);发言次数是 5 次的男 生有2人、女生有5人; @ 因为按从小到大排序后,男生第 10 个,11 个都是 4;女生第 10 个,11 个都是 5.所以男女生发言次数 的中位数分别是 4,5. (2) 发言次数增加 3 次的学生人数为 40X(1一20% —30% —40%)=4(A), 全班增加的发言总次数为 40%X40X1二30外X40X2十4X3王16十24十12王52(次).",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "(1) 因为两县参赛人数相等， 所以乙县人数为20 人,则 8 分的有 20一8一3一5一4(人) ABCA TP LE 4+ 20X 100% =20%, 所以扇形图中“8 分?所在扇形的圆心角度数=360\"X20%王72 ; FA BASE 494} = (11 X7+8X1+10X8)+20=8.25 分， 中位数是(7十7)二2一7; 由于两校平均分相等,中位数甲县较低,所以从平均分和中位数角度上判断,乙县的成绩较好. (2) 因为选 8 名学生参加市级口语团体赛,甲县得 10 分的有 8 人,而乙县得 10 分的只有 5 人,所以应选 AB,",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "(1) 随机抽取部分学生的总人数为 48二0.2一240， 所以a王240X0.25一60， 251 Rite RA “MME HR” FRL GA Tawe (SHS)SHS SAS MSH wo |S a AE RS 252 b=36+240=0.15, MEA 13 -4 所示. 人数/人 本| 7上 60上上-一- 48 + --- pa === ----------- 36上---民二 SEE 24 上 --- | eles ~~ ~~ - 12 |----|oee =o一 a A B C D E 4piee SA 13-4 学业考试体育成绩(分数段)统计图 (2) 因为总人数为 240 人， 所以根据频率分布直方图知道中位数在 C 分数段. (3) 0.8X10440一8352(名).",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "thinking_training",
+    "cleaningAction": "reclassified",
+    "confidence": "medium",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "contains multiple numbered exercise candidates",
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 292,
+    "lessonNo": 25,
+    "lessonTitle": "第 25 讲",
+    "column": "unknown",
+    "rawHeading": "第 25 讲",
+    "text": "第 25 讲\n1B 2D 3D 4D SC\n6.A 7.C 8A OA   10. 2\n11. 60 平方厘米   12. 四   13. 直角   14. =   15. (3,0)或(一3,0)\n16. 5 厘米    17. 一8    18. 6    19. 一1    20. —1<a<0\n21.A  22.C 23.B 24, yopete\n25. WA 25-1 所示.                                                                  287\nRiise CRA “MBER” RRL TAG.\n答图 25 -1\n26. x=40 BK, y=60 毫米时,矩形 PQMN 的面积最大,最大面积为 2400 平方毫米.\n27. 2/2\n28. (1) @ ;30.\n(2) yq =0.1e +30; yx =0.22.\n(3) Hoya =yx of 0.22 =0.1la +30, fF FE x = 300,\n“4 a = 300 FY, y = 60. file FH PAL HY al 4 a GT Ta] E300 分钟内,选择通话方式四实惠;当通话时间超过 300\nSy aE HE PEA IG Dy ok OSE BS s 4A Ta] ZE 300 分钟时,选择通话方式DO一样实惠，\n(SHS)SHS SAS MSH wo |S a AE RS\n29, CD=3\n3      3\n30. (1) yaTryase— 3s\n(2) 6.\n31. 3/2\n32. (1) 由数轴观察知三根木棒长是 20一5=15(厘米) ，\n则此木棒长为15二3一5(厘米)\n(2) 借助数轴,把小红与爷爷的年龄差看作木棒 AB ，\nKRW FDA AES A BABA Bt,\n此时点 B ARE ne AY BO — 40,\nVEE Aa A ES BBS A 时，\n此时点 A 所对应的数为 125，\n所以可知和爷爷比小红大[125一(一40)]二3一55，\n可知爷爷的年龄为 125一55一70.\n288\nRiise CRA “MBER” RRL TAG.\n@O\nABR\nCo & PLA TD\n重点知识     4梳理一    目了然;",
+    "id": "grade8_b0101",
+    "pageEnd": 294,
+    "questionCandidates": [
+      {
+        "localNo": "6",
+        "prompt": "A 7.C 8A OA 10. 2",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "11",
+        "prompt": "60 平方厘米 12. 四 13. 直角 14. = 15. (3,0)或(一3,0)",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "16",
+        "prompt": "5 厘米 17. 一8 18. 6 19. 一1 20. —1<a<0",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "21",
+        "prompt": "A 22.C 23.B 24, yopete",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "WA 25-1 所示. 287 Riise CRA “MBER” RRL TAG. 答图 25 -1",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "x=40 BK, y=60 毫米时,矩形 PQMN 的面积最大,最大面积为 2400 平方毫米.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "(1) @ ;30. (2) yq =0.1e +30; yx =0.22. (3) Hoya =yx of 0.22 =0.1la +30, fF FE x = 300, “4 a = 300 FY, y = 60. file FH PAL HY al 4 a GT Ta] E300 分钟内,选择通话方式四实惠;当通话时间超过 300 Sy aE HE PEA IG Dy ok OSE BS s 4A Ta] ZE 300 分钟时,选择通话方式DO一样实惠， (SHS)SHS SAS MSH wo |S a AE RS",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "CD=3 3 3",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "(1) yaTryase— 3s (2) 6.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "(1) 由数轴观察知三根木棒长是 20一5=15(厘米) ， 则此木棒长为15二3一5(厘米) (2) 借助数轴,把小红与爷爷的年龄差看作木棒 AB ， KRW FDA AES A BABA Bt, 此时点 B ARE ne AY BO — 40, VEE Aa A ES BBS A 时， 此时点 A 所对应的数为 125， 所以可知和爷爷比小红大[125一(一40)]二3一55， 可知爷爷的年龄为 125一55一70. 288 Riise CRA “MBER” RRL TAG. @O ABR Co & PLA TD 重点知识 4梳理一 目了然;",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "thinking_training",
+    "cleaningAction": "reclassified",
+    "confidence": "medium",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "contains multiple numbered exercise candidates",
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 123,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "thinking_training",
+    "rawHeading": "手平时五次训练成绩进行统计,两选手五次训练的平均成绩均为 30 分钟,方差分别是 si =",
+    "text": "手平时五次训练成绩进行统计,两选手五次训练的平均成绩均为 30 分钟,方差分别是 si =\n51,5 二12.则甲、乙两选手成绩比较稳定的是\n18. 为备战 2011 年4月11日在绍兴举行的第三届全国皮划艇马拉松赛,甲.乙运动员进",
+    "id": "grade8_b0045",
+    "pageEnd": 123,
+    "questionCandidates": [
+      {
+        "localNo": "51",
+        "prompt": "5 二12.则甲、乙两选手成绩比较稳定的是",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "18",
+        "prompt": "为备战 2011 年4月11日在绍兴举行的第三届全国皮划艇马拉松赛,甲.乙运动员进",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "thinking_training",
+    "cleaningAction": "kept",
+    "confidence": "high",
+    "reviewPriority": "normal",
+    "reviewReasons": []
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 83,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "topic_overview",
+    "rawHeading": "知识梳理",
+    "text": "知识梳理\n1. 正比例函数解析式的确定\n确定一个正比例函数,就是要确定正比例函数定义式 >=Az (RAO) PAY ER SESE AR AG\n又是:\n(1) 设出含有待定系数的函数解析式 >一Az (天0);\n(2) 把已知条件(自变量与函数的对应值)代和解析式 ,得到关于系数& 的一元一次方程;\n(3) 解方程,求出待定系数 &;\n(A) 将求得的待定系数的值代回解析式.\n2. 正比例函数与一次函数图像之间的关系\n一次函数 y—ka +b 的图像是一条直线 ,它可以看成是由直线 y ke 平移|0|个单位长\n度而得到的(当2二0 时,向上平移;当0<0 MY. a] POR).\n3. BR y=kx +b 的图像和性质与上,2 的关系\n&二0,0>>0 时,图像经过第一二、三象限;\nk>0.6<0 时,图像经过第一、三、四象限;\nk>0,b=0 时,图像经过第一 .三象限;\n&A<0,0>0时,图像经过第一、二.四象限;\nk<0,0<0 时,图像经过第二、三、四象限;\n&<0,0一0 时,图像经过第二.四象限;\n&二0 时,图像从左到右上升,y 随z 的增大而增大;\n&<0 时,图像从左到右下降,> 随z 的增大而减小.\n4. 直线 y,=kxt+b Sy. =kx 图像的位置关系\n(1) 4 b>0 WO yo =ka 图像向z 轴上方平移0 个单位,就得到y 一Az十0 WAR.\n(2) 当0<0时,将y: = ka 图像向xz 轴下方平移一2 个单位,就得到了 y Ska +b 的\n图像.\nRAMESH” RRL GT Ae\nBr 希",
+    "id": "grade8_b0030",
+    "pageEnd": 84,
+    "questionCandidates": [
+      {
+        "localNo": "1",
+        "prompt": "正比例函数解析式的确定 确定一个正比例函数,就是要确定正比例函数定义式 >=Az (RAO) PAY ER SESE AR AG 又是: (1) 设出含有待定系数的函数解析式 >一Az (天0); (2) 把已知条件(自变量与函数的对应值)代和解析式 ,得到关于系数& 的一元一次方程; (3) 解方程,求出待定系数 &; (A) 将求得的待定系数的值代回解析式.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "正比例函数与一次函数图像之间的关系 一次函数 y—ka +b 的图像是一条直线 ,它可以看成是由直线 y ke 平移|0|个单位长 度而得到的(当2二0 时,向上平移;当0<0 MY. a] POR).",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "3",
+        "prompt": "BR y=kx +b 的图像和性质与上,2 的关系 &二0,0>>0 时,图像经过第一二、三象限; k>0.6<0 时,图像经过第一、三、四象限; k>0,b=0 时,图像经过第一 .三象限; &A<0,0>0时,图像经过第一、二.四象限; k<0,0<0 时,图像经过第二、三、四象限; &<0,0一0 时,图像经过第二.四象限; &二0 时,图像从左到右上升,y 随z 的增大而增大; &<0 时,图像从左到右下降,> 随z 的增大而减小.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "4",
+        "prompt": "直线 y,=kxt+b Sy. =kx 图像的位置关系 (1) 4 b>0 WO yo =ka 图像向z 轴上方平移0 个单位,就得到y 一Az十0 WAR. (2) 当0<0时,将y: = ka 图像向xz 轴下方平移一2 个单位,就得到了 y Ska +b 的 图像. RAMESH” RRL GT Ae Br 希",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "topic_overview",
+    "cleaningAction": "kept",
+    "confidence": "high",
+    "reviewPriority": "normal",
+    "reviewReasons": []
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 29,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "能力提升",
+    "text": "能力提升\nA\n21. WA 3-13 Prax. #2 RtAABC '\"#,AB=AC,AD | BC, i\n为D. E.F 分别是CD,AD EW Ai. CE =AF.M 8 ZAED =62°. 38             .\nA. 62                           B. 38                 hs a\nC. 28°                         D. 26°\n22, 一个等腰三角形的一个外角等于 110\",则这个三角形的三个角应该为\n23. 等腰三角形的两边长分别为?7 和3,则这个等腰三角形的周长为\n24. 等腰三角形一腰上的高与另一腰的夹角为 30\" ,它的顶角为          .\n25. WIR ME = PATE ARR ON 25. — JE AY HP 2 = fF oe 1S = PAI J ie 2 fb\n2,则这个等腰三角形的底边长为   .\n26. 如图3 - 14 tas, #2 AABC 中,AB=AC,点D在AC上,上且BD=BC=AD,求\nAABC 中各角的度数.                                                  ‘\n所\nB           Cc\n图3-14\n27. 已知:如图3-15 所示,AABC Hh, ZACB=90°,AD=BD,..ZA =30°. RIE: ABDC\n是等边三角形.                                                  A\nK\nB       G\n图3-1S\nRiise CRA “MBER” RRL TAG.\n28. WAl 3-16 所示,AA=B,CEVWD4A,CE交AB F¥ E.2RiE:CE=CB.\nD      Cc\nA      E       B\nA 3-16\n29. 如图3 -17 tas, AB=AC, ZA = 40°, AB 的垂直平分线 MN 2% AC 于点卫,求\nZDBC 的度数，                               A\nw&\nQa\n图3-17\n30. 如图3 -18 所示,D ,下 分别是AB,AC 的中点,CD LAB 于D,BE LAC ¥ E.2Rik:\nAC=AB.                                                        C\n图3-18",
+    "id": "grade8_b0012",
+    "pageEnd": 30,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "WA 3-13 Prax. #2 RtAABC '\"#,AB=AC,AD | BC, i 为D. E.F 分别是CD,AD EW Ai. CE =AF.M 8 ZAED =62°. 38 . A. 62 B. 38 hs a C. 28° D. 26°",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "一个等腰三角形的一个外角等于 110\",则这个三角形的三个角应该为",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "等腰三角形的两边长分别为?7 和3,则这个等腰三角形的周长为",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "等腰三角形一腰上的高与另一腰的夹角为 30\" ,它的顶角为 .",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "WIR ME = PATE ARR ON 25. — JE AY HP 2 = fF oe 1S = PAI J ie 2 fb",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "则这个等腰三角形的底边长为 .",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "如图3 - 14 tas, #2 AABC 中,AB=AC,点D在AC上,上且BD=BC=AD,求 AABC 中各角的度数. ‘ 所 B Cc 图3-14",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "已知:如图3-15 所示,AABC Hh, ZACB=90°,AD=BD,..ZA =30°. RIE: ABDC 是等边三角形. A K B G 图3-1S Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "WAl 3-16 所示,AA=B,CEVWD4A,CE交AB F¥ E.2RiE:CE=CB. D Cc A E B A 3-16",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "如图3 -17 tas, AB=AC, ZA = 40°, AB 的垂直平分线 MN 2% AC 于点卫,求 ZDBC 的度数， A w& Qa 图3-17",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "如图3 -18 所示,D ,下 分别是AB,AC 的中点,CD LAB 于D,BE LAC ¥ E.2Rik: AC=AB. C 图3-18",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 149,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "topic_overview",
+    "rawHeading": "号 知识梳理",
+    "text": "号 知识梳理\n1. 矩形的定义\n有一个角是直角的平行四边形叫作矩形\n2. 矩形的性质\n(1) 矩形的四个角都是直角.\n(2) 和托形的对角线相等.\n(SSH) ie SS aS SS. HG SE\n3. 和矩形的判定\n(1) 有三个角是直角的四边形是矩形.\n(2) 对角线相等的平行四边形是矩形.",
+    "id": "grade8_b0056",
+    "pageEnd": 149,
+    "questionCandidates": [
+      {
+        "localNo": "1",
+        "prompt": "矩形的定义 有一个角是直角的平行四边形叫作矩形",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "矩形的性质 (1) 矩形的四个角都是直角. (2) 和托形的对角线相等. (SSH) ie SS aS SS. HG SE",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "3",
+        "prompt": "和矩形的判定 (1) 有三个角是直角的四边形是矩形. (2) 对角线相等的平行四边形是矩形.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "topic_overview",
+    "cleaningAction": "kept",
+    "confidence": "high",
+    "reviewPriority": "normal",
+    "reviewReasons": []
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 7,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "topic_overview",
+    "rawHeading": "知识梳理",
+    "text": "知识梳理\n1. 三角形的定义\n由三条不在同一直线上的线段,首尾依次相接组成的图形称为三角形，\n2.\n角形的分类\n三角形可以按内角的大小进行分类\nCL) 三个内角都是锐角的三角形是锐角三角形.\n(2) 有一个内角是直角的三角形是直角三角形.\n(3) 有一个内角是钝角的三角形是钝角三角形.\n3. 三角形三边性质\n三角形任意两边之和大于第三边,任意两边之差小于第三边.\n4. 三角形角的性质\n三角形三个内角的和是 180°.\n三角形的一个外角等于和它不相邻的两个内角的和.\n5. 三角形的角平分线\n在三角形中,一个内角的角平分线与它的对边相交,这个角的顶点\n与交点之间的线段叫作三角形的角平分线. 如图1-1所示,AD 是  ax\nAABC 中的一条角平分线.\nRite be PBR” RELY TAPS\n三角形的中线\n连接三角形的一个顶点与该顶点的对边中点的线段,叫作三角形的中线. 如图1-2 所示，\nAE #:/AABC 中BC 边上的中线.\n7. 三角形的高线\n从三角形的一个顶点向它的对边所在的直线作垂线,顶点和垂足之间的线段叫作三角形\n的高线. 如图1-3所示,AF 是AABC 中 BC EMR.\nA\nA\nB    E    C                          F    CG\n图1-2                        图1-3\n有       人",
+    "id": "grade8_b0002",
+    "pageEnd": 8,
+    "questionCandidates": [
+      {
+        "localNo": "1",
+        "prompt": "三角形的定义 由三条不在同一直线上的线段,首尾依次相接组成的图形称为三角形， 2. 角形的分类 三角形可以按内角的大小进行分类 CL) 三个内角都是锐角的三角形是锐角三角形. (2) 有一个内角是直角的三角形是直角三角形. (3) 有一个内角是钝角的三角形是钝角三角形.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "3",
+        "prompt": "三角形三边性质 三角形任意两边之和大于第三边,任意两边之差小于第三边.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "4",
+        "prompt": "三角形角的性质 三角形三个内角的和是 180°. 三角形的一个外角等于和它不相邻的两个内角的和.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "5",
+        "prompt": "三角形的角平分线 在三角形中,一个内角的角平分线与它的对边相交,这个角的顶点 与交点之间的线段叫作三角形的角平分线. 如图1-1所示,AD 是 ax AABC 中的一条角平分线. Rite be PBR” RELY TAPS 三角形的中线 连接三角形的一个顶点与该顶点的对边中点的线段,叫作三角形的中线. 如图1-2 所示， AE #:/AABC 中BC 边上的中线.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "7",
+        "prompt": "三角形的高线 从三角形的一个顶点向它的对边所在的直线作垂线,顶点和垂足之间的线段叫作三角形 的高线. 如图1-3所示,AF 是AABC 中 BC EMR. A A B E C F CG 图1-2 图1-3 有 人",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "topic_overview",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 33,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "topic_overview",
+    "rawHeading": "知识梳理",
+    "text": "知识梳理\n1. 直角三角形的性质\n(1) 在直角三角形中,两个锐角互余.\n(2) 直角三角形斜边上的中线等于斜边的一半.〈斜中线定理)\n(3) 在直角三角形中,如果一个锐角等于 30\" ,那么它所对的直角边等于斜边的一半.\n(4) 如果用字母<c, Alc 分别表示直角三角形的两条直角边和和斜边,那么 w +b? =e?”\n(勾股定理)\n2. 直角三角形的判定定理\n(1) 两角互余的三角形是直角三角形.\n(2) 有一边上的中线等于此边的一半的三角形是直角三角形.\n(3) 如果三角形中两边的平方和等于第三边的平方,那么这个三角形是直角三角形,第三\n边所对的角是直角.〈勾股定理的逆定理)\n3. 特殊直角三角形\n(1) 三个角度数为 30\",60\",90\",边长之比为1:vV3 : 2.\n(2) 等腰直角三角形 ,边长之比为1: 1:vV2.\n4. 补充定理\n(1) 中垂线定理的逆定理:到一条线段两个端点距离相等的点在这条线段的中垂线上.\n(2) 角平分线定理的逆定理:到角两边距离相等的点在角平分线上.\n5. 直角三角形全等判定的特殊方式\n除一般三角形全等的判定方法外,对于直角三角形全等的判定,还有:和斜边和一条直角边\n对应相等的两个直角三角形全等. (HL)\nRite be PBR” RELY TAPS",
+    "id": "grade8_b0014",
+    "pageEnd": 34,
+    "questionCandidates": [
+      {
+        "localNo": "1",
+        "prompt": "直角三角形的性质 (1) 在直角三角形中,两个锐角互余. (2) 直角三角形斜边上的中线等于斜边的一半.〈斜中线定理) (3) 在直角三角形中,如果一个锐角等于 30\" ,那么它所对的直角边等于斜边的一半. (4) 如果用字母<c, Alc 分别表示直角三角形的两条直角边和和斜边,那么 w +b? =e?” (勾股定理)",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "直角三角形的判定定理 (1) 两角互余的三角形是直角三角形. (2) 有一边上的中线等于此边的一半的三角形是直角三角形. (3) 如果三角形中两边的平方和等于第三边的平方,那么这个三角形是直角三角形,第三 边所对的角是直角.〈勾股定理的逆定理)",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "3",
+        "prompt": "特殊直角三角形 (1) 三个角度数为 30\",60\",90\",边长之比为1:vV3 : 2. (2) 等腰直角三角形 ,边长之比为1: 1:vV2.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "4",
+        "prompt": "补充定理 (1) 中垂线定理的逆定理:到一条线段两个端点距离相等的点在这条线段的中垂线上. (2) 角平分线定理的逆定理:到角两边距离相等的点在角平分线上.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "5",
+        "prompt": "直角三角形全等判定的特殊方式 除一般三角形全等的判定方法外,对于直角三角形全等的判定,还有:和斜边和一条直角边 对应相等的两个直角三角形全等. (HL) Rite be PBR” RELY TAPS",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "topic_overview",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 38,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "能力提升",
+    "text": "能力提升\n21. 如图4-17 所示,AABC 中,~ACB=90\",在AB 上截取AE=AC,BD=BC,则\nZDCE 等于(  ).\nA. 45° B. 60° C. 50°D. 65°\n22. 如图4-18所示,AABC 是边长为2 的等边三角形,点了是BC 边上的任意点,DE 上\nAB ¥4E.DF LAC 于点下上,则 DE+DF=    .\nA              A\n(es\nF\nE        ‘       E\nA    D  E B     B  D    会     B   a 让\n图4-17             图4-18          图4-19\n23. 如图4- 19 所示,已知:在AABC 1.AB=AC,ZB=70°,BD =CF.BE=CD, Wl\nZEDF=     .                                           33\nRiise CRA “MBER” RRL TAG.\n(SSH) ie SS aS SS. HG SE\n34\n24, BA. WA 4 - 20 PRs. ZB = ZE =90°, AC=DF.FB=EC, Wl] AB=DE. if tL\n理由.\n25. 已知:如图4-21所示,等边AABC 中,BD=CE,AD 45 BE 相交于点卫,求APE\n的度数，\n图4-21\n26. GH: WA 4 - 22 Pras, ZABD = ZACD = 90°, A ZCBD = ZBCD. Rik: AD 平\n4) Z BAC,\n图4-22\n27. 已知;如图4-23所示,AC LAB于4A,DB LAB. P 42 AB E.H AC=PB,AP=\nBD ORE: APCD 为等腰直角三角形，\n图4-23\nRiise CRA “MBER” RRL TAG.\n28. 如图4-24 所示 ,在等腰AABC 中,AC=BC,CD 是底边上的高线,点 P EAB CD\n上不与端点重合的任意一点,连接 AP 交 BC FARE ETE BP 交AC 于点下.\n(1) YEH: CAE =/CBF.\n(2) iE; AE=BF.                                              c\nE,       E\nP\nA           D           B\n图4-24\n29. 如图4-25所示,P 是等边三角形ABC 内一点,PA=2,PB=2V3 ,PC=4,2>X AABC\n的边长.                                                                  C\n图4-25S\n30. 如图4- 26 所示 ,在等腰 RtAABC 中,~ACB=90\",D 是斜边AB 上任一点,AE |\nCD F4E,BF CD交CD 的延长线于点下,C瓦1 AB 于点五,交AE 于点G,求证:\nBD=CG.                                                             C\nwn\nD\nH\nA      mr\n图4-26\n&",
+    "id": "grade8_b0017",
+    "pageEnd": 40,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "如图4-17 所示,AABC 中,~ACB=90\",在AB 上截取AE=AC,BD=BC,则 ZDCE 等于( ). A. 45° B. 60° C. 50°D. 65°",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "如图4-18所示,AABC 是边长为2 的等边三角形,点了是BC 边上的任意点,DE 上 AB ¥4E.DF LAC 于点下上,则 DE+DF= . A A (es F E ‘ E A D E B B D 会 B a 让 图4-17 图4-18 图4-19",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "如图4- 19 所示,已知:在AABC 1.AB=AC,ZB=70°,BD =CF.BE=CD, Wl ZEDF= . 33 Riise CRA “MBER” RRL TAG. (SSH) ie SS aS SS. HG SE 34",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "BA. WA 4 - 20 PRs. ZB = ZE =90°, AC=DF.FB=EC, Wl] AB=DE. if tL 理由.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "已知:如图4-21所示,等边AABC 中,BD=CE,AD 45 BE 相交于点卫,求APE 的度数， 图4-21",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "GH: WA 4 - 22 Pras, ZABD = ZACD = 90°, A ZCBD = ZBCD. Rik: AD 平 4) Z BAC, 图4-22",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "已知;如图4-23所示,AC LAB于4A,DB LAB. P 42 AB E.H AC=PB,AP= BD ORE: APCD 为等腰直角三角形， 图4-23 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "如图4-24 所示 ,在等腰AABC 中,AC=BC,CD 是底边上的高线,点 P EAB CD 上不与端点重合的任意一点,连接 AP 交 BC FARE ETE BP 交AC 于点下. (1) YEH: CAE =/CBF. (2) iE; AE=BF. c E, E P A D B 图4-24",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "如图4-25所示,P 是等边三角形ABC 内一点,PA=2,PB=2V3 ,PC=4,2>X AABC 的边长. C 图4-25S",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "如图4- 26 所示 ,在等腰 RtAABC 中,~ACB=90\",D 是斜边AB 上任一点,AE | CD F4E,BF CD交CD 的延长线于点下,C瓦1 AB 于点五,交AE 于点G,求证: BD=CG. C wn D H A mr 图4-26 &",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 43,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "topic_overview",
+    "rawHeading": "知识梳理",
+    "text": "知识梳理\n1. 三角形\n两边之差志第三条边    边之和;三角形内角和等于 180°.\n2. 全等三角形的判定\n全等三角形的判定方法列表如表 5 - 1 TAN.\n#5-1\n一般三角形                 直角三角形\nyee   W ffi Wd (SAS). ffi i ffi CASA). ffi $f    具备一般三角形的判定方法\n© | (AAS) .边边边(SSS)        斜边和一条直角边对应相等CHL)\n对应边相等 ,对应角相等;\n性质     对应中线 .对应高.对应角平分线相等;\n对应周长 .面积相等\n3. 等腰三角形的性质\n(1) 在同一个三角形中 ,等边对等角,等角对等边\n(2) 等腰三角形三线合一\n4. 等边三角形的性质\n(1) 4 Bes T 80\n(2) 三条边相等.\n5. 直角三角形的性质\n(1) 直角三角形斜边上的中线等于斜边的一半.〈斜中线定理)\n(2) WRASSE ab 和 分别表示直角三角形的两条直角边和和斜边,那么 a? +b? =c’?.\n(勾股定理)\nRite CRE “MERE” REL GTAReS",
+    "id": "grade8_b0019",
+    "pageEnd": 44,
+    "questionCandidates": [
+      {
+        "localNo": "1",
+        "prompt": "三角形 两边之差志第三条边 边之和;三角形内角和等于 180°.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "全等三角形的判定 全等三角形的判定方法列表如表 5 - 1 TAN. #5-1 一般三角形 直角三角形 yee W ffi Wd (SAS). ffi i ffi CASA). ffi $f 具备一般三角形的判定方法 © | (AAS) .边边边(SSS) 斜边和一条直角边对应相等CHL) 对应边相等 ,对应角相等; 性质 对应中线 .对应高.对应角平分线相等; 对应周长 .面积相等",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "3",
+        "prompt": "等腰三角形的性质 (1) 在同一个三角形中 ,等边对等角,等角对等边 (2) 等腰三角形三线合一",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "4",
+        "prompt": "等边三角形的性质 (1) 4 Bes T 80 (2) 三条边相等.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "5",
+        "prompt": "直角三角形的性质 (1) 直角三角形斜边上的中线等于斜边的一半.〈斜中线定理) (2) WRASSE ab 和 分别表示直角三角形的两条直角边和和斜边,那么 a? +b? =c’?. (勾股定理) Rite CRE “MERE” REL GTAReS",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "topic_overview",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 136,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "能力提升“",
+    "text": "能力提升“\nS\n21, WA 14-15 所示,O NOABCD 的对角线交点,已为AB 的      区\n中点 »DE 36 AC Fa FG iS  apcp = 12, Ill) Sy po的值为     is\n3\nA. 1                   E\n2  &\nQ\n2\nC2                             D. =                 A 14-15\nRite LAA MMP RR” REL CARS\nRSE SAHUTASER SES\n131\n(SSH) ie SS aS SS. HG SE\n132\n22. 从等腰三角形底边上任一点分别引两条腰的平行线,那么所组成的平行四边形的周\n长等于这个三角形的(  ).\nA. 周长          B. 周长的一半     C. 腰长          D. 腰长 2 倍\n23. 在己ABCD \"#,AB=2,BC=3, 2B, ZC 的平分线分别交     A    E    D\nAD FA E.F.S EF 的长是      ，                                  F\n24. 如图14 - 16 所示,四边形 ABCD 是平行四边形,已,F 分别\n是边AD,CD 的中点,忆ABCD 的面积为1,则图中以A,B,C,D，\n1\nE.F 7A WL FL IRV A = SIE A        a,\n25. 已知:如图14-17 Bras. AABC 中,D 是AC WHE 是线段 BC 延长线上一点,过\n点A作BE的平行线与线段 ED 的延长线交于点下,连接 AE ,CEF.求证:CEFVAE，\nF   A\n图 14 - 16\nB        G\nre]\n图14-17\n26. 已知:如图14- 18 所示,在等边AABC 中,D,F 分别为CB,BA 上的点,且 CD =\nBF ,以AD 为边作等边三角形 ADE.求证:\n(1) AACDZACBF ;\n(2) 四边形 CDEF 为平行四边形.\n图14-18\n27. 已知:如图14 - 19 所示,四边形 ABCD 中,已,F,G,瑟分别是AB,BC,CD,DA 的中\n点.求证:四边形 EFGH 是平行四边形，\nRiise CRA “MBER” RRL TAG.\n28. 已知:如图14-20 所示,AABC WPA BD ,CE 交于点O,F,G 分别是OB ,OC 的中\n点.求证:四边形 DEFG 是平行四边形.\n第\n14\n讲\n多\n边\nA 14-20         形\n5\n29. WAI 14-21 Stas. EC ABCD 中, 4 E.F 分别在边DC,AB 上,DE=BF.把平行四      生\n四\n边形沿直线 EF WER B.C 分别落在点 也 ,C 处,线段 EC 与线段 AF 交于点G ,连接   iy\nDG.B'G.                                  ‘\n求证: (1) Z1=Z22.\n(2) DG=B’'G.\nA 14-21\n30. 已知:如图14- 22 所示,在忆ABCD 中,点下在AB 的延长线上,且 BF=AB. IER\nFD ,交 BC F348 E.\n(1) 说明ADCES守APFBE 的理由.\n(2) 若 EC=3,求AD WK.\n图 14-22",
+    "id": "grade8_b0050",
+    "pageEnd": 138,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "WA 14-15 所示,O NOABCD 的对角线交点,已为AB 的 区 中点 »DE 36 AC Fa FG iS apcp = 12, Ill) Sy po的值为 is 3 A. 1 E 2 & Q 2 C2 D. = A 14-15 Rite LAA MMP RR” REL CARS RSE SAHUTASER SES 131 (SSH) ie SS aS SS. HG SE 132",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "从等腰三角形底边上任一点分别引两条腰的平行线,那么所组成的平行四边形的周 长等于这个三角形的( ). A. 周长 B. 周长的一半 C. 腰长 D. 腰长 2 倍",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "在己ABCD \"#,AB=2,BC=3, 2B, ZC 的平分线分别交 A E D AD FA E.F.S EF 的长是 ， F",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "如图14 - 16 所示,四边形 ABCD 是平行四边形,已,F 分别 是边AD,CD 的中点,忆ABCD 的面积为1,则图中以A,B,C,D， 1 E.F 7A WL FL IRV A = SIE A a,",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "已知:如图14-17 Bras. AABC 中,D 是AC WHE 是线段 BC 延长线上一点,过 点A作BE的平行线与线段 ED 的延长线交于点下,连接 AE ,CEF.求证:CEFVAE， F A 图 14 - 16 B G re] 图14-17",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "已知:如图14- 18 所示,在等边AABC 中,D,F 分别为CB,BA 上的点,且 CD = BF ,以AD 为边作等边三角形 ADE.求证: (1) AACDZACBF ; (2) 四边形 CDEF 为平行四边形. 图14-18",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "已知:如图14 - 19 所示,四边形 ABCD 中,已,F,G,瑟分别是AB,BC,CD,DA 的中 点.求证:四边形 EFGH 是平行四边形， Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "已知:如图14-20 所示,AABC WPA BD ,CE 交于点O,F,G 分别是OB ,OC 的中 点.求证:四边形 DEFG 是平行四边形. 第 14 讲 多 边 A 14-20 形 5",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "WAI 14-21 Stas. EC ABCD 中, 4 E.F 分别在边DC,AB 上,DE=BF.把平行四 生 四 边形沿直线 EF WER B.C 分别落在点 也 ,C 处,线段 EC 与线段 AF 交于点G ,连接 iy DG.B'G. ‘ 求证: (1) Z1=Z22. (2) DG=B’'G. A 14-21",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "已知:如图14- 22 所示,在忆ABCD 中,点下在AB 的延长线上,且 BF=AB. IER FD ,交 BC F348 E. (1) 说明ADCES守APFBE 的理由. (2) 若 EC=3,求AD WK. 图 14-22",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 154,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "能力提升",
+    "text": "能力提升\n21. 若矩形的两条对角线的夹角为 60\" ,一条边为 15 厘米,则另一条边长为    厘米.\n22. 过矩形 ABCD 的顶点卫,作 DE |AC ,垂足为下,若 4AE=8厘米,ED=2 JK. WU\n形的周长是   .\n23. 矩形 ABCD 中,点下 WW AB 上的一点,过点下 作直线 EF 垂直对边 CD TF.  149\nRiise CRA “MBER” RRL TAG.\n(SSH) ie SS aS SS. HG SE\n150\nSmuwarro : Sma开BCFE一2 : 1,3) DF + FC=__  .                    D       FC\n_                         2\n24, 如图16 -14 所示,在和抢形 ABCD 中,BC=6 厘米,AE一了AD，  E\nZCBF= 30°, Hk A 4 F XF BE 对称,则 BE =       , AB =\n.                                              A         B\n25, 如图 16-15 Stax, fe ABCD 中,M,N 分别是AD,DC 边的      图 16- 14\n中点,AN .MC 交于已点,若~MCB=NBC十33\",求MPA WKN.\nD      N      C\nM     多\nA            B\n图 16-15\n26. WA 16-16 所示,和矩形 ABCD 的对角线AC,BD 相交于点O,BE 4} ZABC, 26\nAD FE, AC ¥F,.AHZOBF=15° SRiIE:OE=EF.            A       E     D\n图 16-16\n27, 如图 16-17 所示 ,在矩形 ABCD 中,从顶点 C 作对角线 BD IN TERA ZA 的平分线\n相交于点五. 求证:BD=CFE.                             4            D\nF.\nO\n图 16-17\n28. 如图 16 - 18 所示 ,在矩形 ABCD 中,PP 是AD 上任一点,PQAC 于点Q,PR LBD\nFAR.DT LAC FA T.PQ.PR.DT 三条线段能否组成三角形? 若能,请证明;和否则,请说\n明理由.                                                   A     P        D\nRiise CRA “MBER” RRL TAG.\n29. 如图 16 -19 所示,在AABC 中,O 是AC 上一个动点,过点 O 作直线 MN V BC ,设\nMN 交二BCA 的角平分线于点已,交BCA 的外角平分线于点顾.\n(1) 2RiE:EO=FO;\n(2) 当点 O 运动到何处时,四边形 AECF 是矩形”并证明你的结论.\n=\n>\n=\nBR SaaS\n30. 如图 16 - 20 所示,在平行四边形 ABCD 中,以 AC 为斜边作直角三角形 ACE.\nZBED=90° ,证明四边形 ABCD JE.                E\nA              Dp\nO\nB            ey\n图16-20\ns.",
+    "id": "grade8_b0059",
+    "pageEnd": 156,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "若矩形的两条对角线的夹角为 60\" ,一条边为 15 厘米,则另一条边长为 厘米.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "过矩形 ABCD 的顶点卫,作 DE |AC ,垂足为下,若 4AE=8厘米,ED=2 JK. WU 形的周长是 .",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "矩形 ABCD 中,点下 WW AB 上的一点,过点下 作直线 EF 垂直对边 CD TF. 149 Riise CRA “MBER” RRL TAG. (SSH) ie SS aS SS. HG SE 150 Smuwarro : Sma开BCFE一2 : 1,3) DF + FC=__ . D FC _ 2",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "如图16 -14 所示,在和抢形 ABCD 中,BC=6 厘米,AE一了AD， E ZCBF= 30°, Hk A 4 F XF BE 对称,则 BE = , AB = . A B",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "如图 16-15 Stax, fe ABCD 中,M,N 分别是AD,DC 边的 图 16- 14 中点,AN .MC 交于已点,若~MCB=NBC十33\",求MPA WKN. D N C M 多 A B 图 16-15",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "WA 16-16 所示,和矩形 ABCD 的对角线AC,BD 相交于点O,BE 4} ZABC, 26 AD FE, AC ¥F,.AHZOBF=15° SRiIE:OE=EF. A E D 图 16-16",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "如图 16-17 所示 ,在矩形 ABCD 中,从顶点 C 作对角线 BD IN TERA ZA 的平分线 相交于点五. 求证:BD=CFE. 4 D F. O 图 16-17",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "如图 16 - 18 所示 ,在矩形 ABCD 中,PP 是AD 上任一点,PQAC 于点Q,PR LBD FAR.DT LAC FA T.PQ.PR.DT 三条线段能否组成三角形? 若能,请证明;和否则,请说 明理由. A P D Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "如图 16 -19 所示,在AABC 中,O 是AC 上一个动点,过点 O 作直线 MN V BC ,设 MN 交二BCA 的角平分线于点已,交BCA 的外角平分线于点顾. (1) 2RiE:EO=FO; (2) 当点 O 运动到何处时,四边形 AECF 是矩形”并证明你的结论. = > = BR SaaS",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "如图 16 - 20 所示,在平行四边形 ABCD 中,以 AC 为斜边作直角三角形 ACE. ZBED=90° ,证明四边形 ABCD JE. E A Dp O B ey 图16-20 s.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 163,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "能力提升“",
+    "text": "能力提升“\n21. 若依次连接四边形各边中点所构成的四边形是菱形,则原四边形一定是(  ).\nA. 矩形                                B. 288\nC. 平行四边形                         D. 对角线相等的四边形\n22. 如图 17 - 10 所示是一个利用四边形的不稳定性制作的蔡形晾衣架.已知其中每个蒙\n形的边长为 20 厘米,在墙上悬挂晾衣架的两个铁钉 AB 之间的距离为 20V3 厘米,则一A 的\n度数是(    ds                                                        ，\nA. 120°                              B. 135°          <<<\nC. 108°                             D. 150°\n23. 在直角坐标系中,点A(一1,0),B(1,0),C(C0,V3),若使以\n点A,B,C,D 为顶点的四边形是葵形 ,则符合条件的点 刀 的个数是(     ),\nA. 1个      B. 2 个      C.3 4%      D. 4%\n24. 在四边形 ABCD 中,AC | BD.AB/CD ,请你添上一个条件，   ,使得四边形\nABCD 是葵形.\n25. 如图17-11 所示,在AABC 中,点也,下,F 分别是边AB,AC,BC 的中点,连接 DE,\nDF ,EF ,若使四边形 ADFE 是葵形,则需添加的条件是   .\nA                                A\nLO              ia\nB         F         Cc                   B          F         Cc\n图17-11                         图 17 - 12\n26. 如图 17-12 所示,点 D.E.F 分别是等边AABC 的边AB,AC,BC 的中点,连接\nDE ,DEF,EF,则图中有    esi\n27, 236 ABCD '?,.E.F 分别是BC,CD 上的点,人AAEF 是等边三角形.若 AB=AE . JB\nAZC=\n28. 如网17- 13 所示,已知在蓉形 ABCD 中,已在BC _£.42ZB= ZEAD=70°,ED ¥\nSy ZAEC 吗? 请说明理由.                                  A          了\n图17-13\nRiise CRA “MBER” RRL TAG.\n29. 如图17 -14 所示,在蓉形 OABC 中,ABO=30\",OB=2V3 .O 是坐标原点,点A 在\nx AY fe AHL ,求鞭形 OABC 各顶点的坐标，\n¥\nB    G\n第\n17\nUE\nA    O   x    :\n图17-14\n30. 如图17 -15 Bras. EIB ABCD 的对角线相交于点0,分别过点A,D作APEVBD，\nDE / AC 交于点瓦,求证:四边形 AODE 是莹形.\nE\nA        D\nO\nB        (6\n# 17-15",
+    "id": "grade8_b0062",
+    "pageEnd": 164,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "若依次连接四边形各边中点所构成的四边形是菱形,则原四边形一定是( ). A. 矩形 B. 288 C. 平行四边形 D. 对角线相等的四边形",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "如图 17 - 10 所示是一个利用四边形的不稳定性制作的蔡形晾衣架.已知其中每个蒙 形的边长为 20 厘米,在墙上悬挂晾衣架的两个铁钉 AB 之间的距离为 20V3 厘米,则一A 的 度数是( ds ， A. 120° B. 135° <<< C. 108° D. 150°",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "在直角坐标系中,点A(一1,0),B(1,0),C(C0,V3),若使以 点A,B,C,D 为顶点的四边形是葵形 ,则符合条件的点 刀 的个数是( ), A. 1个 B. 2 个 C.3 4% D. 4%",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "在四边形 ABCD 中,AC | BD.AB/CD ,请你添上一个条件， ,使得四边形 ABCD 是葵形.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "如图17-11 所示,在AABC 中,点也,下,F 分别是边AB,AC,BC 的中点,连接 DE, DF ,EF ,若使四边形 ADFE 是葵形,则需添加的条件是 . A A LO ia B F Cc B F Cc 图17-11 图 17 - 12",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "如图 17-12 所示,点 D.E.F 分别是等边AABC 的边AB,AC,BC 的中点,连接 DE ,DEF,EF,则图中有 esi",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "236 ABCD '?,.E.F 分别是BC,CD 上的点,人AAEF 是等边三角形.若 AB=AE . JB AZC=",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "如网17- 13 所示,已知在蓉形 ABCD 中,已在BC _£.42ZB= ZEAD=70°,ED ¥ Sy ZAEC 吗? 请说明理由. A 了 图17-13 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "如图17 -14 所示,在蓉形 OABC 中,ABO=30\",OB=2V3 .O 是坐标原点,点A 在 x AY fe AHL ,求鞭形 OABC 各顶点的坐标， ¥ B G 第 17 UE A O x : 图17-14",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "如图17 -15 Bras. EIB ABCD 的对角线相交于点0,分别过点A,D作APEVBD， DE / AC 交于点瓦,求证:四边形 AODE 是莹形. E A D O B (6 # 17-15",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 177,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "topic_overview",
+    "rawHeading": "© 知识梳理",
+    "text": "© 知识梳理\n1. 多边形\nWHA n WADI n WB 为大于或等于 3 的正整数,一般三边形称作三角形)，\n多边形的内角和定理:” 边形的内角和等于(2一2)。180\" (之3).\n多边形的外角和定理:任意多边形的外角和等于 360”.\nn 边形的对角线条数为呈2 一，\n(SSH) ie SS aS SS. HG SE\n2. 平行四边形的性质\n平行四边形的性质如表 19 -1 所示，\n# 19-1\nEN\nS\n平行四边形的对边平行且相等                  人\n上\nCD,.ADZBC\nB     G\nA     D\n村                                            四边形 ABCD 为平行四边形 > ZA\nW477 WU Wy FE Hy Xe   等\n平行四边形的对角相等            / /    a aie\nB     G\nA     D\n四边形 ACBD 为平行四边形 >OA =\n平行四边形的对角线互相平分                               OC .OB=OD\nx\nin]\nQ\n平行四边形是中心对称图形,对称中\n心就是两条对角线的交点;连接四边上\n任意一点和平行四边形的对称中心 ,与\nES\n局\nS\n四边形 ABCD YF WWI.E.F 在\nAD,BC 上,且线段 EF 过点OO之OF\nx\n另一条边相交于一点,则这两个点关于     B     FO       =OF\n平行四边形的对称中心对称\nSaaon 一SAaoc一SApoc 二SApoa\n人一       AAOB2ACOD\n平行四边形中的重要结论               LO        AAOD@ACOB\nIZA,             AABCZACDA\n172                                                                                    ABCD2ADAB\nRiise CRA “MBER” RRL TAG.\n3. 矩形的性质和判定\n和矩形的性质如下 :                                 第\n(1) 矩形的四个角都是直角.                             if\n(2) 矩形的对角线相等，                               z\n和矩形的判定如下 :                                  4\n(1) 有三个角是直角的四边形是矩形.                         合\n(2) 对角线相等的平行四边形是矩形.\n4. BEANE\n(1) 边:对边平行,四边都相等.\n(2) 角:对角相等.\n(3) 对角线:对角线互相垂直平分,且每一条对角线平分一组对角.\n5. 正方形的性质和判定\n正方形的性质如下 :\n(1) 边:四条边都相等,对边平行,邻边垂直\n(2) 对角线:对角线相等是互相平分,且每一条对角线平分一组对角 ,对角线把正方形分\n成四个全等的等腰直角三角形.\n(3) 角:四个角是直角.\n(4) 既是轴对称图形又是中心对称图形.\n(5) 正方形具有平行四边形.矩形 .萎形的所有特点.\n正方形的判定方法:\n(1) 由定义判定:有一个角是直角且有一组邻边相等的平行四边形是正方形 (平行四边\n形十一个直角十一组邻边相等).\n(2) 矩形十有一组邻边相等.\n(3) 蓉形十有一个角是直角\n173\nRiise DRE “MERE” RRL CABS",
+    "id": "grade8_b0067",
+    "pageEnd": 179,
+    "questionCandidates": [
+      {
+        "localNo": "1",
+        "prompt": "多边形 WHA n WADI n WB 为大于或等于 3 的正整数,一般三边形称作三角形)， 多边形的内角和定理:” 边形的内角和等于(2一2)。180\" (之3). 多边形的外角和定理:任意多边形的外角和等于 360”. n 边形的对角线条数为呈2 一， (SSH) ie SS aS SS. HG SE",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "平行四边形的性质 平行四边形的性质如表 19 -1 所示， # 19-1 EN S 平行四边形的对边平行且相等 人 上 CD,.ADZBC B G A D 村 四边形 ABCD 为平行四边形 > ZA W477 WU Wy FE Hy Xe 等 平行四边形的对角相等 / / a aie B G A D 四边形 ACBD 为平行四边形 >OA = 平行四边形的对角线互相平分 OC .OB=OD x in] Q 平行四边形是中心对称图形,对称中 心就是两条对角线的交点;连接四边上 任意一点和平行四边形的对称中心 ,与 ES 局 S 四边形 ABCD YF WWI.E.F 在 AD,BC 上,且线段 EF 过点OO之OF x 另一条边相交于一点,则这两个点关于 B FO =OF 平行四边形的对称中心对称 Saaon 一SAaoc一SApoc 二SApoa 人一 AAOB2ACOD 平行四边形中的重要结论 LO AAOD@ACOB IZA, AABCZACDA 172 ABCD2ADAB Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "3",
+        "prompt": "矩形的性质和判定 和矩形的性质如下 : 第 (1) 矩形的四个角都是直角. if (2) 矩形的对角线相等， z 和矩形的判定如下 : 4 (1) 有三个角是直角的四边形是矩形. 合 (2) 对角线相等的平行四边形是矩形.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "4",
+        "prompt": "BEANE (1) 边:对边平行,四边都相等. (2) 角:对角相等. (3) 对角线:对角线互相垂直平分,且每一条对角线平分一组对角.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "5",
+        "prompt": "正方形的性质和判定 正方形的性质如下 : (1) 边:四条边都相等,对边平行,邻边垂直 (2) 对角线:对角线相等是互相平分,且每一条对角线平分一组对角 ,对角线把正方形分 成四个全等的等腰直角三角形. (3) 角:四个角是直角. (4) 既是轴对称图形又是中心对称图形. (5) 正方形具有平行四边形.矩形 .萎形的所有特点. 正方形的判定方法: (1) 由定义判定:有一个角是直角且有一组邻边相等的平行四边形是正方形 (平行四边 形十一个直角十一组邻边相等). (2) 矩形十有一组邻边相等. (3) 蓉形十有一个角是直角 173 Riise DRE “MERE” RRL CABS",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "topic_overview",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 20,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "能力提升“",
+    "text": "能力提升“\n21. 地基在同一水平面上 ,高度相同的两幢楼上分别住着甲、乙两位同学,有一天,甲对乙\n说:从我住的这贱楼的底部到你住的那幢楼的项部的直线距离,等于从你住的那收楼的底部\n到我住的这幢楼的顶部的直线距离.你认为甲的话正确吗? 答 ，       .\n22. 如图2 - 19 所示,D 是AABC 的边AB 上一点,DEF AC FAE.AH 3 个论断:\nODDE=FE;OAE=CE;GOFCVAB. 以其中一个论断为结论 ,其余两个论断为条件,可作出\n3 个命题.其中正确的命题个数是       .\n图2-19                      图2-20\n23. 如图 2 - 20 所示,在等边AABC 中,AD=BE=CF,D,E,F不是中点,连接 AE,\nBF ,CD ,构成一些三角形.如果三个全等的三角形组成一组,那么图中全等的三角形的组数是\n(   ).\nA. 3组           B. 4组           C. 5组           D. 6 组\n24. 若在AABC 中,BAC 的平分线交BC 于D,AC=AB+BD,C=30\",则一B 的度\nBH (     ).\nA. 45°             B. 60°             rol             D. 90°\nRite LAA MMP RR” REL CARS\nWRB Sew\n(SSH) ie SS aS SS. HG SE\n16\n25. 已知:如图2-21所示,在AABC 中,AB=AC,D 是BC 的中点,DBE | AB FF E.DF\nLAC 于下,则图中共有(   )全等三角形.\nA. 5 对             B. 4 对             C. 3 Xt             D. 2 对\nD.\nB      D     (a\nA 2-21\n26. 将一张长方形纸片按如图 2-22 air stiTre.BC.BD 为折痕,则一CBD 的度数\n为(     ).\nA. 60°             B. 75°             C. 90°             D. 95°\n27. WIE 2 - 23 所示,OM 平分POQ ,MA |OP.MB |OQ.A.B 为垂足,AB 2% OM 于\n求证:OAB = OBA.\nQ\nB\nre  M\nO            7      P\nA 2-23\n28. 如图2- 24 所示,四边形 ABCD 'P.AB//DC.BE.CE 分别平分ABC,BCD ,且\nRE 72 AD 上. 求证:BC=AB二DC，\nD\nE\nA\nB              C\n2-24\n29. GH: WK 2-25 Was, Z1=72.CD=DE.EF // AB RIE: EF =AC,\nA\n(oy\nD\nE\nB\nA 2-25\nRiise CRA “MBER” RRL TAG.\n4\n图2-26",
+    "id": "grade8_b0008",
+    "pageEnd": 22,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "地基在同一水平面上 ,高度相同的两幢楼上分别住着甲、乙两位同学,有一天,甲对乙 说:从我住的这贱楼的底部到你住的那幢楼的项部的直线距离,等于从你住的那收楼的底部 到我住的这幢楼的顶部的直线距离.你认为甲的话正确吗? 答 ， .",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "如图2 - 19 所示,D 是AABC 的边AB 上一点,DEF AC FAE.AH 3 个论断: ODDE=FE;OAE=CE;GOFCVAB. 以其中一个论断为结论 ,其余两个论断为条件,可作出 3 个命题.其中正确的命题个数是 . 图2-19 图2-20",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "如图 2 - 20 所示,在等边AABC 中,AD=BE=CF,D,E,F不是中点,连接 AE, BF ,CD ,构成一些三角形.如果三个全等的三角形组成一组,那么图中全等的三角形的组数是 ( ). A. 3组 B. 4组 C. 5组 D. 6 组",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "若在AABC 中,BAC 的平分线交BC 于D,AC=AB+BD,C=30\",则一B 的度 BH ( ). A. 45° B. 60° rol D. 90° Rite LAA MMP RR” REL CARS WRB Sew (SSH) ie SS aS SS. HG SE 16",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "已知:如图2-21所示,在AABC 中,AB=AC,D 是BC 的中点,DBE | AB FF E.DF LAC 于下,则图中共有( )全等三角形. A. 5 对 B. 4 对 C. 3 Xt D. 2 对 D. B D (a A 2-21",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "将一张长方形纸片按如图 2-22 air stiTre.BC.BD 为折痕,则一CBD 的度数 为( ). A. 60° B. 75° C. 90° D. 95°",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "WIE 2 - 23 所示,OM 平分POQ ,MA |OP.MB |OQ.A.B 为垂足,AB 2% OM 于 求证:OAB = OBA. Q B re M O 7 P A 2-23",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "如图2- 24 所示,四边形 ABCD 'P.AB//DC.BE.CE 分别平分ABC,BCD ,且 RE 72 AD 上. 求证:BC=AB二DC， D E A B C 2-24",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "GH: WK 2-25 Was, Z1=72.CD=DE.EF // AB RIE: EF =AC, A (oy D E B A 2-25 Riise CRA “MBER” RRL TAG. 4 图2-26",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 48,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "能力提升“",
+    "text": "能力提升“\n19. 如图5-15 所示,D,忆分别是AABC 的边 BC,AC 上的点,和若ZB=~C,ADE=\nZAED, Mili    法\nA. 当一B 为定值时,二CDE 为定值        B. 4a 为定值时,CDE 为定值\nC. 478 为定值时,二CDE 为定值         D. 247 为定值时,CDE 为定值\nE\nD       A\nA\n一>\nB      D             6s                    B            ic\nA5-15                            A 5-16\n20. 如图5- 16 所示,已知AABD 和AACE 都是等边三角形,那么AADCSAABE 的\n依据是(    ).\nA. 边边边          B. 边角边          C. 角边角          D. fA fi\n21. WAlS —17 所示,四边形 ABCD 是正方形,AADE 旋转后能与AABF 重合,那么      43\nRite LAA MMP RR” REL CARS\n(SSH) ie SS aS SS. HG SE\n44\nAAEF 是        三角形，\n4      D\nLW SW    C\nE            和八和八八\nF   B      c            A     Cc    B     A\n图$-17                     图S-18\n22. 如图5- 18 所示,一块等边三角形木板 ABC 的边长为 1,现将木板沿水平线翻转(绕\n一个点旋转) ,那么点 A 从开始到结束所走的路径长度为\n23. 等腰三角形的两外角之比为5 : 2,则该等腰三角形的底角为       .\n24. 如网5- 19 所示,已知:在等边三角形 ABC 中,D,E 分别在AB MAC E.H AD=\nCE,BE 和CD 相交于点也.\n(1) WEB] AACD2ACEB.\n(2) RZBPC 的度数，\n图5-19\n25. 如图5 - 20 所示,D 是等边AABC 内一点,AD=BD,DBP=DBC,且 BP=\nBA4A,求ZP 的度数.                      |\n\\\\ ,\nLK\naN\n图5-20\nB\n26. WIKI 5 - 21 fas. #2 AABC 中,CD | AB, 2-434 D,A CD? =AD + BD, Rik:\nAABC 为直角三角形.                                         A\n图5-21\nRiise CRA “MBER” RRL TAG.\n27. 如图5- 22 所示,D 是等边AABC WWW AB 上的一动点,以 CD 为一边向上作等边\nAEDC ,连接 AE ,找出图中的一组全等三角形 ,并说明理由.\nA       E\nD\nB              Cc\nA 5-22",
+    "id": "grade8_b0022",
+    "pageEnd": 50,
+    "questionCandidates": [
+      {
+        "localNo": "19",
+        "prompt": "如图5-15 所示,D,忆分别是AABC 的边 BC,AC 上的点,和若ZB=~C,ADE= ZAED, Mili 法 A. 当一B 为定值时,二CDE 为定值 B. 4a 为定值时,CDE 为定值 C. 478 为定值时,二CDE 为定值 D. 247 为定值时,CDE 为定值 E D A A 一> B D 6s B ic A5-15 A 5-16",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "20",
+        "prompt": "如图5- 16 所示,已知AABD 和AACE 都是等边三角形,那么AADCSAABE 的 依据是( ). A. 边边边 B. 边角边 C. 角边角 D. fA fi",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "21",
+        "prompt": "WAlS —17 所示,四边形 ABCD 是正方形,AADE 旋转后能与AABF 重合,那么 43 Rite LAA MMP RR” REL CARS (SSH) ie SS aS SS. HG SE 44 AAEF 是 三角形， 4 D LW SW C E 和八和八八 F B c A Cc B A 图$-17 图S-18",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "如图5- 18 所示,一块等边三角形木板 ABC 的边长为 1,现将木板沿水平线翻转(绕 一个点旋转) ,那么点 A 从开始到结束所走的路径长度为",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "等腰三角形的两外角之比为5 : 2,则该等腰三角形的底角为 .",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "如网5- 19 所示,已知:在等边三角形 ABC 中,D,E 分别在AB MAC E.H AD= CE,BE 和CD 相交于点也. (1) WEB] AACD2ACEB. (2) RZBPC 的度数， 图5-19",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "如图5 - 20 所示,D 是等边AABC 内一点,AD=BD,DBP=DBC,且 BP= BA4A,求ZP 的度数. | \\\\ , LK aN 图5-20 B",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "WIKI 5 - 21 fas. #2 AABC 中,CD | AB, 2-434 D,A CD? =AD + BD, Rik: AABC 为直角三角形. A 图5-21 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "如图5- 22 所示,D 是等边AABC WWW AB 上的一动点,以 CD 为一边向上作等边 AEDC ,连接 AE ,找出图中的一组全等三角形 ,并说明理由. A E D B Cc A 5-22",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 183,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "能力提升“",
+    "text": "能力提升“\n21. 如图 19 -17 所示 ,在梯形 ABCD 中,已知ABVAWCD ,点下为BC 的中点,设ADEA\n的面积为 S, ,梯形 ABCD 的面积为$,,则 S,与 S*的关系为         .\n22. 如图 19-18 所示 ,四边形 ABCD 的两条对角线 AC.BD 互相垂直,四边形 ABCD，\n是四边形 ABCD 的中点四边形.如果AC=8,BD=10,那么四边形 A,B,CD,的面积为\nD   C                      A              D    F     G\nA,       D,\nE         B                  D       四\n有       C,\nA            B                 C                  A           B\n图 19 -17                图 19-18                 图 19 -19\n23. WA 19 - 19 所示,忆ABCD 1,4 E 在边AD 上,以BE 为折痕,将人AABE 向上翻\n折,点A 正好落在CD 上的点下,若AFDE 的周长为8,AFCB 的周长为22,则 FC 的长为\n24. 将一张长方形的纸对折,如图 19 - 20 所示 ,可得到一条折痕(图中虚线) ,继续对折 ,对\n折时每次折痕与上次的折痕保持平行,连续对折三次后,可以得到?7 条折痕,那么对折四次可\n以得到      条折痕;如果对折 次,可以得到      AMI.\n第一次对折                    第二次对折                     第三次对折\n19 - 20\nRiise CRA “MBER” RRL TAG.\n25. 已知:如图19 -21 所示,四边形 ABCD 是萎形,已是BD 延长线上一点,下是DB 的\n延长线上的一点,且 DE=BF.请你以下 为一个端点,和图中已标明字母的某一点连成一条新\n的线段 ,猜想并证明它和图中已有的某一条线段相等(只须证明一组线段相等即可).\n(1) 连接       ;\n(2) 猜想 ;       一        ;\n(3) 证明:\n26. 已知:如图 19 - 22 所示 EWEN a WEIR ABCD 中,DAB=60\",忆是异于A,D\n两点的动点,下是CD 上的动点. 请你判断:无论忆,下 怎样移动,当满足:AE十CEF=a 时，\nABEF 是什么三角形? 并说明你的结论.\nD    Ff ¢\nE\nA        B\nA 19-22\n27, 已知:如图 19-23 所示,忆,F 4} 532A BCD 边AD,BC 上的点,且 AE=CF.\n(1) RiE: AABEZACDF.\n(2) 4 M,N 分别是BE,DF 的中点,连接 MF ,EN ,试判断四边形 MFNE 是怎样的四\nVIG ,并证明你的结论.\nA_E        D\nB        FC\n19 - 23\nRiise CRA “MBER” RRL TAG.\nSou\nDIRS\n179\n(SSH) ie SS aS SS. HG SE\n180\n28. 已知:如图19-24所示,AABC 中,CE,CF 4) 542 ZACB 和它的邻补角一ACD 的\n角平分线,AE LCE F-E.AF LCF 于下,直线 EF 分别交AB,AC FM.N.\n求证:(1) 四边形 AECF 是矩形.\n(2) MN 与BC 的位置有何关系,证明你的结论.\n(G4\n19-24\n29. 如图 19 - 25 所示,已知梯形 ABCD \"1,AD // BC,AB=DC, xt ff 2% AC Fil BD 相交\nFO.E BC 边上一个动点(点已不与B,C 两点重合) ,EFVBD 交AC FAF.EG//AC 交\nBD 于点 G，\n(1) 求证:四边形 EFOG 的周长等于 20B.\n(2) 请你将上述题目的条件*梯形 ABCD 中,ADVWBC,AB= DC?改为另一种四边形,其\n他条件不变 ,使得结论“四边形 EFOG 的周长等于 20B?的结论仍成立,并将改编后的题目画\n出图形 ,写出已知,求证,不必证明.                               1       而\nXe\nCa\nB  E\nfs)\n19 - 25",
+    "id": "grade8_b0070",
+    "pageEnd": 185,
+    "questionCandidates": [
+      {
+        "localNo": "21",
+        "prompt": "如图 19 -17 所示 ,在梯形 ABCD 中,已知ABVAWCD ,点下为BC 的中点,设ADEA 的面积为 S, ,梯形 ABCD 的面积为$,,则 S,与 S*的关系为 .",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "22",
+        "prompt": "如图 19-18 所示 ,四边形 ABCD 的两条对角线 AC.BD 互相垂直,四边形 ABCD， 是四边形 ABCD 的中点四边形.如果AC=8,BD=10,那么四边形 A,B,CD,的面积为 D C A D F G A, D, E B D 四 有 C, A B C A B 图 19 -17 图 19-18 图 19 -19",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "23",
+        "prompt": "WA 19 - 19 所示,忆ABCD 1,4 E 在边AD 上,以BE 为折痕,将人AABE 向上翻 折,点A 正好落在CD 上的点下,若AFDE 的周长为8,AFCB 的周长为22,则 FC 的长为",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "24",
+        "prompt": "将一张长方形的纸对折,如图 19 - 20 所示 ,可得到一条折痕(图中虚线) ,继续对折 ,对 折时每次折痕与上次的折痕保持平行,连续对折三次后,可以得到?7 条折痕,那么对折四次可 以得到 条折痕;如果对折 次,可以得到 AMI. 第一次对折 第二次对折 第三次对折 19 - 20 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "25",
+        "prompt": "已知:如图19 -21 所示,四边形 ABCD 是萎形,已是BD 延长线上一点,下是DB 的 延长线上的一点,且 DE=BF.请你以下 为一个端点,和图中已标明字母的某一点连成一条新 的线段 ,猜想并证明它和图中已有的某一条线段相等(只须证明一组线段相等即可). (1) 连接 ; (2) 猜想 ; 一 ; (3) 证明:",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "26",
+        "prompt": "已知:如图 19 - 22 所示 EWEN a WEIR ABCD 中,DAB=60\",忆是异于A,D 两点的动点,下是CD 上的动点. 请你判断:无论忆,下 怎样移动,当满足:AE十CEF=a 时， ABEF 是什么三角形? 并说明你的结论. D Ff ¢ E A B A 19-22",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "27",
+        "prompt": "已知:如图 19-23 所示,忆,F 4} 532A BCD 边AD,BC 上的点,且 AE=CF. (1) RiE: AABEZACDF. (2) 4 M,N 分别是BE,DF 的中点,连接 MF ,EN ,试判断四边形 MFNE 是怎样的四 VIG ,并证明你的结论. A_E D B FC 19 - 23 Riise CRA “MBER” RRL TAG. Sou DIRS 179 (SSH) ie SS aS SS. HG SE 180",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "28",
+        "prompt": "已知:如图19-24所示,AABC 中,CE,CF 4) 542 ZACB 和它的邻补角一ACD 的 角平分线,AE LCE F-E.AF LCF 于下,直线 EF 分别交AB,AC FM.N. 求证:(1) 四边形 AECF 是矩形. (2) MN 与BC 的位置有何关系,证明你的结论. (G4 19-24",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "如图 19 - 25 所示,已知梯形 ABCD \"1,AD // BC,AB=DC, xt ff 2% AC Fil BD 相交 FO.E BC 边上一个动点(点已不与B,C 两点重合) ,EFVBD 交AC FAF.EG//AC 交 BD 于点 G， (1) 求证:四边形 EFOG 的周长等于 20B. (2) 请你将上述题目的条件*梯形 ABCD 中,ADVWBC,AB= DC?改为另一种四边形,其 他条件不变 ,使得结论“四边形 EFOG 的周长等于 20B?的结论仍成立,并将改编后的题目画 出图形 ,写出已知,求证,不必证明. 1 而 Xe Ca B E fs) 19 - 25",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 111,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "worked_example",
+    "rawHeading": "典型例题外 】",
+    "text": "典型例题外 】\n例1\n已知方程 wz:一7z一6王0(天0)一根为 2 ,求方程的另一根及 a 的值.\nSR 利用击达定理可列出一个关于 a 及方程的另一个根的方程组.\n7\nx, +2=—\na\nal          6\n22,;=-—\nRite CAA MMP” REL CALS\n例 2\nit FB 32? —82+m=0 WR ZI 3 SOR m 的值.\nSPA LRP Z ANI HON 3 3 5, MSR APA LZ BOW MR Am.\n83         85 5\nat Sa a Ser oe\nBax 2 ym=5\n例3\n设 zi,z， 是一元二次方程 2a? 一5z十1=0 的两个根,利用根与系数的关系求下列各式\n的值;\n(人《一3一;    (2) 《元;村1六十ka +1)’\n分析 若直接求方程的两个根,再进行计算,则计算量较大. 可将各式作一定的变形 ,利用圳\n达定理求得各式的值.\n15\n1\nfR (1) 原式=zizy一3(zi 十zz?)十9一了一十9一2\n45\n[和 十zz)十1一下\n例4\n某百货大楼服装柜在销售中发现:宝贝牌童装平均每天可售出 20 件,每件盈利 40 元.\n为了迎接国庆节 ,商场决定采取适当的降价措施,扩大销售量,增加盈利,减少库存.经市场调\n查发现:如果每件童装降价 4元,那么平均每天就可多售出 8 件.要想平均每天在销售这种童\nHe | 4 All 1200 元,那么每件童装应降价多少元?\n分析 设每件童装降价 4z 元,那么平均每天就可多售出 8z 元,根据平均每天销售这种童装\nFAA 1200 元,即销量久每件的利润=1200 元,即可列出方程.\n解”设每件童装降价 4z 元,则\n(40一4z)(20十8z)一1200\n即:z?一30z十200王0\nco|\n解得:zi一5,z?一\n所以 4z王20\n答:每件童装应降价 20 元.\n()\nRiise CRA “MBER” RRL TAG.\nSo8\nBRS wt 1 al |\n107\n(SSH) ie SS aS SS. HG SE\n108",
+    "id": "grade8_b0040",
+    "pageEnd": 113,
+    "questionCandidates": [
+      {
+        "localNo": "22",
+        "prompt": ";=-— Rite CAA MMP” REL CALS 例 2 it FB 32? —82+m=0 WR ZI 3 SOR m 的值. SPA LRP Z ANI HON 3 3 5, MSR APA LZ BOW MR Am. 83 85 5 at Sa a Ser oe Bax 2 ym=5 例3 设 zi,z， 是一元二次方程 2a? 一5z十1=0 的两个根,利用根与系数的关系求下列各式 的值; (人《一3一; (2) 《元;村1六十ka +1)’ 分析 若直接求方程的两个根,再进行计算,则计算量较大. 可将各式作一定的变形 ,利用圳 达定理求得各式的值. 15 1 fR (1) 原式=zizy一3(zi 十zz?)十9一了一十9一2 45 [和 十zz)十1一下 例4 某百货大楼服装柜在销售中发现:宝贝牌童装平均每天可售出 20 件,每件盈利 40 元. 为了迎接国庆节 ,商场决定采取适当的降价措施,扩大销售量,增加盈利,减少库存.经市场调 查发现:如果每件童装降价 4元,那么平均每天就可多售出 8 件.要想平均每天在销售这种童 He | 4 All 1200 元,那么每件童装应降价多少元? 分析 设每件童装降价 4z 元,那么平均每天就可多售出 8z 元,根据平均每天销售这种童装 FAA 1200 元,即销量久每件的利润=1200 元,即可列出方程. 解”设每件童装降价 4z 元,则 (40一4z)(20十8z)一1200 即:z?一30z十200王0 co| 解得:zi一5,z?一 所以 4z王20 答:每件童装应降价 20 元. () Riise CRA “MBER” RRL TAG. So8 BRS wt 1 al | 107 (SSH) ie SS aS SS. HG SE 108",
+        "hasAnalysis": true,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "worked_example",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 138,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "时 拓展资源",
+    "text": "时 拓展资源\n7                 D\n31. 如图 14- 23 所示 ,在四边形 ABCD '?.ZB=7D=90\".\nAE.CF 分别平分BAD 及DCB MN AE // FC 吗?       a€\nC\nE\nB\nAl 14-23          133\nRiise CRA “MBER” RRL TAG.\n32. 有一块形状如图14- 24 所示的玻璃,不小心把 DEF 部分打碎了,现在只测得 AB =\n60 厘米,BC=80 厘米,4A=120\",B=60\" ,CC=150\" ,你能设计一个方案,根据测得的数\n据求出 AD 的长吗?\n4      Es          D\na                                                                         F\n5\nES                                                          B            C\n=                                                               图14-24\na\n库           33. 如图14-25 所示,在忆ABCD 中,开,下分别是边AB ,CD 上的点,已知AE=CF ,M，\nN #2 DE 和FB 的中点,求证:四边形 ENFM 是平行四边形.\n本                                                                 D      F      ic\n双\n基\n&\n到\n奥\n数\nms                                                           A      E      B\n人                                                               14-25\nes\n34. 已知:如图14- 26 所示,忆为避ABCD 中 DC 边的延长线上的一点,且 CE=DC.%\n接 AE 分别交 BC ,BD 于点下,G ,连接AC 交BD 于O ,连接OF.求证:AB=2OF.\nA           D\nB     F       c\nE\n14 - 26\n35. 如图14 -27 所示 ,在平行四边形ABCD 中,已是CD 上一点,下是AD 上一点,AE 与\nCF 交于点O,且 AE=CF ,求证:0OB ¥4}ZAOC.\n图14-27\n134\nRiise CRA “MBER” RRL TAG.\nAME CAE hohe’ REL TaARe\n1. 反证法的定义\n先假设结论的反面是正确的,然后通过逻辑推理,推出与公理.已证的定理.定义或已知条\n件相矛盾 ,说明假设不成立,从而得到原结论正确. 这种证明方法叫作”*反证法”\n2. 反证法的步骤\n(SSH) ie SS aS SS. HG SE\n(1) 从命题的结论的否定面出发;\n(2) 根据正确的逻辑推理,推出矛盾则否定假设;\n(3) 肯定原命题的结论是正确的.\n简记:和否定结论一一推出矛盾一一肯定结论.",
+    "id": "grade8_b0051",
+    "pageEnd": 141,
+    "questionCandidates": [
+      {
+        "localNo": "31",
+        "prompt": "如图 14- 23 所示 ,在四边形 ABCD '?.ZB=7D=90\". AE.CF 分别平分BAD 及DCB MN AE // FC 吗? a€ C E B Al 14-23 133 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "有一块形状如图14- 24 所示的玻璃,不小心把 DEF 部分打碎了,现在只测得 AB = 60 厘米,BC=80 厘米,4A=120\",B=60\" ,CC=150\" ,你能设计一个方案,根据测得的数 据求出 AD 的长吗? 4 Es D a F 5 ES B C = 图14-24 a 库 33. 如图14-25 所示,在忆ABCD 中,开,下分别是边AB ,CD 上的点,已知AE=CF ,M， N #2 DE 和FB 的中点,求证:四边形 ENFM 是平行四边形. 本 D F ic 双 基 & 到 奥 数 ms A E B 人 14-25 es",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "已知:如图14- 26 所示,忆为避ABCD 中 DC 边的延长线上的一点,且 CE=DC.% 接 AE 分别交 BC ,BD 于点下,G ,连接AC 交BD 于O ,连接OF.求证:AB=2OF. A D B F c E 14 - 26",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "35",
+        "prompt": "如图14 -27 所示 ,在平行四边形ABCD 中,已是CD 上一点,下是AD 上一点,AE 与 CF 交于点O,且 AE=CF ,求证:0OB ¥4}ZAOC. 图14-27 134 Riise CRA “MBER” RRL TAG. AME CAE hohe’ REL TaARe",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "1",
+        "prompt": "反证法的定义 先假设结论的反面是正确的,然后通过逻辑推理,推出与公理.已证的定理.定义或已知条 件相矛盾 ,说明假设不成立,从而得到原结论正确. 这种证明方法叫作”*反证法”",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "2",
+        "prompt": "反证法的步骤 (SSH) ie SS aS SS. HG SE (1) 从命题的结论的否定面出发; (2) 根据正确的逻辑推理,推出矛盾则否定假设; (3) 肯定原命题的结论是正确的. 简记:和否定结论一一推出矛盾一一肯定结论.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 22,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "时 拓展资源",
+    "text": "时 拓展资源\n31. WE 2 — 27 ha. P SEZ BAC 平分线AD 上一点,AC>AB,求证, PC — PB\n<AC—AB.\n图2-27\n32. 如图 2- 28 所示,正方形 ABCD 的对角线相交于点 O ,点 O 是正方形A BC 0 的一\n个顶点.如果两个正方形的边长都等于 2 ,那么正方形 A’B’C’O BO 点无论怎样转动,两个正\n方形重县部分的面积是一个定值 ,请你写出这定值 ,并证明你的结论，\nA    F/ 7D     m\nO\n2 4\nB        C\n图2-28\nRiise CRA “MBER” RRL TAG.\nWRB Sew\n(SSH) ie SS aS SS. HG SE\n18\n33. BA: WA 2-29 RAR. BC=DE,.ZB=ZE,4C=ZD.F £CD 中点,求证:一1\n=/2,\n图2-29\n34. 公园里有一条“Z?字形道路 ABCD ,如图2-30 所示,其中ABVWCD,在4AB,CD,BC\n三段路旁各有一只小石使忆,F,M,且BE=CF,M在BC的中点,试说明三只石使下,下,M\n恰好在一条直线上.\n35. 如图2-31所示,把人ABC 纸片沿 DE tre. 404 A 落在四边形 BCDE 内部时.\n(1) 写出图中一对全等的三角形,并写出它们的所有对应角;\n(2) BZAED 的度数为zx, ZADE 的度数为y,那么1 ,一2 的度数分别是多少? OHA\nAx ky 的代数式表示)\n(3) ZA 214-22 之间有一种数量关系始终保持不变,请找出这个规律.\n图2-31\nRiise CRA “MBER” RRL TAG.\nAME CAE hohe’ REL TaARe\n(SHS[)SHKSRASRSH RO ARSON ES\n20",
+    "id": "grade8_b0009",
+    "pageEnd": 25,
+    "questionCandidates": [
+      {
+        "localNo": "31",
+        "prompt": "WE 2 — 27 ha. P SEZ BAC 平分线AD 上一点,AC>AB,求证, PC — PB <AC—AB. 图2-27",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "如图 2- 28 所示,正方形 ABCD 的对角线相交于点 O ,点 O 是正方形A BC 0 的一 个顶点.如果两个正方形的边长都等于 2 ,那么正方形 A’B’C’O BO 点无论怎样转动,两个正 方形重县部分的面积是一个定值 ,请你写出这定值 ,并证明你的结论， A F/ 7D m O 2 4 B C 图2-28 Riise CRA “MBER” RRL TAG. WRB Sew (SSH) ie SS aS SS. HG SE 18",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "BA: WA 2-29 RAR. BC=DE,.ZB=ZE,4C=ZD.F £CD 中点,求证:一1 =/2, 图2-29",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "公园里有一条“Z?字形道路 ABCD ,如图2-30 所示,其中ABVWCD,在4AB,CD,BC 三段路旁各有一只小石使忆,F,M,且BE=CF,M在BC的中点,试说明三只石使下,下,M 恰好在一条直线上.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "35",
+        "prompt": "如图2-31所示,把人ABC 纸片沿 DE tre. 404 A 落在四边形 BCDE 内部时. (1) 写出图中一对全等的三角形,并写出它们的所有对应角; (2) BZAED 的度数为zx, ZADE 的度数为y,那么1 ,一2 的度数分别是多少? OHA Ax ky 的代数式表示) (3) ZA 214-22 之间有一种数量关系始终保持不变,请找出这个规律. 图2-31 Riise CRA “MBER” RRL TAG. AME CAE hohe’ REL TaARe (SHS[)SHKSRASRSH RO ARSON ES 20",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 30,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "时 拓展资源",
+    "text": "时 拓展资源\n31. 上午 8 时,一条船从海岛 A 出发,以 20 海里/时的速度向北航行,11 时到达海岛 B\n处,从A,B 望灯塔C ,测得NAC=40\",NBC=80\",如图3- 19 所示,求从海岛 B BIT\nC 的距离.                                                       N\nC     80°\n3-19\nRiise CRA “MBER” RRL TAG.\nBPR Ses\n25\n(SSH) ie SS aS SS. HG SE\n26\n32. 正三角形给人以*稳如泰山?的感觉,它具有独特的对称性,请你按要求将图 3 - 20 中\n的正三角形进行分割.\n(1) 分割后得到的四个等腰三角形面积相等;\n(2) 分割成四个全等的等边三角形;\n(3) 分割成两对全等的直角三角形.\n(a)                               (b)                               (c)\n3-20\n33. WE 3-21 Prax ,请在由边长为 1 的小正三角形组成的虚线网格中 ,画出:\nCL) 一个所有项点均在格点上的等腰三角形;\n(2) 一个所有项点均在格点上,且三条边为无理数的等腰三角形，\n图3-21\n34. 请你仔细观察图 3 - 22 中等边三角形图形的变化规律,写出你所发现的关于等边三角\n形内一点到三边距离的数学事实.\n图3-22\n35. 小明利用两块等边三角形纸板(人AABC 与ADEF )进行拼图,如图3 - 23 所示,经过\n探索后,小明说 AD=BE=CF,你同意他的说法吗? 说出你的理由.\nA\nRiise DRE “MERE” RRL CABS\nAME CAE hohe’ REL TaARe\n(SSH) ie SS aS SS. HG SE\n28",
+    "id": "grade8_b0013",
+    "pageEnd": 33,
+    "questionCandidates": [
+      {
+        "localNo": "31",
+        "prompt": "上午 8 时,一条船从海岛 A 出发,以 20 海里/时的速度向北航行,11 时到达海岛 B 处,从A,B 望灯塔C ,测得NAC=40\",NBC=80\",如图3- 19 所示,求从海岛 B BIT C 的距离. N C 80° 3-19 Riise CRA “MBER” RRL TAG. BPR Ses 25 (SSH) ie SS aS SS. HG SE 26",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "正三角形给人以*稳如泰山?的感觉,它具有独特的对称性,请你按要求将图 3 - 20 中 的正三角形进行分割. (1) 分割后得到的四个等腰三角形面积相等; (2) 分割成四个全等的等边三角形; (3) 分割成两对全等的直角三角形. (a) (b) (c) 3-20",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "WE 3-21 Prax ,请在由边长为 1 的小正三角形组成的虚线网格中 ,画出: CL) 一个所有项点均在格点上的等腰三角形; (2) 一个所有项点均在格点上,且三条边为无理数的等腰三角形， 图3-21",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "请你仔细观察图 3 - 22 中等边三角形图形的变化规律,写出你所发现的关于等边三角 形内一点到三边距离的数学事实. 图3-22",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "35",
+        "prompt": "小明利用两块等边三角形纸板(人AABC 与ADEF )进行拼图,如图3 - 23 所示,经过 探索后,小明说 AD=BE=CF,你同意他的说法吗? 说出你的理由. A Riise DRE “MERE” RRL CABS AME CAE hohe’ REL TaARe (SSH) ie SS aS SS. HG SE 28",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 40,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "号 拓展资源",
+    "text": "号 拓展资源\n31. 如图4-27所示,CD 是RtAABC 斜边AB 上的高,将ABCD\n沿CD #8 BR RATE AB 的中点已处,则~A 等于(     ).\nA       E D    B\nA. 25°                              B. 30°\nC. 45°                              D. 60°\n32. 在直线 !/ 上依次摆放着 7 个正方形(如图4-28 所示). 已知斜放置的 3 个正方形的面\n积分别是 1,2,3,正放置的 4个正方形的面积依次是 SS 、.S;、`S，,则 S, 十S:十S$;十S:等于\n《 站\n图4-27\nRiise CRA “MBER” RRL TAG.\nSPR S+H\n35\n(SSH) ie SS aS SS. HG SE\n36\n图4-28\n33. 如图4- 29 所示,滑杆在机械槽内运动,乙ACB 为直角,已知滑杆 AB 长 2.5 米,顶端\nA EAC 上运动,量得滑杆下端了3到C 点的距离为 1.5 米,当端点 B 向右移动 0.5 米时,求滑\n杆顶端A 下滑多少米?\nC    BD\n图4-29\n34, 如图4-30所示,A,E,F,C 在一条直线上,ARE=CF,过已,F 分别作DE LAC, BF\nLAC, # AB=CD. 请回答下列问题:\n(1) BD ¥-4} EF;\n(2) 若将ADEC 的边 EC 沿 AC 方向移动变为图4- 31 所示图形时其余条件不变,上述\n结论是否成立,请说明理由，\n35. 如图4-32所示,AABC 和ACEF 是两个大小不等的等边三角形,且有一个公共项\n点 C ,连接 AF 和 BE.\n(1) 线段 AF 和BE 有怎样的大小关系?” 请证明你的结论，\n(2) 将图4-32 所示的ACEF 绕点C 旋转一定的角度 ,得到图4- 33 所示的图形,(1)中\n的结论还成立吗? 作出判断并说明理由，\nor                7      |\n图4-32           图4-33\nRiise CRA “MBER” RRL TAG.\nRiise CAE “MRE RH” RRLG CARES\n(SSH) ie SS aS SS. HG SE\n38",
+    "id": "grade8_b0018",
+    "pageEnd": 43,
+    "questionCandidates": [
+      {
+        "localNo": "31",
+        "prompt": "如图4-27所示,CD 是RtAABC 斜边AB 上的高,将ABCD 沿CD #8 BR RATE AB 的中点已处,则~A 等于( ). A E D B A. 25° B. 30° C. 45° D. 60°",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "在直线 !/ 上依次摆放着 7 个正方形(如图4-28 所示). 已知斜放置的 3 个正方形的面 积分别是 1,2,3,正放置的 4个正方形的面积依次是 SS 、.S;、`S，,则 S, 十S:十S$;十S:等于 《 站 图4-27 Riise CRA “MBER” RRL TAG. SPR S+H 35 (SSH) ie SS aS SS. HG SE 36 图4-28",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "如图4- 29 所示,滑杆在机械槽内运动,乙ACB 为直角,已知滑杆 AB 长 2.5 米,顶端 A EAC 上运动,量得滑杆下端了3到C 点的距离为 1.5 米,当端点 B 向右移动 0.5 米时,求滑 杆顶端A 下滑多少米? C BD 图4-29",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "如图4-30所示,A,E,F,C 在一条直线上,ARE=CF,过已,F 分别作DE LAC, BF LAC, # AB=CD. 请回答下列问题: (1) BD ¥-4} EF; (2) 若将ADEC 的边 EC 沿 AC 方向移动变为图4- 31 所示图形时其余条件不变,上述 结论是否成立,请说明理由，",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "35",
+        "prompt": "如图4-32所示,AABC 和ACEF 是两个大小不等的等边三角形,且有一个公共项 点 C ,连接 AF 和 BE. (1) 线段 AF 和BE 有怎样的大小关系?” 请证明你的结论， (2) 将图4-32 所示的ACEF 绕点C 旋转一定的角度 ,得到图4- 33 所示的图形,(1)中 的结论还成立吗? 作出判断并说明理由， or 7 | 图4-32 图4-33 Riise CRA “MBER” RRL TAG. Riise CAE “MRE RH” RRLG CARES (SSH) ie SS aS SS. HG SE 38",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 50,
+    "lessonNo": null,
+    "lessonTitle": "",
+    "column": "competition_boost",
+    "rawHeading": "时 拓展资源",
+    "text": "时 拓展资源\nC.\n28. 如图5-23 所示,点 A, EMMY 3 的等边AABC 的\n两条中线的交点,以 BA,为一边,构造等边人BA,C, ,称为第                 CI\n边,构造等边和BA;C， ,称为第二次构造;依此类推,当第， 次             “Kah?\n构造出的等边ABA,C,的边 BC, 与等边ACBA 的边AB 第一                   G,\n次在同一直线上时,构造停止.则构造出的最后一个三角形的 4              B\n面积是       .                                        5-23\n29. 如图5-24 所示,一根长 2a WARE CAB ) ,斜靠在与地面(OM )垂直的墙CON )上,设\n木棍的中点为 乙,若木棍 A 端沿墙下滑,且了 端沿地面向右滑行.\n(1) 请判断木棍滑动的过程中,点 已到点O 的距离是否变化,并简述理由.\n(2) 在木棍滑动的过程中,当滑动到什么位置时,AAOB 的面积最大? 简述理由,并求出\n面积的最大值.\n图5-24\nRiise CRA “MBER” RRL TAG.\nDM RR Saw\n45\n(SSH) ie SS aS SS. HG SE\n46\n30. 如图5- 25 所示,在AABC 和ADCB 'f,.AB=DC.AC=DB.AC 与DB 交于点 M，\n(1) 求证:AABCS2 APDCB;\n(2) 过点C作CNVWBD,过点了B作BNAWAC,CN 与BN 交于点 N,试判断线段 BN 与\nCN 的数量关系,并证明你的结论.\nB                        C\nN\n图S$-2S\n31. 如图5-26 所示,AB=AC,AD BC 于点D,AD=AE,AB 平分CDAE % DE 于点\n开,请你写出图中三对全等三角形,并选取其中一对加以证明，\n32. GM MK 5 - 27 Wtas.DC//AB.H DC=AE.E 4% AB 的中点.\n(1) RiE: AAED2AEBC,\n(2) 观察图形 ,在不添加辅助线的情况下 ,除AEBC 外,请再写出几个与AAED 的面积\n相等的三角形.(直接写出结果 ,不要求证明)\nA\nLN\nB            Cc\n图5-27\nRiise CRA “MBER” RRL TAG.\nAME CAE hohe’ REL TaARe\n(SSH) ie SS aS SS. HG SE\n48",
+    "id": "grade8_b0023",
+    "pageEnd": 53,
+    "questionCandidates": [
+      {
+        "localNo": "28",
+        "prompt": "如图5-23 所示,点 A, EMMY 3 的等边AABC 的 两条中线的交点,以 BA,为一边,构造等边人BA,C, ,称为第 CI 边,构造等边和BA;C， ,称为第二次构造;依此类推,当第， 次 “Kah? 构造出的等边ABA,C,的边 BC, 与等边ACBA 的边AB 第一 G, 次在同一直线上时,构造停止.则构造出的最后一个三角形的 4 B 面积是 . 5-23",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "29",
+        "prompt": "如图5-24 所示,一根长 2a WARE CAB ) ,斜靠在与地面(OM )垂直的墙CON )上,设 木棍的中点为 乙,若木棍 A 端沿墙下滑,且了 端沿地面向右滑行. (1) 请判断木棍滑动的过程中,点 已到点O 的距离是否变化,并简述理由. (2) 在木棍滑动的过程中,当滑动到什么位置时,AAOB 的面积最大? 简述理由,并求出 面积的最大值. 图5-24 Riise CRA “MBER” RRL TAG. DM RR Saw 45 (SSH) ie SS aS SS. HG SE 46",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "30",
+        "prompt": "如图5- 25 所示,在AABC 和ADCB 'f,.AB=DC.AC=DB.AC 与DB 交于点 M， (1) 求证:AABCS2 APDCB; (2) 过点C作CNVWBD,过点了B作BNAWAC,CN 与BN 交于点 N,试判断线段 BN 与 CN 的数量关系,并证明你的结论. B C N 图S$-2S",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "31",
+        "prompt": "如图5-26 所示,AB=AC,AD BC 于点D,AD=AE,AB 平分CDAE % DE 于点 开,请你写出图中三对全等三角形,并选取其中一对加以证明，",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "GM MK 5 - 27 Wtas.DC//AB.H DC=AE.E 4% AB 的中点. (1) RiE: AAED2AEBC, (2) 观察图形 ,在不添加辅助线的情况下 ,除AEBC 外,请再写出几个与AAED 的面积 相等的三角形.(直接写出结果 ,不要求证明) A LN B Cc 图5-27 Riise CRA “MBER” RRL TAG. AME CAE hohe’ REL TaARe (SSH) ie SS aS SS. HG SE 48",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 146,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "| 拓展资源",
+    "text": "| 拓展资源\n31. 设 zyyvz 都是正实数,o一z十了=十二,ez十二,骨 ap0:c 三个数(     ).\nA, 至少有一个不大于2       B. 都小于 2\nC. 至少有一个不小于 2       D. 都天于2\n32. 有甲、.乙丙丁四位歌手参加比赛,其中只有一位获奖,有人走访了四位歌手,甲说，\n“是乙或两获奖.”乙说:…甲\\丙都未获奖.”丙说: “我获奖了.”丁说:是乙获奖了.?四位歌手的\n话只有两句是对的,则获奖的歌手是().\nA. 甲             B. Z              C. A             DT                   141\nRiise CRA “MBER” RRL TAG.\n33. Basbec HWE 1 WER RIE: d—a)b,—b)e. oa 不能同时大于二\n34. 已知:&十0十c六0,ap十pc十ca盖0,apc二0. RiE:a>0.b>0.c>0.\n35. 在AABC 中,4AB=AC,P BAH 4A ZAPB> ZAPC RIE: PB<PC.\n(SSH) ie SS aS SS. HG SE\n142\nRiise CRA “MBER” RRL TAG.\nAME CAE hohe’ REL TaARe",
+    "id": "grade8_b0055",
+    "pageEnd": 149,
+    "questionCandidates": [
+      {
+        "localNo": "31",
+        "prompt": "设 zyyvz 都是正实数,o一z十了=十二,ez十二,骨 ap0:c 三个数( ). A, 至少有一个不大于2 B. 都小于 2 C. 至少有一个不小于 2 D. 都天于2",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "有甲、.乙丙丁四位歌手参加比赛,其中只有一位获奖,有人走访了四位歌手,甲说， “是乙或两获奖.”乙说:…甲\\丙都未获奖.”丙说: “我获奖了.”丁说:是乙获奖了.?四位歌手的 话只有两句是对的,则获奖的歌手是(). A. 甲 B. Z C. A DT 141 Riise CRA “MBER” RRL TAG.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "Basbec HWE 1 WER RIE: d—a)b,—b)e. oa 不能同时大于二",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "已知:&十0十c六0,ap十pc十ca盖0,apc二0. RiE:a>0.b>0.c>0.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "35",
+        "prompt": "在AABC 中,4AB=AC,P BAH 4A ZAPB> ZAPC RIE: PB<PC. (SSH) ie SS aS SS. HG SE 142 Riise CRA “MBER” RRL TAG. AME CAE hohe’ REL TaARe",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 185,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "号 拓展资源",
+    "text": "号 拓展资源\n30. 如图 19 - 26 所示 ,正方形 ABCD 的边长为4厘米,两动点 P,Q 分别同时从D,A 出\n发,以1厘米/秒的速度各自沿着 DA ,AB 边向A,B 运动. 试解答下列各题，\n(1) 当P,Q出发后多少秒时,四边形 APOQ 为正方形?\n5        5                 9                      一一~ 9\n(2) 当 P.Q 出发后多少秒时 ,Sarao一SENancp，             4                   A\nP\nO\nD                Cc\n图 19 - 26\nRite LAA MMP RR” REL CARS\n31. 在边长为6 INI ABCD 中,动点 M 从点A 出发,沿A一B一C MARC 运动,连接\nDM 交AC 于点 N.\n(1) 如图 19-27 所示,当点M在AB边上时,连接 BN.\n® RIE: AABN2AADN;\n@ #ZABC=60°.AM=4.2% 4 M 3 AD 的距离.\n(2) 如图 19 - 28 所示,若ABC=90\",记点 M BORAT ED 2 (62 <2),\n试问:z 为何值时,人ADN 为等腰三角形.        M      B\nC          B        N\nM\nD           A           D              A\n图19 -27               图19-28\n32. 在正方形 ABCD 中,M 是边 BC PRE 是边AB 上的一个动点,MF | ME,MF 交\n射线 CD FA F.AB=4,BE=x,.CF=y.\n(1) Ry RF x 的解析式,并写出z 的取值范围.\n(2) 当点正在边CD 上时,四边形 AEFD WAKE AREA E 的运动而发生变化” 请说明\n理由.\n(3) 4 DF=1 AOR A 到直线 EP 的距离.\n33. 如图 19-29 所示 ,四边形 ABCD IE WI. AABE 是等边三角形,M 为对角线 BD\n(不含B 点)上任意一点,将 BM SE B 道时针旋转 60\"得到 BN ,连接 EN ,AM ,CM.\n(1) RUE: AAMBLAENB;\n(2) 四当点 M 在何处时,AM十CM 的值最小;\n@ 当点 M 在何处时,AM二BM十CM 的值最小,并说明理由;\n(3) 当AM二BM二CM 的最小值为V3 十1 时,求正方形的边长.             A            D\nN\nE\nM\nB          Cc\n图 19-29\nRiise CRA “MBER” RRL TAG.\nSou\nDIRS S\n181\n(SSH) ie SS aS SS. HG SE\n182\n34. 已知,矩形ABCD 中,AB=4厘米,BC=8 厘米,AC 的垂直平分线 EF 分别交AD，\nBC FA E.F EW O.\n(1) 如图 19 - 30 Bras ,连接 AP .CE. 求证四边形 AFCE A286 ,并求 AF 的长.\n(2) 如图19 -31 SRA. A PQ 分别从A,C 两点同时出发,沿AAFB 和ACDE 各边匀\n速运动一周. 即点卫 A A>F>B—A 停止,点Q 自C一D一E->C 停止.\nO CALA P 的速度为 5 厘米/秒,点 Q 的速度为4厘米/秒,运动时间为上秒,当以A,C，\nPQ 四点为顶点的四边形是平行四边形时,求寺的值.\n@ GA P.Q 的运动路程分别为wa,0(单位:厘米,ab天0) ,已知以A,C,P,Q 四点为顶点\n的四边形是平行四边形,求a 与 满足的数量关系式\n4        E    D       A        E    D        A        E    D\nP                      P\nb                             Q                      Q\nB    F        C       B    F        加        B    F        C\n图 19-30                 图19-31              图19-31(备用图)\nRiise CRA “MBER” RRL TAG.\n第 20 it\n反比例函数\nAME CAE hohe’ REL TaARe\n(SHS[)SHKSRASRSH RO ARSON ES\n184",
+    "id": "grade8_b0071",
+    "pageEnd": 189,
+    "questionCandidates": [
+      {
+        "localNo": "30",
+        "prompt": "如图 19 - 26 所示 ,正方形 ABCD 的边长为4厘米,两动点 P,Q 分别同时从D,A 出 发,以1厘米/秒的速度各自沿着 DA ,AB 边向A,B 运动. 试解答下列各题， (1) 当P,Q出发后多少秒时,四边形 APOQ 为正方形? 5 5 9 一一~ 9 (2) 当 P.Q 出发后多少秒时 ,Sarao一SENancp， 4 A P O D Cc 图 19 - 26 Rite LAA MMP RR” REL CARS",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "31",
+        "prompt": "在边长为6 INI ABCD 中,动点 M 从点A 出发,沿A一B一C MARC 运动,连接 DM 交AC 于点 N. (1) 如图 19-27 所示,当点M在AB边上时,连接 BN. ® RIE: AABN2AADN; @ #ZABC=60°.AM=4.2% 4 M 3 AD 的距离. (2) 如图 19 - 28 所示,若ABC=90\",记点 M BORAT ED 2 (62 <2), 试问:z 为何值时,人ADN 为等腰三角形. M B C B N M D A D A 图19 -27 图19-28",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "在正方形 ABCD 中,M 是边 BC PRE 是边AB 上的一个动点,MF | ME,MF 交 射线 CD FA F.AB=4,BE=x,.CF=y. (1) Ry RF x 的解析式,并写出z 的取值范围. (2) 当点正在边CD 上时,四边形 AEFD WAKE AREA E 的运动而发生变化” 请说明 理由. (3) 4 DF=1 AOR A 到直线 EP 的距离.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "如图 19-29 所示 ,四边形 ABCD IE WI. AABE 是等边三角形,M 为对角线 BD (不含B 点)上任意一点,将 BM SE B 道时针旋转 60\"得到 BN ,连接 EN ,AM ,CM. (1) RUE: AAMBLAENB; (2) 四当点 M 在何处时,AM十CM 的值最小; @ 当点 M 在何处时,AM二BM十CM 的值最小,并说明理由; (3) 当AM二BM二CM 的最小值为V3 十1 时,求正方形的边长. A D N E M B Cc 图 19-29 Riise CRA “MBER” RRL TAG. Sou DIRS S 181 (SSH) ie SS aS SS. HG SE 182",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "已知,矩形ABCD 中,AB=4厘米,BC=8 厘米,AC 的垂直平分线 EF 分别交AD， BC FA E.F EW O. (1) 如图 19 - 30 Bras ,连接 AP .CE. 求证四边形 AFCE A286 ,并求 AF 的长. (2) 如图19 -31 SRA. A PQ 分别从A,C 两点同时出发,沿AAFB 和ACDE 各边匀 速运动一周. 即点卫 A A>F>B—A 停止,点Q 自C一D一E->C 停止. O CALA P 的速度为 5 厘米/秒,点 Q 的速度为4厘米/秒,运动时间为上秒,当以A,C， PQ 四点为顶点的四边形是平行四边形时,求寺的值. @ GA P.Q 的运动路程分别为wa,0(单位:厘米,ab天0) ,已知以A,C,P,Q 四点为顶点 的四边形是平行四边形,求a 与 满足的数量关系式 4 E D A E D A E D P P b Q Q B F C B F 加 B F C 图 19-30 图19-31 图19-31(备用图) Riise CRA “MBER” RRL TAG. 第 20 it 反比例函数 AME CAE hohe’ REL TaARe (SHS[)SHKSRASRSH RO ARSON ES 184",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  },
+  {
+    "grade": "grade8",
+    "sourceFile": "尖子生高分题库8年级.pdf",
+    "pageStart": 174,
+    "lessonNo": 13,
+    "lessonTitle": "第 13 讲",
+    "column": "competition_boost",
+    "rawHeading": "时 拓展资源",
+    "text": "时 拓展资源\n一\n31. 一位女士想买一条方纱巾,有一天她在商店里看到一块漂亮的纱巾,非常想买,但她\n拿起来看时感觉纱巾不太方 ,商店老板看她犹豫不决的样子,马上过来拉起一组对角,让女士\n看另一组对角是否对齐,如网 18 - 27 所示 ,女士还有些疑惑 ,老板又拉起另一组对角让女士检\n验,女士终于买下这块纱巾,你认为女士买的这块纱巾是正方形的吗? 当时采用什么方法可以\n检验出来?\n图18 -27\n32. 如图 18 - 28 所示 ,一等腰直角三角尺 GEF 的两条直角边与正方形ABCPD 的两条边\n分别重合 ,现正方形 ABCD 保持不动,将三角尺 GEF ZRH EF 中点 O 按顺时针方向旋转，\nNv\nAS\n\\\nF                          as\nDF)  C    pA  C    不  人\nF\nY\\\\o                         \\        O\nel             Le\nAON                   ia ae\nAG)         B(E)                       AN                            G\nA 18-28            A 18-29                A 18-30\nRiise CRA “MBER” RRL TAG.\nSoH Ses\n169\n(1) 如图18- 29 所示,当EF 与AB 相交于点M. GF 与BD 相交于点 N 时,通过观察或\n测量 BM ,FN 的长度 ,猜想 BM,FN 满足的数量关系.并证明你的猜想.\n(2) 若三角尺 GEF 旋转到图 18 - 30 所示的位置,此时(1)中的猜想还能成立吗? 若成\n立,请证明;若不成立,请说明理由.\n33. 已知,如图18 -31 所示,O 为正方形ABCD 的中心 ,BE 平分人DBC ,交 DC FARE.\n延长 BC 到点下,使 CF=CE ,连接 DF,交BFE 的延长线于点 G ,连接 OG.\n(1) iE: ABCE2ADCF.\n(2) OG 5 BF 有什么数量关系? 证明你的结论.\n(SSH) ie SS aS SS. HG SE\nA               D\nO      EL\nB           CF\nAl 18-31\n34, 如图 18 - 32 所示,正方形 ABCD 和正方形 BEFC.操作:M 2 AB 上一动点,从A 至\n也 移动(不与A,B 重合) ,DM | MN ,交对角线 BF 于 N ,探究 DM 和MKN 之间的数量关系，\n外证日\n并加以证明.                                   nm     c     F\nN\nA M   B      E\n图18 -32\n170\nRiise CRA “MBER” RRL TAG.\n第 19 ik\n四边形综合\nAME CAE hohe’ REL TaARe",
+    "id": "grade8_b0066",
+    "pageEnd": 177,
+    "questionCandidates": [
+      {
+        "localNo": "31",
+        "prompt": "一位女士想买一条方纱巾,有一天她在商店里看到一块漂亮的纱巾,非常想买,但她 拿起来看时感觉纱巾不太方 ,商店老板看她犹豫不决的样子,马上过来拉起一组对角,让女士 看另一组对角是否对齐,如网 18 - 27 所示 ,女士还有些疑惑 ,老板又拉起另一组对角让女士检 验,女士终于买下这块纱巾,你认为女士买的这块纱巾是正方形的吗? 当时采用什么方法可以 检验出来? 图18 -27",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "32",
+        "prompt": "如图 18 - 28 所示 ,一等腰直角三角尺 GEF 的两条直角边与正方形ABCPD 的两条边 分别重合 ,现正方形 ABCD 保持不动,将三角尺 GEF ZRH EF 中点 O 按顺时针方向旋转， Nv AS \\ F as DF) C pA C 不 人 F Y\\\\o \\ O el Le AON ia ae AG) B(E) AN G A 18-28 A 18-29 A 18-30 Riise CRA “MBER” RRL TAG. SoH Ses 169 (1) 如图18- 29 所示,当EF 与AB 相交于点M. GF 与BD 相交于点 N 时,通过观察或 测量 BM ,FN 的长度 ,猜想 BM,FN 满足的数量关系.并证明你的猜想. (2) 若三角尺 GEF 旋转到图 18 - 30 所示的位置,此时(1)中的猜想还能成立吗? 若成 立,请证明;若不成立,请说明理由.",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "33",
+        "prompt": "已知,如图18 -31 所示,O 为正方形ABCD 的中心 ,BE 平分人DBC ,交 DC FARE. 延长 BC 到点下,使 CF=CE ,连接 DF,交BFE 的延长线于点 G ,连接 OG. (1) iE: ABCE2ADCF. (2) OG 5 BF 有什么数量关系? 证明你的结论. (SSH) ie SS aS SS. HG SE A D O EL B CF Al 18-31",
+        "hasAnalysis": false,
+        "hasSolution": false
+      },
+      {
+        "localNo": "34",
+        "prompt": "如图 18 - 32 所示,正方形 ABCD 和正方形 BEFC.操作:M 2 AB 上一动点,从A 至 也 移动(不与A,B 重合) ,DM | MN ,交对角线 BF 于 N ,探究 DM 和MKN 之间的数量关系， 外证日 并加以证明. nm c F N A M B E 图18 -32 170 Riise CRA “MBER” RRL TAG. 第 19 ik 四边形综合 AME CAE hohe’ REL TaARe",
+        "hasAnalysis": false,
+        "hasSolution": false
+      }
+    ],
+    "cleanedColumn": "competition_boost",
+    "cleaningAction": "flagged",
+    "confidence": "high",
+    "reviewPriority": "medium",
+    "reviewReasons": [
+      "OCR noise signature"
+    ]
+  }
+]

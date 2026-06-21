@@ -1,0 +1,41 @@
+{
+  "pages": 175,
+  "blocks": 270,
+  "questionCandidates": 631,
+  "columns": {
+    "unknown": 27,
+    "thinking_training": 201,
+    "competition_boost": 34,
+    "topic_overview": 5,
+    "worked_example": 3
+  },
+  "lessons": [
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    25,
+    2,
+    7,
+    20,
+    23,
+    24
+  ],
+  "pageRange": {
+    "start": 7,
+    "end": 181
+  }
+}

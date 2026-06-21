@@ -6,8 +6,9 @@ import problemsData from "../data/problems.json";
 import type { Problem } from "../../../packages/adaptive-engine";
 import { buildLearningPlan, type LearningPlan } from "./shared/learningPlan";
 import { buildReviewQueue, type ReviewQueue } from "./shared/reviewQueue";
-import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel } from "./shared/storage";
+import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, readSubjectiveReviewQueue, type SubjectiveReviewItem } from "./shared/storage";
 import { summarizeStudentModel, type StudentModel } from "./shared/studentModel";
+import { buildReviewedSubjectiveFeedback, countPendingSubjectiveReviews, type ReviewedSubjectiveFeedback } from "./shared/subjectiveFeedback";
 import type { AssessmentReport } from "./shared/assessmentReport";
 import type { SimulationLog } from "./dashboard/types";
 
@@ -19,6 +20,7 @@ type HomeState = {
   studentModel: StudentModel | null;
   assessmentReport: AssessmentReport | null;
   practiceLogs: SimulationLog[];
+  subjectiveReviews: SubjectiveReviewItem[];
   diagnosticLogs: SimulationLog[];
 };
 
@@ -38,6 +40,7 @@ export default function HomeLearningPlan() {
     studentModel: null,
     assessmentReport: null,
     practiceLogs: [],
+    subjectiveReviews: [],
     diagnosticLogs: []
   });
 
@@ -46,6 +49,7 @@ export default function HomeLearningPlan() {
     const practiceLogs = readPracticeLogs();
     const diagnosticLogs = readDiagnosticLogs();
     const storedPlan = readLearningPlan();
+    const subjectiveReviews = readSubjectiveReviewQueue();
     const generatedPlan =
       studentModel || practiceLogs.length > 0 || diagnosticLogs.length > 0
         ? buildLearningPlan([...diagnosticLogs, ...practiceLogs], problems, studentModel)
@@ -57,12 +61,21 @@ export default function HomeLearningPlan() {
       studentModel,
       assessmentReport: readAssessmentReport(),
       practiceLogs,
+      subjectiveReviews,
       diagnosticLogs
     });
   }, []);
 
   const summary = useMemo(() => buildHomeSummary(homeState), [homeState]);
   const tasks = useMemo(() => buildRecommendedTasks(homeState), [homeState]);
+  const reviewedFeedback = useMemo(
+    () => buildReviewedSubjectiveFeedback(homeState.subjectiveReviews, problems, { limit: 2 }),
+    [homeState.subjectiveReviews]
+  );
+  const pendingSubjectiveCount = useMemo(
+    () => countPendingSubjectiveReviews(homeState.subjectiveReviews),
+    [homeState.subjectiveReviews]
+  );
 
   return (
     <section className="student-home-grid">
@@ -91,8 +104,27 @@ export default function HomeLearningPlan() {
         <ProgressTile label="Recent Attempts" value={String(summary.recentAttempts)} detail={summary.recentAccuracy} />
         <ProgressTile label="Current Streak" value={summary.streakLabel} detail={summary.lastActivity} />
         <ProgressTile label="Review Due" value={String(summary.reviewCount)} detail={summary.reviewDetail} />
-        <ProgressTile label="Course Position" value={summary.placement} detail={summary.placementEvidence} />
+        <ProgressTile label="Written Feedback" value={String(reviewedFeedback.length)} detail={pendingSubjectiveCount > 0 ? `${pendingSubjectiveCount} pending review` : "Latest reviewed work"} />
       </div>
+
+      {reviewedFeedback.length > 0 && (
+        <section className="panel full-panel subjective-feedback-panel">
+          <div className="recommended-task-head">
+            <div>
+              <p className="eyebrow">Reviewed Written Work</p>
+              <h2 className="panel-title">Latest feedback and repair task</h2>
+            </div>
+            <Link className="button-secondary" href="/review">
+              Open review queue
+            </Link>
+          </div>
+          <div className="subjective-feedback-grid">
+            {reviewedFeedback.map((item) => (
+              <SubjectiveFeedbackCard item={item} key={item.id} />
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="panel full-panel recommended-task-panel">
         <div className="recommended-task-head">
@@ -122,6 +154,31 @@ function RecommendedTaskCard({ task }: { task: RecommendedTask }) {
       <p>{task.reason}</p>
       <em>{task.action}</em>
     </Link>
+  );
+}
+
+function SubjectiveFeedbackCard({ item }: { item: ReviewedSubjectiveFeedback }) {
+  return (
+    <div className="subjective-feedback-card">
+      <div className="tag-row">
+        <span className="tag tag-gold">{item.scoreLabel}</span>
+        <span className="tag">{item.mode}</span>
+        {item.abilityTags.slice(0, 2).map((tag) => (
+          <span className="tag tag-teal" key={tag}>{tag}</span>
+        ))}
+      </div>
+      <h3>{item.problemTitle}</h3>
+      <p>{item.feedback}</p>
+      <p className="muted">{item.nextAction}</p>
+      <div className="learning-plan-actions">
+        <Link className="button" href={item.href}>
+          Start repair practice
+        </Link>
+        <Link className="button-secondary" href={`/practice?problemId=${encodeURIComponent(item.problem)}&autoGradableOnly=false`}>
+          Reopen problem
+        </Link>
+      </div>
+    </div>
   );
 }
 
@@ -201,6 +258,18 @@ function buildRecommendedTasks(state: HomeState): RecommendedTask[] {
   const plan = state.plan;
   const reviewQueue = state.reviewQueue;
   const modelSummary = summarizeStudentModel(state.studentModel);
+  const subjectiveFeedback = buildReviewedSubjectiveFeedback(state.subjectiveReviews, problems, { limit: 1 })[0];
+
+  if (subjectiveFeedback) {
+    tasks.push({
+      eyebrow: "Written Feedback",
+      title: `Repair ${formatConcept(subjectiveFeedback.concepts[0] ?? subjectiveFeedback.problem)}`,
+      reason: subjectiveFeedback.nextAction,
+      href: subjectiveFeedback.href,
+      action: subjectiveFeedback.scoreLabel,
+      tone: "review"
+    });
+  }
 
   if (reviewQueue && reviewQueue.problemCount > 0) {
     tasks.push({

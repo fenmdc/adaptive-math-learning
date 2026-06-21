@@ -23,6 +23,7 @@ export type Problem = {
   misconceptions: string[];
   isAutoGradable: boolean;
   solution: string;
+  responseSchema?: SubjectiveResponseSchema;
   taxonomy?: {
     version: "v0";
     layer: "Foundation" | "Standard" | "Honors" | "AMC8" | "AMC8 Stretch";
@@ -39,6 +40,14 @@ export type Problem = {
     sequence: number;
     sourceCollection: string;
   };
+  locale?: {
+    language: "en" | "zh" | "bilingual";
+    curriculumSystem: "US" | "CN" | "AMC" | "AP" | "Olympiad";
+    region?: "US" | "CN";
+    displayTrack?: string;
+    gradeBand?: string;
+    contentStatus?: "pilot" | "production";
+  };
   recommendationMeta?: {
     reason: string;
     explanation?: RecommendationExplanation;
@@ -47,6 +56,24 @@ export type Problem = {
     targetMastery?: number;
     prerequisiteGap?: string;
     prerequisiteTarget?: string;
+  };
+};
+
+export type SubjectiveResponseSchema = {
+  version: "v0";
+  mode: "application" | "short_answer" | "proof" | "constructed_response";
+  requiresWork: boolean;
+  acceptedInputs: Array<"text" | "handwriting" | "image_upload" | "pdf_upload">;
+  rubric: Array<{
+    id: string;
+    label: string;
+    maxScore: number;
+    description: string;
+  }>;
+  reviewPolicy: {
+    autoGrade: boolean;
+    aiAssist: boolean;
+    humanReview: boolean;
   };
 };
 

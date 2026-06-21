@@ -27,6 +27,12 @@ type StagingProblem = {
   cognitive_tags: string;
   estimated_time_seconds: string;
   notes: string;
+  language?: NonNullable<Problem["locale"]>["language"];
+  curriculum_system?: NonNullable<Problem["locale"]>["curriculumSystem"];
+  region?: string;
+  display_track?: string;
+  grade_band?: string;
+  content_status?: NonNullable<Problem["locale"]>["contentStatus"];
 };
 
 type DistractorRow = {
@@ -131,7 +137,23 @@ function mapProblem(
       cognitiveTags: splitList(row.cognitive_tags),
       estimatedTimeSeconds: Number(row.estimated_time_seconds) || 90
     },
+    ...parseLocale(row),
     ...(distractors.length > 0 ? { distractors } : {})
+  };
+}
+
+function parseLocale(row: StagingProblem): Pick<Problem, "locale"> {
+  if (!row.language && !row.curriculum_system && !row.display_track && !row.grade_band) return {};
+
+  return {
+    locale: {
+      language: row.language || "en",
+      curriculumSystem: row.curriculum_system || "US",
+      ...(row.region ? { region: row.region } : {}),
+      ...(row.display_track ? { displayTrack: row.display_track } : {}),
+      ...(row.grade_band ? { gradeBand: row.grade_band } : {}),
+      ...(row.content_status ? { contentStatus: row.content_status } : {})
+    } as Problem["locale"]
   };
 }
 
@@ -189,6 +211,10 @@ function courseOrder(course: string) {
   if (course === "Pre-Algebra") return 1;
   if (course === "Algebra 1") return 2;
   if (course === "AMC8") return 3;
+  if (course === "CN Primary Math") return 11;
+  if (course === "CN Junior High Math") return 12;
+  if (course === "CN Senior High Math") return 13;
+  if (course === "CN Olympiad Lite") return 14;
   return 99;
 }
 

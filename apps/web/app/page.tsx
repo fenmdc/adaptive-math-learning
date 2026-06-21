@@ -46,8 +46,8 @@ export default function HomePage() {
             <Link className="button" href="/diagnostic">
               Diagnostic
             </Link>
-            <Link className="button-secondary" href="/practice">
-              Practice
+            <Link className="button-secondary" href="/curriculum">
+              Courses
             </Link>
             <Link className="button-secondary" href="/dashboard">
               Dashboard
@@ -106,9 +106,9 @@ export default function HomePage() {
           />
           <ProductAction
             action="Continue"
-            description="Open the adaptive practice surface with filters, answer checks, and explanations."
-            href="/practice"
-            title="Adaptive Practice"
+            description="Choose English or Chinese learning first, then enter the matching course track."
+            href="/curriculum"
+            title="Course Entry"
           />
           <ProductAction
             action="Review"

@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import AccountBar from "./AccountBar";
 import PwaRegister from "./PwaRegister";
+import "katex/dist/katex.min.css";
 import "./globals.css";
 
 export const metadata = {

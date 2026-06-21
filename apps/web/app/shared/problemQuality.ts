@@ -47,7 +47,8 @@ export function buildProblemQualityAudit(
   const explanationQuality = summarizeExplanationQuality(problems, explanations);
   const explanationReviewQueue = buildExplanationReviewQueue(problems, explanations);
   const thinConcepts = buildThinConcepts(problems);
-  const thinChapters = buildThinChapters(problems);
+  const productionProblems = problems.filter((problem) => problem.locale?.contentStatus !== "pilot");
+  const thinChapters = buildThinChapters(productionProblems);
   const remoteAssets = countRemoteAssets(problems);
   const fullDistractorCoverage = multipleChoiceProblems.filter(hasFullDistractorCoverage).length;
   const answerReadyMultipleChoice = multipleChoiceProblems.filter(hasCorrectChoice).length;

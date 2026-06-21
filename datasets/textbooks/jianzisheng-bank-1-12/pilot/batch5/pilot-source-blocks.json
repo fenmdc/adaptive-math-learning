@@ -1,0 +1,2216 @@
+{
+  "grade1": [
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 108,
+      "lessonNo": 15,
+      "lessonTitle": "”100以内的加法和减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 在( ， )中填上合适的数。\n10+23+( )=34 13十(  )=45 24+( =) + 12=56\n2+( )=58  26十( )+9=60 17十( )+12=45\n2. 在〇中填上“之关<?或“一”。\n25+60C)17+20   15 +370) 34+2\n34+13C) 14+35   63十12( )35十34\n78+13C) 82+9   67+10C)78+12\nBCH.\nfas                   66—48=\n分析 这道题包括两位数的退位和不退位减法,列坚式时要将相同数位对齐,从个位开始\n算起,注意退位符号的标注。\n解 39     6 6\n2     一4 8\n5\n39—24=15   66—48=18\n103\nRAVAGE AA MME” RELY CARE\n全和音关子生珊分题关(精讲上)",
+      "id": "grade1_b0092",
+      "pageEnd": 109,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在( ， )中填上合适的数。 10+23+( )=34 13十( )=45 24+( =) + 12=56 2+( )=58 26十( )+9=60 17十( )+12=45",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在〇中填上“之关<?或“一”。 25+60C)17+20 15 +370) 34+2 34+13C) 14+35 63十12( )35十34 78+13C) 82+9 67+10C)78+12 BCH. fas 66—48= 分析 这道题包括两位数的退位和不退位减法,列坚式时要将相同数位对齐,从个位开始 算起,注意退位符号的标注。 解 39 6 6 2 一4 8 5 39—24=15 66—48=18 103 RAVAGE AA MME” RELY CARE 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 113,
+      "lessonNo": 15,
+      "lessonTitle": "100以内的加法和减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 猜一猜,下面的“数交学?各代表什么数?\n数 学\n十学 学    SA\n学三(  )\n5 4\n2. 求出下面的字母所代表的数字。\nA B\n十用 了    A=(  )\n一一一一    B=  )\n1 0 0",
+      "id": "grade1_b0099",
+      "pageEnd": 113,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "猜一猜,下面的“数交学?各代表什么数? 数 学 十学 学 SA 学三( ) 5 4",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "求出下面的字母所代表的数字。 A B 十用 了 A=( ) 一一一一 B= ) 1 0 0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 115,
+      "lessonNo": 15,
+      "lessonTitle": "100以内的加法和减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 在@中填和人相应的数字,使得下面两个数相加的和等于上面的数。\n64  56  75  37  x\n2. 在括号中填人合适的数字。\nFA\n全",
+      "id": "grade1_b0102",
+      "pageEnd": 115,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在@中填和人相应的数字,使得下面两个数相加的和等于上面的数。 64 56 75 37 x",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在括号中填人合适的数字。 FA 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 126,
+      "lessonNo": 17,
+      "lessonTitle": "”找规律",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 填一填。\n人+( )=6\n12—/\\ =10\n2, 填一填。\n[+人AAA+CD=12\n| ]+/A\\=10\n7一人=4\n|\nA\n~~\n一、\n4\n一、\nVY\nObPU PO\nji",
+      "id": "grade1_b0117",
+      "pageEnd": 126,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "填一填。 人+( )=6 12—/\\ =10",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "填一填。 [+人AAA+CD=12 | ]+/A\\=10 7一人=4 | A ~~ 一、 4 一、 VY ObPU PO ji",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 129,
+      "lessonNo": 17,
+      "lessonTitle": "”找规律",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 简便计算:1十25十2十27十3十26十4十29十5十28\n2. 简便计算:3十27十16十14十25十55十8十22\n简便计算:2一24十26一35十37一55十57一38十40\nDit ”经过观察可以轻松发现,要解决这道题,需要巧妙地改变题目所给数字的顺序,其\n中 26一24一2,37一35一2,57一55一2,40一38一2。\n解 2一24十26一35十37一55十57一38十40\n一2十(26一24)十(37一35)十(57一55)十(40一38)\n一2十2十2十2十2\n=10",
+      "id": "grade1_b0121",
+      "pageEnd": 129,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "简便计算:1十25十2十27十3十26十4十29十5十28",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "简便计算:3十27十16十14十25十55十8十22 简便计算:2一24十26一35十37一55十57一38十40 Dit ”经过观察可以轻松发现,要解决这道题,需要巧妙地改变题目所给数字的顺序,其 中 26一24一2,37一35一2,57一55一2,40一38一2。 解 2一24十26一35十37一55十57一38十40 一2十(26一24)十(37一35)十(57一55)十(40一38) 一2十2十2十2十2 =10",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 138,
+      "lessonNo": 21,
+      "lessonTitle": "”合理分组",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 将1,2,3,4,14,15,16,17 这 8 个数分别填人“口中,使得等式成立。(每个数字只能\n用一次)\nGD | |]+[ |]=| 1+[ |     (2) | |+[ |]-[ =[\n2. 将12,13,14,15,16,17 这 6 个数分别填人“口中,使得等式成立。(每个数字只能用\n一次)\n口-口-口-口-口-口\n将0,1,2,3,5,7,8 这?7 个数分别填人“口?中,使得等式成立。(每个数字只能用一次)\n[+加=器回=回=癌ID\nSH 观察整个式子的第一部分和第三部分,两个数相加等于一个两位数,那么得到 7+\n8=15,5十7王12,8十5王13,7十3王10,8十2王10。当两位数减一位数等于13 时,只能是 20一\n7一13,或者 21一8=13 ,显然可能的情况只能为 8十5王13,20一7王13。只要验证剩余的数字\n是否为 13 即可。当两位数减一位数等于15,12,10 时,没有符合条件的等式成立。\n解 8十5一20一7一13。",
+      "id": "grade1_b0132",
+      "pageEnd": 138,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "将1,2,3,4,14,15,16,17 这 8 个数分别填人“口中,使得等式成立。(每个数字只能 用一次) GD | |]+[ |]=| 1+[ | (2) | |+[ |]-[ =[",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "将12,13,14,15,16,17 这 6 个数分别填人“口中,使得等式成立。(每个数字只能用 一次) 口-口-口-口-口-口 将0,1,2,3,5,7,8 这?7 个数分别填人“口?中,使得等式成立。(每个数字只能用一次) [+加=器回=回=癌ID SH 观察整个式子的第一部分和第三部分,两个数相加等于一个两位数,那么得到 7+ 8=15,5十7王12,8十5王13,7十3王10,8十2王10。当两位数减一位数等于13 时,只能是 20一 7一13,或者 21一8=13 ,显然可能的情况只能为 8十5王13,20一7王13。只要验证剩余的数字 是否为 13 即可。当两位数减一位数等于15,12,10 时,没有符合条件的等式成立。 解 8十5一20一7一13。",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 139,
+      "lessonNo": 21,
+      "lessonTitle": "”合理分组",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 在3,4,5,6,7,8 这6个数中间添上加号,使得它们的值为 60。(相邻的两个数可以组\n成一个数)\n2. 在1,2,3,4,5,6,7 这?个数中间添上加号,使得它们的值为 100。(相邻的两个数可以\n组成一个数)\n请",
+      "id": "grade1_b0134",
+      "pageEnd": 139,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在3,4,5,6,7,8 这6个数中间添上加号,使得它们的值为 60。(相邻的两个数可以组 成一个数)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在1,2,3,4,5,6,7 这?个数中间添上加号,使得它们的值为 100。(相邻的两个数可以 组成一个数) 请",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 142,
+      "lessonNo": 22,
+      "lessonTitle": "趣味问题全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 小东上街买了 5 包暮片,每包暮片里有 4 小包,请问一共有几小包暮片?\n2. 公园里有 3 张长椅,每张长椅上面有 4 个扶手,请问公园里有几个扶手?\n有一根木棍,锯一刀最多分成 2 根,锯两刀最多分成4根,请问锯三刀最多分成几根?\n分析“锯一刀分成两根,锯第二刀是在第一次的 2 根的基础上,每一根又增加一根,总共\n2十2一4(根),锯第三刀是在第二次的4根的基础上,每一根再增加一根,总共4十4一8(根)。\n解 1十1一2(根)，\n2+2=4(4R),\n4+4=8 根。\n答:锯三刀最多分成8根。",
+      "id": "grade1_b0138",
+      "pageEnd": 142,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "小东上街买了 5 包暮片,每包暮片里有 4 小包,请问一共有几小包暮片?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "公园里有 3 张长椅,每张长椅上面有 4 个扶手,请问公园里有几个扶手? 有一根木棍,锯一刀最多分成 2 根,锯两刀最多分成4根,请问锯三刀最多分成几根? 分析“锯一刀分成两根,锯第二刀是在第一次的 2 根的基础上,每一根又增加一根,总共 2十2一4(根),锯第三刀是在第二次的4根的基础上,每一根再增加一根,总共4十4一8(根)。 解 1十1一2(根)， 2+2=4(4R), 4+4=8 根。 答:锯三刀最多分成8根。",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 150,
+      "lessonNo": 2,
+      "lessonTitle": "比一比",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1.两个菠葛比三个葛卜重,说明一个菠葛比一个葛下重,而蛋糕比菠葛重,所以蛋糕最重,草\n下最轻。\n2. 三贫牛奶比两个菠葛重,两个获蔓和三瓶果桨一样重,那么三盆牛奶比三瓶果着重,从而牛\nTGA.",
+      "id": "grade1_b0151",
+      "pageEnd": 150,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "两个菠葛比三个葛卜重,说明一个菠葛比一个葛下重,而蛋糕比菠葛重,所以蛋糕最重,草 下最轻。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "三贫牛奶比两个菠葛重,两个获蔓和三瓶果桨一样重,那么三盆牛奶比三瓶果着重,从而牛 TGA.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 152,
+      "lessonNo": 2,
+      "lessonTitle": "比一比",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1, 2十3一5(块) ,5一1一4(块)。答:小丽一共买回了 4 块橡皮。\n2. 4一2王2(本) ,2十3王5(本)。答:现在小东有 5 本连环画。",
+      "id": "grade1_b0156",
+      "pageEnd": 152,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "2十3一5(块) ,5一1一4(块)。答:小丽一共买回了 4 块橡皮。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "4一2王2(本) ,2十3王5(本)。答:现在小东有 5 本连环画。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade2": [
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 142,
+      "lessonNo": 1,
+      "lessonTitle": "长度单位",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2                         5. 23—-17=6 CDK) .32—17=15 JDK)",
+      "text": "思维训练 2                         5. 23—-17=6 CDK) .32—17=15 JDK)\n1. 略。                                    7     答:火龙果比黄瓜长 6 厘米,黄瓜比芒果\n2, 0,6,10,0。                         RLS EDK.\n6. 8 AK 20 厘米一820 厘米,5 2K 30 JAK =",
+      "id": "grade2_b0146",
+      "pageEnd": 142,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "略。 7 答:火龙果比黄瓜长 6 厘米,黄瓜比芒果",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "0,6,10,0。 RLS EDK.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "8 AK 20 厘米一820 厘米,5 2K 30 JAK =",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 144,
+      "lessonNo": 3,
+      "lessonTitle": "角的初步认识",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1, (1) 4,3,1 (2) 3,1,2 (3) 6,1,2\n2. (1) 如图(1)所示。(答案不唯一)\n(2) 如图(2)所示。(答案不唯一)\nO\nOC   O\\}O\n(1)               (2)\nain\n=角形有 3 个角,四边形有4 个角,五边\nRid AE EAL\" ARG ie”\n— ALLL ARE EAS\n是锐角、直角也不是钝角,则这两条边在\n形有5 个角,六边形有6 个角,七边形有7\n个角,依次类推,”边形有7 个角。\n2. 正方体和长方体的角都是直角 ,正方体与\n长方体都有 24 个角,所以正方体和长方\n体的角的大小相等 ,数量相同。",
+      "id": "grade2_b0158",
+      "pageEnd": 144,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "(1) 4,3,1 (2) 3,1,2 (3) 6,1,2",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "(1) 如图(1)所示。(答案不唯一) (2) 如图(2)所示。(答案不唯一) O OC O\\}O (1) (2) ain =角形有 3 个角,四边形有4 个角,五边 Rid AE EAL\" ARG ie” — ALLL ARE EAS 是锐角、直角也不是钝角,则这两条边在 形有5 个角,六边形有6 个角,七边形有7 个角,依次类推,”边形有7 个角。",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "2",
+          "prompt": "正方体和长方体的角都是直角 ,正方体与 长方体都有 24 个角,所以正方体和长方 体的角的大小相等 ,数量相同。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 156,
+      "lessonNo": 13,
+      "lessonTitle": "有余数的除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 30十31王61(天),61一7一8(个)…… 5\n(天) 答;2017年11月4日是星期六。\n2，55二6一9……，1 答:第55个图形是六。\nSEER 8\n，21一6一3CC0\n答:那么除数的值是6 或 20。\n2. 29二7一4……1 或 29二6一4……5\n答:余数的值有 2 种情况,是1 和 5。",
+      "id": "grade2_b0208",
+      "pageEnd": 156,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "30十31王61(天),61一7一8(个)…… 5 (天) 答;2017年11月4日是星期六。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "55二6一9……，1 答:第55个图形是六。 SEER 8 ，21一6一3CC0 答:那么除数的值是6 或 20。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "29二7一4……1 或 29二6一4……5 答:余数的值有 2 种情况,是1 和 5。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 160,
+      "lessonNo": 16,
+      "lessonTitle": "数数与计数",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 将5个足球队看成 5 个点,根据题意得\n两点画一条线段,如图所示。\nLA\n答:总共要比赛 10 场。\n11am\n答:全班共有 30 名学生\nAit hee bE\n(2) 有 3 个小立方体被喷到 3 EY\n.观察图形得一个小三\n. 先给这个图形进行标号，\nsane 全\nee\nat\n. OFFA AIA BEE 4 4S, @ tas HY 7) 86 18\n8 个。\n如图所示,由题意得:第 3 列共有7 人,总\n共有7X4王28(人)\nO O osssee O O\nMy\"\n6人    2人\n(10一1)X2王18(米)\n答:这段绿化带长 18 米。\n。 1十17十21王39(人)\n答:班里总共 39 人。\n:角形有 1十3十5十7\n三16(个) ,4个小三角形能组成一个大三\n角形,这样的三角形有 6 个,倒立的大三\n角形有 1 个;9 个小三角形能组成一个更\n大的三角形,这样的大三角形有 3 个;最\n大的三角形有1个。总共:27 个。\n含有 1 个长方形\n的是: 0D.O.@.@.O.O.O;\n含有 2 个长方形的是: OO.OO、.O@、\n@@.OO;\n含有 3 个长方形的是: OOO.OO@,\nOOO;\n含有4 个长方形的是: OOOO;\n含有 5 TRAN: OOOO;\n含有7 个长方形的是:DOO@O@@O，\n共有:7十5十3十1十1十1一18\n©\n的\n(全\n©\n只有 1 个三角形组成的有6 个;由 2 个三\n角形组成的有4个;由 3个三\n角形组成的\n155\n“REP” RBRL G7 Ae\n全和音关子生珊分题关(精讲上)\n有2个; 由6个三角形组成的有 1 个;总\nFE 6+4+2+1=13(4)\n8. 将大正方形分割如下,共有8X4王32(个)\n所以至少需要 32 个阴影三角形。\n9. (1) 这里有 7 个小立方体。\n(2) 从上往下看,看到的图形如下(标注\n了喷上油漆的面数)。所以有 5 个小立方\n体喷到 3 面油污,有 2 个小立方体喷到了\n4面油漆。",
+      "id": "grade2_b0225",
+      "pageEnd": 161,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "将5个足球队看成 5 个点,根据题意得 两点画一条线段,如图所示。 LA 答:总共要比赛 10 场。 11am 答:全班共有 30 名学生 Ait hee bE (2) 有 3 个小立方体被喷到 3 EY .观察图形得一个小三 . 先给这个图形进行标号， sane 全 ee at . OFFA AIA BEE 4 4S, @ tas HY 7) 86 18 8 个。 如图所示,由题意得:第 3 列共有7 人,总 共有7X4王28(人) O O osssee O O My\" 6人 2人 (10一1)X2王18(米) 答:这段绿化带长 18 米。 。 1十17十21王39(人) 答:班里总共 39 人。 :角形有 1十3十5十7 三16(个) ,4个小三角形能组成一个大三 角形,这样的三角形有 6 个,倒立的大三 角形有 1 个;9 个小三角形能组成一个更 大的三角形,这样的大三角形有 3 个;最 大的三角形有1个。总共:27 个。 含有 1 个长方形 的是: 0D.O.@.@.O.O.O; 含有 2 个长方形的是: OO.OO、.O@、 @@.OO; 含有 3 个长方形的是: OOO.OO@, OOO; 含有4 个长方形的是: OOOO; 含有 5 TRAN: OOOO; 含有7 个长方形的是:DOO@O@@O， 共有:7十5十3十1十1十1一18 © 的 (全 © 只有 1 个三角形组成的有6 个;由 2 个三 角形组成的有4个;由 3个三 角形组成的 155 “REP” RBRL G7 Ae 全和音关子生珊分题关(精讲上) 有2个; 由6个三角形组成的有 1 个;总 FE 6+4+2+1=13(4)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "将大正方形分割如下,共有8X4王32(个) 所以至少需要 32 个阴影三角形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "(1) 这里有 7 个小立方体。 (2) 从上往下看,看到的图形如下(标注 了喷上油漆的面数)。所以有 5 个小立方 体喷到 3 面油污,有 2 个小立方体喷到了 4面油漆。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 161,
+      "lessonNo": 17,
+      "lessonTitle": "第 17 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1, 185十27一85十173一150十350王185一85十\n27十173十350一150王(185一85)十(27十\n173)十(350一150)王100十200十200王500\n156\n|4|3|3\n|4|3|3\n10. 如图所示 ,按照不同的端点来数,两个端\n点构成一条线段。\nx 7个   yi 4个   从 3个\nit\n由上图可知,共有 7十4十3十3十2十2十\n1一22(条)线段。\nRS553\n2. 12—14+16—18+20—22+24—26+28—30\n+32=32—30+28—26+24—22+20—18+\n16—14+12= (32—30) + (28—26) + (24—\n22) + (20-18) + (16-14) +12=2+2+2+\n24+24+12=2X5+12=10+12=22",
+      "id": "grade2_b0227",
+      "pageEnd": 161,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "185十27一85十173一150十350王185一85十 27十173十350一150王(185一85)十(27十 173)十(350一150)王100十200十200王500 156 |4|3|3 |4|3|3",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "如图所示 ,按照不同的端点来数,两个端 点构成一条线段。 x 7个 yi 4个 从 3个 it 由上图可知,共有 7十4十3十3十2十2十 1一22(条)线段。 RS553",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "12—14+16—18+20—22+24—26+28—30 +32=32—30+28—26+24—22+20—18+ 16—14+12= (32—30) + (28—26) + (24— 22) + (20-18) + (16-14) +12=2+2+2+ 24+24+12=2X5+12=10+12=22",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 163,
+      "lessonNo": 18,
+      "lessonTitle": "”填图与拆数",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\nl,\niE AME — yn A\nOa\nOr<C\n四\n@\n@\n2. 填出的图如下(答案不唯一):\n158\no\nRaat\n余的数有2,3,4,5,7。根据4个数的和是 ， 1\n15,可得第 1 行的第 2 和第 3 个数的和是\n7,第1 行的第 2 个数和第 3 行的第 2个\n数的和是 6,因此第 1 行的第 3 个数比第\n3 行的第 2 个数大 1。可采用尝试法。可\n分三种情况尝试:选取2 与353 与444与\n如图所示(1 和 2 可以互换位置) :\nioe\nO-2))\n如图所示(答案不唯一) :\n6|15|17\n站 | 615\n5 |71%6\n只要每行、每列与对角线上的 3 个数各不\n重复,即可满足要求,填出的图如下(答案\n不唯一):\n3|9156\n91下13\n6/3 ]9\n1+24+3+4+5=15,11+9=20,20—15\n一5,因此中间的关键数是5,9王5十1十3，\n11王5十2十4,因此填出的图如下(十法不\n唯一) :\n| * wn 0 |\nw\n如图所示:\n~s\n\\o\nB\n上\niD | w\n人 | w\n一 | co\nn\nRiise CRA “MBER” RRL TAG.\n6如图所示，                  ， 9 由题中已有的数可知 3 个〇内填的数是\nQh ©          454653 个〇中十的数是 1,2,3,;3个\nG) @ &)         外填的数是7,8,9。因此可得如图\n7. 1十?十3十4十5十6十7十8十9一45,45二|\n(4一1)=15,因此 3 个数相加得和是15，\n通过尝试可得下图填法,其他填法略。\n， 10. 分两种情况讨论:(1) 0,1,2,3,4 这组数\n在外围,得到如图(1)的填法;(2) 5,7，\n8,9,11 这组数在外围,得到如图(2)的\nHAE",
+      "id": "grade2_b0234",
+      "pageEnd": 164,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "填出的图如下(答案不唯一): 158 o Raat 余的数有2,3,4,5,7。根据4个数的和是 ， 1",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "15",
+          "prompt": "可得第 1 行的第 2 和第 3 个数的和是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "第1 行的第 2 个数和第 3 行的第 2个 数的和是 6,因此第 1 行的第 3 个数比第 3 行的第 2 个数大 1。可采用尝试法。可 分三种情况尝试:选取2 与353 与444与 如图所示(1 和 2 可以互换位置) : ioe O-2)) 如图所示(答案不唯一) : 6|15|17 站 | 615 5 |71%6 只要每行、每列与对角线上的 3 个数各不 重复,即可满足要求,填出的图如下(答案 不唯一): 3|9156 91下13 6/3 ]9 1+24+3+4+5=15,11+9=20,20—15 一5,因此中间的关键数是5,9王5十1十3， 11王5十2十4,因此填出的图如下(十法不 唯一) : | * wn 0 | w 如图所示: ~s \\o B 上 iD | w 人 | w 一 | co n Riise CRA “MBER” RRL TAG. 6如图所示， ， 9 由题中已有的数可知 3 个〇内填的数是 Qh © 454653 个〇中十的数是 1,2,3,;3个 G) @ &) 外填的数是7,8,9。因此可得如图",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "7",
+          "prompt": "1十?十3十4十5十6十7十8十9一45,45二| (4一1)=15,因此 3 个数相加得和是15， 通过尝试可得下图填法,其他填法略。 ， 10. 分两种情况讨论:(1) 0,1,2,3,4 这组数 在外围,得到如图(1)的填法;(2) 5,7，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "9,11 这组数在外围,得到如图(2)的 HAE",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 173,
+      "lessonNo": 24,
+      "lessonTitle": "",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. (1) 6;14;22。提示:从第 3 个数起, 每个\n数都是前两个数的和减 1。\n(2) 13;31;57。提示:第 4个数是4X4一3\n一13,第 6 个数是6X6一5王31,第 8 个数\nfi 8X8—7=57,\n2. 3,17. fem: BMAP: (2+19)+7=\n3;第五幅图中;5X8一23王17。\n3. 46,5。提示:第四幅图中填:6 X7十4三\n46;第五幅图中填:(45一5) +8=5,\n4 画出的图形为\n5。如图所示。  人\n6 asi. I\n7, 10+2=5CK)\n答:明明走了 10 次后距离原地 5米。\n8. 38二(2十3十5)一3……8\n答:第 38 个气球是黄色。\n9. (1) 4十6X(5一1)一28(个)\n(2) 4十6X(10一1)王58(个)\n(3) 4十10十16十22十28十34十40十46十\n52十58王62十62十62十62十62王310(个)\n10. 点群中是以三角形为基础,点群包是以\n四边形为基础,点群久是以五边形为基\n础,则点群田是以六边形为基础。\n(1) 1+6X5=31(%) (2) 14+11X\n(8-++2)=111(4),1+10X (7+2)=91\n(个) ,111—91=20(4)\n,相似即可。\nRiise DRE “MERE” RRL CABS\n名师团队精编",
+      "id": "grade2_b0263",
+      "pageEnd": 174,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "(1) 6;14;22。提示:从第 3 个数起, 每个 数都是前两个数的和减 1。 (2) 13;31;57。提示:第 4个数是4X4一3 一13,第 6 个数是6X6一5王31,第 8 个数 fi 8X8—7=57,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "3,17. fem: BMAP: (2+19)+7= 3;第五幅图中;5X8一23王17。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "46,5。提示:第四幅图中填:6 X7十4三 46;第五幅图中填:(45一5) +8=5, 4 画出的图形为 5。如图所示。 人 6 asi. I",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "10+2=5CK) 答:明明走了 10 次后距离原地 5米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "38二(2十3十5)一3……8 答:第 38 个气球是黄色。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "(1) 4十6X(5一1)一28(个) (2) 4十6X(10一1)王58(个) (3) 4十10十16十22十28十34十40十46十 52十58王62十62十62十62十62王310(个)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "点群中是以三角形为基础,点群包是以 四边形为基础,点群久是以五边形为基 础,则点群田是以六边形为基础。 (1) 1+6X5=31(%) (2) 14+11X (8-++2)=111(4),1+10X (7+2)=91 (个) ,111—91=20(4) ,相似即可。 Riise DRE “MERE” RRL CABS 名师团队精编",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 10,
+      "lessonNo": 1,
+      "lessonTitle": "”长度单位",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n在下列算式的“上]”中填和人合适的数字。\n1. (1) 36+15=[_]1      (2) 38+14=[ ]2      (3) 29+ ]4=5[_]\n(4) [_J8+[ ]i=2[ ]    (5) 5| J+[_Jl=79     (6) 7 J+ Jo=[_]4\nRite be PBR” RELY TAPS\n全和音关子生珊分题关(精讲上)\n2. (1) 4[L |]一29=13       (2) 74一[ |] [ ]=55     (3) [jj1一3L |]=12\n(4) 3L_J-[_J6=[_]3    (5) 6[ ]—33=[__]2     (6) 6[ ]—[_]3=7\n(1) 95,86,78, ,65,60，  ，\n(2) 1,4,5,9,14，     ，     ，     ，\n人25859556， 12     115,20,     ,18,19\n分析 (1)86比95小9,78比86小8,60比65小5,填上一个数,要使得这个数比 78 小\n7,比 65大6,则填上的这个数为 71,以此类推,60一4一56,56一3一53。(2)从第三项起,每一\n个数等于前两个数的和。(3)从第四项起,前两项和减去第三项的数,得到第四个数。7十28一\n9王26,则 28+9—26=11, 可知第一个空填 11,由9十26一11王24 也可验证。11十24一13三\n22,可知第二空为 22,由 24十13一22王15 也可验证。22十15一20王17,可知第二个空填 17 ,由\n15十20一17王18 也可验证。\n解 (1) 71,56,53 (2) 23,37,60,97 (3) 11,22,17",
+      "id": "grade2_b0006",
+      "pageEnd": 11,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "(1) 36+15=[_]1 (2) 38+14=[ ]2 (3) 29+ ]4=5[_] (4) [_J8+[ ]i=2[ ] (5) 5| J+[_Jl=79 (6) 7 J+ Jo=[_]4 Rite be PBR” RELY TAPS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "(1) 4[L |]一29=13 (2) 74一[ |] [ ]=55 (3) [jj1一3L |]=12 (4) 3L_J-[_J6=[_]3 (5) 6[ ]—33=[__]2 (6) 6[ ]—[_]3=7 (1) 95,86,78, ,65,60， ， (2) 1,4,5,9,14， ， ， ， 人25859556， 12 115,20, ,18,19 分析 (1)86比95小9,78比86小8,60比65小5,填上一个数,要使得这个数比 78 小",
+          "hasAnalysis": true,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "比 65大6,则填上的这个数为 71,以此类推,60一4一56,56一3一53。(2)从第三项起,每一 个数等于前两个数的和。(3)从第四项起,前两项和减去第三项的数,得到第四个数。7十28一 9王26,则 28+9—26=11, 可知第一个空填 11,由9十26一11王24 也可验证。11十24一13三",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "22",
+          "prompt": "可知第二空为 22,由 24十13一22王15 也可验证。22十15一20王17,可知第二个空填 17 ,由 15十20一17王18 也可验证。 解 (1) 71,56,53 (2) 23,37,60,97 (3) 11,22,17",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 25,
+      "lessonNo": 3,
+      "lessonTitle": "“角的初上认识全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 找规律填空。\n(1) 1,4,10,19，  ，        ,64\n(2) 2,6，  ,20，\n2. 仔细观察,你发现了什么规律?并写出第五对式子。\n第一对:1十3=( 。 )，  2X2=(  》\n第二对:1十3十5一(  ),  3X3=(  )\n第三对:1十3十5二7?=(  )， 4X4=(  )\n第五对 3\n为了庆祝元宵节,东东妈妈给东东 20 元钱,让他去超市买 3 包汤圆,东东到超市后发现有\n两种牌子的汤圆 湾仔码头?汤圆 7 元一包， 三全?汤圆 6 元一包,如果你是东东,你会怎样买\n汤圆呢?\n分析 要买3包汤圆,有2 种牌子可供选择,共有4种方案:四买 3 包\"湾仔码头汤圆;\n&3X7=21() ,20<21,不可行;@买 3 包“三全”汤圆; 图买 2 包“湾仔码头?汤圆,1 A\n全?汤圆;四买 2 包“三全?汤圆,1 包\"湾仔码头”汤圆。\n解 共有3种方案。\n方案四:有买 3 包“三全?汤圆。3X6王18(元) ,20盖18, 可行。\n方案四:有买 2 包\"湾仔码头?汤圆,] 包“三全?汤圆。2X7十6王14十6一20(元) ,可行。\n方案轿:买 2 包“三全?汤圆,1 包\"湾仔码头”汤圆。2X6十7王12十7一19(元),20盖19，\n可行。",
+      "id": "grade2_b0021",
+      "pageEnd": 25,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "找规律填空。 (1) 1,4,10,19， ， ,64 (2) 2,6， ,20，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "仔细观察,你发现了什么规律?并写出第五对式子。 第一对:1十3=( 。 )， 2X2=( 》 第二对:1十3十5一( ), 3X3=( ) 第三对:1十3十5二7?=( )， 4X4=( ) 第五对 3 为了庆祝元宵节,东东妈妈给东东 20 元钱,让他去超市买 3 包汤圆,东东到超市后发现有 两种牌子的汤圆 湾仔码头?汤圆 7 元一包， 三全?汤圆 6 元一包,如果你是东东,你会怎样买 汤圆呢? 分析 要买3包汤圆,有2 种牌子可供选择,共有4种方案:四买 3 包\"湾仔码头汤圆; &3X7=21() ,20<21,不可行;@买 3 包“三全”汤圆; 图买 2 包“湾仔码头?汤圆,1 A 全?汤圆;四买 2 包“三全?汤圆,1 包\"湾仔码头”汤圆。 解 共有3种方案。 方案四:有买 3 包“三全?汤圆。3X6王18(元) ,20盖18, 可行。 方案四:有买 2 包\"湾仔码头?汤圆,] 包“三全?汤圆。2X7十6王14十6一20(元) ,可行。 方案轿:买 2 包“三全?汤圆,1 包\"湾仔码头”汤圆。2X6十7王12十7一19(元),20盖19， 可行。",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 29,
+      "lessonNo": 3,
+      "lessonTitle": "“角的初上认识全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 如图所示,请画出从正面.侧面以及上面观察到的图形。\n2. 如图所示 ,请你在方格纸上画一画从各个方向看到的图形。\n(1)              (2)\n小东,小明,小华分别从中.外、名三个不同角度观察下列图形,请将他们与各自看到的图\n形对应连线。\n®    | 9          i\nfs  H ooo\n\"                                       小华                         小东                             小明\n1         @\n分析 小东是从侧面观察图形 ,看到的是第一个图形;小明是从正面观察图形,看到的是\n第二个图形;小华是从上面观察图形,看到的是第三个图形。\n解   如 图 :\n小华               小东                  小明",
+      "id": "grade2_b0025",
+      "pageEnd": 29,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "如图所示,请画出从正面.侧面以及上面观察到的图形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如图所示 ,请你在方格纸上画一画从各个方向看到的图形。 (1) (2) 小东,小明,小华分别从中.外、名三个不同角度观察下列图形,请将他们与各自看到的图 形对应连线。 ® | 9 i fs H ooo \" 小华 小东 小明 1 @ 分析 小东是从侧面观察图形 ,看到的是第一个图形;小明是从正面观察图形,看到的是 第二个图形;小华是从上面观察图形,看到的是第三个图形。 解 如 图 : 小华 小东 小明",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade3": [
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 113,
+      "lessonNo": 17,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n计算下列各式。\n1. (1) 133一89十67              (2) 863一(739十63)\n(3) 911—873+273\n2. (1) 374—838+526           (2) 471一(167十261)\n(3) 939一814十114\n108\nRiise CRA “MBER” RRL TAG.\n第 17 讲 PARROT a\n. 13+14+19+99+998+9997\n. 844+95+18\n. 677+364—-177\n. 665—137—265\n. 927—(27+199)\n. 803+806+905—722+708\n. 971—378—389—123—31\n109\nRiise CRA “MBER” RRL TAG.\na RERTA RIL (精讲版)\n8. 1十2十3二4十十的\n9. 2222—599—499—399—299—199—99\n10. 用两种方法求和:92十21十321十979十88\n110\nRiise CRA “MBER” RRL TAG.",
+      "id": "grade3_b0096",
+      "pageEnd": 116,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "(1) 133一89十67 (2) 863一(739十63) (3) 911—873+273",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "(1) 374—838+526 (2) 471一(167十261) (3) 939一814十114 108 Riise CRA “MBER” RRL TAG. . 13+14+19+99+998+9997 . 844+95+18 . 677+364—-177 . 665—137—265 . 927—(27+199) . 803+806+905—722+708 . 971—378—389—123—31 109 Riise CRA “MBER” RRL TAG. a RERTA RIL (精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "1十2十3二4十十的",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "2222—599—499—399—299—199—99",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "用两种方法求和:92十21十321十979十88 110 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 164,
+      "lessonNo": 3,
+      "lessonTitle": "四边形",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1，完全相同。提示:两个完全相同的三角形\n一定能拼成一个平行四边形。\n2, 225。提示:首先要统一单位,3 分米一30\n厘米。正方形的四边相等,所以正方形的\n边长为 30二2一15 厘米,所以正方形的面_\n积为15X15王225 平方厘米。\n3. 3,15。提示:梯形的下底是上底的5 倍，\n所以上底为 1 倍,下底和上底相差 4 倍。\n如果把下底缩小 12 厘米,那么梯形就变\n成了一个平行四边形,而平行四边形的对\n边相等。换而言之,上底的4倍是12厘\n米。所以上底为 12二4一3 厘米,下底为\n3X5=15 EDK.\n. 四。提示:中平行四边形的面积等于“底\n义高”,而在拉扯木棒的过程中,四边形的\n四条边的长度必然不会变,即底的长度不\n变,而高会随着相邻木棒间的角度改变而\n且等于邻边,换而言之,当对边相等时,成\n为长方形时面积最大。所以对;加经过平\n行四边形的中心点任意画一条直线,也有\n可能将它分为相同的梯形,所以错;:G有\n两组对边分别平行的四边形是平行四边\n形,只有一组对边平行的四边形是梯形，\n所以错;四将平行四边形拉成一个长方\n形,它的面积将变大,所以错。\n. 3,34。提示:将三角形的 10 厘米,4 厘米，\n7 厘米分别重合 ,拼起,共有 3 种拼法。而\n拼成的平行四边形的周长等于两个三角\n形的周长和减去重合的两条边。所以要\n使平行四边形的面积最大,需使减去的重\n合边最短,即重合边为 4 厘米。2X(10十\n4十7)一2X4王34(厘米) 。\n.(]) 当小正方形的组合方式如下图时,则\n6厘米\n/一人一\n长方形的宽:6X1=6(厘米) ,长方形的\n长:6X6王36(厘米) ,长方形的周长:(6十\n36) X2王84(厘米) 。\n(2) 当小正方形的组合方式如下图时,则\n6厘米\na\nKATE 6X 2=12 EDK). RIB\n159\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n长:6X3三18(厘米) ,长方形的周长:\n(12十18)X2王60(厘米) 。\n答:长方形的周长为 84 厘米或 60 厘米。\n7. 8X8+2%4+5X6=102C# WK). 102X\n2一204(万元) 。答:需要准备 240 万元。\n8. 192一4二4一12(厘米) ,12X12X8王1152  |\n(平方厘米)。答: 其面积为 1152 IF\n厘米。\n9，略(以 2 厘米.3 厘米,4 厘米为重合的边，\n皆能拼出平行四边形) 。\n10. 14 5}2K= 140 厘米,长方形的宽:140二\n2十5一75(厘米),75二3一25(厘米) ,长\n方形的长:25X2一5一45(厘米) ,长方形\n扑面和 aa 答",
+      "id": "grade3_b0159",
+      "pageEnd": 165,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "完全相同。提示:两个完全相同的三角形 一定能拼成一个平行四边形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "225。提示:首先要统一单位,3 分米一30 厘米。正方形的四边相等,所以正方形的 边长为 30二2一15 厘米,所以正方形的面_ 积为15X15王225 平方厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "3,15。提示:梯形的下底是上底的5 倍， 所以上底为 1 倍,下底和上底相差 4 倍。 如果把下底缩小 12 厘米,那么梯形就变 成了一个平行四边形,而平行四边形的对 边相等。换而言之,上底的4倍是12厘 米。所以上底为 12二4一3 厘米,下底为 3X5=15 EDK. . 四。提示:中平行四边形的面积等于“底 义高”,而在拉扯木棒的过程中,四边形的 四条边的长度必然不会变,即底的长度不 变,而高会随着相邻木棒间的角度改变而 且等于邻边,换而言之,当对边相等时,成 为长方形时面积最大。所以对;加经过平 行四边形的中心点任意画一条直线,也有 可能将它分为相同的梯形,所以错;:G有 两组对边分别平行的四边形是平行四边 形,只有一组对边平行的四边形是梯形， 所以错;四将平行四边形拉成一个长方 形,它的面积将变大,所以错。 . 3,34。提示:将三角形的 10 厘米,4 厘米， 7 厘米分别重合 ,拼起,共有 3 种拼法。而 拼成的平行四边形的周长等于两个三角 形的周长和减去重合的两条边。所以要 使平行四边形的面积最大,需使减去的重 合边最短,即重合边为 4 厘米。2X(10十 4十7)一2X4王34(厘米) 。 .(]) 当小正方形的组合方式如下图时,则 6厘米 /一人一 长方形的宽:6X1=6(厘米) ,长方形的 长:6X6王36(厘米) ,长方形的周长:(6十 36) X2王84(厘米) 。 (2) 当小正方形的组合方式如下图时,则 6厘米 a KATE 6X 2=12 EDK). RIB 159 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) 长:6X3三18(厘米) ,长方形的周长: (12十18)X2王60(厘米) 。 答:长方形的周长为 84 厘米或 60 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "8X8+2%4+5X6=102C# WK). 102X 2一204(万元) 。答:需要准备 240 万元。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "192一4二4一12(厘米) ,12X12X8王1152 | (平方厘米)。答: 其面积为 1152 IF 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "略(以 2 厘米.3 厘米,4 厘米为重合的边， 皆能拼出平行四边形) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "14 5}2K= 140 厘米,长方形的宽:140二 2十5一75(厘米),75二3一25(厘米) ,长 方形的长:25X2一5一45(厘米) ,长方形 扑面和 aa 答",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 170,
+      "lessonNo": 7,
+      "lessonTitle": "第 7 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n2\n1. 1-3 <2 ,4+2=2,24,5X2=10,8  :\nBE :3X2+3=9,\nLj 1 1 7 gee 8\n2. Kia tate = 3 ,西瓜半:1   8，\nelo\n答:婷婷喝的纯牛奶多。\nco|~a\n. 答:婷婷喝的纯西瓜 ，\n剩余部分:10一9=1。\n答:还剩下全书的二需要看。\n2 1\n2. 1-H Zo Tl=5,3X5=15,2Ko4\n3 83\n2=12,15—12=3.,\n3\nAF 0\n完成。",
+      "id": "grade3_b0179",
+      "pageEnd": 170,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "1-3 <2 ,4+2=2,24,5X2=10,8 : BE :3X2+3=9, Lj 1 1 7 gee 8",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "Kia tate = 3 ,西瓜半:1 8， elo 答:婷婷喝的纯牛奶多。 co|~a . 答:婷婷喝的纯西瓜 ， 剩余部分:10一9=1。 答:还剩下全书的二需要看。 2 1",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "1-H Zo Tl=5,3X5=15,2Ko4 3 83 2=12,15—12=3., 3 AF 0 完成。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 12,
+      "lessonNo": 2,
+      "lessonTitle": "万以内的加法和减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 莉莉从家到学校需步行 2600 米,这天莉莉出门步行了 500 米发现红领巾筷在了家里\n要回家拿,于是返回家中取, 随后重新出门前往学校,请问莉莉这天去学校一共步行了多少米?\n2，某唱歌比赛海选现场人气很旺,第一天前来报名的有 2450 人,第二天新增报名人数\n3280 人,请问截至第二天共有多少人报名?\n请用简便方法计算下列算式。\n(1) 462十24十238\n(2) 1356十241十644十759\n分析 在做加法运算的时候,通过观察算式中加数的特征可以有效地提高计算速度,计算\n时要先把一些能加起来成为整十、整百.整千的两个或几个数相加,如观察加数的末尾数，]1?”\nfog” “2” Fa%8” ,3和“7?， 42和“6”, “5”和“5都是能够凑整的数字对。\n解 (1) 462十24十238一462十238十24(交换两个加数的位置)\n一700十24\n=724\n(2) 1356+241+644+759=1356+644+759+241 (交换加数的位置)\n一(1356十644)十(759十241)\n一2000十1000\n= 3000",
+      "id": "grade3_b0008",
+      "pageEnd": 12,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "莉莉从家到学校需步行 2600 米,这天莉莉出门步行了 500 米发现红领巾筷在了家里 要回家拿,于是返回家中取, 随后重新出门前往学校,请问莉莉这天去学校一共步行了多少米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某唱歌比赛海选现场人气很旺,第一天前来报名的有 2450 人,第二天新增报名人数 3280 人,请问截至第二天共有多少人报名? 请用简便方法计算下列算式。 (1) 462十24十238 (2) 1356十241十644十759 分析 在做加法运算的时候,通过观察算式中加数的特征可以有效地提高计算速度,计算 时要先把一些能加起来成为整十、整百.整千的两个或几个数相加,如观察加数的末尾数，]1?” fog” “2” Fa%8” ,3和“7?， 42和“6”, “5”和“5都是能够凑整的数字对。 解 (1) 462十24十238一462十238十24(交换两个加数的位置) 一700十24 =724 (2) 1356+241+644+759=1356+644+759+241 (交换加数的位置) 一(1356十644)十(759十241) 一2000十1000 = 3000",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 26,
+      "lessonNo": 4,
+      "lessonTitle": "”有余数的除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 老师要求寒假数学作业每人完成 20 页 ,小花每天做 3 页,已经做了 4 天了,请问还剩\n多少页没有完成?\n2. 儿童节到了,商场里为小朋友们准备了小礼物共 80 份,每个小朋友可以拿 2 份小礼\n物,假设商场这天会有 45 个小朋友到来,那么小礼物准备的够吗?如果够,还剩多少份;如果\n不够,还差几份?\n超市为了促销将大量商品进行拥绑出售,已知每 4 件商品拥绑一起出售,可出售 32 份还\nHe 3 件商品,请问原本有多少件商品?\n分析 “捆绑起来的商品共有4X32王128(件) ,加上剩下的 3 件就是原本有的商品数量。\n解 4X32十3王131(件)\n答:原本有131 件商品。",
+      "id": "grade3_b0019",
+      "pageEnd": 26,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "老师要求寒假数学作业每人完成 20 页 ,小花每天做 3 页,已经做了 4 天了,请问还剩 多少页没有完成?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "儿童节到了,商场里为小朋友们准备了小礼物共 80 份,每个小朋友可以拿 2 份小礼 物,假设商场这天会有 45 个小朋友到来,那么小礼物准备的够吗?如果够,还剩多少份;如果 不够,还差几份? 超市为了促销将大量商品进行拥绑出售,已知每 4 件商品拥绑一起出售,可出售 32 份还 He 3 件商品,请问原本有多少件商品? 分析 “捆绑起来的商品共有4X32王128(件) ,加上剩下的 3 件就是原本有的商品数量。 解 4X32十3王131(件) 答:原本有131 件商品。",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 27,
+      "lessonNo": 4,
+      "lessonTitle": "”有余数的除法",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 现有一个数 M,M 除以4后,得到的余数可能是\n是      °\n3. 已知一个两位数除以 4,商是偶数,余数是奇数,这个两位数最小是       。\n4, 2017一9\n5. 7882+32\n6. 837+5\n7. 一个数除以7,商为 12 ,余数为 6,列式求出这个数。\n8. 运动会上三班要排列和人场方阵,如果 3 人排一排,可以排出 16 列,余下 1 名同学;如果\n6 人排一排,可以排出多少列呢?\n22\nRiise CRA “MBER” RRL TAG.\n9. 一只爬虫从 A 地出发向如 地直线前进,每天前进 5 个单位长度,前进 28 天后,距离召\n地 9 个单位长度。请问 A 地与忆 地的距离是多少个单位长度?\n10. 某面馆推出集章换免费拉面的活动,在店内消费 1 碗拉面,可获得印章一枚,10 枚印\n章可以换免费拉面 1 克。小明第一天和和爷爷奶奶一起去吃 ,每人点了一碗拉面;第二天小明和\n弟弟去,点了 2 克拉面和一份色拉。请问小明还差几枚印章就可以换拉面了?\nZs\nRite LAA MMP RR” REL CARS\n和66Sessss 7\nOo Ws 秒\n名一和的鲜和如图。其中县长的是针,其分ATRRSSL on\n针,最短的是时针。钟面上共有 12 大格,每个大格里又含有 wet           aN\n5 小格。一个钟面共有 60 个小格。不同的格子与不同的针       RO   srt\nRA CBIRT HANNE BRANT\n1 秒,转过整个钟面,也就是过了 60 秒,即 1 分钟。此时分针\n将转动一小格,表示过了 1分钟,转过环个钟面,也就是过了\n60 AD, B01 小时。此时时针已转一大格,表示过了 1小时。值得注意的是,整个钟面只有12\n个大格,所以时针转过到个钟面,表示过了 12 小时。\n读表,;从钟表上读取时间时先看时针,时针指向哪个数字,就表示的是几点。再来看分针。\n单位换算:1 分钟一60 秒;1 小时一60 分钟;15 分钟一1 ED,\n需要注意的是,“几时几分这种时间表达方式,既可以表示时刻,也可以表示时间间隔。\n(1) 2小时 30分钟=(  )分钟\n(2) 310 分钟=( EC  )分\n(3) 3时55分一2时32分=(  )分\n(4) 12 时 23 分一10 时 59 4p = (   ATC   )分\nSi (1) 本小题中涉及时间单位的转换。相邻两个时间单位的进率是 60,也就是说若\n是将“小时?化成“分”,需要乘以 60,因而在本题中,我们将“2 小时 30 分钟?进行拆解,分成“2\n小时?和\"30 分钟\"两部分。其中\"2 小时”可以转化为“2X60王120”分钟。最后将“120 分钟”\n和”30 分钟?进行相加,就能得到最终的结果一“120十30王150分钟。\n(2) 本小题中同样涉及时间单位的转换,不同的是,本题中的单位转换与(1)中相反。要\n将“分钟?转化为“小时”,需作除法。因为“310二60王5……10”,所以 310 分钟等于5 时 10 分。\n24\nRiise DRE “MERE” RRL CABS\n(3) 本小题涉及时间的计算。时间之间的加减运算通常是不同单位的时间分别加减再进\n行单位转化。故而我们需将“3 时 55 \"2 时 32 分?都进行拆分,然后将“3 时一2 时王1 时?”\n与“55 分一32 分一23 分”相加,得“1 时 23 分”。再通过观察发现最后的结果需以“分”作为单\n位,所以本题的结果为\"1X60十23王83?”分钟。\n(4) 通过观察我们可发现,虽然同样涉及时间的计算,但本题中的“分?单位上的时间并不\n够减,所以需要往“时”单位上借数。需要特别注意的是,相邻两个时间单位的进率是 60,向\n“时?单位里借的“1” ,在“分”单位里是“602”。因而“12 时 23 分?可化为“11 时 83 分”(当然, “11\n时 83 分”并不适合用于表达结果,仅为在计算过程中方便计算所设) ,此时\"12 时 23 分一10\n时 59 分?就变成了“11 时 83 分一10 时 59 分二1 时 24 分”。\n解 (1) 2 小时 30 分钟王150 分钟\n(2) 310 分钟三5 时 10 分\n(3) 3 时 55 分一2 时 32 分三83 分\n(4) 12 时 23 分一10 时 59 分=1 时 24 分",
+      "id": "grade3_b0021",
+      "pageEnd": 30,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "现有一个数 M,M 除以4后,得到的余数可能是 是 °",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "已知一个两位数除以 4,商是偶数,余数是奇数,这个两位数最小是 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "一个数除以7,商为 12 ,余数为 6,列式求出这个数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "运动会上三班要排列和人场方阵,如果 3 人排一排,可以排出 16 列,余下 1 名同学;如果 6 人排一排,可以排出多少列呢? 22 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "一只爬虫从 A 地出发向如 地直线前进,每天前进 5 个单位长度,前进 28 天后,距离召 地 9 个单位长度。请问 A 地与忆 地的距离是多少个单位长度?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "某面馆推出集章换免费拉面的活动,在店内消费 1 碗拉面,可获得印章一枚,10 枚印 章可以换免费拉面 1 克。小明第一天和和爷爷奶奶一起去吃 ,每人点了一碗拉面;第二天小明和 弟弟去,点了 2 克拉面和一份色拉。请问小明还差几枚印章就可以换拉面了? Zs Rite LAA MMP RR” REL CARS 和66Sessss 7 Oo Ws 秒 名一和的鲜和如图。其中县长的是针,其分ATRRSSL on 针,最短的是时针。钟面上共有 12 大格,每个大格里又含有 wet aN 5 小格。一个钟面共有 60 个小格。不同的格子与不同的针 RO srt RA CBIRT HANNE BRANT 1 秒,转过整个钟面,也就是过了 60 秒,即 1 分钟。此时分针 将转动一小格,表示过了 1分钟,转过环个钟面,也就是过了 60 AD, B01 小时。此时时针已转一大格,表示过了 1小时。值得注意的是,整个钟面只有12 个大格,所以时针转过到个钟面,表示过了 12 小时。 读表,;从钟表上读取时间时先看时针,时针指向哪个数字,就表示的是几点。再来看分针。 单位换算:1 分钟一60 秒;1 小时一60 分钟;15 分钟一1 ED, 需要注意的是,“几时几分这种时间表达方式,既可以表示时刻,也可以表示时间间隔。 (1) 2小时 30分钟=( )分钟 (2) 310 分钟=( EC )分 (3) 3时55分一2时32分=( )分 (4) 12 时 23 分一10 时 59 4p = ( ATC )分 Si (1) 本小题中涉及时间单位的转换。相邻两个时间单位的进率是 60,也就是说若 是将“小时?化成“分”,需要乘以 60,因而在本题中,我们将“2 小时 30 分钟?进行拆解,分成“2 小时?和\"30 分钟\"两部分。其中\"2 小时”可以转化为“2X60王120”分钟。最后将“120 分钟”",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 30,
+      "lessonNo": 4,
+      "lessonTitle": "”有余数的除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 三刻钟三      分钟。\n2. 12 分钟==      秒。\n3. 722 分钟三      小时      分钟。\n4. 12时1分一10时 35 分=    分钟。\n婷婷和同学约好 9:30 在博库书城门口见面。已知婷婷家距离博库书城有 2 千米远,婷婷\nVERE 5 分钟,选衣服加穿衣服要 12 分钟,吃早饭要 15 分钟,骑自行车的速度是每分钟 250\n米。问婷婷最晚应该在几点几分起床?\n分析“读题之后我们会发现,婷婷需要经历的时间有“洗激 5 分钟%%选衣服加穿衣服\n12 分钟交吃早饭 15 分钟光骑自行车的时间?。其中,骑自行车的时间需要进行预先计算。通\n过观察我们可以发现,路程与速度中的长度单位部分不统一,故而将“2 千米”转化为“2000\n米”，,骑车时间等于“路程二速度\",即“2000二250一8分钟。所以从婷婷起床至到达博库书城\n门口,共耗时“5十12十15十8一40”分钟。而婷婷最晚需要在 9:30 到达博库书城,因而婷婷最\n晚须在“9 时 30 分一40 分一8 时 90 分一40 分一8 时 50 分?起床。\n解 2 千米一2000 米，\n2000二250王8(分钟)，\n5十12十15十8一40(分钟)，\n9 时 30 分一40 F=8 时 50 分。\n答:婷婷最晚应该在8 点 50 分起床。\n2\nRite LAA MMP RR” REL CARS\n全和音关子生珊分题关(精讲上)",
+      "id": "grade3_b0022",
+      "pageEnd": 31,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "三刻钟三 分钟。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "12 分钟== 秒。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "722 分钟三 小时 分钟。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "12时1分一10时 35 分= 分钟。 婷婷和同学约好 9:30 在博库书城门口见面。已知婷婷家距离博库书城有 2 千米远,婷婷 VERE 5 分钟,选衣服加穿衣服要 12 分钟,吃早饭要 15 分钟,骑自行车的速度是每分钟 250 米。问婷婷最晚应该在几点几分起床? 分析“读题之后我们会发现,婷婷需要经历的时间有“洗激 5 分钟%%选衣服加穿衣服 12 分钟交吃早饭 15 分钟光骑自行车的时间?。其中,骑自行车的时间需要进行预先计算。通 过观察我们可以发现,路程与速度中的长度单位部分不统一,故而将“2 千米”转化为“2000 米”，,骑车时间等于“路程二速度\",即“2000二250一8分钟。所以从婷婷起床至到达博库书城 门口,共耗时“5十12十15十8一40”分钟。而婷婷最晚需要在 9:30 到达博库书城,因而婷婷最 晚须在“9 时 30 分一40 分一8 时 90 分一40 分一8 时 50 分?起床。 解 2 千米一2000 米， 2000二250王8(分钟)， 5十12十15十8一40(分钟)， 9 时 30 分一40 F=8 时 50 分。 答:婷婷最晚应该在8 点 50 分起床。 2 Rite LAA MMP RR” REL CARS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 39,
+      "lessonNo": 6,
+      "lessonTitle": "“多位数科一位数",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 学校为 5 个班级准备了课间牛奶补充营养,每个班 48 个人,每人 2 袋牛奶,请问需要\n准备多少袋牛奶?\n2. 小区王大妈卖鸡蛋饼,每天上午卖出 50 个,下午卖出 20 个,请问王大妈三天一共能卖\n出多少个鸡蛋饼?\n某仓库每天运进货物 3 吨 ,仓库容量为 20 吨(原本为空仓) ,一周七天,仓库能容纳这些货\n物吗?\n分析 “由题意,一周7 天,每天运进货物 3吨,那么7 天总共运进货物7X3一21(吨),超过\n仓库容量\n名  7X3=21(»%) ,21>20,\n答:不能容纳。",
+      "id": "grade3_b0032",
+      "pageEnd": 39,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "学校为 5 个班级准备了课间牛奶补充营养,每个班 48 个人,每人 2 袋牛奶,请问需要 准备多少袋牛奶?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "小区王大妈卖鸡蛋饼,每天上午卖出 50 个,下午卖出 20 个,请问王大妈三天一共能卖 出多少个鸡蛋饼? 某仓库每天运进货物 3 吨 ,仓库容量为 20 吨(原本为空仓) ,一周七天,仓库能容纳这些货 物吗? 分析 “由题意,一周7 天,每天运进货物 3吨,那么7 天总共运进货物7X3一21(吨),超过 仓库容量 名 7X3=21(»%) ,21>20, 答:不能容纳。",
+          "hasAnalysis": true,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 54,
+      "lessonNo": 8,
+      "lessonTitle": "全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 甲乙.两三人分别是教师.工程师.设计师。甲说:“我不是教师\",乙说“我不是工程\n师”,丙说“我是设计师”,请问他们三人的职业分别是什么?\n2, 现有三本书,作者为A.B、C,第一本是A 作者写的,第二本不是也 作者写的,第三本\n不是 C 作者写的,请问这三本书的作者分别是谁?\n抛一枚硬币 ,硬币落地后,不考虑特殊情况,可能出现哪一面朝上的结果?\nSi “由题意 ,一枚硬币有正面和反面之分,已经不考虑特殊情况,因此一般化考虑,有可\n能正面朝上,有可能反面朝上。",
+      "id": "grade3_b0044",
+      "pageEnd": 54,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "甲乙.两三人分别是教师.工程师.设计师。甲说:“我不是教师\",乙说“我不是工程 师”,丙说“我是设计师”,请问他们三人的职业分别是什么?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "现有三本书,作者为A.B、C,第一本是A 作者写的,第二本不是也 作者写的,第三本 不是 C 作者写的,请问这三本书的作者分别是谁? 抛一枚硬币 ,硬币落地后,不考虑特殊情况,可能出现哪一面朝上的结果? Si “由题意 ,一枚硬币有正面和反面之分,已经不考虑特殊情况,因此一般化考虑,有可 能正面朝上,有可能反面朝上。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 66,
+      "lessonNo": 9,
+      "lessonTitle": "”位置与方向全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练",
+      "text": "思维训练\n1，某学校小学部和初中部分别为茸善活动指赠书本,已知初中部捐书 291 本 , 比小学部\n捐的 3 倍少 129 本,请问小学部捐书多少本?\n2. 甲植物园有植物 890 种,比乙植物园的 5 倍多 95 种,请问乙植物园有植物多少种?\n61\nRAMESH” RRL GT Ae\n全和音关子生珊分题关(精讲上)\n从学校到书店路程有 1500 米,小天和小康分别从学校,书店出发,小天一分钟走 100 米，\n小康脚受伤了,一分钟只能走 50 米 ,请问他们从出发到相遇,需要多少时间?\n分析 时间一路程二速度。小天的速度是 100 米/分,小康的速度是 50 米/分。因此要求\n从出发到相遇的时间,只需列式 1500二(100十50)计算即可。\n解 1500二(100十50)\n=1500+150\n一10(分)\n答:需要 10 分钟。",
+      "id": "grade3_b0052",
+      "pageEnd": 67,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "某学校小学部和初中部分别为茸善活动指赠书本,已知初中部捐书 291 本 , 比小学部 捐的 3 倍少 129 本,请问小学部捐书多少本?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "甲植物园有植物 890 种,比乙植物园的 5 倍多 95 种,请问乙植物园有植物多少种? 61 RAMESH” RRL GT Ae 全和音关子生珊分题关(精讲上) 从学校到书店路程有 1500 米,小天和小康分别从学校,书店出发,小天一分钟走 100 米， 小康脚受伤了,一分钟只能走 50 米 ,请问他们从出发到相遇,需要多少时间? 分析 时间一路程二速度。小天的速度是 100 米/分,小康的速度是 50 米/分。因此要求 从出发到相遇的时间,只需列式 1500二(100十50)计算即可。 解 1500二(100十50) =1500+150 一10(分) 答:需要 10 分钟。",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade4": [
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 159,
+      "lessonNo": 10,
+      "lessonTitle": "三角形",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2           竞赛强化",
+      "text": "思维训练 2           竞赛强化\n1.180\"一45\"一90\"一45\",图形如下。      1, 由三条线段围成的图形;3 ;3 ;3\n人      2 稳定性 3. 锐角;直角;钝角\n4. B。提示:三角形无论多大,其内角和不会\n发生变化。\nKes     i          |  5.、B。提示:该三角形为等腰三角形,一个底角\n2. A. 提示:假设该直角三角形是等大直角 SEEDS 160302 120%, 120°\n二角形,两个等项直角二角形可以像如图 90\",所以该三角形是钝角等阴三角形。\n所示拼出一个正方形和三角形,但是不管 ”6，C。 提示:假设三角形中至少有 0 个锐角，\n该三角形是等腰直角三角形还是非等腰 。 。 则三个角最小为 9 ,内角和为 90°\n直角三角形,都不能拼出一个梯形。     7   270 \">180\" ,错误。假设三角形中至少有\n1 个锐角4A,则至少有两个角最小为\n90°, Afa Aly 2X 90°+ 7A =180°+2°>\n180 ,错误。假设三角形中至少有 2 个锐\n:    fi ZA MZB. MW BDA 1 ADA",
+      "id": "grade4_b0206",
+      "pageEnd": 159,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "180\"一45\"一90\"一45\",图形如下。 1, 由三条线段围成的图形;3 ;3 ;3 人 2 稳定性 3. 锐角;直角;钝角",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "B。提示:三角形无论多大,其内角和不会 发生变化。 Kes i | 5.、B。提示:该三角形为等腰三角形,一个底角",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "A. 提示:假设该直角三角形是等大直角 SEEDS 160302 120%, 120° 二角形,两个等项直角二角形可以像如图 90\",所以该三角形是钝角等阴三角形。 所示拼出一个正方形和三角形,但是不管 ”6，C。 提示:假设三角形中至少有 0 个锐角， 该三角形是等腰直角三角形还是非等腰 。 。 则三个角最小为 9 ,内角和为 90° 直角三角形,都不能拼出一个梯形。 7 270 \">180\" ,错误。假设三角形中至少有 1 个锐角4A,则至少有两个角最小为 90°, Afa Aly 2X 90°+ 7A =180°+2°> 180 ,错误。假设三角形中至少有 2 个锐 : fi ZA MZB. MW BDA 1 ADA",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 168,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1，把个位上的4看成了 7,所以多加了 3,又\n把十位上的 8 看成了 2,所以少加了 60。\n正确答案应是 306+60—3=363.\n2. 把减数个位上的 1 看成7,所得结果多减了\n6,把减数十位上的 7 看成 1,所得结果少减\n了 60。正确答案应是 111一60十6一57。",
+      "id": "grade4_b0234",
+      "pageEnd": 168,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "把个位上的4看成了 7,所以多加了 3,又 把十位上的 8 看成了 2,所以少加了 60。 正确答案应是 306+60—3=363.",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "2",
+          "prompt": "把减数个位上的 1 看成7,所得结果多减了",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "把减数十位上的 7 看成 1,所得结果少减 了 60。正确答案应是 111一60十6一57。",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 169,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1.4 2.2 31 49 5.6 6. 78\n7. 30 8. 96 9. 16 10. 24\nll. 解:(30二3十2)X4一9\n二(10十2) X4一9\n二12X4一9\n=48—9\n一39(岁)\n答:王老师今年 39 岁。\n12. 解: (28-6) +2=11(R),11-3=\n8(只),8X2王16(只)\n答:最初第一棵树上有 16 FURR.\n13, 解:最后上.中.下层各有 192二3一 |\n64(本)。最后从下层取出与上层剩下的\n同样多的书放到上层,这时三层本数相 ，\n同了,那么说明,下层给上层 64二2=\n32(本) ;下层未给上层时有 64十32王\n96(本),则下层原来有96一2一48(本);\n中层未给下层时有 192一32一48一112\nCB) ,那么中层原来有 112二2一56(本);\n上层原来有 192一48一56王88(本) 。\n答:这个书架上、中、下层原来各有 88 本、 ，\n56 本、48 AH                :\n14.解:用倒推法:从最后结果倒推,也可以\n通过列表解题。",
+      "id": "grade4_b0238",
+      "pageEnd": 169,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "4 2.2 31 49 5.6 6. 78",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "30 8. 96 9. 16 10. 24 ll. 解:(30二3十2)X4一9 二(10十2) X4一9 二12X4一9 =48—9 一39(岁) 答:王老师今年 39 岁。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "解: (28-6) +2=11(R),11-3= 8(只),8X2王16(只) 答:最初第一棵树上有 16 FURR.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "解:最后上.中.下层各有 192二3一 | 64(本)。最后从下层取出与上层剩下的 同样多的书放到上层,这时三层本数相 ， 同了,那么说明,下层给上层 64二2= 32(本) ;下层未给上层时有 64十32王 96(本),则下层原来有96一2一48(本); 中层未给下层时有 192一32一48一112 CB) ,那么中层原来有 112二2一56(本); 上层原来有 192一48一56王88(本) 。 答:这个书架上、中、下层原来各有 88 本、 ， 56 本、48 AH :",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "14",
+          "prompt": "解:用倒推法:从最后结果倒推,也可以 通过列表解题。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 174,
+      "lessonNo": 19,
+      "lessonTitle": "第 19 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 解:此船逆水航行的速度:120000二24王\n5000(米/时)\n此船在静水中航行的速度:5000十2500一\n7500(米/时)\n此船顺水航行的速度: 7500 十 2500 =\n10000(米/时)\n顺水航行 150 千米需要的时间:150000二\n10000=15 (IK)\n综合算式， 150000-F (120000-F 24-+2500\nx2)\n=150000+(5000+5000)\n=150000+10000\n王15(时)\n答:顺水航行 150 千米需要 15 小时。\n. 解:此船硕水航行的速度:208=8=26(千\n2. 解:顺水速度:20十10=30(千米/时)\n米/时)\n参考答案 a\nWC HE 7K UL TF AY ERE : 208 + 13 = 16 (-F\n米/时)\n由公式船速=(顺水速度十逆水速度) 一\n2,可求出此船在静水中的速度 ;\n(26十16)二2一21(千米/时)\n由公式水速=(顺水速度一道水速度) 二\n2 ,可求出水流的速度:\n(26一16)二2一5(千米/时)\n答:船在静水中的速度是 21 千米/时,水\n流的速度是 5 千米/时。",
+      "id": "grade4_b0253",
+      "pageEnd": 174,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "解:此船逆水航行的速度:120000二24王 5000(米/时) 此船在静水中航行的速度:5000十2500一 7500(米/时) 此船顺水航行的速度: 7500 十 2500 = 10000(米/时) 顺水航行 150 千米需要的时间:150000二 10000=15 (IK) 综合算式， 150000-F (120000-F 24-+2500 x2) =150000+(5000+5000) =150000+10000 王15(时) 答:顺水航行 150 千米需要 15 小时。 . 解:此船硕水航行的速度:208=8=26(千",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解:顺水速度:20十10=30(千米/时) 米/时) 参考答案 a WC HE 7K UL TF AY ERE : 208 + 13 = 16 (-F 米/时) 由公式船速=(顺水速度十逆水速度) 一",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "2",
+          "prompt": "可求出此船在静水中的速度 ; (26十16)二2一21(千米/时) 由公式水速=(顺水速度一道水速度) 二 2 ,可求出水流的速度: (26一16)二2一5(千米/时) 答:船在静水中的速度是 21 千米/时,水 流的速度是 5 千米/时。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 178,
+      "lessonNo": 21,
+      "lessonTitle": "第 21 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1，28。提示:7十6十5十4十3十2十1一\n28(个) 。\n最后一位是 0。还要被 3 整除,那么五位\n数每位加起来能被 3 整除。又 4十3十0\n王7,故十位和百位加起来为 2 时五位数\n最小,所以该数为 43020。\n答:这样的最小五位数是 43020。\n15. 解:2008二4三502,所以第 2008 个小动\n图形的计数\n| 2. 21。提示:6十5十4十3十2十1一21(条) 。\n| 3. 45。提示:1十2十3十4十5十6十7十8十9\n一45(条) 。\n4,14 5. 38 6.3 7. 3,18,2,8\n8. 100。提示:由 1 个小正方体组成的正方\n体有64个,由 8个小正方体组成的正方\n体有27 个,由 27 个小正方体组成的正方\n体有8个,由 64 个小正方体组成的正方\n体有 1 个,所以共有 64十27十8十1一\n100(个)。\n。 9.90。提示:假设图中每个小正方形的边长为\n1,边长为1的正方形有 4X10王40(个),边\n长为 2 的正方形有 3X9王27(个) ,边长为\n3 的正方形有 2X8=16(+) ,边长为4的\n正方形有 1X7=7(个) ,所以共有 40十27\n+16+7=90(4).\n10, 184\n11. 解:(8十5十5十5十2) X4王25 X4一\n100(个)\n答:图中一共有 100 个三角形。\n12. 解:从上往下数,第1层有1个;第 2 层比\n第 1 层多2个,第2层有2十1一3(个);第\n3 层比第 2 层多3个,第 3 层有3十2十1\n=6(%+) 555 4层比第 3 层多4个,第14\n173\nRite CAA MMP” REL CALS\na REREAD)\n13.\n14,\nJPR 4434+2+1=10(4), MUM\n有 10十6十3十1一20(个) 。\n答:图中共有 20 个小立方体。\n解:过长为 1 个小正方形边长的正方形\n有 20 个,边长为 2 个小正方形边长的正\n方形有3X4王12(个) ,;\n4个小正方形边长的正方形有 LX 2=\n2(个)。总共有 20十12十6十2一40(个)。\n答:有 40 个正方形。\n30 个\n解:(1) 尖朝上的三角形有五种。中以\n一条基本线段为边的三角形;8十7十6十\n5十4一30(个);@以两条基本线段为边\n的三角形;7十6十5十4一22(个);@以三\n边长为3个小正方\n形边长的正方形有 2又3一6(个),边长为“\n条基本线段为边的三角形:6十5十4一\n15(个) ;四以四条基本线段为边的三角\n形:5十4一9(个);@以五条基本线段为\n边的三角形有 4 个,所以尖朝上的三角\n形共有 30十22十15十9十4一80(个)。\n(2) 尖朝下的三角形有四种。外以一条\n基本线段为边的三角形:3十4十5十6十\n7=25(个);@以两条基本线段为边的三\n角形:2十3十4十5一14(个);@以三条基\n本线段为边的三角形:1十2十3一6(个);\n曲以四条基本线段为边的三角形有\n1个。所以,尖朝下的三角形共有 25十\n14十6十1一46(个)。\n所以三角形共有 80十46王126(个)。",
+      "id": "grade4_b0267",
+      "pageEnd": 179,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "28。提示:7十6十5十4十3十2十1一 28(个) 。 最后一位是 0。还要被 3 整除,那么五位 数每位加起来能被 3 整除。又 4十3十0 王7,故十位和百位加起来为 2 时五位数 最小,所以该数为 43020。 答:这样的最小五位数是 43020。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "解:2008二4三502,所以第 2008 个小动 图形的计数 | 2. 21。提示:6十5十4十3十2十1一21(条) 。 | 3. 45。提示:1十2十3十4十5十6十7十8十9 一45(条) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "14 5. 38 6.3 7. 3,18,2,8",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "100。提示:由 1 个小正方体组成的正方 体有64个,由 8个小正方体组成的正方 体有27 个,由 27 个小正方体组成的正方 体有8个,由 64 个小正方体组成的正方 体有 1 个,所以共有 64十27十8十1一 100(个)。 。 9.90。提示:假设图中每个小正方形的边长为",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "边长为1的正方形有 4X10王40(个),边 长为 2 的正方形有 3X9王27(个) ,边长为 3 的正方形有 2X8=16(+) ,边长为4的 正方形有 1X7=7(个) ,所以共有 40十27 +16+7=90(4).",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "解:(8十5十5十5十2) X4王25 X4一 100(个) 答:图中一共有 100 个三角形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "解:从上往下数,第1层有1个;第 2 层比 第 1 层多2个,第2层有2十1一3(个);第 3 层比第 2 层多3个,第 3 层有3十2十1 =6(%+) 555 4层比第 3 层多4个,第14 173 Rite CAA MMP” REL CALS a REREAD) 13. 14, JPR 4434+2+1=10(4), MUM 有 10十6十3十1一20(个) 。 答:图中共有 20 个小立方体。 解:过长为 1 个小正方形边长的正方形 有 20 个,边长为 2 个小正方形边长的正 方形有3X4王12(个) ,; 4个小正方形边长的正方形有 LX 2= 2(个)。总共有 20十12十6十2一40(个)。 答:有 40 个正方形。 30 个 解:(1) 尖朝上的三角形有五种。中以 一条基本线段为边的三角形;8十7十6十 5十4一30(个);@以两条基本线段为边 的三角形;7十6十5十4一22(个);@以三 边长为3个小正方 形边长的正方形有 2又3一6(个),边长为“ 条基本线段为边的三角形:6十5十4一 15(个) ;四以四条基本线段为边的三角 形:5十4一9(个);@以五条基本线段为 边的三角形有 4 个,所以尖朝上的三角 形共有 30十22十15十9十4一80(个)。 (2) 尖朝下的三角形有四种。外以一条 基本线段为边的三角形:3十4十5十6十 7=25(个);@以两条基本线段为边的三 角形:2十3十4十5一14(个);@以三条基 本线段为边的三角形:1十2十3一6(个); 曲以四条基本线段为边的三角形有 1个。所以,尖朝下的三角形共有 25十 14十6十1一46(个)。 所以三角形共有 80十46王126(个)。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 179,
+      "lessonNo": 22,
+      "lessonTitle": "用字母表示数",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. (1)8;(2)1;(3)4\n60, _.\n2. 解:7X3一人 (元)\nM\n174\nAit hee bE\n. (LD) 3072—-a=\n\"BORED I ae”\n答:3 HUEY BE OT.\nN           ]         2|3|141516\n2N       2|} 4 | 6 | 8 | 10) 12\n2N—-1} 1} 3] 5] 7] 9411\n2N 所表示的数是偶数,2N一1 所表示的\n=15—a JERK)\n答: 这个长方形另一边的长是\n(15—a) 厘米。\n(2) aX 5a) =15a —a? (平方厘米)\nME TIE AY i BU (15a —a*) FF\n厘米。\n. A 所表示的数是 6,B 所表示的数是 20。\n提示:杨辉三角形里的数除两边的 1 以\nKEL GFA\n外,其余的每个数都是该数对应的上面两 ，\n个数的和。\n6. (1) 12z十14z一26z(棵)\n答:共栽梧桐树和雪松 26z FR.\n(2) “4 x =20 时,26z一520(棵)\n答,青青林场一共有 520 棵梧桐树和\n7. (1) 4dat+b\nRMI LR AEF BH A TORE\nda+b,\n(2) 4 a=80,b=200 ft, 4a +b=4X80 —\n+200=520( 7K)\n答:这辆汽车行驶了 520 千米。\n8. (1) 5十3z(厘米)\n答:z 年后这棵树的树径是(5十3z )厘米。",
+      "id": "grade4_b0272",
+      "pageEnd": 180,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "(1)8;(2)1;(3)4",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解:7X3一人 (元) M 174 Ait hee bE . (LD) 3072—-a= \"BORED I ae” 答:3 HUEY BE OT. N ] 2|3|141516 2N 2|} 4 | 6 | 8 | 10) 12 2N—-1} 1} 3] 5] 7] 9411 2N 所表示的数是偶数,2N一1 所表示的 =15—a JERK) 答: 这个长方形另一边的长是 (15—a) 厘米。 (2) aX 5a) =15a —a? (平方厘米) ME TIE AY i BU (15a —a*) FF 厘米。 . A 所表示的数是 6,B 所表示的数是 20。 提示:杨辉三角形里的数除两边的 1 以 KEL GFA 外,其余的每个数都是该数对应的上面两 ， 个数的和。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 12z十14z一26z(棵) 答:共栽梧桐树和雪松 26z FR. (2) “4 x =20 时,26z一520(棵) 答,青青林场一共有 520 棵梧桐树和",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "(1) 4dat+b RMI LR AEF BH A TORE da+b, (2) 4 a=80,b=200 ft, 4a +b=4X80 — +200=520( 7K) 答:这辆汽车行驶了 520 千米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "(1) 5十3z(厘米) 答:z 年后这棵树的树径是(5十3z )厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 180,
+      "lessonNo": 23,
+      "lessonTitle": "第 23 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 在这个算式中,所有做乘法运算的都是奇\n(2) 当z=6时,5二3z王5二3X6王23(厘米)\n答:这棵树的树径是 23 厘米。\n| 9，(75十100) Xa=175a (元)\n100a —75a = 25a (元)\n答:这一天一共卖了 175a 元,上午比下午\n少卖 25a 元。\n10. (1) 5z(元)\n答:买 5支钢笔用了 5z 元。\n(2) 50一(人z一2) X5一60一5z(元)\n答:应找回(60一5z)元。\n(3) WE :9+2=1100)\nAY AR 9+ 3=3000)\n书包:9X5王45(元)\n答:钢笔的单价是 11 元,练习本的单价\n是 3 元,书包的单价是 45 元。\n奇数与偶数\n些偶数相加的结果还是偶数,只有 1 是奇\n数,又因为奇数十偶数=奇数,所以这道\n题的计算结果是奇数。\n2，只要列举出在 20 到 80 中所有 3 的倍数，\n然后根据加减运算中奇偶性的规律判断\n和的奇偶性即可。\n在 20到80 中,所有3 的倍数按从小到大\n依次可以写成 21,24,27,…,75,78。其\n中奇数是 21,27,33,…,69,75。这些奇\n数的总个数为(75一21) +6+1=10. 10\n个奇数的和应该是偶数,因此在 20 到 80\n中所有 3 的倍数的和是偶数。",
+      "id": "grade4_b0274",
+      "pageEnd": 180,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在这个算式中,所有做乘法运算的都是奇 (2) 当z=6时,5二3z王5二3X6王23(厘米) 答:这棵树的树径是 23 厘米。 | 9，(75十100) Xa=175a (元) 100a —75a = 25a (元) 答:这一天一共卖了 175a 元,上午比下午 少卖 25a 元。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "(1) 5z(元) 答:买 5支钢笔用了 5z 元。 (2) 50一(人z一2) X5一60一5z(元) 答:应找回(60一5z)元。 (3) WE :9+2=1100) AY AR 9+ 3=3000) 书包:9X5王45(元) 答:钢笔的单价是 11 元,练习本的单价 是 3 元,书包的单价是 45 元。 奇数与偶数 些偶数相加的结果还是偶数,只有 1 是奇 数,又因为奇数十偶数=奇数,所以这道 题的计算结果是奇数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "只要列举出在 20 到 80 中所有 3 的倍数， 然后根据加减运算中奇偶性的规律判断 和的奇偶性即可。 在 20到80 中,所有3 的倍数按从小到大 依次可以写成 21,24,27,…,75,78。其 中奇数是 21,27,33,…,69,75。这些奇 数的总个数为(75一21) +6+1=10. 10 个奇数的和应该是偶数,因此在 20 到 80 中所有 3 的倍数的和是偶数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 182,
+      "lessonNo": 23,
+      "lessonTitle": "第 23 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 设这 100 个数为 1,0,一1,一1,0,1,1,0，\n一1,一1,…,通过观察得从第 1 个数开始\n6 个数一循环,所以 100二6二16……4。\n又每组的 6 个数中有两个 0,则这 100 个\n数中“0的个数为 11X2十1=33(个)。\n故这 100 个数中\"0的个数为 33 个。\n2. 数列1,2,3,2,3,4,3,4,5,4,5,6,…中,三\n个为一组,每组的第一个数字依次是1,2，\n3,4，…,100二3一33…… 1,所以第 100 个\n数是第 34 组的第一个数字,是 34。",
+      "id": "grade4_b0281",
+      "pageEnd": 182,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "设这 100 个数为 1,0,一1,一1,0,1,1,0， 一1,一1,…,通过观察得从第 1 个数开始 6 个数一循环,所以 100二6二16……4。 又每组的 6 个数中有两个 0,则这 100 个 数中“0的个数为 11X2十1=33(个)。 故这 100 个数中\"0的个数为 33 个。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "数列1,2,3,2,3,4,3,4,5,4,5,6,…中,三 个为一组,每组的第一个数字依次是1,2，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "4，…,100二3一33…… 1,所以第 100 个 数是第 34 组的第一个数字,是 34。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 182,
+      "lessonNo": 23,
+      "lessonTitle": "第 23 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 22, #AR:2X6+2=14,3X7+2=23,\n5X4+2=22,\n2. (6一1) X9=45\n(9一3) X9一54\n3. 16。提示:依题有(1十3) X2=8,(4+2) X\n2=12,(3+5) X2=16,(9+7) X2=32,\n(8+22) X2=60,\n4, 解:1十2X2十3X3十4X4一30(个)\n答:图(3)中有 30 个正方形。\n5. 180, Hm: AMEW 5 X9=45,7X8=56,\n所以缺的数为 3X6一18。\n6. 2十39\n7. 解:第 199 个数组是(199,796,1592) ,三\n个数的和为 199十796十1592一2587。\n答:第 199 个数组内的三个数之和\n是 2587。\n8. 第 100 个数是 5,前 2006 个数之和是 14042\n(提示:周期是 4,6,8,9,5,6,8,9,5,……每\n个周期的和是 28,2006二4一501……2 ,说\n明有 501个 28,再加上6 和8,.501X28十\n177\nRite CAA MMP” REL CALS\na RERE RRL (精讲版)\n6十8一14042)\n15王35(个)。\n答:有 35 个小正方体。\n25 itt",
+      "id": "grade4_b0283",
+      "pageEnd": 183,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "22, #AR:2X6+2=14,3X7+2=23, 5X4+2=22,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "(6一1) X9=45 (9一3) X9一54",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "16。提示:依题有(1十3) X2=8,(4+2) X 2=12,(3+5) X2=16,(9+7) X2=32, (8+22) X2=60,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "解:1十2X2十3X3十4X4一30(个) 答:图(3)中有 30 个正方形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "180, Hm: AMEW 5 X9=45,7X8=56, 所以缺的数为 3X6一18。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "解:第 199 个数组是(199,796,1592) ,三 个数的和为 199十796十1592一2587。 答:第 199 个数组内的三个数之和 是 2587。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "第 100 个数是 5,前 2006 个数之和是 14042 (提示:周期是 4,6,8,9,5,6,8,9,5,……每 个周期的和是 28,2006二4一501……2 ,说 明有 501个 28,再加上6 和8,.501X28十 177 Rite CAA MMP” REL CALS a RERE RRL (精讲版) 6十8一14042) 15王35(个)。 答:有 35 个小正方体。 25 itt",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 183,
+      "lessonNo": 23,
+      "lessonTitle": "第 23 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 解:应按丙、.乙.甲.丁的顺序用水。\n两的等待时间为 0,用水时间为1分钟,总\n计 1 分钟。\n178\n， 10. 10000。提示: 根据观察可得规律:结果\n9，解:根据题十分析可得有 1十3十6十10十 |\n等于中间数的平方。1十2十3十…十\n99十100十99十…十3十2十1一100? =\n10000。\n统筹安排\n乙的等待时间为两的用水时间,即 1 分\n钟,乙的用水时间为 2 分钟,总计 3 分钟。\n申的等待时间为两和乙的用水时间,即\n3 分钟,甲的用水时间为 3 分钟,总计\n6 分钟。\n丁的等待时间为再.乙和甲的用水时间，\n共6 分钟,丁的用水时间为 10 分钟,总计\n16 分钟。\n总时间为 1十3十6十16王26(分)。\n2. 5个人排队一共有5X4X3X2X1l==\n120(种)不同顺序,把所有情形的时间总\n和都计算出来,就太烦琐了。\n首先,需 1 分钟的人排第一,需 1X 5 =\n5(分);\n需 2 分钟的人排第二,共需 2X4一8(分);\n需 3 分钟的人排第三,共需 3X3一9(分);\n需 4分钟的人排第四,共需 4义2一8(分);\n需 5 分钟的人排第五,共需 5 分钟。\n所以共用时:1X5十2X4十3X3十4X2十\n5X1=35G)).",
+      "id": "grade4_b0285",
+      "pageEnd": 183,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "解:应按丙、.乙.甲.丁的顺序用水。 两的等待时间为 0,用水时间为1分钟,总 计 1 分钟。 178 ， 10. 10000。提示: 根据观察可得规律:结果",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "解:根据题十分析可得有 1十3十6十10十 | 等于中间数的平方。1十2十3十…十 99十100十99十…十3十2十1一100? = 10000。 统筹安排 乙的等待时间为两的用水时间,即 1 分 钟,乙的用水时间为 2 分钟,总计 3 分钟。 申的等待时间为两和乙的用水时间,即 3 分钟,甲的用水时间为 3 分钟,总计 6 分钟。 丁的等待时间为再.乙和甲的用水时间， 共6 分钟,丁的用水时间为 10 分钟,总计 16 分钟。 总时间为 1十3十6十16王26(分)。",
+          "hasAnalysis": true,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "5个人排队一共有5X4X3X2X1l== 120(种)不同顺序,把所有情形的时间总 和都计算出来,就太烦琐了。 首先,需 1 分钟的人排第一,需 1X 5 = 5(分); 需 2 分钟的人排第二,共需 2X4一8(分); 需 3 分钟的人排第三,共需 3X3一9(分); 需 4分钟的人排第四,共需 4义2一8(分); 需 5 分钟的人排第五,共需 5 分钟。 所以共用时:1X5十2X4十3X3十4X2十 5X1=35G)).",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade5": [
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 160,
+      "lessonNo": 11,
+      "lessonTitle": "列方程解应用题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1，设第一根柱子长 z 米,第二根柱子长为(90\n一Z)米。\n2a =+ (90-2)\nx=50\n第二根柱子为 90一z一40(米) 。\n40 米。\n2.，设原来南水库有存水 z 万立方米,北水库\n有存水(55一Z)万立方米。\n(一地)z>=5一z一\nxr=35\n北水库有 55一rz一20(万立方米) 。\n答 :原来南水库有存水 35 万立方米,北水\n库有存水 20 万立方米。",
+      "id": "grade5_b0195",
+      "pageEnd": 160,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "设第一根柱子长 z 米,第二根柱子长为(90 一Z)米。 2a =+ (90-2) x=50 第二根柱子为 90一z一40(米) 。 40 米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "，设原来南水库有存水 z 万立方米,北水库 有存水(55一Z)万立方米。 (一地)z>=5一z一 xr=35 北水库有 55一rz一20(万立方米) 。 答 :原来南水库有存水 35 万立方米,北水 库有存水 20 万立方米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 161,
+      "lessonNo": 12,
+      "lessonTitle": "第 12 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练",
+      "text": "思维训练\n1. 8。提示:观察图形可知,三面涂色的在8 ，\n个顶点处,即有 8 个小正方体的三个面涂  ,\nSafi.\n2，2。提示:由第一个图知 5 和 1.3 相邻,由 ，\n第二个图知 5 和4、.6 相邻,可以得出5和\n2 相对。",
+      "id": "grade5_b0198",
+      "pageEnd": 161,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "8。提示:观察图形可知,三面涂色的在8 ， 个顶点处,即有 8 个小正方体的三个面涂 , Safi.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "2。提示:由第一个图知 5 和 1.3 相邻,由 ， 第二个图知 5 和4、.6 相邻,可以得出5和 2 相对。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 166,
+      "lessonNo": 15,
+      "lessonTitle": "第 15 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练",
+      "text": "思维训练\n1 po ame\nl    ae        art       到\nSi sy XK Bir? REA GE) X 2 FRE =3,\n——    3\nSm一1.5 个小正方形面 内一>，\n1      3  -\nS了影一SI十Sr十Sm 一了十3十了一5。\nty A\n2. 由图可得\n162\nSAax一SAagE十SAar一SAnpg十2SAapc十\nSacor » MAA Saanc = Save +S aspe +\nSAcpF 十Sm四边形AEDF »\n所以 SAapc一SmaAEDF二12。\n10. 如图所示,三角形 1,2,3,4,5,6 的面积\n都相等,设其中一个的面积为 e,则头部\n的面积为 4a ,尾部的面积为 2 ,头部面\n积是尾部面积的 4二2三2(倍) 。\n<\n巧求组合图形的面积\nSow = = 一Si ) a (二sn 一sj =\n1              1\nSwe 一 人小三角形 =o XCr4) X2— 5 x\n2xX2=4",
+      "id": "grade5_b0213",
+      "pageEnd": 166,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "由图可得 162 SAax一SAagE十SAar一SAnpg十2SAapc十 Sacor » MAA Saanc = Save +S aspe + SAcpF 十Sm四边形AEDF » 所以 SAapc一SmaAEDF二12。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "如图所示,三角形 1,2,3,4,5,6 的面积 都相等,设其中一个的面积为 e,则头部 的面积为 4a ,尾部的面积为 2 ,头部面 积是尾部面积的 4二2三2(倍) 。 < 巧求组合图形的面积 Sow = = 一Si ) a (二sn 一sj = 1 1 Swe 一 人小三角形 =o XCr4) X2— 5 x 2xX2=4",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 167,
+      "lessonNo": 15,
+      "lessonTitle": "第 15 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 设 SAaBe =<» 那 么  Saape = 2x »S avec =\nx, 根据题意列方程\n5              了        45\nz十2r十了xz一30,解得 Z一7。  TM SApr一\n5                      75\n3 SAape = 7 °\n2. Spiw =Saanp +S ane =20+35=55 Ck\n厘米)",
+      "id": "grade5_b0216",
+      "pageEnd": 167,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "设 SAaBe =<» 那 么 Saape = 2x »S avec = x, 根据题意列方程 5 了 45 z十2r十了xz一30,解得 Z一7。 TM SApr一 5 75 3 SAape = 7 °",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "Spiw =Saanp +S ane =20+35=55 Ck 厘米)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 169,
+      "lessonNo": 16,
+      "lessonTitle": "第 16 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1，20一8=12(时),每小时快4分钟,则快4\n1\n李阿姨实际的外出时间为\nes ee\n12+(14+5,)=12x 3 =11. 25(时)一1\n16\n时 15 分，\n8时十11 时 15分二19 时15 分。\n2，24X60一59.5X24X60二(60X60二60.5)\n=1440—85680+59. 504\n=1440—1439, 9\n一0. 1(分)\n0. 1 分三6 秒",
+      "id": "grade5_b0220",
+      "pageEnd": 169,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "20一8=12(时),每小时快4分钟,则快4 1 李阿姨实际的外出时间为 es ee 12+(14+5,)=12x 3 =11. 25(时)一1 16 时 15 分， 8时十11 时 15分二19 时15 分。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "24X60一59.5X24X60二(60X60二60.5) =1440—85680+59. 504 =1440—1439, 9 一0. 1(分)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 171,
+      "lessonNo": 17,
+      "lessonTitle": "第 17 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2           |",
+      "text": "思维训练 2           |\n1.，船回过头时,钥匙挂件行驶了 15 分钟,此  2\n时钥匙挂件和船之间的距离三船逆水 15 |\n分钟距离十挂件行 15 分钟距离一15 X\n〈船静水速度一水流速度)十15久水流速\n度三船静水 15 分钟的路程王15二60X6=一\n1.5(干米)。追及时,船追及挂件的速度差\n三船顺航速度一挂件速度三船静水速度\n十水流速度一水流速度三船静水速度一6\nFRI. GE BAN Te] = Bt Bee + RE 2 —\nwe 7  RAK      7 8G 问题\n| 1.5二6一0.25(时)。\n。 2. 船回头时,水过和船之间的距离一船送水\n。 20分钟距离十水杯行 20 分钟(水流 20 分\n钟)距离一船静水 20 分钟的路程。追及\n时,船追及水索的速度差相当于船顺水速\n度一水壶的速度(水流速度) 一船静水速\n度。因此追上水杯的时间是 20 分钟。即\n水杯在 20十20王40(分)里被冲走了 2 千\n米。水流的速度是 2二40/60王3(千米/时)。",
+      "id": "grade5_b0223",
+      "pageEnd": 171,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "，船回过头时,钥匙挂件行驶了 15 分钟,此 2 时钥匙挂件和船之间的距离三船逆水 15 | 分钟距离十挂件行 15 分钟距离一15 X 〈船静水速度一水流速度)十15久水流速 度三船静水 15 分钟的路程王15二60X6=一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "5(干米)。追及时,船追及挂件的速度差 三船顺航速度一挂件速度三船静水速度 十水流速度一水流速度三船静水速度一6 FRI. GE BAN Te] = Bt Bee + RE 2 — we 7 RAK 7 8G 问题 | 1.5二6一0.25(时)。 。 2. 船回头时,水过和船之间的距离一船送水 。 20分钟距离十水杯行 20 分钟(水流 20 分 钟)距离一船静水 20 分钟的路程。追及 时,船追及水索的速度差相当于船顺水速 度一水壶的速度(水流速度) 一船静水速 度。因此追上水杯的时间是 20 分钟。即 水杯在 20十20王40(分)里被冲走了 2 千 米。水流的速度是 2二40/60王3(千米/时)。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 190,
+      "lessonNo": 25,
+      "lessonTitle": "第 25 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练3",
+      "text": "思维训练3\n1. 3 个数字是一组,360二3王120(组)，\n1 1 1  7\n(S+3+=) x120=94.\n2. 设第二一第九个自然数分别为az ,as ,ai，\nA545 +07 9g +Qo > FH LES AY A\nas一5十as\n44一?十5十az一5十2c，\n“PREP” RRL 4 GaAvw\nay =5 X21+34a,=241\n解得 4&2一4。",
+      "id": "grade5_b0262",
+      "pageEnd": 191,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "3 个数字是一组,360二3王120(组)， 1 1 1 7 (S+3+=) x120=94.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "设第二一第九个自然数分别为az ,as ,ai， A545 +07 9g +Qo > FH LES AY A as一5十as 44一?十5十az一5十2c， “PREP” RRL 4 GaAvw ay =5 X21+34a,=241 解得 4&2一4。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 31,
+      "lessonNo": 5,
+      "lessonTitle": "速算与巧算",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 王老师带领一班同学去植树 ,学生恰好分成4组,如果王老师和学生每人植树一样多，\n那么他们一共植了 539 棵树。这个班有多少个学生?” 每人植树多少棵?",
+      "id": "grade5_b0028",
+      "pageEnd": 31,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "王老师带领一班同学去植树 ,学生恰好分成4组,如果王老师和学生每人植树一样多， 那么他们一共植了 539 棵树。这个班有多少个学生?” 每人植树多少棵?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 56,
+      "lessonNo": 11,
+      "lessonTitle": "”列方程解应用题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1, 昔老师在计算本次考试班级平均分时,第一次计算时得 82. 5 分,在验算时发现,误将\n李雷的 59 分看成了 95 分,重新计算后正确的结果为 81. 6 分,则这个班级有多少名学生?",
+      "id": "grade5_b0058",
+      "pageEnd": 56,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "昔老师在计算本次考试班级平均分时,第一次计算时得 82. 5 分,在验算时发现,误将 李雷的 59 分看成了 95 分,重新计算后正确的结果为 81. 6 分,则这个班级有多少名学生?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 122,
+      "lessonNo": 22,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 小明为家里做饭,他择菜 7 MER DES 6 分钟,洗米 3 分钟,者饭 20 分钟,切荣 5 分钟，\n炒菜 6 分钟,若小明家里使用的是单火眼煤气灶,他怎样安排做饭顺序最省时?\n118\nRAMESH” RRL GT Ae",
+      "id": "grade5_b0126",
+      "pageEnd": 123,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "小明为家里做饭,他择菜 7 MER DES 6 分钟,洗米 3 分钟,者饭 20 分钟,切荣 5 分钟， 炒菜 6 分钟,若小明家里使用的是单火眼煤气灶,他怎样安排做饭顺序最省时? 118 RAMESH” RRL GT Ae",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade6": [
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 177,
+      "lessonNo": 23,
+      "lessonTitle": "对应法解题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\nI,\n2. 7 本故事书和 102 AWIM-BHERE 184 x 6—\n每列火车每次运货(1200一600) +5 =\n120(吨), 3 X120王360(吨) ,则每辆卡车\n每次运货 (600 — 360) 二6一40(吨)\n1104(元), 1104一184王920(元),则每本\n漫画书的价格为 920 + (102 — 10) =\n10(元)。10X10=100(元),则每本故事书\n的价格为(184一100) 二7一12(元)。",
+      "id": "grade6_b0253",
+      "pageEnd": 177,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "7 本故事书和 102 AWIM-BHERE 184 x 6— 每列火车每次运货(1200一600) +5 = 120(吨), 3 X120王360(吨) ,则每辆卡车 每次运货 (600 — 360) 二6一40(吨) 1104(元), 1104一184王920(元),则每本 漫画书的价格为 920 + (102 — 10) = 10(元)。10X10=100(元),则每本故事书 的价格为(184一100) 二7一12(元)。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 180,
+      "lessonNo": 24,
+      "lessonTitle": "第 24 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1C 2.C 3.B 4. 19,1,354 5. 420\n6. 比较节省材料的截法有三种。截法一:截\n成3米.3米.4米三段,无残料;截法二，\n法三:截成4米.4米两段,残料为 2 米。\n由于截法一最理想(无残料) ,因此应该充\n笔,可以截成72根 3 米的短竹笔,而4米\n长的仅有 36 根,还差 36 根,于是应采用\n截法三,截原材料 18 根,可以得到4米长\n的短竹笔 36 根。所以至少需要原材料 36\n十18王54(根) 。\n7. 小梦先唱, 其次是小伟,最后是小红。总\n时间为4.5十(4.5十5)十(4.5十5十7)一\n30.5(分)。\n8. 要省钱应尽量多买 5 件一包的,然后是 3\n件一包的,最后是零售的,有两种买法，\n(1) 5 件一包的6包,3 件一包的2包;(2)\n5 件一包的7包,零售的 1 件。红色运动\n衫按第(2)种买法购买,白色运动衫按第\n(1)种买法购买最省,要花 513 十 628 =\n1141(元) 。\n9, 安装在自行车上的一对轮胎最多可以行驶\nd4+D+(So+g5)= 3750(T2K) »\n10. 本和成先过,用时 7 分钟,成返回,用时5\n分钟。甲和乙再过,用时 11 分钟,丁返\n回,用时 7 分钟。丙和成再过,用时 8 分\n钟,成返回,用时 5 分钟。丁和成过,用\n时 7 分钟。共用时7十5十11十7十8十\n5+7=50(4)).\n175\nRite LAA MMP RR” REL CARS\n‘OOS.\n名师团队精编",
+      "id": "grade6_b0266",
+      "pageEnd": 181,
+      "questionCandidates": [
+        {
+          "localNo": "6",
+          "prompt": "比较节省材料的截法有三种。截法一:截 成3米.3米.4米三段,无残料;截法二， 法三:截成4米.4米两段,残料为 2 米。 由于截法一最理想(无残料) ,因此应该充 笔,可以截成72根 3 米的短竹笔,而4米 长的仅有 36 根,还差 36 根,于是应采用 截法三,截原材料 18 根,可以得到4米长 的短竹笔 36 根。所以至少需要原材料 36 十18王54(根) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "小梦先唱, 其次是小伟,最后是小红。总 时间为4.5十(4.5十5)十(4.5十5十7)一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "要省钱应尽量多买 5 件一包的,然后是 3 件一包的,最后是零售的,有两种买法， (1) 5 件一包的6包,3 件一包的2包;(2) 5 件一包的7包,零售的 1 件。红色运动 衫按第(2)种买法购买,白色运动衫按第 (1)种买法购买最省,要花 513 十 628 = 1141(元) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "安装在自行车上的一对轮胎最多可以行驶 d4+D+(So+g5)= 3750(T2K) »",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "本和成先过,用时 7 分钟,成返回,用时5 分钟。甲和乙再过,用时 11 分钟,丁返 回,用时 7 分钟。丙和成再过,用时 8 分 钟,成返回,用时 5 分钟。丁和成过,用 时 7 分钟。共用时7十5十11十7十8十 5+7=50(4)). 175 Rite LAA MMP RR” REL CARS ‘OOS. 名师团队精编",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 40,
+      "lessonNo": 6,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1.《中华人民共和国个人所得税法?规定,公民全月工资.薪金所得不超过 5000 元的部分\n不必纳税,超过 5000 元的部分为全月应纳税所得额,此项税款按下表分段累进计算。小红的\n爸爸这个月的工资为 10800 元,请问他需要缴纳多少税(含税级距)?\n级数 “| 全月应缴纳税所得额(含税级距) | 全月应缴纳税所得额(不含税级距)           税率/多\n1        不超过 3000 元                         不超过 2910 元的                                    3\n2       超过 3000 元至 12000 元的部分 “| 超过 2910 元至 11010 元的部分                  10\n3       超过 12000 元至 25000 元的部分“| 超过 11010 元至 21410 元的部分                 20\n4        超过 25000 元至 35000 元的部分“| 超过 21410 元至 28910 元的部分                  25\n2.《中华人民共和国个人所得税法;规定,公民全月工资,薪金所得不超过 5000 元的部分\n不必纳税,超过 5000 元的部分为全月应纳税所得额,此项税款按下表分段累进计算。小军的\n妈妈这个月缴纳了 1040 元的税(含税级距),问小军的妈妈这个月的工资是多少?\n级数 | 全月应缴纳税所得额(含税级距) | 全月应缴纳税所得额(不含税级距)           BiLK/%\n1        不超过 3000 元                         不超过 2910 元的                                    3\n2       超过 3000 元至 12000 元的部分 “| 超过 2910 元至 11010 元的部分                  10\n3    超过 12000 元至 25000 元的部分“| 超过 11010 元至 21410 元的部分         20\n4       超过 25000 元至 35000 元的部分“| 超过 21410 元至 28910 元的部分                 25\n35\nRite LAA MMP RR” REL CARS\na 数学央子生高分题库 (HM)\n一-一",
+      "id": "grade6_b0034",
+      "pageEnd": 41,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "《中华人民共和国个人所得税法?规定,公民全月工资.薪金所得不超过 5000 元的部分 不必纳税,超过 5000 元的部分为全月应纳税所得额,此项税款按下表分段累进计算。小红的 爸爸这个月的工资为 10800 元,请问他需要缴纳多少税(含税级距)? 级数 “| 全月应缴纳税所得额(含税级距) | 全月应缴纳税所得额(不含税级距) 税率/多 1 不超过 3000 元 不超过 2910 元的 3 2 超过 3000 元至 12000 元的部分 “| 超过 2910 元至 11010 元的部分 10 3 超过 12000 元至 25000 元的部分“| 超过 11010 元至 21410 元的部分 20 4 超过 25000 元至 35000 元的部分“| 超过 21410 元至 28910 元的部分 25",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "《中华人民共和国个人所得税法;规定,公民全月工资,薪金所得不超过 5000 元的部分 不必纳税,超过 5000 元的部分为全月应纳税所得额,此项税款按下表分段累进计算。小军的 妈妈这个月缴纳了 1040 元的税(含税级距),问小军的妈妈这个月的工资是多少? 级数 | 全月应缴纳税所得额(含税级距) | 全月应缴纳税所得额(不含税级距) BiLK/% 1 不超过 3000 元 不超过 2910 元的 3 2 超过 3000 元至 12000 元的部分 “| 超过 2910 元至 11010 元的部分 10 3 超过 12000 元至 25000 元的部分“| 超过 11010 元至 21410 元的部分 20 4 超过 25000 元至 35000 元的部分“| 超过 21410 元至 28910 元的部分 25 35 Rite LAA MMP RR” REL CARS a 数学央子生高分题库 (HM) 一-一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 74,
+      "lessonNo": 12,
+      "lessonTitle": "平面图形综合",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 一个圆柱高 8 厘米,如果它的高增加 2 厘米,那么它的表面积将增加 25. 12 平方厘米。\n原来圆柱的表面积是多少平方厘米?\n高的二 ,乙容器中水的高度是锥高的< ,比较甲乙两容\n2. 如图,甲.乙两容器相同,甲容器中水的高度是锥        CC >\n器,哪一个容器中盛的水多?多的是少的的几倍?        —     号\n如图,四边形 ABCD 是矩形,BC=8 厘米,AB=12 厘米,对角线 AC.\nBD 相交于O,已,F 分别是AD,BC 的中点,图中的阴影部分以 EF 为轴旋\n转一周,则白色部分扫出的立体图形的体积是多少立方厘米? Coe HR 3)\n解”扫出的图形如图所示,白色部分实际上是一个圆柱减去两个圆锥\n后所形成的图形。\n两个圆锥的体积之和为 axa XRXA\" X6=64r=192( 27 BK).\nFEMg KARA XA? X12=576( LF BR) ,所以白色部分扫出的立体图形的\n体积为 576一192一384(立方厘米) 。\n69\nRite RA “MME HR” FRL GA Tawe\na 数学类子生高分题库 (精讲版)",
+      "id": "grade6_b0065",
+      "pageEnd": 75,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "一个圆柱高 8 厘米,如果它的高增加 2 厘米,那么它的表面积将增加 25. 12 平方厘米。 原来圆柱的表面积是多少平方厘米? 高的二 ,乙容器中水的高度是锥高的< ,比较甲乙两容",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如图,甲.乙两容器相同,甲容器中水的高度是锥 CC > 器,哪一个容器中盛的水多?多的是少的的几倍? — 号 如图,四边形 ABCD 是矩形,BC=8 厘米,AB=12 厘米,对角线 AC. BD 相交于O,已,F 分别是AD,BC 的中点,图中的阴影部分以 EF 为轴旋 转一周,则白色部分扫出的立体图形的体积是多少立方厘米? Coe HR 3) 解”扫出的图形如图所示,白色部分实际上是一个圆柱减去两个圆锥 后所形成的图形。 两个圆锥的体积之和为 axa XRXA\" X6=64r=192( 27 BK). FEMg KARA XA? X12=576( LF BR) ,所以白色部分扫出的立体图形的 体积为 576一192一384(立方厘米) 。 69 Rite RA “MME HR” FRL GA Tawe a 数学类子生高分题库 (精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 75,
+      "lessonNo": 12,
+      "lessonTitle": "平面图形综合",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 如图是一块长方形纸皮,利用图中的阴影部分,刚好能\n做成一个油桶(接头处忽略不计),求这个油桶的容积。\n16.56分米\n70\nRiise CRA “MBER” RRL TAG.",
+      "id": "grade6_b0067",
+      "pageEnd": 76,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "如图是一块长方形纸皮,利用图中的阴影部分,刚好能 做成一个油桶(接头处忽略不计),求这个油桶的容积。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "16",
+          "prompt": "56分米 70 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 81,
+      "lessonNo": 14,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 王师傅将木方刨成横截面如图(单位:厘米)那样高40 |      28      |\n厘米的一根棱柱。虚线把横截面分成大.小两部分,较大的那\n部分的面积占整个底面的 60狼。这个棱柱的体积是多少立方\n厘米?\n76\nRiise CRA “MBER” RRL TAG.\n第 14讲“立体几何综合 全\n2. 一个长方形水箱,从里面量长 50 厘米,宽 40 厘米,深 45 厘米。原来水深 22 厘米,放\n进一个棱长 30 厘米的正方形铁块后,铁块的顶面仍然高于水面,这时水面高多少厘米?\n在桌面上摆有一些大小一样的正方体木块,从正南方向看如图(1),从正东方向看如图\n《2) ,要摆出这样的图形至多需要用             块正方体木块,至少需要             块正方体木块。\n(1)                             (2)\n解”按如图摆放,至多需要 20 块[图(1)]正方体木块,至少需要 6 块[图(2)]正方体木块。\n2\n2     2\n1     1\n1     1\n2     2\n1\n1\n1\n1\n1\n1\n1\n1\n()                       (2)",
+      "id": "grade6_b0074",
+      "pageEnd": 82,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "王师傅将木方刨成横截面如图(单位:厘米)那样高40 | 28 | 厘米的一根棱柱。虚线把横截面分成大.小两部分,较大的那 部分的面积占整个底面的 60狼。这个棱柱的体积是多少立方 厘米? 76 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一个长方形水箱,从里面量长 50 厘米,宽 40 厘米,深 45 厘米。原来水深 22 厘米,放 进一个棱长 30 厘米的正方形铁块后,铁块的顶面仍然高于水面,这时水面高多少厘米? 在桌面上摆有一些大小一样的正方体木块,从正南方向看如图(1),从正东方向看如图 《2) ,要摆出这样的图形至多需要用 块正方体木块,至少需要 块正方体木块。 (1) (2) 解”按如图摆放,至多需要 20 块[图(1)]正方体木块,至少需要 6 块[图(2)]正方体木块。 2 2 2 1 1 1 1 2 2 1 1 1 1 1 1 1 1 () (2)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 107,
+      "lessonNo": 18,
+      "lessonTitle": "一",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 某医院有 372 个 2016 年出生的孩子,其中至少有几个孩子的生日是同一天,为什么?\nU0\n2, 某舞台剧的 40 名伴舞中 ,年龄最大的是 13 岁,最小的是 11 岁,那么其中至少有多少\n名伴舞是同年同月出生的?\n102\nRite be PBR” RELY TAPS",
+      "id": "grade6_b0099",
+      "pageEnd": 108,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "某医院有 372 个 2016 年出生的孩子,其中至少有几个孩子的生日是同一天,为什么? U0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某舞台剧的 40 名伴舞中 ,年龄最大的是 13 岁,最小的是 11 岁,那么其中至少有多少 名伴舞是同年同月出生的? 102 Rite be PBR” RELY TAPS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 117,
+      "lessonNo": 19,
+      "lessonTitle": "”拍导原理=",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 122 十133 的个位数字是多少?\n2. 492 一527十12135 的个位数字是多少?\n“双十一?物流高峰期 ,某工厂有一批货要运到物流中心,有甲、乙两辆货车运货 ,已知甲车\n单独运货要 9 天运完,如果第一天甲运,第二天乙运,两辆车如此交替工作,恰好整数天运完，\n如果第一天乙运,第二天甲运,两辆车如此交替工作,比上次轮流多用了半天,若甲.乙一起运，\n112\nRite RA “MME HR” FRL GA Tawe",
+      "id": "grade6_b0110",
+      "pageEnd": 118,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "122 十133 的个位数字是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "492 一527十12135 的个位数字是多少? “双十一?物流高峰期 ,某工厂有一批货要运到物流中心,有甲、乙两辆货车运货 ,已知甲车 单独运货要 9 天运完,如果第一天甲运,第二天乙运,两辆车如此交替工作,恰好整数天运完， 如果第一天乙运,第二天甲运,两辆车如此交替工作,比上次轮流多用了半天,若甲.乙一起运， 112 Rite RA “MME HR” FRL GA Tawe",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 140,
+      "lessonNo": 22,
+      "lessonTitle": "最值问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 用一个平底锅煎饼,每次只能前 2 张,前一张饼需要 4 分钟(正、反两面均需要 2 分\n钟) ,如果要前 10 张饼,至少需要多少分钟?\n135\nRite CAA MMP” REL CALS\na 数学灾子生高分题库 〈精讲版)\n2. 最近流感比较严重,小可、小华,小芳.小艾同时去医务室看病。根据病情,校医为他们\n分别对症下药。小可打针需要调药 .扎针等共需 7 分钟,小华开药要 3 分钟,小芳检查牙齿需\n要 5 分钟,小艾滴眼药水需要 1 分钟。问校医如何安排治病次序,才能使他们等候的时间总和\n最少? 并求出这个时间。",
+      "id": "grade6_b0131",
+      "pageEnd": 141,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "用一个平底锅煎饼,每次只能前 2 张,前一张饼需要 4 分钟(正、反两面均需要 2 分 钟) ,如果要前 10 张饼,至少需要多少分钟? 135 Rite CAA MMP” REL CALS a 数学灾子生高分题库 〈精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "最近流感比较严重,小可、小华,小芳.小艾同时去医务室看病。根据病情,校医为他们 分别对症下药。小可打针需要调药 .扎针等共需 7 分钟,小华开药要 3 分钟,小芳检查牙齿需 要 5 分钟,小艾滴眼药水需要 1 分钟。问校医如何安排治病次序,才能使他们等候的时间总和 最少? 并求出这个时间。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 147,
+      "lessonNo": 2,
+      "lessonTitle": "分数的比较大小",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n37_ 13                  3     1\n— Ss                    2   一一<一一\n\"717 47              ”539 ~175\n了了\n5\nbo\n6. <\n. EA 2017? — 2016 X 2017+ 2016’ = 2017?\n+2016 X (2016-2017) = 2017? — 2016 =\n20172:一2017十1,所以A 5 BASE.\n1           2 .3\n100     Z,3       2\n—_ =e  (<i el  —,\n99  15X 99 >15, 3° 4 X15  3 x\nRite LAA MMP RR” REL CARS\n4   200. 4  5、\n7. 5 1. 2X 4G 19x\nin   73    7374.73 73_\nop 1 8X7 = 14 + x7 =a e\n>  -xc sxB<\nRe\n所以也 最大。\n88881 2     66661 _\n+71.           二\n9 KA=1~gee83 90803 2! 666一\n2 88881、66661\n65665 \"所以88883一66663。",
+      "id": "grade6_b0146",
+      "pageEnd": 148,
+      "questionCandidates": [
+        {
+          "localNo": "6",
+          "prompt": "< . EA 2017? — 2016 X 2017+ 2016’ = 2017? +2016 X (2016-2017) = 2017? — 2016 = 20172:一2017十1,所以A 5 BASE. 1 2 .3 100 Z,3 2 —_ =e (<i el —, 99 15X 99 >15, 3° 4 X15 3 x Rite LAA MMP RR” REL CARS 4 200. 4 5、",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "5 1. 2X 4G 19x in 73 7374.73 73_ op 1 8X7 = 14 + x7 =a e > -xc sxB< Re 所以也 最大。 88881 2 66661 _ +71. 二 9 KA=1~gee83 90803 2! 666一 2 88881、66661 65665 \"所以88883一66663。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ]
+}

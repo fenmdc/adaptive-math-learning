@@ -11,9 +11,7 @@ const ARCHIVE_ROOT = path.join(STAGING_DIR, "archive");
 const FILES: ArchiveFile[] = [
   { fileName: "problem_staging.csv", required: true },
   { fileName: "distractors.csv", required: true },
-  { fileName: "example_explanations.csv", required: true },
-  { fileName: "import_notes.md", required: false },
-  { fileName: "aops_prealgebra_import.md", required: false }
+  { fileName: "example_explanations.csv", required: true }
 ];
 
 function main() {

@@ -12,8 +12,36 @@ ICONSET="${REPO_DIR}/scripts/${APP_NAME}.iconset"
 chmod +x "${LAUNCHER}"
 
 cat > "${APPLESCRIPT}" <<'SCRIPT'
-set launcherPath to POSIX path of (path to resource "launch-local-app.sh")
-do shell script quoted form of launcherPath
+set appUrl to "http://localhost:3017"
+set appDir to "/Users/fenmdc/Documents/Codex/2026-06-05/github-adaptive-math-learning/work/adaptive-math-learning"
+set serverScript to appDir & "/scripts/start-local-server.sh"
+
+set isReady to false
+try
+  do shell script "/usr/bin/curl -fsS " & quoted form of appUrl & " >/dev/null"
+  set isReady to true
+end try
+
+if isReady is false then
+  tell application "Terminal"
+    do script "cd " & quoted form of appDir & " && ADAPTIVE_MATH_PORT=3017 " & quoted form of serverScript
+  end tell
+
+  repeat 40 times
+    delay 0.5
+    try
+      do shell script "/usr/bin/curl -fsS " & quoted form of appUrl & " >/dev/null"
+      set isReady to true
+      exit repeat
+    end try
+  end repeat
+end if
+
+if isReady is true then
+  open location appUrl
+else
+  display dialog "Adaptive Math Learning did not become ready at " & appUrl & ". Check ~/Library/Logs/Adaptive Math Learning/dev-server.log" buttons {"OK"} default button "OK" with title "Adaptive Math Learning"
+end if
 SCRIPT
 
 rm -rf "${APP_PATH}"

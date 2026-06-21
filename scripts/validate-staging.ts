@@ -26,6 +26,12 @@ type StagingProblem = {
   cognitive_tags: string;
   estimated_time_seconds: string;
   notes: string;
+  language?: string;
+  curriculum_system?: string;
+  region?: string;
+  display_track?: string;
+  grade_band?: string;
+  content_status?: string;
 };
 
 type DistractorRow = {
@@ -54,6 +60,9 @@ const APP_PROBLEMS_PATH = path.join(process.cwd(), "apps/web/data/problems.json"
 const VALID_LAYERS = new Set(["Foundation", "Standard", "Honors", "AMC8", "AMC8 Stretch"]);
 const VALID_STAGES = new Set(["Foundation", "Bridge", "Algebra Readiness", "AMC8 Transfer"]);
 const VALID_ANSWER_TYPES = new Set(["numeric", "fraction", "symbolic", "text", "multiple_choice", "manual"]);
+const VALID_LANGUAGES = new Set(["en", "zh", "bilingual"]);
+const VALID_CURRICULUM_SYSTEMS = new Set(["US", "CN", "AMC", "AP", "Olympiad"]);
+const VALID_CONTENT_STATUSES = new Set(["pilot", "production"]);
 
 function main() {
   const problems = readCsv<StagingProblem>(path.join(STAGING_DIR, "problem_staging.csv"));
@@ -146,6 +155,18 @@ function validateProblem(
 
   if (!VALID_STAGES.has(problem.taxonomy_stage)) {
     errors.push(`row ${row}: taxonomy_stage must be one of ${[...VALID_STAGES].join(", ")}`);
+  }
+
+  if (problem.language && !VALID_LANGUAGES.has(problem.language)) {
+    errors.push(`row ${row}: language must be one of ${[...VALID_LANGUAGES].join(", ")}`);
+  }
+
+  if (problem.curriculum_system && !VALID_CURRICULUM_SYSTEMS.has(problem.curriculum_system)) {
+    errors.push(`row ${row}: curriculum_system must be one of ${[...VALID_CURRICULUM_SYSTEMS].join(", ")}`);
+  }
+
+  if (problem.content_status && !VALID_CONTENT_STATUSES.has(problem.content_status)) {
+    errors.push(`row ${row}: content_status must be one of ${[...VALID_CONTENT_STATUSES].join(", ")}`);
   }
 
   required(problem.problem_type, row, "problem_type", errors);

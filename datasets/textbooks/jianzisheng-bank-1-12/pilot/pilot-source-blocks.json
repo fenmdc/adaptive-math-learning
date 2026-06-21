@@ -1,0 +1,3399 @@
+{
+  "grade1": [
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 135,
+      "lessonNo": 20,
+      "lessonTitle": "全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 盒子中有6 支黑铅笔,2 支红铬笔,在不准看的情况下每次摸出一支笔,至少摸几次,才\n能保证摸出两支颜色一样的铬笔?\n2. 请举例说明可能性为 0 和可能性为百分之百的两种情况。\n1. 请在正确的选项后面画”/ ”,在错误的选项后面画\"义”。\nCL) 盒子里有 4 个红球和 2 个白球 ,在看不见的情况下去摸球,摸到的球一定是红球。\n()\n(2) 盒子里有 3 个黄球.2 个白球和4 红球,任意摸出一球,可能是白球。\n(  )\n(3) 盒子里有 8 个黄球和 1 个白球,任意摸出一球,摸到黄球的可能性大一点。\nCC )\n2. 口袋里有 5 个白球、2 个黄球和 1 个红球,在看不见的情况下任意摸出一个球,摸到\n(  )球的可能性最大,摸到( )球的可能性最小。\n3. 口袋里有 3 个黄球、2 个白球和4个黑球,任意摸出一个球,摸到的球的颜色有几种\nny AE?\n4, 口袋里有 3 个黄球.2 个白球和 4 个黑球,任意摸出三个球,摸到的球的颜色有几种\n可能?\n130\nRite LAA MMP RR” REL CARS\n5. 口袋里有 1 个白球和 1 个红球,任意摸出一个球,第一次摸出来的是红球,放回口袋\n中,那么第二次摸出的球的颜色可能是什么颜色?\n6. 盒子里有 7 BEER A 个黑球3 个绿球和 3 个红球,至少从中取出几个球,才能保证取\n出的球中有黄球?\n7. 盒子里有白球和黄球若干个,至少要摸出几个球,才能确保取出两个颜色相同的球?\n8. 箱子里有 3 个黄球和若干个红球 ,已知至少摸出 5 个球才能保证摸到的球中一定有黄\n球,请问红球有多少个?\n9. 抽屈里有 3 只红袜子、2 只白袜子和 3 只黄裤子,至少取出几只袜子,才能保证拿出一\n双颜色一样的袜子?\n10. 餐盒里有 3 MELEE PA 4 双白笑子,在看不见的情况下每次从中取出一根货子,至少\n要摸出几根簧子 ,才能保证取出来两双一样的筷子?\n131\nRiise CRA “MBER” RRL TAG.\nGGSSSSSSS\nE3@ | th\n|\n『",
+      "id": "grade1_b0127",
+      "pageEnd": 137,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "盒子中有6 支黑铅笔,2 支红铬笔,在不准看的情况下每次摸出一支笔,至少摸几次,才 能保证摸出两支颜色一样的铬笔?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "请举例说明可能性为 0 和可能性为百分之百的两种情况。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "请在正确的选项后面画”/ ”,在错误的选项后面画\"义”。 CL) 盒子里有 4 个红球和 2 个白球 ,在看不见的情况下去摸球,摸到的球一定是红球。 () (2) 盒子里有 3 个黄球.2 个白球和4 红球,任意摸出一球,可能是白球。 ( ) (3) 盒子里有 8 个黄球和 1 个白球,任意摸出一球,摸到黄球的可能性大一点。 CC )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "口袋里有 5 个白球、2 个黄球和 1 个红球,在看不见的情况下任意摸出一个球,摸到 ( )球的可能性最大,摸到( )球的可能性最小。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "口袋里有 3 个黄球、2 个白球和4个黑球,任意摸出一个球,摸到的球的颜色有几种 ny AE?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "口袋里有 3 个黄球.2 个白球和 4 个黑球,任意摸出三个球,摸到的球的颜色有几种 可能? 130 Rite LAA MMP RR” REL CARS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "口袋里有 1 个白球和 1 个红球,任意摸出一个球,第一次摸出来的是红球,放回口袋 中,那么第二次摸出的球的颜色可能是什么颜色?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "盒子里有 7 BEER A 个黑球3 个绿球和 3 个红球,至少从中取出几个球,才能保证取 出的球中有黄球?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "盒子里有白球和黄球若干个,至少要摸出几个球,才能确保取出两个颜色相同的球?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "箱子里有 3 个黄球和若干个红球 ,已知至少摸出 5 个球才能保证摸到的球中一定有黄 球,请问红球有多少个?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "抽屈里有 3 只红袜子、2 只白袜子和 3 只黄裤子,至少取出几只袜子,才能保证拿出一 双颜色一样的袜子?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "餐盒里有 3 MELEE PA 4 双白笑子,在看不见的情况下每次从中取出一根货子,至少 要摸出几根簧子 ,才能保证取出来两双一样的筷子? 131 Riise CRA “MBER” RRL TAG. GGSSSSSSS E3@ | th | 『",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 54,
+      "lessonNo": 6,
+      "lessonTitle": "6-10的认识和加减法全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 小熊猫和小狗都有一些小铃销,小熊猫有 9 个,小狗有 5 个,请问小熊猫要给小狗几个\n铃销,才能使得小狗的铃销数和小熊猫的一样多呢?\nfeet) EN\n2, 一天早上,小芳在吃早饭的时候发现桌子上有 8 块饼干,她吃了4 块后,妈妈又拿来\n5 块,请问现在桌上一共有几块饼干?\n1，括号中最大可以填儿,使得算式成立。\n(1)( ， )十2<5           (2) 10一( 6\n(3) 5十0十(  )<8         (4) ( )-6<4\n2. 在括号里填上\"之”<或一”\n(1) 10-4€ 5            (2) 5十4一0( 8 —-2+3\n(3)6-3+0(  ) 8          (4) 9一0十1( 247\n3. 在括号里填上合适 _\n(  ) + (           ) + (\n2b -    ye    ) -\n(  )-              ) +人  =  )\n4. ak eA Tt 式成立,要求在一个等式中所用数字不能重复\nO@G@O@OOODDD ®D 9O\n(    )十人    =    )+¢    )    (    + ¢    =    y—¢    )\n49\nRite RA “MME HR” FRL GA Tawe\n@ ssarsanex crew\n5. 在〇里填数,使得每条线上的三个数的和都是 10。\nEL\n7. 幼儿园里有 10 位小朋友在排队,小华的前面有 3 个人,请问小华的后面有几个人?\n8. 小丽看一本故事书,第一天看了 4 页,第二天和第一天看的页数一样多,请问:小丽一\n共看了几页书? 第三天她应该从哪一页开始看?\n9. 请移动一根火柴,使得等式成立。\n-一。\n—\n———<o       —   |\n=\n50\nRiise CRA “MBER” RRL TAG.\n第6讲 6~10的认识和加减法 oe\n10. 看图解应用题。\n我原来有6个苹\n我现在有3个     果，送给小兔子\n请问: 现在小老虎和小能一共有多少个苹果?\n51\nRGEC BER” RRL GT ae\n(oe\n66SSSSS\naes «| (| QO bath)\nwien:\n本讲的主要内容是通过 11~20 的认识,理解各数的含义 ,能够比较各个数的大小关系,会\n进行 20 以内的加减运算 ,学习目标如下 :\n(1) 能够进行 20 以内的加减运算 ;\n(2) 理解个位与十位的概念,能说出两位数的含义;\n(3) 会进行 20 以内的加减混合运算 ,运算中掌握一定的运算技巧;\n(4) 在具体的情境中归纳出数学问题,会运用 20 以内的加减法列出式子进行计算, 得出\n最后的答案。\n列式计算:比 12多5 的数是多少?\n[LOD=D\n分析 解决这道题的要点有:理解“多”的含义;@将文字信息转化为数学式子。“比 12\n多 5”可以转化为数学式子 12十5,接着再进行加法运算。\n解 12+5=17.",
+      "id": "grade1_b0038",
+      "pageEnd": 57,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "小熊猫和小狗都有一些小铃销,小熊猫有 9 个,小狗有 5 个,请问小熊猫要给小狗几个 铃销,才能使得小狗的铃销数和小熊猫的一样多呢? feet) EN",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一天早上,小芳在吃早饭的时候发现桌子上有 8 块饼干,她吃了4 块后,妈妈又拿来 5 块,请问现在桌上一共有几块饼干?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "括号中最大可以填儿,使得算式成立。 (1)( ， )十2<5 (2) 10一( 6 (3) 5十0十( )<8 (4) ( )-6<4",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在括号里填上\"之”<或一” (1) 10-4€ 5 (2) 5十4一0( 8 —-2+3 (3)6-3+0( ) 8 (4) 9一0十1( 247",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "在括号里填上合适 _ ( ) + ( ) + ( 2b - ye ) - ( )- ) +人 = )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "ak eA Tt 式成立,要求在一个等式中所用数字不能重复 O@G@O@OOODDD ®D 9O ( )十人 = )+¢ ) ( + ¢ = y—¢ ) 49 Rite RA “MME HR” FRL GA Tawe @ ssarsanex crew",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "在〇里填数,使得每条线上的三个数的和都是 10。 EL",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "幼儿园里有 10 位小朋友在排队,小华的前面有 3 个人,请问小华的后面有几个人?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "小丽看一本故事书,第一天看了 4 页,第二天和第一天看的页数一样多,请问:小丽一 共看了几页书? 第三天她应该从哪一页开始看?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "请移动一根火柴,使得等式成立。 -一。 — ———<o — | = 50 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "看图解应用题。 我原来有6个苹 我现在有3个 果，送给小兔子 请问: 现在小老虎和小能一共有多少个苹果? 51 RGEC BER” RRL GT ae (oe 66SSSSS aes «| (| QO bath) wien: 本讲的主要内容是通过 11~20 的认识,理解各数的含义 ,能够比较各个数的大小关系,会 进行 20 以内的加减运算 ,学习目标如下 : (1) 能够进行 20 以内的加减运算 ; (2) 理解个位与十位的概念,能说出两位数的含义; (3) 会进行 20 以内的加减混合运算 ,运算中掌握一定的运算技巧; (4) 在具体的情境中归纳出数学问题,会运用 20 以内的加减法列出式子进行计算, 得出 最后的答案。 列式计算:比 12多5 的数是多少? [LOD=D 分析 解决这道题的要点有:理解“多”的含义;@将文字信息转化为数学式子。“比 12 多 5”可以转化为数学式子 12十5,接着再进行加法运算。 解 12+5=17.",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 77,
+      "lessonNo": 10,
+      "lessonTitle": "”认识物体和图形=",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n(1)   有( )个长方形  [ANY )个三角形\n72\nRiise CRA “MBER” RRL TAG.\n第10讲“认识物体和国形 (=) 全\n2. 要将图片补充完整还需要几块平行四边形?\nOl set\n1. 填空。\n(1) 用相同长度的(  )根小棒可以组成一个正方形,用相同长度的 3 根小棒可以组成\napa  )\n(2) 魔方是(  )体,保温杯是(  )体,篮球是( )体。\n2. 用右侧的哪个图形可以画出左侧的形状?请把它圈起来。\n» 8 we\nO |e w & fi\nCO\nLI\nco\n3. 在从右侧看过去是长方形的图形下面画”/ ”\noo\nOQ\nLI\n73\nRiis SRA MME RR” KBRLGO TALS\n@ ssarsanex crew\n4, 数一数,填一填。\n_ Sf A\n圆柱有   )个\n长方体有(  )个\n正方体有( OO)\nSSAESARS3\n5. 数一数,下面的图形是由几个正方体组成的?\nZT\n( ) 4      ( ) 4s       ( )+\n6. 请给下面的图形归归类,将序号填人表格。\n日Az  i,\n(1)                             (5)    (6)\nTOfos\nNe\n圆柱\n正方体\n长方体\n平面图形\n立体图形\n能够画长方形的立体图形\n能够画圆的立体图形\n74\nRiise CRA “MBER” RRL TAG.\n第10讲“认识物体和国形 (=) 全\nAL Bubs\n7. 左边的图形是由右边的哪两个图形组成的”请把它们圈起来。\n|G p qd oa\n/\\     \\ a gow\neee\nO};/a Opdby\n8. 下面的图形中可以折成正方体的是(   ) 。\n|     a   |\nPy Ld    |   |   |   |_|    a\n®       O@O       @       @\n9. 数一数。\n有( )个正方形        有( )个三角形\n10. 生活中哪些物体是长方体,哪些是正方体.哪些是圆柱,请你分别列举出两个。\n75\nRite RA “MME HR” FRL GA Tawe\nSGSSSSSSS |\nC30 Ott\n(ims.",
+      "id": "grade1_b0062",
+      "pageEnd": 81,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "要将图片补充完整还需要几块平行四边形? Ol set",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "填空。 (1) 用相同长度的( )根小棒可以组成一个正方形,用相同长度的 3 根小棒可以组成 apa ) (2) 魔方是( )体,保温杯是( )体,篮球是( )体。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "用右侧的哪个图形可以画出左侧的形状?请把它圈起来。 » 8 we O |e w & fi CO LI co",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "在从右侧看过去是长方形的图形下面画”/ ” oo OQ LI 73 Riis SRA MME RR” KBRLGO TALS @ ssarsanex crew",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "数一数,填一填。 _ Sf A 圆柱有 )个 长方体有( )个 正方体有( OO) SSAESARS3",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "数一数,下面的图形是由几个正方体组成的? ZT ( ) 4 ( ) 4s ( )+",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "请给下面的图形归归类,将序号填人表格。 日Az i, (1) (5) (6) TOfos Ne 圆柱 正方体 长方体 平面图形 立体图形 能够画长方形的立体图形 能够画圆的立体图形 74 Riise CRA “MBER” RRL TAG. AL Bubs",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "左边的图形是由右边的哪两个图形组成的”请把它们圈起来。 |G p qd oa /\\ \\ a gow eee O};/a Opdby",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "下面的图形中可以折成正方体的是( ) 。 | a | Py Ld | | | |_| a ® O@O @ @",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "数一数。 有( )个正方形 有( )个三角形",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "生活中哪些物体是长方体,哪些是正方体.哪些是圆柱,请你分别列举出两个。 75 Rite RA “MME HR” FRL GA Tawe SGSSSSSSS | C30 Ott (ims.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 104,
+      "lessonNo": 14,
+      "lessonTitle": "认识人民币",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 小丽去买文具,买了 2 支铅笔,每支 1.5 元,还买了 2 块橡皮,每块 2元,和一把 3 元的\n尺子,请问小丽一共花了多少元?\n2. DARA 1 元钱,他想换成1角和5 角的硬币,有哪些换法?\n99\nRiise CRA “MBER” RRL TAG.\nee\n数学灾子生高分题库 〈精讲版)\n1. 填空。\n(1) 4个5角是(  )角,可以换成( IC.\n(2) 1 个 100 元可以分成(  )个20元,也可以分成(  )个50元。\n(3) 1450 元可以分成(  )个10元和(  ， )个20元,或者可以分成(  )个 10 元和\n+ 20 50.\n2, 换零钱,填一填,写出 1 种方案即可。\n(])\n1张           可以换取     (\n(\n(2)\n(\n1张   可以换取            (\n(\n3，填一填。\n(1) 100 角==( 三 )分   (2) 200 分=( —d) ff7 = )元\n(3) 8元9角==( )角        (4) 54 角一( )元( )角\n(5) 7. 2 元一( )元( )角     (6) 6元3角=( t= ( )角\n4 比较大小,在O中填人“>”<\"或者一\"。\n(1) 39 角人CD)4元   (2) 99 角(_)100 分  (3) 5元5角()6元\n(4) 2元C)200分 (5) 3元CO)31 角   (6)7角9分C)79分\n5. 圈出下面物品的钱数,圈出 1 种方案即可。\n(1)   o9                   (2)\nNOY\n1096\n5 Jt 2元 27t      5 Jt 2元 27c\n1元 1元 5角      lo 5角 1负\nRiise CRA “MBER” RRL TAG.\n第 14讲 认识人民币 a\n6. 按从大到小的顺序进行排列。\n100分 9元9和角   63 角   10 角了7分   100 角\n( rt ee >¢ >¢ )\n7. 小华用 16. 5 元钱买了一本故事书后,还剩下 6 元钱。请问，\n(1) 一本故事书要多少钱?   (2) 用去的钱比剩下的多多少?\n8. 妈妈去超市买水果,买了一些葡萄花了8元9 角,买了一些橘子伦了5元3角,妈妈给\n了售货员 20 元,应该找回多少钱?\n9. 小美带了 10 元钱到文具店里买文具,她看到圆珠笔标价 1. 5 元/文,钢笔标价 5 70/3,\n橡皮标价 8 角/块,本子标价 4元/本,那么:\n(1) 小美想买 2 本本子和 1 支钢笔还差(  )元;\n(2) 如果只买 2 支圆珠笔可以找回(  )元;\n(3) WARE 1 块橡皮和 1 支钢笔可以找回(  )元(  )角。\n10. 小明有3张 10 元纸币.2张 20 元纸币.2张50 元纸币和1张 100 元纸币,他想买一个\n玩具手枪,需要 100 元钱,他有几种付钱方式?\n101\nRiise DRE ME BR” RRL GO TALE\nRSSSSSS   7\nbas Vt  eee ne:",
+      "id": "grade1_b0088",
+      "pageEnd": 107,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "小丽去买文具,买了 2 支铅笔,每支 1.5 元,还买了 2 块橡皮,每块 2元,和一把 3 元的 尺子,请问小丽一共花了多少元?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "DARA 1 元钱,他想换成1角和5 角的硬币,有哪些换法? 99 Riise CRA “MBER” RRL TAG. ee 数学灾子生高分题库 〈精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "填空。 (1) 4个5角是( )角,可以换成( IC. (2) 1 个 100 元可以分成( )个20元,也可以分成( )个50元。 (3) 1450 元可以分成( )个10元和( ， )个20元,或者可以分成( )个 10 元和 + 20 50.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "换零钱,填一填,写出 1 种方案即可。 (]) 1张 可以换取 ( ( (2) ( 1张 可以换取 ( (",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "填一填。 (1) 100 角==( 三 )分 (2) 200 分=( —d) ff7 = )元 (3) 8元9角==( )角 (4) 54 角一( )元( )角 (5) 7. 2 元一( )元( )角 (6) 6元3角=( t= ( )角 4 比较大小,在O中填人“>”<\"或者一\"。 (1) 39 角人CD)4元 (2) 99 角(_)100 分 (3) 5元5角()6元 (4) 2元C)200分 (5) 3元CO)31 角 (6)7角9分C)79分",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "圈出下面物品的钱数,圈出 1 种方案即可。 (1) o9 (2) NOY 1096 5 Jt 2元 27t 5 Jt 2元 27c 1元 1元 5角 lo 5角 1负 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "按从大到小的顺序进行排列。 100分 9元9和角 63 角 10 角了7分 100 角 ( rt ee >¢ >¢ )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "小华用 16. 5 元钱买了一本故事书后,还剩下 6 元钱。请问， (1) 一本故事书要多少钱? (2) 用去的钱比剩下的多多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "妈妈去超市买水果,买了一些葡萄花了8元9 角,买了一些橘子伦了5元3角,妈妈给 了售货员 20 元,应该找回多少钱?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "小美带了 10 元钱到文具店里买文具,她看到圆珠笔标价 1. 5 元/文,钢笔标价 5 70/3, 橡皮标价 8 角/块,本子标价 4元/本,那么: (1) 小美想买 2 本本子和 1 支钢笔还差( )元; (2) 如果只买 2 支圆珠笔可以找回( )元; (3) WARE 1 块橡皮和 1 支钢笔可以找回( )元( )角。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小明有3张 10 元纸币.2张 20 元纸币.2张50 元纸币和1张 100 元纸币,他想买一个 玩具手枪,需要 100 元钱,他有几种付钱方式? 101 Riise DRE ME BR” RRL GO TALE RSSSSSS 7 bas Vt eee ne:",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 130,
+      "lessonNo": 17,
+      "lessonTitle": "”找规律",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 将 45 颗珍珠分别放到 9 个盒子中,要求每个盒子中都有不同数量的珍珠(每个盒子至\n少有 1 颗珍珠) ,请问应该如何分配?\n2, 50 文笔分给 5 个小朋友 ,要求每个小朋友所分配的笔的支数不同 ,应该如何分配?\n1. 简便计算。\n(1) 全十24十15           (2) 2一9一67          (3) 57—12—38\n=35+ ¢    )十(    )    =87—(    )一人    )   =(    )一[(    )十人    )]\n一    JE    )       =(    = (    )       =(    y= ¢    )\n=(    )              =(    )             一人    )\n125\nRiise CRA “MBER” RRL TAG.\n@ nerzeaman (nim\n2. 哪两个数相加的和是 100 ,连一连。\n3. 计算:1十1十1十1十1十9十9十19十19十19\n4, 计算:1十4十7十10十13十16十19\n计算:9十12十7十14十5十15十6十13十8十11\non\n6. 计算:(11十12十13十14十15)一(5十4十3十2十1)\n7. 计算:27一25十26一24十25一23十24一22十23一21\n8. 计算:(1) 63十9十9十19      (2) 31十31十31一3\n126\nRiise CRA “MBER” RRL TAG.\naon ayaa 全\n9. 计算:23十19十21十18\n10. 李老师家里有 15 条鱼,她把鱼分别放在 5 个鱼缸里,每个鱼缸里都有鱼而且每一个\n鱼缸里鱼的条数都不一样,你知道李老师是怎么放的吗?\n127\nRite RA “MME HR” FRL GA Tawe\nSGSSSSSSS\nEA@OuF eee\nHTK AMSA LEN SSR FW F BEN UEBIVR, LEP AIELA RLR :\nC1) 什么是确定的,什么又是不确定的;\n(2) 可能性是有大有小\\的,什么情况下可能性最大,什么情况下可能性最小;\n(3) 会用可能性解释日常学习生活中遇到的问题。\n袋子里放了 2 个红球 .3 个黄球,任意摸一个,可能摸到什么颜色的球?\n分析 因为袋子中既有红球,又有黄球,当从袋子中摸球时,可能摸到的是红球 ,也可能是\n黄球。这就是随机性。\n解 ”可能摸到红球,也可能摸到黄球。",
+      "id": "grade1_b0123",
+      "pageEnd": 133,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "将 45 颗珍珠分别放到 9 个盒子中,要求每个盒子中都有不同数量的珍珠(每个盒子至 少有 1 颗珍珠) ,请问应该如何分配?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "50 文笔分给 5 个小朋友 ,要求每个小朋友所分配的笔的支数不同 ,应该如何分配?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "简便计算。 (1) 全十24十15 (2) 2一9一67 (3) 57—12—38 =35+ ¢ )十( ) =87—( )一人 ) =( )一[( )十人 )] 一 JE ) =( = ( ) =( y= ¢ ) =( ) =( ) 一人 ) 125 Riise CRA “MBER” RRL TAG. @ nerzeaman (nim",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "哪两个数相加的和是 100 ,连一连。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "计算:1十1十1十1十1十9十9十19十19十19",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "计算:1十4十7十10十13十16十19 计算:9十12十7十14十5十15十6十13十8十11 on",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "计算:(11十12十13十14十15)一(5十4十3十2十1)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "计算:27一25十26一24十25一23十24一22十23一21",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "计算:(1) 63十9十9十19 (2) 31十31十31一3 126 Riise CRA “MBER” RRL TAG. aon ayaa 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "计算:23十19十21十18",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "李老师家里有 15 条鱼,她把鱼分别放在 5 个鱼缸里,每个鱼缸里都有鱼而且每一个 鱼缸里鱼的条数都不一样,你知道李老师是怎么放的吗? 127 Rite RA “MME HR” FRL GA Tawe SGSSSSSSS EA@OuF eee HTK AMSA LEN SSR FW F BEN UEBIVR, LEP AIELA RLR : C1) 什么是确定的,什么又是不确定的; (2) 可能性是有大有小\\的,什么情况下可能性最大,什么情况下可能性最小; (3) 会用可能性解释日常学习生活中遇到的问题。 袋子里放了 2 个红球 .3 个黄球,任意摸一个,可能摸到什么颜色的球? 分析 因为袋子中既有红球,又有黄球,当从袋子中摸球时,可能摸到的是红球 ,也可能是 黄球。这就是随机性。 解 ”可能摸到红球,也可能摸到黄球。",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 72,
+      "lessonNo": 9,
+      "lessonTitle": "20以内的进位加法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 看图解应用题。\n我本来有9本书，\n小兔子又送了我3\n本。\n请问,糜鹿和小猴一共有多少本书?\n67\nRiise CRA “MBER” RRL TAG.\n数学只子生高分题库 (HIB)\n2. 亮亮和东东去集市,亮亮买了 18 个气球,东东买了 15 个气球,加到家,小丽也想要气\n球,请问如果三个人都能有一样多的气球,该怎么分配呢?\n1, 在〇中填上“十?或“一”。\n7( )8=15    9.)7=16    72)70C4=10\n120.) 8=20   9( )9=18    6.70.) 2=11\n2. 在括号中填上合适的数。\n7二11=8+(  )  1十( -)+5=16  18十(  )一3=17\n6十5十( )=15  9-3+9=()  15一11十( —-)=13\n3. 算一算 ,填一填。\n5-           7           17-5-\not         \"<和 =         <0. =\n9=           9=           8-6=\n4. 下面的水果分别代表几?\nqd)  ys   ey «  ;     (2)   1 “e)\n1   Bec)        +2\n1 9 0\n5. 计算下面的式子,把答案填人O〇中。\nIl\n一、\n—\neo\n6. WWI AT 7 颗糖,小华有 8 颗糖,小丽有 10 RIB\nCL) 小华和萌萌一共有多少颗糖? (2) 小丽和小华加起来的糖比萌萌多多少颗?\n68\nRite LAA MMP RR” REL CARS\n第9讲、20以内的进位加法 全\n7. 按规律接着画,第五组应该有( | (ASO.\nO\nO        OO\nO          OO         OOO\nO       OO        OOO        OOOO\n8. 姐姐今年 15 岁,弟弟比姐姐小 3 岁,4 年后哥哥比弟弟大 8 9 HERE D & 2\n9有两个篮子,第一个篮子里有 8 颗鸡蛋,第二个篮子里有 12 颗鸡蛋,从第二个篮子中\n拿出几颗鸡蛋放和人第一个篮子里, 两个篮子的鸡蛋就一样多了?\nLO. 小朋友们排队领香敬,每人领 1 根,小红的前面有5 个人,后面有 9 个人,那么 14 根\nFEAR APS?\n69\nRiise DRE ME BR” RRL GO TALE\nSGSSSSSSS\nEX (Ou WeaGEsso\n@izZ C=)\nNey\n本讲要求学生对角有一定的初步了解 ,能够说出正方形\\长方形的特征,能够认识什么是\n平行四边形三角形。学习目标如下:\nGD) 认识三角形长方形\\正方形和平行四边形等简单的平面图形;\n(2) 能够在具体情景中识别立体图形并加以分类;\n(3) 在混合图形中,统计相同图形的个数。\nED\n看一看,数一数,填一填。\n、\nlan DA\noe fo 04L)\n图中有      个长方形，      个正方形，      个三角形，      个圆形，\n个平行四边形。\nSit 按照一定的顺序数,不遗漏,不重复。\n解 4,2,3,3,2。\n70\nRite be PBR” RELY TAPS",
+      "id": "grade1_b0058",
+      "pageEnd": 76,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "看图解应用题。 我本来有9本书， 小兔子又送了我3 本。 请问,糜鹿和小猴一共有多少本书? 67 Riise CRA “MBER” RRL TAG. 数学只子生高分题库 (HIB)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "亮亮和东东去集市,亮亮买了 18 个气球,东东买了 15 个气球,加到家,小丽也想要气 球,请问如果三个人都能有一样多的气球,该怎么分配呢?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "在〇中填上“十?或“一”。 7( )8=15 9.)7=16 72)70C4=10 120.) 8=20 9( )9=18 6.70.) 2=11",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在括号中填上合适的数。 7二11=8+( ) 1十( -)+5=16 18十( )一3=17 6十5十( )=15 9-3+9=() 15一11十( —-)=13",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "算一算 ,填一填。 5- 7 17-5- ot \"<和 = <0. = 9= 9= 8-6=",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "下面的水果分别代表几? qd) ys ey « ; (2) 1 “e) 1 Bec) +2 1 9 0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "计算下面的式子,把答案填人O〇中。 Il 一、 — eo",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "6",
+          "prompt": "WWI AT 7 颗糖,小华有 8 颗糖,小丽有 10 RIB CL) 小华和萌萌一共有多少颗糖? (2) 小丽和小华加起来的糖比萌萌多多少颗? 68 Rite LAA MMP RR” REL CARS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "按规律接着画,第五组应该有( | (ASO. O O OO O OO OOO O OO OOO OOOO",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "姐姐今年 15 岁,弟弟比姐姐小 3 岁,4 年后哥哥比弟弟大 8 9 HERE D & 2 9有两个篮子,第一个篮子里有 8 颗鸡蛋,第二个篮子里有 12 颗鸡蛋,从第二个篮子中 拿出几颗鸡蛋放和人第一个篮子里, 两个篮子的鸡蛋就一样多了? LO. 小朋友们排队领香敬,每人领 1 根,小红的前面有5 个人,后面有 9 个人,那么 14 根 FEAR APS? 69 Riise DRE ME BR” RRL GO TALE SGSSSSSSS EX (Ou WeaGEsso @izZ C=) Ney 本讲要求学生对角有一定的初步了解 ,能够说出正方形\\长方形的特征,能够认识什么是 平行四边形三角形。学习目标如下: GD) 认识三角形长方形\\正方形和平行四边形等简单的平面图形; (2) 能够在具体情景中识别立体图形并加以分类; (3) 在混合图形中,统计相同图形的个数。 ED 看一看,数一数,填一填。 、 lan DA oe fo 04L) 图中有 个长方形， 个正方形， 个三角形， 个圆形， 个平行四边形。 Sit 按照一定的顺序数,不遗漏,不重复。 解 4,2,3,3,2。 70 Rite be PBR” RELY TAPS",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ],
+  "grade2": [
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 36,
+      "lessonNo": 6,
+      "lessonTitle": "2@",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1， 里约奥运会后,对各国所获的奖牌数进行统计,瑞士获得 7 枚奖牌,意大利获得的奖牌\n数是瑞士的4 倍,俄罗斯获得的奖牌数是意大利的 2 倍,俄罗斯获得的奖牌数比瑞士多多\n少枚?\n2. 班会课上举行趣味知识抢答赛,答对 1 题得 3 分,答错1题扣2 分。红队最终共答对9\n题,答错4题,绿队答对7 题。你能得出最后哪队胜出吗?\n31\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n人 人\n1. 对的打”/”错的打“驻”。\n(1) 7+74+7+7=4X7=7X4\n(2) 羽毛球比赛每 2 人赛一场,则 3 个人赛 3 场,4个人就赛4场。\n(3) 6个7 相加和7个6 相加的和相等。\n(4) 从 45 里连续减7个6 等于9。\n2. 算一算。\n8X8+7=      6X9-12=      5X7+8X4=      9X9—-6X5=\n67-6 X7=     7X7+7X5=    60-5 X9=       8X9—-5X8=\n3. 找规律。\n(1) 3,8,15,24,(  ),(  ),63,80\n(2) 2,6,12,20,30,( ).€  )\n4, 小明今年 8 岁,妈妈今年的年龄是小明的4倍,(  )年前,妈妈的年龄是小明的\n5. 在括号中填人最大的数。\n(1) 3X( -)<28  (2)5X7>C  )X4\n(3) 6X(  )<39  (4) 5X9<60-—()\n6. 一本书小明看了 9 页,没看的页数是看了的 6 倍,这本书总共有多少页?\n7. 两个一位数,和的个位数为 4,积的个位数是 8。则这两个数分别是多少?\n8. 秋季运动会要开始了,王老师将全班学生排成 5 列进场,女生 2 列,男生 3 列,女生每\n列有6 人,男生每列有 8 人,全班共有多少人?\n32\nRiise CRA “MBER” RRL TAG.\n第6讲 RRB (=)  od\n9. BEAR WET AR ARASH SK RT 9 BY PEER LD ,康乃馨的价格为8元 1 校,他带\n了 50 FUER RA AES DRE AE? 如果买 2 BC BIE eK?\n10. 植树节到了,五年级(1)班组织了一场植树比赛。全班同学分为3组,第一组种了4 棵\n树,第二组种树的量是第一组的 2 倍,第三组种树的量是第二组的 2 倍,五年级(1)班总共种了\n多少棵树?\n33\nRiise CRA “MBER” RRL TAG.\nSGSSSSSSS\n认训时间\n本讲的主要内容是认识时间 ,能读出钟表上具体的时间 , 主要的题型包括以下几种 :\n(1) 能根据钟表读出具体的时间 ,并能根据所给时刻在钟表上画出时针和分针的\nme;\n(2) 会进行时间单位之间的换算 ,并会判别时针和分针的夹角;\n(3) 会进行时间单位的加减运算;\n(4) 在具体的情境中归纳出数学问题,解决一些简单的实际问题。\n写出钟面上的时间再过一刻钟后所指的时间。 (两种方式)\nDH 考察表示时间的两种方式,一刻钟是指 15 分钟,写出钟面上的时间再加上 15 分钟\n即可。\n解 6时25分,6:25;6 时5分,6:05;5 时55分,5:55;9 时15 分,9:15。\n34\nRite be PBR” RELY TAPS",
+      "id": "grade2_b0036",
+      "pageEnd": 40,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "里约奥运会后,对各国所获的奖牌数进行统计,瑞士获得 7 枚奖牌,意大利获得的奖牌 数是瑞士的4 倍,俄罗斯获得的奖牌数是意大利的 2 倍,俄罗斯获得的奖牌数比瑞士多多 少枚?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "班会课上举行趣味知识抢答赛,答对 1 题得 3 分,答错1题扣2 分。红队最终共答对9 题,答错4题,绿队答对7 题。你能得出最后哪队胜出吗? 31 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) 人 人",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "对的打”/”错的打“驻”。 (1) 7+74+7+7=4X7=7X4 (2) 羽毛球比赛每 2 人赛一场,则 3 个人赛 3 场,4个人就赛4场。 (3) 6个7 相加和7个6 相加的和相等。 (4) 从 45 里连续减7个6 等于9。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "算一算。 8X8+7= 6X9-12= 5X7+8X4= 9X9—-6X5= 67-6 X7= 7X7+7X5= 60-5 X9= 8X9—-5X8=",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "找规律。 (1) 3,8,15,24,( ),( ),63,80 (2) 2,6,12,20,30,( ).€ )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "小明今年 8 岁,妈妈今年的年龄是小明的4倍,( )年前,妈妈的年龄是小明的",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "在括号中填人最大的数。 (1) 3X( -)<28 (2)5X7>C )X4 (3) 6X( )<39 (4) 5X9<60-—()",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "一本书小明看了 9 页,没看的页数是看了的 6 倍,这本书总共有多少页?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "两个一位数,和的个位数为 4,积的个位数是 8。则这两个数分别是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "秋季运动会要开始了,王老师将全班学生排成 5 列进场,女生 2 列,男生 3 列,女生每 列有6 人,男生每列有 8 人,全班共有多少人? 32 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "BEAR WET AR ARASH SK RT 9 BY PEER LD ,康乃馨的价格为8元 1 校,他带 了 50 FUER RA AES DRE AE? 如果买 2 BC BIE eK?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "植树节到了,五年级(1)班组织了一场植树比赛。全班同学分为3组,第一组种了4 棵 树,第二组种树的量是第一组的 2 倍,第三组种树的量是第二组的 2 倍,五年级(1)班总共种了 多少棵树? 33 Riise CRA “MBER” RRL TAG. SGSSSSSSS 认训时间 本讲的主要内容是认识时间 ,能读出钟表上具体的时间 , 主要的题型包括以下几种 : (1) 能根据钟表读出具体的时间 ,并能根据所给时刻在钟表上画出时针和分针的 me; (2) 会进行时间单位之间的换算 ,并会判别时针和分针的夹角; (3) 会进行时间单位的加减运算; (4) 在具体的情境中归纳出数学问题,解决一些简单的实际问题。 写出钟面上的时间再过一刻钟后所指的时间。 (两种方式) DH 考察表示时间的两种方式,一刻钟是指 15 分钟,写出钟面上的时间再加上 15 分钟 即可。 解 6时25分,6:25;6 时5分,6:05;5 时55分,5:55;9 时15 分,9:15。 34 Rite be PBR” RELY TAPS",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 123,
+      "lessonNo": 20,
+      "lessonTitle": "- &",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 丁丁和东东进行射飞镖比赛,他们两人各射飞镖 3次。丁丁射中的飞镖总环数为 13，\n东东射中的飞镖总环数为 14。已知两人都没有脱靶,上且两人每次射的环数都没有超过 6 环。\n那么他俩射中的飞镖环数各有多少种情况? (不计先后顺序)\n2. 明明拿着 50 元去商店兑换零钱,需要兑换至少1张10元,3张5元,10张1元,且1元\n最多 15 张,有多少种兑换方式?\n1. 把 14 拆成 3 个互不相同的自然数之和,共有多少种不同的拆法? 请你一一列出。\n118\nRiise CRA “MBER” RRL TAG.\n2. 把 13 拆成4个互不相同的自然数之和,共有多少种不同的拆法?” 请你一一列出。\n3. 你能把 45 拆成几个连续的自然数相加的形式吗? 请你一一列出。\n4. 你能把 78 拆成几个连续的偶数相加的形式吗? 请你一一列出。\n5. 已知 3 SORE SLR 2 SA.4 SORE TLE 1 Bike. WRAL 24 个口,他想全部兑换\nBA Allie ,请问他可以怎么兑换?\n6. 6 只盘子里分别放着 1个.5个.6个7个.8个10个猕猴桃,现在要从这 6 只盘子里\n取出 15 个猕猴桃,但每个盘子里的狂猴桃要么全部取走,要么不取,那么共有多少种取法?\n7. 小明去大学食堂吃午饭,食油只能刷校园一卡通或接收专用的餐券。小明决定把现金\n疯换成餐券,他发现餐券的面额有1元,2元,5元,8元,10元。你知道小明至少要兑换多少张\n餐券,才能吃到从 1 元到 20 元任何整数价钱的午饭,并且不需要找零吗? 请你写出此时兑换\n的方案。\n8. 某地有一个节日习俗,长辈要给晚辈发与 8 有关的吉利红包。奶奶准备给孩子们各准\n备一个 88 元的红包,并且红包中所有钱都是纸币,纸币共有8张,你知道奶奶的红包是怎么构\n成的吗? 共有多少种不同的构成方法?\n119\nRite LAA MMP RR” REL CARS\na 数学灾子生高分题库 (HM)\n9. 爸爸给小明布置了一个任务,将 18 个橘子分给全家 6 口人,分别是爷爷奶奶、爸爸、\n妈妈,小明和姐姐。要求每位长辈分到的橘子数量比晚辈的多,同辈分到的数量最多相差 3\n个,并且奶奶分到的橘子不能比爷爷少,妈妈分到的橘子不能比爸爸少。共有多少种方案? 你\n能帮小明列出所有分配的方案吗?\n10. 把 60 个鸡蛋放到几个篮子里,每个篮子里的鸡蛋数的个位数字都是 6,想一想,共有\n多少种放鸡蛋的方法? 请你一一列出。\n120\nRiise CRA “MBER” RRL TAG.\n凶序推理法也叫倒推法或逆推法。人在运算中 ,运用逆序推理法可以得到逆序式 ,除法运算",
+      "id": "grade2_b0129",
+      "pageEnd": 126,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "丁丁和东东进行射飞镖比赛,他们两人各射飞镖 3次。丁丁射中的飞镖总环数为 13， 东东射中的飞镖总环数为 14。已知两人都没有脱靶,上且两人每次射的环数都没有超过 6 环。 那么他俩射中的飞镖环数各有多少种情况? (不计先后顺序)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "明明拿着 50 元去商店兑换零钱,需要兑换至少1张10元,3张5元,10张1元,且1元 最多 15 张,有多少种兑换方式?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "把 14 拆成 3 个互不相同的自然数之和,共有多少种不同的拆法? 请你一一列出。 118 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "把 13 拆成4个互不相同的自然数之和,共有多少种不同的拆法?” 请你一一列出。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "你能把 45 拆成几个连续的自然数相加的形式吗? 请你一一列出。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "你能把 78 拆成几个连续的偶数相加的形式吗? 请你一一列出。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "已知 3 SORE SLR 2 SA.4 SORE TLE 1 Bike. WRAL 24 个口,他想全部兑换 BA Allie ,请问他可以怎么兑换?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "6 只盘子里分别放着 1个.5个.6个7个.8个10个猕猴桃,现在要从这 6 只盘子里 取出 15 个猕猴桃,但每个盘子里的狂猴桃要么全部取走,要么不取,那么共有多少种取法?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "小明去大学食堂吃午饭,食油只能刷校园一卡通或接收专用的餐券。小明决定把现金 疯换成餐券,他发现餐券的面额有1元,2元,5元,8元,10元。你知道小明至少要兑换多少张 餐券,才能吃到从 1 元到 20 元任何整数价钱的午饭,并且不需要找零吗? 请你写出此时兑换 的方案。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "某地有一个节日习俗,长辈要给晚辈发与 8 有关的吉利红包。奶奶准备给孩子们各准 备一个 88 元的红包,并且红包中所有钱都是纸币,纸币共有8张,你知道奶奶的红包是怎么构 成的吗? 共有多少种不同的构成方法? 119 Rite LAA MMP RR” REL CARS a 数学灾子生高分题库 (HM)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "爸爸给小明布置了一个任务,将 18 个橘子分给全家 6 口人,分别是爷爷奶奶、爸爸、 妈妈,小明和姐姐。要求每位长辈分到的橘子数量比晚辈的多,同辈分到的数量最多相差 3 个,并且奶奶分到的橘子不能比爷爷少,妈妈分到的橘子不能比爸爸少。共有多少种方案? 你 能帮小明列出所有分配的方案吗?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "把 60 个鸡蛋放到几个篮子里,每个篮子里的鸡蛋数的个位数字都是 6,想一想,共有 多少种放鸡蛋的方法? 请你一一列出。 120 Riise CRA “MBER” RRL TAG. 凶序推理法也叫倒推法或逆推法。人在运算中 ,运用逆序推理法可以得到逆序式 ,除法运算",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 20,
+      "lessonNo": 3,
+      "lessonTitle": "“角的初少认识全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 找规律,如图所示,三角形有 3 个角 ,四边形有4个角,五边形有5 个角,那么2边形有\n多少个角?\n2仔细观察正方体和长方体的角,你发现了什么?〈从角的大小和角的数量来描述和对比)\n15\nRite RA “MME HR” FRL GA Tawe\n全和音关子生珊分题关(精讲上)\n1. 判断下列图形是否是角,如果是,请打”/”,并在括号内填写角的类别。如果不是,请\nex”,\n(1) \\     (2)     (3)     | (4)     of\n(  )    (  )     (  )    (  )\n( )\nC ff  (ff C ff  (ffi (ff\n2，两条直线相交,形成 个角,三条直线两两相交,形成 个角,四条直线两两\n相交,形成个角,五条直线相交,形成 个角。\n3. FETIP ALA > \"a =”,\n)                       (2)                 /       (3)\nO                       O                   0\n4, 在钟面上,9 时整时针和分针成( A EP AIP) ff 3 时半时针和\n分针成( FA.\n5. 已知有 8:00,9:00,10:00,11:00 这4个时刻,请你比较这 4 个时刻时钟上时针与分针\n所成角的大小。\n6. 以下面的线为角的一边画一个比直角大的角。\n7. 请你按要求在下列图中画线段 :\n(1) 画两条线段,使图(1)增加4个直角。\n(2) 画一条线段,使图(2)增加 3 个直角。\n16\nRiise CRA “MBER” RRL TAG.\n第3讲“角的初上认识 全\n(3) 画一条线段,使图(3)增加4个直角。\n(4) 画一条线段,使图(4)增加 8 个直角。\n(1)           (2)            (3)             (4)\n8. 如图 ,该图形有多少个角?\n9, 图中有多少个角?\n10，如图所示 ,金字塔各个面的角数合起来共有多少个?\n面\n面\n17\nRiise CRA “MBER” RRL TAG.\n6GSSSSSSS |\nbw 25 (0) TE cs Go)\nAPUNEBASEFEWRANBR SRS. BUA L MEDS AAI\n况 ,进一步引导学生观察、分析\\比较,从而建立乘法的概念,在进行表内乘法的练习时,主要的\n题型包括以下几种:\n《1) 能根据图片或语句进行列式计算,解决问题;\n(2) 会运用 2~6 的乘法口诀进行运算,得出答案;\n(3) 观察图片或数字串 ,寻找规律;\n《4) 在具体的情境中归纳出数学问题 ,能运用加法、减法、乘法解决简单的实际问题。\n如图,盘子中共有多少颗冰糖葫芦?请你用两种方法列式计算。(注意数清有几串冰糖葫\n一          一     (颗)\nSi APFPHERA 4 串冰糖戎芦,每串冰糖戎芦上有 5 颗,可以根据加法运算得出式\n子 5十5十5十5一20(晒) ,或者根据乘法运算得出式子 4X5一20(颗),或5X4一20(颗) 。\n解 5十5十5十5一4X5王20(颗)",
+      "id": "grade2_b0017",
+      "pageEnd": 23,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "找规律,如图所示,三角形有 3 个角 ,四边形有4个角,五边形有5 个角,那么2边形有 多少个角? 2仔细观察正方体和长方体的角,你发现了什么?〈从角的大小和角的数量来描述和对比) 15 Rite RA “MME HR” FRL GA Tawe 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "判断下列图形是否是角,如果是,请打”/”,并在括号内填写角的类别。如果不是,请 ex”, (1) \\ (2) (3) | (4) of ( ) ( ) ( ) ( ) ( ) C ff (ff C ff (ffi (ff",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "两条直线相交,形成 个角,三条直线两两相交,形成 个角,四条直线两两 相交,形成个角,五条直线相交,形成 个角。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "FETIP ALA > \"a =”, ) (2) / (3) O O 0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "在钟面上,9 时整时针和分针成( A EP AIP) ff 3 时半时针和 分针成( FA.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "已知有 8:00,9:00,10:00,11:00 这4个时刻,请你比较这 4 个时刻时钟上时针与分针 所成角的大小。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "以下面的线为角的一边画一个比直角大的角。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "请你按要求在下列图中画线段 : (1) 画两条线段,使图(1)增加4个直角。 (2) 画一条线段,使图(2)增加 3 个直角。 16 Riise CRA “MBER” RRL TAG. (3) 画一条线段,使图(3)增加4个直角。 (4) 画一条线段,使图(4)增加 8 个直角。 (1) (2) (3) (4)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "如图 ,该图形有多少个角?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "图中有多少个角?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "如图所示 ,金字塔各个面的角数合起来共有多少个? 面 面 17 Riise CRA “MBER” RRL TAG. 6GSSSSSSS | bw 25 (0) TE cs Go) APUNEBASEFEWRANBR SRS. BUA L MEDS AAI 况 ,进一步引导学生观察、分析\\比较,从而建立乘法的概念,在进行表内乘法的练习时,主要的 题型包括以下几种: 《1) 能根据图片或语句进行列式计算,解决问题; (2) 会运用 2~6 的乘法口诀进行运算,得出答案; (3) 观察图片或数字串 ,寻找规律; 《4) 在具体的情境中归纳出数学问题 ,能运用加法、减法、乘法解决简单的实际问题。 如图,盘子中共有多少颗冰糖葫芦?请你用两种方法列式计算。(注意数清有几串冰糖葫 一 一 (颗) Si APFPHERA 4 串冰糖戎芦,每串冰糖戎芦上有 5 颗,可以根据加法运算得出式 子 5十5十5十5一20(晒) ,或者根据乘法运算得出式子 4X5一20(颗),或5X4一20(颗) 。 解 5十5十5十5一4X5王20(颗)",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 42,
+      "lessonNo": 7,
+      "lessonTitle": "”认识时间",
+      "column": "thinking_training",
+      "rawHeading": "思维训练5",
+      "text": "思维训练5\n1. 工厂次品回收时发现一个次品时钟,表面上分针和时针正常,但是实际上分针每小时\n走一大格 ,时针每分钟走一圈。此时该时钟显示12时 55分,到3时31分,实际的时间大约过\nTBA!\n2. 王奶奶家的钟表停了,在电台 3:00 报时的时候王奶奶跟着电台调钟,不小心把时针和\n分针颠倒了 ,王奶奶的儿子回来时发现家里钟表是 4:00,你知道现在正确的时间吗?\nof\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n1. ¢  )时整分针和时针成直角;(  )时整分针和时针在同一直线上;(  )时整分\n针和时针重合。\n2. 下列说法正确的打”/”,错的打“久?”\n(1) 时针走一大格,分针正好走一小格。\n(2) 9:30 分针和时针的夹角是直角。\n(3) 一节课的时间是 40 分钟。\n(4) 小东跑 50 米花了 10 秒,小李跑 50 米花了 8 秒,所以小东比小李跑得快。\n(5) 现在是 5 时一刻,再过 15 分就是 5:30。\n(1) 1 ft 20 440290 4}     (2) 3时1刻一1个半小时CD)1 时45分\n(3) 100 分CD)1时30分     (4) 8时一25 分CQ)7 时25分\n4. 请你为钟表添上时针与分针,用来表示题中出现的时间,并且在横线上填上合适的\n数字。\n小明早上 6:25 起床,经过 “时 分,小明在7:30 到达学校,经过 8 个小时,小明在下\n午  : 放学,在晚上5:35 吃过晚饭后开始写作业,花了 时 分,在7:28完成\n作业。\nYr Vee VY VY YY\n5. 小明完成老师布置的口算题,完成第一页花了 56 秒,完成第二页花了 52 秒,完成第\n6. 小红 6:55 步行去上学,途中路过 3 个红灯,每个红灯等了 2 分钟,7:21 到学校,小红步\n行花了多少时间?\n38\nRiise CRA “MBER” RRL TAG.\n第7讲 认识时间 a\n7. 小明去培训班上辅导课,8:00 开始上课,每节课 30 分钟,上了 3 节课,课间休息 10 分\n钟,第三节什么时候下课?\n85，师傅加工一个零件需要 1 小时 25 分,徒弟加工一个零件比师傅多用半个小时,那么师\n傅加工一个零件与徒弟加工一个零件共需多少时间?\n9, 小李对着镜子跳甸,开始时,她从镜子里看了一下钟[如图(1)所示],结束时她又从镜\n子看了一下钟[如图(2)所示],小李跳了多长时间?\n10. 小红问小明昨日出门的时间,小明说记得昨天从镜子中看到电子时钟显示屏上的时\n间为虽:20。但是小红以为这是小明从三针时钟上看到的时间 ,并得出了对应的时间。请问小\n红得出的时间比实际时间早了几小时几分钟?\n39\nRiise CRA “MBER” RRL TAG.\n+\nASASASSSSSS\nSere\n~ Be",
+      "id": "grade2_b0041",
+      "pageEnd": 45,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "工厂次品回收时发现一个次品时钟,表面上分针和时针正常,但是实际上分针每小时 走一大格 ,时针每分钟走一圈。此时该时钟显示12时 55分,到3时31分,实际的时间大约过 TBA!",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "王奶奶家的钟表停了,在电台 3:00 报时的时候王奶奶跟着电台调钟,不小心把时针和 分针颠倒了 ,王奶奶的儿子回来时发现家里钟表是 4:00,你知道现在正确的时间吗? of Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "¢ )时整分针和时针成直角;( )时整分针和时针在同一直线上;( )时整分 针和时针重合。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "下列说法正确的打”/”,错的打“久?” (1) 时针走一大格,分针正好走一小格。 (2) 9:30 分针和时针的夹角是直角。 (3) 一节课的时间是 40 分钟。 (4) 小东跑 50 米花了 10 秒,小李跑 50 米花了 8 秒,所以小东比小李跑得快。 (5) 现在是 5 时一刻,再过 15 分就是 5:30。 (1) 1 ft 20 440290 4} (2) 3时1刻一1个半小时CD)1 时45分 (3) 100 分CD)1时30分 (4) 8时一25 分CQ)7 时25分",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "请你为钟表添上时针与分针,用来表示题中出现的时间,并且在横线上填上合适的 数字。 小明早上 6:25 起床,经过 “时 分,小明在7:30 到达学校,经过 8 个小时,小明在下 午 : 放学,在晚上5:35 吃过晚饭后开始写作业,花了 时 分,在7:28完成 作业。 Yr Vee VY VY YY",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "小明完成老师布置的口算题,完成第一页花了 56 秒,完成第二页花了 52 秒,完成第",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "小红 6:55 步行去上学,途中路过 3 个红灯,每个红灯等了 2 分钟,7:21 到学校,小红步 行花了多少时间? 38 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "小明去培训班上辅导课,8:00 开始上课,每节课 30 分钟,上了 3 节课,课间休息 10 分 钟,第三节什么时候下课?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "85",
+          "prompt": "师傅加工一个零件需要 1 小时 25 分,徒弟加工一个零件比师傅多用半个小时,那么师 傅加工一个零件与徒弟加工一个零件共需多少时间?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "小李对着镜子跳甸,开始时,她从镜子里看了一下钟[如图(1)所示],结束时她又从镜 子看了一下钟[如图(2)所示],小李跳了多长时间?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小红问小明昨日出门的时间,小明说记得昨天从镜子中看到电子时钟显示屏上的时 间为虽:20。但是小红以为这是小明从三针时钟上看到的时间 ,并得出了对应的时间。请问小 红得出的时间比实际时间早了几小时几分钟? 39 Riise CRA “MBER” RRL TAG. + ASASASSSSSS Sere ~ Be",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 106,
+      "lessonNo": 17,
+      "lessonTitle": "志和与5全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 在图中的〇内填和人 0~9 中的数,使得每条线上的数之和等于 17。(数字不能重复)\n101\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n2. 在图中的CD)内填和人 1一10 中的数,使得每条线上的数之和等于 20。(数字不能重复)\n2. 把5,6,7 三个数填在下图的空格中,使每行、每列以及每条对角线的三个数字之和都\n相等。(每个数字必须使用 3 次)\n3. 把 3,6,9 这三个数填人方格中,使得每行.每列和对角线上的 3 个数之和都相等(每个\n数必须使用 3 次)\n4, 把1,2,3,4,5填和人下图的方格中,使得横行和坚行的三个数之和分别等于9 和 11。\n102\nRiise CRA “MBER” RRL TAG.\nsee xeon 全\n5. 在正方形空格里填上 1一16 FRAY BC AE BT ETT ZR DS CH i\n¥ 34,\n6. 在CO内填和人适当的数,使得同一直线上的三个数相加都等于 12。(数字不能重复)\n7. 请将 1,2,4,6,8,9 这 6 个数填到(内,使得三条边上的 3 个数相加,与三角形三个顶\n点上的 3 个数相加的和相等。\n站\n8. 请将 2~8 这 7 个数填和人下图的七块小区域内,其中自然数 2.3、4 三个数已填好,请人\n把其余的数填到空白的小区域中,要求每个〇中四个数的和都相等。\na\n7\n103\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n9. 请将 1,3,5,6,8,9 这 6 个数填到(_)内,使得每个圆上的数的和等于 22。\n10. 请将 0,1,2,3,4,5,7,8,9,11 这 10 个数填到五角星的各条边上 ,使得每条边上 4 个\n数的和相等 ,每个数只能用一次(写出两种填法) 。\neH\n104\nRiise CRA “MBER” RRL TAG.\nCALNE —_ FZ\n第1019说“元列问题",
+      "id": "grade2_b0112",
+      "pageEnd": 110,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在图中的〇内填和人 0~9 中的数,使得每条线上的数之和等于 17。(数字不能重复) 101 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在图中的CD)内填和人 1一10 中的数,使得每条线上的数之和等于 20。(数字不能重复)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "把5,6,7 三个数填在下图的空格中,使每行、每列以及每条对角线的三个数字之和都 相等。(每个数字必须使用 3 次)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "把 3,6,9 这三个数填人方格中,使得每行.每列和对角线上的 3 个数之和都相等(每个 数必须使用 3 次)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "把1,2,3,4,5填和人下图的方格中,使得横行和坚行的三个数之和分别等于9 和 11。 102 Riise CRA “MBER” RRL TAG. see xeon 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "在正方形空格里填上 1一16 FRAY BC AE BT ETT ZR DS CH i ¥ 34,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "在CO内填和人适当的数,使得同一直线上的三个数相加都等于 12。(数字不能重复)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "请将 1,2,4,6,8,9 这 6 个数填到(内,使得三条边上的 3 个数相加,与三角形三个顶 点上的 3 个数相加的和相等。 站",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "请将 2~8 这 7 个数填和人下图的七块小区域内,其中自然数 2.3、4 三个数已填好,请人 把其余的数填到空白的小区域中,要求每个〇中四个数的和都相等。 a 7 103 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "请将 1,3,5,6,8,9 这 6 个数填到(_)内,使得每个圆上的数的和等于 22。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "请将 0,1,2,3,4,5,7,8,9,11 这 10 个数填到五角星的各条边上 ,使得每条边上 4 个 数的和相等 ,每个数只能用一次(写出两种填法) 。 eH 104 Riise CRA “MBER” RRL TAG. CALNE —_ FZ 第1019说“元列问题",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 133,
+      "lessonNo": 20,
+      "lessonTitle": "- &",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 桌上有一大盒糖果和一小盒糖果,从两个盒子中分别拿出 5 颗糖果,此时大盒中的糖\n果数是小盒中糖果数的 2 倍,继续从两个盒子中分别拿出 5 颗糖果,此时大盒中糖果数是小盒\n中糖果数的 3 倍,你知道两盒中原先各有多少颗糖果吗?\n128\nRiise CRA “MBER” RRL TAG.\nsae eenan 全\n2. 有两个装满水的桶,第一次分别从两桶中倒出等量的水,发现大桶中的水量是小桶中\n水量的 3 倍,继续从两桶中分别倒出与第一次相同的水量, 发现大桶中的水量是小桶中水量的\n6 倍,你知道几桶小桶的水量等于几桶大桶的水量吗?\n1. BMA+O-*=3,AtA+0+0=20,0+% =11,BAA=      *\n=      ,一      o\n2. 已知人A十友王38,A人十A十友十友十龙王99。那么人=     *K=\n3, HARA HEE SERIE 63 1+, SEH FBO SRC FE RIAU 2 2 倍,东\n东家有多少个犁?\n4. 花店里有 3 种组合的玫瑰(如图) ,每种组合的玫瑰都是 40 元,请你求出红玫瑰、黄玫\nee:\n5. 十时候,人们还没有发明货币,会对东西进行等价交换满足生活的需要,例如 8 只兔子\n可以换2 只羊,6 只羊可以换 3 头鹿,9 头鹿可以换 6 头牛 ,那么 6 头牛可以换多少只兔子?\n6. 已知 6 袋面粉的重量和 2 袋大米的重量相同,爸爸买了 3 袋大米和 1 袋面粉共 400 T-\nGE MBA 3 RKB Ft?\n129\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n7. 在野生动物园里,大象比骆驼少 3 头,斑马比骆驼多 7 头,斑马的数量是大象数量的 3\n音,大象.斑马和骆驼各有多少头?\n8. 3 瓶水倒出来可以装满 4 只碗,6 瓶水正好可以装满 2 个桶。那么 4 桶水可以装满多\n> tp? EH 12 只碗需要多少桶水?\n9旅游公司推出旅游航班的单程联票,供游客们在国内旅游。\n已知1 张成都到上海的票价十1 张上海到北京的票价=2600 元，\n1 张上海到北京的票价十1 张北京到成都的票价王2800 元，\n1 张北京到成都的票价十1 张成都到上海的票价一3000 元。\n请问;成都到上海上海到北京 ,北京到成都的飞机票分别是多少元?\n10. 明明对家庭成员的年龄进行了统计,发现爸爸的年龄与妈妈的年龄之和是 80 8\n爸和爷爷的年龄之差是 32 岁,妈妈和奶奶的年龄之和是 107 岁,奶奶和和爷爷的年龄之和是\n143 岁,和爷爷.奶奶,爸爸,妈妈的年龄各是多少岁?\n130\nRiise CRA “MBER” RRL TAG.\nSSSSSSSSS\nCreGy Bees\n前见的图形规律通常反映一定的周期现象,对称现象.递增或递减现象。常见的题型有:\nCL) 找规律 ,在空白格子中填入合适的图形;\n(2) 找规律填数;\n(3) 计算点群中的点数。\n仔细观察下面的图形,找出它们的变化规律,并在第四个空白格内填上合适的图形。\n-O-\n分析 观察图形可得:每个格子都是被平均分成 2 份,通过一个圆和两条线段组合去划分\n格子,所以第四个空白格也是这样划分。\n解 如图所示:",
+      "id": "grade2_b0139",
+      "pageEnd": 136,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "桌上有一大盒糖果和一小盒糖果,从两个盒子中分别拿出 5 颗糖果,此时大盒中的糖 果数是小盒中糖果数的 2 倍,继续从两个盒子中分别拿出 5 颗糖果,此时大盒中糖果数是小盒 中糖果数的 3 倍,你知道两盒中原先各有多少颗糖果吗? 128 Riise CRA “MBER” RRL TAG. sae eenan 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "有两个装满水的桶,第一次分别从两桶中倒出等量的水,发现大桶中的水量是小桶中 水量的 3 倍,继续从两桶中分别倒出与第一次相同的水量, 发现大桶中的水量是小桶中水量的 6 倍,你知道几桶小桶的水量等于几桶大桶的水量吗?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "BMA+O-*=3,AtA+0+0=20,0+% =11,BAA= * = ,一 o",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "已知人A十友王38,A人十A十友十友十龙王99。那么人= *K=",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "HARA HEE SERIE 63 1+, SEH FBO SRC FE RIAU 2 2 倍,东 东家有多少个犁?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "花店里有 3 种组合的玫瑰(如图) ,每种组合的玫瑰都是 40 元,请你求出红玫瑰、黄玫 ee:",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "十时候,人们还没有发明货币,会对东西进行等价交换满足生活的需要,例如 8 只兔子 可以换2 只羊,6 只羊可以换 3 头鹿,9 头鹿可以换 6 头牛 ,那么 6 头牛可以换多少只兔子?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "已知 6 袋面粉的重量和 2 袋大米的重量相同,爸爸买了 3 袋大米和 1 袋面粉共 400 T- GE MBA 3 RKB Ft? 129 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "在野生动物园里,大象比骆驼少 3 头,斑马比骆驼多 7 头,斑马的数量是大象数量的 3 音,大象.斑马和骆驼各有多少头?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "3 瓶水倒出来可以装满 4 只碗,6 瓶水正好可以装满 2 个桶。那么 4 桶水可以装满多 > tp? EH 12 只碗需要多少桶水? 9旅游公司推出旅游航班的单程联票,供游客们在国内旅游。 已知1 张成都到上海的票价十1 张上海到北京的票价=2600 元， 1 张上海到北京的票价十1 张北京到成都的票价王2800 元， 1 张北京到成都的票价十1 张成都到上海的票价一3000 元。 请问;成都到上海上海到北京 ,北京到成都的飞机票分别是多少元?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "明明对家庭成员的年龄进行了统计,发现爸爸的年龄与妈妈的年龄之和是 80 8 爸和爷爷的年龄之差是 32 岁,妈妈和奶奶的年龄之和是 107 岁,奶奶和和爷爷的年龄之和是 143 岁,和爷爷.奶奶,爸爸,妈妈的年龄各是多少岁? 130 Riise CRA “MBER” RRL TAG. SSSSSSSSS CreGy Bees 前见的图形规律通常反映一定的周期现象,对称现象.递增或递减现象。常见的题型有: CL) 找规律 ,在空白格子中填入合适的图形; (2) 找规律填数; (3) 计算点群中的点数。 仔细观察下面的图形,找出它们的变化规律,并在第四个空白格内填上合适的图形。 -O- 分析 观察图形可得:每个格子都是被平均分成 2 份,通过一个圆和两条线段组合去划分 格子,所以第四个空白格也是这样划分。 解 如图所示:",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ],
+  "grade3": [
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 125,
+      "lessonNo": 19,
+      "lessonTitle": "全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 一个正方形花坛要进行扩建,使得邻边分别增加 3 米和2 米。请问扩建后花坛的周长\n比原来增加了多少米?\n2. 一个长方形菜轩要进行改建。它的长要减少 5 米,宽要增加 3 米,那么周长会怎样\n变化?\n1. 下网是由 6 个边长为 3 厘米的正方形拼接而成的图形。则这个新疼形的周长为\n厘米。\n2. 已知楼梯中每一阶高度为 12 厘米 ,深度为 13 厘米(如下图)。要为这个楼梯铺上红地\n毯,则需要红地毯          米。(地毯和楼梯的宽度不计)\n13厘米\n一人一\n12厘米\n3. 下面图形的周长为          厘米。\n120\nRiise CRA “MBER” RRL TAG.\naioe same 全\n(单位:厘米)\n学\n3\n4, 一个长方形的长增加 1 分米,宽增加 5 厘米。周长增加了    分米。\n5. 学校里的园丁要将某长方形花园增建成正方形。已知扩建后的正方形花园的周长为\n120 米,增建出的小长方形花园的宽为 9 米,则原长方形花园的周长为    米。\n6. 一根长 76 厘米的绳子,围成一个边长为 6 厘米的正方形,而后用剩余部分围成一个长\n比宽多4 厘米的长方形。求长方形的长与宽。\n7. 下面是一个零件的平面设计图,图中不同的字母表示各条边不同的长度。已知4=\n40 毫米,<一45 4K. g= 15 党米,则该零件的包边材料应长多少分米?\n8. 如图,在长方形ABCD 中,四边形 EFGH 是正方形。已知线段 AF 长 22 厘米,线段\nHC 长 20 厘米,求长方形 ABCD 的周长。\n121\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n9. 一个边长为5米的正方形画框要改造成长为8米,宽为 3 米的长方形画框。周长会怎\n样变化?\n10. 学校里的园丁要将某正方形花围增建成长方形。已知扩建后的长方形花围的周长为\n100 米,增建出的小长方形花于的宽为 6 米。现要在小长方形花半的四周于上管匈墙,由于门\n宽2米,应选用篇笛多少米?\n11. 为保护春笋不被游客随意采摘,植物园给长方形的竹林四周围上了栏杆。已知这个\n长方形竹林的长是宽的一半,栏杆于成了密封的两层,且共使用栏杆 120 米。求这个竹林的长\n和宽。\n12, 一个正方形相框进行改造,邻边分别减少了 2 分米和增加了 8 厘米。请问这个相框\n的周长发生了怎样的变化?\n122\nRiise CRA “MBER” RRL TAG.\n66SessSss 7\n本",
+      "id": "grade3_b0109",
+      "pageEnd": 128,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "一个正方形花坛要进行扩建,使得邻边分别增加 3 米和2 米。请问扩建后花坛的周长 比原来增加了多少米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一个长方形菜轩要进行改建。它的长要减少 5 米,宽要增加 3 米,那么周长会怎样 变化?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "下网是由 6 个边长为 3 厘米的正方形拼接而成的图形。则这个新疼形的周长为 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "已知楼梯中每一阶高度为 12 厘米 ,深度为 13 厘米(如下图)。要为这个楼梯铺上红地 毯,则需要红地毯 米。(地毯和楼梯的宽度不计) 13厘米 一人一 12厘米",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "下面图形的周长为 厘米。 120 Riise CRA “MBER” RRL TAG. aioe same 全 (单位:厘米) 学 3",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "一个长方形的长增加 1 分米,宽增加 5 厘米。周长增加了 分米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "学校里的园丁要将某长方形花园增建成正方形。已知扩建后的正方形花园的周长为 120 米,增建出的小长方形花园的宽为 9 米,则原长方形花园的周长为 米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "一根长 76 厘米的绳子,围成一个边长为 6 厘米的正方形,而后用剩余部分围成一个长 比宽多4 厘米的长方形。求长方形的长与宽。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "下面是一个零件的平面设计图,图中不同的字母表示各条边不同的长度。已知4= 40 毫米,<一45 4K. g= 15 党米,则该零件的包边材料应长多少分米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "如图,在长方形ABCD 中,四边形 EFGH 是正方形。已知线段 AF 长 22 厘米,线段 HC 长 20 厘米,求长方形 ABCD 的周长。 121 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "一个边长为5米的正方形画框要改造成长为8米,宽为 3 米的长方形画框。周长会怎 样变化?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "学校里的园丁要将某正方形花围增建成长方形。已知扩建后的长方形花围的周长为 100 米,增建出的小长方形花于的宽为 6 米。现要在小长方形花半的四周于上管匈墙,由于门 宽2米,应选用篇笛多少米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "为保护春笋不被游客随意采摘,植物园给长方形的竹林四周围上了栏杆。已知这个 长方形竹林的长是宽的一半,栏杆于成了密封的两层,且共使用栏杆 120 米。求这个竹林的长 和宽。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "一个正方形相框进行改造,邻边分别减少了 2 分米和增加了 8 厘米。请问这个相框 的周长发生了怎样的变化? 122 Riise CRA “MBER” RRL TAG. 66SessSss 7 本",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 100,
+      "lessonNo": 15,
+      "lessonTitle": "“小数的初步认识",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 某数的小数点向右移动一位,比原数大了 1. 08,原来这个数是多少?\n95\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n2. 某数的小数点向左移动两位,比原数小了 6. 93 ,请问原来这个数是多少?\n1. 与“6最接近的四位小数\n2. 一本彩绘童话书要 36. 98 元,一本科普读物 17. 32 元。两本书一共要    元。\n1\n3. 0.72 是由7个    和 2个   组成的;也可看作是由 个j00组成的。\n4, 一个数,它是由 7 个百,5 个一,2 个十分之一和 9 个千分之一组成的,这个数写作\n,读作      。\n5. 大于0. 1 而小于 0. 9 的两位小数一共有    个。\n6. (1) 0. 125十0. 125十0. 125十0. 125十0. 125十0. 125十0. 125十0. 125\n(2) 1一0. 371\n7. 有一个四位整数,在它的某位数字前面加上一个小数点,再和这个四位数相加,得数是\n2218.7。求原来的四位整数。\n8. 用7,2,0,1 和小数点可以组成多少个不同的小于 20 的两位小数,请把它们所有可能\n组成的数按从小到大的顺序排列。\n96\nRiise CRA “MBER” RRL TAG.\n第 15讲 “小数的初步认识 a\n9, 某数的小数点向左移动一位,比原数小了 11. 7,请问原来这个数是多少?\n10. 小芳去水果店买甘蔗,小芳发现削好的甘蔗比原来的短了不少。经过测量得知,在削\n皮过程中,甘蔗顶部的 0. 31 米和底部的 0. 21 米都去掉了,只剩下中间的1. 58 米了,则甘蔗原\n来的长度是多少?\n11. 杭州野生动物园的精灵部落里有三只东北虎,已知小老虎的体重是 159. 1 千克,比母\n老虎轻 110. 9 千克,公老虎的体重比母老虎的体重还重 49. 21 千克。问这只公老虎的体重是\n多少千克?\noF\nRiise CRA “MBER” RRL TAG.\nSGSSSSSSS\n第1G诗“简单酌寺列",
+      "id": "grade3_b0084",
+      "pageEnd": 103,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "某数的小数点向右移动一位,比原数大了 1. 08,原来这个数是多少? 95 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某数的小数点向左移动两位,比原数小了 6. 93 ,请问原来这个数是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "与“6最接近的四位小数",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一本彩绘童话书要 36. 98 元,一本科普读物 17. 32 元。两本书一共要 元。 1",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "0.72 是由7个 和 2个 组成的;也可看作是由 个j00组成的。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "一个数,它是由 7 个百,5 个一,2 个十分之一和 9 个千分之一组成的,这个数写作 ,读作 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "大于0. 1 而小于 0. 9 的两位小数一共有 个。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 0. 125十0. 125十0. 125十0. 125十0. 125十0. 125十0. 125十0. 125 (2) 1一0. 371",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "有一个四位整数,在它的某位数字前面加上一个小数点,再和这个四位数相加,得数是 2218.7。求原来的四位整数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "用7,2,0,1 和小数点可以组成多少个不同的小于 20 的两位小数,请把它们所有可能 组成的数按从小到大的顺序排列。 96 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "某数的小数点向左移动一位,比原数小了 11. 7,请问原来这个数是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小芳去水果店买甘蔗,小芳发现削好的甘蔗比原来的短了不少。经过测量得知,在削 皮过程中,甘蔗顶部的 0. 31 米和底部的 0. 21 米都去掉了,只剩下中间的1. 58 米了,则甘蔗原 来的长度是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "杭州野生动物园的精灵部落里有三只东北虎,已知小老虎的体重是 159. 1 千克,比母 老虎轻 110. 9 千克,公老虎的体重比母老虎的体重还重 49. 21 千克。问这只公老虎的体重是 多少千克? oF Riise CRA “MBER” RRL TAG. SGSSSSSSS 第1G诗“简单酌寺列",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 21,
+      "lessonNo": 2,
+      "lessonTitle": "万以内的加法和减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1，某长方形菜园长宽比为7: 2,已知其宽为4米,求菜园面积。\n2.，某正方形木板的一边长减少了 3 厘米,则整体面积减少了 42 平方厘米,求原来正方形\n的边长。\n1. 两个          的三角形一定能拼成一个平行四边形。\n2, 一个正方形,相邻的两条边长度之和是 3 分米,则这个正方形的面积            平方\n3. 一个梯形的下底是上底的 5 倍,如果把下底缩小 12 厘米,那么梯形就变成了一个平行\n四边形。则原来的梯形的上底是          厘米,下底是          厘米。\n4, 以下说法正确的有               。\nD 把一个长方形框架沿着对角拉成平行四边形时,平行四边形的面积与原来长方形的面\n积相比变小;\n16\nRiise CRA “MBER” RRL TAG.\n@ 经过平行四边形的中心点任意画一条直线,都能把这个平行四边形分成两个完全一样\n的图形 ,那么这两个图形一定是三角形;\nG@) 有一组对边平行的四边形是平行四边形;\n@ 提住一个用木条钉成的平行四边形的对角 ,将平行四边形拉成一个长方形,它的面积\n变小了。\n5. 把两个边长分别为 10 厘米,4 厘米,7 厘米的三角形, 拼成一个平行四边形,共有\n种拼法,其中周长最大的平行四边形的周长是    厘米。\n6. 用六个边长为 6 厘米的小正方形拼成一个长方形,这个长方形的周长是多少厘米?\n7. 小明的和爸爸打算买房,某日看到房型如下,中间区域是正方形,两边是长方形。已知当\n地房价为 2 万元/平方米,若小明家要买这套房需要准备多少钱?\n8K\ni\nOK                               27k\n—     4K\n8. 下图所示图形是由若干个正方形拼接而成,已知该图形的周长为 192 厘米,求其面积。\n9. 在下边画出三种由两个边分别为 2 厘米,3 厘米,4 厘米的三角形拼成的平行四边形。\n(每个格子边长为 1 厘米)\n10. 一个长方形,周长为 14 分米,长是宽的2 倍少 5 厘米,求这个长方形的面积。\n17\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\nLL. 为了给外婆过生日,小贺一家分成两组出发。妈妈先后经过蛋糕店和超市,最后到达\n外婆家,同时小贺和爸爸也从家里出发,经过鲜花店,最后与妈妈同时到达外法家。已知小贺\n、\n和爸爸的行走速度是妈妈的如,超市距外婆家仅 15 米,问小锅一家一共走了多少米?\n蛋糕店\nsg 1/\n4可家 a\n18\nRiise CRA “MBER” RRL TAG.\nSGSSSSSSS\nExaGn waesraGa tees\n有余数的除法其含义可简单理解为在现实生活中,有时我们将一些物体进行均分后,仍有\n剩余,因此可知剩余的部分(余数)一定比除数小。用文字表达其关系为:\n将该天系式进行变形,可得到新的天系式:\n被除数=商久除数十余数;\n除数=(被除数一余数)一商;\n商一(被除数一余数)一除数;\n余数=被除数一除数义商。\n这些关系式不需要死记硬背,只要牢记最原始的式子即可。\n解题时要注意有余数的除法往往结合应用题出现 ,独立计算的题型并不常见,因此解题时\nWAKE K OOK KK OOK KI OO Fe FEAR TEE TAAL 80 个是什么\n图案?\nDit 观察题目,我们发现这一列图案有规律,交夜雄真次〇GO为一组,一组有7 个图案，\n题目问的是第 80 个图案,因此只要知道 80 能否被7 整除,根据余数来判断。\n答:第 80 个图案是真。",
+      "id": "grade3_b0015",
+      "pageEnd": 24,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "某长方形菜园长宽比为7: 2,已知其宽为4米,求菜园面积。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "，某正方形木板的一边长减少了 3 厘米,则整体面积减少了 42 平方厘米,求原来正方形 的边长。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "两个 的三角形一定能拼成一个平行四边形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一个正方形,相邻的两条边长度之和是 3 分米,则这个正方形的面积 平方",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "一个梯形的下底是上底的 5 倍,如果把下底缩小 12 厘米,那么梯形就变成了一个平行 四边形。则原来的梯形的上底是 厘米,下底是 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "以下说法正确的有 。 D 把一个长方形框架沿着对角拉成平行四边形时,平行四边形的面积与原来长方形的面 积相比变小; 16 Riise CRA “MBER” RRL TAG. @ 经过平行四边形的中心点任意画一条直线,都能把这个平行四边形分成两个完全一样 的图形 ,那么这两个图形一定是三角形; G@) 有一组对边平行的四边形是平行四边形; @ 提住一个用木条钉成的平行四边形的对角 ,将平行四边形拉成一个长方形,它的面积 变小了。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "把两个边长分别为 10 厘米,4 厘米,7 厘米的三角形, 拼成一个平行四边形,共有 种拼法,其中周长最大的平行四边形的周长是 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "用六个边长为 6 厘米的小正方形拼成一个长方形,这个长方形的周长是多少厘米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "小明的和爸爸打算买房,某日看到房型如下,中间区域是正方形,两边是长方形。已知当 地房价为 2 万元/平方米,若小明家要买这套房需要准备多少钱? 8K i OK 27k — 4K",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "下图所示图形是由若干个正方形拼接而成,已知该图形的周长为 192 厘米,求其面积。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "在下边画出三种由两个边分别为 2 厘米,3 厘米,4 厘米的三角形拼成的平行四边形。 (每个格子边长为 1 厘米)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "一个长方形,周长为 14 分米,长是宽的2 倍少 5 厘米,求这个长方形的面积。 17 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) LL. 为了给外婆过生日,小贺一家分成两组出发。妈妈先后经过蛋糕店和超市,最后到达 外婆家,同时小贺和爸爸也从家里出发,经过鲜花店,最后与妈妈同时到达外法家。已知小贺 、 和爸爸的行走速度是妈妈的如,超市距外婆家仅 15 米,问小锅一家一共走了多少米? 蛋糕店 sg 1/ 4可家 a 18 Riise CRA “MBER” RRL TAG. SGSSSSSSS ExaGn waesraGa tees 有余数的除法其含义可简单理解为在现实生活中,有时我们将一些物体进行均分后,仍有 剩余,因此可知剩余的部分(余数)一定比除数小。用文字表达其关系为: 将该天系式进行变形,可得到新的天系式: 被除数=商久除数十余数; 除数=(被除数一余数)一商; 商一(被除数一余数)一除数; 余数=被除数一除数义商。 这些关系式不需要死记硬背,只要牢记最原始的式子即可。 解题时要注意有余数的除法往往结合应用题出现 ,独立计算的题型并不常见,因此解题时 WAKE K OOK KK OOK KI OO Fe FEAR TEE TAAL 80 个是什么 图案? Dit 观察题目,我们发现这一列图案有规律,交夜雄真次〇GO为一组,一组有7 个图案， 题目问的是第 80 个图案,因此只要知道 80 能否被7 整除,根据余数来判断。 答:第 80 个图案是真。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 49,
+      "lessonNo": 7,
+      "lessonTitle": "“分数的初步认识",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1，比较分数2与s的大小,并说明理由。\n2，比较分数-5 与二的大小,并说明理由。\n44\nRiise CRA “MBER” RRL TAG.\na7 “分数的初少认识 全\n1一个西瓜被吃掉了,这个西瓜还剩下   ，\n2，写出 3 MERE UNE IB,\n3，妈妈把一个蛋糕平均分成了 6 块,爸爸吃了 2UBSIET 1 块,爸爸和答爷共吃了这\n个蛋糕的\n4, 三(1)班共有 40 名同学,其中男同学有 21 人,则女同学占总人数的    分\n之    .\n5. 奶奶送来了一堆荔枝。和爸爸吃了这堆荔枝的五分之一,妈妈吃了剩下的荔校的五分之\n一'则   〈填“爸爸?或\"妈妈”)吃的多。\n6，比较分数二与的大小,并说明理由。\n7. 通过画图求出 3个二与 3 个二的和。\n8 有一杯纯果汁,小祝喝掉一后,将它加满水。然后她又喝掩< ,再加满水。又喝掩二 ，\n又加满水。最后全部喝完。那么小祝喝的纯果汁多还是水多?\n9.小贺家阳台有一个小花围,仅种了多肉和荣莉,已知其中茉莉花占了整块花围的= ,其\n他区域养的都是多肉,问多肉所占地比玉莉所占地多多少?\n45\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n10. 小贺计划三个月内绣完一幅十字组。第一个月,小贺就完成了整幅十字绣 的二 ] ,第二\n个月 又完成了剩下的二 ,问还剩下整幅十字绣的几分之几需要完成?\n11. 为举办元旦晚会,班级买了一堆彩带。婷婷为装 HiME IST KIS [125 75 RI\n节目用去了剩下的二 ,问还剩下原来的几分之几?\n12，常见的表示了的方法有很多,如下图。请你用另外4 种方法表示长方形的六。\n46\nRiise CRA “MBER” RRL TAG.\nCALNE —_ FZ\neeu Olas\n|\n\\\\ sae\nASMAAS SS EAT SRAKA ,属于数学中概率内容的基础知识部分。事件发生的\n可能性有\"一定“可能”不可能\"三种类型。对于确定的事件可以用一定”或\"不可能\"进行描\n述,如太阳一定从东边升起,只装有黑球的袋子里不可能摸出红球等;对于不确定的事件用\"可\n能\"来进行描述,如明天可能会下雨等。另外事件发生的可能性有大小之分。对于三年级的学\n生来说,可简单理解为数量多则可能性大;数量少则可能性小。\n解题时要注意寻找题中的差别量, 通过差别量的大小比较,从而判断事件发生可能性的\n大小。\n抽奖箱里有“谢谢参与?字样的纸条 40 张， “一等奖?字样纸条 10 张， 二等奖?字样纸条\n20 张,请问小明从抽奖箱里任意摸出一张纸条,写有什么字样的纸条被摸出的可能性最大?\n分析 “由题意,40二20二10,因此\"谢谢参与?字样的纸条数量最多。在一定范围内,数量\n越多,被摸出的可能性就越大;数量最少,被摸出的可能性就最小。因此在这个抽奖箱里,“谢\n谢参与?字样的纸条被摸出的可能性最大。",
+      "id": "grade3_b0040",
+      "pageEnd": 52,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "比较分数2与s的大小,并说明理由。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "比较分数-5 与二的大小,并说明理由。 44 Riise CRA “MBER” RRL TAG. a7 “分数的初少认识 全 1一个西瓜被吃掉了,这个西瓜还剩下 ，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "写出 3 MERE UNE IB,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "妈妈把一个蛋糕平均分成了 6 块,爸爸吃了 2UBSIET 1 块,爸爸和答爷共吃了这 个蛋糕的",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "三(1)班共有 40 名同学,其中男同学有 21 人,则女同学占总人数的 分 之 .",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "奶奶送来了一堆荔枝。和爸爸吃了这堆荔枝的五分之一,妈妈吃了剩下的荔校的五分之 一'则 〈填“爸爸?或\"妈妈”)吃的多。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "比较分数二与的大小,并说明理由。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "通过画图求出 3个二与 3 个二的和。 8 有一杯纯果汁,小祝喝掉一后,将它加满水。然后她又喝掩< ,再加满水。又喝掩二 ， 又加满水。最后全部喝完。那么小祝喝的纯果汁多还是水多?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "小贺家阳台有一个小花围,仅种了多肉和荣莉,已知其中茉莉花占了整块花围的= ,其 他区域养的都是多肉,问多肉所占地比玉莉所占地多多少? 45 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小贺计划三个月内绣完一幅十字组。第一个月,小贺就完成了整幅十字绣 的二 ] ,第二 个月 又完成了剩下的二 ,问还剩下整幅十字绣的几分之几需要完成?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "为举办元旦晚会,班级买了一堆彩带。婷婷为装 HiME IST KIS [125 75 RI 节目用去了剩下的二 ,问还剩下原来的几分之几?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "常见的表示了的方法有很多,如下图。请你用另外4 种方法表示长方形的六。 46 Riise CRA “MBER” RRL TAG. CALNE —_ FZ eeu Olas | \\\\ sae ASMAAS SS EAT SRAKA ,属于数学中概率内容的基础知识部分。事件发生的 可能性有\"一定“可能”不可能\"三种类型。对于确定的事件可以用一定”或\"不可能\"进行描 述,如太阳一定从东边升起,只装有黑球的袋子里不可能摸出红球等;对于不确定的事件用\"可 能\"来进行描述,如明天可能会下雨等。另外事件发生的可能性有大小之分。对于三年级的学 生来说,可简单理解为数量多则可能性大;数量少则可能性小。 解题时要注意寻找题中的差别量, 通过差别量的大小比较,从而判断事件发生可能性的 大小。 抽奖箱里有“谢谢参与?字样的纸条 40 张， “一等奖?字样纸条 10 张， 二等奖?字样纸条 20 张,请问小明从抽奖箱里任意摸出一张纸条,写有什么字样的纸条被摸出的可能性最大? 分析 “由题意,40二20二10,因此\"谢谢参与?字样的纸条数量最多。在一定范围内,数量 越多,被摸出的可能性就越大;数量最少,被摸出的可能性就最小。因此在这个抽奖箱里,“谢 谢参与?字样的纸条被摸出的可能性最大。",
+          "hasAnalysis": true,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 54,
+      "lessonNo": 8,
+      "lessonTitle": "全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 有一枚普通的六面立方体骨子,任意抛一次,朝上的数字可能是多少?\n2. 抽奖转盘被划分为不同的等面积区域共四部分,分别写着“很遗憾交幸运奖交大奖?和\n“再来一次”,任意转动转盘,指针有可能落在哪几个区域?”要使“再来一次”可能性变大,有什\n么办法?\n49\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n1. 利用0,2,6 这三个数,可以组成           个每一位上数字都不相同的不同的三位数。\n2, 某快餐店推出套餐活动,可选择任意一款鸡起和一款汉堡进行搭配,店内一共有鸡翅 5\n款,汉堡 3 款,将产生          种不同的套餐搭配。\n3. 公司举办户外素质拓展活动,规定:当员工到达甲区域时,可获得 3 个不同的印章,每\n一个印章在活动后可以兑换卡片 2张,每张卡片可获得抽奖机会 2次,那么,当员工成功到达\n甲区域时,理论上可以获得抽奖机会          次。\n4, 巧克力箱内装有 5 盒不同的巧克力分别为ABC、D\\刁,任意从中摸 2 盒,将会出现\n种可能性。\n5. HW ANA A 14 盆郁金香,20 盆蝴蝶兰,从棚内任意搬一盆植物出来,搬出\n的可能性更大。\n6. 奶奶不小心把房门钥是和其他 7 把钥匙混在了一起,现在奶奶想试着从这些钥匙里找\n到房门钥匙,于是用这些钥匙去开房门锁,最坏的情况,奶奶会在第几次试钥是的时候成功打\n开房门?\n7. 某班级课表上午共有 4 节课,要求第一节为语文课或者英语课,第二节为数学课,第三\n节不能是体育课 ,请你按要求尝试列出该班级上午课表所有可能性。(上午的四节课是英语\nUR .语文课 ,数学课、.体育课)\n8. 早餐店内共有 5 种不同口味的面包,4 种不同口味的豆奶,2 种不同类型的鸡蛋,现推\n出 LO 元早间套餐,顾客可选择一个面包.一杯豆奶和一个鸡蛋,请问顾客共有多少种不同的\n选择?\n50\nRiise CRA “MBER” RRL TAG.\n第8讲  tt 全\n9. POPC ES IETT ARF AY 6 个面上分别写着 1,2,3,4,5,6 六个数字) ,落地后计\n算两枚仍子向上一面的数字之和,请列举出和为 8 的情况。\n10, 李迪和朋友们在玩解密游戏,有一把密码锁,要求输入一个三位数字,每一位上可以\n输入 0一9 中的任意一个,只有唯一三位数字能让密码锁解开,请问总共有多少种可能?\n51\nRiise CRA “MBER” RRL TAG.\nCALNE —_ FZ\n-\nOW Massie\n|\n位置的描述方法有两种:一是以主观视角取定一个人或物 FASE ENS)\" LF”\n“下”前“后”“左”右”;一是以客观视角,取定一个人或物,描述三他(或它)相对的方向\"东”\n“南”“西”“北”\"。前种描述位置的方法,会随着取定的人或物的转动而改变,而第二种方法不会。\n地图上的方向一般以右上角\"*北\"的指向为基准,依次是(顺时针方向): 上一右一下一左;\nIt A. GERARD MWR FIR AGREE.\n除了“东”南“西“北\"以外,描述方向 ,我们还有\"东北”西北“东南“西南”等词。\n下图是天安门地区平面示意图。请根据示意图填方位词。\nCD                      i\n天安门城楼\n人民大会党      rat     中国国家博物馆\n加\n人民英雄纪念碑\n|\n毛主席纪念党\n正阳门\nCI\n~~\n52\nRite be PBR” RELY TAPS",
+      "id": "grade3_b0045",
+      "pageEnd": 58,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "有一枚普通的六面立方体骨子,任意抛一次,朝上的数字可能是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "抽奖转盘被划分为不同的等面积区域共四部分,分别写着“很遗憾交幸运奖交大奖?和 “再来一次”,任意转动转盘,指针有可能落在哪几个区域?”要使“再来一次”可能性变大,有什 么办法? 49 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "利用0,2,6 这三个数,可以组成 个每一位上数字都不相同的不同的三位数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某快餐店推出套餐活动,可选择任意一款鸡起和一款汉堡进行搭配,店内一共有鸡翅 5 款,汉堡 3 款,将产生 种不同的套餐搭配。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "公司举办户外素质拓展活动,规定:当员工到达甲区域时,可获得 3 个不同的印章,每 一个印章在活动后可以兑换卡片 2张,每张卡片可获得抽奖机会 2次,那么,当员工成功到达 甲区域时,理论上可以获得抽奖机会 次。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "巧克力箱内装有 5 盒不同的巧克力分别为ABC、D\\刁,任意从中摸 2 盒,将会出现 种可能性。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "HW ANA A 14 盆郁金香,20 盆蝴蝶兰,从棚内任意搬一盆植物出来,搬出 的可能性更大。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "奶奶不小心把房门钥是和其他 7 把钥匙混在了一起,现在奶奶想试着从这些钥匙里找 到房门钥匙,于是用这些钥匙去开房门锁,最坏的情况,奶奶会在第几次试钥是的时候成功打 开房门?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "某班级课表上午共有 4 节课,要求第一节为语文课或者英语课,第二节为数学课,第三 节不能是体育课 ,请你按要求尝试列出该班级上午课表所有可能性。(上午的四节课是英语 UR .语文课 ,数学课、.体育课)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "早餐店内共有 5 种不同口味的面包,4 种不同口味的豆奶,2 种不同类型的鸡蛋,现推 出 LO 元早间套餐,顾客可选择一个面包.一杯豆奶和一个鸡蛋,请问顾客共有多少种不同的 选择? 50 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "POPC ES IETT ARF AY 6 个面上分别写着 1,2,3,4,5,6 六个数字) ,落地后计 算两枚仍子向上一面的数字之和,请列举出和为 8 的情况。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "李迪和朋友们在玩解密游戏,有一把密码锁,要求输入一个三位数字,每一位上可以 输入 0一9 中的任意一个,只有唯一三位数字能让密码锁解开,请问总共有多少种可能? 51 Riise CRA “MBER” RRL TAG. CALNE —_ FZ - OW Massie | 位置的描述方法有两种:一是以主观视角取定一个人或物 FASE ENS)\" LF” “下”前“后”“左”右”;一是以客观视角,取定一个人或物,描述三他(或它)相对的方向\"东” “南”“西”“北”\"。前种描述位置的方法,会随着取定的人或物的转动而改变,而第二种方法不会。 地图上的方向一般以右上角\"*北\"的指向为基准,依次是(顺时针方向): 上一右一下一左; It A. GERARD MWR FIR AGREE. 除了“东”南“西“北\"以外,描述方向 ,我们还有\"东北”西北“东南“西南”等词。 下图是天安门地区平面示意图。请根据示意图填方位词。 CD i 天安门城楼 人民大会党 rat 中国国家博物馆 加 人民英雄纪念碑 | 毛主席纪念党 正阳门 CI ~~ 52 Rite be PBR” RELY TAPS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 84,
+      "lessonNo": 10,
+      "lessonTitle": "”除数是一位数的除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 1978年3月14日是星期二,同年 3月 27 日是星期几?\n2. 1985年7月17 日是星期三,那么同年7月 3 日是星期几?\n7a\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n1. 2012年2月18日往后数     天是3月4日。\n2, 1993年12月?7日是星期二,同年 12 月 29 日是星期\n3. 北京奥运会那年前两个季度共有 天。\n4, 公园门票从 2016年 11 月 29 日一2016年 12月 2 日施行半价,共       天。\n5. 1962年1月1日是星期一,那么这年1月共有_ 个星期一。\n6. 某街道因施工需要,从5 月 28 日起至 12 月 9 日禁止车辆通行,共_ 天。\n7. 张宽 2016 年 2 月在工厂 A 打工,每天有实习工资 80 元,那么张宽 2 月一共可拿多少\n实习工资\n8， 旅游公司推出英国深度游 14 日行程,7月 21 日出发,那么几月几日回来?\n9. 琳琳生日是3 月 20 日,往后数 40 天是小源的生日,开开的生日比小源早 17 天,请问\n开开生日是几月几日?\n10. 水果超市原本没有存货 ,2020 年第一季度每天进货 500 千克,4 月份不进货,每天运\n往某仓库 100 千克,请问5 月 1 日当天超市还剩多少货物?\n80\nRiise CRA “MBER” RRL TAG.\n- 本\nCIS Tamer\n(ee\n|",
+      "id": "grade3_b0065",
+      "pageEnd": 86,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "1978年3月14日是星期二,同年 3月 27 日是星期几?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "1985年7月17 日是星期三,那么同年7月 3 日是星期几? 7a Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "2012年2月18日往后数 天是3月4日。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "1993年12月?7日是星期二,同年 12 月 29 日是星期",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "北京奥运会那年前两个季度共有 天。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "公园门票从 2016年 11 月 29 日一2016年 12月 2 日施行半价,共 天。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "1962年1月1日是星期一,那么这年1月共有_ 个星期一。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "某街道因施工需要,从5 月 28 日起至 12 月 9 日禁止车辆通行,共_ 天。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "张宽 2016 年 2 月在工厂 A 打工,每天有实习工资 80 元,那么张宽 2 月一共可拿多少 实习工资",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "旅游公司推出英国深度游 14 日行程,7月 21 日出发,那么几月几日回来?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "琳琳生日是3 月 20 日,往后数 40 天是小源的生日,开开的生日比小源早 17 天,请问 开开生日是几月几日?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "水果超市原本没有存货 ,2020 年第一季度每天进货 500 千克,4 月份不进货,每天运 往某仓库 100 千克,请问5 月 1 日当天超市还剩多少货物? 80 Riise CRA “MBER” RRL TAG. - 本 CIS Tamer (ee |",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ],
+  "grade4": [
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 147,
+      "lessonNo": 25,
+      "lessonTitle": "统筹安排",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 119 米长的钢筋要前成4 米或 7 米两种尺寸,如何剪最省材料?\n2. 山区有一个工矿,它的十个车间分散在一条环行的铁道上。四列货车在铁道上转圈运\n送货物。货车到了基一车间,就要有装卸工人装上或印下货物。各车间由于工作量不同,所需\n装人印工人数也不同,各车间所需装卸工人数如图所示。当然,装印工可以固定在车间等车;也\n可以坐在货车上跟车到各车间去干活;也可以一部分装务工固定在车间 ,另一部分跟车。问怎\n样安排跟车人数和各和车间固定人数,才能使装务工的总人数最少? 最少需多少名工人?\n30\n57                    50\n43                         48\n52                                       35\n41                   37\n46\n142\nRiise CRA “MBER” RRL TAG.\n1. 平底锅里每次能同时放两张馆,郑熟一张饼需要 2 分钟(正、反面各需要 1 分钟),如果\nSEINE 7 张饼至少需要几分钟?\n2. 两个油漆工要给三块同样的木板正、反面刷潜,每面刷完要用 2 分钟,并且两人不能同\n时给一块木板刷油污。怎样安排才能使刷油漆的时间最少” 最少的时间是几分钟?\n3. 钢筋原材料每件长 7. 3 米,每套钢筋架子用长 2.9米.2.1米和1.5米的钢筋各 1 段。\n现在需要绑好钢筋架子 100 套,至少要用去原材料几件?截料方法怎样最省?\nA, 小李,小王,小赵三人同时去理发店找张师傅理发,小李需要 25 分钟,小王需要 10 分\n钟,小赵需要 15 分钟,经张师傅合理安排使三人的等候时间的总和最少,张师传怎样安排的?\n5. 用 18 厘米的铁丝于成各种长方形,要使长和宽的长度都是整厘米数,于成的长方形的\n面积最大是多少平方厘米?\n143\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n6. 用5,6,7,8 这四个数字分别组成两个两位数,那么这两个两位数的乘积最大和最小分\nWEB >?\n7. 把长 189 米的钢筋截成7米和4米长的钢筋,如何截最省材料?\n8. 10 个人各拿一只水桶去打水,水龙头注满第一个人的水桶需要 1 分钟,注满第二个人\n的水桶需要 2 分钟,依此类推,注满第几个桶就需要几分钟,如果只有一只水龙头,适当安排\n10 个人的排队顺序,就可以使每个人所费时间的总和尽可能少,问:这个总费时至少是多少\n分钟?\n9. 赵师傅要加工某项工程急需的 5 个零件,如果加工零件A.B、C、D、刁 所需时间分别\n是5分钟.3 分钟.4分钟.7 分钟.6 分钟。问应该按照什么次序加工,使工程各部件组装所耽\n误的时间总和最少? 这个时间是多少?\n10. 妈妈杀好鱼后,让小明帮助烧鱼。他洗鱼.切鱼.切姜片葱花.洗锅前烧,各道工序共\n花了17 分钟,如图所示 ,请你设计一个顺序,使花费的时间最少。\n2分钟          2分钟          1分钟          2分钟           2分钟           3分钟          5分钟\n| 洗鱼 上| 切鱼 上| 切姜多| | 洗钢 上 |将钢烧热|上 |将油烧热F | ne |\n144\nRiise CRA “MBER” RRL TAG.\n11. 某水池可以用甲、乙两个水管注水,单放甲管需 12 小时注满,单放乙管需 24 小时注\n满。若要求 10 小时注满水池 ,并且甲、乙两管合放的时间尽可能地少,则甲、乙两管合放最少\n需要多少小时?\n12. 全家六人准备外出旅游,旅行社有以下优惠活动: PSK 1 张全票 ,其他人可享受 9 折\n优惠; 若买 2 张全票,其他人可享受 8 折优惠; ASK 3 张全票,其他人可享受 7 Es AK\n4张全票,其他人可享受 6 折优惠; ASK 5 张全票,其他人可享受 5 折优惠,则这家人买几张全\n票最合算?\n13. 烙饼需要烙它的正、` 反面,如果烙熟一张饼的正` 反面,各用去 3 分钟,那么用一次可\n容下 2 张饼的锅来烙 9 张饼,至少需要多少分钟?\n14. 在秋游活动中,三年级的 50 名同学到公园划船,公园有 2 种船,大船每条可坐 6 人，\n小船每条可坐 4 人,大船每条租金 10 元,小船每条租金 8 元,请你设计一种最经济实惠的租船\n方案。\n15. 救灾指挥部,将救灾物品装入 34 个集装箱:4 吨的集装箱 3 个,3 吨的集装箱 4 个，\n2. 5 吨的集装箱 5个,1.5 吨的集装箱 10 个,1 吨的集装箱 12 个,那么至少需要多少辆载重\n5 吨的汽车才能一次将这些救灾物品运走?\n145\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n16. 抗日战争时期 ,敌后区的伤员疗养院由于叛徒的出卖,医护员小张必须带着 5 名伤员\n连夜撤离,但是夜间要过一座独木桥,他们仅有一慢油灯照明 ,借助这闹灯,每次最多两人可以\n走过独木桥。而这 6 人根据受伤程度过桥所需要的时间分别是 1 分钟,3 分钟,6 分钟,8 分\n钟,12 分钟,20 分钟,但是这蓄灯只能点燃 55 分钟了,而没有灯照明,任何人企图过河那是必\n然跌落到深谷中的。问小张能顺利带着这 5 名伤员安全地通过这座独木桥吗?\n146\nRiise CRA “MBER” RRL TAG.\nBES &",
+      "id": "grade4_b0160",
+      "pageEnd": 152,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "119 米长的钢筋要前成4 米或 7 米两种尺寸,如何剪最省材料?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "山区有一个工矿,它的十个车间分散在一条环行的铁道上。四列货车在铁道上转圈运 送货物。货车到了基一车间,就要有装卸工人装上或印下货物。各车间由于工作量不同,所需 装人印工人数也不同,各车间所需装卸工人数如图所示。当然,装印工可以固定在车间等车;也 可以坐在货车上跟车到各车间去干活;也可以一部分装务工固定在车间 ,另一部分跟车。问怎 样安排跟车人数和各和车间固定人数,才能使装务工的总人数最少? 最少需多少名工人? 30 57 50 43 48 52 35 41 37 46 142 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "平底锅里每次能同时放两张馆,郑熟一张饼需要 2 分钟(正、反面各需要 1 分钟),如果 SEINE 7 张饼至少需要几分钟?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "两个油漆工要给三块同样的木板正、反面刷潜,每面刷完要用 2 分钟,并且两人不能同 时给一块木板刷油污。怎样安排才能使刷油漆的时间最少” 最少的时间是几分钟?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "钢筋原材料每件长 7. 3 米,每套钢筋架子用长 2.9米.2.1米和1.5米的钢筋各 1 段。 现在需要绑好钢筋架子 100 套,至少要用去原材料几件?截料方法怎样最省? A, 小李,小王,小赵三人同时去理发店找张师傅理发,小李需要 25 分钟,小王需要 10 分 钟,小赵需要 15 分钟,经张师傅合理安排使三人的等候时间的总和最少,张师传怎样安排的?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "用 18 厘米的铁丝于成各种长方形,要使长和宽的长度都是整厘米数,于成的长方形的 面积最大是多少平方厘米? 143 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "用5,6,7,8 这四个数字分别组成两个两位数,那么这两个两位数的乘积最大和最小分 WEB >?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "把长 189 米的钢筋截成7米和4米长的钢筋,如何截最省材料?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "10 个人各拿一只水桶去打水,水龙头注满第一个人的水桶需要 1 分钟,注满第二个人 的水桶需要 2 分钟,依此类推,注满第几个桶就需要几分钟,如果只有一只水龙头,适当安排 10 个人的排队顺序,就可以使每个人所费时间的总和尽可能少,问:这个总费时至少是多少 分钟?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "赵师傅要加工某项工程急需的 5 个零件,如果加工零件A.B、C、D、刁 所需时间分别 是5分钟.3 分钟.4分钟.7 分钟.6 分钟。问应该按照什么次序加工,使工程各部件组装所耽 误的时间总和最少? 这个时间是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "妈妈杀好鱼后,让小明帮助烧鱼。他洗鱼.切鱼.切姜片葱花.洗锅前烧,各道工序共 花了17 分钟,如图所示 ,请你设计一个顺序,使花费的时间最少。 2分钟 2分钟 1分钟 2分钟 2分钟 3分钟 5分钟 | 洗鱼 上| 切鱼 上| 切姜多| | 洗钢 上 |将钢烧热|上 |将油烧热F | ne | 144 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "某水池可以用甲、乙两个水管注水,单放甲管需 12 小时注满,单放乙管需 24 小时注 满。若要求 10 小时注满水池 ,并且甲、乙两管合放的时间尽可能地少,则甲、乙两管合放最少 需要多少小时?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "全家六人准备外出旅游,旅行社有以下优惠活动: PSK 1 张全票 ,其他人可享受 9 折 优惠; 若买 2 张全票,其他人可享受 8 折优惠; ASK 3 张全票,其他人可享受 7 Es AK 4张全票,其他人可享受 6 折优惠; ASK 5 张全票,其他人可享受 5 折优惠,则这家人买几张全 票最合算?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "烙饼需要烙它的正、` 反面,如果烙熟一张饼的正` 反面,各用去 3 分钟,那么用一次可 容下 2 张饼的锅来烙 9 张饼,至少需要多少分钟?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "14",
+          "prompt": "在秋游活动中,三年级的 50 名同学到公园划船,公园有 2 种船,大船每条可坐 6 人， 小船每条可坐 4 人,大船每条租金 10 元,小船每条租金 8 元,请你设计一种最经济实惠的租船 方案。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "救灾指挥部,将救灾物品装入 34 个集装箱:4 吨的集装箱 3 个,3 吨的集装箱 4 个，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "5 吨的集装箱 5个,1.5 吨的集装箱 10 个,1 吨的集装箱 12 个,那么至少需要多少辆载重 5 吨的汽车才能一次将这些救灾物品运走? 145 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "16",
+          "prompt": "抗日战争时期 ,敌后区的伤员疗养院由于叛徒的出卖,医护员小张必须带着 5 名伤员 连夜撤离,但是夜间要过一座独木桥,他们仅有一慢油灯照明 ,借助这闹灯,每次最多两人可以 走过独木桥。而这 6 人根据受伤程度过桥所需要的时间分别是 1 分钟,3 分钟,6 分钟,8 分 钟,12 分钟,20 分钟,但是这蓄灯只能点燃 55 分钟了,而没有灯照明,任何人企图过河那是必 然跌落到深谷中的。问小张能顺利带着这 5 名伤员安全地通过这座独木桥吗? 146 Riise CRA “MBER” RRL TAG. BES &",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 78,
+      "lessonNo": 14,
+      "lessonTitle": "二均数应用是全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1, 一辆汽车从A HB) BHM BI 3 个小时每小时行驶 90 千米,后 2 个小时由于道路原因，\n每小时少行驶 5 千米。汽车从 A SHS B 地的平均速度是多少?\n2, 小林从甲地到乙地,去时的速度为每小时 30 千米,回来时的速度为每小时 50 PK,\n求小林往返一次的平均速度。\n1. 小敏的 6 次篮球测验的成绩分别为 95 分.91 分.93 分.91 分.92 分,96 分。他的平均\nMAE BD?\n2. 某五个数的平均值为 50,若把其中一个数改为 90,平均值就变为 60,这个数原来应该\n是多少?\nPei\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n3. 有五个数排成一排,前三个数的平均值是 17,后三个数的平均值是 15 ,第三个数是 16,\n这五个数的平均值是多少?\n4, 小刚从家到学校的路程是 360 米,小刚上学要走 7 分钟,回家时比上学时少用 2 分钟，\n那么小刚往返一趟平均每分钟走多少米?\n5四年级英语测验,第三小组同学的得分情况为:1 人得 98 分,4 人得 85 分,3 人得 82\n分,2 人得 73 分,这个小组的平均成绩是多少?\n6. 电视机三一季度生产电视机 48 万台,二季度生产电视机 54 万台,上半年平均每个月\n生产电视机多少万台?\n7. 这次数学测验,已知小佳.小明、小慧,小斌的平均成绩是 94 分,其中小芝的成绩是 97\n分,那么其他三个人的平均成绩是多少?\n8. 爸爸骑自行车以 20 千米/时的速度行驶了 0. 6 小时到达上班的单位,回来时只用了\n0.4小时,和爸爸往返全程的平均速度是多少?\n74\nRiise CRA “MBER” RRL TAG.\n第 14讲   二均数应用是 全\n9. 有五个数排成一排,其平均值为 12 ,前三个数的平均值为 14,后三个数的平均值为 13，\n则第三个数是多少?\n10. 小明的测验成绩有如下关系,数学和英语的平均成绩是 86 分,数学和语文的平均成\n绩是 92 分,英语和语文的平均成绩是 89 分,那么小明这次测验的平均成绩是多少分?\n11. 张明前五次数学测验的平均成绩是 88 分。为了使平均成绩达到 92. 5 分,张明要连\n续考多少次满分? (每次测验满分是 100 分)\n12. 四(1)班有52 人,四(2)班有 48 人。在一次考试中,两班全体学生的平均分为 78 分，\n四(2)班的平均分比四(1)班的平均分高 5 分。两个班的平均分分别是多少?\n13. 一辆汽车从甲地开往乙地,上坡速度为 60 千米/时,下坡速度为 100 千米/时。现在\n这辆汽车从甲地出发,上坡用了4小时,下坡用了 3 小时,从原路返回时,下坡速度改为每小时\n80 千米,而上坡速度不变。求这辆汽车往返一次的平均速度。\n14, 学校乒乓球队 12 人合影留念,普通彩照(至少洗 2张)洗 2张的价格是 16 元,然后每\n加洗 1张只需0.8 元。如果1 人得1张照片,平均每人应付多少元钱?\n15. 李华从甲地跑步到乙地。已知两地相距 7 千米,他先以每分钟 250 米的速度跑了 10\n分钟,然后以每分钟 180 米的速度跑到乙地。李华从甲地到乙地的平均速度是多少?\n75\nRite LAA MMP RR” REL CARS\n[—  CALNE —_ FZ\n| ae GSSi5s",
+      "id": "grade4_b0081",
+      "pageEnd": 81,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "一辆汽车从A HB) BHM BI 3 个小时每小时行驶 90 千米,后 2 个小时由于道路原因， 每小时少行驶 5 千米。汽车从 A SHS B 地的平均速度是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "小林从甲地到乙地,去时的速度为每小时 30 千米,回来时的速度为每小时 50 PK, 求小林往返一次的平均速度。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "小敏的 6 次篮球测验的成绩分别为 95 分.91 分.93 分.91 分.92 分,96 分。他的平均 MAE BD?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某五个数的平均值为 50,若把其中一个数改为 90,平均值就变为 60,这个数原来应该 是多少? Pei Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "有五个数排成一排,前三个数的平均值是 17,后三个数的平均值是 15 ,第三个数是 16, 这五个数的平均值是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "小刚从家到学校的路程是 360 米,小刚上学要走 7 分钟,回家时比上学时少用 2 分钟， 那么小刚往返一趟平均每分钟走多少米? 5四年级英语测验,第三小组同学的得分情况为:1 人得 98 分,4 人得 85 分,3 人得 82 分,2 人得 73 分,这个小组的平均成绩是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "电视机三一季度生产电视机 48 万台,二季度生产电视机 54 万台,上半年平均每个月 生产电视机多少万台?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "这次数学测验,已知小佳.小明、小慧,小斌的平均成绩是 94 分,其中小芝的成绩是 97 分,那么其他三个人的平均成绩是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "爸爸骑自行车以 20 千米/时的速度行驶了 0. 6 小时到达上班的单位,回来时只用了",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "0",
+          "prompt": "4小时,和爸爸往返全程的平均速度是多少? 74 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "有五个数排成一排,其平均值为 12 ,前三个数的平均值为 14,后三个数的平均值为 13， 则第三个数是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小明的测验成绩有如下关系,数学和英语的平均成绩是 86 分,数学和语文的平均成 绩是 92 分,英语和语文的平均成绩是 89 分,那么小明这次测验的平均成绩是多少分?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "张明前五次数学测验的平均成绩是 88 分。为了使平均成绩达到 92. 5 分,张明要连 续考多少次满分? (每次测验满分是 100 分)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "四(1)班有52 人,四(2)班有 48 人。在一次考试中,两班全体学生的平均分为 78 分， 四(2)班的平均分比四(1)班的平均分高 5 分。两个班的平均分分别是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "一辆汽车从甲地开往乙地,上坡速度为 60 千米/时,下坡速度为 100 千米/时。现在 这辆汽车从甲地出发,上坡用了4小时,下坡用了 3 小时,从原路返回时,下坡速度改为每小时 80 千米,而上坡速度不变。求这辆汽车往返一次的平均速度。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "14",
+          "prompt": "学校乒乓球队 12 人合影留念,普通彩照(至少洗 2张)洗 2张的价格是 16 元,然后每 加洗 1张只需0.8 元。如果1 人得1张照片,平均每人应付多少元钱?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "李华从甲地跑步到乙地。已知两地相距 7 千米,他先以每分钟 250 米的速度跑了 10 分钟,然后以每分钟 180 米的速度跑到乙地。李华从甲地到乙地的平均速度是多少? 75 Rite LAA MMP RR” REL CARS [— CALNE —_ FZ | ae GSSi5s",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 14,
+      "lessonNo": 1,
+      "lessonTitle": "大数的认识&",
+      "column": "competition_boost",
+      "rawHeading": "(让 竞赛强化",
+      "text": "(让 竞赛强化\n1. 两点之间(     )最短; 过一点可以画(     )条直线;过两点可以画(     )条\n2. KFC     ) 而小于(     )的角叫作锐角 ;直角等于(     KFC     ) 而\n小于(     ) 的角叫作钝角。\n3. 1 平角一    )度一(    )倍的直角;\n1 周角三(    )度一(    )倍的平角三(    )倍的直角。\n. 钟面上的时针和分针在 3 时成     )角,在 6 时成     )角。\nis\n5. Z1 22 BY 2%, Z2=50° MA Z1=(      ) 。\n6. Z1+272+73=180°. HP /1=30°,72=66°,BAZ3=(     de\n7 Z1 UZ2 BY 3 FR 10°, 72=20°, 71=(      ) 。\n8. 过一点只能画出一条直线。                                 (  )\n9. 一条射线长 10 厘米。                                     (  )\n10. 手电简射出的光线可以被看成是射线。                        (  )\n11. 角的两边越长,角的度数越大。                             (  )\n12, 直线比射线长。                                      (  )\n13. 大于 90\"的角叫钝角,小于 90° 的角叫锐角。                      (  )\n14. 角的大小与角的两边的长度有关。                           ()\n15, 周角是一条射线。                                     (  )\n9\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n16. 如图所示,已知忆1=40\",则一2,一3,一4分别为多少度?\nwae\n17, BREA Z1=60°,73=40°, 72,74 BRED?\n|\n4    1\nff\n> 1\nYo\n18. 下列各图中各有几个角(不考虑 180\"及以上的角) 。\n(1)                                  (2)\nAC SA                       三角形内有( )个角\n19, 五边形剪去一个角 ,还剩下几个角? 想一想有多少种可能” 请用图形来表示。\n20. 图中有几个直角? 几个锐角? 几个钝角?\n10\nRiise CRA “MBER” RRL TAG.\nott\n三位数乘两位数是在学生已经学习了两位数乘一位数的基础上接着进行的,利用竖式计\n算三位数乘两位数要注意,第二个因数的十位乘三位数后所得的乘积末尾写在十位上。同时，\n当遇到因数未尾有 0 时,可先把 0 前面的数相乘,再看两个因数的末尾一共有几个 0,束在乘\n得的数的末尾添加几个 0。\n我们一般会遇到以下类型的问题;\nC1) 计算题 ,列竖式计算或列式计算;\n《2) 对式子的大小进行比较;\n(3) 根据因数和乘积的天系 ,解决相天的填空题;\n(4) 结合实际生活的相关应用题。\n三位数乘两位数,企考查学生的计算能力的同时 ,也在考查学生做题是否认真细致。\n计算:173X23\n解 173\nx 23\n519\n346\n3979\n173 X 23=3979",
+      "id": "grade4_b0013",
+      "pageEnd": 16,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "两点之间( )最短; 过一点可以画( )条直线;过两点可以画( )条",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "KFC ) 而小于( )的角叫作锐角 ;直角等于( KFC ) 而 小于( ) 的角叫作钝角。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "1 平角一 )度一( )倍的直角; 1 周角三( )度一( )倍的平角三( )倍的直角。 . 钟面上的时针和分针在 3 时成 )角,在 6 时成 )角。 is",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "Z1 22 BY 2%, Z2=50° MA Z1=( ) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "Z1+272+73=180°. HP /1=30°,72=66°,BAZ3=( de 7 Z1 UZ2 BY 3 FR 10°, 72=20°, 71=( ) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "过一点只能画出一条直线。 ( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "一条射线长 10 厘米。 ( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "手电简射出的光线可以被看成是射线。 ( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "角的两边越长,角的度数越大。 ( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "直线比射线长。 ( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "大于 90\"的角叫钝角,小于 90° 的角叫锐角。 ( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "14",
+          "prompt": "角的大小与角的两边的长度有关。 ()",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "周角是一条射线。 ( ) 9 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "16",
+          "prompt": "如图所示,已知忆1=40\",则一2,一3,一4分别为多少度? wae",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "17",
+          "prompt": "BREA Z1=60°,73=40°, 72,74 BRED? | 4 1 ff > 1 Yo",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "18",
+          "prompt": "下列各图中各有几个角(不考虑 180\"及以上的角) 。 (1) (2) AC SA 三角形内有( )个角",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "19",
+          "prompt": "五边形剪去一个角 ,还剩下几个角? 想一想有多少种可能” 请用图形来表示。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "20",
+          "prompt": "图中有几个直角? 几个锐角? 几个钝角? 10 Riise CRA “MBER” RRL TAG. ott 三位数乘两位数是在学生已经学习了两位数乘一位数的基础上接着进行的,利用竖式计 算三位数乘两位数要注意,第二个因数的十位乘三位数后所得的乘积末尾写在十位上。同时， 当遇到因数未尾有 0 时,可先把 0 前面的数相乘,再看两个因数的末尾一共有几个 0,束在乘 得的数的末尾添加几个 0。 我们一般会遇到以下类型的问题; C1) 计算题 ,列竖式计算或列式计算; 《2) 对式子的大小进行比较; (3) 根据因数和乘积的天系 ,解决相天的填空题; (4) 结合实际生活的相关应用题。 三位数乘两位数,企考查学生的计算能力的同时 ,也在考查学生做题是否认真细致。 计算:173X23 解 173 x 23 519 346 3979 173 X 23=3979",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 118,
+      "lessonNo": 20,
+      "lessonTitle": "“整除和有余数除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练5",
+      "text": "思维训练5\n1. 两个数相除,商是 19 ,余数是 4,被除数与除数的差为 652,求被除数。\n人| senate\n1. 某年的 10 月有 5 个星期六,4 个星期日,这一年的 10 月 1 日是星期        8\n2. 今天是星期四,从今天算起,第 100 天是星期\n3. 减数.被减数.差之和,除以被减数的商是      8\n4. 某个自然数,被 3 除余 2,被 5 除余 4,被 7 除余 6,这个自然数最小是\n5. 在五位数 15A8B 既能被 3 整除,又能被 5 整除,那A 是          ,卫 是\n6. 有一本故事书共 100 页 ,插图和文字的排列顺序是文`图.图.图.文.图.图.图、文……\n照这样反复,这本书共有         页插图。\n7. 甲数除以乙数,商 18 余4,甲数与乙数的和是 270,甲是        ,乙是\n8. 有同样大小的红 `白、黑球共 200 个,按 5 PETER 个白球、3 个黑球的顺序排列,那么\n黑球共有        个,第 158 个球是        fi.\n9, 四位数 189A ,能同时被 2 和 3 整除,A 是          。\n113\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n10，甲数除以乙数的商是三,那么乙数与甲数的比是     ,甲数是甲乙两数和的\nfi 9\nRZ.           。\n11. 个位数是 5,且能被 3 整除的四位数有多少个?\n12，有一列数:9, 5,，7,， 3, 9, 5，7,，3,…,按照这样的顺序排列下来,第 127 个数是多少?\n前 127 个数相加的和是多少?\n13. 五位数 3A85B 能同时被 2,3,5 整除,这个五位数最大是多大?\n14. 在 43 的右边补上三个数字,组成一个五位数,使它能被 3,4,5 整除,求这样的最小五\n位数。\n15. 游乐园里挂着长长的一排彩色小动物 ,第一个是猴子,第二个是熊猫,第三个是奶牛，\n第四个是袋鼠,第五个是猴子,第六个是熊猫,第七个是奶牛,第八个是袋鼠,第九个是猴子……”\n按照这样的顺序反复下去,第 2008 个小动物是什么?\n114\nRite RA “MME HR” FRL GA Tawe\nSGSSSSSSS\nelt Cite",
+      "id": "grade4_b0126",
+      "pageEnd": 120,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "两个数相除,商是 19 ,余数是 4,被除数与除数的差为 652,求被除数。 人| senate",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "某年的 10 月有 5 个星期六,4 个星期日,这一年的 10 月 1 日是星期 8",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "今天是星期四,从今天算起,第 100 天是星期",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "减数.被减数.差之和,除以被减数的商是 8",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "某个自然数,被 3 除余 2,被 5 除余 4,被 7 除余 6,这个自然数最小是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "在五位数 15A8B 既能被 3 整除,又能被 5 整除,那A 是 ,卫 是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "有一本故事书共 100 页 ,插图和文字的排列顺序是文`图.图.图.文.图.图.图、文…… 照这样反复,这本书共有 页插图。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "甲数除以乙数,商 18 余4,甲数与乙数的和是 270,甲是 ,乙是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "有同样大小的红 `白、黑球共 200 个,按 5 PETER 个白球、3 个黑球的顺序排列,那么 黑球共有 个,第 158 个球是 fi.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "四位数 189A ,能同时被 2 和 3 整除,A 是 。 113 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "甲数除以乙数的商是三,那么乙数与甲数的比是 ,甲数是甲乙两数和的 fi 9 RZ. 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "个位数是 5,且能被 3 整除的四位数有多少个?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "有一列数:9, 5,，7,， 3, 9, 5，7,，3,…,按照这样的顺序排列下来,第 127 个数是多少? 前 127 个数相加的和是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "五位数 3A85B 能同时被 2,3,5 整除,这个五位数最大是多大?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "14",
+          "prompt": "在 43 的右边补上三个数字,组成一个五位数,使它能被 3,4,5 整除,求这样的最小五 位数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "游乐园里挂着长长的一排彩色小动物 ,第一个是猴子,第二个是熊猫,第三个是奶牛， 第四个是袋鼠,第五个是猴子,第六个是熊猫,第七个是奶牛,第八个是袋鼠,第九个是猴子……” 按照这样的顺序反复下去,第 2008 个小动物是什么? 114 Rite RA “MME HR” FRL GA Tawe SGSSSSSSS elt Cite",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 136,
+      "lessonNo": 23,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 5",
+      "text": "思维训练 5\n1，试找出两个整数,使大数与小数之和加上大数与小数之差,再加上 1000 等于 1999。如\n果找得出来,请写出这两个数;如果找不出来,请说明理由。\n2，师传与徒弟加工同一种零件,各人把产品放在自己的筹介里,师傅的产量是徒弟的 2\n倍,师傅的产品放在 4 RB EEA FE RCE 2 只筹俊中 ,每只筹介都标明了产品的只炎\n78 只,94只,86只,87 只,82 只,80只。根据上面的条件,你能找出哪两只篮的产品是徒弟制\n造的吗?\n区\n1. 任意相邻两个自然数的乘积是      。(填“偶数?或\"奇数”)\n2, 如果用表示一个自然数,那么2z(z十1)是         。(填“偶数?或奇数”)\n3. GI 117+52+289+13+a=2009,a 是     。(填“偶数?或“奇数”)\n4, BRI3X5Xa Xb Xc=23565. hill A RB b 是          。(填“偶数?或奇数”)\n5. 三个连续偶数的和是 240 ,这三个偶数是      ，\n131\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n6. 100 个奇数之和和 100 个偶数之和的差是    。(填“偶数?或\"奇数”\n7. 1十2十3十4十…十2012十2013 的结果是     。(填“偶数?或“奇数”)\n8. 如果 是奇数,那么2一5 和7十10 分别是         和         。(盾“偶数?或“奇\n9. 某自然数分别与两个相邻自然数相乘 ,所得积相差 500,这个数是 。\n10. 算式 1X2十3X4十5X6十…十99X100 的得数是        。(填“偶数?或奇数”\nLL. 东东在做算术题时,写出了如下一个等式:1038王13X75十64,他做得对吗?\n12. abc 三个数的和与它们的积的和为奇数,问这三个数中最多可以有几个奇数?\n13. 1一2018 这 2018 个自然数中,所有的奇数之和与所有的偶数之和的差是多少?\n14. 一列数:1,2,3,6,11,20,37,68,125,……,从第4个数开始,每个数都是前三个数的和。\n那么在前 2008 个数中,有多少个奇数?\n15. 用1,2,3,4,5 这五个数两两相乘,可以得到 10 个不同的乘积。问 :乘积中是偶数多\n还是奇数多?\n132\nRite RA “MME HR” FRL GA Tawe\n-  —]\nC2OGE EsUsxe@deyr\n加     KE?\n事物的发展变化都是有规律的,那么怎样才能找到规律呢9 这就要求我们认真观察事物，\n只有这样我们才能更好地了解和掌握尼。从而找到解决问题的方法和途径。",
+      "id": "grade4_b0149",
+      "pageEnd": 138,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "试找出两个整数,使大数与小数之和加上大数与小数之差,再加上 1000 等于 1999。如 果找得出来,请写出这两个数;如果找不出来,请说明理由。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "师传与徒弟加工同一种零件,各人把产品放在自己的筹介里,师傅的产量是徒弟的 2 倍,师傅的产品放在 4 RB EEA FE RCE 2 只筹俊中 ,每只筹介都标明了产品的只炎 78 只,94只,86只,87 只,82 只,80只。根据上面的条件,你能找出哪两只篮的产品是徒弟制 造的吗? 区",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "任意相邻两个自然数的乘积是 。(填“偶数?或\"奇数”)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如果用表示一个自然数,那么2z(z十1)是 。(填“偶数?或奇数”)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "GI 117+52+289+13+a=2009,a 是 。(填“偶数?或“奇数”)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "BRI3X5Xa Xb Xc=23565. hill A RB b 是 。(填“偶数?或奇数”)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "三个连续偶数的和是 240 ,这三个偶数是 ， 131 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "100 个奇数之和和 100 个偶数之和的差是 。(填“偶数?或\"奇数”",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "1十2十3十4十…十2012十2013 的结果是 。(填“偶数?或“奇数”)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "如果 是奇数,那么2一5 和7十10 分别是 和 。(盾“偶数?或“奇",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "某自然数分别与两个相邻自然数相乘 ,所得积相差 500,这个数是 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "算式 1X2十3X4十5X6十…十99X100 的得数是 。(填“偶数?或奇数” LL. 东东在做算术题时,写出了如下一个等式:1038王13X75十64,他做得对吗?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "abc 三个数的和与它们的积的和为奇数,问这三个数中最多可以有几个奇数?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "1一2018 这 2018 个自然数中,所有的奇数之和与所有的偶数之和的差是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "14",
+          "prompt": "一列数:1,2,3,6,11,20,37,68,125,……,从第4个数开始,每个数都是前三个数的和。 那么在前 2008 个数中,有多少个奇数?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "用1,2,3,4,5 这五个数两两相乘,可以得到 10 个不同的乘积。问 :乘积中是偶数多 还是奇数多? 132 Rite RA “MME HR” FRL GA Tawe - —] C2OGE EsUsxe@deyr 加 KE? 事物的发展变化都是有规律的,那么怎样才能找到规律呢9 这就要求我们认真观察事物， 只有这样我们才能更好地了解和掌握尼。从而找到解决问题的方法和途径。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 57,
+      "lessonNo": 9,
+      "lessonTitle": "小数的意义和性质",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 农民伯伯把往笛常常做成三角形,是利用了三角形(  )的特性。\nA. 内角和是 180°\nB.， 容易变形\n2. 一个三角形的两条边分别是 10 厘米和 7 厘米,那么第三条边的长度可能是人     )\n厘米。\nA. 2          B. 21         C. 15         D, 17\nE\nlL. ¢                       )叫作三角形,三角形有(     )个项点，\n(     ARV, (     )个角。\n2. 三角形在日常生活中有广泛应用,因为它具有(    ).\n3. 三角形按角的特点可以分成(     )三角形、     )三角形和(     )三角形。\n4. 三角形越大,内角和(    de\nA, 越大        B. 不变        C. iby)\n5. 等腰三角形的一个底角是 30 BE ,这个三角形又叫作(     Die\nA. 锐角三角形    B. 钝角三角形    C. 直角三角形\n6. 任意一个三角形中至少有(     )个锐角。\nA. 0          B. 1          C. 2          D. 3\n7. 在一个直角三角形中,已知一个锐角是 15\" ,你能求出另一个角是多少度吗? 为什么?\n8. 等腰三角形的顶角是 30\",求其他两个角的度数。\n52\nRite CAA MMP” REL CALS\n9. 三条分别长为 5 厘米.4 厘米10 厘米的线段能拼成一个三角形吗? 为什么?\n10. 玲玲从家到学校,有几条路? 哪条路最近呢? 为什么?\n公园                                        学校\n家                                                    邮局\nLL. 和斧爷有一块菜地的形状是近似的等边三角形,一边长 5 米。如果在菜地的外面围上\n一图往笛,这个息秃的周长大约是多少?\n12. 请用你学到的知识求这个六边形的内角和。\n13. 求 一1 角的度数。\n136°\noo\nRiise CRA “MBER” RRL TAG.\nCOESSSSSS\nES) 1G ANE\ndaw\nLAVIN BUA rae THRU BIT CBI) RTT) ,按照整数计算方法进行计算,得\n数的小数点要和横线上的小数的小数点对齐,得数的小数部分未尾有”0” ,一般要把“0\"去掉。\n我们一般会遇到以下类型的问题:\nC1) 根据小数的加减法的计算方法 ,进行计算;\n(2) 与小数加减法相关的应用题。\n小华到书店买学习用品,付给了售货员阿姨 50 元,找回了 24. 7 元,小华发现多找了 3. 1\n元,退还给了阿姨,小华买的这些文具一共是多少钱?\n分析 本题思路清晰,关键在于计算。小数相加列竖式时,只要把小数点对齐,按照整数加\n法法则进行。\n解 ”50一24.7十3. 1\n30.0\n- 24.7\n2:5 ;3\n+ 3.1\n28.4\n列式计算得 50一24. 7十3. 1=28. 4( 0)",
+      "id": "grade4_b0058",
+      "pageEnd": 59,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "农民伯伯把往笛常常做成三角形,是利用了三角形( )的特性。 A. 内角和是 180° B.， 容易变形",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一个三角形的两条边分别是 10 厘米和 7 厘米,那么第三条边的长度可能是人 ) 厘米。 A. 2 B. 21 C. 15 D, 17 E lL. ¢ )叫作三角形,三角形有( )个项点， ( ARV, ( )个角。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "三角形在日常生活中有广泛应用,因为它具有( ).",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "三角形按角的特点可以分成( )三角形、 )三角形和( )三角形。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "三角形越大,内角和( de A, 越大 B. 不变 C. iby)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "等腰三角形的一个底角是 30 BE ,这个三角形又叫作( Die A. 锐角三角形 B. 钝角三角形 C. 直角三角形",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "任意一个三角形中至少有( )个锐角。 A. 0 B. 1 C. 2 D. 3",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "在一个直角三角形中,已知一个锐角是 15\" ,你能求出另一个角是多少度吗? 为什么?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "等腰三角形的顶角是 30\",求其他两个角的度数。 52 Rite CAA MMP” REL CALS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "三条分别长为 5 厘米.4 厘米10 厘米的线段能拼成一个三角形吗? 为什么?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "玲玲从家到学校,有几条路? 哪条路最近呢? 为什么? 公园 学校 家 邮局 LL. 和斧爷有一块菜地的形状是近似的等边三角形,一边长 5 米。如果在菜地的外面围上 一图往笛,这个息秃的周长大约是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "请用你学到的知识求这个六边形的内角和。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "13",
+          "prompt": "求 一1 角的度数。 136° oo Riise CRA “MBER” RRL TAG. COESSSSSS ES) 1G ANE daw LAVIN BUA rae THRU BIT CBI) RTT) ,按照整数计算方法进行计算,得 数的小数点要和横线上的小数的小数点对齐,得数的小数部分未尾有”0” ,一般要把“0\"去掉。 我们一般会遇到以下类型的问题: C1) 根据小数的加减法的计算方法 ,进行计算; (2) 与小数加减法相关的应用题。 小华到书店买学习用品,付给了售货员阿姨 50 元,找回了 24. 7 元,小华发现多找了 3. 1 元,退还给了阿姨,小华买的这些文具一共是多少钱? 分析 本题思路清晰,关键在于计算。小数相加列竖式时,只要把小数点对齐,按照整数加 法法则进行。 解 ”50一24.7十3. 1",
+          "hasAnalysis": true,
+          "hasSolution": true
+        },
+        {
+          "localNo": "30",
+          "prompt": "0 - 24.7 2:5 ;3 + 3.1",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "28",
+          "prompt": "4 列式计算得 50一24. 7十3. 1=28. 4( 0)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ],
+  "grade5": [
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 23,
+      "lessonNo": 4,
+      "lessonTitle": "人",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 电视台要播放一部 30 集电视连续剧,若要求每天安排播出的集数互不相等,则该电视\n连续剧最多可以播几天?\n2. 把 37 拆分成若干个不同的质数之和,有多少种不同的拆分方法? 将每一种拆分方法\n所拆出的质数相乘,得到的乘积中 ,哪个最小?\nOl set\n1. 将 10 分成若干个自然数的和(允许有相同的) ,使得这些自然数的乘积最大,这个乘积\n是人     Via\nA, 27          B, 36          C. 32          D, 25\n2. 3 个孩子分 20 个苹果,每人至少一个,要求每人分得的苹果个数是整数,分配方案有\n(DAR,\nA. 64         B, 380         C. 171         D. 190\n3. 将 12 分成若干个自然数的和(不允许有相同的) ,使得这些自然数的乘积最大,这个乘\n积是\n4, 将 14拆成3 个自然数的和,并使这三个自然数的积最大,应拆成       。\n5. 把 28 分成几个自然数(可以相同)的和,再求出这些数的乘积,并且要使得到的乘积尽\n可能大,最大乘积是           ;\n6. 100 最多能写成       个不同的正整数之和。\n18\nRite RA “MME HR” FRL GA Tawe\n第4讲 nano 人\n7. 有七个盘子,每个盘子中分别装有1个,2个,3个,5个,6个,7个和9个梨,要从这些\n盘子中取出 15 个梨,但要求每个盘子中的梨要么都拿,要么都不拿,共有        种不同的\n8. 把 15 拆分成两个自然数的和,再求出这两个自然数的积,且使这个积最大,应该如何\n拆分?\n9. 有一把长为 13 厘米的直尺,在上面刻几条刻度线,使得这把尺子能一次量出 1~ 13 J\n米的所有整厘米的长度。问:至少要刻几条线? 要刻在哪些位置上?\n10. 若干个同样的盒子排成一列,韩梅梅把 42 颗同样的糖果放在这些盒子里然后外出，\n李雷从每个盒子里取出一颗糖果,然后把这些糖果再放到糖果数最少的盒子里去,再把盒子重\n排了一下。韩梅梅回来 ,仔细查看,没有发现有人动过糖果和盒子。问 :一共有多少个盒子?\n19\nRite LAA MMP RR” REL CARS\n66SessSss 7\n| BRE WSSnS",
+      "id": "grade5_b0020",
+      "pageEnd": 25,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "电视台要播放一部 30 集电视连续剧,若要求每天安排播出的集数互不相等,则该电视 连续剧最多可以播几天?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "把 37 拆分成若干个不同的质数之和,有多少种不同的拆分方法? 将每一种拆分方法 所拆出的质数相乘,得到的乘积中 ,哪个最小? Ol set",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "将 10 分成若干个自然数的和(允许有相同的) ,使得这些自然数的乘积最大,这个乘积 是人 Via A, 27 B, 36 C. 32 D, 25",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "3 个孩子分 20 个苹果,每人至少一个,要求每人分得的苹果个数是整数,分配方案有 (DAR, A. 64 B, 380 C. 171 D. 190",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "将 12 分成若干个自然数的和(不允许有相同的) ,使得这些自然数的乘积最大,这个乘 积是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "将 14拆成3 个自然数的和,并使这三个自然数的积最大,应拆成 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "把 28 分成几个自然数(可以相同)的和,再求出这些数的乘积,并且要使得到的乘积尽 可能大,最大乘积是 ;",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "100 最多能写成 个不同的正整数之和。 18 Rite RA “MME HR” FRL GA Tawe",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "有七个盘子,每个盘子中分别装有1个,2个,3个,5个,6个,7个和9个梨,要从这些 盘子中取出 15 个梨,但要求每个盘子中的梨要么都拿,要么都不拿,共有 种不同的",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "把 15 拆分成两个自然数的和,再求出这两个自然数的积,且使这个积最大,应该如何 拆分?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "有一把长为 13 厘米的直尺,在上面刻几条刻度线,使得这把尺子能一次量出 1~ 13 J 米的所有整厘米的长度。问:至少要刻几条线? 要刻在哪些位置上?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "若干个同样的盒子排成一列,韩梅梅把 42 颗同样的糖果放在这些盒子里然后外出， 李雷从每个盒子里取出一颗糖果,然后把这些糖果再放到糖果数最少的盒子里去,再把盒子重 排了一下。韩梅梅回来 ,仔细查看,没有发现有人动过糖果和盒子。问 :一共有多少个盒子? 19 Rite LAA MMP RR” REL CARS 66SessSss 7 | BRE WSSnS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 36,
+      "lessonNo": 7,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1.， 一个数分别与另外两个相邻奇数相乘 ,所得的两个积相差 180,这个数是多少?\n2. 用 0一9 这十个数字组成五个两位数,每个数字只用一次,要求它们的和是奇数,那么\n这五个两位数的和最大是多少?\nCi set\n1， 一个偶数分别和与其相邻的两个偶数相乘,所得的两个乘积相差 80 ,那么这三个偶数\n的和是\n2. 39 个连续奇数的和是 2379 ,其中最大的是\n3. 一串数排成一行:1,1,2,3,5,8,13,21,34,55……到这串数的第 2017 个数为止,共有\n个偶数。\n4. 一本书编和人 15 篇文章,这些文章排版后的页数分别是 1,2,3,…,15 页。如果将这些\n文章按某种次序装订成册,并统一编上页码,那么每篇文章的第一面是奇数页码的最多有\n篇。\n5. 有大、小两个盒子,其中大盒内装有 1001 枚白棋子和 1000 枚同样大小的黑棋子,小盒\n内装有足够多的黑棋子。阿花每次从大盒内随意摸出两枚棋子 ,若摸出的两枚棋子同色,则从\n小盒内取一枚黑模子放入大盒内;若摸出的两枚棋子异色,则把其中白棋子放回大盒内。问，\n31\nRiise CRA “MBER” RRL TAG.\na 数学央子生高分题库 (HM)\n从大盒内摸了 1999 次棋子后,大盒内还剩          枚棋子,它们都是         颜色。\n6. 任意给出一个五位数,将组成这个五位数的 5 个数字的顺序任意改变,得到一个新的\n五位数。那么,这两个五位数的和能不能等于 99999?\n7. 线段 AB 的两个端点,一个标以红色,一个标以蓝色。在线段中间择入 2017 个分点，\n每个分点随意标上红色或蓝色 ,这样分得 2018 条不重树的小线段。如果把两端点颜色不同的\n小线段叫作标准线段,那么标准线段的条数是奇数还是偶数?\n8. 从起点开始,隔一米种一棵树,如果把三块\"爱护树木”的小牌分别挂在三棵树上,那么\n不管怎样挂,至少有两棵挂牌的树 ,它们之间的距离是偶数(以米为单位),这是为什么?\n9. 在下图的每个D中填人一个自然数(可以相同) ,使得任意两个相邻的〇中的数字之关\n(大数减小数)恰好等于它们之间所标的数字。这能否办到? 为什么?\n10. 下图是半张中国象棋棋盘,棋盘上已放有一枚@@。众所周知,@@)是走“日\"字的。请\n问:这枚@@)能和否不重复地走遍这半张棋盘上的每一个点,然后回到出发点?\n32\nRite LAA MMP RR” REL CARS\n$60\nFOr Bete\n|",
+      "id": "grade5_b0036",
+      "pageEnd": 38,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "， 一个数分别与另外两个相邻奇数相乘 ,所得的两个积相差 180,这个数是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "用 0一9 这十个数字组成五个两位数,每个数字只用一次,要求它们的和是奇数,那么 这五个两位数的和最大是多少? Ci set",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "一个偶数分别和与其相邻的两个偶数相乘,所得的两个乘积相差 80 ,那么这三个偶数 的和是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "39 个连续奇数的和是 2379 ,其中最大的是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "一串数排成一行:1,1,2,3,5,8,13,21,34,55……到这串数的第 2017 个数为止,共有 个偶数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "一本书编和人 15 篇文章,这些文章排版后的页数分别是 1,2,3,…,15 页。如果将这些 文章按某种次序装订成册,并统一编上页码,那么每篇文章的第一面是奇数页码的最多有 篇。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "有大、小两个盒子,其中大盒内装有 1001 枚白棋子和 1000 枚同样大小的黑棋子,小盒 内装有足够多的黑棋子。阿花每次从大盒内随意摸出两枚棋子 ,若摸出的两枚棋子同色,则从 小盒内取一枚黑模子放入大盒内;若摸出的两枚棋子异色,则把其中白棋子放回大盒内。问， 31 Riise CRA “MBER” RRL TAG. a 数学央子生高分题库 (HM) 从大盒内摸了 1999 次棋子后,大盒内还剩 枚棋子,它们都是 颜色。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "任意给出一个五位数,将组成这个五位数的 5 个数字的顺序任意改变,得到一个新的 五位数。那么,这两个五位数的和能不能等于 99999?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "线段 AB 的两个端点,一个标以红色,一个标以蓝色。在线段中间择入 2017 个分点， 每个分点随意标上红色或蓝色 ,这样分得 2018 条不重树的小线段。如果把两端点颜色不同的 小线段叫作标准线段,那么标准线段的条数是奇数还是偶数?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "从起点开始,隔一米种一棵树,如果把三块\"爱护树木”的小牌分别挂在三棵树上,那么 不管怎样挂,至少有两棵挂牌的树 ,它们之间的距离是偶数(以米为单位),这是为什么?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "在下图的每个D中填人一个自然数(可以相同) ,使得任意两个相邻的〇中的数字之关 (大数减小数)恰好等于它们之间所标的数字。这能否办到? 为什么?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "下图是半张中国象棋棋盘,棋盘上已放有一枚@@。众所周知,@@)是走“日\"字的。请 问:这枚@@)能和否不重复地走遍这半张棋盘上的每一个点,然后回到出发点? 32 Rite LAA MMP RR” REL CARS $60 FOr Bete |",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 71,
+      "lessonNo": 14,
+      "lessonTitle": "”多边形的面积计算",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 某校将每年的三月份的第一周定为植树周。今年该校在市郊的一块如图(1)所示边长\n为 100 米的正方形山地上植树,图中的阴影部分是一个小水库。同学们要在每平方米内种一\n棵树 ,每天种树 1075 棵。问同学们几天能完成植树任务?” Cr 取 3. 14)\na\n100%\n图(1)                        图(2)\n67\nRiise CRA “MBER” RRL TAG.\n@ ssarsanex crew\n2. 如图(2) ,公园里有一片三个正方形相连的绿化带, 三个正方形的边长分别是 15 厘米，\n20 厘米,30 厘米,绿化带中间有一个三角形花围(阴影部分)。求这个三角形花围的面积。\n1. 如图,甲和乙是两个正方形,阴影部分的面积是( )平方厘米。\nA. 64         B. 48        C. 50         D. 无法计算\n乙\n一”~ 10厘米 <一人> 6厘米下\n2. 图中四个圆的半径都是 1 厘米,则阴影部分面积是( ， )平方厘米。\nA. 3          B. 4          Cx         D. 5\n3. 图中三角形 ABC 是直角三角形。阴影(1)的面积比阴影(2)的面积小 23 平方厘米，\nBC 的长度是    厘米(x取3)。\n20厘米\n-外\nC\n68\nRiis SRA MME RR” KBRLGO TALS\n第 14讲 多边形的面积计算 a\n4. 如图,将一个正方形的边长增加 3 厘米,得到的大正方形的面积比原正方形的面积增\n加 57 平方厘米(阴影部分) ,那么,原正方形的边长是           5\n原正方形\n3x3\n5. 在长方形 ABCD 中,已是AD 边上的三等分点,DE=24AE,BD.CE 将长方形分成四\n部分,两个三角形的面积已给出,则阴影部分的面积是\nA    E        D\n4\n6\nB             Cc\n6. 一个长方形操场的周长是 300 米,现将长和宽各增加 10 米,增加部分的面积是\n平方米。\n7. 如图所示 ,等腰直角三角形 ABC 的腰为 10 厘米,以A 为圆心,EF 为圆弧,组成扇形\nAEF ,阴影部分甲与乙的面积相等。求扇形所在的圆的面积。\nA\n已\nTa        c\nirae\n8. 在图中 ,五个小正方形的边长都是 2 厘米,求三角形 ABC 的面积。\n4\n区\n人|\nB\n69\nRiise DRE ME BR” RRL GO TALE\na 数学风子生高分题库 (精讲版)\n9. 如图所示 ,三角形ABC 中,AB=3BE,AC=3AF ,四边形AEDF 的面积是12,则三角\n形 BDC 的面积为多少?\npr,\n10. “FGA” FE 19 世纪初从中国传到西方,是将正方形按图(1)所示方法分割而制成的。\n用”七巧板?拼成图(2)中的“狐狸”,它的头部面积是尾部面积的多少倍?\n70\nRiise CRA “MBER” RRL TAG.\n[~      86688SSSSS\nEX(Git iwsreaS\n加     BAZ) 70)",
+      "id": "grade5_b0074",
+      "pageEnd": 75,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "某校将每年的三月份的第一周定为植树周。今年该校在市郊的一块如图(1)所示边长 为 100 米的正方形山地上植树,图中的阴影部分是一个小水库。同学们要在每平方米内种一 棵树 ,每天种树 1075 棵。问同学们几天能完成植树任务?” Cr 取 3. 14) a 100% 图(1) 图(2) 67 Riise CRA “MBER” RRL TAG. @ ssarsanex crew",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如图(2) ,公园里有一片三个正方形相连的绿化带, 三个正方形的边长分别是 15 厘米， 20 厘米,30 厘米,绿化带中间有一个三角形花围(阴影部分)。求这个三角形花围的面积。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "如图,甲和乙是两个正方形,阴影部分的面积是( )平方厘米。 A. 64 B. 48 C. 50 D. 无法计算 乙 一”~ 10厘米 <一人> 6厘米下",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "图中四个圆的半径都是 1 厘米,则阴影部分面积是( ， )平方厘米。 A. 3 B. 4 Cx D. 5",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "图中三角形 ABC 是直角三角形。阴影(1)的面积比阴影(2)的面积小 23 平方厘米， BC 的长度是 厘米(x取3)。 20厘米 -外 C 68 Riis SRA MME RR” KBRLGO TALS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "如图,将一个正方形的边长增加 3 厘米,得到的大正方形的面积比原正方形的面积增 加 57 平方厘米(阴影部分) ,那么,原正方形的边长是 5 原正方形 3x3",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "在长方形 ABCD 中,已是AD 边上的三等分点,DE=24AE,BD.CE 将长方形分成四 部分,两个三角形的面积已给出,则阴影部分的面积是 A E D 4 6 B Cc",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "一个长方形操场的周长是 300 米,现将长和宽各增加 10 米,增加部分的面积是 平方米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "如图所示 ,等腰直角三角形 ABC 的腰为 10 厘米,以A 为圆心,EF 为圆弧,组成扇形 AEF ,阴影部分甲与乙的面积相等。求扇形所在的圆的面积。 A 已 Ta c irae",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "在图中 ,五个小正方形的边长都是 2 厘米,求三角形 ABC 的面积。 4 区 人| B 69 Riise DRE ME BR” RRL GO TALE a 数学风子生高分题库 (精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "如图所示 ,三角形ABC 中,AB=3BE,AC=3AF ,四边形AEDF 的面积是12,则三角 形 BDC 的面积为多少? pr,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "“FGA” FE 19 世纪初从中国传到西方,是将正方形按图(1)所示方法分割而制成的。 用”七巧板?拼成图(2)中的“狐狸”,它的头部面积是尾部面积的多少倍? 70 Riise CRA “MBER” RRL TAG. [~ 86688SSSSS EX(Git iwsreaS 加 BAZ) 70)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 97,
+      "lessonNo": 17,
+      "lessonTitle": "，流水行名问题全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 在环形跑道上,两人都按顺时针方向跑时,每 12 分钟相遇一次,如果两人速度不变,其\n中一人改成按逆时针方向跑,每隔 4 分钟相遇一次,问两人各跑一轿需要几分钟?\n93\nRiise CRA “MBER” RRL TAG.\na 数学央子生高分题库 (HM)\n2. 如图所示,A、B 是圆形花形直径的两端,张三在A 点,王五在避 点,同时出发反向而\n行,他们在 C 点第一次相遇,C 点离A 点100米,在了 点第二次相遇,D 点离A 60 米,求这\n个圆形花围的周长。\nA\nOst\n1. 一列满载乘客的列车通过 440 米的桥需要 40 秒,以同样的速度穿过 310 米的隧道需\n要 30 秒,这列火车的速度是          ERKE          5\n2. 五年级整个年级有 333 人参加运动会开幕式,他们 5 人排成一排,排间距 1. 5 米,要以\n每分钟 30 米的速度全员通过 36 米的主席台 ,需要          分钟。\n3. 绕人民大会党一周是 600 米,小小骑车速度是 200 米/分,阳阳步行速度是 50 米/分，\n他们从同一地点同时出发,同方向绕人民大会泻行进。出发后      分钟小小追上阳阳。\n4. 芳芳每天早晨7:10 从家出发,7:35 到校,老师要求她明天提早 5 分钟到校。如果芳芳\n明天早晨还是 7:10 从家出发,那么,每分钟必须比往常多走 20 米才能按老师的要求准时到\n5. 为测量即将用来比赛的跑道长度,小春与小夏两人进行面对面的往返跑来测量, 小春\n从起点跑向终点,小夏从终点跑向起点,两人同时出发,第一次两人在离起点 60 米处相遇,相\n遇后各按原速继续跑,上且在各自到达对方出发点后立即返回,在离终点 30 米处第二次相遇。\n则这条跑道有          米。\n6. A.B 两个城市相距 315 TK 号货车与 2 号货车同时从 A 城出发驶向也 城,1 号货\n车每小时行 100 TOK, 2 号货车每小时行 70 TOK, 1 号货车到达召 城后停留了 0. 5 小时,又以\n原速返回A 城,从 A 城出发       小时后两车相遇。\n7. 小华,小东两人同时从学校图书馆出发,分别以每分钟 35 米、每分钟 45 米的速度走向\n食堂 ,与此同时小明从食堂出发以每分钟 65 米的速度走向图书馆,途中小明先遇见小东,1.5\n分钟后遇见小华。则图书馆与食堂相距          米。\n94\nRite LAA MMP RR” REL CARS\nae cane 全\n8. 如图所示,某城市东西路与南北路交会于路口 A 。甲在路口 A 南边 560 KAY BLS\n在路口A。甲向北,乙向东同时匀速行走。4 分钟后两人距 A 的距离相等。再继续行走 24 分\nSa PAGE A 的距离恰好又相等。则甲、乙两人的速度各是多少?\n北\n—_—       本\n4\n560米1 | 人\nB|| #\n9, 每天早上7:30 王经理从家出发,由司机开车前往公司,8:00 准时到达。然后司机开车\n原速返回王经理家。一天早上,王经理想要锻炼一下,因此中途下车走到公司,结果 9:00 才\n到。而司机 8:10 就已经回到王经理家中。请问车速是王经理步行速度的多少倍?\n10. ABCD 是一个正方形 ,边长是 100 米。甲乙两人同时从 A 点出发,甲沿逆时针方向\n每分钟行 75 米,乙沿顺时针方向每分钟行 45 米。两人第一次在 CD 边(不包括 CVD 两点)上\n相遇 ,是出发以后的第几次相遇?\n95\nRite LAA MMP RR” REL CARS\n人 6666SSSSS\nGUE   和Cg苞\n四",
+      "id": "grade5_b0097",
+      "pageEnd": 100,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在环形跑道上,两人都按顺时针方向跑时,每 12 分钟相遇一次,如果两人速度不变,其 中一人改成按逆时针方向跑,每隔 4 分钟相遇一次,问两人各跑一轿需要几分钟? 93 Riise CRA “MBER” RRL TAG. a 数学央子生高分题库 (HM)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如图所示,A、B 是圆形花形直径的两端,张三在A 点,王五在避 点,同时出发反向而 行,他们在 C 点第一次相遇,C 点离A 点100米,在了 点第二次相遇,D 点离A 60 米,求这 个圆形花围的周长。 A Ost",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "一列满载乘客的列车通过 440 米的桥需要 40 秒,以同样的速度穿过 310 米的隧道需 要 30 秒,这列火车的速度是 ERKE 5",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "五年级整个年级有 333 人参加运动会开幕式,他们 5 人排成一排,排间距 1. 5 米,要以 每分钟 30 米的速度全员通过 36 米的主席台 ,需要 分钟。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "绕人民大会党一周是 600 米,小小骑车速度是 200 米/分,阳阳步行速度是 50 米/分， 他们从同一地点同时出发,同方向绕人民大会泻行进。出发后 分钟小小追上阳阳。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "芳芳每天早晨7:10 从家出发,7:35 到校,老师要求她明天提早 5 分钟到校。如果芳芳 明天早晨还是 7:10 从家出发,那么,每分钟必须比往常多走 20 米才能按老师的要求准时到",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "为测量即将用来比赛的跑道长度,小春与小夏两人进行面对面的往返跑来测量, 小春 从起点跑向终点,小夏从终点跑向起点,两人同时出发,第一次两人在离起点 60 米处相遇,相 遇后各按原速继续跑,上且在各自到达对方出发点后立即返回,在离终点 30 米处第二次相遇。 则这条跑道有 米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "A.B 两个城市相距 315 TK 号货车与 2 号货车同时从 A 城出发驶向也 城,1 号货 车每小时行 100 TOK, 2 号货车每小时行 70 TOK, 1 号货车到达召 城后停留了 0. 5 小时,又以 原速返回A 城,从 A 城出发 小时后两车相遇。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "小华,小东两人同时从学校图书馆出发,分别以每分钟 35 米、每分钟 45 米的速度走向 食堂 ,与此同时小明从食堂出发以每分钟 65 米的速度走向图书馆,途中小明先遇见小东,1.5 分钟后遇见小华。则图书馆与食堂相距 米。 94 Rite LAA MMP RR” REL CARS ae cane 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "如图所示,某城市东西路与南北路交会于路口 A 。甲在路口 A 南边 560 KAY BLS 在路口A。甲向北,乙向东同时匀速行走。4 分钟后两人距 A 的距离相等。再继续行走 24 分 Sa PAGE A 的距离恰好又相等。则甲、乙两人的速度各是多少? 北 —_— 本 4 560米1 | 人 B|| #",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "每天早上7:30 王经理从家出发,由司机开车前往公司,8:00 准时到达。然后司机开车 原速返回王经理家。一天早上,王经理想要锻炼一下,因此中途下车走到公司,结果 9:00 才 到。而司机 8:10 就已经回到王经理家中。请问车速是王经理步行速度的多少倍?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "ABCD 是一个正方形 ,边长是 100 米。甲乙两人同时从 A 点出发,甲沿逆时针方向 每分钟行 75 米,乙沿顺时针方向每分钟行 45 米。两人第一次在 CD 边(不包括 CVD 两点)上 相遇 ,是出发以后的第几次相遇? 95 Rite LAA MMP RR” REL CARS 人 6666SSSSS GUE 和Cg苞 四",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 118,
+      "lessonNo": 22,
+      "lessonTitle": "&+ 使",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 如图所示 4 个小三角形的顶点处有 6 个圆圈。如果在这些圆圈中分别填上 6 个质数，\n114\nRiise CRA “MBER” RRL TAG.\n第 22讲 RFR a\n它们的和是 20 ,而且每个小三角形 3 个顶点上的数之和相等。问这 6 个质数的积是多少?\n2. 图中天道酬勤,厚德载物”八个不同汉字代表 1一8 这八个不同数字,每个三角形顶\n点处 3 个数的和都相等,并且与正方形项点处 4个数的和也相等,那么这个和是多少?\n六站\n1. 学生问数学老师的年龄。老师说,由三个相同数字组成的三位数除以这三个数字的\n和,所得结果就是我的年龄.老师今年      岁。\n2. 如图所示为三位数与一位数相乘的竖式,在每个方格填人一个数字,使竖式成立。那\n么共有      种不同的填法。\n3. 将 1,2,3,4,5,6 随意填和人图中的小圆问内,将相邻两数相乘,再将所得的 6 个乘积\n加,得到的和最小是\n115\nRite LAA MMP RR” REL CARS\n全和音关子生珊分题关(精讲上)\n4. 在图中残缺的竖式中,只写出了 3 个数字 1 ,其余的数字都不是 1。那么这个坚式的乘\n积是\nOU\nx OO\n1 OU\nOU:\nOO:\n5. 互为反序的两个自然数的积是 92565,这两个互为反序的自然数的和为多少? 〈例如\n102 和 201,35 和 53,11 和 11……称为互为反序的数,但 120 和 21 不是互为反序的数)\n6. 用0,1,2,…,9 这 10 个数字组成 5 个两位数,每个数字只用一次,要求它们的和是一\n个奇数,并且尽可能的大。那么这 5 个两位数的和是多少?\n7. 将1,2,3,4,5,6,7,8,9 分别填人图中的 9 个圆圈内,使其中一条边上的4个数之和与\n另一条边的4个数之和的比值最大。那么这个比值是多少?\n116\nRite RA “MME HR” FRL GA Tawe\n第 22讲 RFR a\n8. APSR BSE (BC SE AS JBI, TEAR LE BS\n三位数的 6 个数字,恰好是 1,2,3,4,5,6。那么六年级共有学生多少人?\n9. 知用相同汉字表示相同数字,不同汉字表示不同数字,则在等式\"学习好勤动脑义5=\n勤动脑学习好X8?中,学习好勤动脑所表示的六位数最小是多少?\n10, 如图所示 ,在竖式的每个方框内填入一个数字,要求所填的数字都是质数,并使竖式\n成立。\nO7O\nx   OL\nQUO\nHOO\nHOU\n117\nRite LAA MMP RR” REL CARS\n常见的简单统筹规划问题有安排天序问题,焰饼问题最少花费问题。\n解决这类问题通常可以从以下几个方面入手:\nC1) 要做的工作有哪些;\n(2) 每件工作需要多少时间;\n(3) 先安排一些必需的顺序 ,再看看哪些工作是可以同时做的,列举可能的情况时应做到\n全面 ,不遗漏,对所有情况进行比较 ,看哪种方法最优。\n张明、徐冬冬,李华三人同时到卫生室等候医生治疗。张明点眼药水需要 3 分钟,徐冬冬\n换纱布需要 4 分钟,李华打针需要 5 分钟,医生如何安排三人的治疗顺序,才能使他们在卫生\n室的时间总和最短? 最短需要多长时间?\nSit 每个人的治疗总时间三前面的人的治疗总时间十自己的治疗时间。自己的治疗时\n间国定,因此令前面的人的治疗总时间最短,就能规划出最短时间。因此应该从治疗用时最短\n的人开始治疗。\nfF 先治疗张明,后治疗徐冬冬,最后治疗李华,这样用时最短。最短为:3十3十4十3十4+\n5一22(分) 。",
+      "id": "grade5_b0125",
+      "pageEnd": 122,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "如图所示 4 个小三角形的顶点处有 6 个圆圈。如果在这些圆圈中分别填上 6 个质数， 114 Riise CRA “MBER” RRL TAG. 它们的和是 20 ,而且每个小三角形 3 个顶点上的数之和相等。问这 6 个质数的积是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "图中天道酬勤,厚德载物”八个不同汉字代表 1一8 这八个不同数字,每个三角形顶 点处 3 个数的和都相等,并且与正方形项点处 4个数的和也相等,那么这个和是多少? 六站",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "学生问数学老师的年龄。老师说,由三个相同数字组成的三位数除以这三个数字的 和,所得结果就是我的年龄.老师今年 岁。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如图所示为三位数与一位数相乘的竖式,在每个方格填人一个数字,使竖式成立。那 么共有 种不同的填法。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "将 1,2,3,4,5,6 随意填和人图中的小圆问内,将相邻两数相乘,再将所得的 6 个乘积 加,得到的和最小是 115 Rite LAA MMP RR” REL CARS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "在图中残缺的竖式中,只写出了 3 个数字 1 ,其余的数字都不是 1。那么这个坚式的乘 积是 OU x OO 1 OU OU: OO:",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "互为反序的两个自然数的积是 92565,这两个互为反序的自然数的和为多少? 〈例如 102 和 201,35 和 53,11 和 11……称为互为反序的数,但 120 和 21 不是互为反序的数)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "用0,1,2,…,9 这 10 个数字组成 5 个两位数,每个数字只用一次,要求它们的和是一 个奇数,并且尽可能的大。那么这 5 个两位数的和是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "将1,2,3,4,5,6,7,8,9 分别填人图中的 9 个圆圈内,使其中一条边上的4个数之和与 另一条边的4个数之和的比值最大。那么这个比值是多少? 116 Rite RA “MME HR” FRL GA Tawe",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "APSR BSE (BC SE AS JBI, TEAR LE BS 三位数的 6 个数字,恰好是 1,2,3,4,5,6。那么六年级共有学生多少人?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "知用相同汉字表示相同数字,不同汉字表示不同数字,则在等式\"学习好勤动脑义5= 勤动脑学习好X8?中,学习好勤动脑所表示的六位数最小是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "如图所示 ,在竖式的每个方框内填入一个数字,要求所填的数字都是质数,并使竖式 成立。 O7O x OL QUO HOO HOU 117 Rite LAA MMP RR” REL CARS 常见的简单统筹规划问题有安排天序问题,焰饼问题最少花费问题。 解决这类问题通常可以从以下几个方面入手: C1) 要做的工作有哪些; (2) 每件工作需要多少时间; (3) 先安排一些必需的顺序 ,再看看哪些工作是可以同时做的,列举可能的情况时应做到 全面 ,不遗漏,对所有情况进行比较 ,看哪种方法最优。 张明、徐冬冬,李华三人同时到卫生室等候医生治疗。张明点眼药水需要 3 分钟,徐冬冬 换纱布需要 4 分钟,李华打针需要 5 分钟,医生如何安排三人的治疗顺序,才能使他们在卫生 室的时间总和最短? 最短需要多长时间? Sit 每个人的治疗总时间三前面的人的治疗总时间十自己的治疗时间。自己的治疗时 间国定,因此令前面的人的治疗总时间最短,就能规划出最短时间。因此应该从治疗用时最短 的人开始治疗。 fF 先治疗张明,后治疗徐冬冬,最后治疗李华,这样用时最短。最短为:3十3十4十3十4+ 5一22(分) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 40,
+      "lessonNo": 7,
+      "lessonTitle": "",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1, 某单位的职工到郊外植树,其中有男职工,也有女职工,并且每 3 位职工可带一个孩子\n参加,男职工每人种 13 棵数,女职工每人种 10 棵数,每个孩子种 6 棵树,他们一共种了 216\n棵,那么其中有多少名男职工?\n35\nRiise CRA “MBER” RRL TAG.\na 数学央子生高分题库 (HM)\n2. 将一根长为 374 厘米的合金铝管截成若干根 36 厘米和 24 厘米型号的短管,加工损耗\n忽略不计,问:剩余部分的管子最短是多少厘米?\nCl saat)\n1. ASR A=2? 3? X5?.A 的因数一共有          个s\n2. 一排电线杆,原来每两根之间的距离是 30 米,现在改为 45 米。如果起点的一根电线\n杆不移动,至少再隔          米又有一根电线杆不需要移动。\n3. A=2°X3?X5°,A 有很多因数,其中最大的两位数是         。\n4. 一个两位数,十位数字减个位数字的差是 28 的约数,十位数字与个位数字的积是 24。\n这个两位数是          a\n5. 在123 后面补上三个数字,组成一个六位数,使它能同时是 3,4,5 的倍数,且使这个数\n尽可能小,组成后的六位数是          5\n6. 把一个一位数的质数 A 写在另一个两位数的质数吾 的后面,得到一个三位数,这个三\n位数是A 的87倍,求A 和了。\n7. 六一儿童节时,将 86 本练习本和 104 支水笔分发给小朋友,每个小朋友得到的练习本\n和水笔数量相同。结果练习本多了 2 本,水笔少了 1 支。最多有几个小朋友拿到练习本和\n水笔?\n36\nRite LAA MMP RR” REL CARS",
+      "id": "grade5_b0041",
+      "pageEnd": 42,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "某单位的职工到郊外植树,其中有男职工,也有女职工,并且每 3 位职工可带一个孩子 参加,男职工每人种 13 棵数,女职工每人种 10 棵数,每个孩子种 6 棵树,他们一共种了 216 棵,那么其中有多少名男职工? 35 Riise CRA “MBER” RRL TAG. a 数学央子生高分题库 (HM)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "将一根长为 374 厘米的合金铝管截成若干根 36 厘米和 24 厘米型号的短管,加工损耗 忽略不计,问:剩余部分的管子最短是多少厘米? Cl saat)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "ASR A=2? 3? X5?.A 的因数一共有 个s",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一排电线杆,原来每两根之间的距离是 30 米,现在改为 45 米。如果起点的一根电线 杆不移动,至少再隔 米又有一根电线杆不需要移动。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "A=2°X3?X5°,A 有很多因数,其中最大的两位数是 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "一个两位数,十位数字减个位数字的差是 28 的约数,十位数字与个位数字的积是 24。 这个两位数是 a",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "在123 后面补上三个数字,组成一个六位数,使它能同时是 3,4,5 的倍数,且使这个数 尽可能小,组成后的六位数是 5",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "把一个一位数的质数 A 写在另一个两位数的质数吾 的后面,得到一个三位数,这个三 位数是A 的87倍,求A 和了。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "六一儿童节时,将 86 本练习本和 104 支水笔分发给小朋友,每个小朋友得到的练习本 和水笔数量相同。结果练习本多了 2 本,水笔少了 1 支。最多有几个小朋友拿到练习本和 水笔? 36 Rite LAA MMP RR” REL CARS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ],
+  "grade6": [
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 114,
+      "lessonNo": 19,
+      "lessonTitle": "”拍导原理=",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 在3点与3点 20 之间的什么时刻,时针与分针在一条直线上?\n2. 2 点过多少分时,时针和分针离“5?”的距离相等,并且在“5的两边?\n1. 早晨7 点 10 分,妈妈叫醒小明,让他起床,可小明从镜子中看到的时刻还没有到起床\n的时刻,他对妈妈说:还早呢! ,小明误以为当时是         点         分\n2. 7 点 49 分时,时针与分针形成的夹角是          .\n3. 有一块表在 10 A 29 日零点比标准时间慢 4 分半,一直到 11 AS 日上午7时,这块表\n比标准时间快了 3 分钟,那么这块表正好指向正确的时间是在 11 月           H          时。\n4, 从12 点开始,经过            分钟,时针与分针第一次成 90\"角,12 点之后,时针与分针\n109\nRiise CRA “MBER” RRL TAG.\na 数学央子生高分题库 (HM)\n第二次成 90\"的时刻是\n5. 小强下午 4 点多钟开始课外活动,到 6 点多结束。他一看表发现开始和结束的两个时\n刻分针和时针恰好对换了位置。那么他开始课外活动的时间是4点 分。\n6. 有一个时钟每小时快 15 秒,它在7月 1 日中午 12 时准确,下一次准确的时间是什么\n时间?\n7. 科学家进行一项实验,每隔五小时做一次记录,做第十二次记录时,挂钟的时针恰好指\n向 9,问做第一次记录时,时针指向几?\n8. 妈妈下午 5 点多去楼下买蔬菜,出门时看手表,发现表的时针和分针的夹角为80 ,6 点\n前回家时又看手表,发现时针和分针的夹角仍是 80\" 。那么妈妈外出多少分钟?\n9. 早晨 8 点多,有两辆汽车先后离开化肥厂 ,向幸福村开去,两辆汽车的速度都是每小时\n60 FA. 8 点 32 分的时候,第一辆汽车离开化肥厂的距离是第二辆汽车的三们,到了 8 点 39\n分的时候,第一辆汽车离开化肥厂的距离是第二辆汽车的两倍,那么第一辆汽车是 8 点几分离\n开化肥厂的?\n10. 一天,琪琪做了一个奇怪的梦,在梦里有一只神奇的钟表,这只怪钟每昼夜 10 时,每\n小时 100 分钟,如图。当这只钟显示 5 点整时,实际上是中午 12 点整。当这只钟显示 3 点 75\n分时,实际上是什么时间? 实际时间下午 5点 24 分时,这只钟显示什么时间?\n110\nRite LAA MMP RR” REL CARS\n由 GGSSSSSSS\nEe 1c Ealoga\n|",
+      "id": "grade6_b0107",
+      "pageEnd": 116,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在3点与3点 20 之间的什么时刻,时针与分针在一条直线上?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "2 点过多少分时,时针和分针离“5?”的距离相等,并且在“5的两边?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "早晨7 点 10 分,妈妈叫醒小明,让他起床,可小明从镜子中看到的时刻还没有到起床 的时刻,他对妈妈说:还早呢! ,小明误以为当时是 点 分",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "7 点 49 分时,时针与分针形成的夹角是 .",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "有一块表在 10 A 29 日零点比标准时间慢 4 分半,一直到 11 AS 日上午7时,这块表 比标准时间快了 3 分钟,那么这块表正好指向正确的时间是在 11 月 H 时。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "从12 点开始,经过 分钟,时针与分针第一次成 90\"角,12 点之后,时针与分针 109 Riise CRA “MBER” RRL TAG. a 数学央子生高分题库 (HM) 第二次成 90\"的时刻是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "小强下午 4 点多钟开始课外活动,到 6 点多结束。他一看表发现开始和结束的两个时 刻分针和时针恰好对换了位置。那么他开始课外活动的时间是4点 分。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "有一个时钟每小时快 15 秒,它在7月 1 日中午 12 时准确,下一次准确的时间是什么 时间?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "科学家进行一项实验,每隔五小时做一次记录,做第十二次记录时,挂钟的时针恰好指 向 9,问做第一次记录时,时针指向几?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "妈妈下午 5 点多去楼下买蔬菜,出门时看手表,发现表的时针和分针的夹角为80 ,6 点 前回家时又看手表,发现时针和分针的夹角仍是 80\" 。那么妈妈外出多少分钟?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "早晨 8 点多,有两辆汽车先后离开化肥厂 ,向幸福村开去,两辆汽车的速度都是每小时 60 FA. 8 点 32 分的时候,第一辆汽车离开化肥厂的距离是第二辆汽车的三们,到了 8 点 39 分的时候,第一辆汽车离开化肥厂的距离是第二辆汽车的两倍,那么第一辆汽车是 8 点几分离 开化肥厂的?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "一天,琪琪做了一个奇怪的梦,在梦里有一只神奇的钟表,这只怪钟每昼夜 10 时,每 小时 100 分钟,如图。当这只钟显示 5 点整时,实际上是中午 12 点整。当这只钟显示 3 点 75 分时,实际上是什么时间? 实际时间下午 5点 24 分时,这只钟显示什么时间? 110 Rite LAA MMP RR” REL CARS 由 GGSSSSSSS Ee 1c Ealoga |",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 144,
+      "lessonNo": 25,
+      "lessonTitle": "统筹与规划",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 学校文艺部组织活动,将活动所用的音响、桌椅和一些器材装人以下箱子中:500 千克\n的箱子 3 个,300 千克的箱子 2 个,250 千克的箱子 2 个,150 千克的箱子 2个,100 千克的箱子\n4个,那么至少需要多少辆载重 600 千克的三轮车才能一次将这些物品运走”提出你的运输\n2. 某人从住地外出有两种方案,一种是骑自行车去,另一种是乘公共汽车去。显然公共\n汽车的速度比自行车的速度快,但乘公共汽车有一个等候时间(候车时间可看作是固定不变\n的)。在任何情况下 ,他总会采用花时间最少的最佳方案。下表表示他到达A、B、C 三地采用\n最佳方案所需要的时间。为了到达离他 8 千米的地方,他需要花多少分钟?请简述理由。\n目的地                           目的地距住地的路程/千米                   最佳方案所需时间/分\nA ih                                  2                                     12\n已地                                    3                                       15.5\nC 地                                     4                                        18\n全 一一一一\nET\n1. 皮皮家开小饭馆,客人吃完饭后,服务员甲、乙 .两三人准备打扫卫生,同时到一个小水\n龙头处用水。甲洗抹布需要 1 分半,乙洗碗矶需要 12 分钟,丙洗拖把需要 3 分钟,下列哪个顺\n序,会使他们所花的总时间最少? 〈   )\nA. 甲一乙一两    B. 两一甲一乙    C，甲一两一乙     D, 乙一两一甲\n139\nRite RA “MME HR” FRL GA Tawe\na 数学央子生高分题库 (HM)\n2. 一只平底锅上最多只能前两张饼,用它煎 1 张饼需要 2 分钟(正面\\反面各 1 分钟) ,前\n2017 张饼最少需()分钟。\nA, 4034         B. 2017         C. 2018         D. 4033\n3. 周末家里大扫除。妈妈拖地需要 15 分钟,打扫客厅需要 20 分钟,打开全自动洗衣机\n洗衣服需要 40 分钟,晾衣服需要 10 分钟。和爸爸打扫墙角的灰尘需要 10 分钟,整理和打扫家\n里的仓库需要 45 分钟,小明整理自己的衣服需要 20 分钟,干完所有这些事情最少用(  )\n分钟。\nA. 50                  B, 55                  C. 160                  D. 85\n4, 红星小学同学连带队老师共 289 AD 7K ES bd AE TUE Bel. UE AP FR HBR AK 15 人，\n租金 18 元;乙种船限载 9 人,租金 12 元。带队老师用了最省钱的租船方案,那么,他们共租甲\n船         ACM         只,共用租金         元。\n5，讲宇服装厂的工人每人每天可生产 7 件上衣或 12 条裤子,一件上衣和一条裤子为一\n套,现有 95 名工人参加生产,最多能生产         套服装。\n6. 和爷爷在乡下准备做篱笛,围一块地来种蔬菜,用 10 米长的竹竿作原料,来截取 3 米、4\n米长的甲乙两种短竹竿各 72 根,至少要用去原材料几根”怎么截取最合算?\n7. 学校要举办卡拉 OK 大赛,课下小红、小伟和小梦三个人在练歌房练习唱歌,小红、小\n伟和小梦三个人唱歌的时间是 7 分钟.5 分钟和4 分半,若他们同时来到练歌房,应该如何安\n排他们的练歌次序 ,使他们三人所花总时间最少? 总时间是多少分钟?\n140\nRite LAA MMP RR” REL CARS\naoe naan 全\n8. 学校有 36 名同学参加市里运动会,每人需要准备红色和白色的运动衫各一件。商店\n里有两种运动衫,价格如下 :红色运动衫 5 件一包的每包 71 元,3 件一包的每包 44 元,零售每\n件 16 元;白色运动衫 5 件一包的每包 87 元,3 件一包的每包 53 元,零售每件 20 元。学校买这\n批运动衫至少要花多少元?\n9. 自行车轮胎安装在前轮上行驶 5000 和干米后报废,大安装在后轮上只能行驶 3000 干\n米。为了行驶尽可能多的路,如果采用当自行车行驶一段时间后,将前后轮调换的方法,问:安\n装在自行车上的一对轮胎最多可以行驶多少千米?\n10. 五个人甲乙丙丁成组成了一个探险队,恰逢在夜晚遇到一座独木桥,由于每个人\n冒险精神都很强 ,决定在夜晚通过该桥。但是每个人身体素质不同,甲过桥需要 11 分钟,乙需\n要 9 分钟,丙要 8 分钟,丁需要 7 分钟,成只要 5 分钟。当时正是夜晚又是阴天,因此光线非常\n瞳,真是所谓伸手不见五指,所幸的是他们有一只手电简,同时可以有两个人借助灯光过桥,但\n手电简即将没电,只能再维持 50 分钟了 ,他们焦急万分,该怎样过桥呢?\n141\nRite LAA MMP RR” REL CARS",
+      "id": "grade6_b0136",
+      "pageEnd": 147,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "学校文艺部组织活动,将活动所用的音响、桌椅和一些器材装人以下箱子中:500 千克 的箱子 3 个,300 千克的箱子 2 个,250 千克的箱子 2 个,150 千克的箱子 2个,100 千克的箱子 4个,那么至少需要多少辆载重 600 千克的三轮车才能一次将这些物品运走”提出你的运输",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某人从住地外出有两种方案,一种是骑自行车去,另一种是乘公共汽车去。显然公共 汽车的速度比自行车的速度快,但乘公共汽车有一个等候时间(候车时间可看作是固定不变 的)。在任何情况下 ,他总会采用花时间最少的最佳方案。下表表示他到达A、B、C 三地采用 最佳方案所需要的时间。为了到达离他 8 千米的地方,他需要花多少分钟?请简述理由。 目的地 目的地距住地的路程/千米 最佳方案所需时间/分 A ih 2 12 已地 3 15.5 C 地 4 18 全 一一一一 ET",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "皮皮家开小饭馆,客人吃完饭后,服务员甲、乙 .两三人准备打扫卫生,同时到一个小水 龙头处用水。甲洗抹布需要 1 分半,乙洗碗矶需要 12 分钟,丙洗拖把需要 3 分钟,下列哪个顺 序,会使他们所花的总时间最少? 〈 ) A. 甲一乙一两 B. 两一甲一乙 C，甲一两一乙 D, 乙一两一甲 139 Rite RA “MME HR” FRL GA Tawe a 数学央子生高分题库 (HM)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一只平底锅上最多只能前两张饼,用它煎 1 张饼需要 2 分钟(正面\\反面各 1 分钟) ,前 2017 张饼最少需()分钟。 A, 4034 B. 2017 C. 2018 D. 4033",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "周末家里大扫除。妈妈拖地需要 15 分钟,打扫客厅需要 20 分钟,打开全自动洗衣机 洗衣服需要 40 分钟,晾衣服需要 10 分钟。和爸爸打扫墙角的灰尘需要 10 分钟,整理和打扫家 里的仓库需要 45 分钟,小明整理自己的衣服需要 20 分钟,干完所有这些事情最少用( ) 分钟。 A. 50 B, 55 C. 160 D. 85",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "红星小学同学连带队老师共 289 AD 7K ES bd AE TUE Bel. UE AP FR HBR AK 15 人， 租金 18 元;乙种船限载 9 人,租金 12 元。带队老师用了最省钱的租船方案,那么,他们共租甲 船 ACM 只,共用租金 元。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "讲宇服装厂的工人每人每天可生产 7 件上衣或 12 条裤子,一件上衣和一条裤子为一 套,现有 95 名工人参加生产,最多能生产 套服装。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "和爷爷在乡下准备做篱笛,围一块地来种蔬菜,用 10 米长的竹竿作原料,来截取 3 米、4 米长的甲乙两种短竹竿各 72 根,至少要用去原材料几根”怎么截取最合算?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "学校要举办卡拉 OK 大赛,课下小红、小伟和小梦三个人在练歌房练习唱歌,小红、小 伟和小梦三个人唱歌的时间是 7 分钟.5 分钟和4 分半,若他们同时来到练歌房,应该如何安 排他们的练歌次序 ,使他们三人所花总时间最少? 总时间是多少分钟? 140 Rite LAA MMP RR” REL CARS aoe naan 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "学校有 36 名同学参加市里运动会,每人需要准备红色和白色的运动衫各一件。商店 里有两种运动衫,价格如下 :红色运动衫 5 件一包的每包 71 元,3 件一包的每包 44 元,零售每 件 16 元;白色运动衫 5 件一包的每包 87 元,3 件一包的每包 53 元,零售每件 20 元。学校买这 批运动衫至少要花多少元?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "自行车轮胎安装在前轮上行驶 5000 和干米后报废,大安装在后轮上只能行驶 3000 干 米。为了行驶尽可能多的路,如果采用当自行车行驶一段时间后,将前后轮调换的方法,问:安 装在自行车上的一对轮胎最多可以行驶多少千米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "五个人甲乙丙丁成组成了一个探险队,恰逢在夜晚遇到一座独木桥,由于每个人 冒险精神都很强 ,决定在夜晚通过该桥。但是每个人身体素质不同,甲过桥需要 11 分钟,乙需 要 9 分钟,丙要 8 分钟,丁需要 7 分钟,成只要 5 分钟。当时正是夜晚又是阴天,因此光线非常 瞳,真是所谓伸手不见五指,所幸的是他们有一只手电简,同时可以有两个人借助灯光过桥,但 手电简即将没电,只能再维持 50 分钟了 ,他们焦急万分,该怎样过桥呢? 141 Rite LAA MMP RR” REL CARS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 35,
+      "lessonNo": 4,
+      "lessonTitle": "“分数应用是2&",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 将浓度分别为 10%和 8儿的硫酸混合,配制成9. 5%的硫酸 400 千克,需要浓度为 10%\n和 8%%的硫酸各多少千克?\n2. 将浓度分别为13%和 14凶的糖水混合,配制成13.6凶的糖水 500 克,需要浓度为13听\n和 14儿的糖水各多少克?\n看化\n1. 为了除去果园里的害虫,所用药水中纯药液和水的比例是 1 : 49 ,现配制这种药水 25\nA. 200 3¢           B, 300 5           C. 400 死           D. 500 5\n2. 一批水果从产地发出时重 1500 Foe CBP AK RAY AF AK EY 99% « iz OY Hy AY\n于水分蒸发,含水量降为 98. 5% ,这时这批水果重(  )千克。\nA. 1000                B. 1200                C. 1100                D. 1300\n3, 有一批干草 1200 克,这批干草的含水量为 98% ,过了几天这批干草只剩下 1000 克,此\n时这批草的含水量为          ,\n4.现有浓度为 50% BY iit 100 克,需加入        克 5狼的硫酸溶液,使其浓度变\n25%.\n5. 现有浓度为 10%%的糖水 200 克,再加 200 克水,则其浓度变为          ‘\n6. 浓度为 1%%的盐水中蒸发 472 GOT ER EAE 60% . MURR AS ERIK AL          克。\n7. 现有浓度为 25儿的盐水 200 克,要配制成浓度为 40%的盐水,需要加盐          到。\n8. 水果店运来一批含水量为 90%% 的水果 200 千克,几天之后发现含水量降为 80%% ,现在\n这批水果的质量是多少干克?\n30\nRite LAA MMP RR” REL CARS",
+      "id": "grade6_b0029",
+      "pageEnd": 36,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "将浓度分别为 10%和 8儿的硫酸混合,配制成9. 5%的硫酸 400 千克,需要浓度为 10% 和 8%%的硫酸各多少千克?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "将浓度分别为13%和 14凶的糖水混合,配制成13.6凶的糖水 500 克,需要浓度为13听 和 14儿的糖水各多少克? 看化",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "为了除去果园里的害虫,所用药水中纯药液和水的比例是 1 : 49 ,现配制这种药水 25 A. 200 3¢ B, 300 5 C. 400 死 D. 500 5",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一批水果从产地发出时重 1500 Foe CBP AK RAY AF AK EY 99% « iz OY Hy AY 于水分蒸发,含水量降为 98. 5% ,这时这批水果重( )千克。 A. 1000 B. 1200 C. 1100 D. 1300",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "有一批干草 1200 克,这批干草的含水量为 98% ,过了几天这批干草只剩下 1000 克,此 时这批草的含水量为 ,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "现有浓度为 50% BY iit 100 克,需加入 克 5狼的硫酸溶液,使其浓度变 25%.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "现有浓度为 10%%的糖水 200 克,再加 200 克水,则其浓度变为 ‘",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "浓度为 1%%的盐水中蒸发 472 GOT ER EAE 60% . MURR AS ERIK AL 克。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "现有浓度为 25儿的盐水 200 克,要配制成浓度为 40%的盐水,需要加盐 到。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "水果店运来一批含水量为 90%% 的水果 200 千克,几天之后发现含水量降为 80%% ,现在 这批水果的质量是多少干克? 30 Rite LAA MMP RR” REL CARS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 69,
+      "lessonNo": 12,
+      "lessonTitle": "平面图形综合",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 如图所示 ,长方形 ABCD 内的阴影部分的面积之和为 60.AB=6,AD=12, WIE\nEFGO 的面积是多少?\n64\nRiise CRA “MBER” RRL TAG.\na2% sonnes 全\n2. 长方形 ABCD 的面积为 42 27 EDK. E.F.G 分别为AB,BC,CD 的中点,瓦为AD\n边上任意一点,问阴影部分面积是多少?         A        Re\n1. 四边形 ABCD 的对角线AcC 与 BD 交于点O,如网所示。如果三角形 ABD 的面积等\n于三角形 BCD 的面积的二,且 AO=2,DO=-3,那么 CO 的长度是 DO 的长度的          fe.\nD\nA\nB           ¢\n2. WAI. AABC Pou D i AC WA EF 是边 BC 的三等分点,若AABC 的面\n积为 1 ,那么四边形 CDMF 的面积是         。\n3. 如图为羊径为 20 厘米.圆心朋为 144 RIB. om C.DVE.F\\G.H\\J 是将扇形的\nBK 分为 8 等份的点。求阴影部分面积之和。\nRiise CRA “MBER” RRL TAG.\n全。 和音关子生高分题认 (精讲版)\n4, 如图,已知四边形 ABCD 和四边形CEFG 都是正方形,且正方形 ABCD 的边长为 10\n厘米,那么图中阴影三角形 BED 的面积为多少平方厘米?    4        D\n5. 如图,正方形 ABCD 的边长为5 厘米,EFNBC, 三角 8       C\n形 ECH 的面积是 8平方厘米,求 EG WK.                     A      H           D\nE       G    F\nB            G\n6. WAL. AABC 被分成了甲(阴影部分)、乙两部分,BD=DC=5,BE=4,AE=8,乙部\n分面积是甲部分面积的几倍?\nCG\n7. 四边形 ABCD '},AB=60,AD=96,.BC=28,CD=80, KE WZABD+ /BDC =\n90\",求四边形 ABCD 的面积。                 A\nB        'D\n8. 如图,面积为 1 的三角形 ABC HLD.E.F.G.H,1 分别是\nAB,BC,CA 的三等分点,求中心六边形的面积。\n66\nRiis SRA MME RR” KBRLGO TALS\n[—  CQLESSES ZT\nE31 Ac ez @eEs\n=\n『",
+      "id": "grade6_b0062",
+      "pageEnd": 72,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "如图所示 ,长方形 ABCD 内的阴影部分的面积之和为 60.AB=6,AD=12, WIE EFGO 的面积是多少? 64 Riise CRA “MBER” RRL TAG. a2% sonnes 全",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "长方形 ABCD 的面积为 42 27 EDK. E.F.G 分别为AB,BC,CD 的中点,瓦为AD 边上任意一点,问阴影部分面积是多少? A Re",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "四边形 ABCD 的对角线AcC 与 BD 交于点O,如网所示。如果三角形 ABD 的面积等 于三角形 BCD 的面积的二,且 AO=2,DO=-3,那么 CO 的长度是 DO 的长度的 fe. D A B ¢",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "WAI. AABC Pou D i AC WA EF 是边 BC 的三等分点,若AABC 的面 积为 1 ,那么四边形 CDMF 的面积是 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "如图为羊径为 20 厘米.圆心朋为 144 RIB. om C.DVE.F\\G.H\\J 是将扇形的 BK 分为 8 等份的点。求阴影部分面积之和。 Riise CRA “MBER” RRL TAG. 全。 和音关子生高分题认 (精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "如图,已知四边形 ABCD 和四边形CEFG 都是正方形,且正方形 ABCD 的边长为 10 厘米,那么图中阴影三角形 BED 的面积为多少平方厘米? 4 D",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "如图,正方形 ABCD 的边长为5 厘米,EFNBC, 三角 8 C 形 ECH 的面积是 8平方厘米,求 EG WK. A H D E G F B G",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "WAL. AABC 被分成了甲(阴影部分)、乙两部分,BD=DC=5,BE=4,AE=8,乙部 分面积是甲部分面积的几倍? CG",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "四边形 ABCD '},AB=60,AD=96,.BC=28,CD=80, KE WZABD+ /BDC = 90\",求四边形 ABCD 的面积。 A B 'D",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "如图,面积为 1 的三角形 ABC HLD.E.F.G.H,1 分别是 AB,BC,CA 的三等分点,求中心六边形的面积。 66 Riis SRA MME RR” KBRLGO TALS [— CQLESSES ZT E31 Ac ez @eEs = 『",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 120,
+      "lessonNo": 21,
+      "lessonTitle": "&",
+      "column": "unknown",
+      "rawHeading": "第 21 讲  anna &",
+      "text": "第 21 讲  anna &\n2. 如下是一张 50 行和 100 列的表,如果按斜线依次填人自然数 (如自然数 14 在第 2 行，\n第4列)。那么,自然数 2014 HESS LAT BS LI?\n]         3         6         10        15\n2         5         9         14\n|             8            13\n7         12\n11\nOi set\n1. 12 SEVAE Api Dy APE aie AP YAR FA EE VRE EP PE Aah AE PA Fl A SP\nJA TFBS ICAI XE AE. WAR FIC 12 星座代表月份,第一个月如果是白羊座,第二个月就\n是金牛座,第三个月就是双子座\n座。\n那么假设现在这个月是狮子座,再过 38 个月是\n2. 用1,3,4,9 这四张卡片可以组成不同的四位数,如果把它们从小到大依次排列出来，\n第 1个是1349,第 2个是 1394,第 20 个是\n3. 有一个一千位数,每位上的数字都是\"3”。这个一千位数除以 7 的余数是          5\n4, 观察下列九个数字 1,2,3,4,5,6,7,8,9 的排列方式。\n第一行:1 2 3 4 5 6 7 8 9\n第二行:2 3 4 1 6 7 5 9 8\n第三行:3 4 1 2 7 5 6 8 9\n按以上规律排列,第一行的排列方式,从第一行起到第 100 行,一共能出现          次。\n5. 时针现在表示的时间是上午 10 时整,那么分针旋转 2017 周后,时针表示的时间是\n时。\n6. 79100! — G61! 十1001101的个位数字是多少?\n115\nRite LAA MMP RR” REL CARS\na 数学央子生高分题库 (HM)\n7. 植树节到了,和东东和丽丽准备去公园种一些小树苗 ,东东单独种完需要 6 小时,丽丽单\n独种完需要 8 小时。知东东种 1 小时后丽丽接替东东种 1 小时,再由东东接替丽丽种 1 小\n时……两人如此交替植树,问种完计划的树苗需共用多少小时?\n8. 小明的爷爷奶奶在乡下编竹管卖 ,一批竹子如果第一天爷爷编,第二天奶奶编,这样交\n替轮流做,恰好用整数天完成。如果第一天奶奶编,第二天和爷爷编,这样交蔡轮流做,做到上次\n轮流完成时所用的天数后,还剩 6 个不能完成。已知爷爷 .奶奶工作效率的比是 9 : 7 ,爷爷奶\n奶两人每天各编多少个?\n9，一项工程,甲乙合作18局天完成。如果第一天甲做,第二天乙做,这样交蔡轮流做，\n恰好用整数天完成。如果第一天乙做,第二天甲做,这样交替轮流做,比上次轮流做要多半天\n才能完成。这项工程由乙单独做要多少天才能完成?\n10. 甲.乙两人共同装订一批纸张成册,甲单独装订要 7 小时完成,乙单独装订要 12 小时\n完成。现在,甲乙两人轮流工作。甲工作 1 小时,乙工作 2 小时;甲工作2 小时,乙工作1小\n时;甲工作 1 小时,乙工作 2 小时……如此这样交替下去,装订这批纸张共要多少小时?\n116\nRite LAA MMP RR” REL CARS\nG6SSSSSSS ZT\nEecot; §Envalloea",
+      "id": "grade6_b0114",
+      "pageEnd": 122,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "如下是一张 50 行和 100 列的表,如果按斜线依次填人自然数 (如自然数 14 在第 2 行， 第4列)。那么,自然数 2014 HESS LAT BS LI? ] 3 6 10 15 2 5 9 14 | 8 13 7 12 11 Oi set",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "12 SEVAE Api Dy APE aie AP YAR FA EE VRE EP PE Aah AE PA Fl A SP JA TFBS ICAI XE AE. WAR FIC 12 星座代表月份,第一个月如果是白羊座,第二个月就 是金牛座,第三个月就是双子座 座。 那么假设现在这个月是狮子座,再过 38 个月是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "用1,3,4,9 这四张卡片可以组成不同的四位数,如果把它们从小到大依次排列出来， 第 1个是1349,第 2个是 1394,第 20 个是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "有一个一千位数,每位上的数字都是\"3”。这个一千位数除以 7 的余数是 5",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "观察下列九个数字 1,2,3,4,5,6,7,8,9 的排列方式。 第一行:1 2 3 4 5 6 7 8 9 第二行:2 3 4 1 6 7 5 9 8 第三行:3 4 1 2 7 5 6 8 9 按以上规律排列,第一行的排列方式,从第一行起到第 100 行,一共能出现 次。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "时针现在表示的时间是上午 10 时整,那么分针旋转 2017 周后,时针表示的时间是 时。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "79100! — G61! 十1001101的个位数字是多少? 115 Rite LAA MMP RR” REL CARS a 数学央子生高分题库 (HM)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "植树节到了,和东东和丽丽准备去公园种一些小树苗 ,东东单独种完需要 6 小时,丽丽单 独种完需要 8 小时。知东东种 1 小时后丽丽接替东东种 1 小时,再由东东接替丽丽种 1 小 时……两人如此交替植树,问种完计划的树苗需共用多少小时?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "小明的爷爷奶奶在乡下编竹管卖 ,一批竹子如果第一天爷爷编,第二天奶奶编,这样交 替轮流做,恰好用整数天完成。如果第一天奶奶编,第二天和爷爷编,这样交蔡轮流做,做到上次 轮流完成时所用的天数后,还剩 6 个不能完成。已知爷爷 .奶奶工作效率的比是 9 : 7 ,爷爷奶 奶两人每天各编多少个?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "一项工程,甲乙合作18局天完成。如果第一天甲做,第二天乙做,这样交蔡轮流做， 恰好用整数天完成。如果第一天乙做,第二天甲做,这样交替轮流做,比上次轮流做要多半天 才能完成。这项工程由乙单独做要多少天才能完成?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "甲.乙两人共同装订一批纸张成册,甲单独装订要 7 小时完成,乙单独装订要 12 小时 完成。现在,甲乙两人轮流工作。甲工作 1 小时,乙工作 2 小时;甲工作2 小时,乙工作1小 时;甲工作 1 小时,乙工作 2 小时……如此这样交替下去,装订这批纸张共要多少小时? 116 Rite LAA MMP RR” REL CARS G6SSSSSSS ZT Eecot; §Envalloea",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "reclassified",
+      "confidence": "medium",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "contains multiple numbered exercise candidates",
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 19,
+      "lessonNo": 3,
+      "lessonTitle": "”分数应用题一",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1小红看一本故事书,看过的页数比全书的3 少 3 页,没有看的页数比全书的二多 13 页，\n这本书共有多少页?\n一个袋子中有若干个红色和白色的小球， BENELLI\n二是红色的， 把这个球放回袋中后,再另外放进三个白球， 发现现有小球的  是红色的,问原\n来袋中红球和白球各有多少个?\n1. MEF NATE EADS SWIG E/E SHIGE TRF Eb) BG5\nDIF HAP 3 个小球 ,箱子里原来的小球个数是(  )。\nA. 27          B，32          C. 24          D. 30\n2. 647A 35 天完成这项工程的二,如果再增加工作效率相同的 8 个人,那么完成这项工\n程还需要(  )天。\nA. 25          B, 30          CAT          D. 32\n14\nRiise CRA “MBER” RRL TAG.\n第3讲 “分数应用题 (一)  od\nPet fonds\n3. EASA RAI UBER TSCA BLN    %。\n4, 有 73个同样大小的红 ,黑白玻璃球,按 1 个红球.2 个黑球、3 个白球的顺序排列着。\n白色玻璃球占总玻璃球的          。\n5. 今年父亲 40 岁,儿子 12 岁， 当儿子的年龄是父亲的-时,儿子           岁。",
+      "id": "grade6_b0015",
+      "pageEnd": 20,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "MEF NATE EADS SWIG E/E SHIGE TRF Eb) BG5 DIF HAP 3 个小球 ,箱子里原来的小球个数是( )。 A. 27 B，32 C. 24 D. 30",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "647A 35 天完成这项工程的二,如果再增加工作效率相同的 8 个人,那么完成这项工 程还需要( )天。 A. 25 B, 30 CAT D. 32 14 Riise CRA “MBER” RRL TAG. Pet fonds",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "EASA RAI UBER TSCA BLN %。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "有 73个同样大小的红 ,黑白玻璃球,按 1 个红球.2 个黑球、3 个白球的顺序排列着。 白色玻璃球占总玻璃球的 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "今年父亲 40 岁,儿子 12 岁， 当儿子的年龄是父亲的-时,儿子 岁。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    }
+  ]
+}

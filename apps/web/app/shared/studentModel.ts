@@ -1,6 +1,14 @@
 import type { Problem } from "../../../../packages/adaptive-engine";
 
-export type AbilityDimension = "knowledge" | "skill" | "reasoning" | "fluency" | "transfer";
+export type AbilityDimension =
+  | "knowledge"
+  | "skill"
+  | "reasoning"
+  | "fluency"
+  | "transfer"
+  | "communication"
+  | "modeling"
+  | "proofClosure";
 export type ReadinessStatus = "Ready" | "Developing" | "Needs Repair" | "Not Measured";
 
 export type AbilityDimensionState = {
@@ -26,6 +34,9 @@ export type ConceptState = {
   reasoning: number;
   fluency: number;
   transfer: number;
+  communication: number;
+  modeling: number;
+  proofClosure: number;
   readiness: ReadinessStatus;
   attempts: number;
   correct: number;
@@ -69,9 +80,43 @@ export type StudentAttemptInput = {
   answeredAt?: string;
 };
 
+export type SubjectiveRubricSignal = {
+  id: string;
+  label?: string;
+  score: number;
+  maxScore: number;
+};
+
+export type SubjectiveReviewModelImpact = {
+  abilitySignals: Partial<Record<AbilityDimension, number>>;
+  appliedAt?: string;
+  correct: boolean;
+  normalizedScore: number;
+  recommendation: string;
+  reviewedAt: string;
+  score: number;
+  maxScore: number;
+};
+
+export type SubjectiveReviewStudentModelInput = {
+  feedback: string;
+  problem: Problem;
+  reviewedAt?: string;
+  rubricScores: SubjectiveRubricSignal[];
+};
+
 const DEFAULT_MASTERY = 0.5;
 const DEFAULT_STABILITY = 0.45;
-const DIMENSIONS: AbilityDimension[] = ["knowledge", "skill", "reasoning", "fluency", "transfer"];
+const DIMENSIONS: AbilityDimension[] = [
+  "knowledge",
+  "skill",
+  "reasoning",
+  "fluency",
+  "transfer",
+  "communication",
+  "modeling",
+  "proofClosure"
+];
 
 export function createEmptyStudentModel(): StudentModel {
   const now = new Date().toISOString();
@@ -178,6 +223,85 @@ export function updateStudentModel(
   return nextModel;
 }
 
+export function updateStudentModelFromSubjectiveReview(
+  currentModel: StudentModel | null,
+  input: SubjectiveReviewStudentModelInput
+): { impact: SubjectiveReviewModelImpact; model: StudentModel } {
+  const model = migrateStudentModel(currentModel);
+  const reviewedAt = input.reviewedAt ?? new Date().toISOString();
+  const conceptStates = { ...model.conceptStates };
+  const score = input.rubricScores.reduce((sum, row) => sum + clampToRange(row.score, 0, row.maxScore), 0);
+  const maxScore = input.rubricScores.reduce((sum, row) => sum + Math.max(0, row.maxScore), 0) || 1;
+  const normalizedScore = clamp(score / maxScore);
+  const correct = normalizedScore >= 0.7;
+  const abilitySignals = inferSubjectiveAbilitySignals(input.rubricScores, normalizedScore);
+  const dimensions = inferSubjectiveDimensions(input.problem);
+  const totalAttempts = model.totalAttempts + 1;
+  const totalCorrect = model.totalCorrect + (correct ? 1 : 0);
+
+  input.problem.concepts.forEach((concept) => {
+    const previous = conceptStates[concept] ?? createConceptState(concept, reviewedAt);
+    const attempts = previous.attempts + 1;
+    const correctCount = previous.correct + (correct ? 1 : 0);
+    const mastery = clamp(previous.mastery + scoreDelta(normalizedScore, 0.24));
+    const stability = clamp(previous.stability + scoreDelta(normalizedScore, 0.2, 0.5));
+    const dimensionScores = updateConceptDimensionsFromSubjective(previous, dimensions, abilitySignals, normalizedScore);
+    const averageResponseTimeSeconds = previous.averageResponseTimeSeconds;
+    const averageConfidence = previous.averageConfidence;
+    const recentAccuracy = rollingRecentAccuracy(previous.recentAccuracy, correct);
+    const wrongStreak = correct ? 0 : previous.wrongStreak + 1;
+
+    conceptStates[concept] = {
+      concept,
+      mastery,
+      stability,
+      ...dimensionScores,
+      readiness: readinessFromScore((mastery + stability + averageDimensionScore(dimensionScores)) / 3),
+      attempts,
+      correct: correctCount,
+      recentAccuracy,
+      averageResponseTimeSeconds,
+      averageConfidence,
+      wrongStreak,
+      lastPracticedAt: reviewedAt,
+      reviewDueAt: nextReviewDueAt(reviewedAt, stability, correct)
+    };
+  });
+
+  const abilityProfile = updateAbilityProfileFromSubjectiveReview(
+    model.abilityProfile,
+    input.problem,
+    dimensions,
+    abilitySignals,
+    normalizedScore
+  );
+  const nextModel: StudentModel = {
+    ...model,
+    updatedAt: reviewedAt,
+    totalAttempts,
+    totalCorrect,
+    overallAccuracy: totalCorrect / totalAttempts,
+    difficultyComfort: updateDifficultyComfort(model.difficultyComfort, input.problem.difficulty, correct),
+    abilityProfile,
+    domainReadiness: buildDomainReadiness(conceptStates),
+    currentPlacement: inferCurrentPlacement(conceptStates, totalAttempts),
+    conceptStates,
+    recommendedReviewConcepts: selectReviewConcepts(conceptStates, reviewedAt),
+    recommendedNextStep: buildRecommendedNextStep(conceptStates, abilityProfile)
+  };
+  const impact: SubjectiveReviewModelImpact = {
+    abilitySignals,
+    correct,
+    maxScore,
+    normalizedScore,
+    recommendation: buildSubjectiveReviewRecommendation(input.problem, abilitySignals, normalizedScore, input.feedback),
+    reviewedAt,
+    score
+  };
+
+  return { impact, model: nextModel };
+}
+
 export function migrateStudentModel(model: StudentModel | null): StudentModel {
   if (!model) return createEmptyStudentModel();
 
@@ -188,7 +312,10 @@ export function migrateStudentModel(model: StudentModel | null): StudentModel {
         skill: sanitizeScore(state.skill, state.mastery),
         reasoning: sanitizeScore(state.reasoning, state.mastery),
         fluency: sanitizeScore(state.fluency, state.stability),
-        transfer: sanitizeScore(state.transfer, state.mastery * 0.8 + state.stability * 0.2)
+        transfer: sanitizeScore(state.transfer, state.mastery * 0.8 + state.stability * 0.2),
+        communication: sanitizeScore((state as Partial<ConceptState>).communication, state.reasoning ?? state.mastery),
+        modeling: sanitizeScore((state as Partial<ConceptState>).modeling, state.reasoning ?? state.mastery),
+        proofClosure: sanitizeScore((state as Partial<ConceptState>).proofClosure, state.communication ?? state.reasoning ?? state.mastery)
       };
 
       return [
@@ -270,7 +397,10 @@ function createConceptState(concept: string, now: string): ConceptState {
     skill: DEFAULT_MASTERY,
     reasoning: DEFAULT_MASTERY,
     fluency: DEFAULT_STABILITY,
-    transfer: DEFAULT_MASTERY
+    transfer: DEFAULT_MASTERY,
+    communication: DEFAULT_MASTERY,
+    modeling: DEFAULT_MASTERY,
+    proofClosure: DEFAULT_MASTERY
   };
 
   return {
@@ -336,6 +466,10 @@ function inferDimensions(problem: Problem, responseTimeSeconds: number | undefin
     dimensions.add("reasoning");
   }
 
+  if (/written|explain|explanation|justify|proof|communication|constructed|证明|过程|解释/.test(tags) || problem.answerType === "manual" || problem.responseSchema) {
+    dimensions.add("communication");
+  }
+
   if (problem.taxonomy?.stage === "AMC8 Transfer" || problem.curriculum.course === "AMC8" || problem.difficulty >= 4) {
     dimensions.add("transfer");
   }
@@ -359,12 +493,40 @@ function updateConceptDimensions(
     skill: previous.skill,
     reasoning: previous.reasoning,
     fluency: previous.fluency,
-    transfer: previous.transfer
+    transfer: previous.transfer,
+    communication: previous.communication,
+    modeling: previous.modeling,
+    proofClosure: previous.proofClosure
   };
   const delta = dimensionDelta(correct, responseTimeSeconds, confidence);
 
   dimensions.forEach((dimension) => {
     next[dimension] = clamp(next[dimension] + delta);
+  });
+
+  return next;
+}
+
+function updateConceptDimensionsFromSubjective(
+  previous: ConceptState,
+  dimensions: AbilityDimension[],
+  abilitySignals: Partial<Record<AbilityDimension, number>>,
+  normalizedScore: number
+) {
+  const next = {
+    knowledge: previous.knowledge,
+    skill: previous.skill,
+    reasoning: previous.reasoning,
+    fluency: previous.fluency,
+    transfer: previous.transfer,
+    communication: previous.communication,
+    modeling: previous.modeling,
+    proofClosure: previous.proofClosure
+  };
+
+  dimensions.forEach((dimension) => {
+    const signal = abilitySignals[dimension] ?? (dimension === "fluency" ? previous.fluency : normalizedScore);
+    next[dimension] = clamp(next[dimension] + scoreDelta(signal, 0.22));
   });
 
   return next;
@@ -396,10 +558,118 @@ function updateAbilityProfile(
   return next;
 }
 
+function updateAbilityProfileFromSubjectiveReview(
+  profile: Record<AbilityDimension, AbilityDimensionState>,
+  problem: Problem,
+  dimensions: AbilityDimension[],
+  abilitySignals: Partial<Record<AbilityDimension, number>>,
+  normalizedScore: number
+) {
+  const next = { ...profile };
+
+  dimensions.forEach((dimension) => {
+    if (dimension === "fluency") return;
+
+    const previous = next[dimension] ?? createAbilityProfile()[dimension];
+    const signal = abilitySignals[dimension] ?? normalizedScore;
+
+    next[dimension] = {
+      score: clamp(previous.score + scoreDelta(signal, 0.22)),
+      attempts: previous.attempts + 1,
+      evidence: [
+        `${problem.id}: subjective review ${Math.round(signal * 100)}% ${dimension}`
+      ].concat(previous.evidence).slice(0, 5)
+    };
+  });
+
+  return next;
+}
+
 function dimensionDelta(correct: boolean, responseTimeSeconds: number | undefined, confidence: number | undefined) {
   const speed = responseTimeSeconds === undefined ? 0 : responseTimeSeconds <= 60 ? 0.015 : responseTimeSeconds >= 150 ? -0.02 : 0;
   const confidenceBoost = confidence === undefined ? 0 : (confidence - 3) * 0.012;
   return correct ? 0.075 + speed + confidenceBoost : -0.105 + Math.min(0, confidenceBoost);
+}
+
+function inferSubjectiveDimensions(problem: Problem): AbilityDimension[] {
+  const dimensions = new Set<AbilityDimension>(["knowledge", "skill", "reasoning", "communication"]);
+  const tags = [
+    problem.responseSchema?.mode,
+    problem.taxonomy?.problemType,
+    ...(problem.taxonomy?.cognitiveTags ?? []),
+    ...problem.skills,
+    ...problem.patterns
+  ].join(" ");
+
+  if (/model|application|context|function|equation|建模|应用|函数|方程/.test(tags)) {
+    dimensions.add("modeling");
+  }
+
+  if (/proof|closure|deduction|geometry|证明|闭合|几何/.test(tags)) {
+    dimensions.add("proofClosure");
+  }
+
+  if (problem.taxonomy?.stage === "AMC8 Transfer" || problem.curriculum.course === "AMC8" || problem.difficulty >= 4) {
+    dimensions.add("transfer");
+  }
+
+  return [...dimensions];
+}
+
+function inferSubjectiveAbilitySignals(rubricScores: SubjectiveRubricSignal[], normalizedScore: number) {
+  const grouped: Partial<Record<AbilityDimension, number[]>> = {
+    communication: [],
+    modeling: [],
+    proofClosure: []
+  };
+
+  rubricScores.forEach((row) => {
+    const ratio = row.maxScore > 0 ? clamp(row.score / row.maxScore) : normalizedScore;
+    const dimension = rubricRowDimension(row);
+
+    grouped[dimension] = [...(grouped[dimension] ?? []), ratio];
+  });
+
+  return {
+    knowledge: average(grouped.knowledge ?? [normalizedScore]),
+    reasoning: average(grouped.reasoning ?? [normalizedScore]),
+    communication: average(grouped.communication?.length ? grouped.communication : [normalizedScore]),
+    modeling: average(grouped.modeling?.length ? grouped.modeling : [normalizedScore]),
+    proofClosure: average(grouped.proofClosure?.length ? grouped.proofClosure : [normalizedScore]),
+    skill: normalizedScore,
+    transfer: normalizedScore
+  } satisfies Partial<Record<AbilityDimension, number>>;
+}
+
+function rubricRowDimension(row: SubjectiveRubricSignal): AbilityDimension {
+  const text = `${row.id} ${row.label ?? ""}`.toLowerCase();
+
+  if (/proof_closure|closure|closed|target|goal|证明闭合|闭合|目标/.test(text)) return "proofClosure";
+  if (/model|setup|quantity|variable|representation|建模|模型|变量|数量关系/.test(text)) return "modeling";
+  if (/given|givens|condition|definition|条件|定义|已知/.test(text)) return "knowledge";
+  if (/communication|explain|expression|clarity|表达|说明|书写/.test(text)) return "communication";
+  if (/conclusion|answer|结论|答案/.test(text)) return "communication";
+  if (/reason|logic|work|step|proof|justify|推理|过程|证明/.test(text)) return "reasoning";
+
+  return "reasoning";
+}
+
+function buildSubjectiveReviewRecommendation(
+  problem: Problem,
+  abilitySignals: Partial<Record<AbilityDimension, number>>,
+  normalizedScore: number,
+  feedback: string
+) {
+  const weakest = (["modeling", "reasoning", "communication", "proofClosure", "knowledge"] as AbilityDimension[])
+    .sort((left, right) => (abilitySignals[left] ?? normalizedScore) - (abilitySignals[right] ?? normalizedScore))[0];
+  const scoreText = `${Math.round(normalizedScore * 100)}%`;
+  const feedbackHint = feedback.trim() ? ` Reviewer note: ${feedback.trim()}` : "";
+
+  return `Subjective review scored ${scoreText}; next practice should emphasize ${weakest} on ${problem.concepts[0] ?? problem.primaryConcept}.${feedbackHint}`;
+}
+
+function scoreDelta(score: number, scale: number, midpoint = 0.55) {
+  return (score - midpoint) * scale;
 }
 
 function buildDomainReadiness(conceptStates: Record<string, ConceptState>): Record<string, DomainReadiness> {

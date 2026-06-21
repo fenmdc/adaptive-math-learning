@@ -10,6 +10,12 @@ export type SimulationLog = {
   selectedChoiceLabel?: string;
   selectedChoiceValue?: string;
   selectedDistractor?: Distractor;
+  workSubmission?: {
+    drawingDataUrl?: string;
+    uploadedFileName?: string;
+    uploadedFileType?: string;
+    writtenWork?: string;
+  };
   diagnosticSlot?: string;
   diagnosticStage?: string;
   assessmentGoal?: string;

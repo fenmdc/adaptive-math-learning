@@ -1,0 +1,2752 @@
+{
+  "grade1": [
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 176,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n(1)1;(2) 19;(3) 42,9;(4) 15。\n56十9一65,65一13一52,52十27一79,79一35一44,44十41一85,85一21一64。\n1十3十6十10十15十21一56。\n70;69;18;31;80;27,72(只要符合条件即可) 。\n5. 1十23十4十5十67一100\n6. (1) sy —4, =5;(2) C),=0,@)=\nee WwW Oo 靖\ncn\n~“\nOo\nfor)\n8. 100一45一9一46(元)。答:妈妈在菜场花了 46 元。\n9. 27十20十1=48(人)。答:一(1)班一共有 48 A.\n10, 82—54+45=73, Bs EMM BRUTE 73.",
+      "id": "grade1_b0218",
+      "pageEnd": 176,
+      "questionCandidates": [
+        {
+          "localNo": "5",
+          "prompt": "1十23十4十5十67一100",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) sy —4, =5;(2) C),=0,@)= ee WwW Oo 靖 cn ~“ Oo for)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "100一45一9一46(元)。答:妈妈在菜场花了 46 元。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "27十20十1=48(人)。答:一(1)班一共有 48 A.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "82—54+45=73, Bs EMM BRUTE 73.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 177,
+      "lessonNo": 16,
+      "lessonTitle": "算式猜谜",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. ()  2 (2)   (2) (1) 3    (3) (7) 3\n+ (3) 7     + 7 (9)     — 2 (7)\n5 9       (9) 2       4 6\n2. (1) #=8, A=1;(2) 0=9,A=1,\n3. 我=9 ,你=1。\n4, 我=5,你=9。\n5. 我=1,你=9。\n06. Oo\" Oo.",
+      "id": "grade1_b0223",
+      "pageEnd": 177,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "() 2 (2) (2) (1) 3 (3) (7) 3 + (3) 7 + 7 (9) — 2 (7) 5 9 (9) 2 4 6",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "(1) #=8, A=1;(2) 0=9,A=1,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "我=9 ,你=1。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "我=5,你=9。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "我=1,你=9。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 28,
+      "lessonNo": 3,
+      "lessonTitle": "1-5的认识和加减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 列式计算,再写出其他三个式子。\n9\nLOU         LoD:D\nLoD         DoD:D\nLOU:         LOD\nLoD         DoD:D\n2. 在下面的圆圈中填人合适的数字 ,使得上面两个数相加的和与下面两个数相加的和相\n等 “ue FAY.\n(2) C)     ()   (3) Hf\nC)",
+      "id": "grade1_b0017",
+      "pageEnd": 28,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "列式计算,再写出其他三个式子。 9 LOU LoD:D LoD DoD:D LOU: LOD LoD DoD:D",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在下面的圆圈中填人合适的数字 ,使得上面两个数相加的和与下面两个数相加的和相 等 “ue FAY. (2) C) () (3) Hf C)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 30,
+      "lessonNo": 3,
+      "lessonTitle": "1 5的认识和加减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 小丽上街买橡皮,她先去商店买了 2 块,后来又去买了 3 块,之后她发现有 1 块的样子\n和之前买的一样就去退掉了,请问小丽一共买回了几块橡皮?\n2. 小东去图书馆借连环画,周一借了4本,周二他还回去 2 本,又重新借了 3 本 ,请问现在\n小东有几本连环画?\n3  和 =",
+      "id": "grade1_b0020",
+      "pageEnd": 30,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "小丽上街买橡皮,她先去商店买了 2 块,后来又去买了 3 块,之后她发现有 1 块的样子 和之前买的一样就去退掉了,请问小丽一共买回了几块橡皮?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "小东去图书馆借连环画,周一借了4本,周二他还回去 2 本,又重新借了 3 本 ,请问现在 小东有几本连环画? 3 和 =",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 46,
+      "lessonNo": 4,
+      "lessonTitle": "认识物体和图形一",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 班级进行班委竞选,下面是四位同学的竞选结果,正字的笔画数就代表得票数,你能\n将结果在统计图中呈现吗?\n小东                                 JEIF\n小丽                                    正T\n小红                                 正直\n小芳                                正正\n10\n9\n8\nch\n6\n5\n4\n3\n2\n1\n小东             小丽             小红             小芳\n2. 辨一辨,在动物下面打”/”,在食品下面打“X”,并将统计图填写完整。\nZEN   90” 9   Pa\nUL    和| oe\nVY &  &\n( ) ( ) ( ) ( ) ( ) ( ) ( )\nR    = & © &\n( ) ( ) ( )   ( ) ( ) ( )\n(     )\n三\nre YW FU DNA oo 避\n41\nRiise DRE ME BR” RRL GO TALE\n全和音关子生珊分题关(精讲上)\n1. 在下图中,圈出一组同类的物品。\n3. 下面是大象\\小熊猫\\小猴子,小兔子和长颈鹿所摘桃子个数的统计图,请你根据统计\n图回答问题。\nmea 6\nC1) 摘的桃子数量最多的是(      ),它摘了(      )个桃子: 摘的桃子数量最少的是\n(      ) ,它摘了(      )个桃子。\n42\nRite RA “MME HR” FRL GA Tawe",
+      "id": "grade1_b0032",
+      "pageEnd": 48,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "班级进行班委竞选,下面是四位同学的竞选结果,正字的笔画数就代表得票数,你能 将结果在统计图中呈现吗? 小东 JEIF 小丽 正T 小红 正直 小芳 正正 10 9 8 ch 6 5 4 3 2 1 小东 小丽 小红 小芳",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "辨一辨,在动物下面打”/”,在食品下面打“X”,并将统计图填写完整。 ZEN 90” 9 Pa UL 和| oe VY & & ( ) ( ) ( ) ( ) ( ) ( ) ( ) R = & © & ( ) ( ) ( ) ( ) ( ) ( ) ( ) 三 re YW FU DNA oo 避 41 Riise DRE ME BR” RRL GO TALE 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "在下图中,圈出一组同类的物品。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "下面是大象\\小熊猫\\小猴子,小兔子和长颈鹿所摘桃子个数的统计图,请你根据统计 图回答问题。 mea 6 C1) 摘的桃子数量最多的是( ),它摘了( )个桃子: 摘的桃子数量最少的是 ( ) ,它摘了( )个桃子。 42 Rite RA “MME HR” FRL GA Tawe",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 57,
+      "lessonNo": 6,
+      "lessonTitle": "6 10的认识和加减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练",
+      "text": "思维训练\n1, 列式计算:比 17 少6 的数是多少?\n[LOD=[\n2. 在( ， )中填上合适的数,使得等式成立。\n(1) 2十( = )十5一17     (2) 10一(  )一( ， Y=\n(3) ( )+4=14        (4) 10十( =)=18\n(5) ( )—-4=11        (6) 16一2一( ，)=10\n52\nRAMESH” RRL GT Ae",
+      "id": "grade1_b0039",
+      "pageEnd": 58,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "列式计算:比 17 少6 的数是多少? [LOD=[",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "在( ， )中填上合适的数,使得等式成立。 (1) 2十( = )十5一17 (2) 10一( )一( ， Y= (3) ( )+4=14 (4) 10十( =)=18 (5) ( )—-4=11 (6) 16一2一( ，)=10 52 RAMESH” RRL GT Ae",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 66,
+      "lessonNo": 8,
+      "lessonTitle": "”认识钟表",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 请根据上面的时间,在钟表上画出 1 小时后的时间。\n2. 现在的时间是上午8时30分,再过(  )分是9 时整。\n亮亮和爸爸时上去动物园 ,去的时候时间如下图,规定游玩时间是 8 个小时,请问:亮亮和\n爸爸最迟几点出动物园?\n分析“钟面上的时间是早上 8 时整,再过 8 小时应该是下午 4时整。\nfk 亮亮和区爸最迟下午4 时整出动物园。",
+      "id": "grade1_b0048",
+      "pageEnd": 66,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "请根据上面的时间,在钟表上画出 1 小时后的时间。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "现在的时间是上午8时30分,再过( )分是9 时整。 亮亮和爸爸时上去动物园 ,去的时候时间如下图,规定游玩时间是 8 个小时,请问:亮亮和 爸爸最迟几点出动物园? 分析“钟面上的时间是早上 8 时整,再过 8 小时应该是下午 4时整。 fk 亮亮和区爸最迟下午4 时整出动物园。",
+          "hasAnalysis": true,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 67,
+      "lessonNo": 8,
+      "lessonTitle": "”认识钟表",
+      "column": "competition_boost",
+      "rawHeading": "人 竞赛强化",
+      "text": "人 竞赛强化\n(1) 时针走一圈代表(  )小时;分针走一圈走了     )分钟,合为     )小时;秒针走\nRE TC  )秒,合为( ay.\n(2) 时针从“6?走到\"9”,走了(  )小时,分针从“6?走到“9”,走了(  )分钟。\n(3) 现在是7 时整,时针再走(  )大格为 10 时整。\n2. 找一找,连一连。\n6: 00             16: 00             8: 30             18: 30\n3. 根据下面的时间 ,在钟表上画出对应的分针。\n9: 00             10: 30             12: 20             11: 45\n10: 00             5: 30             13: 30             8: 20\n62\nRiise CRA “MBER” RRL TAG.\n5. 根据下面的时间 ,在钟表上画出相应的时针和分针。\n8: 00             9: 30             12: 00             7; 25\n2个小时后                  1个小时30分钟后\n8. 根据小能说的话,在正确的时钟下面画”/”。\n(J\n63\nRite RA “MME HR” FRL GA Tawe\na 数学类子生高分题库 (精讲版)\n9. 按照时间的先后顺序排一排。\n10. 小明今天7 时整起床,从起床到离开家需要 30 分钟,从家到学校需要 30 分钟,小明\n到学校几点钟? 你能画出这个时刻吗?\n64\nRiise CRA “MBER” RRL TAG.\nGeSSSSSSS\nEIQ",
+      "id": "grade1_b0050",
+      "pageEnd": 70,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "找一找,连一连。 6: 00 16: 00 8: 30 18: 30",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "根据下面的时间 ,在钟表上画出对应的分针。 9: 00 10: 30 12: 20 11: 45 10: 00 5: 30 13: 30 8: 20 62 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "根据下面的时间 ,在钟表上画出相应的时针和分针。 8: 00 9: 30 12: 00 7; 25 2个小时后 1个小时30分钟后",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "根据小能说的话,在正确的时钟下面画”/”。 (J 63 Rite RA “MME HR” FRL GA Tawe a 数学类子生高分题库 (精讲版)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "按照时间的先后顺序排一排。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小明今天7 时整起床,从起床到离开家需要 30 分钟,从家到学校需要 30 分钟,小明 到学校几点钟? 你能画出这个时刻吗? 64 Riise CRA “MBER” RRL TAG. GeSSSSSSS EIQ",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 70,
+      "lessonNo": 8,
+      "lessonTitle": "”认识钟表",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 在括号中填上合适的数。\n( )+4=13       ( )+3=9       ( )+6=15\n( )+2=13       5十(  )=9       7十(  )=16\n3十(  )=9        2十( = 11       ( )+6=12\n65\nRie CAE MMP RM” RELG TAS\n全和音关子生珊分题关(精讲上)\n2. 填一填。\n3+9=[        7+9=([]",
+      "id": "grade1_b0052",
+      "pageEnd": 71,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在括号中填上合适的数。 ( )+4=13 ( )+3=9 ( )+6=15 ( )+2=13 5十( )=9 7十( )=16 3十( )=9 2十( = 11 ( )+6=12 65 Rie CAE MMP RM” RELG TAS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "填一填。 3+9=[ 7+9=([]",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade1",
+      "sourceFile": "尖子生高分题库1年级.pdf",
+      "pageStart": 102,
+      "lessonNo": 14,
+      "lessonTitle": "认识人民币@",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 请将互相对应的价格连起来。\n5元4角                 3\n3元2角                  7元6角\n25元5角\n2. 请将下列价格按照从小到大的顺序进行排列,将序号填写在横线上。\n忆\nz\n» 是|\nGD 14元6角                 (2) 37元8角                图25元                    @ 3.576               © 4.256\n<                            <                            <和                            <",
+      "id": "grade1_b0084",
+      "pageEnd": 102,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "请将互相对应的价格连起来。 5元4角 3 3元2角 7元6角 25元5角",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "请将下列价格按照从小到大的顺序进行排列,将序号填写在横线上。 忆 z » 是| GD 14元6角 (2) 37元8角 图25元 @ 3.576 © 4.256 < < <和 <",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade2": [
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 84,
+      "lessonNo": 14,
+      "lessonTitle": "万以内数的认训",
+      "column": "competition_boost",
+      "rawHeading": "人让 竞赛强化",
+      "text": "人让 竞赛强化\n1. 写出下列数的近似数。\n506( ) 3498( ) 1299( ) 6790¢)\n2. 杭州到北京,飞机票要 1625 元,动车票要 538 元,乘动车比乘飞机大约便宜( TBs\n3. 请用 0.2.3.8 这几个数字按要求写出大于 8000 的四位数,要求每个数字在每个数中\n攻出现一次,符合条件的数中最大的是( ) ,最小的是( ) 。\n4请你写出用 0,1,2,3 组成四位数,并按照从小到大的顺序对组成的四位数进行排列。\n5.找规律 ,填一填。\n(1) 677.566.455 人 CC)\n(2) 4021.5201.6210.7021C CD\n(3) 1234,1254,1274,.¢ C1334\n6. ZED HP SELA AS Le] AB HE ASE RE RAEI BSF 1500。\n7a\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n7. WRITE.\n(1) 比最大的三位数大 200 的数是多少?\n(2) 两个数的和是 900 ,两个数的差是 100,这两个数各是多少?\n8. 一个四位数,各位上的数字和是 24,千位上的数字是最大的一位数,且是百位上数字的\n3 倍,十位上的数字是个位上的 2 倍,问这个四位数是多少?\n9, 夏天快到了,东东爸爸带了 6000 元打算去家电市场买 2 台空调,东东爸爸可以买以下\n2 台空调吗?\nT         -_\n市场价，2799元                            市场价; 2499元\n10. 小明家有一大片果园,其中桃树 100 棵,桃树比苹果树多 20 棵, 比橘子树少 80 棵,小\n明家总共有多少棵果树?\n80\nRiise CRA “MBER” RRL TAG.\n7\nEs 1Gue Exe\nCHB eis+ THR RANER HTM £E SUWSC ISHS BR\nHWRS. BAVA:\n(1) 找规律填数;\n(2) 能解决有天算式填空,以及简单的排序与数字问题;\n(3) 解决简单的数独问题;\n(4) 擎握用列表法呈现推理条件, 结合排除法解答逻辑推理问题。\n仔细观察,按规律填数。\n(1) 12.23、34.45、( )、( )、78\n(2) 1.3.6.€ ).15.€ -),28\n分析 通过观察(1) ,发现后一个数字比前一个数大 11,因此( )里依次填 56,67。通过观\n察(2) ,发现第二个数比第一个大 2 ,第三个数比第二个大 3,我们可以猜测第四个数比第三个\n大 4,那么第四个数是 10,再通过第五个数验证发现第五个数比第四个数大 5,所以第六个数\n是21。\n解 (1) 56,67 (2) 10,21",
+      "id": "grade2_b0092",
+      "pageEnd": 86,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "写出下列数的近似数。 506( ) 3498( ) 1299( ) 6790¢)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "杭州到北京,飞机票要 1625 元,动车票要 538 元,乘动车比乘飞机大约便宜( TBs",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "请用 0.2.3.8 这几个数字按要求写出大于 8000 的四位数,要求每个数字在每个数中 攻出现一次,符合条件的数中最大的是( ) ,最小的是( ) 。 4请你写出用 0,1,2,3 组成四位数,并按照从小到大的顺序对组成的四位数进行排列。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "找规律 ,填一填。 (1) 677.566.455 人 CC) (2) 4021.5201.6210.7021C CD (3) 1234,1254,1274,.¢ C1334",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "ZED HP SELA AS Le] AB HE ASE RE RAEI BSF 1500。 7a Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "WRITE. (1) 比最大的三位数大 200 的数是多少? (2) 两个数的和是 900 ,两个数的差是 100,这两个数各是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "一个四位数,各位上的数字和是 24,千位上的数字是最大的一位数,且是百位上数字的 3 倍,十位上的数字是个位上的 2 倍,问这个四位数是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "夏天快到了,东东爸爸带了 6000 元打算去家电市场买 2 台空调,东东爸爸可以买以下 2 台空调吗? T -_ 市场价，2799元 市场价; 2499元",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "小明家有一大片果园,其中桃树 100 棵,桃树比苹果树多 20 棵, 比橘子树少 80 棵,小 明家总共有多少棵果树? 80 Riise CRA “MBER” RRL TAG. 7 Es 1Gue Exe CHB eis+ THR RANER HTM £E SUWSC ISHS BR HWRS. BAVA: (1) 找规律填数; (2) 能解决有天算式填空,以及简单的排序与数字问题; (3) 解决简单的数独问题; (4) 擎握用列表法呈现推理条件, 结合排除法解答逻辑推理问题。 仔细观察,按规律填数。 (1) 12.23、34.45、( )、( )、78 (2) 1.3.6.€ ).15.€ -),28 分析 通过观察(1) ,发现后一个数字比前一个数大 11,因此( )里依次填 56,67。通过观 察(2) ,发现第二个数比第一个大 2 ,第三个数比第二个大 3,我们可以猜测第四个数比第三个 大 4,那么第四个数是 10,再通过第五个数验证发现第五个数比第四个数大 5,所以第六个数 是21。 解 (1) 56,67 (2) 10,21",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 102,
+      "lessonNo": 17,
+      "lessonTitle": "志和与5全",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 计算下列各题。\n(1) 78十45      (2) 67十29十4      (3) 53十18十19      (4) 39十39十39\noF\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n2. 计算:139十362十283十119\n3. 计算:2012一2017十2004一2000十2008一1999十2020\n4. 计算:19十199十1999十19999十199999\n.计算:48X25\non\n6. t}#:2X3X4xX5X6X7X8X9X0\n7, 计算:150一32一21一18一9\n8. 计算;97X98X99X100二99二98\n9. 计算:1十2?十3十…十9十10十9十8十…十3十2十1\n10. 计算:135十357十579十791十913\n98\nRiise CRA “MBER” RRL TAG.\nSSSSSSSSS\nIC BOSiRR\n填图是一种运算游戏,它要求把一些数字按照一定的规则填进各类图形。主要题型有:\nC1) 在3X3 或4X4方格中填入数,使得每行,每列以及每条对角线的和相等;\n(2) 按要求在提供的对称圆圈组合中填入合适的数。\n用图中所给数字填满其余的空格 ,使每行、每列以及每条对角线的三个数字之和都相等。\n(每个数字必须使用 3 次)\n~“\n6 | 8\n分析 “因为每行.每列以及每条对角线的三个数字之和都相等,且每个数字必须使用 3\n次,可得右上角填8,第一行第二列填6,那么左上和角填7,按照这个填剩下的空格。\n解 ”如图所示:",
+      "id": "grade2_b0109",
+      "pageEnd": 104,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "计算下列各题。 (1) 78十45 (2) 67十29十4 (3) 53十18十19 (4) 39十39十39 oF Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "计算:139十362十283十119",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "计算:2012一2017十2004一2000十2008一1999十2020",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "计算:19十199十1999十19999十199999 .计算:48X25 on",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "t}#:2X3X4xX5X6X7X8X9X0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "计算:150一32一21一18一9",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "计算;97X98X99X100二99二98",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "计算:1十2?十3十…十9十10十9十8十…十3十2十1",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "计算:135十357十579十791十913 98 Riise CRA “MBER” RRL TAG. SSSSSSSSS IC BOSiRR 填图是一种运算游戏,它要求把一些数字按照一定的规则填进各类图形。主要题型有: C1) 在3X3 或4X4方格中填入数,使得每行,每列以及每条对角线的和相等; (2) 按要求在提供的对称圆圈组合中填入合适的数。 用图中所给数字填满其余的空格 ,使每行、每列以及每条对角线的三个数字之和都相等。 (每个数字必须使用 3 次) ~“ 6 | 8 分析 “因为每行.每列以及每条对角线的三个数字之和都相等,且每个数字必须使用 3 次,可得右上角填8,第一行第二列填6,那么左上和角填7,按照这个填剩下的空格。 解 ”如图所示:",
+          "hasAnalysis": true,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 147,
+      "lessonNo": 6,
+      "lessonTitle": "表内乘法二",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4           ，竟赛强化",
+      "text": "思维训练 4           ，竟赛强化\n1. 4X2一8,7X8一56(枚),56一7一49(枚) ， 1 DV xX GV MX\n答;俄罗斯获得的奖牌数比瑞士多 49 Be, 7 2. 71,42,67,51,25,84,15,32。\n142\nRiise DRE “MERE” RRL CABS\nsana 人\n“* PA.\n3. (1) 35 48 (2)42 56      | 8. KA 2X6=12(A\\), AE X8=240\\),\n4. 5e                         总共:12十24=36(人)\n5. (1)9 (2)8 (3)6 (4) 14      等:全班共有 36 A.\n6. 没看的页数:9X6=54(页) ,总共:9十54 ; 9, 6X8=48(90E)<50(3) 50-2 X 8=50—\n一63(页) 答:这本书总共有 63 页。    | 16=34(元)\n7. 两个一位数相乘,积的个位数为 8 的所有 ， AAS 6 ALE 2 枝还剩下 34 元。\n可能情况为 1X8=8,2X4=8,2X9= ; 10. 第二组:4X2=8(棵) ,第三组:8X2一16\n18,3X6=18,4X7=28,6X8=48. Fer   CPR) ,总共:4十8十16一28(棵) 。\n6十8一14,个位数为4,因此这两个数为6 ，       答:五年级(1)班总共种了 28 BERT.\n与8。",
+      "id": "grade2_b0173",
+      "pageEnd": 148,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "4X2一8,7X8一56(枚),56一7一49(枚) ， 1 DV xX GV MX 答;俄罗斯获得的奖牌数比瑞士多 49 Be, 7 2. 71,42,67,51,25,84,15,32。 142 Riise DRE “MERE” RRL CABS sana 人 “* PA.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "(1) 35 48 (2)42 56 | 8. KA 2X6=12(A\\), AE X8=240\\),",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "5e 总共:12十24=36(人)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "(1)9 (2)8 (3)6 (4) 14 等:全班共有 36 A.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "没看的页数:9X6=54(页) ,总共:9十54 ; 9, 6X8=48(90E)<50(3) 50-2 X 8=50— 一63(页) 答:这本书总共有 63 页。 | 16=34(元)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "两个一位数相乘,积的个位数为 8 的所有 ， AAS 6 ALE 2 枝还剩下 34 元。 可能情况为 1X8=8,2X4=8,2X9= ; 10. 第二组:4X2=8(棵) ,第三组:8X2一16",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "18",
+          "prompt": "3X6=18,4X7=28,6X8=48. Fer CPR) ,总共:4十8十16一28(棵) 。 6十8一14,个位数为4,因此这两个数为6 ， 答:五年级(1)班总共种了 28 BERT. 与8。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 156,
+      "lessonNo": 13,
+      "lessonTitle": "有余数的除法",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1如图所示\n2. oe本5 (JR)\nB/DSSE 5 FEE ASS 8\n3. 45一8一9. …，5\n答:甲数为 45,乙数为8。\n4, 77一8一3三66 除数:(66一3)二(8十1)\n=7 ,被除数:7X8十3一59\n答:被除数是 59 ,除数是 7。\n5. 30二7一4(个)……2(天)\n答:2017年5月10日是星期三。\n6. (1) 18+3=6 答:第 18个数是 1。\n(2) 49二6一8……]\nRid AE EAL\" ARG ie”\n余数是3f 。\n答:第 49 个数是 2。\n(3) 27+3=9,(2+2+1) X9=45\n答:前 27 个数的和是 45。\n7. 34一4一8.……2\n答:第 34 个气球是黄色,这\n红色的有 9 个。\n8. 5,4或4,5;3,1;8,2;9,6,7。\n9.teres3(颗)\nERE BDA 51 颗。\n10. (67一3)一8一64二8一8,61二8一7……5\n答:正确的商为 7,余数为 5。\n34 个气球中\n151\nKRELYCAPS\n全和音关子生珊分题关(精讲上)",
+      "id": "grade2_b0210",
+      "pageEnd": 157,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "oe本5 (JR) B/DSSE 5 FEE ASS 8",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "45一8一9. …，5 答:甲数为 45,乙数为8。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "77一8一3三66 除数:(66一3)二(8十1) =7 ,被除数:7X8十3一59 答:被除数是 59 ,除数是 7。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "30二7一4(个)……2(天) 答:2017年5月10日是星期三。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 18+3=6 答:第 18个数是 1。 (2) 49二6一8……] Rid AE EAL\" ARG ie” 余数是3f 。 答:第 49 个数是 2。 (3) 27+3=9,(2+2+1) X9=45 答:前 27 个数的和是 45。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "34一4一8.……2 答:第 34 个气球是黄色,这 红色的有 9 个。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "5,4或4,5;3,1;8,2;9,6,7。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "teres3(颗) ERE BDA 51 颗。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "(67一3)一8一64二8一8,61二8一7……5 答:正确的商为 7,余数为 5。 34 个气球中 151 KRELYCAPS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 56,
+      "lessonNo": 9,
+      "lessonTitle": "，效据的收集与痉开全",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n(1) 右边机吉人中各种几何图形分别有多少个?\n0,0\nmw | 正方形 | 长方形 | 三角形       ap\nLI\n个数                              [OO\nO\n(2) 长方形比正方形多个。\n(3) 三角形比圆多      *.\n一一                OO\nC4) 这四种几何图形合起来共有      2\n2, 如图是一幅农场图,请你按要求填空。\nCD) 农场图中各种几何图形分别有多少个?\n《2) 你能用几何图形画出一幅图形 ,并完成下列表格吗?\n圆      长方形     三角形\n个数\n51\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n1. 小区公交从起点站发出,在起点站上车 8 人,途中经过 5 站到达终点站,在第 1 站上车\n6人,下车2人;在第2站上车6人;第3站和第4站无人上下车;在第5站下车9 人,在终点站\n共有多少人下车?\n2. 本班同学喜欢的冰激凌口味情况统计表如下。\n冰激凌口味             蓝莓                 香草                巧克力                哈密瓜\n人数           12           16           10            8\n(1) 喜欢(        )口味的同学最多,喜欢(        )口味的最少。\n(2) 喜欢蓝每口味的比香草口味少(     A.\n(3) WR FEE IM A GEASS A BP TORR SEE I?\n3. 二年级(3)班组织义卖活动,结束后同学们把卖得的钱进行结算 AE ETL TA TY\n的数量,其中 1 角与 5 角面额的钱合起来共(   )元(   )角,5 元面额的钱合起来共(\n元,全班共收入(     )元(     )角。\n面额            1 ff            5 角            1元            5元          10元\n数量            15             28             24              8             2\n4. 下面是二年级(3)班和二年级(4)班学生喜爱的游乐园项目情况统计图,请根据统计网\n完成统计表,并回答后面的问题。\n数量/人                                       数量/人\n16                                                                          16\n14                                                                          14\n12                                                                          12\n10                                                                          10\n8                                                                           8\n6                                                                           6\n4                                                                           4\n2                                                                           2\n0                                                                           0\n磁碰车         摩天轮 ”旋转木马 海盗船                     ‘ale 4         摩天轮 ”旋转木马 ”海盗船\n二年级(3)班学生喜爱的游乐园项目统计图        二年级(4)班学生喜爱的游乐园项目统计图\n52\nRiise CRA “MBER” RRL TAG.",
+      "id": "grade2_b0056",
+      "pageEnd": 58,
+      "questionCandidates": [
+        {
+          "localNo": "0",
+          "prompt": "0 mw | 正方形 | 长方形 | 三角形 ap LI 个数 [OO O (2) 长方形比正方形多个。 (3) 三角形比圆多 *. 一一 OO C4) 这四种几何图形合起来共有 2",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "如图是一幅农场图,请你按要求填空。 CD) 农场图中各种几何图形分别有多少个? 《2) 你能用几何图形画出一幅图形 ,并完成下列表格吗? 圆 长方形 三角形 个数 51 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "小区公交从起点站发出,在起点站上车 8 人,途中经过 5 站到达终点站,在第 1 站上车 6人,下车2人;在第2站上车6人;第3站和第4站无人上下车;在第5站下车9 人,在终点站 共有多少人下车?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "本班同学喜欢的冰激凌口味情况统计表如下。 冰激凌口味 蓝莓 香草 巧克力 哈密瓜 人数 12 16 10 8 (1) 喜欢( )口味的同学最多,喜欢( )口味的最少。 (2) 喜欢蓝每口味的比香草口味少( A. (3) WR FEE IM A GEASS A BP TORR SEE I?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "二年级(3)班组织义卖活动,结束后同学们把卖得的钱进行结算 AE ETL TA TY 的数量,其中 1 角与 5 角面额的钱合起来共( )元( )角,5 元面额的钱合起来共( 元,全班共收入( )元( )角。 面额 1 ff 5 角 1元 5元 10元 数量 15 28 24 8 2",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "下面是二年级(3)班和二年级(4)班学生喜爱的游乐园项目情况统计图,请根据统计网 完成统计表,并回答后面的问题。 数量/人 数量/人 16 16 14 14 12 12 10 10 8 8 6 6 4 4 2 2 0 0 磁碰车 摩天轮 ”旋转木马 海盗船 ‘ale 4 摩天轮 ”旋转木马 ”海盗船 二年级(3)班学生喜爱的游乐园项目统计图 二年级(4)班学生喜爱的游乐园项目统计图 52 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 142,
+      "lessonNo": 1,
+      "lessonTitle": "长度单位",
+      "column": "thinking_training",
+      "rawHeading": "思维训练3                         |    530 厘米,820一530王290(厘米),530 Jif",
+      "text": "思维训练3                         |    530 厘米,820一530王290(厘米),530 Jif\nA> 290 厘米,所以水深 290 厘米,露在\n1. 1 K=100 厘米,50一20=30(厘米)\n答:现在还剩下 30 厘米。\n2. 4米 20 厘米十10 K=14 K 20 厘米\n答:车要行驶 14 米 20 厘米才能离开大桥。\n水面外的竹竿长。\n7. 根据1米=100 厘米,故 1 米的一半是 50\n厘米,50一25一25(厘米)\n8. 3步相当于1 米,21二3一7,所以教室大约",
+      "id": "grade2_b0147",
+      "pageEnd": 142,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "1 K=100 厘米,50一20=30(厘米) 答:现在还剩下 30 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "4米 20 厘米十10 K=14 K 20 厘米 答:车要行驶 14 米 20 厘米才能离开大桥。 水面外的竹竿长。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "根据1米=100 厘米,故 1 米的一半是 50 厘米,50一25一25(厘米)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "3步相当于1 米,21二3一7,所以教室大约",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 145,
+      "lessonNo": 4,
+      "lessonTitle": "表",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1，50一5X7王15(页)\n页没写。\n答:小明还剩下 15\n140\n点各 1 个角,内层也有 5 个顶点,每个顶\n点每4 PH. 4二4十4十4十4十5一站\n(个) ,总共有 25 个角。\n9. 共4个顶点,从最上面的点开始顺时针数\n4十4十1十3王12(个)\n10. 由图可知,金字塔四个面都是三角形，\n3十3十3十3王12(个),共有 12 个角。\n内乘法(一)\n2. 4X4一16(米),4X6一24(米),6十1一7\n(根) 答:第一根彩旗与第五根彩旗距离\n16 米,一排最多能插 7 根彩旗。",
+      "id": "grade2_b0163",
+      "pageEnd": 145,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "50一5X7王15(页) 页没写。 答:小明还剩下 15 140 点各 1 个角,内层也有 5 个顶点,每个顶 点每4 PH. 4二4十4十4十4十5一站 (个) ,总共有 25 个角。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "共4个顶点,从最上面的点开始顺时针数 4十4十1十3王12(个)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "由图可知,金字塔四个面都是三角形， 3十3十3十3王12(个),共有 12 个角。 内乘法(一)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "4X4一16(米),4X6一24(米),6十1一7 (根) 答:第一根彩旗与第五根彩旗距离 16 米,一排最多能插 7 根彩旗。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 145,
+      "lessonNo": 4,
+      "lessonTitle": "表",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1 (1) 4X2+2+2=4X3=12\n(2) 3X4+4=16 或3X5十1一16\n2. 5十3X4,35一3X5,2X8或4X4,6X6或\n5% 12,\n3. 2,6,6,8,9,6,6,6。\n4. (1) 2 (2)6 (3) 4,5\n(6) >\n5. 25;4,6;6,6;5,35,7。(答案不唯一)\n6. (1) 5X3—2X6=15—12=3\n(2) 3X8+13=24+13=37\n(3) 12X6=6X6+6X6=36+36=72\n(4) (4十2) X (4—2)=6X2=12\n7. 真一8 ,因为2X4=8,所以国一4,全一2。\n妈十国十全一8十4十2一14。\n8. 12=1X12=2X6王3X4,但是在这三组\n数中,只有 12一3X2=6,因此人代表的\n数是 2,售代表的数是 6。\n《4) 一 《〈5) 去\nRiise DRE “MERE” RRL CABS\n9. 4X(5-1)=160CK) 答:他离地面 :\n16 米。\n第 $ 讲",
+      "id": "grade2_b0164",
+      "pageEnd": 146,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "5十3X4,35一3X5,2X8或4X4,6X6或 5% 12,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "2,6,6,8,9,6,6,6。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "(1) 2 (2)6 (3) 4,5 (6) >",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "25;4,6;6,6;5,35,7。(答案不唯一)",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 5X3—2X6=15—12=3 (2) 3X8+13=24+13=37 (3) 12X6=6X6+6X6=36+36=72 (4) (4十2) X (4—2)=6X2=12",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "真一8 ,因为2X4=8,所以国一4,全一2。 妈十国十全一8十4十2一14。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "12=1X12=2X6王3X4,但是在这三组 数中,只有 12一3X2=6,因此人代表的 数是 2,售代表的数是 6。 《4) 一 《〈5) 去 Riise DRE “MERE” RRL CABS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "4X(5-1)=160CK) 答:他离地面 : 16 米。 第 $ 讲",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 158,
+      "lessonNo": 14,
+      "lessonTitle": "”万以内数的认识",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n2,D 表示的数是4,则 B 表示的数是 4。\n2. A 表示的数是 5,D 表示的数是4,B表示\n的数 3,最右下角的数是1,则 C 表示的数\n是 3。具体表示如下所示;\n3\n2 | 4        3\n3|1|12|1415\n2.)\n1. 可先得出 C 表示的数为 2,A 表示的数是\n2800+ 2500=5300(3t) <6000(7E)\nRARE EM WE PX 2 台空调。\n10. 苹果树:100一20王80(棵)\n橘子树:100十80王180(棵)\n100+80+180=360(#R)\n答:小明家总共有 360 棵果树。\n广角一一推理",
+      "id": "grade2_b0219",
+      "pageEnd": 158,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "D 表示的数是4,则 B 表示的数是 4。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "A 表示的数是 5,D 表示的数是4,B表示 的数 3,最右下角的数是1,则 C 表示的数 是 3。具体表示如下所示; 3 2 | 4 3 3|1|12|1415",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "可先得出 C 表示的数为 2,A 表示的数是 2800+ 2500=5300(3t) <6000(7E) RARE EM WE PX 2 台空调。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "苹果树:100一20王80(棵) 橘子树:100十80王180(棵) 100+80+180=360(#R) 答:小明家总共有 360 棵果树。 广角一一推理",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade2",
+      "sourceFile": "尖子生高分题库2年级.pdf",
+      "pageStart": 165,
+      "lessonNo": 19,
+      "lessonTitle": "数列问题",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 96,78,56,42。提示 :通过观察,得出这组\n数列的规律是:\n2  4  0  8 10 12 14\nYN ON ENN\n98, (96) , 92, 86, (78) , 68, (56) , (42)\n2. 2,8,16,64,128。提示:后一个数是前一\n个数的2 倍。第 2 个数是 2,第 4个数是\n8,第5个数是8X2=16,第7个数是 32\nX2=64, 55 8 MAE 64 X2=128,\n3. 16,36,49,64,81 提示:通过观察得出这\n列数是自然数的平方数列。\n4, 从1到100,含有8 的偶数为8,18,28，",
+      "id": "grade2_b0239",
+      "pageEnd": 165,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "96,78,56,42。提示 :通过观察,得出这组 数列的规律是: 2 4 0 8 10 12 14 YN ON ENN",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "98",
+          "prompt": "(96) , 92, 86, (78) , 68, (56) , (42)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "2,8,16,64,128。提示:后一个数是前一 个数的2 倍。第 2 个数是 2,第 4个数是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "第5个数是8X2=16,第7个数是 32 X2=64, 55 8 MAE 64 X2=128,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "16,36,49,64,81 提示:通过观察得出这 列数是自然数的平方数列。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "从1到100,含有8 的偶数为8,18,28，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade3": [
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 78,
+      "lessonNo": 10,
+      "lessonTitle": "”除数是一位数的除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 祝老师.周老师.董老师三人中,一位是三年级(1)班的班主任,一位是三年级(2)班\n的班主任,一位是三年级(3)班的班主任。已知三年级(3)班在上周的班风评比中获得了一\n等奖,祝老师和三年级(3)班的班主任是邻居,三年级(2)班的班主任比周老师高,周老师所\n管理的班级在上周的班风评比中获得了二等奖。问祝老师.周老师,.董老师分别是哪个班\n的班主任?\noy\n2. VRIES AS SP EEE, RIS BO. EAR EB.\n知小贺的爸爸不会游泳,小芳因为爸爸职业的原因很喜欢看(摔跤吧 ,爸爸》。问小贺 .小芳、婷\n婷三人的爸爸分别从事什么职业?\n1. 下面是某地区 2017 年 6 月和7 月的天气统计表。\n6 月天气情况统计表\n天气 | 晴天 | 阴天 | 小雨 | 中雨 | 阵雨 | 暴雨\n天数   9    5    3    2    7    4\n7\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n7 月天气情况统计表\n天气 | 晴天 | 阴天 | 小雨 | 中雨 | 阵雨 | 暴雨\n天数  7   4   0   6   3   il\n请你将两个表格合并成复式统计表,画在下面的方框里,并回答以下问题。\nCL) 参照统计表,不考虑其他因素,预计 8 月份       〈填“晴天?或“阴天?或” \"hak\n“中雨?或\"阵雨?或\"暴雨”最多。\n(2) 这两个月内 ,雨天占了两个月的       Me\n2, 三年级(1)班的图书柜上有童话书 4 本,科技书是童话书的 3 倍再多 2 本,名著比科技\n书的 2 倍少1本,其他种类的书共有 13 本。三年级(2)班的名著本数与三年级(1)班相同 ,童\n话书的本数是名著的二,科技书比童话书多 3本,其他书的数量比三年级(1)班的其他书多 5\nos   请根据以上信息,绘制复式统计表。\nRiise CRA “MBER” RRL TAG.\n3. 小贺、小芳.婷婷三个人的梦想中 ,一位希望当教师 ,一位希望当科学家,一位希望当舞\n蹈家。已知三个人当中,只有婷婷从小开始跳舞,小贺十分支持好友想当老师的梦想。问小\n贺,.小芳、婷婷三人梦想中的职业分别是什么?\n4. 四月,小芳去徒步登山。已知小芳从山脚登上山顶的速度是每小时 3. 6 千米,一共用\n了4小时;下山时又按原来的路下山 ,但从山顶道山脚的速度是每小时 7.2 千米。那么她上下\n山的平均速度是多少?\n在对某月小组的小红旗获得情况进行总结。已知小红旗共有学习、活动.纪律三种,每种最多\n可获得 50 面。请你根据他们的总结完成下面的统计表,并回答问题。\n小贺 :我们小组这个月的活动红旗是六个组里最多的,有 48 面。学习红旗有 41 面,纪律\n红旗比学习红旗少 2 面。\n小芳:我们小组这个月的学习红旗虽然是三种红旗中最多的,然而距离满分还差 1 面,纪\n律红旗只差 1 面就跟学习红旗的数量一样了。活动红旗的数量,比纪律红旗的一半多 9 面。\n小祝:我们小组这个月的活动红旗是六个组里第二多的,仅比最多的那一组少4面。我们\n组本月一共获得了 123 面小红旗,纪律红旗比学习红旗多 5 面。\n小星:我们组本月一共获得了 126 面小红旗,每一种红旗数量都相等。\n婷婷:我们小组这个月的纪律红旗数量仅比满分少 1 面,活动红旗的数量比纪律红旗少\n10 面。本月的红旗总数比第一组多 1 面。\n文文:这个月我们小组的红旗总数量跟第一组一样多,活动红旗的数量也与第一组的学习\n红旗数量相同。学习红旗比纪律红旗多 1 面。\n75\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n组别\n小红旗的数量\n活动\nCL) 获得学习、活动`纪律红旗最多的,分别是哪个小组?\n(2) 若流动红旗将颁布给红旗总数最多的小组,则本月获得流动红旗的小组是哪一个?\n(3) 知均衡红旗将颁布给红旗总数较多,三种红旗的获得情况较为均衔的小组(获得流动\n红旗的小组将不参与本评选),则本月获得均衡红旗的小组是哪一个?\n6. 小祝的月考成绩统计表不小心徐上了墨水,已知小祝每次测试都及格了,请你算一算\n她第一二、三次月考各科的成绩以及英语的平均成绩(各科成绩满分为 100 分,不低于 60 分\n算及格)。\n第四 | 第五\n科日 | 平均         次月 | 次\n数学 97 9992\n语文 89 8992\n英语         3                                        89        95\n76\nRiise CRA “MBER” RRL TAG.\n-  CALNE —_ FZ\n| elt G2. Al. O",
+      "id": "grade3_b0060",
+      "pageEnd": 82,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "祝老师.周老师.董老师三人中,一位是三年级(1)班的班主任,一位是三年级(2)班 的班主任,一位是三年级(3)班的班主任。已知三年级(3)班在上周的班风评比中获得了一 等奖,祝老师和三年级(3)班的班主任是邻居,三年级(2)班的班主任比周老师高,周老师所 管理的班级在上周的班风评比中获得了二等奖。问祝老师.周老师,.董老师分别是哪个班 的班主任? oy",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "VRIES AS SP EEE, RIS BO. EAR EB. 知小贺的爸爸不会游泳,小芳因为爸爸职业的原因很喜欢看(摔跤吧 ,爸爸》。问小贺 .小芳、婷 婷三人的爸爸分别从事什么职业?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "下面是某地区 2017 年 6 月和7 月的天气统计表。 6 月天气情况统计表 天气 | 晴天 | 阴天 | 小雨 | 中雨 | 阵雨 | 暴雨 天数 9 5 3 2 7 4 7 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) 7 月天气情况统计表 天气 | 晴天 | 阴天 | 小雨 | 中雨 | 阵雨 | 暴雨 天数 7 4 0 6 3 il 请你将两个表格合并成复式统计表,画在下面的方框里,并回答以下问题。 CL) 参照统计表,不考虑其他因素,预计 8 月份 〈填“晴天?或“阴天?或” \"hak “中雨?或\"阵雨?或\"暴雨”最多。 (2) 这两个月内 ,雨天占了两个月的 Me",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "三年级(1)班的图书柜上有童话书 4 本,科技书是童话书的 3 倍再多 2 本,名著比科技 书的 2 倍少1本,其他种类的书共有 13 本。三年级(2)班的名著本数与三年级(1)班相同 ,童 话书的本数是名著的二,科技书比童话书多 3本,其他书的数量比三年级(1)班的其他书多 5 os 请根据以上信息,绘制复式统计表。 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "小贺、小芳.婷婷三个人的梦想中 ,一位希望当教师 ,一位希望当科学家,一位希望当舞 蹈家。已知三个人当中,只有婷婷从小开始跳舞,小贺十分支持好友想当老师的梦想。问小 贺,.小芳、婷婷三人梦想中的职业分别是什么?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "四月,小芳去徒步登山。已知小芳从山脚登上山顶的速度是每小时 3. 6 千米,一共用 了4小时;下山时又按原来的路下山 ,但从山顶道山脚的速度是每小时 7.2 千米。那么她上下 山的平均速度是多少? 在对某月小组的小红旗获得情况进行总结。已知小红旗共有学习、活动.纪律三种,每种最多 可获得 50 面。请你根据他们的总结完成下面的统计表,并回答问题。 小贺 :我们小组这个月的活动红旗是六个组里最多的,有 48 面。学习红旗有 41 面,纪律 红旗比学习红旗少 2 面。 小芳:我们小组这个月的学习红旗虽然是三种红旗中最多的,然而距离满分还差 1 面,纪 律红旗只差 1 面就跟学习红旗的数量一样了。活动红旗的数量,比纪律红旗的一半多 9 面。 小祝:我们小组这个月的活动红旗是六个组里第二多的,仅比最多的那一组少4面。我们 组本月一共获得了 123 面小红旗,纪律红旗比学习红旗多 5 面。 小星:我们组本月一共获得了 126 面小红旗,每一种红旗数量都相等。 婷婷:我们小组这个月的纪律红旗数量仅比满分少 1 面,活动红旗的数量比纪律红旗少 10 面。本月的红旗总数比第一组多 1 面。 文文:这个月我们小组的红旗总数量跟第一组一样多,活动红旗的数量也与第一组的学习 红旗数量相同。学习红旗比纪律红旗多 1 面。 75 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) 组别 小红旗的数量 活动 CL) 获得学习、活动`纪律红旗最多的,分别是哪个小组? (2) 若流动红旗将颁布给红旗总数最多的小组,则本月获得流动红旗的小组是哪一个? (3) 知均衡红旗将颁布给红旗总数较多,三种红旗的获得情况较为均衔的小组(获得流动 红旗的小组将不参与本评选),则本月获得均衡红旗的小组是哪一个?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "小祝的月考成绩统计表不小心徐上了墨水,已知小祝每次测试都及格了,请你算一算 她第一二、三次月考各科的成绩以及英语的平均成绩(各科成绩满分为 100 分,不低于 60 分 算及格)。 第四 | 第五 科日 | 平均 次月 | 次 数学 97 9992 语文 89 8992 英语 3 89 95 76 Riise CRA “MBER” RRL TAG. - CALNE —_ FZ | elt G2. Al. O",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 158,
+      "lessonNo": 25,
+      "lessonTitle": "还原问题",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n一\n1, 西西起床后,花了 25 分钟洗汶穿衣,20 分钟吃饭,又搭乘了 15 分钟的公交车,在8:20\n到达了学校,则西西的起床时间为    点    分\n2. 某数与 3 的和,乘以 5,再减去 1 等于 24,则该数为\n3. 某数乘以4,除以2,再加上 10 等于 24,则该数为    。\n153\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n4万圣节那天见面后,小溪给了晓晓 3 颗糖果,晓晓给了西西 4 颗糖果,西西给了小溪 5\n颗糖果,三人的糖果数就都是 17 颗,则原先小溪有糖果          颗,晓晓有糖果          颗，\n西西有糖果          颗。\n5. 工厂里有零件若干,第一天加工了这堆零件的一半少 20 个,第二天加工了剩下的一半\n又25个,第三天把剩下的 75 个零件全部加工完毕,则工厂里原有零件          个。\n6. 口十3=夜;妇X2王人;和A一19=1;求口所表示的数字。\n7, OX3=%s tk -2=As; A+7=4; ROM RRS.\n8. 妈妈对小溪说:把我的年龄减去 16 以后乘以 2,再减去 25,最后乘以 2,就是你的年纪\n了.2?已知小溪今年 10 岁,请问妈妈今年多少岁?\n9. 近来,人们惊奇地发现驴猫培育基地里的能猫特别爱趴在树上。某天下午两点时,能\n猫园里的三棵大树上数量不一地趴满了熊猫。在接下来的四个小时内,第一棵树上共有 3 只\n能猫疏到了第二棵树上,第二棵树上共有 2 只熊猫疏到了第三棵树上,第三棵树上共有 1 只能\n猫爬到了第一棵树上。此时,三棵树上的熊猫数量相等,都为 8 只。请问下午两点时,三棵树\n上的熊猫各有多少只?\n154\nRiise CRA “MBER” RRL TAG.\nROR CRA a\n10. 某银行的三个分行的金钱数量各不相同。某天运钞车将 A 分行的 800 万元运往也分\n行,将也分行的 600 万元运往 C 分行,又将A分行的400 万元运往 C 分行。此时,三个分行的\n金钱数量名为总数的二。已知三个分行的金钱总数为 9000 万元。请问这三个分行原来各有\n多少钱?\nLL, 春节前,小溪买了一堆零食,其中有一大饶奶糖。第一周,小溪吃了一半又 2 颗奶糖。\n第二周 ,小溪吃了剩下的一半又 7 颗奶糖。后来,在妈妈的告诚下,小溪大方地将剩下的 12 颗\n奶糖全部分享给了朋友们。请问这饶奶糖原来有多少颗?\n155\nRiise CRA “MBER” RRL TAG.\nBES &\n第 1 itt",
+      "id": "grade3_b0144",
+      "pageEnd": 161,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "西西起床后,花了 25 分钟洗汶穿衣,20 分钟吃饭,又搭乘了 15 分钟的公交车,在8:20 到达了学校,则西西的起床时间为 点 分",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "某数与 3 的和,乘以 5,再减去 1 等于 24,则该数为",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "某数乘以4,除以2,再加上 10 等于 24,则该数为 。 153 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) 4万圣节那天见面后,小溪给了晓晓 3 颗糖果,晓晓给了西西 4 颗糖果,西西给了小溪 5 颗糖果,三人的糖果数就都是 17 颗,则原先小溪有糖果 颗,晓晓有糖果 颗， 西西有糖果 颗。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "工厂里有零件若干,第一天加工了这堆零件的一半少 20 个,第二天加工了剩下的一半 又25个,第三天把剩下的 75 个零件全部加工完毕,则工厂里原有零件 个。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "口十3=夜;妇X2王人;和A一19=1;求口所表示的数字。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "OX3=%s tk -2=As; A+7=4; ROM RRS.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "妈妈对小溪说:把我的年龄减去 16 以后乘以 2,再减去 25,最后乘以 2,就是你的年纪 了.2?已知小溪今年 10 岁,请问妈妈今年多少岁?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "近来,人们惊奇地发现驴猫培育基地里的能猫特别爱趴在树上。某天下午两点时,能 猫园里的三棵大树上数量不一地趴满了熊猫。在接下来的四个小时内,第一棵树上共有 3 只 能猫疏到了第二棵树上,第二棵树上共有 2 只熊猫疏到了第三棵树上,第三棵树上共有 1 只能 猫爬到了第一棵树上。此时,三棵树上的熊猫数量相等,都为 8 只。请问下午两点时,三棵树 上的熊猫各有多少只? 154 Riise CRA “MBER” RRL TAG. ROR CRA a",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "某银行的三个分行的金钱数量各不相同。某天运钞车将 A 分行的 800 万元运往也分 行,将也分行的 600 万元运往 C 分行,又将A分行的400 万元运往 C 分行。此时,三个分行的 金钱数量名为总数的二。已知三个分行的金钱总数为 9000 万元。请问这三个分行原来各有 多少钱? LL, 春节前,小溪买了一堆零食,其中有一大饶奶糖。第一周,小溪吃了一半又 2 颗奶糖。 第二周 ,小溪吃了剩下的一半又 7 颗奶糖。后来,在妈妈的告诚下,小溪大方地将剩下的 12 颗 奶糖全部分享给了朋友们。请问这饶奶糖原来有多少颗? 155 Riise CRA “MBER” RRL TAG. BES & 第 1 itt",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 170,
+      "lessonNo": 7,
+      "lessonTitle": "第 7 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n54\n54、37\n77” 88°\nwifis aus  yp. 54\n54_ 37\n77” 88°\n2, 解法一, BL\n板报需要小加与小芳 ，\n54 54\n88\" 88\n37 37\nra 万\n|\non\n4 5\n907\"\n。提示:9 份一5 H=4 Hh. HW\n4\n23 3 peer 、 1\n$6 1g BRP Die 提示:把有 份中\n的每一份再平均分成两份,总的就变成 6\nX2=12 份,取得 1 HRA AR A 1 x 2=2\nanus2., empl ang\nOBOE. RAE SUES\n的分数\",就相当于求*既大于5又小于\n的分数\"，\n2, 提示:蛋糕被平均分为 6 份,故而分\n母为6。2十1王3,所以分子为 3。\n40,19。提示:人数共有 40 人,其中女同\n学有“40一21王19”人,所以女同学占总人\n数的四十分之十九。\n和爸爸。提示:同样是吃了五分之一,但多\n爸所吃的荔枝堆的总数比妈妈的多,所以\n爸爸比妈妈吃的多。\n165\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n7. 略。\nil   2   1   4          3\n一\n8, 水:本十3   3   3 ,纯有果汁:1  5，\nwo |\n了 ,即水>纯果汁。答,小祝喝的水多。\n1 44 1\n9 j-t=4 4-123) we. gape ism\n5               5        5        5                                           |\n比莱莉所占地多= 。\n10, 1一和一和,14二7一2,11X2一22,4X",
+      "id": "grade3_b0180",
+      "pageEnd": 171,
+      "questionCandidates": [
+        {
+          "localNo": "54",
+          "prompt": "37 77” 88° wifis aus yp. 54 54_ 37 77” 88°",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解法一, BL 板报需要小加与小芳 ， 54 54 88\" 88 37 37 ra 万 | on 4 5 907\" 。提示:9 份一5 H=4 Hh. HW 4 23 3 peer 、 1 $6 1g BRP Die 提示:把有 份中 的每一份再平均分成两份,总的就变成 6 X2=12 份,取得 1 HRA AR A 1 x 2=2 anus2., empl ang OBOE. RAE SUES 的分数\",就相当于求*既大于5又小于 的分数\"，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "提示:蛋糕被平均分为 6 份,故而分 母为6。2十1王3,所以分子为 3。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "40",
+          "prompt": "19。提示:人数共有 40 人,其中女同 学有“40一21王19”人,所以女同学占总人 数的四十分之十九。 和爸爸。提示:同样是吃了五分之一,但多 爸所吃的荔枝堆的总数比妈妈的多,所以 爸爸比妈妈吃的多。 165 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "略。 il 2 1 4 3 一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "水:本十3 3 3 ,纯有果汁:1 5， wo | 了 ,即水>纯果汁。答,小祝喝的水多。 1 44 1 9 j-t=4 4-123) we. gape ism 5 5 5 5 | 比莱莉所占地多= 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "1一和一和,14二7一2,11X2一22,4X",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 173,
+      "lessonNo": 9,
+      "lessonTitle": "位置与方向",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 4。提示:48二12一4。\n2，24。提示:妇等于 2 HO Wik SOM\n和等于72,所以72 相当于 3 倍的口 ,所以\n口等于“72二3一24”。\n3. 34。提示:甲比乙小17,甲是乙的一半,所\n以乙的另一半等于 17,所以乙等于 17 的\n2 倍。\n4. 199,\n， 59。提示:由题目可知,81 是〇的“6十1十\n2一9”倍,所以〇等于“81一9一9”。\n6. (1) 80;(2) 40;(3) 20;(4) 504。\n7. (1) 93(2) 335;(3) 49;(4) 103。\n8. (1800一200)二4一400(毫升)。答;小杯\n容量是 400 毫升。\n9. 6 万元二60000 FL, 60000 + 30 + 400 =\n5(锅)。答:王大妈每天做 5 锅煎包。\n10. 10X2十5一25(元),2000一10X110==\n2000一 1100 = 900 (元), 900 + 25 =\n36(张)。答:成人票最多能买 36 张。\nRiise DRE “MERE” RRL CABS",
+      "id": "grade3_b0196",
+      "pageEnd": 174,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "4。提示:48二12一4。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "24。提示:妇等于 2 HO Wik SOM 和等于72,所以72 相当于 3 倍的口 ,所以 口等于“72二3一24”。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "34。提示:甲比乙小17,甲是乙的一半,所 以乙的另一半等于 17,所以乙等于 17 的 2 倍。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "199, ， 59。提示:由题目可知,81 是〇的“6十1十 2一9”倍,所以〇等于“81一9一9”。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 80;(2) 40;(3) 20;(4) 504。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "(1) 93(2) 335;(3) 49;(4) 103。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "(1800一200)二4一400(毫升)。答;小杯 容量是 400 毫升。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "6 万元二60000 FL, 60000 + 30 + 400 = 5(锅)。答:王大妈每天做 5 锅煎包。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "10X2十5一25(元),2000一10X110== 2000一 1100 = 900 (元), 900 + 25 = 36(张)。答:成人票最多能买 36 张。 Riise DRE “MERE” RRL CABS",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 176,
+      "lessonNo": 12,
+      "lessonTitle": "第 12 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 15。提示:2012 年是闵年,2 月份有 29 天。\n29一18十4一15(天) 。\n2. 三。提示:29一7王22(天) ,22二7一3……\n1。以星期二为周期开头,以星期一为周\nf. AL O\n期末尾,往后数第一个是星期三。\n3. 182。提示:北京奥运会发生在 2008 年，\n是冰年,2 月有 29 天。一年有12 个月,四\n个季度,所以每个季度有 3 个月。所以前\n两个季度的天数为 31十29十31十30十\n31+30=182.\n: 4. 4。提示:11 月有 30 天,又因为要求 11 A\n29 日一12 月 2 日总共的天数,需包含 11\n月29 日,所以共有\"30一29十2十1三\nAWK.\n5。提示:31二7一4……3,所以1月有4\n周多 3 天。又因为1月1日是星期一,所\n以多的三天分别为星期一.星期二.星期\n三,故共有 5 个星期一。\n6. 196。提示:因包含5月28 日,所以共有\n“31一28十30十31十31十30十31十30十\non\n9十1一196”天。\n7. 80X29王2320(元) 。答:2 月一共有 2320\n元实习工资。\n8. 31—-214+1=11(K).14—-11=3, 4:8\n月3 日回来\n9. 31一20=11(天) ,40一11一29(天) 小源\n生日是4月 29 ,29-17=12(R). #:\n开开生日是4月12日。\n10. 2020 年是冰年,2 月有 29 天,第一季度\nFEA KM. 31+29+31=91(K).91X\n500王45500(千克),4 月有 30 K,30X\n100王3000(千克) ,45500一3000一42500\n(千克)。答:5月1 日当天还剩 42500 千\n克货\n171\nRiise DRE “MERE” RRL CABS\n全和音关子生珊分题关(精讲上)",
+      "id": "grade3_b0205",
+      "pageEnd": 177,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "15。提示:2012 年是闵年,2 月份有 29 天。 29一18十4一15(天) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "三。提示:29一7王22(天) ,22二7一3…… 1。以星期二为周期开头,以星期一为周 f. AL O 期末尾,往后数第一个是星期三。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "182。提示:北京奥运会发生在 2008 年， 是冰年,2 月有 29 天。一年有12 个月,四 个季度,所以每个季度有 3 个月。所以前 两个季度的天数为 31十29十31十30十 31+30=182. : 4. 4。提示:11 月有 30 天,又因为要求 11 A 29 日一12 月 2 日总共的天数,需包含 11 月29 日,所以共有\"30一29十2十1三 AWK. 5。提示:31二7一4……3,所以1月有4 周多 3 天。又因为1月1日是星期一,所 以多的三天分别为星期一.星期二.星期",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "三",
+          "prompt": "故共有 5 个星期一。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "196。提示:因包含5月28 日,所以共有 “31一28十30十31十31十30十31十30十 on 9十1一196”天。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "80X29王2320(元) 。答:2 月一共有 2320 元实习工资。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "31—-214+1=11(K).14—-11=3, 4:8 月3 日回来",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "31一20=11(天) ,40一11一29(天) 小源 生日是4月 29 ,29-17=12(R). #: 开开生日是4月12日。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "2020 年是冰年,2 月有 29 天,第一季度 FEA KM. 31+29+31=91(K).91X 500王45500(千克),4 月有 30 K,30X 100王3000(千克) ,45500一3000一42500 (千克)。答:5月1 日当天还剩 42500 千 克货 171 Riise DRE “MERE” RRL CABS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 178,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1]. 1X11+30*5—-3X3=11+150—-9=\n152。答:面积为 152。\n(4) 99 X 31+ 99 X 99 — 99 X 20 = 99 X\n(31+99—20)=99 X 110=10890,\n7, “=” = 8, “tp” 一5 “级”一7,“奥”一1，\n8. CO=7,[ ]=3,.Q=6.sr=5,/A\\=9,\nD=4,\n9. 25X8X2=400CK), Bi -N\\RS IVF\n400 米比赛。\n10, “fie” = 1, “BR” =3,“H” =7, “FRR” 一0。\n面积\n2, 20*30—10 X 10=600— 100=500 (AFT\nHK). A EARN AAR AY 500 平方米。",
+      "id": "grade3_b0215",
+      "pageEnd": 178,
+      "questionCandidates": [
+        {
+          "localNo": "7",
+          "prompt": "“=” = 8, “tp” 一5 “级”一7,“奥”一1，",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "CO=7,[ ]=3,.Q=6.sr=5,/A\\=9, D=4,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "25X8X2=400CK), Bi -N\\RS IVF 400 米比赛。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "“fie” = 1, “BR” =3,“H” =7, “FRR” 一0。 面积",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "20*30—10 X 10=600— 100=500 (AFT HK). A EARN AAR AY 500 平方米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 178,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 4。提示:正方形边长为\"(21十3X3)一2\n二3三5?厘米,所以正方形面积为(5一3)\nX(5一3)王4平方厘米。\n2. 4。提示:原正方形周长为”26一5一5王\n16?厘米,所以其边长为“16二4一4厘米。\n3. 4800。提示:40X20X6王4800(平方米) 。\n4. 1600。提示:正方形区域四周的隔离栏长\n160米,即正方形区域的周长为 160 米，\n所以其边长为“160二4王40?米,面积为\n“40X40王1600?平方米。\n5. 8(答案不唯一) 。提示: 当长方形的周长为\n“3X4=12?厘米时,长与宽的和就等于\"12\n二2二6厘米。此时,若长为4厘米,宽为2\n厘米,则长方形的面积为 8 平方厘米。\n6. 16一4X4,4二2一2(厘米) ,2X2一4(平方\n厘米)。答: 缩小后的正方形面积，\n4平方厘米。\n7. 120 X 90= 10800-4777). 10800— 20 X\n173\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n20王10400(平方米) 。\n面积为 10400 平方米。\n8. 10二4一2(个) verre 2(厘米), 10+3=\n3(个)……1(厘米) 2X 3=6(4), Bik\n多能 能剪 6个。\n9. 周长:(2十4X4)X2一32(厘米) 。\n答:可种植区域的",
+      "id": "grade3_b0216",
+      "pageEnd": 179,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "4。提示:正方形边长为\"(21十3X3)一2 二3三5?厘米,所以正方形面积为(5一3) X(5一3)王4平方厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "4。提示:原正方形周长为”26一5一5王 16?厘米,所以其边长为“16二4一4厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "4800。提示:40X20X6王4800(平方米) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "1600。提示:正方形区域四周的隔离栏长 160米,即正方形区域的周长为 160 米， 所以其边长为“160二4王40?米,面积为 “40X40王1600?平方米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "8(答案不唯一) 。提示: 当长方形的周长为 “3X4=12?厘米时,长与宽的和就等于\"12 二2二6厘米。此时,若长为4厘米,宽为2 厘米,则长方形的面积为 8 平方厘米。",
+          "hasAnalysis": false,
+          "hasSolution": true
+        },
+        {
+          "localNo": "6",
+          "prompt": "16一4X4,4二2一2(厘米) ,2X2一4(平方 厘米)。答: 缩小后的正方形面积， 4平方厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "120 X 90= 10800-4777). 10800— 20 X 173 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上) 20王10400(平方米) 。 面积为 10400 平方米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "10二4一2(个) verre 2(厘米), 10+3= 3(个)……1(厘米) 2X 3=6(4), Bik 多能 能剪 6个。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "周长:(2十4X4)X2一32(厘米) 。 答:可种植区域的",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 161,
+      "lessonNo": 25,
+      "lessonTitle": "还原问题",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 700000。提示: 350 X 2=700( F K) =\n700000(米) 。\n2. 21。提示:7 厘米=70 毫米,每本:70二\n10=7(4EHK) .7X3=21 42K).\n3. 4000。提示:8 桶是4桶的2倍,所以8桶\n油的重量也是 4 桶油的 2 倍。2X 2=\n4(吨)一4000(千克) 。\n4. 35。提示:15 分米王150 厘米,150一115一\n35(厘米) 。\n2900。提示:4 I = 4000 千克,7000一\n4000一100王2900(千克) 。\n6. 解法一:700 厘米十800 42K =70 分米十\n800 分米=870 分米;\n解法二:700 厘米十800 分米=700 厘米\nol\nRiise DRE “MERE” RRL CABS\n十8000 JEOK =8700 厘米;\n解法三:700 厘米十800 42K =7 米十80\n米=87米。\n7. 2 千米一3000 分米王2000 米一300 K=\n1700 米。\n8. 4 ili =4000 F 58.4000 — 2500 = 1500( F\n克)。答:还需要捐助粮食 1500 千克。\n9. 1 FAX =1000 K, 1000+ 4= 250 CK).",
+      "id": "grade3_b0149",
+      "pageEnd": 162,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "700000。提示: 350 X 2=700( F K) = 700000(米) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "21。提示:7 厘米=70 毫米,每本:70二 10=7(4EHK) .7X3=21 42K).",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "4000。提示:8 桶是4桶的2倍,所以8桶 油的重量也是 4 桶油的 2 倍。2X 2= 4(吨)一4000(千克) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "35。提示:15 分米王150 厘米,150一115一 35(厘米) 。 2900。提示:4 I = 4000 千克,7000一 4000一100王2900(千克) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "解法一:700 厘米十800 42K =70 分米十 800 分米=870 分米; 解法二:700 厘米十800 分米=700 厘米 ol Riise DRE “MERE” RRL CABS 十8000 JEOK =8700 厘米; 解法三:700 厘米十800 42K =7 米十80 米=87米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "2 千米一3000 分米王2000 米一300 K= 1700 米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "4 ili =4000 F 58.4000 — 2500 = 1500( F 克)。答:还需要捐助粮食 1500 千克。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "1 FAX =1000 K, 1000+ 4= 250 CK).",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 162,
+      "lessonNo": 2,
+      "lessonTitle": "第 2 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 3493 — (4000 — 678) = 3493 一 3322 =\n171(个)。答:还需生产 171 个合格零件\n才能完成计划 。\nsean 全\n答:小区广场一圈长 250 米。\n10. 一天相当于糖果铅少 3一1王2(颗)糖果，\n20二2三10(天)。答:小美 10 天吃完这\nHERE\n11. 4 F 2 = 4000 , 4000 + 500 X 10 =\n80(个)。答:搭建这个防护护栏共需护\n栏 80 个。\n万以内的加法和减法\n2. 1000一(795一120)王325(升)。答: Bk\nTIAA BK 325 升。",
+      "id": "grade3_b0153",
+      "pageEnd": 162,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "3493 — (4000 — 678) = 3493 一 3322 = 171(个)。答:还需生产 171 个合格零件 才能完成计划 。 sean 全 答:小区广场一圈长 250 米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "一天相当于糖果铅少 3一1王2(颗)糖果， 20二2三10(天)。答:小美 10 天吃完这 HERE",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "11",
+          "prompt": "4 F 2 = 4000 , 4000 + 500 X 10 = 80(个)。答:搭建这个防护护栏共需护 栏 80 个。 万以内的加法和减法",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "1000一(795一120)王325(升)。答: Bk TIAA BK 325 升。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade3",
+      "sourceFile": "尖子生高分题库3年级.pdf",
+      "pageStart": 177,
+      "lessonNo": 13,
+      "lessonTitle": "两位数乘两位数",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. @, HAR: 0 和任何数相乘都为 0,所以\n“榜交样?中只要有一个是 0,就能得到乘\n积为0。\n2. 四,三。提示:要想乘积最大,可取最大的\n两位数相乘,即 99X99王9801,积为四位\n数;要想乘积最小,可取最小的两位数相\n乘,即 10X10=100,积为三位数。\n3. 900。提示:最大的一位数是 9,最小的三\n(WEE 100. 9X100=900.\n4. 3。提示:本题重在计算及单位的转换。\n4X75 =300 JHA) =3 0K).\n5. (1) 25X28=25 X (4X7)=25X4X7=\n100X7=700,\n(2) 125X14X4=125 X (2X7) X4=\n125 X (2&4) X7=125X8X7=7000,\n(3) 403X33=400 X 33+3 X 33=13200+\n99=13299.\nwe” KER GG aAww\n(4) 69X55十55X31王55X(69十31)一\n55久100王5500。\n6. (1) 36X9X25=4X9X9XK25=(4X 25) X\n(9X9)=100X 81=8100;\n(2) 8X 91 X 101 X 125 = (8 X 125) X\n(91101) =1000 X9191=9191000;\n(3) 79 X 501 = 79 X (500 +1) =79 X\n500+79 X 1=39500-+-79= 39579;",
+      "id": "grade3_b0211",
+      "pageEnd": 178,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "@, HAR: 0 和任何数相乘都为 0,所以 “榜交样?中只要有一个是 0,就能得到乘 积为0。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "四,三。提示:要想乘积最大,可取最大的 两位数相乘,即 99X99王9801,积为四位 数;要想乘积最小,可取最小的两位数相 乘,即 10X10=100,积为三位数。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "900。提示:最大的一位数是 9,最小的三 (WEE 100. 9X100=900.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "3。提示:本题重在计算及单位的转换。 4X75 =300 JHA) =3 0K).",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "5",
+          "prompt": "(1) 25X28=25 X (4X7)=25X4X7= 100X7=700, (2) 125X14X4=125 X (2X7) X4= 125 X (2&4) X7=125X8X7=7000, (3) 403X33=400 X 33+3 X 33=13200+ 99=13299. we” KER GG aAww (4) 69X55十55X31王55X(69十31)一 55久100王5500。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 36X9X25=4X9X9XK25=(4X 25) X (9X9)=100X 81=8100; (2) 8X 91 X 101 X 125 = (8 X 125) X (91101) =1000 X9191=9191000; (3) 79 X 501 = 79 X (500 +1) =79 X 500+79 X 1=39500-+-79= 39579;",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade4": [
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 160,
+      "lessonNo": 10,
+      "lessonTitle": "三角形",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 这个一位小数去掉小数点和原数相加,得\n到 26. 4,我们列式可得到\n根据列式,我们可以直接得到这个一位小\n数的个位数为 2,十分位为4,这个小数就\n为 2. 4。\n2. 解:64十22. 2一86. 2(千克)\n86. 2一29. 7=56. 5(千克)\n56. 5一27.5十3. 2一32. 2(千克)\n答:桶里还剩 32. 2 千克油漆。",
+      "id": "grade4_b0210",
+      "pageEnd": 160,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "这个一位小数去掉小数点和原数相加,得 到 26. 4,我们列式可得到 根据列式,我们可以直接得到这个一位小 数的个位数为 2,十分位为4,这个小数就 为 2. 4。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解:64十22. 2一86. 2(千克)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "86",
+          "prompt": "2一29. 7=56. 5(千克)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "56",
+          "prompt": "5一27.5十3. 2一32. 2(千克) 答:桶里还剩 32. 2 千克油漆。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 160,
+      "lessonNo": 10,
+      "lessonTitle": "三角形",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 解:4.9一0.13=4.77(千克)\n4.77十1. 4=6. 17(千克)\n155\nRite CAA MMP” REL CALS\n全和音关子生珊分题关(精讲上)\n4. 9十4.77十6.17王15. 84(千克)\n答:三天一共采集了 15. 84 千克。\n2. 解:7. 2一3. 7三3. 5(-F 5)\n3. 7一3.5一0. 2(F 58)\n3. 5十3.5一7(千克)\n答:这瓶油原来有 7 千克,瓶子有 0. 2 ， 5.\nFh.",
+      "id": "grade4_b0211",
+      "pageEnd": 161,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "解:4.9一0.13=4.77(千克)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "77十1. 4=6. 17(千克) 155 Rite CAA MMP” REL CALS 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "9十4.77十6.17王15. 84(千克) 答:三天一共采集了 15. 84 千克。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解:7. 2一3. 7三3. 5(-F 5)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "7一3.5一0. 2(F 58)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "5十3.5一7(千克) 答:这瓶油原来有 7 千克,瓶子有 0. 2 ， 5. Fh.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 164,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 解: [(40一3) X80十88十87十85] +40=\n80. 5(分)\n答:这时全班同学的平均成绩是 80. 5 分。\n2. 解:93X6王558(分)\n93一3一90(分)\n90X 7=630(4})\n630—558=72(4})\n答:他第七次测验得了 72 分。\n解:妈妈给了明明 5 元钱,明明又用了2.6\n元,最后明明的零花钱只增加了5一2. 6一\n8.\n10,\n1;\nFE J) HABE LA 40 本书,爸爸书架\n上有 180 本书。\n. 解:设小明作业有 150 页,小明打算 15 天\n完成,每天做 150二15王10(页),假设小\n明从第 z 天开始打算多做原先做的一半，\n最后提前 3 天完成。根据题意列方程得\n10z十(10十10X0.5)(15一3一zx)一150，\nffi TT EE 44 2 =6.\n答:小明从第 6 天开始多做一些的。\nfie BAL ae 个不合格的零件,则合格零件\n为(6000一)个。列方程得 8(6000一工)\n— 16x =45888. fk 19 2 =88.\n答:有 88 个不合格的零件。\n解:设小车每次可运 zx 千克,则大车每次\n可和运(20十z)千克。列方程得 7x =5(20+\nx) ,解得z一50。\n答:这批货物共有 350 千克。\n解:设甲每小时完成的量为 c,则总量为\n12a,乙每小时完成的量为 12a + 8 =\n1.5a。设甲做了>小时,则乙做了(9一\n2z)小时。az十1.5(9一z)a王12a ,解得\nxr=3,\n答:甲做了 3 个小时。\n平均数应用题",
+      "id": "grade4_b0223",
+      "pageEnd": 164,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "解: [(40一3) X80十88十87十85] +40=",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "80",
+          "prompt": "5(分) 答:这时全班同学的平均成绩是 80. 5 分。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解:93X6王558(分) 93一3一90(分) 90X 7=630(4}) 630—558=72(4}) 答:他第七次测验得了 72 分。 解:妈妈给了明明 5 元钱,明明又用了2.6 元,最后明明的零花钱只增加了5一2. 6一 8. 10, 1; FE J) HABE LA 40 本书,爸爸书架 上有 180 本书。 . 解:设小明作业有 150 页,小明打算 15 天 完成,每天做 150二15王10(页),假设小 明从第 z 天开始打算多做原先做的一半， 最后提前 3 天完成。根据题意列方程得 10z十(10十10X0.5)(15一3一zx)一150， ffi TT EE 44 2 =6. 答:小明从第 6 天开始多做一些的。 fie BAL ae 个不合格的零件,则合格零件 为(6000一)个。列方程得 8(6000一工) — 16x =45888. fk 19 2 =88. 答:有 88 个不合格的零件。 解:设小车每次可运 zx 千克,则大车每次 可和运(20十z)千克。列方程得 7x =5(20+ x) ,解得z一50。 答:这批货物共有 350 千克。 解:设甲每小时完成的量为 c,则总量为 12a,乙每小时完成的量为 12a + 8 =",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "5a。设甲做了>小时,则乙做了(9一 2z)小时。az十1.5(9一z)a王12a ,解得 xr=3, 答:甲做了 3 个小时。 平均数应用题",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 167,
+      "lessonNo": 14,
+      "lessonTitle": "第 14 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化                     |    =99 +1799",
+      "text": "竞赛强化                     |    =99 +1799\nLB2C3RBAA            — =a7+1)x99\n5，9,4,5,45357,7,5,2,18            二18XG00一1)\n6. (1) 400;(2) 1457;(3) 800;(4) 5003    |    =1600—-18\n(5) 3000; (6) 3198; (7) 200; (8) 1900;  :     =1782\n(9) 100000; (10) 4606                | 14, (105+106+ 107+ 108+ 109+ 110+\n7, 2013 20142014—2014 X 20132013    :      111)~ 108\n= 2013 X 2014 X 10001 — 2014 X 2013  |      =[08—3) + (108-2) + (108-1) +\n10001      108+ (108+ 1) 十(108十2) 十(108十\n=                        |      3) +108\n8 3048+ (1016-17)              = (08X7) +108\n=3048+1016 X17               |    =7\n=3X17                      15. 300-++299—298 — 297 +.296 + 295 —\n=51                        !      294-293\n9, 27000 (1253)               (300-298) + (299 — 297) + (296 —\n=27000+125-+3                |      294) +(295—293)\n=27X8+3                   一2十2十2十2\n=9X8                      8\n一72                        16, 186576X194658一186575X194659\n10. (48X75X81)二(24X25X27)      一(186575十1) X 194658 一 186575 X\n=(48+24) X (75+25) X (81+27)     |      (194658+1)\n=2X3X3                    = (186575 X 194658 + 194658) 一\n=18                       ;      (186575 X 194658 +186575)\nll, 287+13—101+13—82+13       194658186575\n= (287—101—82) +13            = 8083\n=104+13               17. 四个数一组,两个数两个数作差,2000一\n一                        1998=2,1999一1997一2,1996一1994一\n12, 52X1100十5200X89            2,1995一1993一2,…,4一2一2,3一1\n一5200X11十5200X89            =2。\n=5200X (11+89)               :\n162\n2000 + 1999 — 1998 — 1997 + 1996 +\n1995一1994一1993十…一6一5十二十3\n一2一1\n= (2000 — 1998) + (1999 一 1997) +\n(1996 —1994) +(1995—1993) 十…十\n(4—2)+(3—-1)\n=2X 1000\n第 16 i#",
+      "id": "grade4_b0232",
+      "pageEnd": 168,
+      "questionCandidates": [
+        {
+          "localNo": "5",
+          "prompt": "9,4,5,45357,7,5,2,18 二18XG00一1)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "(1) 400;(2) 1457;(3) 800;(4) 5003 | =1600—-18 (5) 3000; (6) 3198; (7) 200; (8) 1900; : =1782 (9) 100000; (10) 4606 | 14, (105+106+ 107+ 108+ 109+ 110+",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "2013 20142014—2014 X 20132013 : 111)~ 108 = 2013 X 2014 X 10001 — 2014 X 2013 | =[08—3) + (108-2) + (108-1) + 10001 108+ (108+ 1) 十(108十2) 十(108十 = | 3) +108 8 3048+ (1016-17) = (08X7) +108 =3048+1016 X17 | =7 =3X17 15. 300-++299—298 — 297 +.296 + 295 — =51 ! 294-293",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "27000 (1253) (300-298) + (299 — 297) + (296 — =27000+125-+3 | 294) +(295—293) =27X8+3 一2十2十2十2 =9X8 8 一72 16, 186576X194658一186575X194659",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "(48X75X81)二(24X25X27) 一(186575十1) X 194658 一 186575 X =(48+24) X (75+25) X (81+27) | (194658+1) =2X3X3 = (186575 X 194658 + 194658) 一 =18 ; (186575 X 194658 +186575) ll, 287+13—101+13—82+13 194658186575 = (287—101—82) +13 = 8083 =104+13 17. 四个数一组,两个数两个数作差,2000一 一 1998=2,1999一1997一2,1996一1994一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "12",
+          "prompt": "52X1100十5200X89 2,1995一1993一2,…,4一2一2,3一1 一5200X11十5200X89 =2。 =5200X (11+89) : 162 2000 + 1999 — 1998 — 1997 + 1996 + 1995一1994一1993十…一6一5十二十3 一2一1 = (2000 — 1998) + (1999 一 1997) + (1996 —1994) +(1995—1993) 十…十 (4—2)+(3—-1) =2X 1000 第 16 i#",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 45,
+      "lessonNo": 8,
+      "lessonTitle": "运算定律与简便计算",
+      "column": "competition_boost",
+      "rawHeading": "(| 竞赛强化",
+      "text": "(| 竞赛强化\n1. 125久342义40                     2. 25X31X400\n40\nRiise CRA “MBER” RRL TAG.\nll,\n12,\n13.\n14,\n第8讲，”运算定律与简便计算 a\n44+98 X 22               4. 97X74+103 X74\n. (300+25) x 40             6. 9347193 X153\n33 X 203—99              8. 521X82—21 X82\n. 1872-12 12—12 X88        10. 3454134 44+68\n甲数是 123,乙数是甲数的 99 倍,丙数是甲数与乙数的和,丙数是多少?\n一念笔有20 支,一支笔要 2 元,现买 50 盒笔,问一共要多少元\n一个长方形的长是40 米,宽是 29 米,12 个同样的长方形拼起来的面积有多大?\n一瓶饮料 3 元,一箱饮料有 24 瓶,现在要买 10 箱这样的饮料,一共需要多少\n41\nRiise CRA “MBER” RRL TAG.\n全和音关子生珊分题关(精讲上)\n15. 果农有 130 箱水果,其中桃子 48 箱 ,苹果 52 箱 ,其余的是橘子。问橘子有多少箱?\n16. 某服装厂要做 1500 套衣服,第一个月做了 583 套,第二个月做了 417 套,现又追做服\n装 500 套,问还要做几套衣服?\n17. 某小区新建一水池,宽是 25 米,长是宽的 3 倍,问水池的周长是多少米?\n18. 图书馆共有 6249 本图书,第一次购书 298 本,第二次购书 311 本,现处理了旧书 249\n本。问现在图书馆还有多少本图书?\n19. 某早餐奶员工,每天要送 32 箱早餐奶,每箱有 24 瓶牛奶,每瓶 5 元,问一天可以收入\n多少元?\n20. 甲、乙两个工程队修路,甲队第一天修了 321 米,第二天修了 298 米。乙队第一天修\n了379米,第二天修了 311 米。问一共修了多少米?\n42\nRiise CRA “MBER” RRL TAG.\n-      CALS —_ FZ\nEIOuR ONEISXEO\na          Gira",
+      "id": "grade4_b0047",
+      "pageEnd": 48,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "125久342义40 2. 25X31X400 40 Riise CRA “MBER” RRL TAG. ll, 12, 13. 14, 44+98 X 22 4. 97X74+103 X74 . (300+25) x 40 6. 9347193 X153 33 X 203—99 8. 521X82—21 X82 . 1872-12 12—12 X88 10. 3454134 44+68 甲数是 123,乙数是甲数的 99 倍,丙数是甲数与乙数的和,丙数是多少? 一念笔有20 支,一支笔要 2 元,现买 50 盒笔,问一共要多少元 一个长方形的长是40 米,宽是 29 米,12 个同样的长方形拼起来的面积有多大? 一瓶饮料 3 元,一箱饮料有 24 瓶,现在要买 10 箱这样的饮料,一共需要多少 41 Riise CRA “MBER” RRL TAG. 全和音关子生珊分题关(精讲上)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "15",
+          "prompt": "果农有 130 箱水果,其中桃子 48 箱 ,苹果 52 箱 ,其余的是橘子。问橘子有多少箱?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "16",
+          "prompt": "某服装厂要做 1500 套衣服,第一个月做了 583 套,第二个月做了 417 套,现又追做服 装 500 套,问还要做几套衣服?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "17",
+          "prompt": "某小区新建一水池,宽是 25 米,长是宽的 3 倍,问水池的周长是多少米?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "18",
+          "prompt": "图书馆共有 6249 本图书,第一次购书 298 本,第二次购书 311 本,现处理了旧书 249 本。问现在图书馆还有多少本图书?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "19",
+          "prompt": "某早餐奶员工,每天要送 32 箱早餐奶,每箱有 24 瓶牛奶,每瓶 5 元,问一天可以收入 多少元?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "20",
+          "prompt": "甲、乙两个工程队修路,甲队第一天修了 321 米,第二天修了 298 米。乙队第一天修 了379米,第二天修了 311 米。问一共修了多少米? 42 Riise CRA “MBER” RRL TAG. - CALS —_ FZ EIOuR ONEISXEO a Gira",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 51,
+      "lessonNo": 8,
+      "lessonTitle": "，”运算定律与简便计算",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 有一个数先扩大到它的 100 倍,再把小数点向左移动一位得 45. 64,这个数是多少?\n2. 一个小数点后有四位的小数 ,精确到千分位后约是 2. 159,这样的小数共有几个? 请把\n它们写出来。\n人 semate\n1, 读出下列各数。\n(1) 1.065 读作(             )          (2) 24000. 033 读作(             )\n(3) 105. 015 读作(             )        (4) 123. 14 读作(             )\n(5) 67. 3001 读作( ) (6) 31. 002 读作()\n(7) 34. 321 读作(                 )            (8) 563. 1094 读作(                 )\n2. 写出下列各数。\n() 三千四百点四二六写作(           ) (2) 九点一八六写作(             )\n(3) 五点零一二三写作(           )      (4) 零点二三七写作(             )\n(5) 十一点零五零六写作(         ) (6) 三十点零八六写作(          )\n(7) 二百零三点四三五写作(            ) (8) 一点三零七写作(              )\n3. EO HLL ES <r “=”,\n(1) 3.3503.5                          (2) 6.406. 39\n46\nRiise CRA “MBER” RRL TAG.",
+      "id": "grade4_b0052",
+      "pageEnd": 52,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "有一个数先扩大到它的 100 倍,再把小数点向左移动一位得 45. 64,这个数是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一个小数点后有四位的小数 ,精确到千分位后约是 2. 159,这样的小数共有几个? 请把 它们写出来。 人 semate",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "1",
+          "prompt": "读出下列各数。 (1) 1.065 读作( ) (2) 24000. 033 读作( ) (3) 105. 015 读作( ) (4) 123. 14 读作( ) (5) 67. 3001 读作( ) (6) 31. 002 读作() (7) 34. 321 读作( ) (8) 563. 1094 读作( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "写出下列各数。 () 三千四百点四二六写作( ) (2) 九点一八六写作( ) (3) 五点零一二三写作( ) (4) 零点二三七写作( ) (5) 十一点零五零六写作( ) (6) 三十点零八六写作( ) (7) 二百零三点四三五写作( ) (8) 一点三零七写作( )",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "EO HLL ES <r “=”, (1) 3.3503.5 (2) 6.406. 39 46 Riise CRA “MBER” RRL TAG.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 60,
+      "lessonNo": 1,
+      "lessonTitle": "“小数的加法和减法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 小明在一道计算题上犯了大错误,5. 53 加上一个一位小数时,错误地把加数的末尾对\n齐,结果得到 6. 19,那么正确的得数应当是多少?\n2，中国的国土面积是 963. 4057 万平方千米,澳大利亚的国土面积是 761. 7930 万平方千米，\n澳大利亚的国土面积比中国少多少万平方千米?\n施工队修建一条公路,经过一段时间的修建,已经修好了 123. 6 千米,比还要修的公路多\n23. 65 千米。请问这条公路一共有多长?\nSH 还要修的公路:123. 6一23. 65一99. 95( TA) ,公路总长:123. 6十99. 95=223, 55(-F A).\n解 ”123. 6十(123. 6一23. 65)一223. 55(千米)\n答:这条公路一共有 223.55 FR,",
+      "id": "grade4_b0061",
+      "pageEnd": 60,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "小明在一道计算题上犯了大错误,5. 53 加上一个一位小数时,错误地把加数的末尾对 齐,结果得到 6. 19,那么正确的得数应当是多少?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "中国的国土面积是 963. 4057 万平方千米,澳大利亚的国土面积是 761. 7930 万平方千米， 澳大利亚的国土面积比中国少多少万平方千米? 施工队修建一条公路,经过一段时间的修建,已经修好了 123. 6 千米,比还要修的公路多",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "23",
+          "prompt": "65 千米。请问这条公路一共有多长? SH 还要修的公路:123. 6一23. 65一99. 95( TA) ,公路总长:123. 6十99. 95=223, 55(-F A). 解 ”123. 6十(123. 6一23. 65)一223. 55(千米) 答:这条公路一共有 223.55 FR,",
+          "hasAnalysis": false,
+          "hasSolution": true
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 116,
+      "lessonNo": 20,
+      "lessonTitle": "“整除和有余数除法",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 在 865 后面补上三个数字,组成一个六位数,使它能被 3,4,5 整除,且使这个数值尽可\n能地小。\n2. 一个三位数减去它的各位数字之和,其差还是一个三位数 73A A 是几?\n有一个自然数,用它去除 70,98 和 143 这三个数得到的三个余数之和是 29,求这个自\n解” 如果设这个数为工,则根据带余数除式可以得到下面三个等式;\n70一zdi十ri，\n98一zdg?十rz，\n143一zgs十rs3，\n将上面三个等式相加可以得到 704-984 143=2 (gi tqot+q3) ri tre tr; ,化简得 311一\n2Zd十29,其中字母 d 是上面三个商的和,它是一个整数。311一zdg十29 还可以写成xdg一311一\n29,即zdg一282,从这个等式发现工是282 的因数,列出 282 的所有因数为 1,2,3,6,47,94，\n141,282,这 8 个因数中哪个可以成为工的取值? 逐一试验可以发现工一47。",
+      "id": "grade4_b0123",
+      "pageEnd": 116,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "在 865 后面补上三个数字,组成一个六位数,使它能被 3,4,5 整除,且使这个数值尽可 能地小。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "一个三位数减去它的各位数字之和,其差还是一个三位数 73A A 是几? 有一个自然数,用它去除 70,98 和 143 这三个数得到的三个余数之和是 29,求这个自 解” 如果设这个数为工,则根据带余数除式可以得到下面三个等式; 70一zdi十ri， 98一zdg?十rz， 143一zgs十rs3， 将上面三个等式相加可以得到 704-984 143=2 (gi tqot+q3) ri tre tr; ,化简得 311一 2Zd十29,其中字母 d 是上面三个商的和,它是一个整数。311一zdg十29 还可以写成xdg一311一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "29",
+          "prompt": "即zdg一282,从这个等式发现工是282 的因数,列出 282 的所有因数为 1,2,3,6,47,94， 141,282,这 8 个因数中哪个可以成为工的取值? 逐一试验可以发现工一47。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 155,
+      "lessonNo": 4,
+      "lessonTitle": "平行四边形和梯形",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. (1) 12;(2) 8;(3) 4;(4) 16\n2. (1) 100+20=5;(2) 99+33=3\n3. ffé:300+12=25 BD\n答 :每个小朋友分到 25 颗,每个人的糖果\n一样多。",
+      "id": "grade4_b0181",
+      "pageEnd": 155,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "(1) 12;(2) 8;(3) 4;(4) 16",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "(1) 100+20=5;(2) 99+33=3",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "ffé:300+12=25 BD 答 :每个小朋友分到 25 颗,每个人的糖果 一样多。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade4",
+      "sourceFile": "尖子生高分题库4年级.pdf",
+      "pageStart": 156,
+      "lessonNo": 6,
+      "lessonTitle": "第 6 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 解:30一5一3一(5十3)X2一6(元)\n2. 解:10十10X2一8一22(只)\nBS /\\PIMER BIRT 22 只鸡和鸭。\nRid AE EAL\" ARG ie”\n14,\nsean 全\n答 :除数是 39。\n解:(1)(91一1)二2一45,45十1一46\n答:小东刚读完的两页页码分别是\n45.46,\n(2) (290-46) +30=8(K) eee 4H)\n8十1一9(天)\n答:剩下的要 9 天读完。\nOM ws",
+      "id": "grade4_b0189",
+      "pageEnd": 156,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "解:30一5一3一(5十3)X2一6(元)",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "解:10十10X2一8一22(只) BS /\\PIMER BIRT 22 只鸡和鸭。 Rid AE EAL\" ARG ie” 14, sean 全 答 :除数是 39。 解:(1)(91一1)二2一45,45十1一46 答:小东刚读完的两页页码分别是",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "45",
+          "prompt": "46, (2) (290-46) +30=8(K) eee 4H) 8十1一9(天) 答:剩下的要 9 天读完。 OM ws",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade5": [
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 108,
+      "lessonNo": 20,
+      "lessonTitle": "简单的抽层原理",
+      "column": "thinking_training",
+      "rawHeading": "思维训练4",
+      "text": "思维训练4\n1. 能和否在 9X9 的方格纸中每个空格中分别填上 1,2,3 这三个数字中的任意一个,使得\n每行每列及对角线上的各个数字的和互不相同?\n2. 40 名象棋选手进行单循环比赛(即每个人都要和其他人比赛一次),证明:在比赛中的\n任何时候统计每人已经赛过的场次,都至少有两位棋手比赛过相同的场次。\nQ /\n\\\n\\",
+      "id": "grade5_b0107",
+      "pageEnd": 108,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "能和否在 9X9 的方格纸中每个空格中分别填上 1,2,3 这三个数字中的任意一个,使得 每行每列及对角线上的各个数字的和互不相同?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "40 名象棋选手进行单循环比赛(即每个人都要和其他人比赛一次),证明:在比赛中的 任何时候统计每人已经赛过的场次,都至少有两位棋手比赛过相同的场次。 Q / \\ \\",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 134,
+      "lessonNo": 23,
+      "lessonTitle": "简单的统筹和规划问题",
+      "column": "competition_boost",
+      "rawHeading": "5. 李英、赵林,、王红三人参加全国小学生数学竞赛,他们是来自金城.沙市.水乡的选手，",
+      "text": "5. 李英、赵林,、王红三人参加全国小学生数学竞赛,他们是来自金城.沙市.水乡的选手，\n并分别获得一二三等奖。现在知道:中李英不是金城的选手;@赵林不是沙市的选手; Oe\n城的选手不是一等奖;中沙市的选手得二等奖;中赵林不是三等奖。根据上述情况,王红来自\n6. 赵老师,钱老师,孙老师,分别是物理.化学和生物老师。其中一个是特级教师,一个是\n骨干教师,另一个是高级教师,现在知道:(1)赵老师不教物理;(2)钱老师不教化学;(3)教物理\n的不是特级教师;(4)教化学的是骨干教师; (5)钱老师不是高级教师。则赵老师教\nCHAE BL). 是   (填级别); 钱老师教   , 是   ; 孙老师教\n是   。\n7. 为发扬女排精神,上城区.下城区,江干区 西湖区 .萧山区五支排球队组织比赛,两两\n各赛一场,胜场得 3 分,负场得 0 分,平一场各得 1 分。10 场比赛结束后,五支球队得分各不\n相同。上城区队没有输过,并且打败了下城区队,但是下城区队却取得了冠军,江干区队也未\n败一场,名次却在西湖区队之后。上城区队得了第    &, soit LL EX BAA    im\n8, 里约奥运会结束了,但运动员们的拼搏精神不会停止,现正在为东京奥运会紧张筹备，\n有6 名短跑运动员赵一、钱二、孙三、.李四、王五.周六参加奥运会男子 100 米的选拔赛,其结果\n如下:\n(1) 赵一和钱二至少一个人被选中\n(2) 赵一和李四不能同时被选中;\n(3) 赵一、王五周六中有两人被选中;\n(4) 钱二和孙三要么同时被选中,要么同时落选\n130\nRite LAA MMP RR” REL CARS\n(5) 孙三和李四中有一人被选中;\n(6) 如果李四不能被选中,那么王五一定会落选。\n请问哪几位运动员被选中参加奥运会男子 100 米比赛?\n9. 为了迎接 G20 峰会,需要所有人一起努力。赵一、钱二、孙三三人在西湖边的三家酒店\nA、B、C 中当厨师、经理、技术人员,已知:\n(1) 赵一不在A 酒店工作,钱二不在也酒店工作;\n(2) 在A酒店工作的人不是技术人员，\n(3) 在也酒店工作的人是厨师;\n(4) 钱二不是经理。\n三个人各在哪个酒店”各干什么工作?\n10. 赵一、钱二,孙三三位老师共同担任五年级(2)班的语文,数学.英语.体育.音乐.美术\n六门功课的教师,每人都教两个学科,现已知:\n(1) 英语老师和数学老师是同学;\n(2) 钱二老师年龄最小;\n(3) 赵一老师喜欢和体育老师.数学老师下象棋;\n(4) 体育老师比语文老师年龄大;\n(5) 钱二老师和音乐老师.语文老师三人经常一块健美。\n请问三人分别教哪两门功课?\n131\nRite LAA MMP RR” REL CARS\n[~ 7\nE2@Rte eR:\nWea\n|",
+      "id": "grade5_b0136",
+      "pageEnd": 136,
+      "questionCandidates": [
+        {
+          "localNo": "5",
+          "prompt": "李英、赵林,、王红三人参加全国小学生数学竞赛,他们是来自金城.沙市.水乡的选手， 并分别获得一二三等奖。现在知道:中李英不是金城的选手;@赵林不是沙市的选手; Oe 城的选手不是一等奖;中沙市的选手得二等奖;中赵林不是三等奖。根据上述情况,王红来自",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "赵老师,钱老师,孙老师,分别是物理.化学和生物老师。其中一个是特级教师,一个是 骨干教师,另一个是高级教师,现在知道:(1)赵老师不教物理;(2)钱老师不教化学;(3)教物理 的不是特级教师;(4)教化学的是骨干教师; (5)钱老师不是高级教师。则赵老师教 CHAE BL). 是 (填级别); 钱老师教 , 是 ; 孙老师教 是 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "为发扬女排精神,上城区.下城区,江干区 西湖区 .萧山区五支排球队组织比赛,两两 各赛一场,胜场得 3 分,负场得 0 分,平一场各得 1 分。10 场比赛结束后,五支球队得分各不 相同。上城区队没有输过,并且打败了下城区队,但是下城区队却取得了冠军,江干区队也未 败一场,名次却在西湖区队之后。上城区队得了第 &, soit LL EX BAA im",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "8",
+          "prompt": "里约奥运会结束了,但运动员们的拼搏精神不会停止,现正在为东京奥运会紧张筹备， 有6 名短跑运动员赵一、钱二、孙三、.李四、王五.周六参加奥运会男子 100 米的选拔赛,其结果 如下: (1) 赵一和钱二至少一个人被选中 (2) 赵一和李四不能同时被选中; (3) 赵一、王五周六中有两人被选中; (4) 钱二和孙三要么同时被选中,要么同时落选 130 Rite LAA MMP RR” REL CARS (5) 孙三和李四中有一人被选中; (6) 如果李四不能被选中,那么王五一定会落选。 请问哪几位运动员被选中参加奥运会男子 100 米比赛?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "9",
+          "prompt": "为了迎接 G20 峰会,需要所有人一起努力。赵一、钱二、孙三三人在西湖边的三家酒店 A、B、C 中当厨师、经理、技术人员,已知: (1) 赵一不在A 酒店工作,钱二不在也酒店工作; (2) 在A酒店工作的人不是技术人员， (3) 在也酒店工作的人是厨师; (4) 钱二不是经理。 三个人各在哪个酒店”各干什么工作?",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "10",
+          "prompt": "赵一、钱二,孙三三位老师共同担任五年级(2)班的语文,数学.英语.体育.音乐.美术 六门功课的教师,每人都教两个学科,现已知: (1) 英语老师和数学老师是同学; (2) 钱二老师年龄最小; (3) 赵一老师喜欢和体育老师.数学老师下象棋; (4) 体育老师比语文老师年龄大; (5) 钱二老师和音乐老师.语文老师三人经常一块健美。 请问三人分别教哪两门功课? 131 Rite LAA MMP RR” REL CARS [~ 7 E2@Rte eR: Wea |",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 141,
+      "lessonNo": 23,
+      "lessonTitle": "简单的统筹和规划问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1.    17.4X2xX0. 25+0. 75X11.6X3\n=34. 8X0. 25+34. 8X0. 75\n=34. 8X (0. 25+0. 75)\n= 34.8\n2.        1996 X 19951995. 1995—1995 « 19961996, 1996\n= 1996 X 1995 X 10001. 0001 — 1995 x\n1996 X 10001. 0001\n=0",
+      "id": "grade5_b0142",
+      "pageEnd": 141,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "17.4X2xX0. 25+0. 75X11.6X3 =34. 8X0. 25+34. 8X0. 75 =34. 8X (0. 25+0. 75) = 34.8",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "1996 X 19951995. 1995—1995 « 19961996, 1996 = 1996 X 1995 X 10001. 0001 — 1995 x 1996 X 10001. 0001 =0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 141,
+      "lessonNo": 23,
+      "lessonTitle": "简单的统筹和规划问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1,    67676767 X 8888. 8888 = 1010101 一\n2222, 2222\n= (67676767 1010101) X (8888, 8888一\n2222. 2222)\n=67 X4\nRit ZEAL Ra\n小数的简便计算\n=268\n2. 760000 X0. 040. 04 X0. 25 X0. 25\n=760000 X (0, 25 X0. 04) X (0, 250, 04)\n=760000 X 0, 010, 01\n=76",
+      "id": "grade5_b0144",
+      "pageEnd": 141,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "67676767 X 8888. 8888 = 1010101 一 2222, 2222 = (67676767 1010101) X (8888, 8888一 2222. 2222) =67 X4 Rit ZEAL Ra 小数的简便计算 =268",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "760000 X0. 040. 04 X0. 25 X0. 25 =760000 X (0, 25 X0. 04) X (0, 250, 04) =760000 X 0, 010, 01 =76",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 146,
+      "lessonNo": 4,
+      "lessonTitle": "整数拆分问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 因为 1十2十3十4=王10,15一10王5,因此需\n将 5 分配到其中。\n由于 5 可拆分为 1十1十1十2;1十1十3;1十\n2十2;1十4;2十3;5 六种情况。\n因此一共有 6 种不同的分法。\n2. 因为1十2十3十4十…十10十11王66,70一\n66王4,因此需将 4分配到其中。\n由于4 可拆为1十1十1十1;1十1十231十 |\n3324234 五种情况。\n因此一共有 5 种。",
+      "id": "grade5_b0158",
+      "pageEnd": 146,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "因为 1十2十3十4=王10,15一10王5,因此需 将 5 分配到其中。 由于 5 可拆分为 1十1十1十2;1十1十3;1十 2十2;1十4;2十3;5 六种情况。 因此一共有 6 种不同的分法。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "因为1十2十3十4十…十10十11王66,70一 66王4,因此需将 4分配到其中。 由于4 可拆为1十1十1十1;1十1十231十 | 3324234 五种情况。 因此一共有 5 种。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 148,
+      "lessonNo": 4,
+      "lessonTitle": "整数拆分问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1，原式一0. 25X0.125X0.5X4X8X2X2\n一(0.25X4)X(0.125X8)X(0.5X\n2)X2\n=1X1X1X2\n=2\n2. JAxk=10+(32X0. 125 X0, 25)\n=10+(8X4X0, 125 X0. 25)\n=10+[(8X0. 125) X (4X0. 25) |\n=10+(1X1)\n=10",
+      "id": "grade5_b0162",
+      "pageEnd": 148,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "原式一0. 25X0.125X0.5X4X8X2X2 一(0.25X4)X(0.125X8)X(0.5X 2)X2 =1X1X1X2 =2",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "JAxk=10+(32X0. 125 X0, 25) =10+(8X4X0, 125 X0. 25) =10+[(8X0. 125) X (4X0. 25) | =10+(1X1) =10",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 148,
+      "lessonNo": 4,
+      "lessonTitle": "整数拆分问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 原式=王(2十100)十(4十98)十(6十96)十\ns+ (48+54)+(50+52)\n=102X 25\n=2550\n2. ax =1+(3-2)+G—4) +--+ (4003—\n4002) +(4005—4004)\n144\nRit ZEAL Ra\n= 2003",
+      "id": "grade5_b0164",
+      "pageEnd": 148,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "原式=王(2十100)十(4十98)十(6十96)十 s+ (48+54)+(50+52) =102X 25 =2550",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "ax =1+(3-2)+G—4) +--+ (4003— 4002) +(4005—4004) 144 Rit ZEAL Ra = 2003",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 148,
+      "lessonNo": 4,
+      "lessonTitle": "整数拆分问题",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. Jst=6666 X 7777 +3333+1111\n= (6666 +3333) X (7777 +1111)\n=2X7\n=14\n2. Jaxt=332 789 X 1001—332 X 1001 X 789\n=0",
+      "id": "grade5_b0165",
+      "pageEnd": 148,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "Jst=6666 X 7777 +3333+1111 = (6666 +3333) X (7777 +1111) =2X7 =14",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "Jaxt=332 789 X 1001—332 X 1001 X 789 =0",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 149,
+      "lessonNo": 6,
+      "lessonTitle": "质数、合数和分解质因数",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1. 将 539 分解质因数,寻找合适的组合。\n539=7X7X11=7X77=7X (76+ 1) =\n(48+1)X11,76 可被4整除,符合题意，\n48 也可被 4 整除,符合题意。因此该班\n级有76 人,每人植树 7 棵,或该班级有 48\n人,每人植树 11 AR\n2. 将 3916 分解质因数:3916王2X2X11X\n89王4X11X89,由于满分 100 分,经过合\n情推理,五年级的李冬冬应该为 11 岁,考\n了 89 分,名次为第四名。",
+      "id": "grade5_b0169",
+      "pageEnd": 149,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "将 539 分解质因数,寻找合适的组合。 539=7X7X11=7X77=7X (76+ 1) = (48+1)X11,76 可被4整除,符合题意， 48 也可被 4 整除,符合题意。因此该班 级有76 人,每人植树 7 棵,或该班级有 48 人,每人植树 11 AR",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "将 3916 分解质因数:3916王2X2X11X 89王4X11X89,由于满分 100 分,经过合 情推理,五年级的李冬冬应该为 11 岁,考 了 89 分,名次为第四名。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade5",
+      "sourceFile": "尖子生高分题库5年级.pdf",
+      "pageStart": 154,
+      "lessonNo": 8,
+      "lessonTitle": "因数与倍数",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 从每次取 5 颗则少 3 颗,每次取 7 颗也少\n3 颗,知道糖果的数目是5 和?7 的倍数一\n3,即35X&一3。每次取 3 颗正好能取\n完,则35一3 应是 3 的倍数。即 35XA\n应是 3 的倍数。&一1内一2 不符合条件，，\n&一3,即 35Xk=35X3=105 时符合条 :\n件。则糖果至少有 35 Xx 3-3 = 102 CD 。\n. 设小明今年 zx 岁,爷爷今年就是 7z 岁。\n再过A 年,可列方程 6(z十A)=7z十A，\n解得xz一5A ,再过B 年,可列方程5Cz十\nB)=7x +B. fe 2 =2B ,所以zx既是5\n的倍数,又是 2 的倍数,也就是 10 的售\n数。当小明为 10 岁时,爷爷是 70 岁;小 ，\n明为 20 岁时,和爷爷 140 岁,不合题意, 因\n此小明只能为 10 37 454324 70 3,\n150\n那么 13z十10X(3y一z)十6y王216,化\n简为 3z十36y王216,即过十12y王72。\nx=12, (x=24, (x=36, (x=48,\n有\n[\ny=l.\nPRUARA a =12.y=5 W.3y —2 =3 满\n足。那么男职工具能为 12 A.\n.374二12一31……。2,所以截完以后必有剩\n余,剩余管料长不小于 2 EK, 374=27X\n12+4X12+2=9 X36+2X 2442, PRL\nHUM 9 根 36 厘米的短管和 2 根 24 厘米\n的短管,剩余管子最少,为 2 厘米。",
+      "id": "grade5_b0180",
+      "pageEnd": 154,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "从每次取 5 颗则少 3 颗,每次取 7 颗也少 3 颗,知道糖果的数目是5 和?7 的倍数一",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "即35X&一3。每次取 3 颗正好能取 完,则35一3 应是 3 的倍数。即 35XA 应是 3 的倍数。&一1内一2 不符合条件，， &一3,即 35Xk=35X3=105 时符合条 : 件。则糖果至少有 35 Xx 3-3 = 102 CD 。 . 设小明今年 zx 岁,爷爷今年就是 7z 岁。 再过A 年,可列方程 6(z十A)=7z十A， 解得xz一5A ,再过B 年,可列方程5Cz十 B)=7x +B. fe 2 =2B ,所以zx既是5 的倍数,又是 2 的倍数,也就是 10 的售 数。当小明为 10 岁时,爷爷是 70 岁;小 ， 明为 20 岁时,和爷爷 140 岁,不合题意, 因 此小明只能为 10 37 454324 70 3, 150 那么 13z十10X(3y一z)十6y王216,化 简为 3z十36y王216,即过十12y王72。 x=12, (x=24, (x=36, (x=48, 有 [ y=l. PRUARA a =12.y=5 W.3y —2 =3 满 足。那么男职工具能为 12 A. .374二12一31……。2,所以截完以后必有剩 余,剩余管料长不小于 2 EK, 374=27X 12+4X12+2=9 X36+2X 2442, PRL HUM 9 根 36 厘米的短管和 2 根 24 厘米 的短管,剩余管子最少,为 2 厘米。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ],
+  "grade6": [
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 159,
+      "lessonNo": 12,
+      "lessonTitle": "平面图形综合",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1. 因为三角形 BEG 与三角形 DEF 相似,所\n以BE :ED=GE : EF=4:7, r= ff\nJ% AED 的面积为6二4X7一10. SCRA\n米),三角形 CED 的面积为 10二4X7三\n17. 5(平方厘米) ,所以梯形 ABCD 的面积\n为 6十10. 5十17. 5十10一44(平方厘米) 。\n2. 三角形ABC 中,因为AB是AD 的5倍，\nAC是4已的3倍,则三角形ABC gan\n是三角形ADFE ti FAAY 5X 3=15 倍,所以\n三角形 ABC 的面积为 15X1一15。",
+      "id": "grade6_b0193",
+      "pageEnd": 159,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "因为三角形 BEG 与三角形 DEF 相似,所 以BE :ED=GE : EF=4:7, r= ff J% AED 的面积为6二4X7一10. SCRA 米),三角形 CED 的面积为 10二4X7三",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "17",
+          "prompt": "5(平方厘米) ,所以梯形 ABCD 的面积 为 6十10. 5十17. 5十10一44(平方厘米) 。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "三角形ABC 中,因为AB是AD 的5倍， AC是4已的3倍,则三角形ABC gan 是三角形ADFE ti FAAY 5X 3=15 倍,所以 三角形 ABC 的面积为 15X1一15。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 161,
+      "lessonNo": 13,
+      "lessonTitle": "圆柱和圆锥",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1圆锥中水的容积:二xz(二) ,过\n本 h=4F))\nr\n2\nEAB arth ta (ZL) + tnx\n8=4X8=32(Ft)\nOPA AID AE 32-4 =28(F})\n2. 7) EE AY AER\nV\\=nXa’ X2a=2na’,\n大圆柱油桶的体积:\nV.=nX (5a)? X3a=6. 75na*,\n156\n: 6.75ra =8 : 27,\nVv;  : V, =2na*\n所以,一纪 zy, = x 3=10. 125,",
+      "id": "grade6_b0198",
+      "pageEnd": 161,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "7) EE AY AER V\\=nXa’ X2a=2na’, 大圆柱油桶的体积: V.=nX (5a)? X3a=6. 75na*, 156 : 6.75ra =8 : 27, Vv; : V, =2na* 所以,一纪 zy, = x 3=10. 125,",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 161,
+      "lessonNo": 13,
+      "lessonTitle": "圆柱和圆锥",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1，原来圆柱的底面周长:25. 12二2王12. 56 J\n米)\n原来圆柱的底面半径\n2 CHDK)\n原来圆柱的两个底面面积:3. 14 x 2? X 2\n一25. 12(平方厘米)\n:12. 56二3. 14一2一\nRiise CRA “MBER” RRL TAG.\n原来圆柱的侧面积:12. 56 X 8=100. 48(平方\n厘米)\n原来圆柱的表面\n125. 6(平方厘米)\n1       ， 1\n2. Wi一可X3. UXr*h—Z XB, 14X (二r)\nxe 一卫x3.  14r’h,\n81\n_1    2yl2,_ 8\nVe= 3X3. 14x (Sr] X 本8一机义\nVy 19\n3, rth ae\nPR LAHY Ae tir UREA AK Ze 5 FAS aie PETC\nEZ ARI RAKE SF.",
+      "id": "grade6_b0199",
+      "pageEnd": 162,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "原来圆柱的底面周长:25. 12二2王12. 56 J 米) 原来圆柱的底面半径 2 CHDK) 原来圆柱的两个底面面积:3. 14 x 2? X 2 一25. 12(平方厘米) :12. 56二3. 14一2一 Riise CRA “MBER” RRL TAG. 原来圆柱的侧面积:12. 56 X 8=100. 48(平方 厘米) 原来圆柱的表面 125. 6(平方厘米) 1 ， 1",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "Wi一可X3. UXr*h—Z XB, 14X (二r) xe 一卫x3. 14r’h, 81 _1 2yl2,_ 8 Ve= 3X3. 14x (Sr] X 本8一机义 Vy 19",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "3",
+          "prompt": "rth ae PR LAHY Ae tir UREA AK Ze 5 FAS aie PETC EZ ARI RAKE SF.",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 162,
+      "lessonNo": 13,
+      "lessonTitle": "圆柱和圆锥",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1 车以 6 厘米为轴,旋转得到的圆锥体的体\nA) ,若以8 厘米为轴,旋转得到的圆锥体\n的体积为 Von X 8X6\" :一96r(立方厘\nKR) Vi >V2\n到的圆锥体的体积\n2 设ABCO 以CD 为辆旋转一周所得到的立\n体图形的体积是 Vi SUV 等于高为12厘 ，\nAR JESTER PERE 8 厘米的圆锥体积,减去 2\n个高为6 厘米.底而半径是 4 厘米的圆锥\nBL MEDEA. BALL VV Xn X8? X\n1             、\n12一2X本 XxrX4乍X6王192x(立方厘米) 。\n那么阴影部分扫出来的立体图形的体积是\n2V王384r(立方厘米) 。\nA, 25. 12 十 100. 48 一\n2.0) 甲,乙\n所以以6 ARATE RE 8.将正放与倒放的空",
+      "id": "grade6_b0200",
+      "pageEnd": 162,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "0) 甲,乙 所以以6 ARATE RE 8.将正放与倒放的空",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 163,
+      "lessonNo": 14,
+      "lessonTitle": "立体几何综合",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 1",
+      "text": "思维训练 1\n1，表面积为 90十30王120(平方厘米) 。\n2.\n长十宽=(522一2)二2一260(厘米)，\n长十高=(442一2)二2一220(厘米) ，\n宽十高(402一2)二2一200(厘米) ，\n又因为宽比高长 260一220王40(厘米) ，\n根据和差公式可得高为(200一40)二2三\n80(厘米)。所以宽为 200一80三120(厘 :\n米) ,长为 260一120一140(厘米)。所以 ，    、",
+      "id": "grade6_b0203",
+      "pageEnd": 163,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "表面积为 90十30王120(平方厘米) 。 2. 长十宽=(522一2)二2一260(厘米)， 长十高=(442一2)二2一220(厘米) ， 宽十高(402一2)二2一200(厘米) ， 又因为宽比高长 260一220王40(厘米) ， 根据和差公式可得高为(200一40)二2三 80(厘米)。所以宽为 200一80三120(厘 : 米) ,长为 260一120一140(厘米)。所以 ， 、",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 169,
+      "lessonNo": 17,
+      "lessonTitle": "加法原理和乘法原理",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 2",
+      "text": "思维训练 2\n1首先可以确定中锋,C 不能作中锋,则有4\n种选法,剩下 4个位置由4个人进行排列，\n依次有4 种、3 种.2 种、1 种排列方式,则有\n4X4X3X2X1=96(种)不同的安排站位\n方法。\n2. 如图所示。(1) 底为 3,高为 2 的三角形:\n当底在 BC 或AD 边上时,有4X2==\n8(个);当底为AB 或CD 时,有2X2=\n4(个);当底为 MN,PQ 时,有2X2=\n4(个);当底为 EF 时,有4X2王8(个)。\n共计有 8十4十4十8一24(个)。\nB N 0\n(2) 底为 2,高为 3 的三角形:当底在 BC 或\nAD边上时,有3X3X2=18(个);当底\n在AB或CD 上时,有4个(即AAKQ，\nAGBP,ADLN,AMHC) ,共有 18+\n4一22(个)。\n(3)此外还有4 个面积为 3 的三角形:\nAGMC,AKND,ALQ4A,APHB。\n所以面积为 3 的三角形一共有 24十22十\n4一50(个)。\n164",
+      "id": "grade6_b0220",
+      "pageEnd": 169,
+      "questionCandidates": [
+        {
+          "localNo": "2",
+          "prompt": "如图所示。(1) 底为 3,高为 2 的三角形: 当底在 BC 或AD 边上时,有4X2== 8(个);当底为AB 或CD 时,有2X2= 4(个);当底为 MN,PQ 时,有2X2= 4(个);当底为 EF 时,有4X2王8(个)。 共计有 8十4十4十8一24(个)。 B N 0 (2) 底为 2,高为 3 的三角形:当底在 BC 或 AD边上时,有3X3X2=18(个);当底 在AB或CD 上时,有4个(即AAKQ， AGBP,ADLN,AMHC) ,共有 18+ 4一22(个)。 (3)此外还有4 个面积为 3 的三角形: AGMC,AKND,ALQ4A,APHB。 所以面积为 3 的三角形一共有 24十22十 4一50(个)。 164",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 169,
+      "lessonNo": 17,
+      "lessonTitle": "加法原理和乘法原理",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 3",
+      "text": "思维训练 3\n1. 第一类:相同数字是 1,3X9X8一216(个);\n第二类:相同数字不是 1,3 X9X8=\n216(个), 根据加法原理,可知共有 216十\n216王432(个)。\n2. 134",
+      "id": "grade6_b0221",
+      "pageEnd": 169,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "第一类:相同数字是 1,3X9X8一216(个); 第二类:相同数字不是 1,3 X9X8= 216(个), 根据加法原理,可知共有 216十 216王432(个)。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 173,
+      "lessonNo": 20,
+      "lessonTitle": "第 20 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 4,50 2, 59.5° 3. 2,9\n4       1       127\nam,   .   =. ip   eit\n4, 16 7712 HY 49 于分  5， 31 143\n6. 因为 12 小时=720 分钟,又 12 个小时快   :\n12X15一180(秒)一3(分),所以要过720\n二3一240(个)12 小时才能到下一个准确",
+      "id": "grade6_b0240",
+      "pageEnd": 173,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "4,50 2, 59.5° 3. 2,9 4 1 127 am, . =. ip eit",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "4",
+          "prompt": "16 7712 HY 49 于分 5， 31 143",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "因为 12 小时=720 分钟,又 12 个小时快 : 12X15一180(秒)一3(分),所以要过720 二3一240(个)12 小时才能到下一个准确",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 174,
+      "lessonNo": 21,
+      "lessonTitle": "第 21 讲",
+      "column": "thinking_training",
+      "rawHeading": "思维训练 4",
+      "text": "思维训练 4\n1. 2017二10王201.……7(个) ,故第 2017 个\n图形是白正方形。201X2=402(个) ,在\n2017 个图形中黑圆形有 402 个。\n2，因为前 50 条和斜线,每一条都比前一条多\n填写一个数,所以前 50 条和斜线上的数有\n1十2十3十…十50王1275(个),即 1275 填\n在第1行.第50列,1276 填在第 50行.第\n2 列。填到自然数 2014 还需要填 2014一\n1275王739(个)数。由于以后的 50 AAR\n线上都写 50 个数,而 739二50一14……\n39, 所以,自然数 1275十50 X14王1975\n应填在第 1 行.第64列上,而自然数 1976\n应填在第 50 行.第16 列上。\n由下表可知 2014 填在第 12 FF 54 FI,\n自然数           1976            1977            1978             oe             2014\n行 数            50              49              48              we              12\n列 数            16               17               18              te              54\n169\nRiise CRA “MBER” RRL TAG.\n@ nerzeaman (nim",
+      "id": "grade6_b0244",
+      "pageEnd": 175,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "2017二10王201.……7(个) ,故第 2017 个 图形是白正方形。201X2=402(个) ,在 2017 个图形中黑圆形有 402 个。",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "2",
+          "prompt": "因为前 50 条和斜线,每一条都比前一条多 填写一个数,所以前 50 条和斜线上的数有 1十2十3十…十50王1275(个),即 1275 填 在第1行.第50列,1276 填在第 50行.第 2 列。填到自然数 2014 还需要填 2014一 1275王739(个)数。由于以后的 50 AAR 线上都写 50 个数,而 739二50一14……",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "39",
+          "prompt": "所以,自然数 1275十50 X14王1975 应填在第 1 行.第64列上,而自然数 1976 应填在第 50 行.第16 列上。 由下表可知 2014 填在第 12 FF 54 FI, 自然数 1976 1977 1978 oe 2014 行 数 50 49 48 we 12 列 数 16 17 18 te 54 169 Riise CRA “MBER” RRL TAG. @ nerzeaman (nim",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "thinking_training",
+      "cleaningAction": "flagged",
+      "confidence": "high",
+      "reviewPriority": "medium",
+      "reviewReasons": [
+        "OCR noise signature"
+      ]
+    },
+    {
+      "grade": "grade6",
+      "sourceFile": "尖子生高分题库6年级.pdf",
+      "pageStart": 175,
+      "lessonNo": 21,
+      "lessonTitle": "第 21 讲",
+      "column": "competition_boost",
+      "rawHeading": "竞赛强化",
+      "text": "竞赛强化\n1. 天秤   2. 9143   3.0 4. 13 5.11\n6. 1001二2一500……1,则 792 的个位数字\n个位数字是 1 ,虽  791001 一661ol 十10011ool\n的个位数字是 9一6十1一4。\n] )    24\n7. 需循环的次数为1- (到十志 =-到>\n3(次)，3 个循环后秋下的工作量是1\n1 1、 3 入下员工大昌\n(二士吉)X3= 3 ,余下的工作量东东\naa 2, = 1, 直\nem Mii +2 1S 3\n这时东东工作的时间不超过 1 小时,故东\n东工作 > 小时可以完成余下的工作。风\n种完计划的树苗需共用的时间为2X 3十",
+      "id": "grade6_b0245",
+      "pageEnd": 175,
+      "questionCandidates": [
+        {
+          "localNo": "1",
+          "prompt": "天秤 2. 9143 3.0 4. 13 5.11",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "6",
+          "prompt": "1001二2一500……1,则 792 的个位数字 个位数字是 1 ,虽 791001 一661ol 十10011ool 的个位数字是 9一6十1一4。 ] ) 24",
+          "hasAnalysis": false,
+          "hasSolution": false
+        },
+        {
+          "localNo": "7",
+          "prompt": "需循环的次数为1- (到十志 =-到> 3(次)，3 个循环后秋下的工作量是1 1 1、 3 入下员工大昌 (二士吉)X3= 3 ,余下的工作量东东 aa 2, = 1, 直 em Mii +2 1S 3 这时东东工作的时间不超过 1 小时,故东 东工作 > 小时可以完成余下的工作。风 种完计划的树苗需共用的时间为2X 3十",
+          "hasAnalysis": false,
+          "hasSolution": false
+        }
+      ],
+      "cleanedColumn": "competition_boost",
+      "cleaningAction": "kept",
+      "confidence": "high",
+      "reviewPriority": "normal",
+      "reviewReasons": []
+    }
+  ]
+}

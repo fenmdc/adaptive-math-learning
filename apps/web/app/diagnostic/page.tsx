@@ -11,13 +11,16 @@ import {
   clearDiagnosticLogs,
   createPracticeLog,
   readDiagnosticLogs,
+  readSessionPreferences,
   readStudentModel,
   writeAssessmentReport,
   writeDiagnosticLogs,
   writeLearningPlan,
+  writeSessionPreferences,
   writeStudentModel
 } from "../shared/storage";
 import { summarizeDiagnosticCalibration } from "../shared/diagnosticCalibration";
+import MathText from "../shared/MathText";
 import { updateStudentModel } from "../shared/studentModel";
 import { auditDiagnosticBlueprint, initialAssessmentBlueprint, selectDiagnosticProblems, type AssessmentSlot } from "./initialAssessment";
 
@@ -39,12 +42,15 @@ type DiagnosticAttempt = {
 const allProblems = problemsData as Problem[];
 const conceptGraph = buildConceptGraph(conceptsData as ConceptNode[]);
 const diagnosticProblems = selectDiagnosticProblems(initialAssessmentBlueprint, allProblems);
-const diagnosticProblemCount = diagnosticProblems.length;
 const diagnosticBlueprintAudit = auditDiagnosticBlueprint(initialAssessmentBlueprint, allProblems, diagnosticProblems);
 const initialState: StudentState = { mastery: {}, history: [] };
+const DIAGNOSTIC_ITEM_COUNT_OPTIONS = [5, 8, 10, 12, 15, 20, 25, 30, 33, 37];
 
 export default function DiagnosticPage() {
   const engine = useMemo(() => new AdaptiveEngine(allProblems, conceptGraph), []);
+  const [diagnosticItemCount, setDiagnosticItemCount] = useState(() =>
+    clampDiagnosticItemCount(readSessionPreferences().diagnosticItemCount, diagnosticProblems.length)
+  );
   const [studentState, setStudentState] = useState<StudentState>(initialState);
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
@@ -56,7 +62,12 @@ export default function DiagnosticPage() {
   const [confidence, setConfidence] = useState(3);
   const [problemStartedAt, setProblemStartedAt] = useState(() => Date.now());
 
-  const currentItem = diagnosticProblems[index];
+  const activeDiagnosticProblems = useMemo(
+    () => diagnosticProblems.slice(0, diagnosticItemCount),
+    [diagnosticItemCount]
+  );
+  const diagnosticProblemCount = activeDiagnosticProblems.length;
+  const currentItem = activeDiagnosticProblems[index];
   const currentProblem = currentItem?.problem;
   const currentSlot = currentItem?.slot;
   const isComplete = index >= diagnosticProblemCount;
@@ -173,6 +184,14 @@ export default function DiagnosticPage() {
     setProblemStartedAt(Date.now());
   }
 
+  function updateDiagnosticItemCount(value: number) {
+    const nextCount = clampDiagnosticItemCount(value, diagnosticProblems.length);
+
+    writeSessionPreferences({ diagnosticItemCount: nextCount });
+    setDiagnosticItemCount(nextCount);
+    resetDiagnostic();
+  }
+
   return (
     <main className="app-shell">
       <div className="app-container">
@@ -181,7 +200,7 @@ export default function DiagnosticPage() {
             <p className="eyebrow">Adaptive Math Learning</p>
             <h1 className="page-title">Diagnostic Mode v2</h1>
             <p className="page-subtitle">
-              A {diagnosticProblemCount}-slot calibrated assessment across Pre-Algebra, Algebra 1 readiness, and AMC8 transfer skills.
+              A {diagnosticProblemCount}-question calibrated assessment across Pre-Algebra, Algebra 1 readiness, AMC8 transfer, and CN Grade 7-12 readiness.
             </p>
           </div>
           <div className="nav-actions">
@@ -196,6 +215,31 @@ export default function DiagnosticPage() {
           <Metric label="Progress" value={`${Math.min(index + (pending || isComplete ? 1 : 0), diagnosticProblemCount)}/${diagnosticProblemCount}`} />
           <Metric label="Accuracy" value={`${accuracy}%`} />
           <Metric label="Calibration" value={calibrationSummary.confidence} />
+        </section>
+
+        <section className="panel full-panel scope-panel">
+          <div>
+            <p className="eyebrow">Diagnostic Setup</p>
+            <h2 className="panel-title">Choose assessment length</h2>
+          </div>
+          <div className="scope-grid">
+            <label className="field-label" htmlFor="diagnostic-item-count">
+              Questions this diagnostic
+              <select
+                className="select-input"
+                disabled={attempts.length > 0 || pending}
+                id="diagnostic-item-count"
+                onChange={(event) => updateDiagnosticItemCount(Number(event.target.value))}
+                value={diagnosticProblemCount}
+              >
+                {DIAGNOSTIC_ITEM_COUNT_OPTIONS.filter((count) => count <= diagnosticProblems.length).map((count) => (
+                  <option key={count} value={count}>
+                    {count} questions
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
         </section>
 
         <CalibrationSummaryPanel summary={calibrationSummary} />
@@ -255,7 +299,7 @@ export default function DiagnosticPage() {
                 ))}
               </div>
 
-              <h2 className="problem-text">{currentProblem.statement}</h2>
+              <h2 className="problem-text"><MathText text={currentProblem.statement} /></h2>
               <div className="schema-note">
                 <strong>Selected by:</strong> {currentItem.selectionReason}
               </div>
@@ -278,7 +322,7 @@ export default function DiagnosticPage() {
                         type="button"
                       >
                         <strong>{choice.label}</strong>
-                        <span>{choice.text}</span>
+                        <span><MathText text={choice.text} /></span>
                       </button>
                     ))}
                   </div>
@@ -313,10 +357,10 @@ export default function DiagnosticPage() {
                 <div className={`feedback ${feedback.correct ? "feedback-success" : "feedback-error"}`}>
                   <div className="feedback-title">{feedback.correct ? "Correct" : "Not yet"}</div>
                   <div>Slot: {feedback.slot.stage} · {feedback.slot.strand}</div>
-                  <div>Your answer: {feedback.submittedAnswer} · Expected: {feedback.problem.answer}</div>
+                  <div>Your answer: <MathText text={feedback.submittedAnswer} /> · Expected: <MathText text={feedback.problem.answer} /></div>
                   {feedback.selectedChoiceLabel && (
                     <div>
-                      Selected choice: {feedback.selectedChoiceLabel} · {feedback.selectedChoiceValue}
+                      Selected choice: {feedback.selectedChoiceLabel} · <MathText text={feedback.selectedChoiceValue ?? ""} />
                     </div>
                   )}
                   {feedback.selectedDistractor && (
@@ -331,7 +375,7 @@ export default function DiagnosticPage() {
                     </div>
                   )}
                   <div>Check: {feedback.answerReason}</div>
-                  <div>Solution note: {feedback.problem.solution}</div>
+                  <div>Solution note: <MathText text={feedback.problem.solution} /></div>
                   <div>{feedback.recommendationReason}</div>
                   {feedback.problem.taxonomy && (
                     <div>
@@ -481,6 +525,7 @@ function AssessmentReportCard({ report }: { report: AssessmentReport }) {
           </div>
         ))}
       </div>
+      <SeniorHighReadinessPanel report={report} />
       <div className="summary-grid">
         <ReportList
           emptyText="No ability signals yet."
@@ -497,6 +542,29 @@ function AssessmentReportCard({ report }: { report: AssessmentReport }) {
           items={report.prerequisiteGaps.map((gap) => `${gap.concept} before ${gap.targetConcept}`)}
           title="Prerequisite gaps"
         />
+      </div>
+    </div>
+  );
+}
+
+function SeniorHighReadinessPanel({ report }: { report: AssessmentReport }) {
+  if (!report.seniorHighReadiness?.length) return null;
+
+  return (
+    <div>
+      <h3 className="summary-list-title">高中 readiness 信号</h3>
+      <div className="readiness-grid">
+        {report.seniorHighReadiness.map((signal) => (
+          <div className="readiness-card" key={signal.id}>
+            <div className={`readiness ${readinessClass(signal.status)}`}>{signal.status}</div>
+            <strong>{signal.label}</strong>
+            <span>{signal.evidence}</span>
+            <span>{signal.nextAction}</span>
+            <Link className="button-secondary" href={signal.practiceHref}>
+              Start task
+            </Link>
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -551,6 +619,12 @@ function normalizeChoices(choices: Problem["choices"]): AnswerChoice[] {
 
 function secondsSince(startedAt: number) {
   return Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+}
+
+function clampDiagnosticItemCount(value: unknown, max: number) {
+  const parsed = Number(value);
+  if (!Number.isInteger(parsed)) return Math.min(33, max);
+  return Math.max(5, Math.min(max, parsed));
 }
 
 function simplifyPrerequisiteGaps(gaps: PrerequisiteGap[]) {

@@ -89,6 +89,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
           <Link className="button-secondary" href="/login">Login</Link>
           <Link className="button-secondary" href="/diagnostic">Diagnostic</Link>
           <Link className="button-secondary" href="/practice">Practice</Link>
+          <Link className="button-secondary" href="/review">Review Queue</Link>
         </div>
       </header>
 
@@ -167,6 +168,24 @@ function LatestAssessmentReport({ report }: { report: AssessmentReport }) {
           </div>
         ))}
       </div>
+      {report.seniorHighReadiness?.length > 0 && (
+        <>
+          <h3 className="summary-list-title">高中 readiness 信号</h3>
+          <div className="readiness-grid">
+            {report.seniorHighReadiness.map((signal) => (
+              <div className="readiness-card" key={signal.id}>
+                <div className={`readiness ${readinessClass(signal.status)}`}>{signal.status}</div>
+                <strong>{signal.label}</strong>
+                <span>{signal.evidence}</span>
+                <span>{signal.nextAction}</span>
+                <Link className="button-secondary" href={signal.practiceHref}>
+                  Start task
+                </Link>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
       {report.cognitivePatterns.length > 0 && (
         <div className="summary-grid">
           {report.cognitivePatterns.slice(0, 2).map((pattern) => (

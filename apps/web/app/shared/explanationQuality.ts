@@ -359,7 +359,7 @@ function buildExplanationIssues(explanation: ExampleExplanation, problem?: Probl
     issues.push("Contains template-like wording that should be reviewed.");
   }
 
-  if (problem?.answer && !allText.includes(String(problem.answer).toLowerCase())) {
+  if (problem?.answer && !explanationReferencesAnswer(explanation, problem.answer)) {
     issues.push("Does not explicitly reference the expected answer.");
   }
 
@@ -381,23 +381,54 @@ function splitSteps(value: string | undefined) {
   if (!value) return [];
 
   return value
-    .split(/(?:\.\s+|;\s+|\n+| therefore | then | first | next )/i)
+    .split(/(?:步骤\s*\d+\s*[：:]|\.\s+|;\s+|。|；|\n+| therefore | then | first | next )/i)
     .map((part) => part.trim())
     .filter((part) => part.length > 4);
 }
 
 function hasConceptBridge(explanation: ExampleExplanation) {
   const text = `${explanation.hint1 ?? ""} ${explanation.hint2 ?? ""} ${explanation.whyCorrect ?? ""}`.toLowerCase();
-  return ["because", "relation", "pattern", "concept", "structure", "model", "why"].some((word) => text.includes(word));
+  return ["because", "relation", "pattern", "concept", "structure", "model", "why", "因为", "关系", "规律", "概念", "结构", "模型", "理由"].some((word) => text.includes(word));
 }
 
 function hasAnswerReference(explanation: ExampleExplanation) {
   const text = `${explanation.stepByStep ?? ""} ${explanation.whyCorrect ?? ""}`.toLowerCase();
-  return ["answer", "therefore", "equals", "="].some((word) => text.includes(word));
+  return ["answer", "therefore", "equals", "答案", "因此", "所以", "等于", "得到", "="].some((word) => text.includes(word));
+}
+
+function explanationReferencesAnswer(explanation: ExampleExplanation, answer: string) {
+  const normalizedText = normalizeAnswerText(REQUIRED_SECTIONS.map((section) => explanation[section] ?? "").join(" "));
+  const normalizedAnswer = normalizeAnswerText(answer);
+  const answerVariants = new Set([normalizedAnswer]);
+  const fractionMatch = answer.match(/^\s*(-?\d+)\s*\/\s*(-?\d+)\s*$/);
+
+  if (fractionMatch) {
+    const [, numerator, denominator] = fractionMatch;
+    answerVariants.add(`frac{${numerator}}{${denominator}}`);
+    answerVariants.add(`\\frac{${numerator}}{${denominator}}`);
+  }
+
+  return [...answerVariants].some((variant) => variant.length > 0 && normalizedText.includes(variant));
+}
+
+function normalizeAnswerText(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace(/\$/g, "")
+    .replace(/[{}]/g, "")
+    .replace(/，|。|；|：/g, "")
+    .trim();
 }
 
 function wordCount(value: string) {
-  return value.trim().split(/\s+/).filter(Boolean).length;
+  const trimmed = value.trim();
+  const cjkCharacters = trimmed.match(/[\u3400-\u9fff]/g)?.length ?? 0;
+  const latinWords = trimmed.replace(/[\u3400-\u9fff]/g, " ").split(/\s+/).filter(Boolean).length;
+
+  if (cjkCharacters > 0) return latinWords + Math.ceil(cjkCharacters / 2);
+
+  return trimmed.split(/\s+/).filter(Boolean).length;
 }
 
 function learnerLabel(level: ExplanationQualityLevel) {
