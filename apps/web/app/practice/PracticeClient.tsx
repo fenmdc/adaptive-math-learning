@@ -9,7 +9,8 @@ import { AdaptiveEngine, buildConceptGraph, checkProblemAnswer, Problem, Student
 import { buildLearningPlan } from "../shared/learningPlan";
 import { assessExplanationQuality, summarizeExplanationQuality, type ExampleExplanation } from "../shared/explanationQuality";
 import { buildReviewQueue, selectReviewProblems } from "../shared/reviewQueue";
-import { clearPracticeLogs, createPracticeLog, enqueueSubjectiveReview, readPracticeLogs, readSessionPreferences, readStudentModel, readSubjectiveReviewQueue, writeLearningPlan, writePracticeLogs, writeSessionPreferences, writeStudentModel, type WorkSubmission } from "../shared/storage";
+import { clearPracticeLogs, createPracticeLog, enqueueSubjectiveReview, appendSessionCompletion, readPracticeLogs, readSessionPreferences, readStudentModel, readSubjectiveReviewQueue, writeLearningPlan, writePracticeLogs, writeSessionPreferences, writeStudentModel, type WorkSubmission } from "../shared/storage";
+import { createSessionCompletionRecord, type SessionCompletionReason } from "../shared/sessionAnalytics";
 import { updateStudentModel, type StudentModel } from "../shared/studentModel";
 import { buildReviewedSubjectiveFeedback, type ReviewedSubjectiveFeedback } from "../shared/subjectiveFeedback";
 import {
@@ -160,6 +161,7 @@ export default function PracticeClient({ initialQueryString = "" }: { initialQue
   const [showRecentTrajectory, setShowRecentTrajectory] = useState(false);
   const [workSubmission, setWorkSubmission] = useState<WorkSubmission>({});
   const [problemStartedAt, setProblemStartedAt] = useState(() => Date.now());
+  const completedSessionKeysRef = useRef<Set<string>>(new Set());
   const catalog = useMemo(() => buildCatalog(problems), []);
   const taxonomyBaseProblems = useMemo(() => filterTaxonomyBaseProblems(problems, scope), [scope]);
   const qualityStats = useMemo(() => buildQualityStats(taxonomyBaseProblems), [taxonomyBaseProblems]);
@@ -207,6 +209,7 @@ export default function PracticeClient({ initialQueryString = "" }: { initialQue
     setLatestStudentModel(readStudentModel());
     setConfidence(3);
     setProblemStartedAt(Date.now());
+    completedSessionKeysRef.current.clear();
     clearPracticeLogs();
   }
 
@@ -336,12 +339,30 @@ export default function PracticeClient({ initialQueryString = "" }: { initialQue
     const planNowComplete = scope.mode === "plan" && scope.maxItems > 0 && attempts.length + 1 >= scope.maxItems;
     const practiceNowComplete = scope.mode === "practice" && attempts.length + 1 >= getPracticeSessionTarget(scopedProblems.length, scope);
     const sessionNowComplete = reviewNowComplete || planNowComplete || practiceNowComplete;
+    const completionReason = getSessionCompletionReason({
+      planNowComplete,
+      practiceNowComplete,
+      reviewNowComplete
+    });
 
     setStudentState(result.updated_state);
     setAttempts((current) => [nextAttempt, ...current]);
     writePracticeLogs(nextLogs);
     if (nextStudentModel) writeStudentModel(nextStudentModel);
     writeLearningPlan(nextPlan);
+    if (sessionNowComplete && completionReason) {
+      const completionReport = buildPracticeSessionReport([nextAttempt, ...attempts], scope, nextStudentModel);
+      const completionKey = buildSessionCompletionKey(scope, attempts.length + 1, currentProblem.id, completionReason);
+
+      if (completionReport && !completedSessionKeysRef.current.has(completionKey)) {
+        completedSessionKeysRef.current.add(completionKey);
+        appendSessionCompletion(
+          createSessionCompletionRecord(
+            buildSessionCompletionInput(completionReport, scope, completionReason)
+          )
+        );
+      }
+    }
     setLatestStudentModel(nextStudentModel);
     setFeedback(nextAttempt);
     setPendingNextProblem(sessionNowComplete ? null : result.next_problem);
@@ -1950,6 +1971,81 @@ function buildPracticeSessionReport(
     seniorDiagnosticFeedback,
     ...nextStep
   };
+}
+
+function getSessionCompletionReason(input: {
+  planNowComplete: boolean;
+  practiceNowComplete: boolean;
+  reviewNowComplete: boolean;
+}): SessionCompletionReason | null {
+  if (input.reviewNowComplete) return "review-complete";
+  if (input.planNowComplete) return "plan-complete";
+  if (input.practiceNowComplete) return "practice-complete";
+  return null;
+}
+
+function buildSessionCompletionKey(
+  scope: ScopeFilters,
+  totalCount: number,
+  lastProblemId: string,
+  completionReason: SessionCompletionReason
+) {
+  return [
+    scope.mode,
+    completionReason,
+    scope.sessionSource || "manual",
+    scope.sessionTitle || getDefaultSessionTitle(scope),
+    scope.course,
+    scope.chapter,
+    totalCount,
+    lastProblemId
+  ].join("|");
+}
+
+function buildSessionCompletionInput(
+  report: PracticeSessionReport,
+  scope: ScopeFilters,
+  completionReason: SessionCompletionReason
+) {
+  return {
+    accuracy: report.accuracy,
+    averageConfidence: report.averageConfidence,
+    averageTimeSeconds: report.averageTimeSeconds,
+    completedTaskKind: inferCompletedTaskKind(scope, report),
+    completionReason,
+    correctCount: report.correctCount,
+    course: scope.course,
+    focusConcepts: report.focusConcepts,
+    language: scope.language,
+    mode: scope.mode,
+    nextHref: report.nextHref,
+    nextTitle: report.nextTitle,
+    reviewOutcome: inferReviewOutcome(report),
+    sessionGoal: scope.sessionGoal || getDefaultSessionGoal(scope),
+    sessionSource: scope.sessionSource || "manual",
+    sessionTitle: scope.sessionTitle || getDefaultSessionTitle(scope),
+    shouldDelayCheckpoint: report.status === "Needs Repair",
+    shouldRetest: report.status !== "Ready",
+    status: report.status,
+    strongConcepts: report.strongConcepts,
+    totalCount: report.totalCount,
+    track: scope.displayTrack
+  };
+}
+
+function inferCompletedTaskKind(scope: ScopeFilters, report: PracticeSessionReport) {
+  if (scope.mode === "review") return "review" as const;
+  if (scope.sessionSource.includes("checkpoint") || report.nextTitle.toLowerCase().includes("checkpoint")) {
+    return "checkpoint" as const;
+  }
+  if (scope.mode === "plan" || scope.sessionSource.includes("learning-path")) return "learning-path" as const;
+  return "practice" as const;
+}
+
+function inferReviewOutcome(report: PracticeSessionReport) {
+  if (report.status === "Ready") return "cleared" as const;
+  if (report.status === "Developing") return "repeat" as const;
+  return "repair" as const;
 }
 
 function buildLayerFeedback(attempts: AttemptLog[]): LayerFeedback[] {

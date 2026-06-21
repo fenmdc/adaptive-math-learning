@@ -6,7 +6,8 @@ import problemsData from "../data/problems.json";
 import type { Problem } from "../../../packages/adaptive-engine";
 import { buildLearningPlan, type LearningPlan, type LearningPlanTask } from "./shared/learningPlan";
 import { buildReviewQueue, type ReviewQueue } from "./shared/reviewQueue";
-import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, readSubjectiveReviewQueue, type SubjectiveReviewItem } from "./shared/storage";
+import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readSessionCompletions, readStudentModel, readSubjectiveReviewQueue, type SubjectiveReviewItem } from "./shared/storage";
+import { summarizeSessionCompletions, type SessionCompletionRecord } from "./shared/sessionAnalytics";
 import { summarizeStudentModel, type StudentModel } from "./shared/studentModel";
 import { buildReviewedSubjectiveFeedback, countPendingSubjectiveReviews, type ReviewedSubjectiveFeedback } from "./shared/subjectiveFeedback";
 import { buildReviewSchedule, type ReviewSchedule } from "./shared/reviewSchedule";
@@ -23,6 +24,7 @@ type HomeState = {
   practiceLogs: SimulationLog[];
   subjectiveReviews: SubjectiveReviewItem[];
   diagnosticLogs: SimulationLog[];
+  sessionCompletions: SessionCompletionRecord[];
 };
 
 type RecommendedTask = {
@@ -42,13 +44,15 @@ export default function HomeLearningPlan() {
     assessmentReport: null,
     practiceLogs: [],
     subjectiveReviews: [],
-    diagnosticLogs: []
+    diagnosticLogs: [],
+    sessionCompletions: []
   });
 
   useEffect(() => {
     const studentModel = readStudentModel();
     const practiceLogs = readPracticeLogs();
     const diagnosticLogs = readDiagnosticLogs();
+    const sessionCompletions = readSessionCompletions();
     const storedPlan = readLearningPlan();
     const subjectiveReviews = readSubjectiveReviewQueue();
     const generatedPlan =
@@ -63,7 +67,8 @@ export default function HomeLearningPlan() {
       assessmentReport: readAssessmentReport(),
       practiceLogs,
       subjectiveReviews,
-      diagnosticLogs
+      diagnosticLogs,
+      sessionCompletions
     });
   }, []);
 
@@ -80,6 +85,10 @@ export default function HomeLearningPlan() {
   const pendingSubjectiveCount = useMemo(
     () => countPendingSubjectiveReviews(homeState.subjectiveReviews),
     [homeState.subjectiveReviews]
+  );
+  const completionSummary = useMemo(
+    () => summarizeSessionCompletions(homeState.sessionCompletions),
+    [homeState.sessionCompletions]
   );
 
   return (
@@ -107,10 +116,25 @@ export default function HomeLearningPlan() {
 
       <div className="student-progress-panel">
         <ProgressTile label="Recent Attempts" value={String(summary.recentAttempts)} detail={summary.recentAccuracy} />
-        <ProgressTile label="Current Streak" value={summary.streakLabel} detail={summary.lastActivity} />
+        <ProgressTile label="Completed Sessions" value={String(completionSummary.totalCount)} detail={`${completionSummary.averageAccuracy}% recent session accuracy`} />
         <ProgressTile label="Review Due" value={String(reviewSchedule.dueTodayCount)} detail={reviewSchedule.nextTitle} />
         <ProgressTile label="Written Feedback" value={String(reviewedFeedback.length)} detail={pendingSubjectiveCount > 0 ? `${pendingSubjectiveCount} pending review` : "Latest reviewed work"} />
       </div>
+
+      {completionSummary.latest && (
+        <section className="panel full-panel session-completion-panel">
+          <div className="recommended-task-head">
+            <div>
+              <p className="eyebrow">Session Completion Analytics v1</p>
+              <h2 className="panel-title">Latest completed session</h2>
+            </div>
+            <Link className="button-secondary" href="/dashboard">
+              View analytics
+            </Link>
+          </div>
+          <SessionCompletionCard record={completionSummary.latest} />
+        </section>
+      )}
 
       {reviewedFeedback.length > 0 && (
         <section className="panel full-panel subjective-feedback-panel">
@@ -289,6 +313,32 @@ function SubjectiveFeedbackCard({ item }: { item: ReviewedSubjectiveFeedback }) 
   );
 }
 
+function SessionCompletionCard({ record }: { record: SessionCompletionRecord }) {
+  return (
+    <div className="session-completion-card">
+      <div>
+        <div className="tag-row">
+          <span className="tag tag-teal">{record.mode}</span>
+          <span className="tag tag-gold">{record.status}</span>
+          <span className="tag">{record.totalCount} item(s)</span>
+        </div>
+        <h3>{record.sessionTitle}</h3>
+        <p>{record.sessionGoal}</p>
+        <p className="muted">
+          {record.accuracy}% accuracy · {record.averageTimeSeconds}s avg · {formatRelativeDate(record.completedAt)}
+        </p>
+      </div>
+      <div className="session-completion-next">
+        <strong>{record.nextTitle}</strong>
+        <span>{record.reviewOutcome === "cleared" ? "Ready to advance" : record.reviewOutcome === "repeat" ? "Repeat once" : "Repair first"}</span>
+        <Link className="button" href={record.nextHref}>
+          Continue
+        </Link>
+      </div>
+    </div>
+  );
+}
+
 function ProgressTile({
   detail,
   label,
@@ -305,6 +355,16 @@ function ProgressTile({
       <p>{detail}</p>
     </div>
   );
+}
+
+function formatRelativeDate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "recently";
+
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric"
+  });
 }
 
 function buildHomeSummary(state: HomeState) {

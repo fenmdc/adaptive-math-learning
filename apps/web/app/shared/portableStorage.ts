@@ -12,12 +12,13 @@ import {
   DIAGNOSTIC_LOGS_KEY,
   LEARNING_PLAN_KEY,
   PRACTICE_LOGS_KEY,
+  SESSION_COMPLETIONS_KEY,
   SESSION_PREFERENCES_KEY,
   STUDENT_MODEL_KEY,
   SUBJECTIVE_REVIEW_QUEUE_KEY
 } from "./storage";
 
-const PORTABLE_SCHEMA_VERSION = 2;
+const PORTABLE_SCHEMA_VERSION = 3;
 const PORTABLE_APP_ID = "adaptive-math-learning";
 const PORTABLE_KEYS = [
   PRACTICE_LOGS_KEY,
@@ -26,9 +27,10 @@ const PORTABLE_KEYS = [
   STUDENT_MODEL_KEY,
   ASSESSMENT_REPORT_KEY,
   SUBJECTIVE_REVIEW_QUEUE_KEY,
-  SESSION_PREFERENCES_KEY
+  SESSION_PREFERENCES_KEY,
+  SESSION_COMPLETIONS_KEY
 ];
-const SUPPORTED_SCHEMA_VERSIONS = new Set([1, 2]);
+const SUPPORTED_SCHEMA_VERSIONS = new Set([1, 2, 3]);
 
 type PortableProfileSummary = {
   accountId: string;
@@ -37,6 +39,7 @@ type PortableProfileSummary = {
   diagnosticAttempts: number;
   learningPlans: number;
   practiceAttempts: number;
+  sessionCompletions: number;
   sessionPreferences: number;
   studentModels: number;
   subjectivePending: number;
@@ -65,6 +68,7 @@ export type PortableDataSummary = {
   diagnosticAttempts: number;
   learningPlanCount: number;
   practiceAttempts: number;
+  sessionCompletionCount: number;
   profileCount: number;
   sessionPreferenceCount: number;
   studentModelCount: number;
@@ -168,6 +172,7 @@ export function summarizeLearningDataBackup(backup: LearningDataBackup): Portabl
     (summary, profile) => {
       summary.profileCount += hasAnyProfileData(profile) ? 1 : 0;
       summary.practiceAttempts += readAttemptCount(profile.entries[PRACTICE_LOGS_KEY]);
+      summary.sessionCompletionCount += readAttemptCount(profile.entries[SESSION_COMPLETIONS_KEY]);
       summary.diagnosticAttempts += readAttemptCount(profile.entries[DIAGNOSTIC_LOGS_KEY]);
       summary.learningPlanCount += hasJsonObject(profile.entries[LEARNING_PLAN_KEY]) ? 1 : 0;
       summary.studentModelCount += hasJsonObject(profile.entries[STUDENT_MODEL_KEY]) ? 1 : 0;
@@ -285,6 +290,7 @@ function summarizePortableProfile(
     diagnosticAttempts: readAttemptCount(entries[DIAGNOSTIC_LOGS_KEY]),
     learningPlans: hasJsonObject(entries[LEARNING_PLAN_KEY]) ? 1 : 0,
     practiceAttempts: readAttemptCount(entries[PRACTICE_LOGS_KEY]),
+    sessionCompletions: readAttemptCount(entries[SESSION_COMPLETIONS_KEY]),
     sessionPreferences: hasJsonObject(entries[SESSION_PREFERENCES_KEY]) ? 1 : 0,
     studentModels: hasJsonObject(entries[STUDENT_MODEL_KEY]) ? 1 : 0,
     subjectivePending: readSubjectiveReviewCount(entries[SUBJECTIVE_REVIEW_QUEUE_KEY], "pending"),
@@ -299,6 +305,7 @@ function emptyPortableSummary(accountCount: number): PortableDataSummary {
     diagnosticAttempts: 0,
     learningPlanCount: 0,
     practiceAttempts: 0,
+    sessionCompletionCount: 0,
     profileCount: 0,
     sessionPreferenceCount: 0,
     studentModelCount: 0,

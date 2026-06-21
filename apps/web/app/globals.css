@@ -1856,6 +1856,120 @@ a {
   grid-column: 1 / -1;
 }
 
+.session-completion-panel {
+  grid-column: 1 / -1;
+  background: #fbfefd;
+}
+
+.session-completion-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(240px, 0.6fr);
+  gap: 14px;
+  align-items: stretch;
+  border: 1px solid rgba(17, 90, 140, 0.16);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.session-completion-card h3 {
+  margin: 10px 0 6px;
+  color: var(--aml-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.session-completion-card p {
+  margin: 0 0 8px;
+  color: var(--aml-ink-soft);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.session-completion-next {
+  display: grid;
+  align-content: center;
+  gap: 10px;
+  border-left: 1px solid var(--aml-border);
+  padding-left: 14px;
+}
+
+.session-completion-next strong {
+  color: var(--aml-ink);
+  font-size: 16px;
+}
+
+.session-completion-next span {
+  color: var(--aml-teal);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.session-completion-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.session-completion-metrics div {
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.session-completion-metrics span {
+  display: block;
+  color: var(--aml-ink-soft);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.session-completion-metrics strong {
+  display: block;
+  margin-top: 6px;
+  color: var(--aml-blue);
+  font-size: 26px;
+}
+
+.session-completion-list {
+  display: grid;
+  gap: 10px;
+}
+
+.session-completion-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, auto);
+  gap: 14px;
+  align-items: center;
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.session-completion-row strong {
+  display: block;
+  margin: 8px 0 4px;
+  color: var(--aml-ink);
+  font-size: 15px;
+}
+
+.session-completion-row p,
+.session-completion-row small {
+  display: block;
+  margin: 0;
+  color: var(--aml-ink-soft);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .review-calendar-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

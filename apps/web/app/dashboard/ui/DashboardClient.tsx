@@ -6,8 +6,9 @@ import problemsData from "../../../data/problems.json";
 import type { Problem } from "../../../../../packages/adaptive-engine";
 import { AssessmentReport, buildAssessmentReport } from "../../shared/assessmentReport";
 import { buildLearningPlan, LearningPlan } from "../../shared/learningPlan";
+import { summarizeSessionCompletions, type SessionCompletionRecord } from "../../shared/sessionAnalytics";
 import type { StudentModel } from "../../shared/studentModel";
-import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, readSubjectiveReviewQueue, writeAssessmentReport, writeLearningPlan, type SubjectiveReviewItem } from "../../shared/storage";
+import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readSessionCompletions, readStudentModel, readSubjectiveReviewQueue, writeAssessmentReport, writeLearningPlan, type SubjectiveReviewItem } from "../../shared/storage";
 import { summarizeDomainProfile, summarizeSession } from "../summary";
 import type { SimulationLog } from "../types";
 import ConceptGraphPanel from "./ConceptGraphPanel";
@@ -27,6 +28,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
   const [storedAssessmentReport, setStoredAssessmentReport] = useState<AssessmentReport | null>(null);
   const [studentModel, setStudentModel] = useState<StudentModel | null>(null);
   const [subjectiveReviews, setSubjectiveReviews] = useState<SubjectiveReviewItem[]>([]);
+  const [sessionCompletions, setSessionCompletions] = useState<SessionCompletionRecord[]>([]);
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
@@ -36,6 +38,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
     setStoredAssessmentReport(readAssessmentReport());
     setStudentModel(readStudentModel());
     setSubjectiveReviews(readSubjectiveReviewQueue());
+    setSessionCompletions(readSessionCompletions());
     setHydrated(true);
   }, []);
 
@@ -112,6 +115,8 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
         </div>
       </div>
 
+      <SessionCompletionAnalyticsPanel records={sessionCompletions} />
+
       {assessmentReport && <LatestAssessmentReport report={assessmentReport} />}
 
       <SessionSummaryPanel assessmentReport={assessmentReport ?? undefined} learningPlan={learningPlan ?? undefined} summary={summary} />
@@ -134,6 +139,70 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
       </section>
       </div>
     </main>
+  );
+}
+
+function SessionCompletionAnalyticsPanel({ records }: { records: SessionCompletionRecord[] }) {
+  const summary = summarizeSessionCompletions(records);
+
+  return (
+    <section className="panel full-panel session-completion-panel">
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">Session Completion Analytics v1</p>
+          <h2 className="panel-title">Completed session signal</h2>
+          <p className="muted">
+            Practice now records bounded session outcomes, not only individual attempts.
+          </p>
+        </div>
+        <div className="summary-score">{summary.totalCount}</div>
+      </div>
+      {summary.totalCount === 0 ? (
+        <div className="empty-state">
+          Complete a practice, review, or learning-path mini session to create the first completion record.
+        </div>
+      ) : (
+        <>
+          <div className="session-completion-metrics">
+            <div>
+              <span>Recent accuracy</span>
+              <strong>{summary.averageAccuracy}%</strong>
+            </div>
+            <div>
+              <span>Ready sessions</span>
+              <strong>{summary.readyCount}</strong>
+            </div>
+            <div>
+              <span>Repair sessions</span>
+              <strong>{summary.repairCount}</strong>
+            </div>
+            <div>
+              <span>Review completions</span>
+              <strong>{summary.completedByMode.review}</strong>
+            </div>
+          </div>
+          <div className="session-completion-list">
+            {records.slice(0, 5).map((record) => (
+              <article className="session-completion-row" key={record.id}>
+                <div>
+                  <div className="tag-row">
+                    <span className="tag tag-teal">{record.mode}</span>
+                    <span className="tag tag-gold">{record.status}</span>
+                    <span className="tag">{record.totalCount} item(s)</span>
+                  </div>
+                  <strong>{record.sessionTitle}</strong>
+                  <p>{record.sessionGoal}</p>
+                  <small>{record.accuracy}% · {record.averageTimeSeconds}s avg · {formatSessionDate(record.completedAt)}</small>
+                </div>
+                <Link className="button-secondary" href={record.nextHref}>
+                  {record.nextTitle}
+                </Link>
+              </article>
+            ))}
+          </div>
+        </>
+      )}
+    </section>
   );
 }
 
@@ -224,6 +293,16 @@ function LatestAssessmentReport({ report }: { report: AssessmentReport }) {
       </div>
     </section>
   );
+}
+
+function formatSessionDate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "recently";
+
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric"
+  });
 }
 
 function readinessClass(status: AssessmentReport["stageReadiness"][number]["status"]) {

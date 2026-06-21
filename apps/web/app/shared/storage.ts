@@ -3,6 +3,7 @@ import type { SimulationLog } from "../dashboard/types";
 import type { AssessmentReport } from "./assessmentReport";
 import { summarizeDiagnosticCalibration } from "./diagnosticCalibration";
 import { migrateLearningPlan, type LearningPlan } from "./learningPlan";
+import type { SessionCompletionRecord } from "./sessionAnalytics";
 import type { AbilityDimension, StudentModel } from "./studentModel";
 import { accountScopedKey } from "./accounts";
 
@@ -13,6 +14,7 @@ export const STUDENT_MODEL_KEY = "adaptive-math-learning.studentModel";
 export const ASSESSMENT_REPORT_KEY = "adaptive-math-learning.assessmentReport";
 export const SESSION_PREFERENCES_KEY = "adaptive-math-learning.sessionPreferences";
 export const SUBJECTIVE_REVIEW_QUEUE_KEY = "adaptive-math-learning.subjectiveReviewQueue";
+export const SESSION_COMPLETIONS_KEY = "adaptive-math-learning.sessionCompletions";
 
 export type SessionPreferences = {
   diagnosticItemCount: number;
@@ -188,6 +190,18 @@ export function readSubjectiveReviewQueue(): SubjectiveReviewItem[] {
   }
 }
 
+export function readSessionCompletions(): SessionCompletionRecord[] {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const raw = window.localStorage.getItem(storageKey(SESSION_COMPLETIONS_KEY));
+    const parsed = raw ? (JSON.parse(raw) as SessionCompletionRecord[]) : [];
+    return Array.isArray(parsed) ? parsed.filter(isSessionCompletionRecord) : [];
+  } catch {
+    return [];
+  }
+}
+
 function readLogs(key: string) {
   if (typeof window === "undefined") return [];
 
@@ -254,6 +268,19 @@ export function writeSubjectiveReviewQueue(queue: SubjectiveReviewItem[]) {
   window.localStorage.setItem(storageKey(SUBJECTIVE_REVIEW_QUEUE_KEY), JSON.stringify(queue));
 }
 
+export function writeSessionCompletions(records: SessionCompletionRecord[]) {
+  window.localStorage.setItem(storageKey(SESSION_COMPLETIONS_KEY), JSON.stringify(records));
+}
+
+export function appendSessionCompletion(record: SessionCompletionRecord) {
+  if (typeof window === "undefined") return [];
+
+  const records = readSessionCompletions();
+  const nextRecords = [record, ...records.filter((item) => item.id !== record.id)].slice(0, 200);
+  writeSessionCompletions(nextRecords);
+  return nextRecords;
+}
+
 export function clearPracticeLogs() {
   window.localStorage.removeItem(storageKey(PRACTICE_LOGS_KEY));
 }
@@ -301,4 +328,17 @@ function normalizeSeniorHighSignal(signal: AssessmentReport["seniorHighReadiness
     ...signal,
     practiceHref: signal.practiceHref ?? "/practice?curriculumSystem=CN&language=zh&track=%E4%B8%AD%E6%96%87%E6%A0%A1%E5%86%85&course=CN%20Senior%20High%20Math&autoGradableOnly=false"
   };
+}
+
+function isSessionCompletionRecord(value: unknown): value is SessionCompletionRecord {
+  if (!value || typeof value !== "object") return false;
+  const record = value as Partial<SessionCompletionRecord>;
+  return (
+    typeof record.id === "string" &&
+    typeof record.completedAt === "string" &&
+    typeof record.sessionTitle === "string" &&
+    typeof record.mode === "string" &&
+    typeof record.accuracy === "number" &&
+    typeof record.totalCount === "number"
+  );
 }

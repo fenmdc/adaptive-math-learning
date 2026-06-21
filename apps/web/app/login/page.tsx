@@ -319,7 +319,7 @@ export default function LoginPage() {
               <p className="eyebrow">Persistence & Sync v1</p>
               <h2 className="panel-title">Portable learning data</h2>
               <p className="muted">
-                Move profiles, student models, diagnostic history, practice history, learning plans, session settings, and written-work reviews between Macs with a versioned JSON backup.
+                Move profiles, student models, diagnostic history, practice history, completed sessions, learning plans, session settings, and written-work reviews between Macs with a versioned JSON backup.
               </p>
             </div>
             <div className="portability-metrics">
@@ -340,6 +340,10 @@ export default function LoginPage() {
                 <strong>{portableSummary?.diagnosticAttempts ?? 0}</strong>
               </div>
               <div>
+                <span>Completions</span>
+                <strong>{portableSummary?.sessionCompletionCount ?? 0}</strong>
+              </div>
+              <div>
                 <span>Plans</span>
                 <strong>{portableSummary?.learningPlanCount ?? 0}</strong>
               </div>
@@ -354,6 +358,7 @@ export default function LoginPage() {
               <strong>Student model</strong>
               <strong>Diagnostic reports</strong>
               <strong>Practice logs</strong>
+              <strong>Session completions</strong>
               <strong>Review queue</strong>
               <strong>Session settings</strong>
             </div>
@@ -466,5 +471,5 @@ function formatDate(value: string) {
 }
 
 function formatPortableStatus(prefix: string, summary: PortableDataSummary) {
-  return `${prefix}: ${summary.accountCount} profile(s), ${summary.studentModelCount} student model(s), ${summary.practiceAttempts} practice attempt(s), ${summary.diagnosticAttempts} diagnostic attempt(s), ${summary.learningPlanCount} learning plan(s), and ${summary.subjectiveReviewed}/${summary.subjectivePending + summary.subjectiveReviewed} reviewed written-work item(s).`;
+  return `${prefix}: ${summary.accountCount} profile(s), ${summary.studentModelCount} student model(s), ${summary.practiceAttempts} practice attempt(s), ${summary.sessionCompletionCount} completed session(s), ${summary.diagnosticAttempts} diagnostic attempt(s), ${summary.learningPlanCount} learning plan(s), and ${summary.subjectiveReviewed}/${summary.subjectivePending + summary.subjectiveReviewed} reviewed written-work item(s).`;
 }
