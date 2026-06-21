@@ -14,8 +14,11 @@ import {
 import {
   clearActiveLearningData,
   downloadLearningDataBackup,
+  previewLearningDataBackup,
   restoreLearningDataBackup,
+  restoreLearningDataBackupWithMode,
   summarizeCurrentLearningData,
+  type LearningDataBackupPreview,
   type PortableDataSummary
 } from "../shared/portableStorage";
 
@@ -47,6 +50,7 @@ export default function LoginPage() {
   const [editForm, setEditForm] = useState<AccountFormState>(defaultForm);
   const [pendingDeleteId, setPendingDeleteId] = useState("");
   const [pendingClearData, setPendingClearData] = useState(false);
+  const [pendingImport, setPendingImport] = useState<{ preview: LearningDataBackupPreview; raw: string } | null>(null);
   const [portableSummary, setPortableSummary] = useState<PortableDataSummary | null>(null);
   const [portableStatus, setPortableStatus] = useState("");
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -121,19 +125,39 @@ export default function LoginPage() {
 
     reader.onload = () => {
       try {
-        const summary = restoreLearningDataBackup(String(reader.result ?? ""));
-        setPortableSummary(summary);
-        setPortableStatus(summary ? formatPortableStatus("Backup restored", summary) : "Backup restored.");
+        const raw = String(reader.result ?? "");
+        const preview = previewLearningDataBackup(raw);
+
+        setPendingImport({ preview, raw });
+        setPortableStatus(formatImportPreviewStatus(preview));
         setPendingClearData(false);
-        refreshAccounts();
       } catch (error) {
-        setPortableStatus(error instanceof Error ? error.message : "Backup restore failed.");
+        setPendingImport(null);
+        setPortableStatus(error instanceof Error ? error.message : "Backup preview failed.");
       } finally {
         event.target.value = "";
       }
     };
 
     reader.readAsText(file);
+  }
+
+  function handleConfirmImport(mode: "merge" | "replace") {
+    if (!pendingImport) return;
+
+    try {
+      const summary = mode === "replace"
+        ? restoreLearningDataBackup(pendingImport.raw)
+        : restoreLearningDataBackupWithMode(pendingImport.raw, { mode });
+
+      setPortableSummary(summary);
+      setPortableStatus(summary ? formatPortableStatus(mode === "merge" ? "Backup merged" : "Backup restored", summary) : "Backup restored.");
+      setPendingImport(null);
+      setPendingClearData(false);
+      refreshAccounts();
+    } catch (error) {
+      setPortableStatus(error instanceof Error ? error.message : "Backup restore failed.");
+    }
   }
 
   function handleClearActiveData() {
@@ -316,10 +340,10 @@ export default function LoginPage() {
 
           <section className="account-portability-card">
             <div>
-              <p className="eyebrow">Persistence & Sync v1</p>
+              <p className="eyebrow">Persistence & Sync v2</p>
               <h2 className="panel-title">Portable learning data</h2>
               <p className="muted">
-                Move profiles, student models, diagnostic history, practice history, completed sessions, learning plans, session settings, and written-work reviews between Macs with a versioned JSON backup.
+                Move profiles, student models, diagnostic history, practice history, completed sessions, learning plans, session settings, and written-work reviews between Macs with previewed JSON backup import.
               </p>
             </div>
             <div className="portability-metrics">
@@ -353,7 +377,7 @@ export default function LoginPage() {
               </div>
             </div>
             <div className="sync-scope-list">
-              <span>Included</span>
+              <span>Sync v2 includes</span>
               <strong>Accounts</strong>
               <strong>Student model</strong>
               <strong>Diagnostic reports</strong>
@@ -361,7 +385,43 @@ export default function LoginPage() {
               <strong>Session completions</strong>
               <strong>Review queue</strong>
               <strong>Session settings</strong>
+              <strong>Merge import</strong>
             </div>
+            {pendingImport && (
+              <div className="import-preview-card">
+                <div>
+                  <p className="eyebrow">Import preview</p>
+                  <h3>{pendingImport.preview.deviceLabel}</h3>
+                  <p>
+                    Exported {formatDate(pendingImport.preview.exportedAt)} · schema v{pendingImport.preview.schemaVersion} · active profile {pendingImport.preview.activeAccountName}
+                  </p>
+                </div>
+                <div className="import-preview-grid">
+                  <span>{pendingImport.preview.summary.accountCount} profile(s)</span>
+                  <span>{pendingImport.preview.summary.practiceAttempts} practice</span>
+                  <span>{pendingImport.preview.summary.diagnosticAttempts} diagnostic</span>
+                  <span>{pendingImport.preview.summary.sessionCompletionCount} completions</span>
+                </div>
+                {pendingImport.preview.warnings.length > 0 && (
+                  <div className="import-warning-list">
+                    {pendingImport.preview.warnings.map((warning) => (
+                      <span key={warning}>{warning}</span>
+                    ))}
+                  </div>
+                )}
+                <div className="login-actions">
+                  <button className="button" onClick={() => handleConfirmImport("merge")} type="button">
+                    Merge into this device
+                  </button>
+                  <button className="button-secondary account-danger-button" onClick={() => handleConfirmImport("replace")} type="button">
+                    Replace this device
+                  </button>
+                  <button className="button-secondary" onClick={() => setPendingImport(null)} type="button">
+                    Cancel import
+                  </button>
+                </div>
+              </div>
+            )}
             <div className="login-actions">
               <button className="button" onClick={handleExportData} type="button">
                 Export backup
@@ -472,4 +532,8 @@ function formatDate(value: string) {
 
 function formatPortableStatus(prefix: string, summary: PortableDataSummary) {
   return `${prefix}: ${summary.accountCount} profile(s), ${summary.studentModelCount} student model(s), ${summary.practiceAttempts} practice attempt(s), ${summary.sessionCompletionCount} completed session(s), ${summary.diagnosticAttempts} diagnostic attempt(s), ${summary.learningPlanCount} learning plan(s), and ${summary.subjectiveReviewed}/${summary.subjectivePending + summary.subjectiveReviewed} reviewed written-work item(s).`;
+}
+
+function formatImportPreviewStatus(preview: LearningDataBackupPreview) {
+  return `Backup preview ready: ${preview.summary.accountCount} profile(s), ${preview.summary.practiceAttempts} practice attempt(s), ${preview.summary.diagnosticAttempts} diagnostic attempt(s), and ${preview.summary.sessionCompletionCount} completed session(s). Choose merge or replace to continue.`;
 }

@@ -18,8 +18,9 @@ import {
   SUBJECTIVE_REVIEW_QUEUE_KEY
 } from "./storage";
 
-const PORTABLE_SCHEMA_VERSION = 3;
+const PORTABLE_SCHEMA_VERSION = 4;
 const PORTABLE_APP_ID = "adaptive-math-learning";
+const PORTABLE_EXPORT_KIND = "local-first-json";
 const PORTABLE_KEYS = [
   PRACTICE_LOGS_KEY,
   DIAGNOSTIC_LOGS_KEY,
@@ -30,7 +31,7 @@ const PORTABLE_KEYS = [
   SESSION_PREFERENCES_KEY,
   SESSION_COMPLETIONS_KEY
 ];
-const SUPPORTED_SCHEMA_VERSIONS = new Set([1, 2, 3]);
+const SUPPORTED_SCHEMA_VERSIONS = new Set([1, 2, 3, 4]);
 
 type PortableProfileSummary = {
   accountId: string;
@@ -56,6 +57,8 @@ export type LearningDataBackup = {
   activeAccountId: string | null;
   app: typeof PORTABLE_APP_ID;
   exportedAt: string;
+  exportKind?: typeof PORTABLE_EXPORT_KIND;
+  deviceLabel?: string;
   schemaVersion: number;
   accounts: LocalStudentAccount[];
   profiles: PortableProfileData[];
@@ -76,6 +79,18 @@ export type PortableDataSummary = {
   subjectiveReviewed: number;
 };
 
+export type RestoreMode = "merge" | "replace";
+
+export type LearningDataBackupPreview = {
+  activeAccountName: string;
+  exportedAt: string;
+  deviceLabel: string;
+  schemaVersion: number;
+  summary: PortableDataSummary;
+  profileSummaries: PortableProfileSummary[];
+  warnings: string[];
+};
+
 export function createLearningDataBackup(): LearningDataBackup {
   const accounts = readAccounts();
   const accountIds = [GUEST_ACCOUNT_ID, ...accounts.map((account) => account.id)];
@@ -90,7 +105,9 @@ export function createLearningDataBackup(): LearningDataBackup {
   const backup: LearningDataBackup = {
     activeAccountId: getStoredActiveAccountId(),
     app: PORTABLE_APP_ID,
+    deviceLabel: getDeviceLabel(),
     exportedAt: new Date().toISOString(),
+    exportKind: PORTABLE_EXPORT_KIND,
     schemaVersion: PORTABLE_SCHEMA_VERSION,
     accounts,
     profiles,
@@ -126,9 +143,45 @@ export function downloadLearningDataBackup() {
 export function restoreLearningDataBackup(raw: string) {
   if (typeof window === "undefined") return null;
 
+  return restoreLearningDataBackupWithMode(raw, { mode: "replace" });
+}
+
+export function previewLearningDataBackup(raw: string): LearningDataBackupPreview {
+  const parsed = JSON.parse(raw) as unknown;
+  const backup = normalizeLearningDataBackup(parsed);
+  const activeAccountName = backup.activeAccountId === GUEST_ACCOUNT_ID
+    ? "Guest profile"
+    : backup.accounts.find((account) => account.id === backup.activeAccountId)?.name ?? "Guest profile";
+
+  return {
+    activeAccountName,
+    exportedAt: backup.exportedAt,
+    deviceLabel: backup.deviceLabel ?? "Unknown device",
+    schemaVersion: backup.schemaVersion,
+    summary: backup.summary,
+    profileSummaries: backup.profiles.map((profile) => profile.summary),
+    warnings: buildBackupWarnings(backup)
+  };
+}
+
+export function restoreLearningDataBackupWithMode(raw: string, options: { mode: RestoreMode }) {
+  if (typeof window === "undefined") return null;
+
   const parsed = JSON.parse(raw) as unknown;
   const backup = normalizeLearningDataBackup(parsed);
 
+  if (options.mode === "merge") {
+    restoreLearningDataBackupMerge(backup);
+  } else {
+    restoreLearningDataBackupReplace(backup);
+  }
+
+  window.dispatchEvent(new Event("adaptive-math-learning-account-change"));
+
+  return summarizeCurrentLearningData();
+}
+
+function restoreLearningDataBackupReplace(backup: LearningDataBackup) {
   clearAllPortableLearningData();
   window.localStorage.setItem(ACCOUNT_LIST_KEY, JSON.stringify(backup.accounts));
   if (backup.activeAccountId) {
@@ -147,10 +200,27 @@ export function restoreLearningDataBackup(raw: string) {
       }
     });
   });
+}
 
-  window.dispatchEvent(new Event("adaptive-math-learning-account-change"));
+function restoreLearningDataBackupMerge(backup: LearningDataBackup) {
+  const currentAccounts = readAccounts();
+  const mergedAccounts = mergeAccounts(currentAccounts, backup.accounts);
 
-  return summarizeLearningDataBackup(backup);
+  window.localStorage.setItem(ACCOUNT_LIST_KEY, JSON.stringify(mergedAccounts));
+  if (backup.activeAccountId) {
+    window.localStorage.setItem(ACTIVE_ACCOUNT_KEY, backup.activeAccountId);
+  }
+
+  backup.profiles.forEach((profile) => {
+    PORTABLE_KEYS.forEach((key) => {
+      const incoming = profile.entries[key];
+      if (typeof incoming !== "string") return;
+
+      const scopedKey = portableStorageKey(key, profile.accountId);
+      const existing = window.localStorage.getItem(scopedKey);
+      window.localStorage.setItem(scopedKey, mergePortableEntry(key, existing, incoming));
+    });
+  });
 }
 
 export function clearActiveLearningData() {
@@ -248,8 +318,10 @@ function normalizeLearningDataBackup(value: unknown): LearningDataBackup {
   const backup: LearningDataBackup = {
     activeAccountId: typeof candidate.activeAccountId === "string" ? candidate.activeAccountId : null,
     app: PORTABLE_APP_ID,
+    deviceLabel: typeof candidate.deviceLabel === "string" ? candidate.deviceLabel : "Unknown device",
     exportedAt: typeof candidate.exportedAt === "string" ? candidate.exportedAt : new Date().toISOString(),
-    schemaVersion: PORTABLE_SCHEMA_VERSION,
+    exportKind: PORTABLE_EXPORT_KIND,
+    schemaVersion: Number(candidate.schemaVersion),
     accounts,
     profiles,
     summary: emptyPortableSummary(accounts.length)
@@ -258,6 +330,93 @@ function normalizeLearningDataBackup(value: unknown): LearningDataBackup {
   backup.summary = summarizeLearningDataBackup(backup);
 
   return backup;
+}
+
+function mergeAccounts(currentAccounts: LocalStudentAccount[], incomingAccounts: LocalStudentAccount[]) {
+  const byId = new Map(currentAccounts.map((account) => [account.id, account]));
+
+  incomingAccounts.forEach((incoming) => {
+    const current = byId.get(incoming.id);
+    if (!current) {
+      byId.set(incoming.id, incoming);
+      return;
+    }
+
+    byId.set(incoming.id, newerAccount(current, incoming));
+  });
+
+  return [...byId.values()].sort((left, right) => right.lastUsedAt.localeCompare(left.lastUsedAt));
+}
+
+function newerAccount(left: LocalStudentAccount, right: LocalStudentAccount) {
+  return right.updatedAt.localeCompare(left.updatedAt) >= 0 ? right : left;
+}
+
+function mergePortableEntry(key: string, existing: string | null, incoming: string) {
+  if (!existing) return incoming;
+
+  if (key === PRACTICE_LOGS_KEY || key === DIAGNOSTIC_LOGS_KEY || key === SUBJECTIVE_REVIEW_QUEUE_KEY || key === SESSION_COMPLETIONS_KEY) {
+    return JSON.stringify(mergeJsonArrays(existing, incoming));
+  }
+
+  return incoming;
+}
+
+function mergeJsonArrays(existing: string, incoming: string) {
+  try {
+    const existingItems = JSON.parse(existing) as unknown;
+    const incomingItems = JSON.parse(incoming) as unknown;
+    if (!Array.isArray(existingItems) || !Array.isArray(incomingItems)) return JSON.parse(incoming) as unknown[];
+
+    const seen = new Set<string>();
+    return [...incomingItems, ...existingItems].filter((item, index) => {
+      const key = stableItemKey(item, index);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  } catch {
+    return [];
+  }
+}
+
+function stableItemKey(item: unknown, index: number) {
+  if (item && typeof item === "object") {
+    const candidate = item as { id?: unknown; problem?: unknown; step?: unknown; completedAt?: unknown; createdAt?: unknown; reviewedAt?: unknown };
+    if (typeof candidate.id === "string") return candidate.id;
+    return [
+      typeof candidate.problem === "string" ? candidate.problem : "",
+      typeof candidate.step === "number" ? candidate.step : "",
+      typeof candidate.completedAt === "string" ? candidate.completedAt : "",
+      typeof candidate.createdAt === "string" ? candidate.createdAt : "",
+      typeof candidate.reviewedAt === "string" ? candidate.reviewedAt : ""
+    ].join("|") || `item-${index}`;
+  }
+
+  return `item-${index}`;
+}
+
+function buildBackupWarnings(backup: LearningDataBackup) {
+  const warnings: string[] = [];
+
+  if (backup.schemaVersion < PORTABLE_SCHEMA_VERSION) {
+    warnings.push(`Backup schema v${backup.schemaVersion} will be upgraded to v${PORTABLE_SCHEMA_VERSION} on import.`);
+  }
+
+  if (backup.summary.profileCount === 0) {
+    warnings.push("Backup does not contain any profile learning data.");
+  }
+
+  if (backup.summary.practiceAttempts === 0 && backup.summary.diagnosticAttempts === 0) {
+    warnings.push("Backup has no diagnostic or practice attempts.");
+  }
+
+  return warnings;
+}
+
+function getDeviceLabel() {
+  if (typeof window === "undefined") return "Unknown device";
+  return window.navigator?.platform || "Browser device";
 }
 
 function isPortableAccount(value: unknown): value is LocalStudentAccount {
