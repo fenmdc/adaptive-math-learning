@@ -106,7 +106,7 @@ export default function LoginPage() {
     if (!summary) return;
 
     setPortableSummary(summary);
-    setPortableStatus(`Backup created with ${summary.accountCount} profile(s), ${summary.practiceAttempts} practice attempt(s), and ${summary.diagnosticAttempts} diagnostic attempt(s).`);
+    setPortableStatus(formatPortableStatus("Backup created", summary));
   }
 
   function handleImportClick() {
@@ -123,7 +123,7 @@ export default function LoginPage() {
       try {
         const summary = restoreLearningDataBackup(String(reader.result ?? ""));
         setPortableSummary(summary);
-        setPortableStatus(`Backup restored: ${summary?.accountCount ?? 0} profile(s), ${summary?.practiceAttempts ?? 0} practice attempt(s), and ${summary?.diagnosticAttempts ?? 0} diagnostic attempt(s).`);
+        setPortableStatus(summary ? formatPortableStatus("Backup restored", summary) : "Backup restored.");
         setPendingClearData(false);
         refreshAccounts();
       } catch (error) {
@@ -316,16 +316,20 @@ export default function LoginPage() {
 
           <section className="account-portability-card">
             <div>
-              <p className="eyebrow">Persistence & Sync v0</p>
-              <h2 className="panel-title">Learning data backup</h2>
+              <p className="eyebrow">Persistence & Sync v1</p>
+              <h2 className="panel-title">Portable learning data</h2>
               <p className="muted">
-                Move local profiles, student models, diagnostic reports, practice logs, and learning plans between Macs with a JSON backup.
+                Move profiles, student models, diagnostic history, practice history, learning plans, session settings, and written-work reviews between Macs with a versioned JSON backup.
               </p>
             </div>
             <div className="portability-metrics">
               <div>
                 <span>Profiles</span>
                 <strong>{portableSummary?.accountCount ?? 0}</strong>
+              </div>
+              <div>
+                <span>Models</span>
+                <strong>{portableSummary?.studentModelCount ?? 0}</strong>
               </div>
               <div>
                 <span>Practice</span>
@@ -335,6 +339,23 @@ export default function LoginPage() {
                 <span>Diagnostic</span>
                 <strong>{portableSummary?.diagnosticAttempts ?? 0}</strong>
               </div>
+              <div>
+                <span>Plans</span>
+                <strong>{portableSummary?.learningPlanCount ?? 0}</strong>
+              </div>
+              <div>
+                <span>Written reviews</span>
+                <strong>{portableSummary ? portableSummary.subjectivePending + portableSummary.subjectiveReviewed : 0}</strong>
+              </div>
+            </div>
+            <div className="sync-scope-list">
+              <span>Included</span>
+              <strong>Accounts</strong>
+              <strong>Student model</strong>
+              <strong>Diagnostic reports</strong>
+              <strong>Practice logs</strong>
+              <strong>Review queue</strong>
+              <strong>Session settings</strong>
             </div>
             <div className="login-actions">
               <button className="button" onClick={handleExportData} type="button">
@@ -442,4 +463,8 @@ function formatDate(value: string) {
     month: "short",
     day: "numeric"
   });
+}
+
+function formatPortableStatus(prefix: string, summary: PortableDataSummary) {
+  return `${prefix}: ${summary.accountCount} profile(s), ${summary.studentModelCount} student model(s), ${summary.practiceAttempts} practice attempt(s), ${summary.diagnosticAttempts} diagnostic attempt(s), ${summary.learningPlanCount} learning plan(s), and ${summary.subjectiveReviewed}/${summary.subjectivePending + summary.subjectiveReviewed} reviewed written-work item(s).`;
 }

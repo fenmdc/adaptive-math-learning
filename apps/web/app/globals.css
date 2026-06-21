@@ -546,7 +546,7 @@ a {
 
 .portability-metrics {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -571,6 +571,36 @@ a {
   margin-top: 6px;
   color: var(--aml-ink);
   font-size: 24px;
+}
+
+.sync-scope-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.sync-scope-list span,
+.sync-scope-list strong {
+  border: 1px solid rgba(31, 138, 131, 0.18);
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #fff;
+  color: var(--aml-ink-soft);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.sync-scope-list span {
+  border-color: transparent;
+  background: transparent;
+  padding-left: 0;
+  text-transform: uppercase;
+}
+
+.sync-scope-list strong {
+  color: var(--aml-teal-dark);
 }
 
 .hidden-file-input {

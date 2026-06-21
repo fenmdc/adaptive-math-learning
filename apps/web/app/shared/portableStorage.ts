@@ -12,55 +12,90 @@ import {
   DIAGNOSTIC_LOGS_KEY,
   LEARNING_PLAN_KEY,
   PRACTICE_LOGS_KEY,
-  STUDENT_MODEL_KEY
+  SESSION_PREFERENCES_KEY,
+  STUDENT_MODEL_KEY,
+  SUBJECTIVE_REVIEW_QUEUE_KEY
 } from "./storage";
 
-const PORTABLE_SCHEMA_VERSION = 1;
+const PORTABLE_SCHEMA_VERSION = 2;
 const PORTABLE_APP_ID = "adaptive-math-learning";
 const PORTABLE_KEYS = [
   PRACTICE_LOGS_KEY,
   DIAGNOSTIC_LOGS_KEY,
   LEARNING_PLAN_KEY,
   STUDENT_MODEL_KEY,
-  ASSESSMENT_REPORT_KEY
+  ASSESSMENT_REPORT_KEY,
+  SUBJECTIVE_REVIEW_QUEUE_KEY,
+  SESSION_PREFERENCES_KEY
 ];
+const SUPPORTED_SCHEMA_VERSIONS = new Set([1, 2]);
+
+type PortableProfileSummary = {
+  accountId: string;
+  accountName: string;
+  assessmentReports: number;
+  diagnosticAttempts: number;
+  learningPlans: number;
+  practiceAttempts: number;
+  sessionPreferences: number;
+  studentModels: number;
+  subjectivePending: number;
+  subjectiveReviewed: number;
+};
 
 type PortableProfileData = {
   accountId: string;
   entries: Record<string, string | null>;
+  summary: PortableProfileSummary;
 };
 
 export type LearningDataBackup = {
   activeAccountId: string | null;
   app: typeof PORTABLE_APP_ID;
   exportedAt: string;
-  schemaVersion: typeof PORTABLE_SCHEMA_VERSION;
+  schemaVersion: number;
   accounts: LocalStudentAccount[];
   profiles: PortableProfileData[];
+  summary: PortableDataSummary;
 };
 
 export type PortableDataSummary = {
   accountCount: number;
+  assessmentReportCount: number;
   diagnosticAttempts: number;
+  learningPlanCount: number;
   practiceAttempts: number;
   profileCount: number;
+  sessionPreferenceCount: number;
+  studentModelCount: number;
+  subjectivePending: number;
+  subjectiveReviewed: number;
 };
 
 export function createLearningDataBackup(): LearningDataBackup {
   const accounts = readAccounts();
   const accountIds = [GUEST_ACCOUNT_ID, ...accounts.map((account) => account.id)];
-
-  return {
+  const profiles = accountIds.map((accountId) => {
+    const entries = readPortableEntries(accountId);
+    return {
+      accountId,
+      entries,
+      summary: summarizePortableProfile(accountId, entries, accounts)
+    };
+  });
+  const backup: LearningDataBackup = {
     activeAccountId: getStoredActiveAccountId(),
     app: PORTABLE_APP_ID,
     exportedAt: new Date().toISOString(),
     schemaVersion: PORTABLE_SCHEMA_VERSION,
     accounts,
-    profiles: accountIds.map((accountId) => ({
-      accountId,
-      entries: readPortableEntries(accountId)
-    }))
+    profiles,
+    summary: emptyPortableSummary(accounts.length)
   };
+
+  backup.summary = summarizeLearningDataBackup(backup);
+
+  return backup;
 }
 
 export function downloadLearningDataBackup() {
@@ -134,14 +169,15 @@ export function summarizeLearningDataBackup(backup: LearningDataBackup): Portabl
       summary.profileCount += hasAnyProfileData(profile) ? 1 : 0;
       summary.practiceAttempts += readAttemptCount(profile.entries[PRACTICE_LOGS_KEY]);
       summary.diagnosticAttempts += readAttemptCount(profile.entries[DIAGNOSTIC_LOGS_KEY]);
+      summary.learningPlanCount += hasJsonObject(profile.entries[LEARNING_PLAN_KEY]) ? 1 : 0;
+      summary.studentModelCount += hasJsonObject(profile.entries[STUDENT_MODEL_KEY]) ? 1 : 0;
+      summary.assessmentReportCount += hasJsonObject(profile.entries[ASSESSMENT_REPORT_KEY]) ? 1 : 0;
+      summary.sessionPreferenceCount += hasJsonObject(profile.entries[SESSION_PREFERENCES_KEY]) ? 1 : 0;
+      summary.subjectivePending += readSubjectiveReviewCount(profile.entries[SUBJECTIVE_REVIEW_QUEUE_KEY], "pending");
+      summary.subjectiveReviewed += readSubjectiveReviewCount(profile.entries[SUBJECTIVE_REVIEW_QUEUE_KEY], "reviewed");
       return summary;
     },
-    {
-      accountCount: backup.accounts.length,
-      diagnosticAttempts: 0,
-      practiceAttempts: 0,
-      profileCount: 0
-    }
+    emptyPortableSummary(backup.accounts.length)
   );
 }
 
@@ -181,7 +217,7 @@ function normalizeLearningDataBackup(value: unknown): LearningDataBackup {
   }
 
   const candidate = value as Partial<LearningDataBackup>;
-  if (candidate.app !== PORTABLE_APP_ID || candidate.schemaVersion !== PORTABLE_SCHEMA_VERSION) {
+  if (candidate.app !== PORTABLE_APP_ID || !SUPPORTED_SCHEMA_VERSIONS.has(Number(candidate.schemaVersion))) {
     throw new Error("Backup file version is not supported by this app.");
   }
 
@@ -189,22 +225,34 @@ function normalizeLearningDataBackup(value: unknown): LearningDataBackup {
     throw new Error("Backup file is missing account or profile data.");
   }
 
-  return {
+  const accounts = candidate.accounts.filter(isPortableAccount);
+  const profiles = candidate.profiles
+    .filter(isPortableProfile)
+    .map((profile) => {
+      const entries = PORTABLE_KEYS.reduce<Record<string, string | null>>((nextEntries, key) => {
+        nextEntries[key] = typeof profile.entries[key] === "string" ? profile.entries[key] : null;
+        return nextEntries;
+      }, {});
+
+      return {
+        accountId: profile.accountId,
+        entries,
+        summary: summarizePortableProfile(profile.accountId, entries, accounts)
+      };
+    });
+  const backup: LearningDataBackup = {
     activeAccountId: typeof candidate.activeAccountId === "string" ? candidate.activeAccountId : null,
     app: PORTABLE_APP_ID,
     exportedAt: typeof candidate.exportedAt === "string" ? candidate.exportedAt : new Date().toISOString(),
     schemaVersion: PORTABLE_SCHEMA_VERSION,
-    accounts: candidate.accounts.filter(isPortableAccount),
-    profiles: candidate.profiles
-      .filter(isPortableProfile)
-      .map((profile) => ({
-        accountId: profile.accountId,
-        entries: PORTABLE_KEYS.reduce<Record<string, string | null>>((entries, key) => {
-          entries[key] = typeof profile.entries[key] === "string" ? profile.entries[key] : null;
-          return entries;
-        }, {})
-      }))
+    accounts,
+    profiles,
+    summary: emptyPortableSummary(accounts.length)
   };
+
+  backup.summary = summarizeLearningDataBackup(backup);
+
+  return backup;
 }
 
 function isPortableAccount(value: unknown): value is LocalStudentAccount {
@@ -223,6 +271,42 @@ function hasAnyProfileData(profile: PortableProfileData) {
   return Object.values(profile.entries).some((value) => typeof value === "string" && value.length > 0);
 }
 
+function summarizePortableProfile(
+  accountId: string,
+  entries: Record<string, string | null>,
+  accounts: LocalStudentAccount[]
+): PortableProfileSummary {
+  return {
+    accountId,
+    accountName: accountId === GUEST_ACCOUNT_ID
+      ? "Guest profile"
+      : accounts.find((account) => account.id === accountId)?.name ?? accountId,
+    assessmentReports: hasJsonObject(entries[ASSESSMENT_REPORT_KEY]) ? 1 : 0,
+    diagnosticAttempts: readAttemptCount(entries[DIAGNOSTIC_LOGS_KEY]),
+    learningPlans: hasJsonObject(entries[LEARNING_PLAN_KEY]) ? 1 : 0,
+    practiceAttempts: readAttemptCount(entries[PRACTICE_LOGS_KEY]),
+    sessionPreferences: hasJsonObject(entries[SESSION_PREFERENCES_KEY]) ? 1 : 0,
+    studentModels: hasJsonObject(entries[STUDENT_MODEL_KEY]) ? 1 : 0,
+    subjectivePending: readSubjectiveReviewCount(entries[SUBJECTIVE_REVIEW_QUEUE_KEY], "pending"),
+    subjectiveReviewed: readSubjectiveReviewCount(entries[SUBJECTIVE_REVIEW_QUEUE_KEY], "reviewed")
+  };
+}
+
+function emptyPortableSummary(accountCount: number): PortableDataSummary {
+  return {
+    accountCount,
+    assessmentReportCount: 0,
+    diagnosticAttempts: 0,
+    learningPlanCount: 0,
+    practiceAttempts: 0,
+    profileCount: 0,
+    sessionPreferenceCount: 0,
+    studentModelCount: 0,
+    subjectivePending: 0,
+    subjectiveReviewed: 0
+  };
+}
+
 function readAttemptCount(raw: string | null | undefined) {
   if (!raw) return 0;
 
@@ -231,6 +315,34 @@ function readAttemptCount(raw: string | null | undefined) {
     return Array.isArray(parsed) ? parsed.length : 0;
   } catch {
     return 0;
+  }
+}
+
+function readSubjectiveReviewCount(raw: string | null | undefined, status: "pending" | "reviewed") {
+  if (!raw) return 0;
+
+  try {
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) return 0;
+
+    return parsed.filter((item) => {
+      if (!item || typeof item !== "object") return false;
+      const candidate = item as { status?: unknown };
+      return status === "reviewed" ? candidate.status === "reviewed" : candidate.status !== "reviewed";
+    }).length;
+  } catch {
+    return 0;
+  }
+}
+
+function hasJsonObject(raw: string | null | undefined) {
+  if (!raw) return false;
+
+  try {
+    const parsed = JSON.parse(raw) as unknown;
+    return Boolean(parsed) && typeof parsed === "object";
+  } catch {
+    return false;
   }
 }
 
