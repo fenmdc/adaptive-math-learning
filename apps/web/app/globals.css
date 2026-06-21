@@ -1852,6 +1852,118 @@ a {
   grid-column: 1 / -1;
 }
 
+.review-calendar-panel {
+  grid-column: 1 / -1;
+}
+
+.review-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.review-calendar-day {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.review-calendar-day > span {
+  color: var(--aml-teal);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.review-calendar-item {
+  display: grid;
+  gap: 4px;
+  border: 1px solid rgba(17, 90, 140, 0.14);
+  border-left: 4px solid var(--aml-blue);
+  border-radius: 8px;
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.review-calendar-due,
+.review-calendar-today {
+  border-left-color: var(--aml-gold);
+}
+
+.review-calendar-item strong {
+  color: var(--aml-ink);
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.review-calendar-item small {
+  color: var(--aml-ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.review-calendar-mini {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 14px;
+  margin-top: 14px;
+  border: 1px solid rgba(31, 138, 131, 0.18);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fbfefd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.review-calendar-mini h3 {
+  margin: 0 0 6px;
+  color: var(--aml-ink);
+  font-size: 18px;
+}
+
+.review-calendar-mini p {
+  margin: 0;
+  color: var(--aml-ink-soft);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.review-calendar-mini-days {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.review-calendar-mini-days div {
+  border: 1px solid var(--aml-border);
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+}
+
+.review-calendar-mini-days span,
+.review-calendar-mini-days strong {
+  display: block;
+}
+
+.review-calendar-mini-days span {
+  color: var(--aml-ink-soft);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.review-calendar-mini-days strong {
+  margin-top: 5px;
+  color: var(--aml-blue);
+  font-size: 20px;
+}
+
 .learning-path-v2-panel {
   grid-column: 1 / -1;
   background: #fbfefd;
@@ -3923,6 +4035,9 @@ a {
   .content-grid,
   .student-home-grid,
   .student-progress-panel,
+  .review-calendar-grid,
+  .review-calendar-mini,
+  .review-calendar-mini-days,
   .learning-path-v2-grid,
   .recommended-task-grid,
   .quality-action-grid,

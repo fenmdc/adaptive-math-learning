@@ -9,6 +9,7 @@ import { buildReviewQueue, type ReviewQueue } from "./shared/reviewQueue";
 import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, readSubjectiveReviewQueue, type SubjectiveReviewItem } from "./shared/storage";
 import { summarizeStudentModel, type StudentModel } from "./shared/studentModel";
 import { buildReviewedSubjectiveFeedback, countPendingSubjectiveReviews, type ReviewedSubjectiveFeedback } from "./shared/subjectiveFeedback";
+import { buildReviewSchedule, type ReviewSchedule } from "./shared/reviewSchedule";
 import type { AssessmentReport } from "./shared/assessmentReport";
 import type { SimulationLog } from "./dashboard/types";
 
@@ -72,6 +73,10 @@ export default function HomeLearningPlan() {
     () => buildReviewedSubjectiveFeedback(homeState.subjectiveReviews, problems, { limit: 2 }),
     [homeState.subjectiveReviews]
   );
+  const reviewSchedule = useMemo(
+    () => buildReviewSchedule(homeState.studentModel, homeState.subjectiveReviews, problems),
+    [homeState.studentModel, homeState.subjectiveReviews]
+  );
   const pendingSubjectiveCount = useMemo(
     () => countPendingSubjectiveReviews(homeState.subjectiveReviews),
     [homeState.subjectiveReviews]
@@ -103,7 +108,7 @@ export default function HomeLearningPlan() {
       <div className="student-progress-panel">
         <ProgressTile label="Recent Attempts" value={String(summary.recentAttempts)} detail={summary.recentAccuracy} />
         <ProgressTile label="Current Streak" value={summary.streakLabel} detail={summary.lastActivity} />
-        <ProgressTile label="Review Due" value={String(summary.reviewCount)} detail={summary.reviewDetail} />
+        <ProgressTile label="Review Due" value={String(reviewSchedule.dueTodayCount)} detail={reviewSchedule.nextTitle} />
         <ProgressTile label="Written Feedback" value={String(reviewedFeedback.length)} detail={pendingSubjectiveCount > 0 ? `${pendingSubjectiveCount} pending review` : "Latest reviewed work"} />
       </div>
 
@@ -157,6 +162,48 @@ export default function HomeLearningPlan() {
           </div>
         </section>
       )}
+
+      <section className="panel full-panel review-calendar-panel">
+        <div className="recommended-task-head">
+          <div>
+            <p className="eyebrow">Review Scheduling v1</p>
+            <h2 className="panel-title">Spaced review calendar</h2>
+            <p className="muted">
+              {reviewSchedule.dueTodayCount} due today · {reviewSchedule.upcomingCount} upcoming · {reviewSchedule.pendingWrittenReviews} written item(s) awaiting review
+            </p>
+          </div>
+          <Link className="button-secondary" href={withSessionParams(reviewSchedule.nextHref, {
+            sessionTitle: reviewSchedule.nextTitle,
+            sessionGoal: "Start the next due review from the spaced review calendar.",
+            sessionSource: "review-schedule",
+            returnHref: "/"
+          })}>
+            Start next review
+          </Link>
+        </div>
+        {reviewSchedule.days.length === 0 ? (
+          <p className="muted">No scheduled review is due in the next week. Continue practice to create spaced review signals.</p>
+        ) : (
+          <div className="review-calendar-grid">
+            {reviewSchedule.days.map((day) => (
+              <div className="review-calendar-day" key={day.date}>
+                <span>{day.label}</span>
+                {day.items.slice(0, 3).map((item) => (
+                  <Link className={`review-calendar-item review-calendar-${item.status}`} href={withSessionParams(item.href, {
+                    sessionTitle: item.title,
+                    sessionGoal: item.reason,
+                    sessionSource: "review-schedule",
+                    returnHref: "/"
+                  })} key={item.id}>
+                    <strong>{item.title}</strong>
+                    <small>{item.estimateMinutes} min · {item.kind}</small>
+                  </Link>
+                ))}
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
 
       <div className="panel full-panel recommended-task-panel">
         <div className="recommended-task-head">
@@ -319,6 +366,23 @@ function buildRecommendedTasks(state: HomeState): RecommendedTask[] {
   const reviewQueue = state.reviewQueue;
   const modelSummary = summarizeStudentModel(state.studentModel);
   const subjectiveFeedback = buildReviewedSubjectiveFeedback(state.subjectiveReviews, problems, { limit: 1 })[0];
+  const reviewSchedule = buildReviewSchedule(state.studentModel, state.subjectiveReviews, problems);
+
+  if (reviewSchedule.dueTodayCount > 0) {
+    tasks.push({
+      eyebrow: "Review Calendar",
+      title: reviewSchedule.nextTitle,
+      reason: `${reviewSchedule.dueTodayCount} review item(s) are due today.`,
+      href: withSessionParams(reviewSchedule.nextHref, {
+        sessionTitle: reviewSchedule.nextTitle,
+        sessionGoal: "Start the next due review from the spaced review calendar.",
+        sessionSource: "review-schedule",
+        returnHref: "/"
+      }),
+      action: "Start due review",
+      tone: "review"
+    });
+  }
 
   if (subjectiveFeedback) {
     tasks.push({

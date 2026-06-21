@@ -7,7 +7,7 @@ import type { Problem } from "../../../../../packages/adaptive-engine";
 import { AssessmentReport, buildAssessmentReport } from "../../shared/assessmentReport";
 import { buildLearningPlan, LearningPlan } from "../../shared/learningPlan";
 import type { StudentModel } from "../../shared/studentModel";
-import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, writeAssessmentReport, writeLearningPlan } from "../../shared/storage";
+import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, readSubjectiveReviewQueue, writeAssessmentReport, writeLearningPlan, type SubjectiveReviewItem } from "../../shared/storage";
 import { summarizeDomainProfile, summarizeSession } from "../summary";
 import type { SimulationLog } from "../types";
 import ConceptGraphPanel from "./ConceptGraphPanel";
@@ -26,6 +26,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
   const [storedLearningPlan, setStoredLearningPlan] = useState<LearningPlan | null>(null);
   const [storedAssessmentReport, setStoredAssessmentReport] = useState<AssessmentReport | null>(null);
   const [studentModel, setStudentModel] = useState<StudentModel | null>(null);
+  const [subjectiveReviews, setSubjectiveReviews] = useState<SubjectiveReviewItem[]>([]);
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
@@ -34,6 +35,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
     setStoredLearningPlan(readLearningPlan());
     setStoredAssessmentReport(readAssessmentReport());
     setStudentModel(readStudentModel());
+    setSubjectiveReviews(readSubjectiveReviewQueue());
     setHydrated(true);
   }, []);
 
@@ -114,7 +116,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
 
       <SessionSummaryPanel assessmentReport={assessmentReport ?? undefined} learningPlan={learningPlan ?? undefined} summary={summary} />
 
-      <StudentModelPanel model={studentModel} />
+      <StudentModelPanel model={studentModel} subjectiveReviews={subjectiveReviews} />
 
       <CognitivePatternPanel logs={logs} />
 
