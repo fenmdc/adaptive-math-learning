@@ -121,7 +121,7 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
 
       <SessionSummaryPanel assessmentReport={assessmentReport ?? undefined} learningPlan={learningPlan ?? undefined} summary={summary} />
 
-      <StudentModelPanel model={studentModel} subjectiveReviews={subjectiveReviews} />
+      <StudentModelPanel model={studentModel} sessionCompletions={sessionCompletions} subjectiveReviews={subjectiveReviews} />
 
       <CognitivePatternPanel logs={logs} />
 
@@ -152,7 +152,7 @@ function SessionCompletionAnalyticsPanel({ records }: { records: SessionCompleti
           <p className="eyebrow">Session Completion Analytics v1</p>
           <h2 className="panel-title">Completed session signal</h2>
           <p className="muted">
-            Practice now records bounded session outcomes, not only individual attempts.
+            Practice now records bounded session outcomes, then feeds Ready, Developing, and Repair signals into spaced review.
           </p>
         </div>
         <div className="summary-score">{summary.totalCount}</div>

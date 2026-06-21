@@ -79,8 +79,10 @@ export default function HomeLearningPlan() {
     [homeState.subjectiveReviews]
   );
   const reviewSchedule = useMemo(
-    () => buildReviewSchedule(homeState.studentModel, homeState.subjectiveReviews, problems),
-    [homeState.studentModel, homeState.subjectiveReviews]
+    () => buildReviewSchedule(homeState.studentModel, homeState.subjectiveReviews, problems, {
+      sessionCompletions: homeState.sessionCompletions
+    }),
+    [homeState.studentModel, homeState.subjectiveReviews, homeState.sessionCompletions]
   );
   const pendingSubjectiveCount = useMemo(
     () => countPendingSubjectiveReviews(homeState.subjectiveReviews),
@@ -193,7 +195,7 @@ export default function HomeLearningPlan() {
             <p className="eyebrow">Review Scheduling v1</p>
             <h2 className="panel-title">Spaced review calendar</h2>
             <p className="muted">
-              {reviewSchedule.dueTodayCount} due today · {reviewSchedule.upcomingCount} upcoming · {reviewSchedule.pendingWrittenReviews} written item(s) awaiting review
+              {reviewSchedule.dueTodayCount} due today · {reviewSchedule.upcomingCount} upcoming · {reviewSchedule.sessionFollowUps} session follow-up(s)
             </p>
           </div>
           <Link className="button-secondary" href={withSessionParams(reviewSchedule.nextHref, {
@@ -426,7 +428,9 @@ function buildRecommendedTasks(state: HomeState): RecommendedTask[] {
   const reviewQueue = state.reviewQueue;
   const modelSummary = summarizeStudentModel(state.studentModel);
   const subjectiveFeedback = buildReviewedSubjectiveFeedback(state.subjectiveReviews, problems, { limit: 1 })[0];
-  const reviewSchedule = buildReviewSchedule(state.studentModel, state.subjectiveReviews, problems);
+  const reviewSchedule = buildReviewSchedule(state.studentModel, state.subjectiveReviews, problems, {
+    sessionCompletions: state.sessionCompletions
+  });
 
   if (reviewSchedule.dueTodayCount > 0) {
     tasks.push({

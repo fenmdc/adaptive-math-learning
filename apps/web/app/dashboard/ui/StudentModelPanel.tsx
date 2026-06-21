@@ -3,6 +3,7 @@ import problemsData from "../../../data/problems.json";
 import type { Problem } from "../../../../../packages/adaptive-engine";
 import { buildReviewQueue } from "../../shared/reviewQueue";
 import { buildReviewSchedule } from "../../shared/reviewSchedule";
+import type { SessionCompletionRecord } from "../../shared/sessionAnalytics";
 import type { SubjectiveReviewItem } from "../../shared/storage";
 import type { StudentModel } from "../../shared/studentModel";
 import { summarizeStudentModel } from "../../shared/studentModel";
@@ -11,14 +12,16 @@ const problems = problemsData as Problem[];
 
 export default function StudentModelPanel({
   model,
+  sessionCompletions = [],
   subjectiveReviews = []
 }: {
   model: StudentModel | null;
+  sessionCompletions?: SessionCompletionRecord[];
   subjectiveReviews?: SubjectiveReviewItem[];
 }) {
   const summary = summarizeStudentModel(model);
   const reviewQueue = buildReviewQueue(model, problems);
-  const reviewSchedule = buildReviewSchedule(model, subjectiveReviews, problems);
+  const reviewSchedule = buildReviewSchedule(model, subjectiveReviews, problems, { sessionCompletions });
 
   return (
     <section className="panel full-panel">
@@ -66,6 +69,7 @@ export default function StudentModelPanel({
           <div className="tag-row">
             <span className="tag tag-teal">{reviewQueue.problemCount} review problems</span>
             <span className="tag tag-gold">{reviewSchedule.dueTodayCount} due today</span>
+            {reviewSchedule.sessionFollowUps > 0 && <span className="tag">{reviewSchedule.sessionFollowUps} session follow-up(s)</span>}
             {reviewQueue.dueConcepts.slice(0, 3).map((concept) => (
               <span className="tag" key={concept}>{concept}</span>
             ))}
@@ -82,7 +86,7 @@ export default function StudentModelPanel({
         <div>
           <p className="eyebrow">Spaced Review Calendar</p>
           <h3>{reviewSchedule.nextTitle}</h3>
-          <p>{reviewSchedule.dueTodayCount} due today · {reviewSchedule.upcomingCount} upcoming · {reviewSchedule.pendingWrittenReviews} written item(s) waiting</p>
+          <p>{reviewSchedule.dueTodayCount} due today · {reviewSchedule.upcomingCount} upcoming · {reviewSchedule.sessionFollowUps} session-informed follow-up(s)</p>
         </div>
         <div className="review-calendar-mini-days">
           {reviewSchedule.days.slice(0, 4).map((day) => (

@@ -1,4 +1,5 @@
 import type { Problem } from "../../../../packages/adaptive-engine";
+import type { SessionCompletionRecord } from "./sessionAnalytics";
 import type { StudentModel } from "./studentModel";
 import type { SubjectiveReviewItem } from "./storage";
 
@@ -9,7 +10,7 @@ export type ReviewScheduleItem = {
   href: string;
   dueAt: string;
   daysUntil: number;
-  kind: "concept-review" | "written-review" | "checkpoint";
+  kind: "concept-review" | "written-review" | "checkpoint" | "session-follow-up";
   status: "due" | "today" | "upcoming" | "later";
   concepts: string[];
   estimateMinutes: number;
@@ -27,6 +28,7 @@ export type ReviewSchedule = {
   upcomingCount: number;
   pendingWrittenReviews: number;
   reviewedWrittenFollowUps: number;
+  sessionFollowUps: number;
   nextHref: string;
   nextTitle: string;
   days: ReviewScheduleDay[];
@@ -37,14 +39,15 @@ export function buildReviewSchedule(
   model: StudentModel | null,
   subjectiveReviews: SubjectiveReviewItem[],
   problems: Problem[],
-  options: { horizonDays?: number; now?: Date } = {}
+  options: { horizonDays?: number; now?: Date; sessionCompletions?: SessionCompletionRecord[] } = {}
 ): ReviewSchedule {
   const now = options.now ?? new Date();
   const horizonDays = options.horizonDays ?? 7;
   const problemMap = new Map(problems.map((problem) => [problem.id, problem]));
   const conceptItems = buildConceptReviewItems(model, now);
   const writtenItems = buildWrittenReviewItems(subjectiveReviews, problemMap, now);
-  const items = [...conceptItems, ...writtenItems]
+  const sessionItems = buildSessionFollowUpItems(options.sessionCompletions ?? [], now);
+  const items = dedupeScheduleItems([...sessionItems, ...conceptItems, ...writtenItems])
     .filter((item) => item.daysUntil <= horizonDays || item.status === "due" || item.status === "today")
     .sort((left, right) => {
       if (left.daysUntil !== right.daysUntil) return left.daysUntil - right.daysUntil;
@@ -59,11 +62,40 @@ export function buildReviewSchedule(
     upcomingCount: items.filter((item) => item.status === "upcoming").length,
     pendingWrittenReviews: subjectiveReviews.filter((item) => item.status !== "reviewed").length,
     reviewedWrittenFollowUps: writtenItems.filter((item) => item.kind === "written-review" && item.status !== "later").length,
+    sessionFollowUps: sessionItems.filter((item) => item.status !== "later").length,
     nextHref: next?.href ?? "/practice",
     nextTitle: next?.title ?? "Continue adaptive practice",
     days,
     items
   };
+}
+
+function buildSessionFollowUpItems(records: SessionCompletionRecord[], now: Date): ReviewScheduleItem[] {
+  return records
+    .slice(0, 12)
+    .filter((record) => record.focusConcepts.length > 0 || record.nextHref.startsWith("/practice"))
+    .map((record) => {
+      const concepts = record.focusConcepts.length > 0 ? record.focusConcepts : record.strongConcepts.slice(0, 2);
+      const primaryConcept = concepts[0] ?? record.sessionTitle;
+      const dueAt = getSessionFollowUpDueAt(record);
+      const daysUntil = daysBetween(now, new Date(dueAt));
+      const followUp = getSessionFollowUpCopy(record, primaryConcept);
+      const href = buildSessionFollowUpHref(record, concepts);
+
+      return {
+        id: `session-follow-up-${record.id}`,
+        title: followUp.title,
+        reason: followUp.reason,
+        href,
+        dueAt,
+        daysUntil,
+        kind: "session-follow-up" as const,
+        status: statusFromDays(daysUntil),
+        concepts,
+        estimateMinutes: record.reviewOutcome === "repair" ? 18 : record.reviewOutcome === "repeat" ? 14 : 10
+      };
+    })
+    .filter((item) => item.status !== "later" || item.daysUntil <= 7);
 }
 
 function buildConceptReviewItems(model: StudentModel | null, now: Date): ReviewScheduleItem[] {
@@ -161,6 +193,71 @@ function buildWrittenReviewItems(
     });
 }
 
+function getSessionFollowUpDueAt(record: SessionCompletionRecord) {
+  const delayDays = record.reviewOutcome === "cleared" ? 5 : record.reviewOutcome === "repeat" ? 2 : 1;
+  return addDays(record.completedAt, delayDays);
+}
+
+function getSessionFollowUpCopy(record: SessionCompletionRecord, primaryConcept: string) {
+  const conceptLabel = formatConcept(primaryConcept);
+
+  if (record.reviewOutcome === "repair") {
+    return {
+      title: `Repair after ${record.sessionTitle}`,
+      reason: `${record.status} session outcome: schedule a short repair set for ${conceptLabel} before the next checkpoint.`
+    };
+  }
+
+  if (record.reviewOutcome === "repeat") {
+    return {
+      title: `Confirm ${conceptLabel}`,
+      reason: `${record.status} session outcome: repeat a compact confirmation set so the model can trust the skill.`
+    };
+  }
+
+  return {
+    title: `Light review ${conceptLabel}`,
+    reason: `${record.status} session outcome: keep the skill warm with a delayed light review instead of looping immediately.`
+  };
+}
+
+function buildSessionFollowUpHref(record: SessionCompletionRecord, concepts: string[]) {
+  const params = new URLSearchParams({
+    autoGradableOnly: "true",
+    maxItems: record.reviewOutcome === "repair" ? "8" : "6",
+    mode: record.reviewOutcome === "cleared" ? "review" : "plan",
+    sessionSource: "session-completion-schedule",
+    sessionTitle: record.reviewOutcome === "repair"
+      ? `Repair after ${record.sessionTitle}`
+      : record.reviewOutcome === "repeat"
+        ? `Confirm after ${record.sessionTitle}`
+        : `Light review after ${record.sessionTitle}`,
+    sessionGoal: record.reviewOutcome === "repair"
+      ? `Repair the focus concepts from a completed session: ${record.focusConcepts.map(formatConcept).join(", ") || record.sessionTitle}.`
+      : record.reviewOutcome === "repeat"
+        ? `Confirm developing concepts from a completed session before moving on.`
+        : `Keep a ready concept warm with a delayed spaced review.`
+  });
+
+  if (concepts.length > 0) params.set("concepts", concepts.slice(0, 3).join(","));
+  if (record.course && record.course !== "all") params.set("course", record.course);
+  if (record.language && record.language !== "all") params.set("language", record.language);
+  if (record.track && record.track !== "all") params.set("track", record.track);
+
+  return `/practice?${params.toString()}`;
+}
+
+function dedupeScheduleItems(items: ReviewScheduleItem[]) {
+  const seen = new Set<string>();
+
+  return items.filter((item) => {
+    const key = `${startOfDay(item.dueAt).toISOString().slice(0, 10)}:${item.kind}:${item.concepts.slice(0, 2).join(",") || item.title}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function buildScheduleDays(items: ReviewScheduleItem[], now: Date, horizonDays: number): ReviewScheduleDay[] {
   return Array.from({ length: horizonDays + 1 }, (_, index) => {
     const date = startOfDay(addDays(now.toISOString(), index));
@@ -203,7 +300,8 @@ function statusFromDays(daysUntil: number): ReviewScheduleItem["status"] {
 function priority(item: ReviewScheduleItem) {
   if (item.status === "due") return 0;
   if (item.status === "today") return 1;
-  if (item.kind === "written-review") return 2;
+  if (item.kind === "session-follow-up") return 2;
+  if (item.kind === "written-review") return 3;
   return 3;
 }
 
