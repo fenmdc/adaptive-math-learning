@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import problemsData from "../data/problems.json";
 import type { Problem } from "../../../packages/adaptive-engine";
-import { buildLearningPlan, type LearningPlan } from "./shared/learningPlan";
+import { buildLearningPlan, type LearningPlan, type LearningPlanTask } from "./shared/learningPlan";
 import { buildReviewQueue, type ReviewQueue } from "./shared/reviewQueue";
 import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readStudentModel, readSubjectiveReviewQueue, type SubjectiveReviewItem } from "./shared/storage";
 import { summarizeStudentModel, type StudentModel } from "./shared/studentModel";
@@ -126,6 +126,38 @@ export default function HomeLearningPlan() {
         </section>
       )}
 
+      {homeState.plan?.status === "ready" && (
+        <section className="panel full-panel learning-path-v2-panel">
+          <div className="recommended-task-head">
+            <div>
+              <p className="eyebrow">Learning Path Planner v2</p>
+              <h2 className="panel-title">Today, this week, and checkpoint</h2>
+            </div>
+            <Link className="button-secondary" href="/dashboard">
+              Open full plan
+            </Link>
+          </div>
+          <div className="learning-path-v2-grid">
+            <LearningPathColumn title="Today" tasks={homeState.plan.todayTasks} />
+            <LearningPathColumn title="This week" tasks={homeState.plan.weeklyFocus} />
+            <div className="learning-path-checkpoint">
+              <span>Checkpoint</span>
+              <strong>{homeState.plan.checkpoint.title}</strong>
+              <p>{homeState.plan.checkpoint.reason}</p>
+              <small>{homeState.plan.checkpoint.recommendedAfter}</small>
+              <Link className="button-secondary" href={withSessionParams(homeState.plan.checkpoint.href, {
+                sessionTitle: homeState.plan.checkpoint.title,
+                sessionGoal: homeState.plan.checkpoint.reason,
+                sessionSource: "learning-path-v2",
+                returnHref: "/"
+              })}>
+                Start checkpoint
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       <div className="panel full-panel recommended-task-panel">
         <div className="recommended-task-head">
           <div>
@@ -143,6 +175,34 @@ export default function HomeLearningPlan() {
         </div>
       </div>
     </section>
+  );
+}
+
+function LearningPathColumn({ tasks, title }: { tasks: LearningPlanTask[]; title: string }) {
+  return (
+    <div className="learning-path-column">
+      <span>{title}</span>
+      {tasks.length === 0 ? (
+        <p className="muted">No task scheduled yet.</p>
+      ) : (
+        tasks.map((task) => (
+          <Link
+            className="learning-path-task"
+            href={withSessionParams(task.href, {
+              sessionTitle: task.title,
+              sessionGoal: task.reason,
+              sessionSource: "learning-path-v2",
+              returnHref: "/"
+            })}
+            key={task.id}
+          >
+            <strong>{task.title}</strong>
+            <p>{task.reason}</p>
+            <em>{task.estimateMinutes} min · {task.kind}</em>
+          </Link>
+        ))
+      )}
+    </div>
   );
 }
 

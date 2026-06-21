@@ -2,7 +2,7 @@ import type { Problem, RecommendationExplanation } from "../../../../packages/ad
 import type { SimulationLog } from "../dashboard/types";
 import type { AssessmentReport } from "./assessmentReport";
 import { summarizeDiagnosticCalibration } from "./diagnosticCalibration";
-import type { LearningPlan } from "./learningPlan";
+import { migrateLearningPlan, type LearningPlan } from "./learningPlan";
 import type { AbilityDimension, StudentModel } from "./studentModel";
 import { accountScopedKey } from "./accounts";
 
@@ -135,7 +135,7 @@ export function readLearningPlan() {
 
   try {
     const raw = window.localStorage.getItem(storageKey(LEARNING_PLAN_KEY));
-    return raw ? (JSON.parse(raw) as LearningPlan) : null;
+    return raw ? migrateLearningPlan(JSON.parse(raw) as Partial<LearningPlan>) : null;
   } catch {
     return null;
   }

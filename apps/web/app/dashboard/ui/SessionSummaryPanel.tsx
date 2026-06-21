@@ -57,6 +57,13 @@ export default function SessionSummaryPanel({
                 ))}
               </div>
             )}
+            {learningPlan?.checkpoint && (
+              <div className="learning-plan-checkpoint-inline">
+                <span>Checkpoint</span>
+                <strong>{learningPlan.checkpoint.title}</strong>
+                <p>{learningPlan.checkpoint.reason}</p>
+              </div>
+            )}
           </div>
           <Link className="button" href={planHref}>
             Start recommended mini session

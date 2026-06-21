@@ -3,7 +3,7 @@ import type { SimulationLog } from "../dashboard/types";
 import type { ConceptState, StudentModel } from "./studentModel";
 
 export type LearningPlan = {
-  version: 1;
+  version: 2;
   status: "empty" | "ready";
   mode: "diagnostic" | "repair" | "bridge" | "advance" | "transfer" | "balanced";
   title: string;
@@ -17,6 +17,9 @@ export type LearningPlan = {
   href: string;
   supportingConcepts: string[];
   steps: LearningPlanStep[];
+  todayTasks: LearningPlanTask[];
+  weeklyFocus: LearningPlanTask[];
+  checkpoint: LearningPlanCheckpoint;
   successCriteria: string[];
 };
 
@@ -31,6 +34,23 @@ export type LearningPlanStep = {
   priority: "repair" | "practice" | "review" | "challenge";
 };
 
+export type LearningPlanTask = {
+  id: string;
+  title: string;
+  reason: string;
+  href: string;
+  cadence: "today" | "this-week";
+  estimateMinutes: number;
+  kind: "diagnostic" | "practice" | "review" | "written-review" | "checkpoint";
+};
+
+export type LearningPlanCheckpoint = {
+  title: string;
+  reason: string;
+  href: string;
+  recommendedAfter: string;
+};
+
 export function buildLearningPlan(
   logs: SimulationLog[],
   problems: Problem[],
@@ -42,7 +62,7 @@ export function buildLearningPlan(
 
   if (logs.length === 0) {
     return {
-      version: 1,
+      version: 2,
       status: "empty",
       mode: "diagnostic",
       title: "Start with the diagnostic",
@@ -50,6 +70,24 @@ export function buildLearningPlan(
       href: "/diagnostic",
       supportingConcepts: [],
       steps: [],
+      todayTasks: [
+        {
+          id: "start-diagnostic",
+          title: "Run the initial diagnostic",
+          reason: "Create the first placement signal and learning path.",
+          href: "/diagnostic",
+          cadence: "today",
+          estimateMinutes: 20,
+          kind: "diagnostic"
+        }
+      ],
+      weeklyFocus: [],
+      checkpoint: {
+        title: "Diagnostic baseline",
+        reason: "Complete the first diagnostic before scheduling review or transfer work.",
+        href: "/diagnostic",
+        recommendedAfter: "today"
+      },
       successCriteria: ["Complete the initial diagnostic."]
     };
   }
@@ -73,7 +111,7 @@ export function buildLearningPlan(
 
   if (!target) {
     return {
-      version: 1,
+      version: 2,
       status: "empty",
       mode: "balanced",
       title: "Continue adaptive practice",
@@ -81,6 +119,24 @@ export function buildLearningPlan(
       href: "/practice",
       supportingConcepts: [],
       steps: [],
+      todayTasks: [
+        {
+          id: "continue-practice",
+          title: "Continue adaptive practice",
+          reason: "Collect a few more attempts so the system can choose a stable target.",
+          href: "/practice",
+          cadence: "today",
+          estimateMinutes: 15,
+          kind: "practice"
+        }
+      ],
+      weeklyFocus: [],
+      checkpoint: {
+        title: "Generate a learning path",
+        reason: "A short practice session will give the planner enough evidence.",
+        href: "/practice",
+        recommendedAfter: "after one mini session"
+      },
       successCriteria: ["Complete at least one short adaptive practice session."]
     };
   }
@@ -94,8 +150,10 @@ export function buildLearningPlan(
     .slice(0, 3)
     .map((candidate) => candidate.concept);
 
+  const steps = buildPlanSteps(target.concept, supportingConcepts, problems);
+
   return {
-    version: 1,
+    version: 2,
     status: "ready",
     mode: inferPlanMode(target.concept, target.mastery, target.wrongCount, target.weakCount),
     title: `Practice ${humanizeConcept(target.concept)}`,
@@ -108,7 +166,10 @@ export function buildLearningPlan(
     chapterTitle: chapter?.chapterTitle,
     href,
     supportingConcepts,
-    steps: buildPlanSteps(target.concept, supportingConcepts, problems),
+    steps,
+    todayTasks: buildTodayTasks(steps),
+    weeklyFocus: buildWeeklyFocus(steps, target.concept),
+    checkpoint: buildCheckpoint(target.concept, href, "after today's mini session"),
     successCriteria: buildSuccessCriteria(target.concept)
   };
 }
@@ -135,7 +196,7 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
 
   if (!target) {
     return {
-      version: 1,
+      version: 2,
       status: "empty",
       mode: "balanced",
       title: "Continue adaptive practice",
@@ -143,6 +204,24 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
       href: "/practice",
       supportingConcepts: [],
       steps: [],
+      todayTasks: [
+        {
+          id: "continue-practice",
+          title: "Continue adaptive practice",
+          reason: "Collect a few more attempts so the system can choose a stable target.",
+          href: "/practice",
+          cadence: "today",
+          estimateMinutes: 15,
+          kind: "practice"
+        }
+      ],
+      weeklyFocus: [],
+      checkpoint: {
+        title: "Generate a learning path",
+        reason: "A short practice session will give the planner enough evidence.",
+        href: "/practice",
+        recommendedAfter: "after one mini session"
+      },
       successCriteria: ["Complete at least one short adaptive practice session."]
     };
   }
@@ -156,8 +235,10 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
     .slice(0, 3)
     .map((candidate) => candidate.concept);
 
+  const steps = buildPlanSteps(target.concept, supportingConcepts, problems, target.reviewDue);
+
   return {
-    version: 1,
+    version: 2,
     status: "ready",
     mode: inferPlanMode(target.concept, target.mastery, target.wrongCount, target.weakCount, target.stability),
     title: `Practice ${humanizeConcept(target.concept)}`,
@@ -170,7 +251,10 @@ function buildLearningPlanFromStudentModel(studentModel: StudentModel, problems:
     chapterTitle: chapter?.chapterTitle,
     href,
     supportingConcepts,
-    steps: buildPlanSteps(target.concept, supportingConcepts, problems, target.reviewDue),
+    steps,
+    todayTasks: buildTodayTasks(steps),
+    weeklyFocus: buildWeeklyFocus(steps, target.concept),
+    checkpoint: buildCheckpoint(target.concept, href, target.reviewDue ? "after spaced review" : "after today's mini session"),
     successCriteria: buildSuccessCriteria(target.concept, target.stability)
   };
 }
@@ -254,6 +338,122 @@ function buildPlanStep(input: {
     stage: input.stage,
     sessionLength: input.sessionLength,
     priority: input.priority
+  };
+}
+
+export function migrateLearningPlan(plan: Partial<LearningPlan> | null | undefined): LearningPlan | null {
+  if (!plan) return null;
+
+  const status = plan.status ?? "empty";
+  const mode = plan.mode ?? "balanced";
+  const title = plan.title ?? (status === "ready" ? "Continue adaptive practice" : "Start with the diagnostic");
+  const reason = plan.reason ?? "Continue with a short bounded session so the system can refresh the learning path.";
+  const href = plan.href ?? (mode === "diagnostic" ? "/diagnostic" : "/practice");
+  const steps = plan.steps ?? [];
+  const targetConcept = plan.targetConcept;
+
+  return {
+    version: 2,
+    status,
+    mode,
+    title,
+    reason,
+    targetConcept,
+    targetMastery: plan.targetMastery,
+    course: plan.course,
+    theme: plan.theme,
+    chapter: plan.chapter,
+    chapterTitle: plan.chapterTitle,
+    href,
+    supportingConcepts: plan.supportingConcepts ?? [],
+    steps,
+    todayTasks: plan.todayTasks ?? buildFallbackTasks("today", steps, href, title, reason),
+    weeklyFocus: plan.weeklyFocus ?? buildFallbackTasks("this-week", steps.slice(1), href, targetConcept ? `Stabilize ${humanizeConcept(targetConcept)}` : "Stabilize current focus", reason),
+    checkpoint: plan.checkpoint ?? {
+      title: targetConcept ? `Retest ${humanizeConcept(targetConcept)}` : "Run a checkpoint",
+      reason: "Use a bounded checkpoint to refresh the recommendation.",
+      href,
+      recommendedAfter: "after the next mini session"
+    },
+    successCriteria: plan.successCriteria ?? (targetConcept ? buildSuccessCriteria(targetConcept) : ["Complete one bounded practice session."])
+  };
+}
+
+function buildFallbackTasks(
+  cadence: LearningPlanTask["cadence"],
+  steps: LearningPlanStep[],
+  href: string,
+  title: string,
+  reason: string
+): LearningPlanTask[] {
+  if (steps.length > 0) {
+    return steps.slice(0, cadence === "today" ? 2 : 3).map((step) => ({
+      id: `${cadence}-${step.id}`,
+      title: step.title,
+      reason: step.reason,
+      href: step.href,
+      cadence,
+      estimateMinutes: step.sessionLength <= 6 ? 12 : 20,
+      kind: step.priority === "review" ? "review" : step.priority === "challenge" ? "checkpoint" : "practice"
+    }));
+  }
+
+  return [
+    {
+      id: `${cadence}-continue`,
+      title,
+      reason,
+      href,
+      cadence,
+      estimateMinutes: cadence === "today" ? 15 : 20,
+      kind: href.startsWith("/diagnostic") ? "diagnostic" : "practice"
+    }
+  ];
+}
+
+function buildTodayTasks(steps: LearningPlanStep[]): LearningPlanTask[] {
+  return steps.slice(0, 2).map((step, index) => ({
+    id: `today-${step.id}`,
+    title: step.title,
+    reason: step.reason,
+    href: step.href,
+    cadence: "today",
+    estimateMinutes: step.sessionLength <= 6 ? 12 : 18,
+    kind: step.priority === "review" ? "review" : "practice"
+  }));
+}
+
+function buildWeeklyFocus(steps: LearningPlanStep[], targetConcept: string): LearningPlanTask[] {
+  const transferStep = steps.find((step) => step.priority === "challenge") ?? steps.at(-1);
+
+  return [
+    {
+      id: "week-stabilize",
+      title: `Stabilize ${humanizeConcept(targetConcept)}`,
+      reason: "Repeat the target in a short mixed set after the first repair session.",
+      href: steps[1]?.href ?? steps[0]?.href ?? "/practice",
+      cadence: "this-week",
+      estimateMinutes: 20,
+      kind: "practice"
+    },
+    {
+      id: "week-transfer",
+      title: transferStep?.title ?? "Try a transfer set",
+      reason: transferStep?.reason ?? "Check whether the repair survives a broader problem range.",
+      href: transferStep?.href ?? "/practice",
+      cadence: "this-week",
+      estimateMinutes: 25,
+      kind: "checkpoint"
+    }
+  ];
+}
+
+function buildCheckpoint(targetConcept: string, href: string, recommendedAfter: string): LearningPlanCheckpoint {
+  return {
+    title: `Retest ${humanizeConcept(targetConcept)}`,
+    reason: "Use a bounded checkpoint instead of looping indefinitely on the same problem type.",
+    href,
+    recommendedAfter
   };
 }
 
