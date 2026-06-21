@@ -11,6 +11,7 @@ import { summarizeSessionCompletions, type SessionCompletionRecord } from "./sha
 import { summarizeStudentModel, type StudentModel } from "./shared/studentModel";
 import { buildReviewedSubjectiveFeedback, countPendingSubjectiveReviews, type ReviewedSubjectiveFeedback } from "./shared/subjectiveFeedback";
 import { buildReviewSchedule, type ReviewSchedule } from "./shared/reviewSchedule";
+import { buildLearningLoopMetrics, type LearningLoopMetrics } from "./shared/learningLoopMetrics";
 import type { AssessmentReport } from "./shared/assessmentReport";
 import type { SimulationLog } from "./dashboard/types";
 
@@ -92,6 +93,16 @@ export default function HomeLearningPlan() {
     () => summarizeSessionCompletions(homeState.sessionCompletions),
     [homeState.sessionCompletions]
   );
+  const loopMetrics = useMemo(
+    () => buildLearningLoopMetrics({
+      diagnosticLogs: homeState.diagnosticLogs,
+      practiceLogs: homeState.practiceLogs,
+      reviewSchedule,
+      sessionCompletions: homeState.sessionCompletions,
+      studentModel: homeState.studentModel
+    }),
+    [homeState.diagnosticLogs, homeState.practiceLogs, homeState.sessionCompletions, homeState.studentModel, reviewSchedule]
+  );
 
   return (
     <section className="student-home-grid">
@@ -120,8 +131,22 @@ export default function HomeLearningPlan() {
         <ProgressTile label="Recent Attempts" value={String(summary.recentAttempts)} detail={summary.recentAccuracy} />
         <ProgressTile label="Completed Sessions" value={String(completionSummary.totalCount)} detail={`${completionSummary.averageAccuracy}% recent session accuracy`} />
         <ProgressTile label="Review Due" value={String(reviewSchedule.dueTodayCount)} detail={reviewSchedule.nextTitle} />
-        <ProgressTile label="Written Feedback" value={String(reviewedFeedback.length)} detail={pendingSubjectiveCount > 0 ? `${pendingSubjectiveCount} pending review` : "Latest reviewed work"} />
+        <ProgressTile label="Loop Health" value={`${loopMetrics.healthScore}`} detail={loopMetrics.headline} />
       </div>
+
+      <section className="panel full-panel learning-loop-panel">
+        <div className="recommended-task-head">
+          <div>
+            <p className="eyebrow">Learning Loop Metrics v1</p>
+            <h2 className="panel-title">Diagnostic → practice → review loop</h2>
+            <p className="muted">{loopMetrics.headline}</p>
+          </div>
+          <Link className="button-secondary" href="/dashboard">
+            Open loop details
+          </Link>
+        </div>
+        <LearningLoopSnapshot metrics={loopMetrics} />
+      </section>
 
       {completionSummary.latest && (
         <section className="panel full-panel session-completion-panel">
@@ -310,6 +335,48 @@ function SubjectiveFeedbackCard({ item }: { item: ReviewedSubjectiveFeedback }) 
         <Link className="button-secondary" href={`/practice?problemId=${encodeURIComponent(item.problem)}&autoGradableOnly=false`}>
           Reopen problem
         </Link>
+      </div>
+    </div>
+  );
+}
+
+function LearningLoopSnapshot({ metrics }: { metrics: LearningLoopMetrics }) {
+  return (
+    <div className="learning-loop-snapshot">
+      <div className="learning-loop-score">
+        <span>Health</span>
+        <strong>{metrics.healthScore}</strong>
+      </div>
+      <div className="learning-loop-metrics">
+        <div>
+          <span>This week</span>
+          <strong>{metrics.weeklyCompletedSessions}</strong>
+          <small>completed session(s)</small>
+        </div>
+        <div>
+          <span>Closed</span>
+          <strong>{metrics.closedLoops}</strong>
+          <small>concept loop(s)</small>
+        </div>
+        <div>
+          <span>Repair</span>
+          <strong>{metrics.activeRepairLoops}</strong>
+          <small>active loop(s)</small>
+        </div>
+        <div>
+          <span>Follow-up</span>
+          <strong>{metrics.followUpDue}</strong>
+          <small>due today</small>
+        </div>
+      </div>
+      <div className="learning-loop-concepts">
+        {metrics.conceptLoops.slice(0, 4).map((loop) => (
+          <div className={`learning-loop-concept learning-loop-${loop.readiness}`} key={loop.concept}>
+            <strong>{formatConcept(loop.concept)}</strong>
+            <span>{loop.readiness}</span>
+          </div>
+        ))}
+        {metrics.conceptLoops.length === 0 && <p className="muted">Complete a diagnostic and one bounded practice session to start the first loop.</p>}
       </div>
     </div>
   );

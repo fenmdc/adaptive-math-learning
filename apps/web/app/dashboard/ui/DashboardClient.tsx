@@ -6,6 +6,8 @@ import problemsData from "../../../data/problems.json";
 import type { Problem } from "../../../../../packages/adaptive-engine";
 import { AssessmentReport, buildAssessmentReport } from "../../shared/assessmentReport";
 import { buildLearningPlan, LearningPlan } from "../../shared/learningPlan";
+import { buildLearningLoopMetrics, type LearningLoopMetrics } from "../../shared/learningLoopMetrics";
+import { buildReviewSchedule } from "../../shared/reviewSchedule";
 import { summarizeSessionCompletions, type SessionCompletionRecord } from "../../shared/sessionAnalytics";
 import type { StudentModel } from "../../shared/studentModel";
 import { readAssessmentReport, readDiagnosticLogs, readLearningPlan, readPracticeLogs, readSessionCompletions, readStudentModel, readSubjectiveReviewQueue, writeAssessmentReport, writeLearningPlan, type SubjectiveReviewItem } from "../../shared/storage";
@@ -51,6 +53,16 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
   const generatedAssessmentReport = diagnosticLogs.length > 0 ? buildAssessmentReport(diagnosticLogs, studentModel) : null;
   const assessmentReport = generatedAssessmentReport ?? storedAssessmentReport;
   const domainProfiles = summarizeDomainProfile(logs);
+  const reviewSchedule = buildReviewSchedule(studentModel, subjectiveReviews, problemsData as Problem[], {
+    sessionCompletions
+  });
+  const loopMetrics = buildLearningLoopMetrics({
+    diagnosticLogs,
+    practiceLogs,
+    reviewSchedule,
+    sessionCompletions,
+    studentModel
+  });
   const source =
     diagnosticLogs.length > 0 && practiceLogs.length > 0
       ? "Diagnostic + practice sessions"
@@ -117,6 +129,8 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
 
       <SessionCompletionAnalyticsPanel records={sessionCompletions} />
 
+      <LearningLoopMetricsPanel metrics={loopMetrics} />
+
       {assessmentReport && <LatestAssessmentReport report={assessmentReport} />}
 
       <SessionSummaryPanel assessmentReport={assessmentReport ?? undefined} learningPlan={learningPlan ?? undefined} summary={summary} />
@@ -139,6 +153,84 @@ export default function DashboardClient({ fallbackLogs }: { fallbackLogs: Simula
       </section>
       </div>
     </main>
+  );
+}
+
+function LearningLoopMetricsPanel({ metrics }: { metrics: LearningLoopMetrics }) {
+  return (
+    <section className="panel full-panel learning-loop-panel">
+      <div className="summary-header">
+        <div>
+          <p className="eyebrow">Learning Loop Metrics v1</p>
+          <h2 className="panel-title">Loop health and concept closure</h2>
+          <p className="muted">{metrics.headline}</p>
+        </div>
+        <div className="summary-score">{metrics.healthScore}</div>
+      </div>
+      <div className="learning-loop-metrics">
+        <div>
+          <span>This week</span>
+          <strong>{metrics.weeklyCompletedSessions}</strong>
+          <small>completed session(s)</small>
+        </div>
+        <div>
+          <span>Diagnostic coverage</span>
+          <strong>{metrics.diagnosticCoveragePercent}%</strong>
+          <small>diagnostic concepts practiced</small>
+        </div>
+        <div>
+          <span>Practice coverage</span>
+          <strong>{metrics.practiceCoveragePercent}%</strong>
+          <small>practiced concepts completed</small>
+        </div>
+        <div>
+          <span>Ready conversion</span>
+          <strong>{metrics.readyConversionPercent}%</strong>
+          <small>sessions ending ready</small>
+        </div>
+      </div>
+      <div className="learning-loop-detail-grid">
+        <div className="learning-loop-list">
+          <h3>Concept loop states</h3>
+          {metrics.conceptLoops.length === 0 ? (
+            <p className="muted">No concept loop has enough evidence yet.</p>
+          ) : (
+            metrics.conceptLoops.slice(0, 8).map((loop) => (
+              <article className={`learning-loop-row learning-loop-${loop.readiness}`} key={loop.concept}>
+                <div>
+                  <strong>{formatConcept(loop.concept)}</strong>
+                  <p>{loop.recommendation}</p>
+                </div>
+                <span>{loop.readiness}</span>
+              </article>
+            ))
+          )}
+        </div>
+        <div className="learning-loop-list">
+          <h3>Loop pressure</h3>
+          <div className="summary-list">
+            <div className="summary-item">
+              <div>
+                <strong>{metrics.closedLoops} closed loop(s)</strong>
+                <div className="muted">Concepts with ready or stable completion evidence.</div>
+              </div>
+            </div>
+            <div className="summary-item">
+              <div>
+                <strong>{metrics.activeRepairLoops} active repair loop(s)</strong>
+                <div className="muted">{metrics.stalledConcepts.length ? metrics.stalledConcepts.map(formatConcept).join(", ") : "No stalled concept detected."}</div>
+              </div>
+            </div>
+            <div className="summary-item">
+              <div>
+                <strong>{metrics.followUpDue} session follow-up(s) due</strong>
+                <div className="muted">Generated from completed session outcomes.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -303,6 +395,13 @@ function formatSessionDate(value: string) {
     month: "short",
     day: "numeric"
   });
+}
+
+function formatConcept(concept: string) {
+  return concept
+    .replace(/^(arith|prealg|alg|geo|nt|stats|counting)_/, "")
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function readinessClass(status: AssessmentReport["stageReadiness"][number]["status"]) {
