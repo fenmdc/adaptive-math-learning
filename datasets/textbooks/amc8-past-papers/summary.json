@@ -1,0 +1,380 @@
+{
+  "route": "PDF text layer/OCR -> pdftext/pypdf text -> problem chunks + exam fallback chunks -> lightweight knowledge extraction",
+  "sourceDir": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题",
+  "outputDir": "/Users/fenmdc/adaptive-math-learning/datasets/textbooks/amc8-past-papers",
+  "fileCount": 38,
+  "chunkCount": 916,
+  "knowledgeItemCount": 916,
+  "weakFiles": [
+    {
+      "file": "1985AMC8.pdf",
+      "year": 1985,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1985AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1985AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 5306,
+      "chunkCount": 23,
+      "problemChunkCount": 22,
+      "missingProblemNumbers": [
+        7,
+        10,
+        11
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1986AMC8.pdf",
+      "year": 1986,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1986AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1986AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 6495,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        6,
+        11
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1987AMC8.pdf",
+      "year": 1987,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1987AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1987AMC8.pdf",
+      "pageCount": 5,
+      "textChars": 5536,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        11,
+        21
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1988AMC8.pdf",
+      "year": 1988,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1988AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1988AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 5292,
+      "chunkCount": 23,
+      "problemChunkCount": 22,
+      "missingProblemNumbers": [
+        3,
+        6,
+        11
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1989AMC8.pdf",
+      "year": 1989,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1989AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1989AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 5151,
+      "chunkCount": 23,
+      "problemChunkCount": 22,
+      "missingProblemNumbers": [
+        2,
+        12,
+        13
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1991AMC8.pdf",
+      "year": 1991,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1991AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1991AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 6369,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        2
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1992AMC8.pdf",
+      "year": 1992,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1992AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1992AMC8.pdf",
+      "pageCount": 7,
+      "textChars": 5964,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        4
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1993AMC8.pdf",
+      "year": 1993,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1993AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1993AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 5252,
+      "chunkCount": 23,
+      "problemChunkCount": 22,
+      "missingProblemNumbers": [
+        7,
+        13,
+        16
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1996AMC8.pdf",
+      "year": 1996,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1996AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1996AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 7014,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        4
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1997AMC8.pdf",
+      "year": 1997,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1997AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1997AMC8.pdf",
+      "pageCount": 5,
+      "textChars": 6115,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        1,
+        19
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1998AMC8.pdf",
+      "year": 1998,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1998AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1998AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 7112,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        2,
+        12
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "1999AMC8.pdf",
+      "year": 1999,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1999AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/1999AMC8.pdf",
+      "pageCount": 7,
+      "textChars": 8431,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        10
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2004AMC8.pdf",
+      "year": 2004,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2004AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2004AMC8.pdf",
+      "pageCount": 7,
+      "textChars": 7103,
+      "chunkCount": 23,
+      "problemChunkCount": 22,
+      "missingProblemNumbers": [
+        10,
+        11,
+        16
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2005AMC8.pdf",
+      "year": 2005,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2005AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2005AMC8.pdf",
+      "pageCount": 7,
+      "textChars": 6638,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        7
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2008AMC8.pdf",
+      "year": 2008,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2008AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2008AMC8.pdf",
+      "pageCount": 7,
+      "textChars": 7008,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        7,
+        20
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2009AMC8.pdf",
+      "year": 2009,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2009AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2009AMC8.pdf",
+      "pageCount": 8,
+      "textChars": 7481,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        6,
+        25
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2011AMC8.pdf",
+      "year": 2011,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2011AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2011AMC8.pdf",
+      "pageCount": 7,
+      "textChars": 6182,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        10,
+        13
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2012AMC8.pdf",
+      "year": 2012,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2012AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2012AMC8.pdf",
+      "pageCount": 4,
+      "textChars": 6124,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        15
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2015AMC8.pdf",
+      "year": 2015,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2015AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2015AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 8081,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        5
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2017AMC8.pdf",
+      "year": 2017,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2017AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2017AMC8.pdf",
+      "pageCount": 6,
+      "textChars": 7226,
+      "chunkCount": 24,
+      "problemChunkCount": 23,
+      "missingProblemNumbers": [
+        17,
+        19
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2020AMC8.pdf",
+      "year": 2020,
+      "variant": "official",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2020AMC8.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2020AMC8.pdf",
+      "pageCount": 12,
+      "textChars": 7707,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        24
+      ],
+      "extractionRoute": "pdftext-text-layer",
+      "quality": "has-exam-fallback"
+    },
+    {
+      "file": "2024 AMC8 美国数学比赛题目与答案.pdf",
+      "year": 2024,
+      "variant": "bilingual-with-answers",
+      "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AMC/AMC8真题/2024 AMC8 美国数学比赛题目与答案.pdf",
+      "extractionPdf": "/Users/fenmdc/Documents/Codex/2026-06-08/users-fenmdc-documents-imo-aops-01/work/amc8-past-papers/ocr/2024AMC8.force-ocr.pdf",
+      "pageCount": 21,
+      "textChars": 11622,
+      "chunkCount": 25,
+      "problemChunkCount": 24,
+      "missingProblemNumbers": [
+        4
+      ],
+      "extractionRoute": "ocrmypdf+pdftext",
+      "quality": "has-exam-fallback"
+    }
+  ]
+}

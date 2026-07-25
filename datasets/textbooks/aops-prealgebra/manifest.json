@@ -1,0 +1,34 @@
+{
+  "id": "aops-prealgebra",
+  "title": "AoPS Prealgebra",
+  "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/AoPS/01-Prealgebra.pdf",
+  "searchablePdf": "/Users/fenmdc/Documents/Codex/2026-06-08/users-fenmdc-documents-imo-aops-01/work/ocr/aops-prealgebra-searchable.pdf",
+  "extractionDate": "2026-06-08T14:16:19.962Z",
+  "route": "OCRmyPDF -> pdf-parse -> page/paragraph text chunks -> lightweight knowledge extraction",
+  "pageCount": 119,
+  "chunkCount": 119,
+  "knowledgeItemCount": 119,
+  "conceptCounts": {
+    "arithmetic": 118,
+    "negative_numbers": 67,
+    "ratio": 87,
+    "roots": 15,
+    "equation": 107,
+    "number_theory": 97,
+    "statistics": 96,
+    "word_problems": 96,
+    "inequality": 81,
+    "geometry": 61,
+    "counting": 30,
+    "probability": 11,
+    "reciprocal": 28,
+    "fraction": 53,
+    "decimal": 17,
+    "percent": 92,
+    "exponents": 49
+  },
+  "notes": [
+    "The source PDF has little or no embedded text; OCR was required.",
+    "OCR quality warnings appeared on some pages, so formulas should be treated as approximate until a Marker/vision pass is substituted."
+  ]
+}

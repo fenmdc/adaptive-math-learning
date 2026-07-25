@@ -1,0 +1,162 @@
+[
+  {
+    "step": 0,
+    "problem": "amc8_p001",
+    "correct": false,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 1,
+    "problem": "amc8_p001",
+    "correct": false,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 2,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 3,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 4,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 5,
+    "problem": "amc8_p001",
+    "correct": false,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 6,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 7,
+    "problem": "amc8_p001",
+    "correct": false,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 8,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 9,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 10,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 11,
+    "problem": "amc8_p001",
+    "correct": false,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 12,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 13,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 14,
+    "problem": "amc8_p001",
+    "correct": false,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 15,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 16,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 17,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 18,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  },
+  {
+    "step": 19,
+    "problem": "amc8_p001",
+    "correct": true,
+    "weakConcepts": [
+      "arith_ratios"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "route": "PDF text layer -> pdftext page extraction -> page chunks -> lightweight knowledge extraction",
+  "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/初中数学/College Algebra -- Carl Stitz, Jeff Zeager.pdf",
+  "outputDir": "/Users/fenmdc/adaptive-math-learning/datasets/textbooks/college-algebra-stitz-zeager",
+  "pageCount": 716,
+  "chunkCount": 716,
+  "knowledgeItemCount": 716,
+  "conceptCount": 21
+}

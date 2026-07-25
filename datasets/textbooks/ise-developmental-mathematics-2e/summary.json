@@ -1,0 +1,15 @@
+{
+  "route": {
+    "name": "text-layer-page-chunks",
+    "inputType": "pdf",
+    "steps": [
+      "pdftext-json",
+      "page-chunk",
+      "knowledge-extraction"
+    ]
+  },
+  "sourcePdf": "/Users/fenmdc/Documents/IMO-中小学奥数/初中数学/ISE DEVELOPMENTAL MATHEMATICS _ second edition.pdf",
+  "chunkCount": 1939,
+  "knowledgeItemCount": 1939,
+  "chunking": "page-level"
+}

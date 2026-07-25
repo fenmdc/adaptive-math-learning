@@ -1,0 +1,9 @@
+{
+  "route": "PDF text layer -> pdftext page extraction -> page chunks -> lightweight knowledge extraction",
+  "sourcePdf": "/Users/fenmdc/Documents/数学/Mathematics for Engineers_Anthony Croft, Robert Davison.pdf",
+  "outputDir": "/Users/fenmdc/adaptive-math-learning/datasets/textbooks/mathematics-for-engineers-croft-davison",
+  "pageCount": 1285,
+  "chunkCount": 1285,
+  "knowledgeItemCount": 1285,
+  "conceptCount": 21
+}

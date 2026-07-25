@@ -1,36 +1,162 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Adaptive Math Learning
 
-## Getting Started
+AI-powered adaptive mathematics learning platform focused on AMC-style mathematical thinking, mastery tracking, and personalized remediation.
 
-First, run the development server:
+> Product boundary: this repository contains only Adaptive Math Learning. It does not host the Bible study notes, book catalog, ABRSM music-theory, or scientific-paper knowledge-base products. See [`docs/product/PRODUCT_BOUNDARY.md`](docs/product/PRODUCT_BOUNDARY.md).
+
+---
+
+# Vision
+
+Traditional math learning systems are largely linear, curriculum-driven, and insufficiently personalized.
+
+Adaptive Math Learning aims to build a cognitive learning system that:
+
+- Diagnoses mathematical understanding at the concept level
+- Identifies prerequisite gaps and misconceptions
+- Dynamically adapts problem difficulty and progression
+- Models mathematical thinking patterns
+- Helps students develop transferable problem-solving ability
+
+The long-term goal is to create a unified adaptive mathematics platform spanning:
+
+- K-12 mathematics
+- AMC competition mathematics
+- AP mathematics
+- Advanced mathematical reasoning
+
+---
+
+# Initial MVP Scope
+
+The MVP focuses on:
+
+- Pre-Algebra
+- Algebra 1
+- AMC8-level mathematical thinking
+
+The first version prioritizes:
+
+- Diagnostic assessment
+- Adaptive practice
+- Mastery tracking
+- Knowledge graph remediation
+
+---
+
+# Current Development Status
+
+The current vertical slice includes:
+
+- A validated CSV-backed problem bank with 48 answerable records
+- A concept ontology with reference validation
+- Adaptive mastery updates and weakest-concept recommendations
+- Remediation after repeated incorrect attempts
+- An interactive practice workspace and simulation dashboard
+- Automated engine, problem-loader, learning-session, data, and product-boundary checks
+
+Student accounts, persistent attempt history, and database-backed mastery are the next infrastructure milestone.
+
+Run the current quality gates with:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm test
+npm run check:data
+npm run check:boundary
+npm run typecheck
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Core Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Adaptive Assessment
 
-## Learn More
+Dynamic diagnostic testing system that estimates:
 
-To learn more about Next.js, take a look at the following resources:
+- Student mastery
+- Knowledge gaps
+- Difficulty level
+- Cognitive strengths and weaknesses
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Knowledge Graph
 
-## Deploy on Vercel
+Structured mathematical ontology including:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Concepts
+- Skills
+- Prerequisites
+- Cognitive patterns
+- Misconceptions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Adaptive Recommendation Engine
+
+Real-time recommendation system that adjusts:
+
+- Problem difficulty
+- Topic sequencing
+- Remediation paths
+- Review timing
+
+---
+
+## Mastery Tracking
+
+Continuous estimation of:
+
+- Concept mastery
+- Retention
+- Confidence
+- Speed and fluency
+
+---
+
+## AMC-Style Mathematical Thinking
+
+Beyond curriculum coverage, the system models:
+
+- Pattern recognition
+- Case analysis
+- Logical deduction
+- Reverse reasoning
+- Constructive problem solving
+
+---
+
+# Repository Structure
+
+```text
+adaptive-math-learning/
+
+├── apps/
+│   ├── web/
+│   └── admin/
+│
+├── packages/
+│   ├── adaptive-engine/
+│   ├── database/
+│   ├── ontology/
+│   ├── shared/
+│   └── ui/
+│
+├── datasets/
+│   ├── concepts/
+│   ├── problems/
+│   ├── tagging/
+│   └── mastery/
+│
+├── docs/
+│   ├── product/
+│   ├── ontology/
+│   ├── adaptive-system/
+│   ├── database/
+│   └── architecture/
+│
+├── supabase/
+│
+└── scripts/

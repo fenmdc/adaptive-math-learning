@@ -1,26 +1,27 @@
 {
-  "name": "adaptive-math-learning",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "dev": "next dev",
+    "typecheck": "tsc --noEmit",
+    "check:boundary": "ts-node --project tsconfig.simulation.json scripts/check-product-boundary.ts",
+    "check:data": "ts-node --project tsconfig.simulation.json scripts/check-problem-data.ts",
+    "test": "TS_NODE_PROJECT=tsconfig.simulation.json node --require ts-node/register --test tests/*.test.ts",
+    "simulate": "ts-node --project tsconfig.simulation.json packages/simulation/src/index.ts",
+    "dev:web": "next dev",
+    "dev:full": "ts-node scripts/dev-full.ts"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/node": "^25.8.0",
+    "@types/react": "19.2.14",
+    "open": "^11.0.0",
+    "tailwindcss": "^4.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   }
 }

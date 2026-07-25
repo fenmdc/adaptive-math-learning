@@ -1,0 +1,13 @@
+{
+  "route": {
+    "name": "text",
+    "inputType": "pdf",
+    "steps": [
+      "pdf-parse",
+      "text-chunk"
+    ]
+  },
+  "sourcePdf": "/Users/fenmdc/Documents/Codex/2026-06-08/users-fenmdc-documents-imo-aops-01/work/ocr/aops-prealgebra-searchable.pdf",
+  "chunkCount": 119,
+  "chunking": "paragraph-fallback"
+}
