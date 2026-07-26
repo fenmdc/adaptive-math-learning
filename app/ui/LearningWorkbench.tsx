@@ -1,18 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
-  createInitialAdaptiveState,
+  clearLearningSession,
+  createInitialLearningSession,
+  loadLearningSession,
   runLearningAttempt,
-  type LearningAttemptResult,
+  saveLearningSession,
+  type LearningSessionState,
 } from "@/packages/learning-session";
 import type { PracticeProblem } from "@/packages/problem-bank/types";
 
 type DatasetStats = {
   concepts: number;
   problems: number;
+  reviewedProblems: number;
   sourceRecords: number;
   textbookSources: number;
 };
@@ -24,190 +28,207 @@ export default function LearningWorkbench({
   datasetStats: DatasetStats;
   problems: PracticeProblem[];
 }) {
-  const [problemId, setProblemId] = useState(problems[0]?.id);
-  const [selected, setSelected] = useState<string>();
-  const [result, setResult] = useState<LearningAttemptResult>();
-  const [attempts, setAttempts] = useState(0);
-  const [correctAttempts, setCorrectAttempts] = useState(0);
-  const [adaptiveState, setAdaptiveState] = useState(() => createInitialAdaptiveState(problems));
+  const [session, setSession] = useState<LearningSessionState>(() => createInitialLearningSession(problems));
 
-  const problem = problems.find((item) => item.id === problemId) ?? problems[0];
+  useEffect(() => {
+    const stored = loadLearningSession(window.localStorage, problems);
+    if (stored) setSession(stored);
+  }, [problems]);
+
+  const problem = problems.find((item) => item.id === session.problemId) ?? problems[0];
   const conceptNames = new Map(
     problems.flatMap((item) => Object.entries(item.conceptLabels)),
   );
-  const masteryRows = [...Object.entries(adaptiveState.mastery)]
+  const masteryRows = [...Object.entries(session.adaptiveState.mastery)]
     .sort((left, right) => left[1] - right[1])
     .slice(0, 3);
-  const accuracy = attempts ? Math.round((correctAttempts / attempts) * 100) : 0;
+  const accuracy = session.attempts ? Math.round((session.correctAttempts / session.attempts) * 100) : 0;
 
   if (!problem) {
     return <p className="empty-workspace">No answerable problems are available.</p>;
   }
 
+  function updateSession(nextSession: LearningSessionState) {
+    try {
+      saveLearningSession(window.localStorage, nextSession);
+    } catch {
+      // Practice remains usable when browser storage is unavailable.
+    }
+    setSession(nextSession);
+  }
+
+  function selectAnswer(choice: string) {
+    updateSession({ ...session, selected: choice });
+  }
+
+  function revealHint() {
+    updateSession({ ...session, hintVisible: true });
+  }
+
   function submitAnswer() {
-    if (!selected || result) return;
-    const nextResult = runLearningAttempt({ answer: selected, problem, problems, state: adaptiveState });
-    setResult(nextResult);
-    setAdaptiveState(nextResult.state);
-    setAttempts((current) => current + 1);
-    if (nextResult.correct) setCorrectAttempts((current) => current + 1);
+    if (!session.selected || session.result) return;
+    const nextResult = runLearningAttempt({
+      answer: session.selected,
+      problem,
+      problems,
+      state: session.adaptiveState,
+    });
+    const { state, ...result } = nextResult;
+    updateSession({
+      ...session,
+      result,
+      attempts: session.attempts + 1,
+      correctAttempts: session.correctAttempts + (nextResult.correct ? 1 : 0),
+      adaptiveState: state,
+    });
   }
 
   function loadNextProblem() {
-    setProblemId(result?.nextProblemId ?? problems[0]?.id);
-    setSelected(undefined);
-    setResult(undefined);
+    updateSession({
+      ...session,
+      problemId: session.result?.nextProblemId ?? problems[0]?.id,
+      selected: undefined,
+      hintVisible: undefined,
+      result: undefined,
+    });
   }
 
+  function resetSession() {
+    clearLearningSession(window.localStorage);
+    setSession(createInitialLearningSession(problems));
+  }
+
+  const currentMastery = Math.round((session.adaptiveState.mastery[problem.concepts[0]] ?? 0.5) * 100);
+  const nextProblem = problems.find((item) => item.id === session.result?.nextProblemId);
+
   return (
-    <div className="workspace-page">
-      <header className="page-header">
+    <div className="learning-page">
+      <header className="learning-header">
         <div>
-          <p className="page-context">Student workspace</p>
-          <h1>Build mathematical mastery, one decision at a time.</h1>
-          <p className="page-intro">
-            Diagnose the next gap, practise at the right level, and make every answer update the learning path.
-          </p>
+          <p>Adaptive practice</p>
+          <h1>{problem.conceptLabel}</h1>
+          <span>One focused problem. One useful learning signal.</span>
         </div>
-        <Link className="text-link" href="/dashboard">
-          View progress
-          <span aria-hidden="true">→</span>
-        </Link>
+        <div className="learning-header-actions">
+          <Link href="/dashboard">Progress dashboard</Link>
+          <button onClick={resetSession} type="button">Reset session</button>
+        </div>
       </header>
 
-      <section className="workspace-grid" aria-label="Adaptive learning workspace">
-        <article className="practice-surface" id="practice">
-          <div className="surface-heading">
+      <div className="session-strip" aria-label="Current learning session">
+        <div><span>Session</span><strong>{session.attempts ? `${session.attempts} attempts` : "Ready to begin"}</strong></div>
+        <div><span>Accuracy</span><strong>{session.attempts ? `${accuracy}%` : "—"}</strong></div>
+        <div><span>Current mastery</span><strong>{currentMastery}%</strong></div>
+        <div><span>Content status</span><strong>{problem.reviewStatus === "reviewed" ? "Human reviewed" : "Draft support"}</strong></div>
+      </div>
+
+      <main className="learning-layout" aria-label="Adaptive learning workspace">
+        <article className="question-stage" id="practice">
+          <div className="question-toolbar">
             <div>
-              <span>Recommended from problem bank</span>
-              <h2>{problem.conceptLabel}</h2>
+              <span>{problem.id.replace("amc8_", "AMC8 · ").toUpperCase()}</span>
+              <strong>{problem.skills[0]?.replaceAll("_", " ") ?? problem.conceptLabel}</strong>
             </div>
             <div className="difficulty" aria-label={`Difficulty ${problem.difficulty} out of 5`}>
-              {Array.from({ length: 5 }, (_, index) => (
-                <span className={index < problem.difficulty ? "is-filled" : ""} key={index} />
-              ))}
+              {Array.from({ length: 5 }, (_, index) => <span className={index < problem.difficulty ? "is-filled" : ""} key={index} />)}
             </div>
           </div>
 
-          <div className="problem-body">
-            <div className="problem-meta">
-              <p className="concept-label">{problem.id.replace("amc8_", "AMC8 · ").toUpperCase()}</p>
-              {problem.skills[0] ? <span>{problem.skills[0].replaceAll("_", " ")}</span> : null}
-            </div>
-            <h3>{problem.statement}</h3>
-            <div className="math-choices" role="group" aria-label="Answer choices">
-              {problem.choices.map((choice) => {
-                const state = result
-                  ? choice === problem.answer
-                    ? "is-correct"
-                    : choice === selected
-                      ? "is-wrong"
-                      : ""
-                  : selected === choice
-                    ? "is-selected"
-                    : "";
+          <div className="question-content">
+            <p className="question-label">Choose the best answer</p>
+            <h2>{problem.statement}</h2>
+
+            {!session.result ? (
+              <div className="hint-region">
+                {session.hintVisible ? (
+                  <div className="hint-panel" role="status"><strong>Strategy hint</strong><p>{problem.hint}</p></div>
+                ) : (
+                  <button className="hint-button" onClick={revealHint} type="button">Need a hint?</button>
+                )}
+              </div>
+            ) : null}
+
+            <div className="answer-list" role="group" aria-label="Answer choices">
+              {problem.choices.map((choice, index) => {
+                const state = session.result
+                  ? choice === problem.answer ? "is-correct" : choice === session.selected ? "is-wrong" : ""
+                  : session.selected === choice ? "is-selected" : "";
                 return (
                   <button
-                    aria-pressed={selected === choice}
+                    aria-pressed={session.selected === choice}
                     className={state}
-                    disabled={Boolean(result)}
+                    disabled={Boolean(session.result)}
                     key={choice}
-                    onClick={() => setSelected(choice)}
+                    onClick={() => selectAnswer(choice)}
                     type="button"
                   >
-                    {choice}
+                    <span>{String.fromCharCode(65 + index)}</span><strong>{choice}</strong>
                   </button>
                 );
               })}
             </div>
 
-            {result ? (
-              <div className={`answer-feedback ${result.correct ? "is-correct" : "is-review"}`} role="status">
-                <strong>
-                  {result.correct
-                    ? "Correct — mastery updated"
-                    : result.remediation
-                      ? "Remediation triggered"
-                      : `Review ${problem.conceptLabel.toLowerCase()}`}
-                </strong>
-                <p>{problem.explanation}</p>
-              </div>
+            {session.result ? (
+              <section className={`learning-feedback ${session.result.correct ? "is-correct" : "is-review"}`} aria-live="polite">
+                <div className="feedback-verdict">
+                  <span>{session.result.correct ? "Answer confirmed" : session.result.remediation ? "Remediation activated" : "Review this idea"}</span>
+                  <strong>{session.result.correct ? "Correct reasoning signal" : `Correct answer: ${problem.answer}`}</strong>
+                </div>
+                <div className="feedback-grid">
+                  <div><span>Why it works</span><p>{problem.explanation}</p></div>
+                  <div><span>Watch for</span><p>{problem.misconceptionFeedback}</p></div>
+                </div>
+              </section>
             ) : null}
           </div>
 
-          <div className="practice-actions">
-            <span>{datasetStats.problems} answerable problems · {datasetStats.sourceRecords} source records</span>
-            {result ? (
-              <button className="primary-button" onClick={loadNextProblem} type="button">
-                Next recommendation
-              </button>
+          <footer className="question-actions">
+            <span>{session.selected ? `Selected answer: ${session.selected}` : "Select an answer when your reasoning is ready."}</span>
+            {session.result ? (
+              <button className="primary-button" onClick={loadNextProblem} type="button">Continue to recommendation</button>
             ) : (
-              <button className="primary-button" disabled={!selected} onClick={submitAnswer} type="button">
-                Check answer
-              </button>
+              <button className="primary-button" disabled={!session.selected} onClick={submitAnswer} type="button">Check reasoning</button>
             )}
-          </div>
+          </footer>
         </article>
 
-        <aside className="mastery-surface" aria-labelledby="mastery-title">
-          <div className="surface-heading compact">
-            <div>
-              <span>Adaptive engine state</span>
-              <h2 id="mastery-title">Priority concepts</h2>
-            </div>
-            <strong className="attempt-count">{attempts} attempts</strong>
+        <aside className="learning-rail" aria-labelledby="learning-path-title">
+          <div className="rail-section">
+            <span>Learning path</span>
+            <h2 id="learning-path-title">What the engine sees</h2>
+            <p>{session.result ? `This response updated ${problem.concepts.length} concept signal${problem.concepts.length > 1 ? "s" : ""}.` : "Your answer will update mastery and choose the next useful problem."}</p>
           </div>
-          <div className="mastery-list">
+
+          <div className="focus-signal">
+            <span>Reasoning focus</span>
+            <strong>{problem.patterns[0]?.replaceAll("_", " ") ?? "mathematical reasoning"}</strong>
+            <small>{problem.concepts.map((concept) => conceptNames.get(concept) ?? concept).join(" · ")}</small>
+          </div>
+
+          <div className="mastery-compact">
+            <div><span>Priority concepts</span><small>Lowest mastery first</small></div>
             {masteryRows.map(([concept, value]) => (
-              <div className="mastery-row" key={concept}>
-                <div>
-                  <span>{conceptNames.get(concept) ?? concept.replaceAll("_", " ")}</span>
-                  <strong>{Math.round(value * 100)}%</strong>
-                </div>
-                <div className="mastery-track">
-                  <span style={{ width: `${value * 100}%` }} />
-                </div>
+              <div className="mastery-compact-row" key={concept}>
+                <div><span>{conceptNames.get(concept) ?? concept.replaceAll("_", " ")}</span><strong>{Math.round(value * 100)}%</strong></div>
+                <div><span style={{ width: `${value * 100}%` }} /></div>
               </div>
             ))}
           </div>
-          <div className="next-focus">
-            <span>Next engine recommendation</span>
-            <strong>
-              {result?.nextProblemId
-                ? problems.find((item) => item.id === result.nextProblemId)?.conceptLabel
-                : problem.conceptLabel}
-            </strong>
-            <p>
-              {result
-                ? `Selected from ${result.weakConcepts.length} concepts below the mastery threshold.`
-                : "Submit an answer to update mastery and calculate the next problem."}
-            </p>
-          </div>
-          <div className="accuracy-row">
-            <span>Session accuracy</span>
-            <strong>{attempts ? `${accuracy}%` : "Not started"}</strong>
+
+          <div className="next-recommendation">
+            <span>{session.result ? "Next recommendation" : "Current focus"}</span>
+            <strong>{nextProblem?.conceptLabel ?? problem.conceptLabel}</strong>
+            <p>{session.result ? `Chosen from ${session.result.weakConcepts.length} concepts below the mastery threshold.` : "Complete this problem to calculate the next step."}</p>
           </div>
         </aside>
-      </section>
+      </main>
 
-      <section className="foundation-strip" aria-labelledby="foundation-title">
-        <div>
-          <p className="page-context">Learning foundation</p>
-          <h2 id="foundation-title">One validated problem bank, one adaptive engine.</h2>
-        </div>
+      <section className="quality-band" aria-label="Problem bank quality">
+        <div><span>Problem bank quality</span><strong>{datasetStats.reviewedProblems} reviewed learning experiences</strong></div>
         <dl>
-          <div>
-            <dt>Concepts</dt>
-            <dd>{datasetStats.concepts}</dd>
-          </div>
-          <div>
-            <dt>Answerable problems</dt>
-            <dd>{datasetStats.problems}</dd>
-          </div>
-          <div>
-            <dt>Textbook sources</dt>
-            <dd>{datasetStats.textbookSources}</dd>
-          </div>
+          <div><dt>Answerable</dt><dd>{datasetStats.problems}/{datasetStats.sourceRecords}</dd></div>
+          <div><dt>Concepts</dt><dd>{datasetStats.concepts}</dd></div>
+          <div><dt>Textbook sources</dt><dd>{datasetStats.textbookSources}</dd></div>
         </dl>
       </section>
     </div>

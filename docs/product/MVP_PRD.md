@@ -716,18 +716,21 @@ into a deeply individualized mathematical learning environment.
 Implemented vertical slice:
 
 - Adaptive Math Learning workspace at `/`
-- Reachable simulation dashboard at `/dashboard`
-- CSV-backed problem loader with 48 answerable AMC8 starter records
+- Reachable progress dashboard at `/dashboard`
+- CSV-backed problem loader with 50 answerable AMC8 starter records
+- All 50 starter problems manually reviewed with authored choices, hints, explanations, and misconception feedback
 - Concept-reference and generated-choice validation
 - Mastery updates, weakest-concept recommendation, and repeated-error remediation
 - Automated engine, loader, session, product-boundary, type, and build checks
+- Versioned browser-local learning-session recovery and project-isolated reset
+- Dashboard backed by saved student attempts with an explicit simulation fallback
 
 Current development focus:
 
 - Persistent student accounts and attempt history
 - Database-backed mastery state
 - Diagnostic session design
-- Increasing authored and reviewed problem coverage
+- Expanding the problem bank beyond the fully reviewed 50-problem starter set
 
 ---
 

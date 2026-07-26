@@ -12,6 +12,7 @@ export default function Home() {
   const datasetStats = {
     concepts: conceptCount,
     problems: problemBank.problems.length,
+    reviewedProblems: problemBank.problems.filter((problem) => problem.reviewStatus === "reviewed").length,
     sourceRecords: problemBank.totalRecords,
     textbookSources: 5,
   };

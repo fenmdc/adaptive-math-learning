@@ -48,14 +48,16 @@ The first version prioritizes:
 
 The current vertical slice includes:
 
-- A validated CSV-backed problem bank with 48 answerable records
+- A validated CSV-backed problem bank with 50 answerable records
+- All 50 starter problems manually reviewed with authored choices, hints, explanations, and misconception feedback
 - A concept ontology with reference validation
 - Adaptive mastery updates and weakest-concept recommendations
 - Remediation after repeated incorrect attempts
-- An interactive practice workspace and simulation dashboard
+- A versioned browser-local learning session with safe recovery and isolated reset
+- A focused practice workspace with hints, reasoning feedback, quality status, and a real-session progress dashboard
 - Automated engine, problem-loader, learning-session, data, and product-boundary checks
 
-Student accounts, persistent attempt history, and database-backed mastery are the next infrastructure milestone.
+Student accounts and database-backed multi-device mastery are the next infrastructure milestone. Browser-local sessions intentionally remain single-device and require no shared account or database state.
 
 Run the current quality gates with:
 

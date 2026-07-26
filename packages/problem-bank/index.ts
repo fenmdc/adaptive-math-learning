@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import type { PracticeProblem, ProblemBank } from "./types";
+import { createDraftLearningSupport, reviewedLearningSupport } from "./learning-support";
 
 type CsvRecord = Record<string, string>;
 
@@ -104,12 +105,18 @@ export function loadProblemBank(root = process.cwd()): ProblemBank {
   const problems = problemRecords.flatMap<PracticeProblem>((record) => {
     const concepts = splitTags(record.concepts);
     if (!record.id || !record.statement || !record.answer || !concepts.length) return [];
+    const reviewedSupport = reviewedLearningSupport[record.id];
+    const draftSupport = createDraftLearningSupport({
+      answer: record.answer,
+      misconception: record.misconceptions || undefined,
+      solution: record.solution,
+    });
 
     return [{
       id: record.id,
       statement: record.statement,
       answer: record.answer,
-      choices: record.choices ? splitTags(record.choices) : generateChoices(record.answer, record.id),
+      choices: reviewedSupport?.choices ?? (record.choices ? splitTags(record.choices) : generateChoices(record.answer, record.id)),
       difficulty: Number(record.difficulty) || 1,
       concepts,
       conceptLabel: conceptNames.get(concepts[0]) ?? concepts[0],
@@ -117,7 +124,10 @@ export function loadProblemBank(root = process.cwd()): ProblemBank {
       skills: splitTags(record.skills),
       patterns: splitTags(record.patterns),
       misconception: record.misconceptions || undefined,
-      explanation: record.solution || `The correct answer is ${record.answer}.`,
+      misconceptionFeedback: reviewedSupport?.misconceptionFeedback ?? draftSupport.misconceptionFeedback,
+      hint: reviewedSupport?.hint ?? draftSupport.hint,
+      explanation: reviewedSupport?.explanation ?? draftSupport.explanation,
+      reviewStatus: reviewedSupport ? "reviewed" : "draft",
     }];
   });
 

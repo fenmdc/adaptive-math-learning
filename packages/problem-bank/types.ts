@@ -10,7 +10,10 @@ export type PracticeProblem = {
   skills: string[];
   patterns: string[];
   misconception?: string;
+  misconceptionFeedback: string;
+  hint: string;
   explanation: string;
+  reviewStatus: "draft" | "reviewed";
 };
 
 export type ProblemBank = {

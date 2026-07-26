@@ -13,11 +13,26 @@ test("loadProblemBank exposes every answerable source record", () => {
   const bank = loadProblemBank();
 
   assert.equal(bank.totalRecords, 50);
-  assert.equal(bank.problems.length, 48);
-  assert.equal(bank.skippedRecords, 2);
+  assert.equal(bank.problems.length, 50);
+  assert.equal(bank.skippedRecords, 0);
   assert.ok(bank.problems.every((problem) => problem.choices.length === 4));
   assert.ok(bank.problems.every((problem) => new Set(problem.choices).size === 4));
   assert.ok(bank.problems.every((problem) => problem.choices.includes(problem.answer)));
+});
+
+test("reviewed problems include actionable learning support", () => {
+  const bank = loadProblemBank();
+  const reviewed = bank.problems.filter((problem) => problem.reviewStatus === "reviewed");
+
+  assert.deepEqual(
+    reviewed.map((problem) => problem.id),
+    Array.from({ length: 50 }, (_, index) => `amc8_p${String(index + 1).padStart(3, "0")}`),
+  );
+  assert.ok(reviewed.every((problem) => problem.statement.length >= 25));
+  assert.ok(bank.problems.every((problem) => problem.hint.length >= 20));
+  assert.ok(bank.problems.every((problem) => problem.explanation.length >= 30));
+  assert.ok(bank.problems.every((problem) => problem.misconceptionFeedback.length >= 20));
+  assert.ok(bank.problems.every((problem) => problem.choices.every((choice) => !choice.startsWith("Option "))));
 });
 
 test("generated choices are deterministic for numeric and symbolic answers", () => {
