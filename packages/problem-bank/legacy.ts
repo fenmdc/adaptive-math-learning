@@ -59,6 +59,7 @@ export const SUPPLEMENT_DATASET_IDS = [
   "cn-olympiad-foundations-v4",
   "english-core-diagnostic-v1",
   "algebra1-remediation-v1",
+  "amc8-strategy-v1",
 ];
 const SUPPLEMENT_PATHS = SUPPLEMENT_DATASET_IDS.map((datasetId) => [
   "datasets", "problem-bank", "supplements", datasetId,

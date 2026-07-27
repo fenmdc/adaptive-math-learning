@@ -26,7 +26,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8154);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8184);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -98,4 +98,18 @@ test("Algebra 1 remediation supplement exposes four prerequisite repair chains",
     { linear: 8, func: 8, system: 7, factor: 7 },
   );
   assert.ok(section.problems.every((problem) => problem.difficulty <= 3 && problem.reviewStatus === "reviewed"));
+});
+
+test("AMC8 strategy supplement strengthens five underrepresented concepts", () => {
+  const section = loadLearningSection({ language: "en", track: "amc", course: "AMC8", theme: "Strategy Foundations", limit: 100 });
+
+  assert.equal(section.total, 30);
+  assert.deepEqual(
+    Object.fromEntries(["prop", "ie", "sim", "arc", "range"].map((cluster) => [
+      cluster,
+      section.problems.filter((problem) => problem.id.startsWith(`amc8_strategy_v1_${cluster}_`)).length,
+    ])),
+    { prop: 6, ie: 6, sim: 6, arc: 6, range: 6 },
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
 });

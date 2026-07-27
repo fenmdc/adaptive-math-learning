@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "datasetId":"amc8-strategy-v1",
+  "createdAt":"2026-07-27",
+  "language":"en-US",
+  "course":"AMC8",
+  "source":{"type":"original","owner":"Adaptive Math Learning","note":"Original AMC8-level strategy items authored for this project; no past-paper text was copied."},
+  "review":{"status":"reviewed","method":"Manual answer, distractor, explanation, language, and metadata review","reviewedAt":"2026-07-27"},
+  "counts":{"problems":30,"explanations":30,"autoGradable":30,"manualReview":0,"themes":{"Strategy Foundations":30},"difficulty":{"2":2,"3":12,"4":11,"5":5}}
+}
