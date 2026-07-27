@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "cn-olympiad-foundations-v1",
+  "createdAt": "2026-07-27",
+  "language": "zh-CN",
+  "course": "CN Olympiad Lite",
+  "source": {
+    "type": "original",
+    "owner": "Adaptive Math Learning",
+    "note": "Original practice items authored for this project; no third-party problem text was copied."
+  },
+  "review": {
+    "status": "reviewed",
+    "method": "Manual answer, distractor, explanation, language, and metadata review",
+    "reviewedAt": "2026-07-27"
+  },
+  "counts": {
+    "problems": 18,
+    "explanations": 18,
+    "autoGradable": 18,
+    "manualReview": 0,
+    "themes": {"数论启蒙": 6, "计数启蒙": 6, "几何思维": 6},
+    "difficulty": {"1": 3, "2": 3, "3": 6, "4": 3, "5": 3}
+  }
+}

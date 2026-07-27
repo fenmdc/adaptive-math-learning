@@ -30,6 +30,7 @@ export type LegacyProblem = {
   curriculum?: { course?: string; [key: string]: unknown };
   taxonomy?: Record<string, unknown>;
   assets?: Array<{ type?: string; url?: string; alt?: string; role?: string }>;
+  reviewStatus?: "draft" | "reviewed" | "imported";
   [key: string]: unknown;
 };
 
@@ -51,9 +52,18 @@ export type LegacyProblemQuery = {
 };
 
 const DATASET_PATH = ["datasets", "problem-bank", "legacy-v1"];
+export const SUPPLEMENT_DATASET_IDS = [
+  "cn-olympiad-foundations-v1",
+  "cn-olympiad-foundations-v2",
+];
+const SUPPLEMENT_PATHS = SUPPLEMENT_DATASET_IDS.map((datasetId) => [
+  "datasets", "problem-bank", "supplements", datasetId,
+]);
 
 let cachedProblems: LegacyProblem[] | undefined;
 let cachedExplanations: Record<string, LegacyExplanation> | undefined;
+let cachedProblemBankProblems: LegacyProblem[] | undefined;
+let cachedProblemBankExplanations: Record<string, LegacyExplanation> | undefined;
 let cachedConceptNames: Map<string, string> | undefined;
 
 function readJson<T>(filename: string, root = process.cwd()): T {
@@ -70,6 +80,40 @@ export function loadLegacyExplanations(root = process.cwd()) {
   if (root !== process.cwd()) return readJson<Record<string, LegacyExplanation>>("example-explanations.json", root);
   cachedExplanations ??= readJson<Record<string, LegacyExplanation>>("example-explanations.json", root);
   return cachedExplanations;
+}
+
+function readSupplementJson<T>(datasetPath: string[], filename: string, root: string): T {
+  return JSON.parse(fs.readFileSync(path.join(root, ...datasetPath, filename), "utf8")) as T;
+}
+
+export function loadProblemBankProblems(root = process.cwd()) {
+  if (root !== process.cwd()) {
+    return [
+      ...loadLegacyProblems(root),
+      ...SUPPLEMENT_PATHS.flatMap((datasetPath) => readSupplementJson<LegacyProblem[]>(datasetPath, "problems.json", root)),
+    ];
+  }
+  cachedProblemBankProblems ??= [
+    ...loadLegacyProblems(root),
+    ...SUPPLEMENT_PATHS.flatMap((datasetPath) => readSupplementJson<LegacyProblem[]>(datasetPath, "problems.json", root)),
+  ];
+  return cachedProblemBankProblems;
+}
+
+export function loadProblemBankExplanations(root = process.cwd()) {
+  if (root !== process.cwd()) {
+    return Object.assign(
+      {},
+      loadLegacyExplanations(root),
+      ...SUPPLEMENT_PATHS.map((datasetPath) => readSupplementJson<Record<string, LegacyExplanation>>(datasetPath, "example-explanations.json", root)),
+    );
+  }
+  cachedProblemBankExplanations ??= Object.assign(
+    {},
+    loadLegacyExplanations(root),
+    ...SUPPLEMENT_PATHS.map((datasetPath) => readSupplementJson<Record<string, LegacyExplanation>>(datasetPath, "example-explanations.json", root)),
+  );
+  return cachedProblemBankExplanations;
 }
 
 function loadLegacyConceptNames(root = process.cwd()) {
@@ -89,7 +133,7 @@ export function queryLegacyProblems(query: LegacyProblemQuery = {}, root = proce
   const requestedLimit = Number.isFinite(query.limit) ? Math.trunc(query.limit!) : 25;
   const offset = Math.max(0, requestedOffset);
   const limit = Math.min(100, Math.max(1, requestedLimit));
-  const filtered = loadLegacyProblems(root).filter((problem) =>
+  const filtered = loadProblemBankProblems(root).filter((problem) =>
     (!query.course || problem.curriculum?.course === query.course)
     && (!query.concept || problem.concepts.includes(query.concept))
     && (!query.answerType || problem.answerType === query.answerType),
@@ -111,7 +155,7 @@ function choiceValues(problem: LegacyProblem) {
 }
 
 export function adaptLegacyProblem(problem: LegacyProblem, root = process.cwd()): PracticeProblem {
-  const explanations = loadLegacyExplanations(root);
+  const explanations = loadProblemBankExplanations(root);
   const conceptNames = loadLegacyConceptNames(root);
   const support = explanations[problem.id] ?? {};
   const concepts = problem.concepts.length ? problem.concepts : [problem.primaryConcept ?? "unmapped"];
@@ -137,7 +181,7 @@ export function adaptLegacyProblem(problem: LegacyProblem, root = process.cwd())
     source: problem.source,
     course: problem.curriculum?.course,
     asset: firstAsset?.url ? { url: firstAsset.url, alt: firstAsset.alt ?? "Problem illustration" } : undefined,
-    reviewStatus: "imported",
+    reviewStatus: problem.reviewStatus === "reviewed" ? "reviewed" : "imported",
   };
 }
 

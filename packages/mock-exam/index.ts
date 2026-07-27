@@ -1,5 +1,5 @@
 import { getProblemLanguage } from "../learning-catalog";
-import { adaptLegacyProblem, loadLegacyProblems, type LegacyProblem } from "../problem-bank/legacy";
+import { adaptLegacyProblem, loadProblemBankProblems, type LegacyProblem } from "../problem-bank/legacy";
 import type { MockExamConfig, MockExamPaper } from "./scoring";
 
 export { scoreMockExam } from "./scoring";
@@ -77,7 +77,7 @@ function selectSeeded(problems: LegacyProblem[], count: number, seed: string) {
 }
 
 export function createMockExamPaper(config: MockExamConfig, seed = `${config.id}:default`, root = process.cwd()): MockExamPaper {
-  const eligible = loadLegacyProblems(root)
+  const eligible = loadProblemBankProblems(root)
     .filter((problem) => getProblemLanguage(problem) === "en")
     .filter((problem) => problem.curriculum?.course === config.course)
     .filter((problem) => problem.isAutoGradable);

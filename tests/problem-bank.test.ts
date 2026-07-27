@@ -6,6 +6,8 @@ import {
   adaptLegacyProblem,
   loadLegacyExplanations,
   loadLegacyProblems,
+  loadProblemBankExplanations,
+  loadProblemBankProblems,
   queryLegacyProblems,
 } from "../packages/problem-bank/legacy";
 
@@ -64,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8013);
+  assert.equal(first.total, 8049);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -73,6 +75,23 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const normalized = queryLegacyProblems({ offset: Number.NaN, limit: Number.POSITIVE_INFINITY });
   assert.equal(normalized.offset, 0);
   assert.equal(normalized.limit, 25);
+});
+
+test("integrated problem bank appends reviewed supplements without changing the legacy snapshot", () => {
+  const legacy = loadLegacyProblems();
+  const integrated = loadProblemBankProblems();
+  const explanations = loadProblemBankExplanations();
+  const supplements = integrated.slice(legacy.length);
+
+  assert.equal(legacy.length, 8013);
+  assert.equal(integrated.length, 8049);
+  assert.equal(supplements.length, 36);
+  assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
+  assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
+  assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
+  assert.ok(supplements.every((problem) => problem.curriculum?.course === "CN Olympiad Lite"));
+  assert.ok(supplements.every((problem) => explanations[problem.id]?.stepByStep));
+  assert.ok(supplements.every((problem) => adaptLegacyProblem(problem).reviewStatus === "reviewed"));
 });
 
 test("legacy adapter keeps five choices and never auto-grades manual problems", () => {

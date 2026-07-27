@@ -26,7 +26,23 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8013);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8049);
+});
+
+test("Chinese Olympiad supplements expand balanced topic coverage", () => {
+  const track = buildLearningCatalog().find((item) => item.id === "cn-olympiad")!;
+  const course = track.courses.find((item) => item.course === "CN Olympiad Lite")!;
+
+  assert.equal(track.total, 38);
+  assert.equal(track.autoGradable, 38);
+  assert.deepEqual(
+    Object.fromEntries(course.themes.map((theme) => [theme.name, theme.total])),
+    { "几何思维": 12, "数论启蒙": 13, "计数启蒙": 13 },
+  );
+  const section = loadLearningSection({ language: "zh", track: "cn-olympiad", course: "CN Olympiad Lite", limit: 40 });
+  assert.equal(section.total, 38);
+  assert.equal(section.problems.length, 38);
+  assert.ok(new Set(section.problems.map((problem) => problem.difficulty)).size >= 5);
 });
 
 test("learning sections honor language, course, and theme filters", () => {

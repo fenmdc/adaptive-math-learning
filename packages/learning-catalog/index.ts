@@ -1,6 +1,6 @@
 import {
   adaptLegacyProblem,
-  loadLegacyProblems,
+  loadProblemBankProblems,
   type LegacyProblem,
 } from "../problem-bank/legacy";
 
@@ -86,7 +86,7 @@ export function getProblemTrack(problem: LegacyProblem) {
 }
 
 export function buildLearningCatalog(root = process.cwd()): CatalogTrack[] {
-  const problems = loadLegacyProblems(root);
+  const problems = loadProblemBankProblems(root);
 
   return LEARNING_TRACKS.map((track) => {
     const trackProblems = problems.filter((problem) => getProblemTrack(problem) === track.id);
@@ -124,7 +124,7 @@ export function buildLearningCatalog(root = process.cwd()): CatalogTrack[] {
 
 export function loadLearningSection(query: LearningSectionQuery, root = process.cwd()) {
   const limit = Math.min(100, Math.max(1, Math.trunc(query.limit ?? 40)));
-  const filtered = loadLegacyProblems(root)
+  const filtered = loadProblemBankProblems(root)
     .filter((problem) => getProblemLanguage(problem) === query.language)
     .filter((problem) => !query.track || getProblemTrack(problem) === query.track)
     .filter((problem) => !query.course || problem.curriculum?.course === query.course)
