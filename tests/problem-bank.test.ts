@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8067);
+  assert.equal(first.total, 8094);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,14 +84,28 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8067);
-  assert.equal(supplements.length, 54);
+  assert.equal(integrated.length, 8094);
+  assert.equal(supplements.length, 81);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
   assert.ok(supplements.every((problem) => problem.curriculum?.course === "CN Olympiad Lite"));
   assert.ok(supplements.every((problem) => explanations[problem.id]?.stepByStep));
   assert.ok(supplements.every((problem) => adaptLegacyProblem(problem).reviewStatus === "reviewed"));
+
+  const fourthBatch = supplements.filter((problem) => problem.source === "cn_olympiad_foundations_v4_original");
+  const clusterCounts = {
+    primeFactor: fourthBatch.filter((problem) => ["nt_primes", "nt_factorization"].includes(problem.primaryConcept ?? "")).length,
+    gcdLcm: fourthBatch.filter((problem) => ["nt_gcd", "nt_lcm"].includes(problem.primaryConcept ?? "")).length,
+    divisibility: fourthBatch.filter((problem) => problem.primaryConcept === "nt_divisibility").length,
+    casework: fourthBatch.filter((problem) => problem.primaryConcept === "counting_casework").length,
+    inclusionExclusion: fourthBatch.filter((problem) => problem.primaryConcept === "counting_inclusion_exclusion").length,
+    pigeonholeProbability: fourthBatch.filter((problem) => ["counting_pigeonhole", "counting_probability"].includes(problem.primaryConcept ?? "")).length,
+    angles: fourthBatch.filter((problem) => problem.primaryConcept === "geo_angles").length,
+    similarity: fourthBatch.filter((problem) => problem.primaryConcept === "geo_similarity").length,
+    circleArea: fourthBatch.filter((problem) => ["geo_circles", "geo_area"].includes(problem.primaryConcept ?? "")).length,
+  };
+  assert.deepEqual(clusterCounts, Object.fromEntries(Object.keys(clusterCounts).map((key) => [key, 3])));
 });
 
 test("legacy adapter keeps five choices and never auto-grades manual problems", () => {
