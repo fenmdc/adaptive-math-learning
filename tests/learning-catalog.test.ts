@@ -26,7 +26,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8184);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8208);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -112,4 +112,28 @@ test("AMC8 strategy supplement strengthens five underrepresented concepts", () =
     { prop: 6, ie: 6, sim: 6, arc: 6, range: 6 },
   );
   assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Chinese junior companion batch opens eight previously manual-only themes", () => {
+  const themes = [
+    "七年级有理数",
+    "七年级整式初步",
+    "七年级方程应用",
+    "七年级不等式",
+    "七年级三角形",
+    "七年级几何应用",
+    "七年级基础几何",
+    "七年级统计初步",
+  ];
+  const companion = themes.flatMap((theme) => loadLearningSection({
+    language: "zh",
+    track: "cn-school",
+    course: "CN Junior High Math",
+    theme,
+    limit: 10,
+  }).problems.filter((problem) => problem.id.startsWith("cn_junior_auto_v1_")));
+
+  assert.equal(companion.length, 24);
+  assert.equal(new Set(companion.map((problem) => problem.id.split("_")[4])).size, 8);
+  assert.ok(companion.every((problem) => problem.reviewStatus === "reviewed"));
 });
