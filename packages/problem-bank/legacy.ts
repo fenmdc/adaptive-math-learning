@@ -61,6 +61,7 @@ export const SUPPLEMENT_DATASET_IDS = [
   "algebra1-remediation-v1",
   "amc8-strategy-v1",
   "cn-junior-auto-v1",
+  "cn-senior-auto-v1",
 ];
 const SUPPLEMENT_PATHS = SUPPLEMENT_DATASET_IDS.map((datasetId) => [
   "datasets", "problem-bank", "supplements", datasetId,

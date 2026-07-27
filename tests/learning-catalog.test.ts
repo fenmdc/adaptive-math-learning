@@ -26,7 +26,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8208);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8229);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -135,5 +135,28 @@ test("Chinese junior companion batch opens eight previously manual-only themes",
 
   assert.equal(companion.length, 24);
   assert.equal(new Set(companion.map((problem) => problem.id.split("_")[4])).size, 8);
+  assert.ok(companion.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Chinese senior companion batch opens seven manual-only themes across three grades", () => {
+  const themes = [
+    "高一函数基础",
+    "高一二次函数",
+    "高一三角函数",
+    "高二数列",
+    "高二解析几何",
+    "高三导数",
+    "高三概率统计",
+  ];
+  const companion = themes.flatMap((theme) => loadLearningSection({
+    language: "zh",
+    track: "cn-school",
+    course: "CN Senior High Math",
+    theme,
+    limit: 10,
+  }).problems.filter((problem) => problem.id.startsWith("cn_senior_auto_v1_")));
+
+  assert.equal(companion.length, 21);
+  assert.equal(new Set(companion.map((problem) => problem.id.split("_")[4])).size, 7);
   assert.ok(companion.every((problem) => problem.reviewStatus === "reviewed"));
 });

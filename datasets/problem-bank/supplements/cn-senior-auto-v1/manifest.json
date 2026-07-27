@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "datasetId":"cn-senior-auto-v1",
+  "createdAt":"2026-07-27",
+  "language":"zh-CN",
+  "course":"CN Senior High Math",
+  "source":{"type":"adaptation","owner":"Adaptive Math Learning","note":"Objective companion items adapted from the project's preserved senior-high manual-response questions. sourceProblemId retains the link; original questions remain unchanged."},
+  "review":{"status":"reviewed","method":"Manual answer, distractor, explanation, source-link, language, and metadata review","reviewedAt":"2026-07-27"},
+  "counts":{"problems":21,"explanations":21,"autoGradable":21,"manualReview":0,"themes":{"高一函数基础":3,"高一二次函数":3,"高一三角函数":3,"高二数列":3,"高二解析几何":3,"高三导数":3,"高三概率统计":3},"difficulty":{"2":12,"3":9}}
+}

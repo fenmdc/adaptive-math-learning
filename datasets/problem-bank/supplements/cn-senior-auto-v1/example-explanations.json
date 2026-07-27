@@ -1,0 +1,23 @@
+{
+  "cn_senior_auto_v1_function_001":{"hint1":"分母不能为零。","hint2":"令 x-3=0 找到排除值。","stepByStep":"分式有意义要求 x-3≠0，所以 x≠3。","commonMistake":"把分子为零误当成定义域限制。","whyCorrect":"只有分母为零会使分式无意义。","variantIdea":"把分母改为 x+2 后求定义域。"},
+  "cn_senior_auto_v1_function_002":{"hint1":"复合函数要先算内层。","hint2":"先求 g(2)，再代入 f。","stepByStep":"g(2)=2×2-3=1，f(1)=1²+1=2。","commonMistake":"直接把 2 代入 f 而跳过 g。","whyCorrect":"复合函数 f(g(2)) 按内到外顺序计算。","variantIdea":"求 f(g(3))。"},
+  "cn_senior_auto_v1_function_003":{"hint1":"看一次函数的斜率。","hint2":"斜率为负时函数递减。","stepByStep":"y=-3x+5 的斜率为 -3<0，因此单调递减。","commonMistake":"只看常数项 5 判断变化。","whyCorrect":"一次函数单调性由 x 的系数符号决定。","variantIdea":"判断 y=4x-1 的单调性。"},
+  "cn_senior_auto_v1_quadratic_001":{"hint1":"先配成顶点式。","hint2":"x²-6x+9=(x-3)²。","stepByStep":"y=x²-6x+11=(x-3)²+2，所以顶点是 (3,2)。","commonMistake":"把顶点横坐标写成 -3。","whyCorrect":"顶点式 y=(x-h)²+k 的顶点为 (h,k)。","variantIdea":"求 y=x²+4x+7 的顶点。"},
+  "cn_senior_auto_v1_quadratic_002":{"hint1":"恒非负可用判别式。","hint2":"令判别式不大于零。","stepByStep":"Δ=(-2)²-4k=4-4k≤0，得 k≥1。","commonMistake":"把 Δ<0 当成唯一条件，漏掉重根。","whyCorrect":"抛物线开口向上且无负值，允许在顶点取零。","variantIdea":"求 x²+4x+k>0 恒成立的 k 范围。"},
+  "cn_senior_auto_v1_quadratic_003":{"hint1":"一个实根意味着判别式为零。","hint2":"计算 4-4k。","stepByStep":"Δ=(-2)²-4k=0，故 k=1。","commonMistake":"把 Δ<0 的无实根当成一个实根。","whyCorrect":"Δ=0 时两个根重合，恰有一个不同实根。","variantIdea":"改变一次项系数后再求参数。"},
+  "cn_senior_auto_v1_trig_001":{"hint1":"角度转弧度乘 π/180。","hint2":"约分 150/180。","stepByStep":"150°=150×π/180=5π/6。","commonMistake":"误乘 180/π。","whyCorrect":"180°对应 π 弧度。","variantIdea":"把 225° 化为弧度。"},
+  "cn_senior_auto_v1_trig_002":{"hint1":"使用特殊角值表。","hint2":"30°、60°、45°分别对应常见三角形。","stepByStep":"sin30°=1/2，cos60°=1/2，tan45°=1。","commonMistake":"把 sin60°的 √3/2 套到 cos60°。","whyCorrect":"这些值来自 30-60-90 和 45-45-90 三角形。","variantIdea":"求 cos30°、sin60°、tan60°。"},
+  "cn_senior_auto_v1_trig_003":{"hint1":"210°在第三象限。","hint2":"参考角是 30°。","stepByStep":"第三象限正弦为负，参考角 210°-180°=30°，所以 sin210°=-1/2。","commonMistake":"只记参考角而忘记象限符号。","whyCorrect":"单位圆第三象限 y 坐标为负。","variantIdea":"求 cos210°。"},
+  "cn_senior_auto_v1_sequence_001":{"hint1":"第 n 项使用 n-1 个公差。","hint2":"代入 a_n=a_1+(n-1)d。","stepByStep":"a12=3+11×4=47。","commonMistake":"误算成 3+12×4。","whyCorrect":"从第1项到第12项只增加11次公差。","variantIdea":"求第20项。"},
+  "cn_senior_auto_v1_sequence_002":{"hint1":"等比第 n 项含 n-1 次公比。","hint2":"计算 3 的四次方。","stepByStep":"a5=2×3^4=2×81=162。","commonMistake":"乘了五次公比。","whyCorrect":"首项到第五项经历四次倍率变化。","variantIdea":"求第6项。"},
+  "cn_senior_auto_v1_sequence_003":{"hint1":"先求第20项。","hint2":"等差和等于项数乘首末项平均数。","stepByStep":"a20=5+19×3=62，S20=20×(5+62)/2=670。","commonMistake":"把公差 3 当成末项。","whyCorrect":"首末项为5和62，平均数为33.5。","variantIdea":"求前10项和。"},
+  "cn_senior_auto_v1_coordinate_001":{"hint1":"斜率是纵坐标差除横坐标差。","hint2":"计算 (10-2)/(5-1)。","stepByStep":"k=(10-2)/(5-1)=8/4=2。","commonMistake":"把分子分母颠倒。","whyCorrect":"每增加1个横坐标，纵坐标增加2。","variantIdea":"求过两点的直线方程。"},
+  "cn_senior_auto_v1_coordinate_002":{"hint1":"圆的标准方程为 (x-a)²+(y-b)²=r²。","hint2":"圆心纵坐标为 -1。","stepByStep":"代入 (a,b)=(2,-1)、r=3，得 (x-2)²+(y+1)²=9。","commonMistake":"圆心坐标代入时不变号。","whyCorrect":"圆上点到圆心距离恒为3。","variantIdea":"把半径改为5。"},
+  "cn_senior_auto_v1_coordinate_003":{"hint1":"使用点到直线距离公式。","hint2":"先算分子绝对值，再除以 √(3²+4²)。","stepByStep":"d=|3+8-10|/5=1/5。","commonMistake":"忘记分母的平方根。","whyCorrect":"公式同时按直线法向量长度归一化。","variantIdea":"改变点坐标后重新计算。"},
+  "cn_senior_auto_v1_derivative_001":{"hint1":"逐项使用幂函数求导。","hint2":"常数项导数为零。","stepByStep":"(x³)'=3x²，(-3x²)'=-6x，2'=0，所以 f'=3x²-6x。","commonMistake":"把常数 2 保留下来。","whyCorrect":"导数表示瞬时变化率，常数没有变化。","variantIdea":"求 x^4-2x 的导数。"},
+  "cn_senior_auto_v1_derivative_002":{"hint1":"切线斜率等于该点导数值。","hint2":"先求 f'(x)=2x。","stepByStep":"f'(2)=2×2=4，所以切线斜率为4。","commonMistake":"把 f(2)=5 当作斜率。","whyCorrect":"导数定义的就是切线斜率。","variantIdea":"求 x=3 处切线斜率。"},
+  "cn_senior_auto_v1_derivative_003":{"hint1":"在闭区间比较顶点和端点。","hint2":"先配方找到顶点。","stepByStep":"f=(x-2)²-3，顶点 x=2 在 [0,3] 内，函数值为 -3。","commonMistake":"只比较 x=0 和 x=3。","whyCorrect":"闭区间最小值可能在内部临界点取得。","variantIdea":"求同一区间最大值。"},
+  "cn_senior_auto_v1_probability_001":{"hint1":"用并集计数避免重复。","hint2":"偶数与3的倍数交集是6。","stepByStep":"有利数=5+3-1=7，概率为7/10。","commonMistake":"把5和3直接相加。","whyCorrect":"1到10共有10个等可能结果。","variantIdea":"改为偶数或5的倍数。"},
+  "cn_senior_auto_v1_probability_002":{"hint1":"条件已知第一次是红球。","hint2":"剩余4球中有2个红球。","stepByStep":"第二次取红概率=2/4=1/2。","commonMistake":"仍以5个球作分母。","whyCorrect":"不放回取球后总数和红球数都减少。","variantIdea":"改为第一次取白球。"},
+  "cn_senior_auto_v1_probability_003":{"hint1":"至少一人命中用补事件。","hint2":"先求两人都未命中。","stepByStep":"P=1-(1-0.8)(1-0.6)=1-0.08=0.92。","commonMistake":"直接相加 0.8+0.6。","whyCorrect":"独立性使两人都未命中概率可相乘。","variantIdea":"求恰好一人命中概率。"}
+}

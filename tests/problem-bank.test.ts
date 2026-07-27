@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8208);
+  assert.equal(first.total, 8229);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,8 +84,8 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8208);
-  assert.equal(supplements.length, 195);
+  assert.equal(integrated.length, 8229);
+  assert.equal(supplements.length, 216);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
@@ -104,6 +104,15 @@ test("integrated problem bank appends reviewed supplements without changing the 
     return source?.answerType === "manual"
       && !source.isAutoGradable
       && source.curriculum?.course === "CN Junior High Math"
+      && source.curriculum?.theme === problem.curriculum?.theme;
+  }));
+  const chineseSeniorCompanions = supplements.filter((problem) => problem.source === "cn_senior_auto_v1_adaptation");
+  assert.equal(chineseSeniorCompanions.length, 21);
+  assert.ok(chineseSeniorCompanions.every((problem) => {
+    const source = legacy.find((candidate) => candidate.id === problem.sourceProblemId);
+    return source?.answerType === "manual"
+      && !source.isAutoGradable
+      && source.curriculum?.course === "CN Senior High Math"
       && source.curriculum?.theme === problem.curriculum?.theme;
   }));
   assert.ok(supplements.filter((problem) => problem.source?.startsWith("cn_olympiad")).every((problem) => problem.curriculum?.course === "CN Olympiad Lite"));
