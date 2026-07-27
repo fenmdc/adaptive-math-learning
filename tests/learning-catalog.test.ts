@@ -26,7 +26,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8124);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8154);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -76,4 +76,26 @@ test("English Core diagnostic supplement exposes five reviewed concept clusters"
     { ratio: 6, model: 6, ineq: 6, coord: 6, angle: 6 },
   );
   assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Algebra 1 remediation supplement exposes four prerequisite repair chains", () => {
+  const section = loadLearningSection({
+    language: "en",
+    track: "english-core",
+    course: "Algebra 1",
+    theme: "Remediation Foundations",
+    limit: 100,
+  });
+
+  assert.equal(section.total, 30);
+  assert.deepEqual(
+    Object.fromEntries(
+      ["linear", "func", "system", "factor"].map((cluster) => [
+        cluster,
+        section.problems.filter((problem) => problem.id.startsWith(`alg1_rem_v1_${cluster}_`)).length,
+      ]),
+    ),
+    { linear: 8, func: 8, system: 7, factor: 7 },
+  );
+  assert.ok(section.problems.every((problem) => problem.difficulty <= 3 && problem.reviewStatus === "reviewed"));
 });
