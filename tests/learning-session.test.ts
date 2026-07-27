@@ -11,6 +11,7 @@ import {
   runLearningAttempt,
   saveLearningSession,
 } from "../packages/learning-session";
+import { ACCOUNT_LIST_KEY, ACTIVE_ACCOUNT_KEY, accountScopedKey } from "../packages/accounts";
 import type { PracticeProblem } from "../packages/problem-bank/types";
 
 const problems: PracticeProblem[] = [
@@ -115,6 +116,39 @@ test("reset removes only the adaptive math session key", () => {
   clearLearningSession(storage);
   assert.equal(values.has(LEARNING_SESSION_STORAGE_KEY), false);
   assert.equal(values.get("another-project:session"), "keep");
+});
+
+test("learning sessions are isolated by active account", () => {
+  const accounts = [{
+    id: "student-a", name: "A", role: "student", level: "AMC8", goal: "Practice", accent: "blue",
+    createdAt: "2026-07-25T00:00:00.000Z", lastUsedAt: "2026-07-25T00:00:00.000Z", updatedAt: "2026-07-25T00:00:00.000Z",
+  }, {
+    id: "student-b", name: "B", role: "student", level: "Pre-Algebra", goal: "Practice", accent: "green",
+    createdAt: "2026-07-25T00:00:00.000Z", lastUsedAt: "2026-07-25T00:00:00.000Z", updatedAt: "2026-07-25T00:00:00.000Z",
+  }];
+  const values = new Map<string, string>([
+    [ACCOUNT_LIST_KEY, JSON.stringify(accounts)],
+    [ACTIVE_ACCOUNT_KEY, "student-a"],
+  ]);
+  const storage = {
+    getItem: (key: string) => values.get(key) ?? null,
+    setItem: (key: string, value: string) => values.set(key, value),
+    removeItem: (key: string) => values.delete(key),
+  };
+  const session = createInitialLearningSession(problems);
+
+  saveLearningSession(storage, session, "2026-07-25T08:00:00.000Z");
+  assert.ok(values.has(accountScopedKey(LEARNING_SESSION_STORAGE_KEY, "student-a")));
+  assert.equal(loadLearningSession(storage, problems, "student-b"), undefined);
+
+  values.set(ACTIVE_ACCOUNT_KEY, "student-b");
+  saveLearningSession(storage, { ...session, attempts: 1 }, "2026-07-25T09:00:00.000Z");
+  assert.equal(loadLearningSession(storage, problems, "student-a")?.attempts, 0);
+  assert.equal(loadLearningSession(storage, problems, "student-b")?.attempts, 1);
+
+  clearLearningSession(storage, "student-b");
+  assert.ok(values.has(accountScopedKey(LEARNING_SESSION_STORAGE_KEY, "student-a")));
+  assert.equal(values.has(accountScopedKey(LEARNING_SESSION_STORAGE_KEY, "student-b")), false);
 });
 
 test("storage restrictions fall back without breaking the learning session", () => {

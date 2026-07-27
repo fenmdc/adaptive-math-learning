@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="90" y1="249" x2="660" y2="249" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="268" y1="40" x2="268" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="176" y1="180" x2="222" y2="111" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="176" y1="180" x2="222" y2="180" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="222" y1="180" x2="222" y2="111" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="176" cy="180" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="222" cy="111" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="186" y="170" font-size="18" fill="#374151">(-4, 3)</text>
+<text x="232" y="101" font-size="18" fill="#374151">(-2, 6)</text>
+<text x="318" y="35" font-size="18" fill="#5b6b6f">slope</text>
+</g>
+</svg>

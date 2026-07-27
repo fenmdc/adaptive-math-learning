@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="270" y="42" font-size="20" fill="#5b6b6f">distance = rate x time</text>
+<rect x="120" y="112" width="260" height="76" rx="6" fill="#eef7f6" stroke="#2f5f63" stroke-width="4"/>
+<rect x="120" y="220" width="300" height="76" rx="6" fill="#fbfaf6" stroke="#b45309" stroke-width="4"/>
+<text x="152" y="158" font-size="21" fill="#374151">downhill: 4 x 2/5 = 8/5</text>
+<text x="152" y="266" font-size="21" fill="#374151">uphill: 2 x 3/5 = 6/5</text>
+<text x="456" y="168" font-size="22" fill="#b45309">total = 14/5</text>
+<text x="456" y="266" font-size="22" fill="#b45309">downhill fraction = 8/14</text>
+</g>
+</svg>

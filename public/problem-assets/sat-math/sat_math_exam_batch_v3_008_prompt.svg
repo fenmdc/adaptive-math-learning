@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="260" y="42" font-size="20" fill="#5b6b6f">perfect square trinomial</text>
+<rect x="108" y="126" width="190" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<rect x="462" y="126" width="190" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<text x="132" y="178" font-size="21" fill="#374151">x^2 + 10x + c</text>
+<text x="492" y="178" font-size="21" fill="#374151">(x + 5)^2</text>
+<line x1="300" y1="170" x2="460" y2="170" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="286" y="264" font-size="22" fill="#b45309">half of 10 is 5, and 5^2 = 25</text>
+</g>
+</svg>

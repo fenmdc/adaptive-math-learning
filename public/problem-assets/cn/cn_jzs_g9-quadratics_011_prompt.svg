@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="96" y1="260" x2="666" y2="260" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="380" y1="42" x2="380" y2="312" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<polyline points="170,-76 180.5,-37 191,0 201.5,35 212,68 222.5,99 233,128 243.5,155 254,180 264.5,203 275,224 285.5,243 296,260 306.5,275 317,288 327.5,299 338,308 348.5,315 359,320 369.5,323 380,324 390.5,323 401,320 411.5,315 422,308 432.5,299 443,288 453.5,275 464,260 474.5,243 485,224 495.5,203 506,180 516.5,155 527,128 537.5,99 548,68 558.5,35 569,0 579.5,-37 590,-76" fill="none" stroke="#2f5f63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="296" cy="260" r="7" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<circle cx="464" cy="260" r="7" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="260" y="330" font-size="20" fill="#374151">根: 4, 8</text>
+<text x="318" y="42" font-size="20" fill="#5b6b6f">二次函数图像</text>
+</g>
+</svg>

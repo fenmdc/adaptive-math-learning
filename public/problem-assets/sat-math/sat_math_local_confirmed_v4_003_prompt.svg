@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="276" y="42" font-size="20" fill="#5b6b6f">parallel lines share slope</text>
+<line x1="112" y1="86" x2="638" y2="300" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="112" y1="132" x2="638" y2="346" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="154" y="92" font-size="22" fill="#374151">y = -3x + 4</text>
+<text x="374" y="306" font-size="22" fill="#b45309">6x + 2y = 15</text>
+<text x="292" y="190" font-size="24" fill="#111827">same slope: -3</text>
+<text x="234" y="336" font-size="21" fill="#374151">rewrite as y = -3x + 15/2</text>
+</g>
+</svg>

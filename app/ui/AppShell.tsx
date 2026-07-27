@@ -1,9 +1,13 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import AccountBar from "./AccountBar";
 
 const navigation = [
   { href: "/", label: "Learning workspace", short: "Learn" },
+  { href: "/library", label: "Learning sections", short: "Sections" },
+  { href: "/exams", label: "Mock exams", short: "Exams" },
   { href: "/dashboard", label: "Progress dashboard", short: "Progress" },
+  { href: "/accounts", label: "Learner profiles", short: "Profiles" },
 ];
 
 function ProductMark() {
@@ -59,7 +63,10 @@ export default function AppShell({
           </p>
         </div>
       </aside>
-      <main className="app-main">{children}</main>
+      <main className="app-main">
+        <AccountBar />
+        {children}
+      </main>
     </div>
   );
 }

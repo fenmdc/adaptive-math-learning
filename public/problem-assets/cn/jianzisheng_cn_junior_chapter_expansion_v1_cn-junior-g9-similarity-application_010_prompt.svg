@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<polygon points="110,270 230,105 350,270" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="430,270 585,55 700,270" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<text x="200" y="92" font-size="18" fill="#374151">A</text>
+<text x="96" y="292" font-size="18" fill="#374151">D</text>
+<text x="346" y="292" font-size="18" fill="#374151">E</text>
+<text x="580" y="42" font-size="18" fill="#374151">A</text>
+<text x="416" y="292" font-size="18" fill="#374151">B</text>
+<text x="698" y="292" font-size="18" fill="#374151">C</text>
+<text x="274" y="48" font-size="19" fill="#5b6b6f">对应角相等 -&gt; 三角形相似</text>
+<text x="418" y="318" font-size="18" fill="#b45309">对应边成比例</text>
+</g>
+</svg>

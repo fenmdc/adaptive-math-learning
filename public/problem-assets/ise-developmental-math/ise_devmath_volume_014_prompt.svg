@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="282" y="44" font-size="20" fill="#5b6b6f">volume = length x width x height</text>
+<polygon points="210,130 485,130 560,82 285,82" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="485,130 560,82 560,246 485,294" fill="#eef6f7" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="210,130 485,130 485,294 210,294" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="210" y1="294" x2="285" y2="246" stroke="#2f5f63" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="285" y1="82" x2="285" y2="246" stroke="#2f5f63" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="285" y1="246" x2="560" y2="246" stroke="#2f5f63" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<text x="328" y="324" font-size="22" fill="#374151">7</text>
+<text x="528" y="274" font-size="22" fill="#374151">4</text>
+<text x="176" y="220" font-size="22" fill="#374151">6</text>
+<text x="300" y="194" font-size="22" fill="#b45309">7 x 4 x 6</text>
+</g>
+</svg>

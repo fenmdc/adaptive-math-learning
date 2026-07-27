@@ -11,6 +11,7 @@ import {
   saveLearningSession,
   type LearningSessionState,
 } from "@/packages/learning-session";
+import { ACCOUNT_CHANGE_EVENT, getActiveAccountId } from "@/packages/accounts";
 import type { PracticeProblem } from "@/packages/problem-bank/types";
 
 type DatasetStats = {
@@ -19,6 +20,9 @@ type DatasetStats = {
   reviewedProblems: number;
   sourceRecords: number;
   textbookSources: number;
+  importedProblems: number;
+  autoGradableProblems: number;
+  manualReviewProblems: number;
 };
 
 export default function LearningWorkbench({
@@ -31,8 +35,13 @@ export default function LearningWorkbench({
   const [session, setSession] = useState<LearningSessionState>(() => createInitialLearningSession(problems));
 
   useEffect(() => {
-    const stored = loadLearningSession(window.localStorage, problems);
-    if (stored) setSession(stored);
+    const reload = () => {
+      const accountId = getActiveAccountId(window.localStorage);
+      setSession(loadLearningSession(window.localStorage, problems, accountId) ?? createInitialLearningSession(problems));
+    };
+    reload();
+    window.addEventListener(ACCOUNT_CHANGE_EVENT, reload);
+    return () => window.removeEventListener(ACCOUNT_CHANGE_EVENT, reload);
   }, [problems]);
 
   const problem = problems.find((item) => item.id === session.problemId) ?? problems[0];
@@ -119,7 +128,7 @@ export default function LearningWorkbench({
         <div><span>Session</span><strong>{session.attempts ? `${session.attempts} attempts` : "Ready to begin"}</strong></div>
         <div><span>Accuracy</span><strong>{session.attempts ? `${accuracy}%` : "—"}</strong></div>
         <div><span>Current mastery</span><strong>{currentMastery}%</strong></div>
-        <div><span>Content status</span><strong>{problem.reviewStatus === "reviewed" ? "Human reviewed" : "Draft support"}</strong></div>
+        <div><span>Content status</span><strong>{problem.reviewStatus === "reviewed" ? "Human reviewed" : problem.reviewStatus === "imported" ? "Previous library" : "Draft support"}</strong></div>
       </div>
 
       <main className="learning-layout" aria-label="Adaptive learning workspace">
@@ -137,6 +146,7 @@ export default function LearningWorkbench({
           <div className="question-content">
             <p className="question-label">Choose the best answer</p>
             <h2>{problem.statement}</h2>
+            {problem.asset ? <img className="problem-asset" src={problem.asset.url} alt={problem.asset.alt} /> : null}
 
             {!session.result ? (
               <div className="hint-region">
@@ -224,11 +234,12 @@ export default function LearningWorkbench({
       </main>
 
       <section className="quality-band" aria-label="Problem bank quality">
-        <div><span>Problem bank quality</span><strong>{datasetStats.reviewedProblems} reviewed learning experiences</strong></div>
+        <div><span>Problem bank quality</span><strong>{datasetStats.importedProblems.toLocaleString()} previous problems now available</strong></div>
         <dl>
-          <div><dt>Answerable</dt><dd>{datasetStats.problems}/{datasetStats.sourceRecords}</dd></div>
+          <div><dt>Human reviewed</dt><dd>{datasetStats.reviewedProblems}</dd></div>
+          <div><dt>Auto gradable</dt><dd>{datasetStats.autoGradableProblems.toLocaleString()}</dd></div>
+          <div><dt>Manual review</dt><dd>{datasetStats.manualReviewProblems}</dd></div>
           <div><dt>Concepts</dt><dd>{datasetStats.concepts}</dd></div>
-          <div><dt>Textbook sources</dt><dd>{datasetStats.textbookSources}</dd></div>
         </dl>
       </section>
     </div>

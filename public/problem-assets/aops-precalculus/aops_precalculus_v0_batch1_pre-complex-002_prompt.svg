@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="90" y1="116.1" x2="660" y2="116.1" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="181.1" y1="40" x2="181.1" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="181.1" y1="116.1" x2="283.3" y2="243.9" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="181.1" y1="116.1" x2="283.3" y2="116.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="283.3" y1="116.1" x2="283.3" y2="243.9" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="283.33333333333337" cy="243.88888888888889" r="7" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="293.3" y="233.9" font-size="18" fill="#374151">(4, -5)</text>
+<text x="338" y="35" font-size="18" fill="#5b6b6f">|z|</text>
+</g>
+</svg>

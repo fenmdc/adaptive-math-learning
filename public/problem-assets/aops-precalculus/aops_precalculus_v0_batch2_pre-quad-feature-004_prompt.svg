@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="92" y1="176" x2="668" y2="176" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="380" y1="42" x2="380" y2="312" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<polyline points="248,64.4 259,82.2 270,98.5 281,113.2 292,126.4 303,138 314,148.1 325,156.6 336,163.6 347,169 358,172.9 369,175.2 380,176 391,175.2 402,172.9 413,169 424,163.6 435,156.6 446,148.1 457,138 468,126.4 479,113.2 490,98.5 501,82.2 512,64.4" fill="none" stroke="#2f5f63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="380" cy="176" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="394" y="164" font-size="20" fill="#b45309">vertex value = 5</text>
+<text x="282" y="35" font-size="18" fill="#5b6b6f">minimum at vertex</text>
+</g>
+</svg>

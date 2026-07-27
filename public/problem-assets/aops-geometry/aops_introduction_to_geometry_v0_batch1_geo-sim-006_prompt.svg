@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="110,250 210,110 310,250" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="390,250 540,40 690,250" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<text x="146" y="184" font-size="22" fill="#374151">4</text>
+<text x="240" y="258" font-size="22" fill="#374151">8</text>
+<text x="438" y="158" font-size="22" fill="#374151">4</text>
+<text x="586" y="258" font-size="24" fill="#b45309">x</text>
+<text x="202" y="82" font-size="18" fill="#5b6b6f">similar</text>
+<text x="520" y="24" font-size="18" fill="#5b6b6f">scale factor</text>
+</g>
+</svg>

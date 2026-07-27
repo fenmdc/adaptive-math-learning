@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="160,230 230,80 500,100 570,260" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<text x="176" y="220" font-size="21" fill="#374151">76°</text>
+<text x="238" y="106" font-size="21" fill="#374151">90°</text>
+<text x="466" y="124" font-size="21" fill="#374151">103°</text>
+<text x="526" y="242" font-size="24" fill="#b45309">x</text>
+<text x="310" y="45" font-size="18" fill="#5b6b6f">angle sum = 360°</text>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="258" y="42" font-size="20" fill="#5b6b6f">rectangle area scaling</text>
+<rect x="120" y="148" width="190" height="118" rx="6" fill="#eef7f6" stroke="#2f5f63" stroke-width="4"/>
+<rect x="420" y="148" width="228" height="118" rx="6" fill="#eef7f6" stroke="#2f5f63" stroke-width="4"/>
+<text x="160" y="300" font-size="21" fill="#374151">length = L</text>
+<text x="468" y="300" font-size="21" fill="#b45309">length = 1.2L</text>
+<text x="318" y="216" font-size="20" fill="#374151">same width</text>
+<text x="220" y="104" font-size="21" fill="#374151">area = LW</text>
+<text x="462" y="104" font-size="21" fill="#b45309">area = 1.2LW</text>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="92" y1="176" x2="668" y2="176" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="380" y1="42" x2="380" y2="312" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<polyline points="248,287.6 259,269.8 270,253.5 281,238.8 292,225.6 303,214 314,203.9 325,195.4 336,188.4 347,183 358,179.1 369,176.8 380,176 391,176.8 402,179.1 413,183 424,188.4 435,195.4 446,203.9 457,214 468,225.6 479,238.8 490,253.5 501,269.8 512,287.6" fill="none" stroke="#2f5f63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="380" cy="176" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="394" y="164" font-size="20" fill="#b45309">vertex value = 3</text>
+<text x="282" y="35" font-size="18" fill="#5b6b6f">maximum at vertex</text>
+</g>
+</svg>

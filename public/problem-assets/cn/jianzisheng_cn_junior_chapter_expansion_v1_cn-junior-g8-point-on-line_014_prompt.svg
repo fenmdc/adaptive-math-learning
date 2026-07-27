@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="90" y1="218.3" x2="660" y2="218.3" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="206.7" y1="40" x2="206.7" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<circle cx="283.3" cy="141.7" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="293.3" y="131.7" font-size="18" fill="#374151">(2, 2)</text>
+<text x="332" y="34" font-size="18" fill="#5b6b6f">cn point on line</text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="245.2" x2="675" y2="245.2" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="141.9" y1="56" x2="141.9" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="163.8" y1="267.1" x2="273.3" y2="102.9" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="163.8" y1="267.1" x2="273.3" y2="267.1" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="273.3" y1="267.1" x2="273.3" y2="102.9" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="163.8" cy="267.1" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="273.3" cy="102.9" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="173.8" y="257.1" font-size="18" fill="#374151">(2, -2)</text>
+<text x="283.3" y="92.9" font-size="18" fill="#374151">(12, 13)</text>
+<text x="264" y="42" font-size="20" fill="#5b6b6f">distance formula visual</text>
+<text x="374" y="314" font-size="20" fill="#b45309">run = 10</text>
+<text x="590" y="182" font-size="20" fill="#b45309">rise = 15</text>
+<text x="292" y="338" font-size="20" fill="#374151">d = 5sqrt(13)</text>
+</g>
+</svg>

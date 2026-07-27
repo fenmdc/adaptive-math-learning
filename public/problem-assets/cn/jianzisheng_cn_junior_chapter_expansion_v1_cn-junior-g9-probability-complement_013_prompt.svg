@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<rect x="165" y="82" width="430" height="165" rx="24" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4"/>
+<circle cx="230" cy="145" r="18" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="280" cy="145" r="18" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="330" cy="145" r="18" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="380" cy="145" r="18" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="430" cy="145" r="18" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="480" cy="145" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="530" cy="145" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="230" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="280" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="330" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="380" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="430" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="480" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="530" cy="199" r="18" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<text x="260" y="292" font-size="22" fill="#374151">红球 5 个，蓝球 9 个</text>
+<text x="250" y="46" font-size="20" fill="#5b6b6f">概率 = 有利结果 / 总结果</text>
+</g>
+</svg>

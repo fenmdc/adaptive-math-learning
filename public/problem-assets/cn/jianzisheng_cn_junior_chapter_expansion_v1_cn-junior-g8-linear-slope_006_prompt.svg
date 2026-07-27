@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="90" y1="122.5" x2="660" y2="122.5" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="273.8" y1="40" x2="273.8" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="187.5" y1="237.5" x2="245" y2="122.5" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<circle cx="187.5" cy="237.5" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="197.5" y="227.5" font-size="18" fill="#374151">(-3, -4)</text>
+<circle cx="245" cy="122.5" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="255" y="112.5" font-size="18" fill="#374151">(-1, 0)</text>
+<text x="332" y="34" font-size="18" fill="#5b6b6f">cn linear slope from two points</text>
+</g>
+</svg>

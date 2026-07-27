@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="272.4" x2="675" y2="272.4" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="138.4" y1="56" x2="138.4" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="147.6" y1="235.6" x2="221.2" y2="97.6" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="147.6" y1="235.6" x2="221.2" y2="235.6" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="221.2" y1="235.6" x2="221.2" y2="97.6" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="147.6" cy="235.6" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="221.2" cy="97.6" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="157.6" y="225.6" font-size="18" fill="#374151">(1, 4)</text>
+<text x="231.2" y="87.6" font-size="18" fill="#374151">(9, 19)</text>
+<text x="292" y="42" font-size="20" fill="#5b6b6f">distance uses a right triangle</text>
+<text x="376" y="314" font-size="20" fill="#b45309">run = 8</text>
+<text x="590" y="182" font-size="20" fill="#b45309">rise = 15</text>
+</g>
+</svg>

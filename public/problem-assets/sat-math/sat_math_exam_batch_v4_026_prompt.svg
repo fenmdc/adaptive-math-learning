@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="292" y="42" font-size="20" fill="#5b6b6f">sin theta = 8/17</text>
+<polygon points="210,272 540,272 540,92" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="508" y1="272" x2="508" y2="240" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<line x1="508" y1="240" x2="540" y2="240" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<text x="358" y="306" font-size="22" fill="#374151">opposite = ?</text>
+<text x="560" y="190" font-size="22" fill="#374151">adjacent</text>
+<text x="350" y="168" font-size="22" fill="#374151">hypotenuse = 17</text>
+</g>
+</svg>

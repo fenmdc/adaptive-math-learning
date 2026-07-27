@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<circle cx="380" cy="180" r="112" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4"/>
+<circle cx="380" cy="180" r="5" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<line x1="380" y1="180" x2="492" y2="180" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="420" y="166" font-size="22" fill="#374151">r=8</text>
+<text x="300" y="46" font-size="20" fill="#5b6b6f">圆面积 A = πr²</text>
+</g>
+</svg>

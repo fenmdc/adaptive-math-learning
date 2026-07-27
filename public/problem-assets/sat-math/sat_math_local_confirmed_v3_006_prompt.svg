@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="250" y="42" font-size="20" fill="#5b6b6f">similar right triangles preserve sine</text>
+<polygon points="190,286 530,286 530,82" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="498" y1="286" x2="498" y2="254" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<line x1="498" y1="254" x2="530" y2="254" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<text x="354" y="320" font-size="22" fill="#b45309">AB = 12</text>
+<text x="548" y="190" font-size="22" fill="#374151">BC = 16</text>
+<text x="336" y="164" font-size="22" fill="#374151">AC = 20</text>
+<text x="202" y="274" font-size="20" fill="#374151">A</text>
+<text x="540" y="306" font-size="20" fill="#374151">B</text>
+<text x="540" y="82" font-size="20" fill="#374151">C</text>
+<text x="270" y="82" font-size="22" fill="#b45309">sin F = sin C = 12/20 = 3/5</text>
+</g>
+</svg>

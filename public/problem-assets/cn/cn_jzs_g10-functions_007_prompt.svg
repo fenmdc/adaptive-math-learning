@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="90" y1="245" x2="660" y2="245" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="328" y1="40" x2="328" y2="318" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="120" y1="290" x2="640" y2="90" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<circle cx="692" cy="70" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="704" y="60" font-size="18" fill="#374151">(7, 35)</text>
+<text x="286" y="42" font-size="22" fill="#5b6b6f">y = 4x + 7</text>
+</g>
+</svg>

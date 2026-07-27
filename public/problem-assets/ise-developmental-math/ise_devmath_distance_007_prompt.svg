@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="250.7" x2="675" y2="250.7" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="152.9" y1="56" x2="152.9" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="152.9" y1="250.7" x2="251.4" y2="119.3" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="152.9" y1="250.7" x2="251.4" y2="250.7" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="251.4" y1="250.7" x2="251.4" y2="119.3" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="152.85714285714286" cy="250.71428571428572" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="251.42857142857142" cy="119.2857142857143" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="162.9" y="240.7" font-size="18" fill="#374151">(0, 0)</text>
+<text x="261.4" y="109.3" font-size="18" fill="#374151">(6, 8)</text>
+<text x="292" y="42" font-size="20" fill="#5b6b6f">distance uses a right triangle</text>
+<text x="376" y="314" font-size="20" fill="#b45309">run = 6</text>
+<text x="590" y="182" font-size="20" fill="#b45309">rise = 8</text>
+</g>
+</svg>

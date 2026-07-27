@@ -1,4 +1,5 @@
 import { AdaptiveEngine, type AdaptiveState } from "../adaptive-engine";
+import { accountScopedKey, getActiveAccountId } from "../accounts";
 import type { PracticeProblem } from "../problem-bank/types";
 
 export const LEARNING_SESSION_STORAGE_KEY = "adaptive-math-learning:session:v1";
@@ -117,9 +118,13 @@ export function parseLearningSession(raw: string, problems: PracticeProblem[]): 
   return value as StoredLearningSession;
 }
 
-export function loadLearningSession(storage: LearningSessionStorage, problems: PracticeProblem[]) {
+export function loadLearningSession(
+  storage: LearningSessionStorage,
+  problems: PracticeProblem[],
+  accountId = getActiveAccountId(storage),
+) {
   try {
-    const raw = storage.getItem(LEARNING_SESSION_STORAGE_KEY);
+    const raw = storage.getItem(accountScopedKey(LEARNING_SESSION_STORAGE_KEY, accountId));
     return raw ? parseLearningSession(raw, problems) : undefined;
   } catch {
     return undefined;
@@ -130,19 +135,20 @@ export function saveLearningSession(
   storage: LearningSessionStorage,
   session: LearningSessionState,
   updatedAt = new Date().toISOString(),
+  accountId = getActiveAccountId(storage),
 ) {
   const stored: StoredLearningSession = {
     ...session,
     version: LEARNING_SESSION_SCHEMA_VERSION,
     updatedAt,
   };
-  storage.setItem(LEARNING_SESSION_STORAGE_KEY, JSON.stringify(stored));
+  storage.setItem(accountScopedKey(LEARNING_SESSION_STORAGE_KEY, accountId), JSON.stringify(stored));
   return stored;
 }
 
-export function clearLearningSession(storage: LearningSessionStorage) {
+export function clearLearningSession(storage: LearningSessionStorage, accountId = getActiveAccountId(storage)) {
   try {
-    storage.removeItem(LEARNING_SESSION_STORAGE_KEY);
+    storage.removeItem(accountScopedKey(LEARNING_SESSION_STORAGE_KEY, accountId));
   } catch {
     // Clearing browser storage is best-effort; callers still reset in-memory state.
   }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="246.9" x2="675" y2="246.9" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="155.4" y1="56" x2="155.4" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="173.1" y1="193.8" x2="208.5" y2="123.1" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="173.1" y1="193.8" x2="208.5" y2="193.8" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="208.5" y1="193.8" x2="208.5" y2="123.1" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="173.1" cy="193.8" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="208.5" cy="123.1" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="183.1" y="183.8" font-size="18" fill="#374151">(1, 3)</text>
+<text x="218.5" y="113.1" font-size="18" fill="#374151">(3, 7)</text>
+<text x="268" y="42" font-size="20" fill="#5b6b6f">point-slope form: y - y1 = m(x - x1)</text>
+<text x="402" y="314" font-size="20" fill="#b45309">m = 2</text>
+<text x="528" y="314" font-size="20" fill="#b45309">point = (1, 3)</text>
+</g>
+</svg>

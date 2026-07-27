@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="275.4" x2="675" y2="275.4" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="136.4" y1="56" x2="136.4" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="169.3" y1="217.9" x2="210.4" y2="94.6" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="169.3" y1="217.9" x2="210.4" y2="217.9" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="210.4" y1="217.9" x2="210.4" y2="94.6" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="169.28571428571428" cy="217.85714285714286" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="210.35714285714283" cy="94.64285714285717" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="179.3" y="207.9" font-size="18" fill="#374151">(4, 7)</text>
+<text x="220.4" y="84.6" font-size="18" fill="#374151">(9, 22)</text>
+<text x="274" y="42" font-size="20" fill="#5b6b6f">slope = rise / run</text>
+<text x="376" y="314" font-size="20" fill="#b45309">run = 5</text>
+<text x="590" y="182" font-size="20" fill="#b45309">rise = 15</text>
+</g>
+</svg>

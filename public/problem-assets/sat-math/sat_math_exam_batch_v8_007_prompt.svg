@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="306" y="42" font-size="20" fill="#5b6b6f">rectangle model</text>
+<rect x="190" y="112" width="380" height="160" rx="6" fill="#eef7f6" stroke="#2f5f63" stroke-width="4"/>
+<text x="328" y="304" font-size="22" fill="#374151">width = w</text>
+<text x="590" y="198" font-size="22" fill="#374151">length = 3w - 4</text>
+<text x="298" y="92" font-size="22" fill="#b45309">perimeter = 88</text>
+</g>
+</svg>

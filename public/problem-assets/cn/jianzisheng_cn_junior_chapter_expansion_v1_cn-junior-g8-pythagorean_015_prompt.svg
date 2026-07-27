@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<polygon points="210,270 560,270 560,90" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="538" y1="270" x2="538" y2="248" stroke="#2f5f63" stroke-width="2" stroke-linecap="round"/>
+<line x1="538" y1="248" x2="560" y2="248" stroke="#2f5f63" stroke-width="2" stroke-linecap="round"/>
+<text x="370" y="300" font-size="24" fill="#374151">13</text>
+<text x="580" y="188" font-size="24" fill="#374151">5</text>
+<text x="374" y="160" font-size="26" fill="#b45309">x</text>
+<text x="280" y="48" font-size="22" fill="#5b6b6f">a² + b² = c²</text>
+</g>
+</svg>

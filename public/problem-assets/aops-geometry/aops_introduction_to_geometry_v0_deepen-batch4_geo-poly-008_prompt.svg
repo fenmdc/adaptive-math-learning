@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="380,70 421,77.2 457.1,98.1 483.9,130 498.2,169.2 498.2,210.8 483.9,250 457.1,281.9 421,302.8 380,310 339,302.8 302.9,281.9 276.1,250 261.8,210.8 261.8,169.2 276.1,130 302.9,98.1 339,77.2" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<line x1="380" y1="70" x2="457.1" y2="98.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="483.9" y2="130" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="498.2" y2="169.2" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="498.2" y2="210.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="483.9" y2="250" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="457.1" y2="281.9" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="421" y2="302.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="380" y2="310" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="339" y2="302.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="302.9" y2="281.9" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="276.1" y2="250" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="261.8" y2="210.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="261.8" y2="169.2" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="276.1" y2="130" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="302.9" y2="98.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="336" y="42" font-size="22" fill="#374151">18-gon</text>
+<text x="268" y="322" font-size="18" fill="#5b6b6f">split into triangles</text>
+</g>
+</svg>

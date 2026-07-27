@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="260" y="42" font-size="22" fill="#5b6b6f">rate model: d = vt</text>
+<rect x="132" y="190" width="496" height="70" rx="8" fill="#eef7f6" stroke="#2f5f63" stroke-width="4"/>
+<rect x="182" y="132" width="92" height="58" rx="6" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<circle cx="216" cy="278" r="18" fill="#fbfaf6" stroke="#2f5f63" stroke-width="4"/>
+<circle cx="544" cy="278" r="18" fill="#fbfaf6" stroke="#2f5f63" stroke-width="4"/>
+<line x1="310" y1="154" x2="452" y2="154" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 438 146 L 452 154 L 438 162" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="236" y1="224" x2="506" y2="224" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 492 216 L 506 224 L 492 232" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="304" y="124" font-size="21" fill="#b45309">v = 11 m/min</text>
+<text x="456" y="186" font-size="21" fill="#374151">t = 5 min</text>
+<text x="282" y="330" font-size="24" fill="#374151">distance = 55 m</text>
+</g>
+</svg>

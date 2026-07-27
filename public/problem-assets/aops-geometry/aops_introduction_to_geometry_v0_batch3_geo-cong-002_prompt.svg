@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="120,250 230,90 340,250" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="450,250 560,90 670,250" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<text x="112" y="270" font-size="18" fill="#374151">A</text>
+<text x="226" y="82" font-size="18" fill="#374151">B</text>
+<text x="338" y="270" font-size="18" fill="#374151">C</text>
+<text x="442" y="270" font-size="18" fill="#374151">D</text>
+<text x="556" y="82" font-size="18" fill="#374151">E</text>
+<text x="668" y="270" font-size="18" fill="#374151">F</text>
+<text x="150" y="156" font-size="21" fill="#b45309">3x + 4</text>
+<text x="482" y="156" font-size="21" fill="#b45309">19</text>
+<text x="314" y="45" font-size="18" fill="#5b6b6f">corresponding sides</text>
+</g>
+</svg>

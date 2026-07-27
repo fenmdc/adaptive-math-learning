@@ -1,0 +1,433 @@
+[
+  {
+    "id": "sat_math_workbook_pilot_v0_001",
+    "statement": "4. The product of 3, 5, 7 is equal to one-half the sum of 20 and x. What is the values of x?",
+    "answer": "190",
+    "answerType": "numeric",
+    "choices": [],
+    "difficulty": 4,
+    "source": "sat_ready_pilot",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations",
+      "prealg_expressions",
+      "sat_grid_in"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions",
+      "arith_fractions"
+    ],
+    "skills": [
+      "equation_solving",
+      "expression_translation"
+    ],
+    "patterns": [
+      "linear_relationship",
+      "word_to_equation"
+    ],
+    "misconceptions": [
+      "translation_error",
+      "inverse_operation_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "Classified as Algebra. The source solution gives the numeric answer 190. Source solution cue: . 190. 22F* —3x5x7= 105 = 20 +x=210 => x= 190",
+    "curriculum": {
+      "course": "SAT Math",
+      "theme": "Algebra",
+      "chapter": "sat-algebra",
+      "chapterTitle": "Algebra",
+      "sequence": 90000,
+      "sourceCollection": "sat_ready_pilot"
+    },
+    "taxonomy": {
+      "version": "v0",
+      "layer": "Standard",
+      "stage": "Algebra Readiness",
+      "problemType": "equation_solving_grid_in",
+      "cognitiveTags": [
+        "modeling",
+        "symbol_manipulation"
+      ],
+      "estimatedTimeSeconds": 120
+    },
+    "locale": {
+      "language": "en",
+      "curriculumSystem": "US",
+      "region": "US",
+      "displayTrack": "SAT Math Pilot",
+      "gradeBand": "High School",
+      "contentStatus": "pilot"
+    }
+  },
+  {
+    "id": "sat_math_workbook_pilot_v0_005",
+    "statement": "1. If 5.16 is rounded to the nearest tenth and the result is doubled, what is the final result?",
+    "answer": "10.4",
+    "answerType": "multiple_choice",
+    "choices": [
+      {
+        "label": "A",
+        "value": "10.4",
+        "text": "10.4"
+      },
+      {
+        "label": "B",
+        "value": "10.3",
+        "text": "10.3",
+        "distractorId": "sat_math_workbook_pilot_v0_005_d1"
+      },
+      {
+        "label": "C",
+        "value": "10.2",
+        "text": "10.2",
+        "distractorId": "sat_math_workbook_pilot_v0_005_d2"
+      },
+      {
+        "label": "D",
+        "value": "10.1",
+        "text": "10.1",
+        "distractorId": "sat_math_workbook_pilot_v0_005_d3"
+      },
+      {
+        "label": "E",
+        "value": "10.0",
+        "text": "10.0",
+        "distractorId": "sat_math_workbook_pilot_v0_005_d4"
+      }
+    ],
+    "difficulty": 3,
+    "source": "sat_ready_pilot",
+    "primaryConcept": "alg_linear_equations",
+    "concepts": [
+      "alg_linear_equations",
+      "prealg_expressions"
+    ],
+    "prerequisiteConcepts": [
+      "prealg_expressions",
+      "arith_fractions"
+    ],
+    "skills": [
+      "equation_solving",
+      "expression_translation"
+    ],
+    "patterns": [
+      "linear_relationship",
+      "word_to_equation"
+    ],
+    "misconceptions": [
+      "translation_error",
+      "inverse_operation_error"
+    ],
+    "isAutoGradable": true,
+    "solution": "Classified as Algebra. The source answer key gives choice A, which corresponds to 10.4. Source solution cue: . A。5.16 四 含 五 入 到 十 分 位 得 到 5.2， 翻 倍 后 等 于 10.4。 选 A。",
+    "curriculum": {
+      "course": "SAT Math",
+      "theme": "Algebra",
+      "chapter": "sat-algebra",
+      "chapterTitle": "Algebra",
+      "sequence": 90004,
+      "sourceCollection": "sat_ready_pilot"
+    },
+    "taxonomy": {
+      "version": "v0",
+      "layer": "Standard",
+      "stage": "Algebra Readiness",
+      "problemType": "equation_solving",
+      "cognitiveTags": [
+        "modeling",
+        "symbol_manipulation"
+      ],
+      "estimatedTimeSeconds": 90
+    },
+    "locale": {
+      "language": "en",
+      "curriculumSystem": "US",
+      "region": "US",
+      "displayTrack": "SAT Math Pilot",
+      "gradeBand": "High School",
+      "contentStatus": "pilot"
+    },
+    "distractors": [
+      {
+        "id": "sat_math_workbook_pilot_v0_005_d1",
+        "choiceLabel": "B",
+        "value": "10.3",
+        "misconception": "translation_error",
+        "cognitiveTag": "modeling",
+        "explanation": "Choice B is a SAT-style distractor. Re-check the algebra setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_005_d2",
+        "choiceLabel": "C",
+        "value": "10.2",
+        "misconception": "translation_error",
+        "cognitiveTag": "modeling",
+        "explanation": "Choice C is a SAT-style distractor. Re-check the algebra setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_005_d3",
+        "choiceLabel": "D",
+        "value": "10.1",
+        "misconception": "translation_error",
+        "cognitiveTag": "modeling",
+        "explanation": "Choice D is a SAT-style distractor. Re-check the algebra setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_005_d4",
+        "choiceLabel": "E",
+        "value": "10.0",
+        "misconception": "translation_error",
+        "cognitiveTag": "modeling",
+        "explanation": "Choice E is a SAT-style distractor. Re-check the algebra setup before selecting it."
+      }
+    ]
+  },
+  {
+    "id": "sat_math_workbook_pilot_v0_006",
+    "statement": "1. In a certain election, 60 percent of those who voted were females. If 8 000 males voted, what was the total number of people who voted in the election?",
+    "answer": "20000",
+    "answerType": "multiple_choice",
+    "choices": [
+      {
+        "label": "A",
+        "value": "12 800",
+        "text": "12 800",
+        "distractorId": "sat_math_workbook_pilot_v0_006_d1"
+      },
+      {
+        "label": "B",
+        "value": "14000",
+        "text": "14000",
+        "distractorId": "sat_math_workbook_pilot_v0_006_d2"
+      },
+      {
+        "label": "C",
+        "value": "18 600",
+        "text": "18 600",
+        "distractorId": "sat_math_workbook_pilot_v0_006_d3"
+      },
+      {
+        "label": "D",
+        "value": "20000",
+        "text": "20000"
+      },
+      {
+        "label": "E",
+        "value": "21 000",
+        "text": "21 000",
+        "distractorId": "sat_math_workbook_pilot_v0_006_d4"
+      }
+    ],
+    "difficulty": 3,
+    "source": "sat_ready_pilot",
+    "primaryConcept": "arith_ratios",
+    "concepts": [
+      "arith_ratios",
+      "arith_percentages",
+      "stats_mean"
+    ],
+    "prerequisiteConcepts": [
+      "arith_fractions",
+      "arith_ratios",
+      "arith_decimals"
+    ],
+    "skills": [
+      "proportional_reasoning",
+      "data_interpretation"
+    ],
+    "patterns": [
+      "rate_ratio_model",
+      "percent_base"
+    ],
+    "misconceptions": [
+      "percent_base_error",
+      "mean_median_confusion"
+    ],
+    "isAutoGradable": true,
+    "solution": "Classified as Problem Solving and Data Analysis. The source answer key gives choice D, which corresponds to 20000. Source solution cue: . D。 隐 藏 的 条 件 是 投票 的 男性 占 40%, 故 总 投票 人数 为 8 000/40% = 20000, 选 D。",
+    "curriculum": {
+      "course": "SAT Math",
+      "theme": "Problem Solving and Data Analysis",
+      "chapter": "sat-data-analysis",
+      "chapterTitle": "Problem Solving and Data Analysis",
+      "sequence": 90005,
+      "sourceCollection": "sat_ready_pilot"
+    },
+    "taxonomy": {
+      "version": "v0",
+      "layer": "Standard",
+      "stage": "Algebra Readiness",
+      "problemType": "proportional_reasoning",
+      "cognitiveTags": [
+        "quantitative_comparison",
+        "modeling"
+      ],
+      "estimatedTimeSeconds": 90
+    },
+    "locale": {
+      "language": "en",
+      "curriculumSystem": "US",
+      "region": "US",
+      "displayTrack": "SAT Math Pilot",
+      "gradeBand": "High School",
+      "contentStatus": "pilot"
+    },
+    "distractors": [
+      {
+        "id": "sat_math_workbook_pilot_v0_006_d1",
+        "choiceLabel": "A",
+        "value": "12 800",
+        "misconception": "percent_base_error",
+        "cognitiveTag": "quantitative_comparison",
+        "explanation": "Choice A is a SAT-style distractor. Re-check the problem solving and data analysis setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_006_d2",
+        "choiceLabel": "B",
+        "value": "14000",
+        "misconception": "percent_base_error",
+        "cognitiveTag": "quantitative_comparison",
+        "explanation": "Choice B is a SAT-style distractor. Re-check the problem solving and data analysis setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_006_d3",
+        "choiceLabel": "C",
+        "value": "18 600",
+        "misconception": "percent_base_error",
+        "cognitiveTag": "quantitative_comparison",
+        "explanation": "Choice C is a SAT-style distractor. Re-check the problem solving and data analysis setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_006_d4",
+        "choiceLabel": "E",
+        "value": "21 000",
+        "misconception": "percent_base_error",
+        "cognitiveTag": "quantitative_comparison",
+        "explanation": "Choice E is a SAT-style distractor. Re-check the problem solving and data analysis setup before selecting it."
+      }
+    ]
+  },
+  {
+    "id": "sat_math_workbook_pilot_v0_020",
+    "statement": "6. The length of each side of an equilateral triangle will be doubled to create a new triangle. The area of the new triangle will be how many times the area of the original triangle?",
+    "answer": "4",
+    "answerType": "multiple_choice",
+    "choices": [
+      {
+        "label": "A",
+        "value": "2",
+        "text": "2",
+        "distractorId": "sat_math_workbook_pilot_v0_020_d1"
+      },
+      {
+        "label": "B",
+        "value": "4",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "value": "6",
+        "text": "6",
+        "distractorId": "sat_math_workbook_pilot_v0_020_d2"
+      },
+      {
+        "label": "D",
+        "value": "8",
+        "text": "8",
+        "distractorId": "sat_math_workbook_pilot_v0_020_d3"
+      },
+      {
+        "label": "E",
+        "value": "20",
+        "text": "20",
+        "distractorId": "sat_math_workbook_pilot_v0_020_d4"
+      }
+    ],
+    "difficulty": 3,
+    "source": "sat_ready_pilot",
+    "primaryConcept": "geo_area",
+    "concepts": [
+      "geo_area",
+      "geo_coordinate_geometry"
+    ],
+    "prerequisiteConcepts": [
+      "geo_triangles",
+      "alg_graphing"
+    ],
+    "skills": [
+      "geometric_modeling",
+      "formula_selection"
+    ],
+    "patterns": [
+      "measurement_reasoning",
+      "spatial_structure"
+    ],
+    "misconceptions": [
+      "formula_misuse",
+      "diagram_assumption"
+    ],
+    "isAutoGradable": true,
+    "solution": "Classified as Geometry and Trigonometry. The source answer key gives choice B, which corresponds to 4. Source solution cue: . B。 假 设 等 边 三 角形 的 边 长 为 &， 由 题 意 ， 新 的 三 角形 也 是 等 边 三 角形 ， 且 边 长 为 24。 根 据 三 角形 的 正弦 面积 公式 ， 新 、 老 三 角形 的 面积 分 别 为 寺 (20)?sin 60°, Fa sin 60*， 故 新 的 面积 是 老 的 4 倍 ， 选 B。",
+    "curriculum": {
+      "course": "SAT Math",
+      "theme": "Geometry and Trigonometry",
+      "chapter": "sat-geometry-trig",
+      "chapterTitle": "Geometry and Trigonometry",
+      "sequence": 90019,
+      "sourceCollection": "sat_ready_pilot"
+    },
+    "taxonomy": {
+      "version": "v0",
+      "layer": "Standard",
+      "stage": "Algebra Readiness",
+      "problemType": "geometric_measurement",
+      "cognitiveTags": [
+        "formula_selection",
+        "spatial_reasoning"
+      ],
+      "estimatedTimeSeconds": 90
+    },
+    "locale": {
+      "language": "en",
+      "curriculumSystem": "US",
+      "region": "US",
+      "displayTrack": "SAT Math Pilot",
+      "gradeBand": "High School",
+      "contentStatus": "pilot"
+    },
+    "distractors": [
+      {
+        "id": "sat_math_workbook_pilot_v0_020_d1",
+        "choiceLabel": "A",
+        "value": "2",
+        "misconception": "formula_misuse",
+        "cognitiveTag": "formula_selection",
+        "explanation": "Choice A is a SAT-style distractor. Re-check the geometry and trigonometry setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_020_d2",
+        "choiceLabel": "C",
+        "value": "6",
+        "misconception": "formula_misuse",
+        "cognitiveTag": "formula_selection",
+        "explanation": "Choice C is a SAT-style distractor. Re-check the geometry and trigonometry setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_020_d3",
+        "choiceLabel": "D",
+        "value": "8",
+        "misconception": "formula_misuse",
+        "cognitiveTag": "formula_selection",
+        "explanation": "Choice D is a SAT-style distractor. Re-check the geometry and trigonometry setup before selecting it."
+      },
+      {
+        "id": "sat_math_workbook_pilot_v0_020_d4",
+        "choiceLabel": "E",
+        "value": "20",
+        "misconception": "formula_misuse",
+        "cognitiveTag": "formula_selection",
+        "explanation": "Choice E is a SAT-style distractor. Re-check the geometry and trigonometry setup before selecting it."
+      }
+    ]
+  }
+]

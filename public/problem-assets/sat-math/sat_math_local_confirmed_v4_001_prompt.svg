@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="258" y="42" font-size="20" fill="#5b6b6f">rectangle area percent change</text>
+<rect x="116" y="142" width="190" height="126" rx="6" fill="#eef7f6" stroke="#2f5f63" stroke-width="4"/>
+<rect x="430" y="154" width="210" height="114" rx="6" fill="#eef7f6" stroke="#b45309" stroke-width="4"/>
+<text x="156" y="302" font-size="22" fill="#374151">area = LW</text>
+<text x="450" y="302" font-size="21" fill="#b45309">area = 1.1L x 0.9W</text>
+<text x="470" y="120" font-size="22" fill="#374151">0.99LW</text>
+<text x="242" y="336" font-size="22" fill="#374151">new area is 1% less</text>
+</g>
+</svg>

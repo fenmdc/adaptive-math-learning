@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="269.3" x2="675" y2="269.3" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="212" y1="56" x2="212" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<circle cx="227.3" cy="177.3" r="76.7" fill="#dceeed" stroke="#2f5f63" stroke-width="4"/>
+<circle cx="227.3" cy="177.3" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="304" cy="177.3" r="5" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<line x1="227.3" y1="177.3" x2="304" y2="177.3" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+<text x="252" y="42" font-size="20" fill="#5b6b6f">circle standard form</text>
+<text x="237.3" y="167.3" font-size="18" fill="#374151">center (1, 6)</text>
+<text x="253.7" y="165.3" font-size="18" fill="#b45309">r = 5</text>
+</g>
+</svg>

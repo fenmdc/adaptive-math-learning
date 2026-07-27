@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="302" y="42" font-size="20" fill="#5b6b6f">triangle area</text>
+<polygon points="190,282 570,282 430,92" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="430" y1="92" x2="430" y2="282" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<text x="366" y="316" font-size="22" fill="#374151">base = 16</text>
+<text x="442" y="196" font-size="22" fill="#b45309">height = 7</text>
+<text x="302" y="82" font-size="22" fill="#374151">area = ?</text>
+</g>
+</svg>

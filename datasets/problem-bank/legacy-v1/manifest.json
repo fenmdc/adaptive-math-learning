@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "adaptive-math-learning-legacy-v1",
+  "sourceSnapshot": "/Users/fenmdc/Documents/Codex/2026-06-05/github-adaptive-math-learning/work/adaptive-math-learning/apps/web",
+  "importedAt": "2026-07-26T09:22:41.000Z",
+  "runtimePolicy": "Copied snapshot; the current app does not read from the source project.",
+  "counts": {
+    "problems": 8013,
+    "explanations": 8013,
+    "concepts": 75,
+    "satReadyPilotProblems": 4,
+    "autoGradableProblems": 7722,
+    "manualReviewProblems": 291,
+    "assets": 2937,
+    "assetBytes": 8975488
+  },
+  "sha256": {
+    "problems.json": "7784f3904434e6651d1688c5645dc4a15f0a0ae384bbe7d0ef07bacc5d8f6b08",
+    "example-explanations.json": "5573e0f055e942cb905bf8812b063b08484a49c30a19319f8a239f34d36472b3",
+    "concepts.json": "cf7f09daca365045d8feda84edd993a21c0c9b18b845ef194866feca1841c2cb",
+    "sat-ready-pilot-problems.json": "28259bbf343f3adba4be7b56f8237b0c6561160ff10f0dabaa80ce0627d28090",
+    "problem-assets": "a929f523fd82feb9c85e699f615eec59daa64548bc8dd43494a9607dea9c0313"
+  }
+}

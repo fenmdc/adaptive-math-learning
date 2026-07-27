@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="90" y1="210" x2="670" y2="210" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="133" y1="198" x2="133" y2="222" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<text x="123" y="248" font-size="18" fill="#374151">-16</text>
+<line x1="476.7" y1="198" x2="476.7" y2="222" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<text x="466.7" y="248" font-size="18" fill="#374151">0</text>
+<line x1="627" y1="198" x2="627" y2="222" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<text x="617" y="248" font-size="18" fill="#374151">7</text>
+<line x1="133" y1="176" x2="476.7" y2="176" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="266.8" y="160" font-size="20" fill="#b45309">distance 16</text>
+<text x="286" y="52" font-size="20" fill="#5b6b6f">绝对值表示到 0 的距离</text>
+</g>
+</svg>

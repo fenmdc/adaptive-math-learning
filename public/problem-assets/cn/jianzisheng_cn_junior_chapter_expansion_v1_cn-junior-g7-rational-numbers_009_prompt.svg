@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="100" y1="190" x2="660" y2="190" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<polygon points="660,190 648,183 648,197" fill="#2f5f63"/>
+<polygon points="100,190 112,183 112,197" fill="#2f5f63"/>
+<line x1="110" y1="178" x2="110" y2="202" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="137.7" y1="178" x2="137.7" y2="202" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="276.2" y1="178" x2="276.2" y2="202" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="386.9" y1="178" x2="386.9" y2="202" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="622.3" y1="178" x2="622.3" y2="202" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="650" y1="178" x2="650" y2="202" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<text x="102" y="232" font-size="18" fill="#5b6b6f">-20</text>
+<text x="129.7" y="232" font-size="18" fill="#5b6b6f">-18</text>
+<text x="268.2" y="232" font-size="18" fill="#5b6b6f">-8</text>
+<text x="378.9" y="232" font-size="18" fill="#5b6b6f">0</text>
+<text x="614.3" y="232" font-size="18" fill="#5b6b6f">17</text>
+<text x="642" y="232" font-size="18" fill="#5b6b6f">19</text>
+<circle cx="137.7" cy="190" r="10" fill="#b45309" stroke="#b45309" stroke-width="4"/>
+<circle cx="276.2" cy="190" r="10" fill="#b45309" stroke="#b45309" stroke-width="4"/>
+<circle cx="386.9" cy="190" r="10" fill="#b45309" stroke="#b45309" stroke-width="4"/>
+<circle cx="622.3" cy="190" r="10" fill="#b45309" stroke="#b45309" stroke-width="4"/>
+<text x="123.7" y="156" font-size="19" fill="#374151">-18</text>
+<text x="262.2" y="156" font-size="19" fill="#374151">-8</text>
+<text x="372.9" y="156" font-size="19" fill="#374151">0</text>
+<text x="608.3" y="156" font-size="19" fill="#374151">17</text>
+<text x="310" y="52" font-size="22" fill="#5b6b6f">数轴辅助图</text>
+</g>
+</svg>

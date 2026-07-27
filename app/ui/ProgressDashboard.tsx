@@ -8,6 +8,8 @@ import {
   loadLearningSession,
   type StoredLearningSession,
 } from "@/packages/learning-session";
+import { ACCOUNT_CHANGE_EVENT, getActiveAccountId } from "@/packages/accounts";
+import { readLegacyLearningSummary, type LegacyLearningSummary } from "@/packages/accounts/legacy-history";
 import type { PracticeProblem } from "@/packages/problem-bank/types";
 
 type SimulationLog = {
@@ -25,10 +27,18 @@ export default function ProgressDashboard({
 }) {
   const [session, setSession] = useState<StoredLearningSession>();
   const [loaded, setLoaded] = useState(false);
+  const [legacyHistory, setLegacyHistory] = useState<LegacyLearningSummary>();
 
   useEffect(() => {
-    setSession(loadLearningSession(window.localStorage, problems));
-    setLoaded(true);
+    const reload = () => {
+      const accountId = getActiveAccountId(window.localStorage);
+      setSession(loadLearningSession(window.localStorage, problems, accountId));
+      setLegacyHistory(readLegacyLearningSummary(window.localStorage, accountId));
+      setLoaded(true);
+    };
+    reload();
+    window.addEventListener(ACCOUNT_CHANGE_EVENT, reload);
+    return () => window.removeEventListener(ACCOUNT_CHANGE_EVENT, reload);
   }, [problems]);
 
   const usesStudentSession = Boolean(session?.attempts);
@@ -113,6 +123,16 @@ export default function ProgressDashboard({
               : "Simulation data is an explicit preview and is replaced after the first saved student attempt."}
           </p>
         </article>
+      </section>
+
+      <section className="legacy-history" aria-label="Previous version learning history">
+        <div><span>Previous version history</span><h2>Your earlier records remain available.</h2><p>These counts are read directly from the active profile and are not rewritten as current-session attempts.</p></div>
+        <dl>
+          <div><dt>Practice attempts</dt><dd>{legacyHistory?.practiceAttempts ?? 0}</dd></div>
+          <div><dt>Diagnostics</dt><dd>{legacyHistory?.diagnosticAttempts ?? 0}</dd></div>
+          <div><dt>Completed sessions</dt><dd>{legacyHistory?.sessionCompletions ?? 0}</dd></div>
+          <div><dt>Learning profile</dt><dd>{legacyHistory?.hasStudentModel ? "Available" : "Not found"}</dd></div>
+        </dl>
       </section>
     </div>
   );

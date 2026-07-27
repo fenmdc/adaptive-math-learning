@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="244" y="42" font-size="20" fill="#5b6b6f">regular polygon exterior angles</text>
+<polygon points="380,76 512,140 544,282 380,324 216,282 248,140" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="512" y1="140" x2="608" y2="94" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+<line x1="512" y1="140" x2="544" y2="282" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+<text x="552" y="138" font-size="21" fill="#b45309">d &gt; 50 deg</text>
+<text x="292" y="188" font-size="22" fill="#374151">n exterior angles</text>
+<text x="286" y="334" font-size="22" fill="#374151">n x d = 360, so n &lt; 7.2</text>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="270" y="44" font-size="22" fill="#5b6b6f">order of operations</text>
+<rect x="92" y="126" width="158" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<text x="110" y="178" font-size="20" fill="#374151">24 - 7 x 3</text>
+<line x1="250" y1="170" x2="328" y2="170" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+<path d="M 316 163 L 328 170 L 316 177" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="330" y="126" width="158" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<text x="348" y="178" font-size="20" fill="#374151">7 x 3 = 21</text>
+<line x1="488" y1="170" x2="566" y2="170" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+<path d="M 554 163 L 566 170 L 554 177" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="568" y="126" width="158" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<text x="586" y="178" font-size="20" fill="#374151">24 - 21</text>
+<text x="190" y="260" font-size="22" fill="#b45309">multiply first</text>
+<text x="448" y="260" font-size="22" fill="#b45309">then subtract</text>
+<text x="318" y="318" font-size="24" fill="#374151">result = 3</text>
+</g>
+</svg>

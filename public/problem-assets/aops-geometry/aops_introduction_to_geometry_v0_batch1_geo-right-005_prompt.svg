@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="90" y1="269.4" x2="660" y2="269.4" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="181.1" y1="40" x2="181.1" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="155.6" y1="243.9" x2="270.6" y2="90.6" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="155.6" y1="243.9" x2="270.6" y2="243.9" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="270.6" y1="243.9" x2="270.6" y2="90.6" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="155.55555555555554" cy="243.88888888888889" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="270.55555555555554" cy="90.55555555555554" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="165.6" y="233.9" font-size="18" fill="#374151">(-2, 2)</text>
+<text x="280.6" y="80.6" font-size="18" fill="#374151">(7, 14)</text>
+<text x="318" y="35" font-size="18" fill="#5b6b6f">distance</text>
+</g>
+</svg>

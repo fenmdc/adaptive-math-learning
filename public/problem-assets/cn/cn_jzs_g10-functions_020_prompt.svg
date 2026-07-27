@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="90" y1="269" x2="660" y2="269" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="328" y1="40" x2="328" y2="318" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="120" y1="296.1" x2="640" y2="199.4" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<circle cx="1368" cy="63.9" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="1380" y="53.9" font-size="18" fill="#374151">(20, 106)</text>
+<text x="286" y="42" font-size="22" fill="#5b6b6f">y = 5x + 6</text>
+</g>
+</svg>

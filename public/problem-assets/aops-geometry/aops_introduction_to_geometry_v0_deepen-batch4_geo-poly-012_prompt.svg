@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="380,70 413.8,74.9 444.9,89 470.7,111.4 489.2,140.2 498.8,172.9 498.8,207.1 489.2,239.8 470.7,268.6 444.9,291 413.8,305.1 380,310 346.2,305.1 315.1,291 289.3,268.6 270.8,239.8 261.2,207.1 261.2,172.9 270.8,140.2 289.3,111.4 315.1,89 346.2,74.9" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3" stroke-linejoin="round"/>
+<line x1="380" y1="70" x2="444.9" y2="89" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="470.7" y2="111.4" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="489.2" y2="140.2" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="498.8" y2="172.9" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="498.8" y2="207.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="489.2" y2="239.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="470.7" y2="268.6" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="444.9" y2="291" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="413.8" y2="305.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="380" y2="310" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="346.2" y2="305.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="315.1" y2="291" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="289.3" y2="268.6" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="270.8" y2="239.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="261.2" y2="207.1" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="261.2" y2="172.9" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="270.8" y2="140.2" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="289.3" y2="111.4" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<line x1="380" y1="70" x2="315.1" y2="89" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="336" y="42" font-size="22" fill="#374151">22-gon</text>
+<text x="268" y="322" font-size="18" fill="#5b6b6f">split into triangles</text>
+</g>
+</svg>

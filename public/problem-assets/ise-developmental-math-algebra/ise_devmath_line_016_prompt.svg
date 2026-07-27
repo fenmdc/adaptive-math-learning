@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="80" y1="277.7" x2="675" y2="277.7" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="134.8" y1="56" x2="134.8" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="253.5" y1="121.9" x2="283.2" y2="92.3" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="253.5" y1="121.9" x2="283.2" y2="121.9" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="283.2" y1="121.9" x2="283.2" y2="92.3" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="253.5" cy="121.9" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="283.2" cy="92.3" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="263.5" y="111.9" font-size="18" fill="#374151">(16, 21)</text>
+<text x="293.2" y="82.3" font-size="18" fill="#374151">(20, 25)</text>
+<circle cx="268.4" cy="107.1" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="278.4" y="97.1" font-size="18" fill="#b45309">(18, 23)</text>
+<line x1="268.4" y1="277.7" x2="268.4" y2="107.1" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<text x="302" y="42" font-size="20" fill="#5b6b6f">y = 1x + 5</text>
+<text x="432" y="314" font-size="20" fill="#b45309">x = 18</text>
+</g>
+</svg>

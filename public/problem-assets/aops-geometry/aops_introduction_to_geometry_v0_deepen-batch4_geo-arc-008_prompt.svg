@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<circle cx="380" cy="190" r="120" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<path d="M 380 190 L 500 190 A 120 120 0 0 0 471.9 112.9 Z" fill="#fdebd3" stroke="#b45309" stroke-width="3" stroke-linejoin="round"/>
+<line x1="380" y1="190" x2="500" y2="190" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<line x1="380" y1="190" x2="471.9" y2="112.9" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<text x="402" y="172" font-size="22" fill="#b45309">40°</text>
+<text x="452" y="216" font-size="20" fill="#374151">r = 6</text>
+<text x="330" y="40" font-size="18" fill="#5b6b6f">arc length</text>
+</g>
+</svg>

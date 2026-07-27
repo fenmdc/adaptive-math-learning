@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="130" y1="270" x2="630" y2="90" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="130" y1="90" x2="630" y2="270" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<path d="M 413 171 A 48 48 0 0 1 457 190" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 303 190 A 48 48 0 0 1 347 171" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="452" y="178" font-size="22" fill="#374151">128°</text>
+<text x="256" y="178" font-size="24" fill="#b45309">x</text>
+<text x="292" y="46" font-size="20" fill="#5b6b6f">对顶角相等</text>
+</g>
+</svg>

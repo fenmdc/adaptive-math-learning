@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="260" y="42" font-size="20" fill="#5b6b6f">perfect square trinomial</text>
+<rect x="104" y="126" width="220" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<rect x="444" y="126" width="220" height="88" rx="8" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<text x="124" y="178" font-size="21" fill="#374151">x^2 + kx + 36</text>
+<text x="488" y="178" font-size="21" fill="#374151">(x + 6)^2</text>
+<line x1="326" y1="170" x2="442" y2="170" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="250" y="260" font-size="22" fill="#374151">constant 36 means 6^2</text>
+<text x="256" y="306" font-size="22" fill="#b45309">middle coefficient k = 2 x 6 = 12</text>
+</g>
+</svg>

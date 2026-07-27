@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="90" y1="264.3" x2="660" y2="264.3" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="237.3" y1="40" x2="237.3" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="160.7" y1="218.3" x2="314" y2="95.7" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="160.7" y1="218.3" x2="314" y2="218.3" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="314" y1="218.3" x2="314" y2="95.7" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="160.66666666666666" cy="218.33333333333331" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="314" cy="95.66666666666666" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="170.7" y="208.3" font-size="18" fill="#374151">(-5, 3)</text>
+<text x="324" y="85.7" font-size="18" fill="#374151">(5, 11)</text>
+<text x="318" y="35" font-size="18" fill="#5b6b6f">midpoint</text>
+</g>
+</svg>

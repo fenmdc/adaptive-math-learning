@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="200,282 560,282 396,82" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 248 282 A 48 48 0 0 1 238 246" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 512 282 A 48 48 0 0 0 526 246" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 368 112 A 44 44 0 0 1 426 113" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="222" y="260" font-size="22" fill="#b45309">42 deg</text>
+<text x="486" y="260" font-size="22" fill="#b45309">68 deg</text>
+<text x="380" y="122" font-size="28" fill="#374151">?</text>
+</g>
+</svg>

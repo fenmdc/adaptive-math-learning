@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<circle cx="380" cy="184" r="122" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<line x1="225" y1="184" x2="535" y2="184" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="380" y1="34" x2="380" y2="334" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<path d="M 426 184 A 46 46 0 0 0 340.2 161" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="380" y1="184" x2="274.3" y2="123" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<circle cx="274.3" cy="123" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="432" y="170" font-size="22" fill="#b45309">150°</text>
+<text x="286.3" y="113" font-size="18" fill="#374151">(cos theta, sin theta)</text>
+<text x="302" y="34" font-size="19" fill="#5b6b6f">unit circle</text>
+</g>
+</svg>

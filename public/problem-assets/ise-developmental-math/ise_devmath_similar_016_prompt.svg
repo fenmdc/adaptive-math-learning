@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="276" y="44" font-size="20" fill="#5b6b6f">corresponding sides scale equally</text>
+<rect x="135" y="140" width="170" height="105" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4"/>
+<rect x="430" y="95" width="245" height="150" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4"/>
+<text x="196" y="270" font-size="22" fill="#374151">3</text>
+<text x="78" y="202" font-size="22" fill="#374151">20</text>
+<text x="528" y="270" font-size="22" fill="#374151">6</text>
+<text x="690" y="178" font-size="26" fill="#b45309">x</text>
+<line x1="318" y1="188" x2="410" y2="168" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
+<text x="326" y="152" font-size="18" fill="#b45309">scale factor</text>
+</g>
+</svg>

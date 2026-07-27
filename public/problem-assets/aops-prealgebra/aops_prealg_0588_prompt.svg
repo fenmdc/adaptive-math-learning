@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="262" y="44" font-size="20" fill="#5b6b6f">square root is side length</text>
+<rect x="220" y="84" width="160" height="160" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4"/>
+<line x1="220" y1="84" x2="220" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="84" x2="380" y2="84" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="240" y1="84" x2="240" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="104" x2="380" y2="104" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="260" y1="84" x2="260" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="124" x2="380" y2="124" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="280" y1="84" x2="280" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="144" x2="380" y2="144" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="300" y1="84" x2="300" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="164" x2="380" y2="164" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="320" y1="84" x2="320" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="184" x2="380" y2="184" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="340" y1="84" x2="340" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="204" x2="380" y2="204" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="360" y1="84" x2="360" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="224" x2="380" y2="224" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="380" y1="84" x2="380" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<line x1="220" y1="244" x2="380" y2="244" stroke="#9aa7a9" stroke-width="1" stroke-linecap="round"/>
+<text x="408" y="172" font-size="22" fill="#374151">area = 121</text>
+<text x="262" y="278" font-size="22" fill="#b45309">side = 11</text>
+<text x="468" y="254" font-size="22" fill="#5b6b6f">then add 8</text>
+</g>
+</svg>

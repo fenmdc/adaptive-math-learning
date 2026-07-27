@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<line x1="90" y1="266.3" x2="660" y2="266.3" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="158.8" y1="40" x2="158.8" y2="315" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="173.1" y1="208.8" x2="345.6" y2="93.8" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="173.1" y1="208.8" x2="345.6" y2="208.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="345.6" y1="208.8" x2="345.6" y2="93.8" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="173.125" cy="208.75" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="345.625" cy="93.75" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="183.1" y="198.8" font-size="18" fill="#374151">(1, 4)</text>
+<text x="355.6" y="83.8" font-size="18" fill="#374151">(13, 12)</text>
+<text x="318" y="35" font-size="18" fill="#5b6b6f">midpoint</text>
+</g>
+</svg>

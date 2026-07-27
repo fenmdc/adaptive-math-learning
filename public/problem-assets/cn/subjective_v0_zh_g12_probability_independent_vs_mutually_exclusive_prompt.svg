@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<rect x="165" y="82" width="430" height="165" rx="24" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4"/>
+<text x="260" y="292" font-size="22" fill="#374151">红球 0.5 个，蓝球 0.4 个</text>
+<text x="250" y="46" font-size="20" fill="#5b6b6f">概率 = 有利结果 / 总结果</text>
+</g>
+</svg>

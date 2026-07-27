@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<line x1="80" y1="264" x2="675" y2="264" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="145" y1="56" x2="145" y2="316" stroke="#9aa7a9" stroke-width="2" stroke-linecap="round"/>
+<line x1="92" y1="300" x2="92" y2="120" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="92" y1="300" x2="92" y2="300" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="92" y1="300" x2="92" y2="120" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="92" cy="300" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<circle cx="92" cy="120" r="7" fill="#2f5f63" stroke="#2f5f63" stroke-width="2"/>
+<text x="102" y="290" font-size="18" fill="#374151">(-4, -2)</text>
+<text x="102" y="110" font-size="18" fill="#374151">(-4, 8)</text>
+<polygon points="92,300 205,300 92,120" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<text x="100" y="322" font-size="18" fill="#374151">A(-4, -2)</text>
+<text x="213" y="322" font-size="18" fill="#374151">B(2, -2)</text>
+<text x="100" y="110" font-size="18" fill="#374151">C(-4, 8)</text>
+<text x="278" y="42" font-size="20" fill="#5b6b6f">坐标三角形面积</text>
+</g>
+</svg>

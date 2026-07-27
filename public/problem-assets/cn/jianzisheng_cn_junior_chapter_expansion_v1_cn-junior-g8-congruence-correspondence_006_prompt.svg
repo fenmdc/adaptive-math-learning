@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, 'Noto Sans SC', sans-serif" font-weight="600">
+<polygon points="150,270 370,70 610,270" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<text x="178" y="254" font-size="22" fill="#374151">18°</text>
+<text x="556" y="254" font-size="22" fill="#374151">60°</text>
+<text x="356" y="116" font-size="26" fill="#b45309">x</text>
+<text x="292" y="46" font-size="20" fill="#5b6b6f">三角形内角和 180°</text>
+</g>
+</svg>

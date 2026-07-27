@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<polygon points="150,270 360,72 600,270" fill="#f8fbfb" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 196 270 A 46 46 0 0 1 184 232" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 552 270 A 46 46 0 0 0 565 232" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 330 100 A 46 46 0 0 1 394 99" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="198" y="250" font-size="22" fill="#374151">30°</text>
+<text x="520" y="250" font-size="22" fill="#374151">45°</text>
+<text x="356" y="124" font-size="26" fill="#b45309">x</text>
+</g>
+</svg>

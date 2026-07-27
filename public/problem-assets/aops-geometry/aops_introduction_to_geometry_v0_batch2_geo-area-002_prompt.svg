@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<rect x="155" y="70" width="430" height="230" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<polygon points="585,70 585,190 455,70" fill="#fdebd3" stroke="#b45309" stroke-width="3" stroke-linejoin="round"/>
+<line x1="455" y1="70" x2="585" y2="190" stroke="#b45309" stroke-width="3" stroke-linecap="round"/>
+<text x="342" y="328" font-size="22" fill="#374151">9</text>
+<text x="118" y="190" font-size="22" fill="#374151">7</text>
+<text x="520" y="58" font-size="19" fill="#b45309">3</text>
+<text x="596" y="135" font-size="19" fill="#b45309">5</text>
+<text x="274" y="44" font-size="18" fill="#5b6b6f">remove corner triangle</text>
+</g>
+</svg>

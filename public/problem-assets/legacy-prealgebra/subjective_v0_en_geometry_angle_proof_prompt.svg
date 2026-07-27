@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="42" y="34" font-size="22" fill="#5b6b6f">exterior angle theorem</text>
+<polygon points="190,260 370,45 470,260" fill="#eef7f6" stroke="#2f5f63" stroke-width="4" stroke-linejoin="round"/>
+<line x1="470" y1="260" x2="650" y2="260" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<path d="M 221 223 A 48 48 0 0 1 238 260" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 391 90 A 50 50 0 0 1 338 83" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<path d="M 442 200 A 66 66 0 0 1 536 260" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="176" y="290" font-size="21" fill="#374151">A</text>
+<text x="364" y="29" font-size="21" fill="#374151">B</text>
+<text x="466" y="290" font-size="21" fill="#374151">C</text>
+<text x="658" y="268" font-size="21" fill="#374151">D</text>
+<text x="236" y="238" font-size="19" fill="#b45309">50 deg</text>
+<text x="354" y="116" font-size="19" fill="#b45309">65 deg</text>
+<text x="518" y="216" font-size="19" fill="#b45309">115 deg</text>
+<text x="566" y="238" font-size="17" fill="#b45309">exterior</text>
+<text x="220" y="318" font-size="23" fill="#374151">angle BCD = angle A + angle B</text>
+</g>
+</svg>

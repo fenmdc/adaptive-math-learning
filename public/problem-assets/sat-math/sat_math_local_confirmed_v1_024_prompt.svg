@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<text x="282" y="42" font-size="20" fill="#5b6b6f">parallel lines keep slope</text>
+<line x1="130" y1="290" x2="640" y2="120" stroke="#2f5f63" stroke-width="4" stroke-linecap="round"/>
+<line x1="130" y1="236" x2="640" y2="66" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<circle cx="250" cy="196" r="8" fill="#b45309" stroke="#b45309" stroke-width="2"/>
+<text x="264" y="190" font-size="22" fill="#b45309">(0, 1)</text>
+<text x="420" y="132" font-size="21" fill="#374151">2x + 3y = 6</text>
+<text x="420" y="82" font-size="21" fill="#b45309">parallel: m = -2/3</text>
+<text x="282" y="326" font-size="22" fill="#374151">a + b = -2/3 + 1</text>
+</g>
+</svg>

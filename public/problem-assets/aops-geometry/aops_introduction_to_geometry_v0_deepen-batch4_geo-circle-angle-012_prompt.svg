@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img">
+<rect width="760" height="360" rx="18" fill="#fbfaf6"/>
+<g font-family="Inter, Arial, sans-serif" font-weight="600">
+<circle cx="370" cy="180" r="120" fill="#f8fbfb" stroke="#2f5f63" stroke-width="3"/>
+<line x1="300" y1="278" x2="285" y2="112" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<line x1="300" y1="278" x2="482" y2="145" stroke="#2f5f63" stroke-width="3" stroke-linecap="round"/>
+<path d="M 285 112 A 120 120 0 0 1 482 145" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+<text x="320" y="248" font-size="24" fill="#b45309">x</text>
+<text x="360" y="92" font-size="20" fill="#374151">168° arc</text>
+</g>
+</svg>
