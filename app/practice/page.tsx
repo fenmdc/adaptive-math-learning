@@ -18,7 +18,7 @@ export default async function PracticePage({
     track: query.track,
     course: query.course,
     theme: query.theme,
-    limit: 40,
+    limit: 100,
   });
 
   return (

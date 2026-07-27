@@ -55,6 +55,7 @@ const DATASET_PATH = ["datasets", "problem-bank", "legacy-v1"];
 export const SUPPLEMENT_DATASET_IDS = [
   "cn-olympiad-foundations-v1",
   "cn-olympiad-foundations-v2",
+  "cn-olympiad-foundations-v3",
 ];
 const SUPPLEMENT_PATHS = SUPPLEMENT_DATASET_IDS.map((datasetId) => [
   "datasets", "problem-bank", "supplements", datasetId,
