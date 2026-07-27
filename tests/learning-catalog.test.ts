@@ -26,7 +26,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8094);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8124);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -53,4 +53,27 @@ test("learning sections honor language, course, and theme filters", () => {
   assert.ok(chinese.problems.every((problem) => problem.course === "CN Junior High Math"));
   assert.equal(english.total, 46);
   assert.ok(english.problems.every((problem) => problem.course === "AMC10"));
+});
+
+test("English Core diagnostic supplement exposes five reviewed concept clusters", () => {
+  const section = loadLearningSection({
+    language: "en",
+    track: "english-core",
+    course: "Pre-Algebra",
+    theme: "Diagnostic Foundations",
+    limit: 100,
+  });
+
+  assert.equal(section.total, 30);
+  assert.equal(section.problems.length, 30);
+  assert.deepEqual(
+    Object.fromEntries(
+      ["ratio", "model", "ineq", "coord", "angle"].map((cluster) => [
+        cluster,
+        section.problems.filter((problem) => problem.id.startsWith(`en_core_diag_v1_${cluster}_`)).length,
+      ]),
+    ),
+    { ratio: 6, model: 6, ineq: 6, coord: 6, angle: 6 },
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
 });

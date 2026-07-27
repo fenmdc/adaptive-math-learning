@@ -44,6 +44,8 @@ const duplicateIntegratedIds = integratedIds.filter((id, index) => integratedIds
 const supplementProblems = integratedProblems.slice(legacyProblems.length);
 type SupplementManifest = {
   datasetId: string;
+  language: string;
+  course: string;
   counts: {
     problems: number;
     explanations: number;
@@ -62,22 +64,22 @@ const supplementBatches = SUPPLEMENT_DATASET_IDS.map((datasetId) => {
     manifest: JSON.parse(fs.readFileSync(path.join(supplementRoot, "manifest.json"), "utf8")) as SupplementManifest,
   };
 });
-const invalidSupplements = supplementProblems.filter((problem) =>
+const invalidSupplements = supplementBatches.flatMap(({ problems, manifest }) => problems.filter((problem) =>
   problem.reviewStatus !== "reviewed"
     || problem.isAutoGradable !== true
     || problem.answerType === "manual"
     || problem.choices?.length !== 5
     || new Set(problem.choices.map((choice) => choice.value ?? choice.text)).size !== 5
     || !problem.choices.some((choice) => (choice.value ?? choice.text) === problem.answer)
-    || problem.curriculum?.course !== "CN Olympiad Lite"
+    || problem.curriculum?.course !== manifest.course
     || !problem.locale || typeof problem.locale !== "object"
-    || !("language" in problem.locale) || problem.locale.language !== "zh-CN"
+    || !("language" in problem.locale) || problem.locale.language !== manifest.language
     || !integratedExplanations[problem.id]?.hint1
     || !integratedExplanations[problem.id]?.hint2
     || !integratedExplanations[problem.id]?.stepByStep
     || !integratedExplanations[problem.id]?.commonMistake
     || !integratedExplanations[problem.id]?.whyCorrect,
-);
+));
 function countBy<T>(values: T[], key: (value: T) => string) {
   return values.reduce<Record<string, number>>((counts, value) => {
     const name = key(value);

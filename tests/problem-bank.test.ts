@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8094);
+  assert.equal(first.total, 8124);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,14 +84,18 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8094);
-  assert.equal(supplements.length, 81);
+  assert.equal(integrated.length, 8124);
+  assert.equal(supplements.length, 111);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
-  assert.ok(supplements.every((problem) => problem.curriculum?.course === "CN Olympiad Lite"));
   assert.ok(supplements.every((problem) => explanations[problem.id]?.stepByStep));
   assert.ok(supplements.every((problem) => adaptLegacyProblem(problem).reviewStatus === "reviewed"));
+
+  const englishDiagnostic = supplements.filter((problem) => problem.source === "english_core_diagnostic_v1_original");
+  assert.equal(englishDiagnostic.length, 30);
+  assert.ok(englishDiagnostic.every((problem) => problem.curriculum?.course === "Pre-Algebra"));
+  assert.ok(supplements.filter((problem) => problem.source?.startsWith("cn_olympiad")).every((problem) => problem.curriculum?.course === "CN Olympiad Lite"));
 
   const fourthBatch = supplements.filter((problem) => problem.source === "cn_olympiad_foundations_v4_original");
   const clusterCounts = {
