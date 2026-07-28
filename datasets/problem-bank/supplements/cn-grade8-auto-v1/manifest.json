@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "datasetId":"cn-grade8-auto-v1",
+  "createdAt":"2026-07-28",
+  "language":"zh-CN",
+  "course":"CN Junior High Math",
+  "source":{"type":"adaptation","owner":"Adaptive Math Learning","note":"Objective Grade 8 companion items adapted from preserved manual-response questions. Proof and explanation tasks remain unchanged; sourceProblemId retains every link."},
+  "review":{"status":"reviewed","method":"Manual answer, distractor, explanation, source-link, language, and metadata review","reviewedAt":"2026-07-28"},
+  "counts":{"problems":24,"explanations":24,"autoGradable":24,"manualReview":0,"themes":{"八年级一次函数":3,"八年级方程组应用":3,"八年级勾股定理":3,"八年级坐标几何":3,"八年级全等三角形":3,"八年级相似三角形":3,"八年级统计":3,"八年级概率":3},"difficulty":{"2":13,"3":11}}
+}
