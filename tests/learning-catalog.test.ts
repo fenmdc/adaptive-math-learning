@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   buildLearningCatalog,
+  getCanonicalTheme,
   getProblemLanguage,
   loadLearningSection,
 } from "../packages/learning-catalog";
@@ -26,7 +27,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8295);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8325);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -55,6 +56,32 @@ test("learning sections honor language, course, and theme filters", () => {
   assert.ok(english.problems.every((problem) => problem.course === "AMC10"));
 });
 
+test("catalog normalizes Chinese senior theme aliases without changing source metadata", () => {
+  const track = buildLearningCatalog().find((item) => item.id === "cn-school")!;
+  const course = track.courses.find((item) => item.course === "CN Senior High Math")!;
+  const themes = Object.fromEntries(course.themes.map((theme) => [theme.name, theme]));
+  const source = loadLegacyProblems().find((problem) => problem.curriculum?.theme === "函数基础")!;
+
+  assert.equal(course.themes.length, 7);
+  assert.equal(themes["高一函数基础"].total, 40);
+  assert.equal(themes["高一函数基础"].autoGradable, 28);
+  assert.equal(themes["高二数列"].total, 38);
+  assert.equal(themes["高三概率统计"].total, 38);
+  assert.equal(getCanonicalTheme(source), "高一函数基础");
+  assert.equal(source.curriculum?.theme, "函数基础");
+  assert.ok(!themes["函数基础"] && !themes["数列与模型"] && !themes["概率统计"]);
+
+  const section = loadLearningSection({
+    language: "zh",
+    track: "cn-school",
+    course: "CN Senior High Math",
+    theme: "高一函数基础",
+    limit: 100,
+  });
+  assert.equal(section.total, 28);
+  assert.equal(section.problems.length, 28);
+});
+
 test("English Core diagnostic supplement exposes five reviewed concept clusters", () => {
   const section = loadLearningSection({
     language: "en",
@@ -74,6 +101,39 @@ test("English Core diagnostic supplement exposes five reviewed concept clusters"
       ]),
     ),
     { ratio: 6, model: 6, ineq: 6, coord: 6, angle: 6 },
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Pre-Algebra reviewed anchors cover ten concepts across three difficulty levels", () => {
+  const section = loadLearningSection({
+    language: "en",
+    track: "english-core",
+    course: "Pre-Algebra",
+    theme: "Reviewed Concept Anchors",
+    limit: 100,
+  });
+  const concepts = [
+    "mixed",
+    "roots",
+    "divisibility",
+    "primes",
+    "factor",
+    "gcd",
+    "lcm",
+    "pyth",
+    "circle",
+    "count",
+  ];
+
+  assert.equal(section.total, 30);
+  assert.equal(section.problems.length, 30);
+  assert.deepEqual(
+    Object.fromEntries(concepts.map((concept) => {
+      const problems = section.problems.filter((problem) => problem.id.startsWith(`prealg_anchor_v1_${concept}_`));
+      return [concept, [...new Set(problems.map((problem) => problem.difficulty))].sort()];
+    })),
+    Object.fromEntries(concepts.map((concept) => [concept, [2, 3, 4]])),
   );
   assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
 });
@@ -153,7 +213,7 @@ test("Chinese senior companion batch opens seven manual-only themes across three
     track: "cn-school",
     course: "CN Senior High Math",
     theme,
-    limit: 10,
+    limit: 100,
   }).problems.filter((problem) => problem.id.startsWith("cn_senior_auto_v1_")));
 
   assert.equal(companion.length, 21);
@@ -175,7 +235,7 @@ test("Chinese senior advanced batch deepens six high-value skills", () => {
     track: "cn-school",
     course: "CN Senior High Math",
     theme,
-    limit: 10,
+    limit: 100,
   }).problems.filter((problem) => problem.id.startsWith("cn_senior_advanced_v1_")));
   const companion = sections.flat();
 

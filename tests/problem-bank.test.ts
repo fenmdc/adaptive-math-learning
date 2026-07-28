@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8295);
+  assert.equal(first.total, 8325);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,8 +84,8 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8295);
-  assert.equal(supplements.length, 282);
+  assert.equal(integrated.length, 8325);
+  assert.equal(supplements.length, 312);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
@@ -97,6 +97,10 @@ test("integrated problem bank appends reviewed supplements without changing the 
   assert.ok(englishDiagnostic.every((problem) => problem.curriculum?.course === "Pre-Algebra"));
   assert.equal(supplements.filter((problem) => problem.source === "algebra1_remediation_v1_original").length, 30);
   assert.equal(supplements.filter((problem) => problem.source === "amc8_strategy_v1_original").length, 30);
+  const preAlgebraAnchors = supplements.filter((problem) => problem.source === "prealgebra_reviewed_anchors_v1_original");
+  assert.equal(preAlgebraAnchors.length, 30);
+  assert.equal(new Set(preAlgebraAnchors.map((problem) => problem.primaryConcept)).size, 10);
+  assert.ok(preAlgebraAnchors.every((problem) => problem.curriculum?.course === "Pre-Algebra"));
   const chineseJuniorCompanions = supplements.filter((problem) => problem.source === "cn_junior_auto_v1_adaptation");
   assert.equal(chineseJuniorCompanions.length, 24);
   assert.ok(chineseJuniorCompanions.every((problem) => {

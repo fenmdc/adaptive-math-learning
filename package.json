@@ -5,6 +5,7 @@
     "typecheck": "tsc --noEmit",
     "check:boundary": "ts-node --project tsconfig.simulation.json scripts/check-product-boundary.ts",
     "check:data": "ts-node --project tsconfig.simulation.json scripts/check-problem-data.ts",
+    "audit:coverage": "ts-node --project tsconfig.simulation.json scripts/audit-problem-coverage.ts",
     "test": "TS_NODE_PROJECT=tsconfig.simulation.json node --require ts-node/register --test tests/*.test.ts",
     "simulate": "ts-node --project tsconfig.simulation.json packages/simulation/src/index.ts",
     "dev:web": "next dev",

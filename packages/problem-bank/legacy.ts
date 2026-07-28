@@ -65,6 +65,7 @@ export const SUPPLEMENT_DATASET_IDS = [
   "cn-grade8-auto-v1",
   "cn-grade9-auto-v1",
   "cn-senior-advanced-v1",
+  "prealgebra-reviewed-anchors-v1",
 ];
 const SUPPLEMENT_PATHS = SUPPLEMENT_DATASET_IDS.map((datasetId) => [
   "datasets", "problem-bank", "supplements", datasetId,

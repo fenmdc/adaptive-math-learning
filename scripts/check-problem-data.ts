@@ -17,6 +17,11 @@ const conceptRecords = parseCsv(
   fs.readFileSync(path.join(root, "datasets", "concepts", "concepts.csv"), "utf8"),
 );
 const conceptIds = new Set(conceptRecords.map((record) => record.id));
+const integratedConceptIds = new Set(
+  (JSON.parse(
+    fs.readFileSync(path.join(root, "datasets", "problem-bank", "legacy-v1", "concepts.json"), "utf8"),
+  ) as Array<{ id: string }>).map((concept) => concept.id),
+);
 const problemIds = problemRecords.map((record) => record.id);
 const duplicateIds = problemIds.filter((id, index) => problemIds.indexOf(id) !== index);
 const missingConcepts = [...new Set(
@@ -71,6 +76,8 @@ const invalidSupplements = supplementBatches.flatMap(({ problems, manifest }) =>
     || problem.choices?.length !== 5
     || new Set(problem.choices.map((choice) => choice.value ?? choice.text)).size !== 5
     || !problem.choices.some((choice) => (choice.value ?? choice.text) === problem.answer)
+    || problem.concepts.some((concept) => !integratedConceptIds.has(concept))
+    || problem.prerequisiteConcepts?.some((concept) => !integratedConceptIds.has(concept))
     || problem.curriculum?.course !== manifest.course
     || !problem.locale || typeof problem.locale !== "object"
     || !("language" in problem.locale) || problem.locale.language !== manifest.language

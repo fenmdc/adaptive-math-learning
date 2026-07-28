@@ -63,6 +63,22 @@ export const LEARNING_TRACKS: LearningTrack[] = [
   },
 ];
 
+const THEME_ALIASES: Record<string, Record<string, string>> = {
+  "CN Senior High Math": {
+    "函数基础": "高一函数基础",
+    "函数与方程": "高一函数基础",
+    "函数与图像": "高一函数基础",
+    "数列与模型": "高二数列",
+    "概率统计": "高三概率统计",
+  },
+};
+
+export function getCanonicalTheme(problem: LegacyProblem) {
+  const course = problem.curriculum?.course ?? "";
+  const theme = String(problem.curriculum?.theme ?? "");
+  return THEME_ALIASES[course]?.[theme] ?? theme;
+}
+
 export function getProblemLanguage(problem: LegacyProblem): ContentLanguage {
   return problem.locale && typeof problem.locale === "object"
     && "language" in problem.locale && typeof problem.locale.language === "string"
@@ -94,7 +110,7 @@ export function buildLearningCatalog(root = process.cwd()): CatalogTrack[] {
       .sort((left, right) => left.localeCompare(right));
     const courses = courseNames.map((course) => {
       const courseProblems = trackProblems.filter((problem) => problem.curriculum?.course === course);
-      const themeNames = [...new Set(courseProblems.map((problem) => problem.curriculum?.theme).filter(Boolean) as string[])]
+      const themeNames = [...new Set(courseProblems.map(getCanonicalTheme).filter(Boolean))]
         .sort((left, right) => left.localeCompare(right));
 
       return {
@@ -103,7 +119,7 @@ export function buildLearningCatalog(root = process.cwd()): CatalogTrack[] {
         autoGradable: courseProblems.filter((problem) => problem.isAutoGradable).length,
         manualReview: courseProblems.filter((problem) => !problem.isAutoGradable).length,
         themes: themeNames.map((name) => {
-          const themeProblems = courseProblems.filter((problem) => problem.curriculum?.theme === name);
+          const themeProblems = courseProblems.filter((problem) => getCanonicalTheme(problem) === name);
           return {
             name,
             total: themeProblems.length,
@@ -128,7 +144,7 @@ export function loadLearningSection(query: LearningSectionQuery, root = process.
     .filter((problem) => getProblemLanguage(problem) === query.language)
     .filter((problem) => !query.track || getProblemTrack(problem) === query.track)
     .filter((problem) => !query.course || problem.curriculum?.course === query.course)
-    .filter((problem) => !query.theme || problem.curriculum?.theme === query.theme)
+    .filter((problem) => !query.theme || getCanonicalTheme(problem) === query.theme)
     .filter((problem) => problem.isAutoGradable && problem.answerType !== "manual")
     .sort((left, right) => left.difficulty - right.difficulty || left.id.localeCompare(right.id));
 
