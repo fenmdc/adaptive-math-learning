@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8253);
+  assert.equal(first.total, 8277);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,8 +84,8 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8253);
-  assert.equal(supplements.length, 240);
+  assert.equal(integrated.length, 8277);
+  assert.equal(supplements.length, 264);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
@@ -118,6 +118,15 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const chineseGrade8Companions = supplements.filter((problem) => problem.source === "cn_grade8_auto_v1_adaptation");
   assert.equal(chineseGrade8Companions.length, 24);
   assert.ok(chineseGrade8Companions.every((problem) => {
+    const source = legacy.find((candidate) => candidate.id === problem.sourceProblemId);
+    return source?.answerType === "manual"
+      && !source.isAutoGradable
+      && source.curriculum?.course === "CN Junior High Math"
+      && source.curriculum?.theme === problem.curriculum?.theme;
+  }));
+  const chineseGrade9Companions = supplements.filter((problem) => problem.source === "cn_grade9_auto_v1_adaptation");
+  assert.equal(chineseGrade9Companions.length, 24);
+  assert.ok(chineseGrade9Companions.every((problem) => {
     const source = legacy.find((candidate) => candidate.id === problem.sourceProblemId);
     return source?.answerType === "manual"
       && !source.isAutoGradable

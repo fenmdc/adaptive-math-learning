@@ -26,7 +26,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8253);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8277);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -182,5 +182,31 @@ test("Chinese Grade 8 companion batch opens eight core school themes", () => {
 
   assert.equal(companion.length, 24);
   assert.equal(new Set(companion.map((problem) => problem.id.split("_")[4])).size, 8);
+  assert.ok(companion.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Chinese Grade 9 companion batch opens eight core school themes", () => {
+  const themes = [
+    "九年级二次函数",
+    "九年级二次方程",
+    "九年级二次方程应用",
+    "九年级相似应用",
+    "九年级锐角三角函数",
+    "九年级圆",
+    "九年级统计",
+    "九年级概率",
+  ];
+  const sections = themes.map((theme) => loadLearningSection({
+    language: "zh",
+    track: "cn-school",
+    course: "CN Junior High Math",
+    theme,
+    limit: 10,
+  }).problems.filter((problem) => problem.id.startsWith("cn_grade9_auto_v1_")));
+  const companion = sections.flat();
+
+  assert.equal(companion.length, 24);
+  assert.ok(sections.every((problems) => problems.length === 3));
+  assert.equal(new Set(companion.map((problem) => problem.id)).size, 24);
   assert.ok(companion.every((problem) => problem.reviewStatus === "reviewed"));
 });
