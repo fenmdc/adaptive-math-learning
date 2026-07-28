@@ -1,0 +1,20 @@
+{
+  "cn_senior_advanced_v1_piecewise_001":{"hint1":"先判断每个自变量落在哪一段。","hint2":"-2使用平方段，3使用一次段。","stepByStep":"f(-2)=(-2)²=4，f(3)=2×3+1=7。","commonMistake":"不能让两个自变量都使用同一个表达式。","whyCorrect":"分段条件分别为x<0和x≥0。","variantIdea":"求f(0)与f(-3)。"},
+  "cn_senior_advanced_v1_piecewise_002":{"hint1":"分界点两侧的函数值要一致。","hint2":"分别把x=1代入x+2与ax+1。","stepByStep":"左侧值3，右侧值a+1，令a+1=3得a=2。","commonMistake":"虽然x=1由右段定义，衔接条件仍要比较左段趋近的值。","whyCorrect":"a=2时两段在分界点都给出3。","variantIdea":"改变右段常数项后求a。"},
+  "cn_senior_advanced_v1_piecewise_003":{"hint1":"先写出复合函数。","hint2":"根号内必须非负。","stepByStep":"f(g(x))=√(x-5)，要求x-5≥0，得x≥5。","commonMistake":"不能只写f的输入大于等于0而不代入g(x)。","whyCorrect":"内层输出必须落在外层函数定义域内。","variantIdea":"把g(x)改为2x-6。"},
+  "cn_senior_advanced_v1_trig_001":{"hint1":"识别平方和恒等式。","hint2":"先把前两项替换为1。","stepByStep":"sin²x+cos²x=1，所以原式=1+2sin²x。","commonMistake":"cos²x与sin²x不是同类项，不能全部合并。","whyCorrect":"使用了对任意x成立的基本恒等式。","variantIdea":"将结果改写成关于cos²x的式子。"},
+  "cn_senior_advanced_v1_trig_002":{"hint1":"参考角为π/6。","hint2":"正弦在第一和第二象限为正。","stepByStep":"在[0,2π]内解为π/6与π-π/6=5π/6。","commonMistake":"不要遗漏第二象限解，也不要选第四象限。","whyCorrect":"两个角的单位圆纵坐标均为1/2。","variantIdea":"解cosx=1/2。"},
+  "cn_senior_advanced_v1_trig_003":{"hint1":"用sin²x+cos²x=1。","hint2":"第一象限余弦取正值。","stepByStep":"cosx=√(1-9/25)=4/5，tanx=sinx/cosx=3/4。","commonMistake":"第一象限不能取负余弦，正切不要颠倒。","whyCorrect":"结果同时满足平方关系和商数关系。","variantIdea":"若x在第二象限，判断符号。"},
+  "cn_senior_advanced_v1_sequence_001":{"hint1":"按n=1、2、3逐次递推。","hint2":"每一步增加3n，增量不是常数。","stepByStep":"a₂=2+3=5，a₃=5+6=11，a₄=11+9=20。","commonMistake":"不要把3n误当作每次都加3。","whyCorrect":"每一步都使用了对应的n值。","variantIdea":"继续求a₅。"},
+  "cn_senior_advanced_v1_sequence_002":{"hint1":"递推式表示每项比前项大2。","hint2":"使用等差数列通项。","stepByStep":"aₙ=5+(n-1)×2=2n+3。","commonMistake":"加2不是乘2，不能写成等比通项。","whyCorrect":"代入n=1得到5，且相邻项差为2。","variantIdea":"求a₂₀。"},
+  "cn_senior_advanced_v1_sequence_003":{"hint1":"用a₅除以a₂。","hint2":"两项相除得到q³。","stepByStep":"q³=48/6=8，正公比q=2；a₁=a₂/q=3。","commonMistake":"a₅与a₂的指数差是3。","whyCorrect":"3×2=6且3×2⁴=48。","variantIdea":"允许负公比时重新讨论。"},
+  "cn_senior_advanced_v1_conics_001":{"hint1":"焦点位于y轴正方向。","hint2":"标准式为x²=4py。","stepByStep":"焦点(0,p)=(0,2)，p=2，所以x²=8y。","commonMistake":"p是顶点到焦点的距离，不是焦点与准线全距。","whyCorrect":"准线y=-p=-2也与题意一致。","variantIdea":"焦点改为(0,-3)时写方程。"},
+  "cn_senior_advanced_v1_conics_002":{"hint1":"先读出a²=25、b²=9。","hint2":"由c²=a²-b²求c。","stepByStep":"a=5，b=3，c=4；长轴2a=10，短轴2b=6，焦距2c=8。","commonMistake":"a、b、c分别是半轴和半焦距。","whyCorrect":"4²=5²-3²。","variantIdea":"求两个焦点坐标。"},
+  "cn_senior_advanced_v1_conics_003":{"hint1":"把y=x代入圆方程。","hint2":"得到2x²=8。","stepByStep":"x=±2且y=x，所以交点为(-2,-2)、(2,2)。","commonMistake":"开平方必须保留正负两个解。","whyCorrect":"两个点同时满足直线和圆方程。","variantIdea":"将直线改为y=-x。"},
+  "cn_senior_advanced_v1_derivative_001":{"hint1":"先求导并令导数大于0。","hint2":"f'=3(x-1)(x+1)。","stepByStep":"导数在x<-1或x>1时为正，故递增区间为(-∞,-1)和(1,+∞)。","commonMistake":"(-1,1)内导数为负，对应递减。","whyCorrect":"导数正负与函数局部增减方向一致。","variantIdea":"写出递减区间。"},
+  "cn_senior_advanced_v1_derivative_002":{"hint1":"求导后找临界点0和2。","hint2":"检查两侧导数符号变化。","stepByStep":"f'=3x(x-2)，x=0处正变负且f(0)=4；x=2处负变正且f(2)=0。","commonMistake":"极值点需要同时写横纵坐标。","whyCorrect":"导数符号变化分别对应极大和极小。","variantIdea":"只求极值而非极值点。"},
+  "cn_senior_advanced_v1_derivative_003":{"hint1":"递增要求区间上导数恒非负。","hint2":"x≥1时x²的最小值为1。","stepByStep":"f'=3(x²-k)，恒非负要求1-k≥0，因此k≤1。","commonMistake":"允许个别点导数为0，所以边界k=1应保留。","whyCorrect":"k≤1时任意x≥1都有x²-k≥0。","variantIdea":"改为在[2,+∞)递增。"},
+  "cn_senior_advanced_v1_expectation_001":{"hint1":"每个取值乘对应概率。","hint2":"最后将三项相加。","stepByStep":"E(X)=0×0.2+1×0.5+2×0.3=1.1。","commonMistake":"期望不是三个取值的普通平均数。","whyCorrect":"概率加权反映长期平均水平。","variantIdea":"改变X=2的概率后重算。"},
+  "cn_senior_advanced_v1_expectation_002":{"hint1":"恰好两次成功有三种位置。","hint2":"使用C(3,2)p²(1-p)。","stepByStep":"3×0.7²×0.3=3×0.49×0.3=0.441。","commonMistake":"只算一种排列会得到0.147。","whyCorrect":"三次独立且三种成功位置互斥。","variantIdea":"求三次全部答对的概率。"},
+  "cn_senior_advanced_v1_expectation_003":{"hint1":"收益乘概率后求和。","hint2":"零收益项仍属于分布，但贡献为0。","stepByStep":"20×0.1+5×0.3+0×0.6=2+1.5=3.5。","commonMistake":"最高奖金20元不是平均收益。","whyCorrect":"期望表示大量重复抽奖的长期平均收益。","variantIdea":"若每次抽奖成本4元，求期望净收益。"}
+}
