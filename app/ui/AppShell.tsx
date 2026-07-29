@@ -7,7 +7,7 @@ const navigation = [
   { href: "/library", label: "Learning sections", short: "Sections" },
   { href: "/exams", label: "Mock exams", short: "Exams" },
   { href: "/dashboard", label: "Progress dashboard", short: "Progress" },
-  { href: "/accounts", label: "Learner profiles", short: "Profiles" },
+  { href: "/accounts", label: "Learner profiles", mobileLabel: "登录", short: "Profiles" },
 ];
 
 function ProductMark() {
@@ -50,7 +50,8 @@ export default function AppShell({
               key={item.href}
             >
               <span>{item.short}</span>
-              <strong>{item.label}</strong>
+              <strong className={item.mobileLabel ? "nav-label-desktop" : undefined}>{item.label}</strong>
+              {item.mobileLabel ? <strong className="nav-label-mobile">{item.mobileLabel}</strong> : null}
             </Link>
           ))}
         </nav>

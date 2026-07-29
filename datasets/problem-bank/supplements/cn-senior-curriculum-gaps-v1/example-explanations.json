@@ -1,0 +1,33 @@
+{
+  "cn_senior_gap_v1_exp_001":{"hint1":"代入最容易计算的自变量。","hint2":"利用a⁰=1。","stepByStep":"令x=0，则f(0)=2⁰=1，所以图像经过(0,1)。","commonMistake":"零指数的值是1，不是0。","whyCorrect":"任意底数为正且不等于1的指数函数都经过(0,1)。","variantIdea":"判断f(x)=3^x必过的定点。"},
+  "cn_senior_gap_v1_exp_002":{"hint1":"回忆指数函数的底数分类。","hint2":"底数在0与1之间时函数衰减。","stepByStep":"当0<a<1时，a^x随x增大而减小；当a>1时单调递增。","commonMistake":"底数必须为正且不能等于1。","whyCorrect":"0<a<1正好对应指数衰减。","variantIdea":"判断a^x单调递增时a的范围。"},
+  "cn_senior_gap_v1_exp_003":{"hint1":"把4^x写成(2^x)²。","hint2":"令t=2^x并注意t>0。","stepByStep":"令t=2^x，得t²-5t+4=0，即(t-1)(t-4)=0，所以2^x=1或4，x=0或2。","commonMistake":"换元后不要忘记指数式恒为正。","whyCorrect":"把x=0和2代回原式都得到0。","variantIdea":"解9^x-10·3^x+9=0。"},
+
+  "cn_senior_gap_v1_log_001":{"hint1":"把对数式改写成指数式。","hint2":"求2的几次方等于8。","stepByStep":"2³=8，因此log₂8=3。","commonMistake":"对数不是用真数除以底数。","whyCorrect":"对数值就是相应指数。","variantIdea":"计算log₃27。"},
+  "cn_senior_gap_v1_log_002":{"hint1":"分别计算两个简单对数。","hint2":"1/3=3⁻¹。","stepByStep":"log₃9=2，log₃(1/3)=-1，所以结果为1。","commonMistake":"真数小于1时对数可以为负。","whyCorrect":"也可合并为log₃3=1。","variantIdea":"化简log₂8+log₂(1/4)。"},
+  "cn_senior_gap_v1_log_003":{"hint1":"先确定两个真数都为正。","hint2":"合并同底对数后解二次方程。","stepByStep":"定义域为x>3；合并得(x-1)(x-3)=8，解得x=5或-1，只有x=5符合定义域。","commonMistake":"对数方程的代数根必须经过定义域检验。","whyCorrect":"代入x=5时log₂4+log₂2=3。","variantIdea":"解log₃(x-1)+log₃(x+1)=2。"},
+
+  "cn_senior_gap_v1_inverse_001":{"hint1":"先写y=2x+3。","hint2":"解出x后交换变量名称。","stepByStep":"由y=2x+3得x=(y-3)/2，因此f⁻¹(x)=(x-3)/2。","commonMistake":"反函数不是原函数表达式的倒数。","whyCorrect":"复合f⁻¹(f(x))可化为x。","variantIdea":"求f(x)=3x-4的反函数。"},
+  "cn_senior_gap_v1_inverse_002":{"hint1":"反函数值表示原函数的输入。","hint2":"解x³+1=9。","stepByStep":"x³=8，所以x=2，即f⁻¹(9)=2。","commonMistake":"不要直接计算f(9)。","whyCorrect":"f(2)=9。","variantIdea":"求f⁻¹(28)。"},
+  "cn_senior_gap_v1_inverse_003":{"hint1":"令y=(x-1)/(x+2)。","hint2":"交叉相乘并把含x项放在一侧。","stepByStep":"yx+2y=x-1，故x(y-1)=-(1+2y)，得到x=(1+2y)/(1-y)，再交换变量。","commonMistake":"分式函数的反函数不能通过分子分母直接交换得到。","whyCorrect":"所得函数与原函数互相复合后返回自变量。","variantIdea":"求f(x)=(2x+1)/(x-1)的反函数。"},
+
+  "cn_senior_gap_v1_vieta_001":{"hint1":"使用根和公式。","hint2":"对x²+bx+c=0，两根和为-b。","stepByStep":"本题一次项系数b=-7，因此两根和为-(-7)=7。","commonMistake":"根和公式带有负号。","whyCorrect":"方程可分解为(x-2)(x-5)=0，两根和也是7。","variantIdea":"求x²+6x+5=0的根和。"},
+  "cn_senior_gap_v1_vieta_002":{"hint1":"使用根积公式。","hint2":"首项系数为1时根积等于常数项。","stepByStep":"k=2×3=6。","commonMistake":"不要把两根之和5当作常数项。","whyCorrect":"(x-2)(x-3)=x²-5x+6。","variantIdea":"已知两根为-1和4，求常数项。"},
+  "cn_senior_gap_v1_vieta_003":{"hint1":"先求α+β和αβ。","hint2":"使用α²+β²=(α+β)²-2αβ。","stepByStep":"α+β=4，αβ=1，因此α²+β²=4²-2×1=14。","commonMistake":"根的平方和不等于根和的平方。","whyCorrect":"展开(α+β)²时需包含2αβ。","variantIdea":"求α³+β³。"},
+
+  "cn_senior_gap_v1_poly_001":{"hint1":"查看最高次非零项。","hint2":"次数由变量的最高指数决定。","stepByStep":"最高次项为3x⁴，所以次数为4。","commonMistake":"项数和常数7都不决定多项式次数。","whyCorrect":"x⁴的系数非零且没有更高次项。","variantIdea":"判断5x⁶-x+2的次数。"},
+  "cn_senior_gap_v1_poly_002":{"hint1":"将x=1代入每一项。","hint2":"不要漏掉常数项。","stepByStep":"P(1)=1³-2×1²-5×1+6=1-2-5+6=0。","commonMistake":"代入时每一项和符号都要保留。","whyCorrect":"P(1)=0也说明x-1是P(x)的因式。","variantIdea":"计算P(-1)。"},
+  "cn_senior_gap_v1_poly_003":{"hint1":"使用因式定理。","hint2":"分别令P(1)=0和P(2)=0。","stepByStep":"P(1)=0给出a+b=-7；P(2)=0给出2a+b=-7，解得a=0、b=-7，所以a+b=-7。","commonMistake":"两个整除条件必须分别使用。","whyCorrect":"此时P(x)=x³-7x+6，代入1和2均为0。","variantIdea":"改用因式(x+1)和(x-3)。"},
+
+  "cn_senior_gap_v1_cosine_001":{"hint1":"使用余弦定理。","hint2":"cos90°=0。","stepByStep":"c²=3²+4²-2×3×4×0=25，所以c=5。","commonMistake":"边长取正值。","whyCorrect":"这是3-4-5直角三角形。","variantIdea":"将两邻边改为5和12。"},
+  "cn_senior_gap_v1_cosine_002":{"hint1":"使用正弦定理并匹配对边与对角。","hint2":"写成6/sin30°=b/sin45°。","stepByStep":"b=6·sin45°/sin30°=6·(√2/2)/(1/2)=6√2。","commonMistake":"不要颠倒A、B与对应边a、b。","whyCorrect":"B>A，因此b>a，6√2确实大于6。","variantIdea":"已知a=4、A=30°、B=60°，求b。"},
+  "cn_senior_gap_v1_cosine_003":{"hint1":"把长度8放在余弦定理的对边位置。","hint2":"使用cosC=(a²+b²-c²)/(2ab)。","stepByStep":"cosC=(5²+7²-8²)/(2×5×7)=10/70=1/7。","commonMistake":"分子是两邻边平方和减对边平方。","whyCorrect":"结果为正，说明该角为锐角，与边长关系一致。","variantIdea":"求5、5、6三角形中边6所对角的余弦。"},
+
+  "cn_senior_gap_v1_transform_001":{"hint1":"关于x轴对称只改变纵坐标。","hint2":"把-3变为3。","stepByStep":"(x,y)关于x轴对称为(x,-y)，所以P变为(2,3)。","commonMistake":"两个坐标同时变号是关于原点对称。","whyCorrect":"原点与像点到x轴距离相等且分居两侧。","variantIdea":"求关于y轴的对称点。"},
+  "cn_senior_gap_v1_transform_002":{"hint1":"平移向量与点坐标逐项相加。","hint2":"计算-1+3和4-2。","stepByStep":"A'=(-1+3,4+(-2))=(2,2)。","commonMistake":"不要反向减去给定平移向量。","whyCorrect":"从A到A'的向量正是(3,-2)。","variantIdea":"按向量(-4,5)平移点(2,-1)。"},
+  "cn_senior_gap_v1_transform_003":{"hint1":"向右平移用x-3替换x。","hint2":"化简2(x-3)+1。","stepByStep":"新图像方程为y=2(x-3)+1=2x-5。","commonMistake":"水平平移不是直接把常数项加3。","whyCorrect":"原点(0,1)平移后成为(3,1)，它满足y=2x-5。","variantIdea":"将y=-x+4向左平移2单位。"},
+
+  "cn_senior_gap_v1_mean_001":{"hint1":"先求四个数的和。","hint2":"总和除以数据个数。","stepByStep":"(2+5+7+10)/4=24/4=6。","commonMistake":"平均数不是数据总和。","whyCorrect":"四个数相对6的偏差之和为0。","variantIdea":"计算3、6、8、11的平均数。"},
+  "cn_senior_gap_v1_mean_002":{"hint1":"两组人数不同，需要按人数加权。","hint2":"先分别求两组总分。","stepByStep":"全班总分为20×80+30×90=4300，总人数50，平均分为86。","commonMistake":"直接算(80+90)/2忽略了两组人数不同。","whyCorrect":"86更接近人数较多的女生组均值90。","variantIdea":"两组人数改为相等时求总平均。"},
+  "cn_senior_gap_v1_mean_003":{"hint1":"平均数乘个数得到总和。","hint2":"用原总和减去剩余总和。","stepByStep":"原总和5×12=60，剩余总和4×10=40，因此去掉的数为20。","commonMistake":"不能只计算两个平均数之差2。","whyCorrect":"加入20后，五数总和回到60，平均数为12。","variantIdea":"六数平均15，去一数后五数平均14，求去掉的数。"}
+}

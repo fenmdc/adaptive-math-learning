@@ -27,7 +27,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8397);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8421);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -62,7 +62,7 @@ test("catalog normalizes Chinese senior theme aliases without changing source me
   const themes = Object.fromEntries(course.themes.map((theme) => [theme.name, theme]));
   const source = loadLegacyProblems().find((problem) => problem.curriculum?.theme === "函数基础")!;
 
-  assert.equal(course.themes.length, 7);
+  assert.equal(course.themes.length, 8);
   assert.equal(themes["高一函数基础"].total, 40);
   assert.equal(themes["高一函数基础"].autoGradable, 28);
   assert.equal(themes["高二数列"].total, 38);
@@ -309,6 +309,28 @@ test("Chinese senior advanced batch deepens six high-value skills", () => {
   assert.ok(sections.every((problems) => problems.length === 3));
   assert.equal(new Set(companion.map((problem) => problem.id)).size, 18);
   assert.ok(companion.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Chinese senior curriculum-gap batch opens eight reviewed concepts", () => {
+  const section = loadLearningSection({
+    language: "zh",
+    track: "cn-school",
+    course: "CN Senior High Math",
+    theme: "高中课程缺口专项",
+    limit: 100,
+  });
+  const concepts = ["exp", "log", "inverse", "vieta", "poly", "cosine", "transform", "mean"];
+
+  assert.equal(section.total, 24);
+  assert.equal(section.problems.length, 24);
+  assert.deepEqual(
+    Object.fromEntries(concepts.map((concept) => {
+      const problems = section.problems.filter((problem) => problem.id.startsWith(`cn_senior_gap_v1_${concept}_`));
+      return [concept, [...new Set(problems.map((problem) => problem.difficulty))].sort()];
+    })),
+    Object.fromEntries(concepts.map((concept) => [concept, [3, 4, 5]])),
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
 });
 
 test("Chinese Grade 8 companion batch opens eight core school themes", () => {

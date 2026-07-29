@@ -69,6 +69,7 @@ export const SUPPLEMENT_DATASET_IDS = [
   "algebra1-reviewed-anchors-v1",
   "amc8-reviewed-anchors-v2",
   "prealgebra-reviewed-anchors-v2",
+  "cn-senior-curriculum-gaps-v1",
 ];
 const SUPPLEMENT_PATHS = SUPPLEMENT_DATASET_IDS.map((datasetId) => [
   "datasets", "problem-bank", "supplements", datasetId,

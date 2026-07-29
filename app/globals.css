@@ -173,6 +173,10 @@ a {
   font-size: 13px;
 }
 
+.primary-nav .nav-label-mobile {
+  display: none;
+}
+
 .rail-note {
   display: flex;
   align-items: flex-start;
@@ -2048,6 +2052,14 @@ a {
 
   .primary-nav strong {
     overflow-wrap: anywhere;
+  }
+
+  .primary-nav .nav-label-desktop {
+    display: none;
+  }
+
+  .primary-nav .nav-label-mobile {
+    display: block;
   }
 
   .workspace-page,

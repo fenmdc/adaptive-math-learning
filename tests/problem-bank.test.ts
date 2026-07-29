@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8397);
+  assert.equal(first.total, 8421);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,8 +84,8 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8397);
-  assert.equal(supplements.length, 384);
+  assert.equal(integrated.length, 8421);
+  assert.equal(supplements.length, 408);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
@@ -140,6 +140,10 @@ test("integrated problem bank appends reviewed supplements without changing the 
       && source.curriculum?.course === "CN Senior High Math"
       && source.curriculum?.theme === problem.curriculum?.theme;
   }));
+  const chineseSeniorCurriculumGaps = supplements.filter((problem) => problem.source === "cn_senior_curriculum_gaps_v1_original");
+  assert.equal(chineseSeniorCurriculumGaps.length, 24);
+  assert.equal(new Set(chineseSeniorCurriculumGaps.map((problem) => problem.primaryConcept)).size, 8);
+  assert.ok(chineseSeniorCurriculumGaps.every((problem) => problem.curriculum?.course === "CN Senior High Math"));
   const chineseGrade8Companions = supplements.filter((problem) => problem.source === "cn_grade8_auto_v1_adaptation");
   assert.equal(chineseGrade8Companions.length, 24);
   assert.ok(chineseGrade8Companions.every((problem) => {
