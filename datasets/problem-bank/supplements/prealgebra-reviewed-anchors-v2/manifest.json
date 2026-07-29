@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "prealgebra-reviewed-anchors-v2",
+  "createdAt": "2026-07-29",
+  "language": "en-US",
+  "course": "Pre-Algebra",
+  "source": {
+    "type": "original",
+    "owner": "Adaptive Math Learning",
+    "note": "Original reviewed anchor items for eight high-value Pre-Algebra concepts that remained without course-specific reviewed coverage."
+  },
+  "review": {
+    "status": "reviewed",
+    "method": "Manual answer, distractor, explanation, difficulty, concept, language, and metadata review",
+    "reviewedAt": "2026-07-29"
+  },
+  "counts": {
+    "problems": 24,
+    "explanations": 24,
+    "autoGradable": 24,
+    "manualReview": 0,
+    "themes": { "Reviewed Concept Anchors II": 24 },
+    "difficulty": { "2": 8, "3": 8, "4": 8 }
+  }
+}

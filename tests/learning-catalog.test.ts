@@ -27,7 +27,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8325);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8397);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -138,6 +138,50 @@ test("Pre-Algebra reviewed anchors cover ten concepts across three difficulty le
   assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
 });
 
+test("Algebra 1 reviewed anchors cover eight concepts across three difficulty levels", () => {
+  const section = loadLearningSection({
+    language: "en",
+    track: "english-core",
+    course: "Algebra 1",
+    theme: "Reviewed Concept Anchors",
+    limit: 100,
+  });
+  const concepts = ["ineq", "exp", "roots", "ratio", "prop", "expr", "int", "abs"];
+
+  assert.equal(section.total, 24);
+  assert.equal(section.problems.length, 24);
+  assert.deepEqual(
+    Object.fromEntries(concepts.map((concept) => {
+      const problems = section.problems.filter((problem) => problem.id.startsWith(`alg1_anchor_v1_${concept}_`));
+      return [concept, [...new Set(problems.map((problem) => problem.difficulty))].sort()];
+    })),
+    Object.fromEntries(concepts.map((concept) => [concept, [1, 2, 3]])),
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Pre-Algebra reviewed anchor follow-up covers eight concepts across three difficulty levels", () => {
+  const section = loadLearningSection({
+    language: "en",
+    track: "english-core",
+    course: "Pre-Algebra",
+    theme: "Reviewed Concept Anchors II",
+    limit: 100,
+  });
+  const concepts = ["prob", "sim", "sub", "func", "rem", "nat", "med", "range"];
+
+  assert.equal(section.total, 24);
+  assert.equal(section.problems.length, 24);
+  assert.deepEqual(
+    Object.fromEntries(concepts.map((concept) => {
+      const problems = section.problems.filter((problem) => problem.id.startsWith(`prealg_anchor_v2_${concept}_`));
+      return [concept, [...new Set(problems.map((problem) => problem.difficulty))].sort()];
+    })),
+    Object.fromEntries(concepts.map((concept) => [concept, [2, 3, 4]])),
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
 test("Algebra 1 remediation supplement exposes four prerequisite repair chains", () => {
   const section = loadLearningSection({
     language: "en",
@@ -170,6 +214,28 @@ test("AMC8 strategy supplement strengthens five underrepresented concepts", () =
       section.problems.filter((problem) => problem.id.startsWith(`amc8_strategy_v1_${cluster}_`)).length,
     ])),
     { prop: 6, ie: 6, sim: 6, arc: 6, range: 6 },
+  );
+  assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("AMC8 reviewed anchors cover eight concepts across three difficulty levels", () => {
+  const section = loadLearningSection({
+    language: "en",
+    track: "amc",
+    course: "AMC8",
+    theme: "Reviewed Concept Anchors",
+    limit: 100,
+  });
+  const concepts = ["pct", "prob", "perm", "gcd", "rem", "tri", "coord", "cong"];
+
+  assert.equal(section.total, 24);
+  assert.equal(section.problems.length, 24);
+  assert.deepEqual(
+    Object.fromEntries(concepts.map((concept) => {
+      const problems = section.problems.filter((problem) => problem.id.startsWith(`amc8_anchor_v2_${concept}_`));
+      return [concept, [...new Set(problems.map((problem) => problem.difficulty))].sort()];
+    })),
+    Object.fromEntries(concepts.map((concept) => [concept, [2, 3, 4]])),
   );
   assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
 });
