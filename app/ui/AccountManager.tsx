@@ -6,10 +6,12 @@ import {
   ACCOUNT_CHANGE_EVENT,
   GUEST_ACCOUNT_ID,
   createAccount,
+  deleteAccount,
   getActiveAccountId,
   readAccounts,
   setActiveAccount,
   signOutAccount,
+  updateAccount,
   type LocalStudentAccount,
 } from "@/packages/accounts";
 import { readLegacyLearningSummary } from "@/packages/accounts/legacy-history";
@@ -19,6 +21,11 @@ export default function AccountManager() {
   const [activeId, setActiveId] = useState(GUEST_ACCOUNT_ID);
   const [name, setName] = useState("");
   const [level, setLevel] = useState<LocalStudentAccount["level"]>("Pre-Algebra");
+  const [editingId, setEditingId] = useState<string>();
+  const [editName, setEditName] = useState("");
+  const [editLevel, setEditLevel] = useState<LocalStudentAccount["level"]>("Pre-Algebra");
+  const [editGoal, setEditGoal] = useState("");
+  const [deleteConfirmId, setDeleteConfirmId] = useState<string>();
 
   function refresh() {
     setAccounts(readAccounts(window.localStorage));
@@ -38,6 +45,31 @@ export default function AccountManager() {
     event.preventDefault();
     createAccount(window.localStorage, { name, level });
     setName("");
+    window.dispatchEvent(new Event(ACCOUNT_CHANGE_EVENT));
+    refresh();
+  }
+
+  function beginEdit(account: LocalStudentAccount) {
+    setEditingId(account.id);
+    setEditName(account.name);
+    setEditLevel(account.level);
+    setEditGoal(account.goal);
+    setDeleteConfirmId(undefined);
+  }
+
+  function saveEdit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (!editingId) return;
+    updateAccount(window.localStorage, editingId, { name: editName, level: editLevel, goal: editGoal });
+    setEditingId(undefined);
+    window.dispatchEvent(new Event(ACCOUNT_CHANGE_EVENT));
+    refresh();
+  }
+
+  function removeAccount(accountId: string) {
+    deleteAccount(window.localStorage, accountId);
+    setDeleteConfirmId(undefined);
+    setEditingId(undefined);
     window.dispatchEvent(new Event(ACCOUNT_CHANGE_EVENT));
     refresh();
   }
@@ -66,7 +98,25 @@ export default function AccountManager() {
                 <div><dt>Previous practice</dt><dd>{history.practiceAttempts}</dd></div>
                 <div><dt>Diagnostics</dt><dd>{history.diagnosticAttempts}</dd></div>
               </dl>
-              <button disabled={activeId === account.id} onClick={() => activate(account.id)} type="button">{activeId === account.id ? "Active profile" : "Use this profile"}</button>
+              <div className="account-actions">
+                <button disabled={activeId === account.id} onClick={() => activate(account.id)} type="button">{activeId === account.id ? "Active profile" : "Use this profile"}</button>
+                <button onClick={() => beginEdit(account)} type="button">Edit</button>
+                <button className="danger-button" onClick={() => setDeleteConfirmId(account.id)} type="button">Delete</button>
+              </div>
+              {editingId === account.id ? (
+                <form className="edit-account" onSubmit={saveEdit}>
+                  <label><span>Name</span><input aria-label={`Edit ${account.name} name`} onChange={(event) => setEditName(event.target.value)} required value={editName} /></label>
+                  <label><span>Learning level</span><select aria-label={`Edit ${account.name} learning level`} onChange={(event) => setEditLevel(event.target.value as LocalStudentAccount["level"])} value={editLevel}><option>Pre-Algebra</option><option>Algebra 1 Readiness</option><option>AMC8</option></select></label>
+                  <label><span>Learning goal</span><input aria-label={`Edit ${account.name} learning goal`} onChange={(event) => setEditGoal(event.target.value)} required value={editGoal} /></label>
+                  <div><button type="submit">Save changes</button><button onClick={() => setEditingId(undefined)} type="button">Cancel</button></div>
+                </form>
+              ) : null}
+              {deleteConfirmId === account.id ? (
+                <div className="delete-account-confirm" role="alert">
+                  <p>Delete {account.name} and this profile&apos;s saved learning history from this device?</p>
+                  <div><button className="danger-button" onClick={() => removeAccount(account.id)} type="button">Confirm delete</button><button onClick={() => setDeleteConfirmId(undefined)} type="button">Cancel</button></div>
+                </div>
+              ) : null}
             </article>
           );
         })}

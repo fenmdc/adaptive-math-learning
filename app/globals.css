@@ -886,6 +886,70 @@ a {
   color: var(--green-dark);
 }
 
+.edit-account > div,
+.delete-account-confirm > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.account-actions {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+}
+
+.account-actions > button {
+  padding-inline: 12px;
+}
+
+.account-card .danger-button {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.edit-account,
+.delete-account-confirm {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.edit-account label {
+  display: grid;
+  gap: 7px;
+}
+
+.edit-account label > span {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.edit-account input,
+.edit-account select {
+  min-height: 38px;
+  width: 100%;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  padding: 7px 10px;
+  font: inherit;
+}
+
+.edit-account > div button,
+.delete-account-confirm > div button {
+  flex: 1 1 130px;
+}
+
+.delete-account-confirm p {
+  margin: 0;
+}
+
 .create-account {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr auto;
@@ -2165,6 +2229,14 @@ a {
   .account-grid,
   .legacy-history dl {
     grid-template-columns: 1fr;
+  }
+
+  .account-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .account-actions > button:first-child {
+    grid-column: 1 / -1;
   }
 
   .learning-header {

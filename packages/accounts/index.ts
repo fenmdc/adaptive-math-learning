@@ -16,7 +16,9 @@ export type LocalStudentAccount = {
 };
 
 export type AccountStorage = {
+  readonly length?: number;
   getItem(key: string): string | null;
+  key?(index: number): string | null;
   setItem(key: string, value: string): void;
   removeItem(key: string): void;
 };
@@ -101,6 +103,43 @@ export function createAccount(
   storage.setItem(ACCOUNT_LIST_KEY, JSON.stringify([account, ...readAccounts(storage)]));
   storage.setItem(ACTIVE_ACCOUNT_KEY, account.id);
   return account;
+}
+
+export function updateAccount(
+  storage: AccountStorage,
+  accountId: string,
+  input: Partial<Pick<LocalStudentAccount, "name" | "goal" | "level">>,
+  now = new Date().toISOString(),
+) {
+  const accounts = readAccounts(storage);
+  const current = accounts.find((account) => account.id === accountId);
+  if (!current) return null;
+
+  const updated: LocalStudentAccount = {
+    ...current,
+    name: input.name?.trim() || current.name,
+    level: input.level ?? current.level,
+    goal: input.goal?.trim() || current.goal,
+    updatedAt: now,
+  };
+  storage.setItem(ACCOUNT_LIST_KEY, JSON.stringify(accounts.map((account) => account.id === accountId ? updated : account)));
+  return updated;
+}
+
+export function deleteAccount(storage: AccountStorage, accountId: string) {
+  const accounts = readAccounts(storage);
+  if (!accounts.some((account) => account.id === accountId)) return false;
+
+  const wasActive = getActiveAccountId(storage) === accountId;
+  storage.setItem(ACCOUNT_LIST_KEY, JSON.stringify(accounts.filter((account) => account.id !== accountId)));
+  if (wasActive) signOutAccount(storage);
+
+  const prefix = `adaptive-math-learning.account.${accountId}.`;
+  const scopedKeys = typeof storage.length === "number" && storage.key
+    ? Array.from({ length: storage.length }, (_, index) => storage.key!(index)).filter((key): key is string => Boolean(key?.startsWith(prefix)))
+    : [];
+  scopedKeys.forEach((key) => storage.removeItem(key));
+  return true;
 }
 
 export function accountScopedKey(key: string, accountId: string) {
