@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "amc8-statistics-v1",
+  "createdAt": "2026-07-31",
+  "language": "en-US",
+  "course": "AMC8",
+  "source": {
+    "type": "original",
+    "owner": "Adaptive Math Learning",
+    "note": "Original reviewed AMC8-style statistics practice; no competition problem text is reproduced."
+  },
+  "review": {
+    "status": "reviewed",
+    "method": "Manual answer, distractor, explanation, difficulty, concept, language, curriculum, and remediation-link review",
+    "reviewedAt": "2026-07-31"
+  },
+  "counts": {
+    "problems": 6,
+    "explanations": 6,
+    "autoGradable": 6,
+    "manualReview": 0,
+    "themes": { "Statistics": 6 },
+    "difficulty": { "2": 1, "3": 2, "4": 2, "5": 1 }
+  }
+}

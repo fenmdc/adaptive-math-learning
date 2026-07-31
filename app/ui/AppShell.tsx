@@ -3,10 +3,10 @@ import type { ReactNode } from "react";
 import AccountBar from "./AccountBar";
 
 const navigation = [
-  { href: "/", label: "Learning workspace", short: "Learn" },
-  { href: "/library", label: "Learning sections", short: "Sections" },
-  { href: "/exams", label: "Mock exams", short: "Exams" },
-  { href: "/dashboard", label: "Progress dashboard", short: "Progress" },
+  { href: "/", label: "Learning workspace", mobileLabel: "Learn", short: "Learn" },
+  { href: "/library", label: "Learning sections", mobileLabel: "Sections", short: "Sections" },
+  { href: "/exams", label: "Mock exams", mobileLabel: "Exams", short: "Exams" },
+  { href: "/dashboard", label: "Progress dashboard", mobileLabel: "Progress", short: "Progress" },
   { href: "/accounts", label: "Learner profiles", mobileLabel: "登录", short: "Profiles" },
 ];
 

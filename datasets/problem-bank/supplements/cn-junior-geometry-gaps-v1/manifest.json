@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "cn-junior-geometry-gaps-v1",
+  "createdAt": "2026-07-31",
+  "language": "zh-CN",
+  "course": "CN Junior High Math",
+  "source": {
+    "type": "original",
+    "owner": "Adaptive Math Learning",
+    "note": "原创中文初中几何客观题，补充三个原零自动评分主题；保留原有主观证明题。"
+  },
+  "review": {
+    "status": "reviewed",
+    "method": "人工审核答案、干扰项、解析、难度、概念、语言、课程主题与补救链接",
+    "reviewedAt": "2026-07-31"
+  },
+  "counts": {
+    "problems": 12,
+    "explanations": 12,
+    "autoGradable": 12,
+    "manualReview": 0,
+    "themes": {
+      "七年级相交线与角": 4,
+      "八年级几何证明": 4,
+      "八年级平行线": 4
+    },
+    "difficulty": { "2": 3, "3": 5, "4": 4 }
+  }
+}

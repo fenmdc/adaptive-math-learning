@@ -66,7 +66,7 @@ test("legacy pagination and filtering preserve source boundaries", () => {
   const second = queryLegacyProblems({ offset: 3, limit: 3 });
   const manual = queryLegacyProblems({ answerType: "manual", limit: 100 });
 
-  assert.equal(first.total, 8421);
+  assert.equal(first.total, 8473);
   assert.equal(first.problems.length, 3);
   assert.notEqual(first.problems[0].id, second.problems[0].id);
   assert.ok(manual.total > 0);
@@ -84,8 +84,8 @@ test("integrated problem bank appends reviewed supplements without changing the 
   const supplements = integrated.slice(legacy.length);
 
   assert.equal(legacy.length, 8013);
-  assert.equal(integrated.length, 8421);
-  assert.equal(supplements.length, 408);
+  assert.equal(integrated.length, 8473);
+  assert.equal(supplements.length, 460);
   assert.equal(new Set(integrated.map((problem) => problem.id)).size, integrated.length);
   assert.ok(supplements.every((problem) => problem.reviewStatus === "reviewed"));
   assert.ok(supplements.every((problem) => problem.isAutoGradable && problem.answerType === "multiple_choice"));
@@ -109,6 +109,42 @@ test("integrated problem bank appends reviewed supplements without changing the 
   assert.equal(preAlgebraAnchorFollowup.length, 24);
   assert.equal(new Set(preAlgebraAnchorFollowup.map((problem) => problem.primaryConcept)).size, 8);
   assert.ok(preAlgebraAnchorFollowup.every((problem) => problem.curriculum?.course === "Pre-Algebra"));
+  const preAlgebraFoundationGaps = supplements.filter((problem) => problem.source === "prealgebra_foundation_gaps_v1_original");
+  assert.equal(preAlgebraFoundationGaps.length, 34);
+  assert.deepEqual(
+    Object.fromEntries([
+      "Expressions and Variables",
+      "Simplification and Distribution",
+      "Linear Equations",
+      "Ratios Percent and Proportion",
+      "Geometry",
+    ].map((theme) => [theme, preAlgebraFoundationGaps.filter((problem) => problem.curriculum?.theme === theme).length])),
+    {
+      "Expressions and Variables": 6,
+      "Simplification and Distribution": 6,
+      "Linear Equations": 6,
+      "Ratios Percent and Proportion": 6,
+      "Geometry": 10,
+    },
+  );
+  assert.ok(preAlgebraFoundationGaps.every((problem) => problem.remediationTargetId));
+  const amc8Statistics = supplements.filter((problem) => problem.source === "amc8_statistics_v1_original");
+  assert.equal(amc8Statistics.length, 6);
+  assert.deepEqual(
+    [...new Set(amc8Statistics.flatMap((problem) => problem.concepts))].filter((concept) => concept.startsWith("stats_")).sort(),
+    ["stats_mean", "stats_median", "stats_mode", "stats_range"],
+  );
+  assert.ok(amc8Statistics.every((problem) => problem.remediationTargetId === "amc8-statistics-p0"));
+  const chineseJuniorGeometryGaps = supplements.filter((problem) => problem.source === "cn_junior_geometry_gaps_v1_original");
+  assert.equal(chineseJuniorGeometryGaps.length, 12);
+  assert.deepEqual(
+    Object.fromEntries(["七年级相交线与角", "八年级几何证明", "八年级平行线"].map((theme) => [
+      theme,
+      chineseJuniorGeometryGaps.filter((problem) => problem.curriculum?.theme === theme).length,
+    ])),
+    { "七年级相交线与角": 4, "八年级几何证明": 4, "八年级平行线": 4 },
+  );
+  assert.ok(chineseJuniorGeometryGaps.every((problem) => problem.remediationTargetId));
   const algebra1Anchors = supplements.filter((problem) => problem.source === "algebra1_reviewed_anchors_v1_original");
   assert.equal(algebra1Anchors.length, 24);
   assert.equal(new Set(algebra1Anchors.map((problem) => problem.primaryConcept)).size, 8);

@@ -8,6 +8,7 @@ import {
   loadProblemBankProblems,
   SUPPLEMENT_DATASET_IDS,
 } from "../packages/problem-bank/legacy";
+import { loadTextbookRemediationMap } from "../packages/textbook-data";
 
 const root = process.cwd();
 const problemRecords = parseCsv(
@@ -47,6 +48,7 @@ const integratedExplanations = loadProblemBankExplanations(root);
 const integratedIds = integratedProblems.map((problem) => problem.id);
 const duplicateIntegratedIds = integratedIds.filter((id, index) => integratedIds.indexOf(id) !== index);
 const supplementProblems = integratedProblems.slice(legacyProblems.length);
+const remediationTargetIds = new Set(loadTextbookRemediationMap().targets.map((target) => target.id));
 type SupplementManifest = {
   datasetId: string;
   language: string;
@@ -87,6 +89,10 @@ const invalidSupplements = supplementBatches.flatMap(({ problems, manifest }) =>
     || !integratedExplanations[problem.id]?.commonMistake
     || !integratedExplanations[problem.id]?.whyCorrect,
 ));
+const invalidRemediationLinks = supplementProblems.filter((problem) =>
+  problem.remediationTargetId !== undefined
+  && (!remediationTargetIds.has(String(problem.remediationTargetId)) || problem.reviewStatus !== "reviewed")
+);
 function countBy<T>(values: T[], key: (value: T) => string) {
   return values.reduce<Record<string, number>>((counts, value) => {
     const name = key(value);
@@ -122,6 +128,7 @@ const failures = [
   terseReviewedProblems.length ? `Reviewed problem statements are too terse: ${terseReviewedProblems.map((problem) => problem.id).join(", ")}` : "",
   duplicateIntegratedIds.length ? `Duplicate integrated problem IDs: ${[...new Set(duplicateIntegratedIds)].join(", ")}` : "",
   invalidSupplements.length ? `Invalid supplement problems: ${invalidSupplements.map((problem) => problem.id).join(", ")}` : "",
+  invalidRemediationLinks.length ? `Invalid remediation links: ${invalidRemediationLinks.map((problem) => problem.id).join(", ")}` : "",
   invalidSupplementManifests.length ? `Invalid supplement manifests: ${invalidSupplementManifests.map((batch) => batch.datasetId).join(", ")}` : "",
 ].filter(Boolean);
 

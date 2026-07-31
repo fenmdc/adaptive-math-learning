@@ -27,7 +27,7 @@ test("catalog exposes the four legacy language tracks with courses and themes", 
   assert.ok(catalog.every((track) => track.courses.length > 0));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.length > 0)));
   assert.ok(catalog.every((track) => track.courses.every((course) => course.themes.every((theme) => theme.autoGradable > 0))));
-  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8421);
+  assert.equal(catalog.reduce((total, track) => total + track.total, 0), 8473);
 });
 
 test("Chinese Olympiad supplements expand balanced topic coverage", () => {
@@ -238,6 +238,34 @@ test("AMC8 reviewed anchors cover eight concepts across three difficulty levels"
     Object.fromEntries(concepts.map((concept) => [concept, [2, 3, 4]])),
   );
   assert.ok(section.problems.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("AMC8 statistics batch covers four P0 data concepts", () => {
+  const section = loadLearningSection({ language: "en", track: "amc", course: "AMC8", theme: "Statistics", limit: 100 });
+  const batch = section.problems.filter((problem) => problem.id.startsWith("amc8_stats_v1_"));
+
+  assert.equal(batch.length, 6);
+  assert.deepEqual(
+    [...new Set(batch.flatMap((problem) => problem.concepts))].filter((concept) => concept.startsWith("stats_")).sort(),
+    ["stats_mean", "stats_median", "stats_mode", "stats_range"],
+  );
+  assert.ok(batch.every((problem) => problem.reviewStatus === "reviewed"));
+});
+
+test("Chinese junior geometry gaps open all three zero-auto themes", () => {
+  const themes = ["七年级相交线与角", "八年级几何证明", "八年级平行线"];
+  const sections = themes.map((theme) => loadLearningSection({
+    language: "zh",
+    track: "cn-school",
+    course: "CN Junior High Math",
+    theme,
+    limit: 100,
+  }));
+
+  assert.deepEqual(sections.map((section) => section.total), [4, 4, 4]);
+  assert.ok(sections.flatMap((section) => section.problems).every((problem) =>
+    problem.id.startsWith("cn_junior_geo_gap_v1_") && problem.reviewStatus === "reviewed",
+  ));
 });
 
 test("Chinese junior companion batch opens eight previously manual-only themes", () => {

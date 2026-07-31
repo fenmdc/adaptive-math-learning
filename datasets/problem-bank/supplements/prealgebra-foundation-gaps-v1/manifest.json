@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "prealgebra-foundation-gaps-v1",
+  "createdAt": "2026-07-30",
+  "language": "en-US",
+  "course": "Pre-Algebra",
+  "source": {
+    "type": "original",
+    "owner": "Adaptive Math Learning",
+    "note": "Original reviewed practice for five Pre-Algebra themes identified by the coverage and textbook-remediation audits."
+  },
+  "review": {
+    "status": "reviewed",
+    "method": "Manual answer, distractor, explanation, difficulty, concept, language, curriculum, and remediation-link review",
+    "reviewedAt": "2026-07-30"
+  },
+  "counts": {
+    "problems": 34,
+    "explanations": 34,
+    "autoGradable": 34,
+    "manualReview": 0,
+    "themes": {
+      "Expressions and Variables": 6,
+      "Simplification and Distribution": 6,
+      "Linear Equations": 6,
+      "Ratios Percent and Proportion": 6,
+      "Geometry": 10
+    },
+    "difficulty": { "2": 11, "3": 12, "4": 11 }
+  }
+}

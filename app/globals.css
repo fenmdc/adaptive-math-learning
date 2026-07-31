@@ -2115,7 +2115,7 @@ a {
   }
 
   .primary-nav strong {
-    overflow-wrap: anywhere;
+    white-space: nowrap;
   }
 
   .primary-nav .nav-label-desktop {

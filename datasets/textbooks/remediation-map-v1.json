@@ -1,0 +1,276 @@
+{
+  "version": "textbook-remediation-map-v1",
+  "targets": [
+    {
+      "id": "prealgebra-expressions-variables-p0",
+      "priority": "P0",
+      "course": "Pre-Algebra",
+      "theme": "Expressions and Variables",
+      "conceptIds": ["prealg_expressions", "prealg_substitution", "prealg_word_to_equation"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0045"],
+          "purpose": "instruction",
+          "qualityNote": "OCR formulas require spot checks before quoting verbatim."
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0152", "ise-devmath-2e-page-0154"],
+          "purpose": "worked-examples"
+        }
+      ],
+      "nextContentAction": "Add six reviewed substitution and word-to-equation problems."
+    },
+    {
+      "id": "prealgebra-simplification-p0",
+      "priority": "P0",
+      "course": "Pre-Algebra",
+      "theme": "Simplification and Distribution",
+      "conceptIds": ["prealg_simplification", "prealg_expressions"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0152", "ise-devmath-2e-page-0161"],
+          "purpose": "instruction"
+        }
+      ],
+      "nextContentAction": "Add six reviewed combining-like-terms and distributive-property problems."
+    },
+    {
+      "id": "prealgebra-linear-equations-p0",
+      "priority": "P0",
+      "course": "Pre-Algebra",
+      "theme": "Linear Equations",
+      "conceptIds": ["alg_linear_equations"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0046", "text-chunk-0047"],
+          "purpose": "worked-examples",
+          "qualityNote": "OCR formulas require spot checks before quoting verbatim."
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0162", "ise-devmath-2e-page-0170"],
+          "purpose": "instruction"
+        }
+      ],
+      "nextContentAction": "Add six reviewed multi-step linear-equation problems."
+    },
+    {
+      "id": "prealgebra-ratio-percent-proportion-p0",
+      "priority": "P0",
+      "course": "Pre-Algebra",
+      "theme": "Ratios Percent and Proportion",
+      "conceptIds": ["arith_ratios", "arith_proportions", "arith_percentages"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0061", "text-chunk-0062", "text-chunk-0069", "text-chunk-0070"],
+          "purpose": "worked-examples",
+          "qualityNote": "OCR formulas require spot checks before quoting verbatim."
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0410", "ise-devmath-2e-page-0411"],
+          "purpose": "instruction"
+        }
+      ],
+      "nextContentAction": "Add six reviewed percent and proportion application problems."
+    },
+    {
+      "id": "prealgebra-geometry-p0",
+      "priority": "P0",
+      "course": "Pre-Algebra",
+      "theme": "Geometry",
+      "conceptIds": ["geo_angles", "geo_triangle_angles"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0081", "text-chunk-0082"],
+          "purpose": "instruction",
+          "qualityNote": "OCR diagrams and formulas require visual source checks."
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0516", "ise-devmath-2e-page-0518"],
+          "purpose": "practice"
+        }
+      ],
+      "nextContentAction": "Use learner errors from the ten reviewed geometry problems to select the next angle or parallel-line variants."
+    },
+    {
+      "id": "amc8-statistics-p0",
+      "priority": "P0",
+      "course": "AMC8",
+      "theme": "Statistics",
+      "conceptIds": ["stats_mean", "stats_median", "stats_mode", "stats_range"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0099", "text-chunk-0100"],
+          "purpose": "worked-examples",
+          "qualityNote": "OCR formulas require spot checks before quoting verbatim."
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0599", "ise-devmath-2e-page-0600"],
+          "purpose": "instruction"
+        }
+      ],
+      "nextContentAction": "Use learner errors from amc8-statistics-v1 to select the next data-interpretation variants."
+    },
+    {
+      "id": "cn-junior-lines-angles-p0",
+      "priority": "P0",
+      "course": "CN Junior High Math",
+      "theme": "七八年级相交线与平行线",
+      "conceptIds": ["geo_angles", "geo_triangle_angles"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0081", "text-chunk-0082"],
+          "purpose": "worked-examples",
+          "qualityNote": "English OCR source; adapt terminology and verify diagrams for Chinese use."
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-0516", "ise-devmath-2e-page-0518"],
+          "purpose": "practice",
+          "qualityNote": "English source; requires Chinese curriculum terminology alignment."
+        }
+      ],
+      "nextContentAction": "Use learner errors from cn-junior-geometry-gaps-v1 to deepen the two line-and-angle themes beyond four reviewed items each."
+    },
+    {
+      "id": "cn-junior-geometry-proof-p0",
+      "priority": "P0",
+      "course": "CN Junior High Math",
+      "theme": "八年级几何证明",
+      "conceptIds": ["geo_triangle_angles", "geo_similarity", "geo_congruence"],
+      "status": "partial",
+      "resources": [
+        {
+          "textbookId": "aops-prealgebra",
+          "chunkIds": ["text-chunk-0062", "text-chunk-0082"],
+          "purpose": "instruction",
+          "qualityNote": "Covers proportions and parallel lines, but not a complete proof progression."
+        }
+      ],
+      "nextContentAction": "Add a dedicated proof progression from a geometry text, then deepen the four reviewed objective proof-step problems."
+    },
+    {
+      "id": "cn-senior-quadratic-functions-p0",
+      "priority": "P0",
+      "course": "CN Senior High Math",
+      "theme": "高一二次函数",
+      "conceptIds": ["alg_quadratics", "alg_functions"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "college-algebra-stitz-zeager",
+          "chunkIds": ["college-algebra-page-0198", "college-algebra-page-0200"],
+          "purpose": "worked-examples"
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-1106", "ise-devmath-2e-page-1115"],
+          "purpose": "instruction"
+        }
+      ],
+      "nextContentAction": "Add nine reviewed problems on vertex form, range, and parameter constraints."
+    },
+    {
+      "id": "cn-senior-trigonometry-p0",
+      "priority": "P0",
+      "course": "CN Senior High Math",
+      "theme": "高一三角函数",
+      "conceptIds": ["trig_unit_circle", "trig_functions", "trig_identities", "trig_equations"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "mathematics-for-engineers-croft-davison",
+          "chunkIds": ["math-engineers-page-0397", "math-engineers-page-0398"],
+          "purpose": "worked-examples"
+        }
+      ],
+      "nextContentAction": "Add nine reviewed identity transformation and equation problems."
+    },
+    {
+      "id": "cn-senior-analytic-geometry-p0",
+      "priority": "P0",
+      "course": "CN Senior High Math",
+      "theme": "高二解析几何",
+      "conceptIds": ["geo_coordinate_geometry", "geo_conics"],
+      "status": "mapped",
+      "resources": [
+        {
+          "textbookId": "college-algebra-stitz-zeager",
+          "chunkIds": ["college-algebra-page-0505", "college-algebra-page-0526", "college-algebra-page-0541"],
+          "purpose": "instruction"
+        },
+        {
+          "textbookId": "ise-developmental-mathematics-2e",
+          "chunkIds": ["ise-devmath-2e-page-1459", "ise-devmath-2e-page-1460"],
+          "purpose": "worked-examples"
+        }
+      ],
+      "nextContentAction": "Add nine reviewed ellipse, hyperbola, and locus problems."
+    },
+    {
+      "id": "cn-senior-derivative-monotonicity-p0",
+      "priority": "P0",
+      "course": "CN Senior High Math",
+      "theme": "高三导数",
+      "conceptIds": ["alg_functions", "alg_quadratics"],
+      "status": "partial",
+      "resources": [
+        {
+          "textbookId": "mathematics-for-engineers-croft-davison",
+          "chunkIds": ["math-engineers-page-0766", "math-engineers-page-0769", "math-engineers-page-0834", "math-engineers-page-0835"],
+          "purpose": "worked-examples",
+          "qualityNote": "Useful calculus source, but the current concept ontology lacks a derivative-specific concept ID."
+        }
+      ],
+      "nextContentAction": "Add derivative ontology concepts before authoring nine reviewed monotonicity and extrema problems."
+    },
+    {
+      "id": "precalculus-complex-polar-p1",
+      "priority": "P1",
+      "course": "AoPS Precalculus",
+      "theme": "Complex Numbers and Polar Form",
+      "conceptIds": ["precalc_complex_numbers", "precalc_polar_form"],
+      "status": "unmapped",
+      "resources": [],
+      "nextContentAction": "Add a dedicated complex-number and polar-form source before reviewed practice expansion."
+    },
+    {
+      "id": "geometry-proof-p1",
+      "priority": "P1",
+      "course": "AoPS Geometry",
+      "theme": "Proof and Olympiad Geometry",
+      "conceptIds": ["geo_congruence", "geo_similarity", "geo_cyclic_quadrilaterals", "geo_power_of_point"],
+      "status": "unmapped",
+      "resources": [],
+      "nextContentAction": "Ingest one dedicated Euclidean geometry source and build reviewed proof anchors."
+    },
+    {
+      "id": "amc10-amc12-strategy-p1",
+      "priority": "P1",
+      "course": "AMC10/12",
+      "theme": "Reviewed Strategy Anchors",
+      "conceptIds": ["nt_modular", "counting_casework", "geo_power_of_point", "alg_vieta"],
+      "status": "unmapped",
+      "resources": [],
+      "nextContentAction": "Ingest an AMC10/12 strategy source, then create the first reviewed anchor batch."
+    }
+  ]
+}

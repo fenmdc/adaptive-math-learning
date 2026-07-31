@@ -1,0 +1,14 @@
+{
+  "cn_junior_geo_gap_v1_g7_001":{"hint1":"对顶角的度数相等。","hint2":"令两个含x的角度式相等。","stepByStep":"2x+10=3x-15，移项得x=25。","commonMistake":"对顶角相等，不是两角和为180°。","whyCorrect":"x=25时两个角都为60°。","variantIdea":"把两个角改为4x-20与2x+30。"},
+  "cn_junior_geo_gap_v1_g7_002":{"hint1":"邻补角组成平角。","hint2":"两个角度式之和等于180°。","stepByStep":"4x+8+2x+28=180，得6x=144，所以x=24。","commonMistake":"邻补角通常不相等。","whyCorrect":"x=24时两角为104°与76°，和为180°。","variantIdea":"使用3x+15与x+45。"},
+  "cn_junior_geo_gap_v1_g7_003":{"hint1":"角平分线把一个角分成两个相等的角。","hint2":"计算96°的一半。","stepByStep":"∠EOC=∠AOC÷2=96°÷2=48°。","commonMistake":"角平分线得到的是半角，不是原角的两倍。","whyCorrect":"两个48°合起来正好是96°。","variantIdea":"将∠AOC改为124°。"},
+  "cn_junior_geo_gap_v1_g7_004":{"hint1":"直线上的相邻两角和为180°。","hint2":"先求2+3份中每一份的度数。","stepByStep":"每份为180°÷5=36°，较小角占2份，所以为72°。","commonMistake":"邻补角的总和是180°，不是90°。","whyCorrect":"另一个角为108°，两角之比72:108=2:3。","variantIdea":"把角度比改为4:5。"},
+  "cn_junior_geo_gap_v1_parallel_001":{"hint1":"平行线的同位角相等。","hint2":"令3x+5等于5x-35。","stepByStep":"3x+5=5x-35，得2x=40，所以x=20。","commonMistake":"同位角相等，不能把它们直接相加成180°。","whyCorrect":"x=20时两个同位角都为65°。","variantIdea":"使用4x-10与2x+30。"},
+  "cn_junior_geo_gap_v1_parallel_002":{"hint1":"平行线的同旁内角互补。","hint2":"用180°减去115°。","stepByStep":"180°-115°=65°。","commonMistake":"同旁内角不是同位角，通常不相等。","whyCorrect":"115°+65°=180°。","variantIdea":"将已知角改为128°。"},
+  "cn_junior_geo_gap_v1_parallel_003":{"hint1":"寻找平行线的判定定理。","hint2":"内错角相等可以判定两直线平行。","stepByStep":"一对内错角相等时，根据平行线判定定理可得a∥b。","commonMistake":"对顶角相等总是成立，不能据此判定另外两条直线平行。","whyCorrect":"这是平行线三类常用角判定之一。","variantIdea":"改为考查同旁内角互补的判定。"},
+  "cn_junior_geo_gap_v1_parallel_004":{"hint1":"相邻锐角和钝角组成邻补角。","hint2":"用180°减去68°。","stepByStep":"180°-68°=112°。","commonMistake":"平行线产生相等角和互补角两类关系，要先识别位置。","whyCorrect":"68°与112°互补，且112°是钝角。","variantIdea":"将锐角改为57°。"},
+  "cn_junior_geo_gap_v1_proof_001":{"hint1":"SSS中的三个字母都表示边。","hint2":"已有两组对应边，还需第三组。","stepByStep":"AB对应DE，BC对应EF，因此剩余对应边AC与DF必须相等。","commonMistake":"补充角相等会形成其他判定条件，但不是SSS。","whyCorrect":"AC=DF后，三组对应边全部相等。","variantIdea":"改为补全SAS条件。"},
+  "cn_junior_geo_gap_v1_proof_002":{"hint1":"连接三角形两边中点的线段是中位线。","hint2":"中位线等于第三边的一半。","stepByStep":"DE=BC÷2=18÷2=9厘米。","commonMistake":"中位线与第三边平行，但长度不是相等而是一半。","whyCorrect":"9厘米正好是18厘米的一半。","variantIdea":"给出DE求BC。"},
+  "cn_junior_geo_gap_v1_proof_003":{"hint1":"列出两三角形已有的边与角。","hint2":"AB=AC，AD=AD，且夹角相等。","stepByStep":"AB=AC；AD为公共边；AD平分∠A，所以∠BAD=∠CAD。由两边及其夹角分别相等，用SAS判定全等。","commonMistake":"使用SAS时，相等角必须是两组已知边的夹角。","whyCorrect":"全等后对应角∠B与∠C相等。","variantIdea":"改作底边中线并选择全等判定。"},
+  "cn_junior_geo_gap_v1_proof_004":{"hint1":"分别使用两组平行边得到同旁内角互补。","hint2":"两个角若都是同一个角的补角，则它们相等。","stepByStep":"由AD∥BC得∠A+∠B=180°；由AB∥CD得∠C+∠B=180°，所以∠A=∠C。","commonMistake":"四边形的对角不是对顶角，四边形内角和也不是180°。","whyCorrect":"∠A和∠C都等于180°-∠B。","variantIdea":"用类似方法证明∠B=∠D。"}
+}

@@ -6,6 +6,15 @@ export const ISE_DEVELOPMENTAL_MATHEMATICS_2E_ID = "ise-developmental-mathematic
 export const AMC8_PAST_PAPERS_ID = "amc8-past-papers";
 export const COLLEGE_ALGEBRA_STITZ_ZEAGER_ID = "college-algebra-stitz-zeager";
 export const MATHEMATICS_FOR_ENGINEERS_CROFT_DAVISON_ID = "mathematics-for-engineers-croft-davison";
+export const TEXTBOOK_DATASET_IDS = [
+  AOPS_PREALGEBRA_ID,
+  ISE_DEVELOPMENTAL_MATHEMATICS_2E_ID,
+  AMC8_PAST_PAPERS_ID,
+  COLLEGE_ALGEBRA_STITZ_ZEAGER_ID,
+  MATHEMATICS_FOR_ENGINEERS_CROFT_DAVISON_ID,
+] as const;
+
+export type TextbookDatasetId = (typeof TEXTBOOK_DATASET_IDS)[number];
 
 export type TextbookChunk = {
   id: string;
@@ -88,6 +97,29 @@ export type TextbookDataset = {
   knowledge: TextbookKnowledgeItem[];
 };
 
+export type TextbookRemediationResource = {
+  textbookId: TextbookDatasetId;
+  chunkIds: string[];
+  purpose: "instruction" | "worked-examples" | "practice";
+  qualityNote?: string;
+};
+
+export type TextbookRemediationTarget = {
+  id: string;
+  priority: "P0" | "P1" | "P2";
+  course: string;
+  theme: string;
+  conceptIds: string[];
+  status: "mapped" | "partial" | "unmapped";
+  resources: TextbookRemediationResource[];
+  nextContentAction: string;
+};
+
+export type TextbookRemediationMap = {
+  version: string;
+  targets: TextbookRemediationTarget[];
+};
+
 const textbookDataRoot = path.join(process.cwd(), "datasets", "textbooks");
 
 export function getTextbookDataDir(textbookId = AOPS_PREALGEBRA_ID) {
@@ -112,6 +144,25 @@ export function loadTextbookDataset(textbookId = AOPS_PREALGEBRA_ID): TextbookDa
     chunks: loadTextbookChunks(textbookId),
     knowledge: loadTextbookKnowledge(textbookId)
   };
+}
+
+export function loadTextbookRemediationMap() {
+  const filePath = path.join(textbookDataRoot, "remediation-map-v1.json");
+  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as TextbookRemediationMap;
+}
+
+export function queryTextbookRemediationTargets(query: {
+  course?: string;
+  theme?: string;
+  concept?: string;
+  priority?: TextbookRemediationTarget["priority"];
+} = {}) {
+  return loadTextbookRemediationMap().targets.filter((target) =>
+    (!query.course || target.course === query.course)
+    && (!query.theme || target.theme === query.theme)
+    && (!query.concept || target.conceptIds.includes(query.concept))
+    && (!query.priority || target.priority === query.priority)
+  );
 }
 
 function readJson<T>(textbookId: string, filename: string): T {
